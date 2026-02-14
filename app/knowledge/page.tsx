@@ -13,7 +13,7 @@ export default function KnowledgePage() {
   const counts = getArticleCount();
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6 sm:py-16">
+    <div className="mx-auto max-w-[1200px] px-6 py-12 sm:py-20">
       <KnowledgeContent articles={articles} counts={counts} />
     </div>
   );

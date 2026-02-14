@@ -25,31 +25,26 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
       <SheetContent side="right" className="w-72">
         <SheetHeader>
           <SheetTitle className="text-left">
-            <span className="text-lg font-bold tracking-tight">Clinova</span>
+            <span className="text-lg font-semibold tracking-tight">Clinova</span>
           </SheetTitle>
         </SheetHeader>
-        <nav className="mt-6 flex flex-col gap-1">
+        <nav className="mt-8 flex flex-col gap-1">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={onClose}
               className={cn(
-                "px-3 py-2.5 text-sm font-medium rounded-md transition-colors",
+                "rounded-lg px-3 py-2.5 text-sm transition-colors",
                 pathname === item.href
-                  ? "text-primary bg-primary/5"
-                  : "text-muted-foreground hover:text-foreground hover:bg-accent"
+                  ? "bg-muted font-medium text-foreground"
+                  : "text-muted-foreground hover:text-foreground"
               )}
             >
               {item.label}
             </Link>
           ))}
         </nav>
-        <div className="mt-8 border-t pt-4">
-          <p className="px-3 text-xs text-muted-foreground">
-            医療従事者のためのAIナレッジポータル
-          </p>
-        </div>
       </SheetContent>
     </Sheet>
   )

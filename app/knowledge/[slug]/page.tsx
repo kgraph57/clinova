@@ -79,7 +79,7 @@ export default async function ArticlePage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-16">
+      <div className="mx-auto max-w-[720px] px-6 py-12 sm:py-20">
         <ArticleHeader article={article} />
 
         <article className="prose">

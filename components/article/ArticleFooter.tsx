@@ -32,27 +32,27 @@ export function ArticleFooter({ article, relatedArticles }: ArticleFooterProps) 
   }
 
   return (
-    <div className="mt-14">
+    <div className="mt-16">
       <div className="border-t pt-8" />
 
       {/* Share */}
-      <div className="flex items-center gap-2">
-        <span className="text-[11px] font-medium uppercase tracking-wider text-muted-foreground">共有</span>
-        <Button variant="outline" size="sm" className="gap-1.5 rounded-lg text-[11px]" onClick={handleTweet}>
-          <Twitter className="h-3 w-3" />
+      <div className="flex items-center gap-3">
+        <span className="text-sm text-muted-foreground">共有</span>
+        <Button variant="outline" size="sm" className="gap-1.5 rounded-full" onClick={handleTweet}>
+          <Twitter className="h-3.5 w-3.5" />
           Tweet
         </Button>
-        <Button variant="outline" size="sm" className="gap-1.5 rounded-lg text-[11px]" onClick={handleShare}>
-          <Share2 className="h-3 w-3" />
+        <Button variant="outline" size="sm" className="gap-1.5 rounded-full" onClick={handleShare}>
+          <Share2 className="h-3.5 w-3.5" />
           URLをコピー
         </Button>
       </div>
 
       {/* Related Articles */}
       {relatedArticles.length > 0 && (
-        <div className="mt-12">
-          <h2 className="text-lg font-bold tracking-tight">関連するナレッジ</h2>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16">
+          <h2 className="font-serif text-2xl tracking-tight">関連するナレッジ</h2>
+          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {relatedArticles.map((a) => (
               <ArticleCard key={a.slug} article={a} />
             ))}
@@ -64,7 +64,7 @@ export function ArticleFooter({ article, relatedArticles }: ArticleFooterProps) 
       <div className="mt-12 pb-4">
         <Link
           href="/knowledge"
-          className="inline-flex items-center gap-1.5 text-[13px] font-medium text-primary transition-colors hover:text-primary/80"
+          className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
         >
           <ArrowLeft className="h-3.5 w-3.5" />
           ナレッジ一覧に戻る

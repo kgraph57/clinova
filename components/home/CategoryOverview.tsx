@@ -5,6 +5,15 @@ import { motion } from "framer-motion"
 import { containerVariants, fadeInUp } from "@/lib/animations"
 import { CATEGORIES } from "@/lib/constants"
 import { cn } from "@/lib/utils"
+import { ArrowRight } from "lucide-react"
+
+const WARM_COLORS = [
+  "bg-warm-sage",
+  "bg-warm-sky",
+  "bg-warm-heather",
+  "bg-warm-oat",
+  "bg-warm-cactus",
+] as const
 
 interface CategoryOverviewProps {
   counts: Record<string, number>
@@ -12,25 +21,23 @@ interface CategoryOverviewProps {
 
 export function CategoryOverview({ counts }: CategoryOverviewProps) {
   return (
-    <section className="py-20 sm:py-24">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6">
-        <div className="text-center">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-            カテゴリから探す
-          </h2>
-          <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
-            5つの領域で医療AIナレッジを体系的に整理
-          </p>
-        </div>
+    <section className="border-t py-20 sm:py-28">
+      <div className="mx-auto max-w-[1200px] px-6">
+        <h2 className="font-serif text-3xl tracking-tight sm:text-4xl">
+          カテゴリから探す
+        </h2>
+        <p className="mt-3 text-muted-foreground">
+          5つの領域で医療AIナレッジを体系的に整理
+        </p>
 
         <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
-          className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-5"
+          className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
         >
-          {CATEGORIES.map((cat) => {
+          {CATEGORIES.map((cat, i) => {
             const Icon = cat.icon
             const count = counts[cat.id] ?? 0
             return (
@@ -38,19 +45,22 @@ export function CategoryOverview({ counts }: CategoryOverviewProps) {
                 <Link
                   href={`/knowledge?category=${cat.id}`}
                   className={cn(
-                    "group flex flex-col items-center rounded-xl border p-6 text-center transition-all duration-200",
-                    "hover:-translate-y-1 hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5",
-                    cat.bgColor,
-                    cat.darkBgColor,
+                    "group flex flex-col justify-between rounded-2xl p-8 transition-all duration-200 hover:scale-[1.02]",
+                    WARM_COLORS[i % WARM_COLORS.length],
+                    "dark:bg-muted",
                   )}
                 >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/80 shadow-sm dark:bg-white/10">
-                    <Icon className={cn("h-6 w-6", cat.color)} />
+                  <div>
+                    <Icon className="h-6 w-6 text-foreground/70" />
+                    <h3 className="mt-4 text-lg font-medium">{cat.label}</h3>
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      {count} 件のコンテンツ
+                    </p>
                   </div>
-                  <h3 className="mt-3 text-sm font-semibold">{cat.label}</h3>
-                  <p className="mt-0.5 text-xs text-muted-foreground">
-                    {count} 件
-                  </p>
+                  <div className="mt-6 flex items-center gap-1 text-sm font-medium text-foreground/70 transition-colors group-hover:text-foreground">
+                    詳しく見る
+                    <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+                  </div>
                 </Link>
               </motion.div>
             )

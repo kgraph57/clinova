@@ -10,7 +10,6 @@ import { cn } from "@/lib/utils"
 import { useState } from "react"
 
 const NAV_ITEMS = [
-  { href: "/", label: "ホーム" },
   { href: "/knowledge", label: "ナレッジ" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "お問い合わせ" },
@@ -21,25 +20,22 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
-      <div className="mx-auto flex h-14 max-w-5xl items-center px-4 sm:px-6">
-        <Link href="/" className="mr-8 flex items-center gap-2.5">
-          <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-teal-500 to-teal-600 shadow-sm dark:from-teal-500 dark:to-teal-700">
-            <span className="text-xs font-bold text-white">C</span>
-          </div>
-          <span className="text-base font-bold tracking-tight">Clinova</span>
+    <header className="sticky top-0 z-50 w-full bg-background">
+      <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-6">
+        <Link href="/" className="text-lg font-semibold tracking-tight">
+          Clinova
         </Link>
 
-        <nav className="hidden items-center gap-0.5 md:flex">
+        <nav className="hidden items-center gap-8 md:flex">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               className={cn(
-                "px-3 py-1.5 text-[13px] font-medium rounded-md transition-colors",
-                pathname === item.href
-                  ? "text-primary bg-primary/5"
-                  : "text-muted-foreground hover:text-foreground hover:bg-accent",
+                "text-sm transition-colors",
+                pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))
+                  ? "text-foreground"
+                  : "text-muted-foreground hover:text-foreground",
               )}
             >
               {item.label}
@@ -47,7 +43,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex flex-1 items-center justify-end gap-1">
+        <div className="flex items-center gap-2">
           <ThemeToggle />
           <Button
             variant="ghost"
@@ -62,6 +58,7 @@ export function Header() {
 
         <MobileNav open={mobileOpen} onClose={() => setMobileOpen(false)} />
       </div>
+      <div className="border-b" />
     </header>
   )
 }
