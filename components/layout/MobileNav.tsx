@@ -11,11 +11,11 @@ import {
 import { cn } from "@/lib/utils";
 
 const NAV_ITEMS = [
-  { href: "/", label: "ホーム" },
-  { href: "/knowledge", label: "ナレッジ" },
+  { href: "/", label: "Home" },
+  { href: "/knowledge", label: "Knowledge" },
   { href: "/learn", label: "Learn" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "お問い合わせ" },
+  { href: "/contact", label: "Contact" },
 ];
 
 interface MobileNavProps {

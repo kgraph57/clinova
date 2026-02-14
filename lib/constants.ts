@@ -64,11 +64,11 @@ export const CATEGORIES = [
 export type CategoryId = (typeof CATEGORIES)[number]["id"];
 
 export const NAV_ITEMS = [
-  { href: "/", label: "ホーム" },
-  { href: "/knowledge", label: "ナレッジ" },
+  { href: "/", label: "Home" },
+  { href: "/knowledge", label: "Knowledge" },
   { href: "/learn", label: "Learn" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "お問い合わせ" },
+  { href: "/contact", label: "Contact" },
 ] as const;
 
 export const CONTENT_TYPES = [

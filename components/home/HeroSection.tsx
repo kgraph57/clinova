@@ -41,7 +41,7 @@ export function HeroSection() {
               href="/knowledge"
               className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-80"
             >
-              ナレッジを見る
+              Knowledge
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link

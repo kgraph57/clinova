@@ -10,10 +10,10 @@ import { cn } from "@/lib/utils";
 import { useState } from "react";
 
 const NAV_ITEMS = [
-  { href: "/knowledge", label: "ナレッジ" },
+  { href: "/knowledge", label: "Knowledge" },
   { href: "/learn", label: "Learn" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "お問い合わせ" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function Header() {
