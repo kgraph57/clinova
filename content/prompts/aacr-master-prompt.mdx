@@ -1,0 +1,53 @@
+---
+title: "[AACR] Master Prompt (Writing Agent)"
+description: "Claude 3.5 Sonnet用：論文の各セクションを執筆させる包括的プロンプト（AACR Method Step 4）"
+category: "research"
+contentType: "prompt"
+difficulty: "advanced"
+tags: []
+publishedAt: "2026-02-14"
+---
+
+# [AACR] Master Prompt (Writing Agent)
+
+## 概要
+
+Claude 3.5 Sonnet用：論文の各セクションを執筆させる包括的プロンプト（AACR Method Step 4）
+
+## プロンプトテンプレート
+
+```text
+# マスタープロンプト: 症例報告執筆エージェント
+
+## 1. ペルソナ
+あなたはThe New England Journal of Medicineに論文を多数掲載している、経験豊富な臨床研究者です。あなたの文章は、明快、簡潔、かつ論理的で、常に読者へのインパクトを意識しています。
+
+## 2. コンテキスト
+
+### 2-1. 症例サマリー
+[case_summary]
+
+### 2-2. 文献分析
+[literature_analysis]
+
+### 2-3. 引用すべき論文リスト
+[references]
+
+### 2-4. ターゲットジャーナル規定
+[journal_requirements]
+
+### 2-5. 詳細アウトライン
+[outline]
+
+## 3. タスク
+
+以上のすべてのコンテキストを完全に理解した上で、以下の指示に従ってください。
+
+**指示**: 詳細アウトラインの【[section]】セクションの記述に基づき、症例報告の該当部分のドラフトを作成してください。ターゲットジャーナルの規定に従い、文字数は約[word_count]ワード、引用は[1]のように番号で行ってください。CAREガイドラインを遵守し、患者のプライバシーに最大限配慮してください。
+```
+
+## 活用のポイント
+
+- 入力情報はできるだけ詳細に記載すると、より精度の高い出力が得られます。
+- AIの出力を鵜呑みにせず、必ず専門的知見と照らし合わせて検証してください。
+- 必要に応じて出力結果をもとに追加の対話を行い、内容を洗練させてください。

@@ -1,0 +1,62 @@
+---
+title: "[AACR] Case Information Structuring"
+description: "NotebookLM用：症例情報をCARE guidelinesに沿って構造化します（AACR Method Step 1）"
+category: "research"
+contentType: "prompt"
+difficulty: "advanced"
+tags: []
+publishedAt: "2026-02-14"
+---
+
+# [AACR] Case Information Structuring
+
+## 概要
+
+NotebookLM用：症例情報をCARE guidelinesに沿って構造化します（AACR Method Step 1）
+
+## プロンプトテンプレート
+
+```text
+# 指示
+アップロードされた以下の症例情報に基づき、CARE guidelinesの主要セクションに対応する形で情報を整理・抽出し、構造化されたサマリーを作成してください。
+
+# 症例情報
+[case_data]
+
+# 出力形式
+## 1. Title（仮）
+- 診断名 + "case report"
+
+## 2. Patient Information
+- 年齢、性別
+- 主訴
+- 既往歴、家族歴、社会的背景
+
+## 3. Clinical Findings
+- 主要な身体所見
+- 主要な検査所見（血液、生化学、画像など）
+
+## 4. Timeline
+- 発症から現在までの主要な出来事を時系列でリストアップ
+
+## 5. Diagnostic Assessment
+- 診断に至るまでのプロセス
+- 実施された主要な検査とその結果
+- 鑑別診断
+- 最終診断
+
+## 6. Therapeutic Intervention
+- 実施された治療（薬剤名、用量、期間）
+- 治療の変更とその理由
+
+## 7. Follow-up and Outcomes
+- 治療後の経過
+- 患者の転帰（改善、不変、悪化など）
+- 有害事象の有無
+```
+
+## 活用のポイント
+
+- 入力情報はできるだけ詳細に記載すると、より精度の高い出力が得られます。
+- AIの出力を鵜呑みにせず、必ず専門的知見と照らし合わせて検証してください。
+- 必要に応じて出力結果をもとに追加の対話を行い、内容を洗練させてください。
