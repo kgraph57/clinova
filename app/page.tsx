@@ -10,7 +10,6 @@ async function getGitHubRepos(): Promise<GitHubRepo[]> {
   try {
     const res = await fetch(
       "https://api.github.com/users/kgraph57/repos?sort=updated&per_page=6",
-      { next: { revalidate: 3600 } },
     );
     if (!res.ok) return [];
     const repos = await res.json();

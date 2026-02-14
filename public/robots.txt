@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kgraph57.github.io/clinova/sitemap.xml

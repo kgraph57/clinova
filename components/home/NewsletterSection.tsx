@@ -1,43 +1,11 @@
 "use client"
 
-import { useState } from "react"
 import { motion } from "framer-motion"
-import { Mail, Send } from "lucide-react"
+import { Mail, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { fadeInUpBlur } from "@/lib/animations"
-import { toast } from "sonner"
 
 export function NewsletterSection() {
-  const [email, setEmail] = useState("")
-  const [loading, setLoading] = useState(false)
-
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    if (!email.trim()) return
-
-    setLoading(true)
-    try {
-      const res = await fetch("/api/subscribe", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
-      })
-
-      if (res.ok) {
-        toast.success("登録ありがとうございます！")
-        setEmail("")
-      } else {
-        const data = await res.json()
-        toast.error(data.error ?? "登録に失敗しました")
-      }
-    } catch {
-      toast.error("ネットワークエラーが発生しました")
-    } finally {
-      setLoading(false)
-    }
-  }
-
   return (
     <section className="py-16 sm:py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -57,26 +25,19 @@ export function NewsletterSection() {
               最新情報をお届け
             </h2>
             <p className="mt-2 text-sm text-muted-foreground">
-              医療AIの最新ナレッジ、新しいプロンプト、ワークフローの更新情報をメールでお届けします。
+              医療AIの最新ナレッジ、新しいプロンプト、ワークフローの更新情報をお届けします。
+              お気軽にお問い合わせください。
             </p>
 
-            <form
-              onSubmit={handleSubmit}
-              className="mt-6 flex gap-2"
-            >
-              <Input
-                type="email"
-                placeholder="your@email.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                className="flex-1"
-              />
-              <Button type="submit" disabled={loading} className="gap-2">
-                <Send className="h-4 w-4" />
-                <span className="hidden sm:inline">登録</span>
+            <div className="mt-6">
+              <Button asChild size="lg" className="gap-2">
+                <a href="mailto:okaken0507@gmail.com?subject=Clinova%20メルマガ登録希望">
+                  <Mail className="h-4 w-4" />
+                  メールで登録
+                  <ArrowRight className="h-4 w-4" />
+                </a>
               </Button>
-            </form>
+            </div>
 
             <p className="mt-3 text-[10px] text-muted-foreground">
               スパムは送りません。いつでも配信停止できます。

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   description:
     "医療AI、体系的に。プロンプトライブラリ、ワークフローガイド、キュレーション記事を1箇所に集約。",
-  metadataBase: new URL("https://clinova-psi.vercel.app"),
+  metadataBase: new URL("https://kgraph57.github.io/clinova"),
   openGraph: {
     type: "website",
     locale: "ja_JP",

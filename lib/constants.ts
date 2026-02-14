@@ -4,7 +4,7 @@ export const SITE_CONFIG = {
   name: "Clinova",
   description: "医療従事者のためのAIナレッジポータル",
   tagline: "医療AI、体系的に。",
-  url: "https://clinova-psi.vercel.app",
+  url: "https://kgraph57.github.io/clinova",
   author: {
     name: "Ken Okamoto",
     github: "kgraph57",
