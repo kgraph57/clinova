@@ -1,24 +1,35 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { useSearchParams } from "next/navigation"
-import { LayoutGrid } from "lucide-react"
-import { CATEGORIES } from "@/lib/constants"
-import { cn } from "@/lib/utils"
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import { LayoutGrid } from "lucide-react";
+import { CATEGORIES } from "@/lib/constants";
+import { cn } from "@/lib/utils";
 
 interface CategorySidebarProps {
-  counts: Record<string, number>
+  counts: Record<string, number>;
+}
+
+function buildCategoryHref(params: URLSearchParams, categoryId: string) {
+  const next = new URLSearchParams(params.toString());
+  if (categoryId) {
+    next.set("category", categoryId);
+  } else {
+    next.delete("category");
+  }
+  const qs = next.toString();
+  return qs ? `/knowledge?${qs}` : "/knowledge";
 }
 
 export function CategorySidebar({ counts }: CategorySidebarProps) {
-  const searchParams = useSearchParams()
-  const activeCategory = searchParams.get("category") ?? ""
+  const searchParams = useSearchParams();
+  const activeCategory = searchParams.get("category") ?? "";
 
   return (
     <aside className="hidden w-48 shrink-0 lg:block">
       <nav className="sticky top-24 space-y-1">
         <Link
-          href="/knowledge"
+          href={buildCategoryHref(searchParams, "")}
           className={cn(
             "flex items-center justify-between rounded-lg px-3 py-2 text-sm transition-colors",
             !activeCategory
@@ -34,12 +45,12 @@ export function CategorySidebar({ counts }: CategorySidebarProps) {
         </Link>
 
         {CATEGORIES.map((cat) => {
-          const Icon = cat.icon
-          const isActive = activeCategory === cat.id
+          const Icon = cat.icon;
+          const isActive = activeCategory === cat.id;
           return (
             <Link
               key={cat.id}
-              href={`/knowledge?category=${cat.id}`}
+              href={buildCategoryHref(searchParams, cat.id)}
               className={cn(
                 "flex items-center justify-between rounded-lg px-3 py-2 text-sm transition-colors",
                 isActive
@@ -53,9 +64,9 @@ export function CategorySidebar({ counts }: CategorySidebarProps) {
               </span>
               <span className="tabular-nums">{counts[cat.id] ?? 0}</span>
             </Link>
-          )
+          );
         })}
       </nav>
     </aside>
-  )
+  );
 }

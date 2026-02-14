@@ -1,38 +1,61 @@
-"use client"
+"use client";
 
-import { useSearchParams } from "next/navigation"
-import { Suspense } from "react"
-import { motion } from "framer-motion"
-import { containerVariants } from "@/lib/animations"
-import { SearchBar } from "./SearchBar"
-import { CategorySidebar } from "./CategorySidebar"
-import { ArticleCard } from "./ArticleCard"
-import { CATEGORIES } from "@/lib/constants"
-import type { Article } from "@/lib/types"
+import { useSearchParams, useRouter } from "next/navigation";
+import { Suspense, useCallback } from "react";
+import { motion } from "framer-motion";
+import { containerVariants } from "@/lib/animations";
+import { SearchBar } from "./SearchBar";
+import { CategorySidebar } from "./CategorySidebar";
+import { ArticleCard } from "./ArticleCard";
+import { CATEGORIES, CONTENT_TYPES } from "@/lib/constants";
+import type { Article } from "@/lib/types";
 
 interface KnowledgeContentProps {
-  articles: Article[]
-  counts: Record<string, number>
+  articles: Article[];
+  counts: Record<string, number>;
+}
+
+function buildHref(params: URLSearchParams, key: string, value: string) {
+  const next = new URLSearchParams(params.toString());
+  if (value) {
+    next.set(key, value);
+  } else {
+    next.delete(key);
+  }
+  const qs = next.toString();
+  return qs ? `/knowledge?${qs}` : "/knowledge";
 }
 
 function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
-  const searchParams = useSearchParams()
-  const category = searchParams.get("category") ?? ""
-  const query = searchParams.get("q") ?? ""
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const category = searchParams.get("category") ?? "";
+  const contentType = searchParams.get("type") ?? "";
+  const query = searchParams.get("q") ?? "";
 
   const filtered = articles.filter((a) => {
-    const matchesCategory = !category || a.category === category
-    if (!query) return matchesCategory
+    const matchesCategory = !category || a.category === category;
+    const matchesType = !contentType || a.contentType === contentType;
+    if (!query) return matchesCategory && matchesType;
 
-    const q = query.toLowerCase()
+    const q = query.toLowerCase();
     const matchesQuery =
       a.title.toLowerCase().includes(q) ||
       a.description.toLowerCase().includes(q) ||
-      a.tags.some((t) => t.toLowerCase().includes(q))
-    return matchesCategory && matchesQuery
-  })
+      a.tags.some((t) => t.toLowerCase().includes(q));
+    return matchesCategory && matchesType && matchesQuery;
+  });
 
-  const activeCat = CATEGORIES.find((c) => c.id === category)
+  const handleTypeChange = useCallback(
+    (typeId: string) => {
+      router.replace(buildHref(searchParams, "type", typeId), {
+        scroll: false,
+      });
+    },
+    [router, searchParams],
+  );
+
+  const activeCat = CATEGORIES.find((c) => c.id === category);
 
   return (
     <div className="flex gap-12">
@@ -54,9 +77,9 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
         </div>
 
         {/* Mobile category pills */}
-        <div className="mb-8 flex gap-2 overflow-x-auto pb-2 lg:hidden">
+        <div className="mb-6 flex gap-2 overflow-x-auto pb-2 lg:hidden">
           <a
-            href="/knowledge"
+            href={buildHref(searchParams, "category", "")}
             className={`shrink-0 rounded-full px-4 py-2 text-sm transition-colors ${
               !category
                 ? "bg-foreground text-background"
@@ -68,7 +91,7 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
           {CATEGORIES.map((cat) => (
             <a
               key={cat.id}
-              href={`/knowledge?category=${cat.id}`}
+              href={buildHref(searchParams, "category", cat.id)}
               className={`shrink-0 rounded-full px-4 py-2 text-sm transition-colors ${
                 category === cat.id
                   ? "bg-foreground text-background"
@@ -77,6 +100,35 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
             >
               {cat.label}
             </a>
+          ))}
+        </div>
+
+        {/* Content type filter pills */}
+        <div className="mb-8 flex gap-2 overflow-x-auto pb-2">
+          <button
+            type="button"
+            onClick={() => handleTypeChange("")}
+            className={`shrink-0 rounded-full border px-4 py-1.5 text-sm transition-colors ${
+              !contentType
+                ? "border-foreground bg-foreground text-background"
+                : "border-border bg-background text-muted-foreground hover:border-foreground hover:text-foreground"
+            }`}
+          >
+            すべて
+          </button>
+          {CONTENT_TYPES.map((ct) => (
+            <button
+              key={ct.id}
+              type="button"
+              onClick={() => handleTypeChange(ct.id)}
+              className={`shrink-0 rounded-full border px-4 py-1.5 text-sm transition-colors ${
+                contentType === ct.id
+                  ? "border-foreground bg-foreground text-background"
+                  : "border-border bg-background text-muted-foreground hover:border-foreground hover:text-foreground"
+              }`}
+            >
+              {ct.label}
+            </button>
           ))}
         </div>
 
@@ -102,13 +154,19 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
         )}
       </div>
     </div>
-  )
+  );
 }
 
 export function KnowledgeContent(props: KnowledgeContentProps) {
   return (
-    <Suspense fallback={<div className="py-24 text-center text-muted-foreground">読み込み中...</div>}>
+    <Suspense
+      fallback={
+        <div className="py-24 text-center text-muted-foreground">
+          読み込み中...
+        </div>
+      }
+    >
       <KnowledgeInner {...props} />
     </Suspense>
-  )
+  );
 }

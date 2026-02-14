@@ -1,0 +1,80 @@
+name: Medical AI News Fetch (Weekly)
+
+on:
+  # 毎週月曜 9:00 JST (日曜 24:00 UTC)
+  schedule:
+    - cron: "0 0 * * 1"
+  # 手動実行
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch medical news data
+        run: npx tsx scripts/fetch-medical-news.ts
+
+      - name: Check for new data
+        id: check
+        run: |
+          if git diff --quiet scripts/data/; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            PAPERS=$(jq '.stats.totalPapers' scripts/data/latest-fetch.json)
+            REGULATORY=$(jq '.stats.totalRegulatory' scripts/data/latest-fetch.json)
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "papers=$PAPERS" >> $GITHUB_OUTPUT
+            echo "regulatory=$REGULATORY" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit data
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/data/
+          git commit -m "data: 医療AI最新データ取得 ($(date +%Y-%m-%d))"
+          git push
+
+      - name: Create notification issue
+        if: steps.check.outputs.has_changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const papers = ${{ steps.check.outputs.papers || 0 }};
+            const regulatory = ${{ steps.check.outputs.regulatory || 0 }};
+            const date = new Date().toISOString().split('T')[0];
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📰 医療AI最新データ取得完了 (${date})`,
+              body: `## 自動取得データ\n\n` +
+                `- 論文: **${papers}** 件\n` +
+                `- 規制ニュース: **${regulatory}** 件\n\n` +
+                `### 次のステップ\n\n` +
+                `Claude Code で以下を実行:\n` +
+                `\`\`\`\n` +
+                `最新の取得データ (scripts/data/latest-fetch.json) から記事を書いて\n` +
+                `\`\`\`\n\n` +
+                `データファイル: \`scripts/data/latest-fetch.json\``,
+              labels: ['auto-generated', 'content']
+            });

@@ -1,21 +1,21 @@
-import fs from "fs"
-import path from "path"
-import matter from "gray-matter"
-import readingTime from "reading-time"
-import type { Article } from "./types"
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import readingTime from "reading-time";
+import type { Article } from "./types";
 
-const CONTENT_DIR = path.join(process.cwd(), "content")
+const CONTENT_DIR = path.join(process.cwd(), "content");
 
 function getContentDirectories(): string[] {
-  return ["prompts", "tips", "guides", "articles"]
+  return ["prompts", "tips", "guides", "articles"];
 }
 
 function readMDXFile(filePath: string): Article | null {
   try {
-    const raw = fs.readFileSync(filePath, "utf-8")
-    const { data, content } = matter(raw)
-    const slug = path.basename(filePath, ".mdx")
-    const stats = readingTime(content)
+    const raw = fs.readFileSync(filePath, "utf-8");
+    const { data, content } = matter(raw);
+    const slug = path.basename(filePath, ".mdx");
+    const stats = readingTime(content);
 
     return {
       slug,
@@ -32,69 +32,89 @@ function readMDXFile(filePath: string): Article | null {
       riskLevel: data.riskLevel,
       estimatedReadTime: Math.ceil(stats.minutes),
       content,
-    }
+    };
   } catch {
-    return null
+    return null;
   }
 }
 
 export function getAllArticles(): Article[] {
-  const articles: Article[] = []
+  const articles: Article[] = [];
 
   for (const dir of getContentDirectories()) {
-    const dirPath = path.join(CONTENT_DIR, dir)
-    if (!fs.existsSync(dirPath)) continue
+    const dirPath = path.join(CONTENT_DIR, dir);
+    if (!fs.existsSync(dirPath)) continue;
 
-    const files = fs.readdirSync(dirPath).filter((f) => f.endsWith(".mdx"))
+    const files = fs.readdirSync(dirPath).filter((f) => f.endsWith(".mdx"));
     for (const file of files) {
-      const article = readMDXFile(path.join(dirPath, file))
-      if (article) articles.push(article)
+      const article = readMDXFile(path.join(dirPath, file));
+      if (article) articles.push(article);
     }
   }
 
   return articles.sort(
-    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  )
+    (a, b) =>
+      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
+  );
 }
 
 export function getArticlesByCategory(category: string): Article[] {
-  return getAllArticles().filter((a) => a.category === category)
+  return getAllArticles().filter((a) => a.category === category);
 }
 
 export function getFeaturedArticles(): Article[] {
-  return getAllArticles().filter((a) => a.featured).slice(0, 6)
+  return getAllArticles()
+    .filter((a) => a.featured)
+    .slice(0, 6);
 }
 
 export function getArticleBySlug(slug: string): Article | null {
   for (const dir of getContentDirectories()) {
-    const filePath = path.join(CONTENT_DIR, dir, `${slug}.mdx`)
+    const filePath = path.join(CONTENT_DIR, dir, `${slug}.mdx`);
     if (fs.existsSync(filePath)) {
-      return readMDXFile(filePath)
+      return readMDXFile(filePath);
     }
   }
-  return null
+  return null;
 }
 
 export function searchArticles(query: string): Article[] {
-  const q = query.toLowerCase()
+  const q = query.toLowerCase();
   return getAllArticles().filter(
     (a) =>
       a.title.toLowerCase().includes(q) ||
       a.description.toLowerCase().includes(q) ||
       a.tags.some((t) => t.toLowerCase().includes(q)) ||
-      a.content.toLowerCase().includes(q)
-  )
+      a.content.toLowerCase().includes(q),
+  );
 }
 
 export function getAllSlugs(): string[] {
-  return getAllArticles().map((a) => a.slug)
+  return getAllArticles().map((a) => a.slug);
+}
+
+export function getNewsArticles(): Article[] {
+  return getAllArticles().filter(
+    (a) =>
+      a.contentType === "article" &&
+      (a.tags.some(
+        (t) => t.includes("ニュースレター") || t.includes("最新動向"),
+      ) ||
+        a.slug.startsWith("newsletter-") ||
+        a.slug.startsWith("paper-review-") ||
+        a.slug.startsWith("regulation-update-")),
+  );
+}
+
+export function getLatestNews(count = 3): Article[] {
+  return getNewsArticles().slice(0, count);
 }
 
 export function getArticleCount(): Record<string, number> {
-  const articles = getAllArticles()
-  const counts: Record<string, number> = { all: articles.length }
+  const articles = getAllArticles();
+  const counts: Record<string, number> = { all: articles.length };
   for (const article of articles) {
-    counts[article.category] = (counts[article.category] ?? 0) + 1
+    counts[article.category] = (counts[article.category] ?? 0) + 1;
   }
-  return counts
+  return counts;
 }

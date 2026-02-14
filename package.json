@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fetch-news": "tsx scripts/fetch-medical-news.ts",
+    "fetch-news:dry": "DRY_RUN=true tsx scripts/fetch-medical-news.ts"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

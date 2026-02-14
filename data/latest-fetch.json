@@ -1,0 +1,532 @@
+{
+  "fetchedAt": "2026-02-14T06:29:33.031Z",
+  "papers": [
+    {
+      "pmid": "41626932",
+      "title": "Exploring the potential of Claude 2 for risk of bias assessment: Using a large language model to assess randomized controlled trials with RoB 2.",
+      "authors": "Eisele-Metzger A, Lieberum JL, Toews M, Siemens W, Heilmeyer F, Haverkamp C, Boehringer D, Meerpohl JJ",
+      "journal": "Res Synth Methods",
+      "pubDate": "2025 May",
+      "abstract": "Systematic reviews are essential for evidence-based health care, but conducting them is time- and resource-consuming. To date, efforts have been made to accelerate and (semi-)automate various steps of systematic reviews through the use of artificial intelligence (AI) and the emergence of large language models (LLMs) promises further opportunities. One crucial but complex task within systematic review conduct is assessing the risk of bias (RoB) of included studies. Therefore, the aim of this study was to test the LLM Claude 2 for RoB assessment of 100 randomized controlled trials, published in English language from 2013 onwards, using the revised Cochrane risk of bias tool ('RoB 2'; involving judgements for five specific domains and an overall judgement). We assessed the agreement of RoB judgements by Claude with human judgements published in Cochrane reviews. The observed agreement between Claude and Cochrane authors ranged from 41% for the overall judgement to 71% for domain 4 ('outcome measurement'). Cohen's &#x3ba; was lowest for domain 5 ('selective reporting'; 0.10 (95% confidence interval (CI): -0.10-0.31)) and highest for domain 3 ('missing data'; 0.31 (95% CI: 0.10-0.52)), indicating slight to fair agreement. Fair agreement was found for the overall judgement (Cohen's &#x3ba;: 0.22 (95% CI: 0.06-0.38)). Sensitivity analyses using alternative prompting techniques or the more recent version Claude 3 did not result in substantial changes. Currently, Claude's RoB 2 judgements cannot replace human RoB assessment. However, the potential of LLMs to support RoB assessment should be further explored.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41626932/"
+    },
+    {
+      "pmid": "41625485",
+      "title": "A Pragmatic Randomized Controlled Trial of Ambient Artificial Intelligence to Improve Health Practitioner Well-Being.",
+      "authors": "Afshar M, Baumann MR, Resnik F, Hintzke J, Sullivan AG, Wills G, Lemmon K, Dambach J, Ann Mrotek L, Quinn M, Abramson K, Kleinschmidt P, Brazelton TB, Leaf MA, Twedt H, Kunstman D, Patterson B, Liao F, Rasmussen S, Burnside ES, Goswami C, Gordon J",
+      "journal": "NEJM AI",
+      "pubDate": "2025 Dec",
+      "abstract": "Electronic health record (EHR) documentation is a major contributor to work-related practitioner exhaustion and the interpersonal disengagement known as burnout. Generative artificial intelligence (AI) scribes that passively capture clinical conversations and draft visit notes may alleviate this burden, but evidence remains limited.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41625485/"
+    },
+    {
+      "pmid": "41607508",
+      "title": "Acceptability of Using Artificial Intelligence in the National Health Service Breast Screening Program: A Randomized Online Survey of Screening-Eligible Women in England.",
+      "authors": "Gatting L, Jones CK, Jamshidi B, Kehagia AA, Waller J",
+      "journal": "Mayo Clin Proc Digit Health",
+      "pubDate": "2026 Mar",
+      "abstract": "To compare acceptability of 2 artificial intelligence (AI) use cases in the English National Health Servic Breast Screening Program.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41607508/"
+    },
+    {
+      "pmid": "41573403",
+      "title": "Protocol for a randomized controlled trial evaluating the artificial intelligence health education accurately linking system in patients with mild-to-moderate stroke.",
+      "authors": "Liu Z, Li YH, Fang Y, Wang H, Wu T, Liu S, Yang Y, Qin Y, Tao X, Mao J, Wang L, Li X, Wang X, Yang R, Liu Y, Chen M, Shi D, Li N, Wang Y, Hu Y, Zhang S",
+      "journal": "Front Neurol",
+      "pubDate": "2025",
+      "abstract": "Stroke is a leading cause of death and disability worldwide. Although survival rates from mild-to-moderate stroke are high, long-term functional impairment remains common, requiring sustained self-management beyond traditional rehabilitation. Conventional models depend on institutional medical care, which not only drives up costs but also disrupts continuity of care. Meanwhile, psychological, risk-related, and behavioral factors are often overlooked. Advances in artificial intelligence (AI) and mobile health provide opportunities for individualized, long-term support. Based on this, we developed the AI Health Education Accurately Linking System (AI-HEALS) to evaluate its potential to improve physiological parameters, risk perception, and self-management in patients with mild-to-moderate stroke.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41573403/"
+    },
+    {
+      "pmid": "41560725",
+      "title": "Randomized trial and multi-omics, machine learning-based mechanistic exploration of daixie decoction granules in type 2 diabetes.",
+      "authors": "Zheng Z, Zhang K, Ma X, Qian Y, Wang M",
+      "journal": "Front Pharmacol",
+      "pubDate": "2025",
+      "abstract": "Traditional Chinese Medicine (TCM) offers multi-target strategies for Type 2 Diabetes Mellitus (T2DM), but its mechanisms are unclear. This study combined a randomized controlled trial (RCT) with a multi-omics approach to evaluate the efficacy of Daixie Decoction granules (DDG) as an add-on therapy to metformin and to generate mechanistic hypotheses using a multi-omics framework.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41560725/"
+    },
+    {
+      "pmid": "41530068",
+      "title": "White light imaging versus artificial intelligence-assisted white light imaging for colorectal neoplasia detection: a randomised trial.",
+      "authors": "Dos Santos CEO, Leggett C, Sharma P, Dos Santos GM, Sanmartin IDA, Pereira-Lima JC",
+      "journal": "Rev Gastroenterol Peru",
+      "pubDate": "2025 Oct-Dec",
+      "abstract": "Adenoma detection rate (ADR) and sessile serrated lesion (SSL) detection rate (SDR) are crucial quality indicators for colonoscopy, as their improvement contributes to effective prevention of colorectal cancer. Artificial intelligence (AI) has been shown to significantly increase ADR. This study compared white light imaging (WLI) versus AI-assisted WLI for neoplasia detection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41530068/"
+    },
+    {
+      "pmid": "41502788",
+      "title": "Translational Evaluation of a Machine Learning-Based Interactive Lab for Aphasia Rehabilitation in Post Stroke Patients.",
+      "authors": "Kumar M, Wu RZ, Yeh SC, Wu EH, Tsai PY",
+      "journal": "IEEE J Transl Eng Health Med",
+      "pubDate": "2025",
+      "abstract": "To address the limitations of conventional aphasia therapy by developing and clinically evaluating a machine learning based interactive lab for personalized rehabilitation in post-stroke patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41502788/"
+    },
+    {
+      "pmid": "41467333",
+      "title": "Quantifying Root Resorption on the Incisors After Clear Aligner and Fixed Appliance Therapy Using Artificial Intelligence Tool Based CBCT Surface Models: Randomized Clinical Trial.",
+      "authors": "Bespalez-Neto R, Mattos CT, Cevidanes LHS, Fernandes TMF, de Castro Ferreira Conti AC, de Almeida-Pedrin RR, Oltramari PVP",
+      "journal": "Orthod Craniofac Res",
+      "pubDate": "2025 Dec 30",
+      "abstract": "To quantify external apical root resorption (EARR) on the incisors following non-extraction treatment of Class I malocclusion patients with moderate crowding, comparing clear aligners and fixed appliances using a novel 3D analysis of Cone-Beam Computed Tomography (CBCT) derived surface models.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41467333/"
+    },
+    {
+      "pmid": "41455918",
+      "title": "Effect of nalbuphine and morphine as adjuvants to bupivacaine in ultrasound-guided supraclavicular block: a randomized controlled trial with machine learning-based predictive analysis.",
+      "authors": "Abbas AA, Ghoneim S, Sharf M, Farag A",
+      "journal": "BMC Anesthesiol",
+      "pubDate": "2025 Dec 28",
+      "abstract": "Supraclavicular brachial plexus block is a commonly used regional anesthesia technique for upper extremity surgeries. The addition of adjuvants to local anesthetics enhances the duration and quality of anesthesia. Recently, Machine Learning (ML) has emerged as a tool for predictive modeling in medicine, including pain management. This study investigates the predictive capability of a K-Nearest Neighbor (KNN) ML model for analgesic duration using different drug combinations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41455918/"
+    },
+    {
+      "pmid": "41452791",
+      "title": "Exploring the Impact of an Artificial Intelligence-Based Intraoperative Image Navigation System in Laparoscopic Surgery on Clinical Outcomes: A Protocol for a Multicenter Randomized Controlled Trial.",
+      "authors": "Kitaguchi D, Fuse N, Wakabayashi M, Kosugi N, Ishikawa Y, Hayashi K, Hasegawa H, Takeshita N, Ito M",
+      "journal": "Eur Surg Res",
+      "pubDate": "2026",
+      "abstract": "Artificial intelligence (AI), particularly deep learning-based computer vision technology, has been used in surgery as real-time intraoperative navigation; however, its clinical relevance remains unclear. To address this gap, well-designed randomized controlled trials (RCTs) are necessary to evaluate the effects of these systems by comparing surgical outcomes with and without their use. In this study, we will investigate a deep learning-based intraoperative image navigation system that operates in real time and uses semantic segmentation to help identify the ureter and autonomic nerves during laparoscopic colorectal surgery. We propose a multicenter RCT to compare the procedure of using this system against those that do not.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41452791/"
+    },
+    {
+      "pmid": "41682156",
+      "title": "Federated Learning in Healthcare Ethics: A Systematic Review of Privacy-Preserving and Equitable Medical AI.",
+      "authors": "Mir BA, Abbas SR, Lee SW",
+      "journal": "Healthcare (Basel)",
+      "pubDate": "2026 Jan 26",
+      "abstract": "Background/Objectives: Federated learning (FL) offers a way for healthcare institutions to collaboratively train machine learning models without sharing sensitive patient data. This systematic review aims to comprehensively synthesize the ethical dimensions of FL in healthcare, integrating privacy preservation, algorithmic fairness, governance, and equitable access into a unified analytical framework. The application of FL in healthcare between January 2020 and December 2024 is examined, with a focus on ethical issues such as algorithmic fairness, privacy preservation, governance, and equitable access. Methods: Following PRISMA guidelines, six databases (PubMed, IEEE Xplore, Web of Science, Scopus, ACM Digital Library, and arXiv) were searched. The PROSPERO registration is CRD420251274110. Studies were selected if they described FL implementations in healthcare settings and explicitly discussed ethical considerations. Key data extracted included FL architectures, privacy-preserving mechanisms, such as differential privacy, secure multiparty computation, and encryption, as well as fairness metrics, governance models, and clinical application domains. Results: Out of 3047 records, 38 met the inclusion criteria. The most popular applications were found in medical imaging and electronic health records, especially in radiology and oncology. Through thematic analysis, four key ethical themes emerged: algorithmic fairness, which addresses differences between clients and attributes; privacy protection through formal guarantees and cryptographic techniques; governance models, which emphasize accountability, transparency, and stakeholder engagement; and equitable distribution of computing resources for institutions with limited resources. Considerable variation was observed in how fairness and privacy trade-offs were evaluated, and only a few studies reported real-world clinical deployment. Conclusions: FL has significant potential to promote ethical AI in healthcare, but advancement will require the development of common fairness standards, workable governance plans, and systems to guarantee fair benefit sharing. Future studies should develop standardized fairness metrics, implement multi-stakeholder governance frameworks, and prioritize real-world clinical validation beyond proof-of-concept implementations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41682156/"
+    },
+    {
+      "pmid": "41682137",
+      "title": "Ethical Responsibility in Medical AI: A Semi-Systematic Thematic Review and Multilevel Governance Model.",
+      "authors": "Martinho D, Sobreiro P, Domingues A, Martinho F, Nogueira N",
+      "journal": "Healthcare (Basel)",
+      "pubDate": "2026 Jan 23",
+      "abstract": "Background: Artificial intelligence (AI) is transforming medical practice, enhancing diagnostic accuracy, personalisation, and clinical efficiency. However, this transition raises complex ethical challenges related to transparency, accountability, fairness, and human oversight. This study examines how the literature conceptualises and distributes ethical responsibility in AI-assisted healthcare. Methods: This semi-systematic, theory-informed thematic review was conducted in accordance with the PRISMA 2020 guidelines. Publications from 2020 to 2025 were retrieved from PubMed, ScienceDirect, IEEE Xplore databases, and MDPI journals. A semi-quantitative keyword-based scoring model was applied to titles and abstracts to determine their relevance. High-relevance studies (n = 187) were analysed using an eight-category ethical framework: transparency and explainability, regulatory challenges, accountability, justice and equity, patient autonomy, beneficence-non-maleficence, data privacy, and the impact on the medical profession. Results: The analysis revealed a fragmented ethical landscape in which technological innovation frequently outperforms regulatory harmonisation and shared accountability structures. Transparency and explainability were the dominant concerns (34.8%). Significant gaps in organisational responsibility, equitable data practices, patient autonomy, and professional redefinition were reported. A multilevel ethical responsibility model was developed, integrating micro (clinical), meso (institutional), and macro (regulatory) dimensions, articulated through both ex ante and ex post perspectives. Conclusions: AI requires governance frameworks that integrate ethical principles, regulatory alignment, and epistemic justice in medicine. This review proposes a multidimensional model that bridges normative ethics and operational governance. Future research should explore empirical, longitudinal, and interdisciplinary approaches to assess the real impact of AI on clinical practice, equity, and trust.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41682137/"
+    },
+    {
+      "pmid": "41681694",
+      "title": "Limitations in Chest X-Ray Interpretation by Vision-Capable Large Language Models, Gemini 1.0, Gemini 1.5 Pro, GPT-4 Turbo, and GPT-4o.",
+      "authors": "Chen CH, Chen CW, Hsieh KY, Huang KE, Lai HY",
+      "journal": "Diagnostics (Basel)",
+      "pubDate": "2026 Jan 23",
+      "abstract": "Background/Objectives: Interpretation of chest X-rays (CXRs) requires accurate identification of lesion presence, diagnosis, location, size, and number to be considered complete. However, the effectiveness of large language models with vision capabilities (LLMs) in performing these tasks remains uncertain. This study aimed to evaluate the image-only interpretation performance of LLMs in the absence of clinical information. Methods: A total of 247 CXRs covering 13 diagnostic categories, including pulmonary edema, cardiomegaly, lobar pneumonia, and other conditions, were evaluated using Gemini 1.0, Gemini 1.5 Pro, GPT-4 Turbo, and GPT-4o. The text outputs generated by the LLMs were evaluated at two levels: (1) primary diagnosis accuracy across the 13 predefined diagnostic categories, and (2) identification of key imaging features described in the generated text. Primary diagnosis accuracy was assessed based on whether the model correctly identified the target diagnostic category and was classified as fully correct, partially correct, or incorrect according to predefined clinical criteria. Non-diagnostic imaging features, such as posteroanterior and anteroposterior (PA/AP) views, side markers, foreign bodies, and devices, were recorded and analyzed separately rather than being incorporated into the primary diagnostic scoring. Results: When fully and partially correct responses were treated as successful detections, vLLMs showed higher sensitivity for large, bilateral, multiple lesions and prominent devices, including acute pulmonary edema, lobar pneumonia, multiple malignancies, massive pleural effusions, and pacemakers, all of which demonstrated statistically significant differences across categories in chi-square analyses. Feature descriptions varied among models, especially in PA/AP views and side markers, though central lines were partially recognized. Across the entire dataset, Gemini 1.5 Pro achieved the highest overall detection rate, followed by Gemini 1.0, GPT-4o, and GPT-4 Turbo. Conclusions: Although LLMs were able to identify certain diagnoses and key imaging features, their limitations in detecting small lesions, recognizing laterality, reasoning through differential diagnoses, and using domain-specific expressions indicate that CXR interpretation without textual cues still requires further improvement.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41681694/"
+    },
+    {
+      "pmid": "41680456",
+      "title": "AI-supported real-time news evaluation reveals effects of time constraint on misinformation discernment.",
+      "authors": "Yury S, Buchanan T, Reips UD",
+      "journal": "Sci Rep",
+      "pubDate": "2026 Feb 12",
+      "abstract": "This study investigates how people perceive and evaluate true and false news in their natural environment using a novel experience sampling methodology with real-time news streaming. The sample consisted of 110 participants who evaluated news headlines on their smartphones throughout the day for two weeks, receiving notifications when new content was published. The study employed a custom-developed server that captured RSS feeds from major news outlets. The server used AI (the Open AI \"gpt-4-0125-preview\" model) to generate modified versions of news stories on the fly, including misinformation variants. Participants evaluated news live under experimentally manipulated conditions that included time constraints for reading the news. They also provided information about their environmental context and individual characteristics. The results showed that false news items were generally rated as less accurate than true news, but this discernment decreased under time constraint. Higher digital literacy and greater satisfaction with the political system were associated with rating false news as less accurate, whereas higher dogmatism was linked to higher perceived accuracy of false news. Familiarity was also related to higher accuracy ratings for both true and false news, meaning participants rated both types of news as more accurate when they felt familiar with it, consistent with the illusory truth effect. Integrating experimental AI-guided, real-time news generation and streaming offers a novel and much-needed approach to studying misinformation perception, providing externally valid insights into how real-world factors influence people's ability to detect and respond to false information in their daily lives.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41680456/"
+    },
+    {
+      "pmid": "41678789",
+      "title": "Using AI to Train Future Clinicians in Depression Assessment: Feasibility Study.",
+      "authors": "Holderried F, Sonanini A, Philipps A, Stegemann-Philipps C, Herschbach L, Festl-Wietek T, Zipfel S, Erschens R, Herrmann-Werner A",
+      "journal": "JMIR Med Educ",
+      "pubDate": "2026 Feb 12",
+      "abstract": "Depression is a major global health care challenge, causing significant individual distress but also contributing to a substantial global burden. Timely and accurate diagnosis is crucial. To help future clinicians develop these essential skills, we trained a generative pretrained transformer (GPT)-powered chatbot to simulate patients with varying degrees of depression and suicidality.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41678789/"
+    },
+    {
+      "pmid": "41676160",
+      "title": "MCQG-SRefine: Multiple Choice Question Generation and Evaluation with Iterative Self-Critique, Correction, and Comparison Feedback.",
+      "authors": "Yao Z, Parashar A, Zhou H, Jang WS, Ouyang F, Yang Z, Yu H",
+      "journal": "Proc Conf",
+      "pubDate": "2025 Apr",
+      "abstract": "Automatic question generation (QG) is essential for AI and NLP, particularly in intelligent tutoring, dialogue systems, and fact verification. Generating multiple-choice questions (MCQG) for professional exams, like the United States Medical Licensing Examination (USMLE), is particularly challenging, requiring domain expertise and complex multi-hop reasoning for high-quality questions. However, current large language models (LLMs) like GPT-4 struggle with professional MCQG due to outdated knowledge, hallucination issues, and prompt sensitivity, resulting in unsatisfactory quality and difficulty. To address these challenges, we propose MCQG-SRefine, an LLM self-refine-based (Critique and Correction) framework for converting medical cases into high-quality USMLE-style questions. By integrating expert-driven prompt engineering with iterative self-critique and self-correction feedback, MCQG-SRefine significantly enhances human expert satisfaction regarding both the quality and difficulty of the questions. Furthermore, we introduce an LLM-as-Judge-based automatic metric to replace the complex and costly expert evaluation process, ensuring reliable and expert-aligned assessments.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41676160/"
+    },
+    {
+      "pmid": "41673318",
+      "title": "Multi-criteria evaluation of clinical decision-making performance in spinal neurosurgery and physical therapy scenarios: A comparative analysis of artificial intelligence models.",
+      "authors": "Tuncer C, Tekin RT, Uludağ V, Kılıç G, Taşkesen A",
+      "journal": "Eur Spine J",
+      "pubDate": "2026 Feb 12",
+      "abstract": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41673318/"
+    },
+    {
+      "pmid": "41671902",
+      "title": "Comment on \"Classifying the clinical significance of common breast pain symptoms using a large language model, ChatGPT (GPT-4)\".",
+      "authors": "Hu Y",
+      "journal": "Clin Imaging",
+      "pubDate": "2026 Feb 9",
+      "abstract": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41671902/"
+    },
+    {
+      "pmid": "41671154",
+      "title": "Comparison of ChatGPT-4 and ChatGPT-4 Plus Responses to Retinopathy of Prematurity-Related Questions and Performance Evaluation in Different Languages.",
+      "authors": "Yılmaz FH, Büyükeren M, Özcan B, Keçec R, Körez MK",
+      "journal": "J Pediatr Ophthalmol Strabismus",
+      "pubDate": "2026 Feb 10",
+      "abstract": "To compare the accuracy and performance of the ChatGPT-4 and ChatGPT-4 Plus (OpenAI) models in different languages in terms of questions about retinopathy of prematurity (ROP).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41671154/"
+    },
+    {
+      "pmid": "41668938",
+      "title": "More details, less variability? A crossover design study on the impact of information granularity on ChatGPT's training program stability.",
+      "authors": "Yang Z, Zhang X, Li H, Ye J",
+      "journal": "Biol Sport",
+      "pubDate": "2026 Jan",
+      "abstract": "This study aimed to evaluate how varying levels of information granularity affect the output variability and multidimensional quality - including Personality, Effectiveness, Safety, and Feasibility - of ChatGPT-generated training programs. A crossover design was used to compare simple and detailed input prompts, with each prompt input into GPT-4 (accessed via ChatGPT) four times to generate eight training programs. The training programs were anonymized by the research team and subsequently evaluated in a blinded manner by 11 experts (mean age = 35.4 years, average of 18.1 years of practical experience in the field of sport and exercise science). Output variability was assessed using the coefficient of variation (CV%), and quality ratings were based on a custom 15-item scale covering Personality, Effectiveness, Safety, and Feasibility. Differences in expert ratings across training programs were examined using repeated-measures ANOVA, with Friedman tests applied as sensitivity analyses to test the robustness of the results. Training programs generated from detailed input prompts consistently received higher expert ratings across all dimensions. CV% was generally lower under the detailed input prompts, indicating more stable outputs. Significant main effects of information granularity were found in Personality, Safety, Feasibility, and overall scores (all p &lt; 0.05), though not in Effectiveness. Notably, repeated inputs of the same information granularity still yielded structurally and qualitatively different outputs, highlighting residual variability even under controlled conditions. Information granularity plays a crucial role in shaping the quality and stability of AI-generated training programs. Providing detailed, structured input enhances personalization, reduces output fluctuation, and improves alignment with exercise science principles.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41668938/"
+    },
+    {
+      "pmid": "41516254",
+      "title": "AI-Driven Digital Pathology: Deep Learning and Multimodal Integration for Precision Oncology.",
+      "authors": "Jang HJ, Lee SH",
+      "journal": "Int J Mol Sci",
+      "pubDate": "2025 Dec 29",
+      "abstract": "Pathology is fundamental to precision oncology, offering molecular and morphologic insights that enable personalized diagnosis and treatment. Recently, deep learning has demonstrated substantial potential in digital pathology, effectively addressing a wide range of diagnostic, prognostic, and biomarker-prediction tasks. Although early approaches based on convolutional neural networks had limited capacity to generalize across tasks and datasets, transformer-based foundation models have substantially advanced the field by enabling scalable representation learning, enhancing cross-cohort robustness, and supporting few- and even zero-shot inference across a wide range of pathology applications. Furthermore, the ability of foundation models to integrate heterogeneous data within a unified processing framework broadens the possibility of developing more generalizable models for medicine. These multimodal foundation models can accelerate the advancement of pathology-based precision oncology by enabling coherent interpretation of histopathology together with radiology, clinical text, and molecular data, thereby supporting more accurate diagnosis, prognostication, and therapeutic decision-making. In this review, we provide a concise overview of these advances and examine how foundation models are driving the ongoing evolution of pathology-based precision oncology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41516254/"
+    },
+    {
+      "pmid": "41476571",
+      "title": "Digital pathology imaging artificial intelligence in cancer research and clinical trials: An NCI workshop report.",
+      "authors": "Makhlouf HR, Ossandon MR, Farahani K, Lubensky I, Harris LN",
+      "journal": "J Pathol Inform",
+      "pubDate": "2026 Jan",
+      "abstract": "Digital pathology imaging (DPI) is a rapidly advancing field with increasing relevance to cancer diagnosis, research, and clinical trials through large-scale image analysis and artificial intelligence (AI) integration. Despite these advances, regulatory adoption in digital pathology (DP) has lagged; to date, only three AI/ML Software as a Medical Device tool have received FDA clearance, highlighting a validation dataset gap rather than an absence of regulatory pathways. On March 6-7, 2024, the National Cancer Institute held a virtual workshop titled \"Digital Pathology Imaging-Artificial Intelligence in Cancer Research and Clinical Trials,\" bringing together experts in pathology, radiology, oncology, data science, and regulatory fields to assess current challenges, practical solutions, and future directions. This report summarizes expert opinions on key issues related to the use of DPI in cancer research and clinical trials, including data standardization, de-identification, and the application of Digital Imaging and Communication in Medicine (DICOM) standards. Key topics included data standardization, image quality assurance, validation strategies, AI applications, integration in clinical trials, biobanking, intellectual property, investigators' needs, and lessons from digital cytology and radiology domains. Solutions discussed included adoption of open standards such as DICOM, centralized imaging portals, and scalable cloud-based platforms. The expert consensus outlined in this report is intended to guide the development of DPI infrastructure, standardization, support AI validation, and align regulatory and data-sharing practices to advance precision oncology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41476571/"
+    },
+    {
+      "pmid": "41472921",
+      "title": "Artificial intelligence-driven digital pathology in urological cancers: current trends and future directions.",
+      "authors": "Paik I, Lee G, Lee J, Kwak TY, Ha HK",
+      "journal": "Prostate Int",
+      "pubDate": "2025 Dec",
+      "abstract": "Artificial intelligence (AI) in digital pathology has gained attention owing to its potential in urological cancer diagnosis and management. This review highlights AI's applications and challenges in three major urological cancers. Prostate cancer studies have demonstrated reliable diagnostic performance and promising prognosis prediction. Renal cancer study shows potential but faces challenges in generalizability and prognosis. Bladder cancer studies are limited by the lack of large-scale datasets. Despite of these active studies, challenges remain regarding data availability, prognosis, and generalizability. Future efforts should emphasize multimodal approaches and multi-institutional collaboration with larger datasets to fully realize the potential of AI in urological cancers.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41472921/"
+    },
+    {
+      "pmid": "41454765",
+      "title": "AI-assisted sentinel lymph node examination and metastatic detection in breast cancer: the potential of ChatGPT for digital pathology research.",
+      "authors": "Angelico G, Spadola S, Santoro A, Mulè A, D'Aquila F, La Cava G, Marletta S, Valente M, Urtueta BP, Addante F, Narducci N, Memeo L, Colarossi C, Rizzo A, Zannoni GF",
+      "journal": "Pathologica",
+      "pubDate": "2025 Dec",
+      "abstract": "Traditional pathological examination of lymph nodes is labor-intensive and has shown variability in diagnostic accuracy. Recent advancements in artificial intelligence (AI) provide promising opportunities to enhance and standardize pathological workflows. AI-based image analysis models, particularly those utilizing deep learning algorithms, have demonstrated potential in automating and improving diagnostic accuracy in histopathology. This study aimed to evaluate the performance of a novel AI model known as ChatGPT-4 in detecting metastatic involvement in sentinel lymph nodes (SLNs) from breast cancer cases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41454765/"
+    },
+    {
+      "pmid": "41444960",
+      "title": "Translational deep learning models for risk stratification to predict prognosis and immunotherapy response in gastric cancer using digital pathology.",
+      "authors": "Nguyen MH, Do-Huu HH, Nguyen PT, Tran ND, Linh NT, Le H, Le NQK",
+      "journal": "J Transl Med",
+      "pubDate": "2025 Dec 24",
+      "abstract": "Gastric cancer (GC) is one of the leading causes of cancer-related deaths globally, with a 5-year survival rate of less than 40%. While immune checkpoint inhibitors have provided promising therapeutic options for advanced GC, only a small proportion of patients benefit. In this study, we developed a deep learning model using whole-slide images to predict prognoses and sensitivity to immune checkpoint inhibitors in GC patients by predicting a novel marker.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41444960/"
+    },
+    {
+      "pmid": "41436315",
+      "title": "Development and Validation of a Multimodal Artificial Intelligence-derived Digital Pathology-based Biomarker Predicting Metastasis Among Patients with Biochemical Recurrence After Radical Prostatectomy in NRG/RTOG Trials.",
+      "authors": "Morgan TM, Ren Y, Tang S, Zwerink W, Chen E, Mitani A, Huang HC, Simko JP, DeVries S, Pollack A, Wilke D, Martin AG, Balogh AG, Michalski JM, Greenberg MJ, Efstathiou JA, Bahary JP, Ross AE, Esteva A, Royce TJ, Nguyen PL, Hoffman KE, Sandler HM, Tran PT, Pugh SL, Feng FY, Spratt DE",
+      "journal": "Eur Urol",
+      "pubDate": "2025 Dec 22",
+      "abstract": "Biochemical recurrence (BCR) after radical prostatectomy (RP) is a heterogeneous disease state in prostate cancer with multiple treatment options. Improved risk stratification could enable more personalized decision-making. We developed and validated a digital pathology-based multimodal artificial intelligence (MMAI) model to predict outcomes in post-RP BCR patients undergoing salvage therapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41436315/"
+    },
+    {
+      "pmid": "41402636",
+      "title": "From compliance to clinical value: an EU AI Act-aligned playbook for digital pathology laboratories.",
+      "authors": "Vijayasimha M",
+      "journal": "Virchows Arch",
+      "pubDate": "2025 Dec 16",
+      "abstract": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41402636/"
+    },
+    {
+      "pmid": "41390119",
+      "title": "Deep learning discriminates thymic epithelial tumors' histological subtypes using digital pathology.",
+      "authors": "Sacco M, Pietroluongo E, Di Lello A, Marino M, McGeough A, Esposito A, Sharma R, Husain AN, Arif Q, Elsebaie MA, Pearson AT, Dolezal JM, Garassino MC",
+      "journal": "Ann Oncol",
+      "pubDate": "2025 Dec 11",
+      "abstract": "Thymic epithelial tumors (TETs) are rare malignancies that pose significant diagnostic challenges due to their heterogeneous histological patterns and substantial interobserver variability in classification. Despite standardized World Health Organization (WHO) classification criteria, diagnostic concordance remains suboptimal, particularly in nonexpert settings, where second-opinion reviews lead to diagnostic reclassification in up to 57% of cases. Deep learning may offer a tool to reduce diagnostic variability and improve the consistency of histological classification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41390119/"
+    },
+    {
+      "pmid": "41389319",
+      "title": "Digital pathology in forensic science: a systematic review of the literature.",
+      "authors": "Ambrosi L, Amirante F, Nicolì S, Marzullo A, Ingravallo G, Ferorelli D, Solarino B, Argentiero G",
+      "journal": "Forensic Sci Med Pathol",
+      "pubDate": "2025 Dec 13",
+      "abstract": "Digital pathology (DP) and whole-slide imaging (WSI) are increasingly utilized in clinical pathology; however, their role in forensic medicine remains less defined, as evidentiary standards demand robust validation, auditability, and a chain of custody.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41389319/"
+    },
+    {
+      "pmid": "41375009",
+      "title": "Digital Pathology with AI for Cervical Biopsies: Diagnostic Accuracy at the CIN2+ Threshold.",
+      "authors": "Andreassen AK, Mortensen E, Stenbro R, Sørensen Ø, Sørbye SW",
+      "journal": "Cancers (Basel)",
+      "pubDate": "2025 Nov 27",
+      "abstract": "Background/Objectives: Histopathologic grading of cervical biopsies is subject to interobserver variability, particularly at the CIN2+ treatment threshold. We evaluated a deep learning system (EagleEye) for detecting CIN2+ (CIN2, CIN3, ACIS, invasive carcinoma) on hematoxylin-eosin (H&amp;E) whole-slide images (WSIs) and compared its performance with independent pathologists, including an AI-assisted workflow. Spatial correspondence with p16 staining was preliminarily assessed. Methods: Ninety-nine archived cervical punch biopsies from a single university hospital, originally diagnosed as Normal (n = 19), CIN1 (n = 20), CIN2 (n = 20), CIN3 (n = 20), or adenocarcinoma in situ (ACIS; n = 20), were digitized in a deliberately spectrum-balanced design. The original sign-out (P1), a second gynecologic pathologist (P2, microscope and digital), EagleEye alone (EE), and an AI-assisted read (EE + P2) served as diagnostic conditions. Outcomes were dichotomized as &lt;CIN2 vs. CIN2+. Agreement was evaluated using Cohen's &#x3ba; and sensitivity/specificity (95% CI) under pre-specified internal reference standards. In 30 cases with prior p16 staining, visual correspondence between AI heatmaps/tiles and p16-positive epithelial domains was recorded. Results: Agreement between P1 and EagleEye was moderate (&#x3ba; = 0.67), while P2 showed high internal consistency (&#x3ba; = 0.86) and good agreement with P1 (&#x3ba; = 0.78). Using P1 as reference, EagleEye detected CIN2+ with 93.3% sensitivity and 71.8% specificity. When the AI-assisted consensus (EE + P2) was used as an augmented internal comparator, P1 showed 83.8% sensitivity and 100% specificity, indicating that the human-in-the-loop workflow identified additional CIN2+ cases that had been signed out as &lt;CIN2 by P1, particularly near the CIN1/CIN2 boundary. In a subset of cases originally classified as CIN3 by P1, EagleEye flagged squamous cell carcinoma (SCC); several of these were confirmed as SCC by expert review (EE + P2). In ACIS, EagleEye under-called relative to pathologists but improved after adjudication. p16-to-AI spatial correspondence &#x2265;70% was observed in 73.3% of evaluated cases. Conclusions: In this single-centre, spectrum-balanced cohort, EagleEye achieved high CIN2+ sensitivity and substantial agreement with expert readers in a human-in-the-loop workflow. The main added value was internal case-finding of treatment-relevant lesions when AI assistance was available, while final diagnoses remained with the pathologist.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41375009/"
+    }
+  ],
+  "preprints": [
+    {
+      "id": "2602.12092v1",
+      "title": "DeepSight: An All-in-One LM Safety Toolkit",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "As the development of Large Models (LMs) progresses rapidly, their safety is also a priority. In current Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) safety workflow, evaluation, diagnosis, and alignment are often handled by separate tools. Specifically, safety evaluation can only locate external behavioral risks but cannot figure out internal root causes. Meanwhile, safety diagnosis often drifts from concrete risk scenarios and remains at the explainable level. In t",
+      "url": "http://arxiv.org/abs/2602.12092v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.12083v1",
+      "title": "Differentiable Modal Logic for Multi-Agent Diagnosis, Orchestration and Communication",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "As multi-agent AI systems evolve from simple chatbots to autonomous swarms, debugging semantic failures requires reasoning about knowledge, belief, causality, and obligation, precisely what modal logic was designed to formalize. However, traditional modal logic requires manual specification of relationship structures that are unknown or dynamic in real systems. This tutorial demonstrates differentiable modal logic (DML), implemented via Modal Logical Neural Networks (MLNNs), enabling systems to ",
+      "url": "http://arxiv.org/abs/2602.12083v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.12015v1",
+      "title": "Disentangling Ambiguity from Instability in Large Language Models: A Clinical Text-to-SQL Case Study",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "Deploying large language models for clinical Text-to-SQL requires distinguishing two qualitatively different causes of output diversity: (i) input ambiguity that should trigger clarification, and (ii) model instability that should trigger human review. We propose CLUES, a framework that models Text-to-SQL as a two-stage process (interpretations --&gt; answers) and decomposes semantic uncertainty into an ambiguity score and an instability score. The instability score is computed via the Schur com",
+      "url": "http://arxiv.org/abs/2602.12015v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.12004v1",
+      "title": "CSEval: A Framework for Evaluating Clinical Semantics in Text-to-Image Generation",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "Text-to-image generation has been increasingly applied in medical domains for various purposes such as data augmentation and education. Evaluating the quality and clinical reliability of these generated images is essential. However, existing methods mainly assess image realism or diversity, while failing to capture whether the generated images reflect the intended clinical semantics, such as anatomical location and pathology. In this study, we propose the Clinical Semantics Evaluator (CSEval), a",
+      "url": "http://arxiv.org/abs/2602.12004v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11982v1",
+      "title": "Automatic Simplification of Common Vulnerabilities and Exposures Descriptions",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "Understanding cyber security is increasingly important for individuals and organizations. However, a lot of information related to cyber security can be difficult to understand to those not familiar with the topic. In this study, we focus on investigating how large language models (LLMs) could be utilized in automatic text simplification (ATS) of Common Vulnerability and Exposure (CVE) descriptions. Automatic text simplification has been studied in several contexts, such as medical, scientific, ",
+      "url": "http://arxiv.org/abs/2602.11982v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11942v1",
+      "title": "Synthesis of Late Gadolinium Enhancement Images via Implicit Neural Representations for Cardiac Scar Segmentation",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "Late gadolinium enhancement (LGE) imaging is the clinical standard for myocardial scar assessment, but limited annotated datasets hinder the development of automated segmentation methods. We propose a novel framework that synthesises both LGE images and their corresponding segmentation masks using implicit neural representations (INRs) combined with denoising diffusion models. Our approach first trains INRs to capture continuous spatial representations of LGE data and associated myocardium and f",
+      "url": "http://arxiv.org/abs/2602.11942v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11924v1",
+      "title": "Who Does What? Archetypes of Roles Assigned to LLMs During Human-AI Decision-Making",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "LLMs are increasingly supporting decision-making across high-stakes domains, requiring critical reflection on the socio-technical factors that shape how humans and LLMs are assigned roles and interact during human-in-the-loop decision-making. This paper introduces the concept of human-LLM archetypes -- defined as re-curring socio-technical interaction patterns that structure the roles of humans and LLMs in collaborative decision-making. We describe 17 human-LLM archetypes derived from a scoping ",
+      "url": "http://arxiv.org/abs/2602.11924v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11880v1",
+      "title": "SynthRAR: Ring Artifacts Reduction in CT with Unrolled Network and Synthetic Data Training",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "Defective and inconsistent responses in CT detectors can cause ring and streak artifacts in the reconstructed images, making them unusable for clinical purposes. In recent years, several ring artifact reduction solutions have been proposed in the image domain or in the sinogram domain using supervised deep learning methods. However, these methods require dedicated datasets for training, leading to a high data collection cost. Furthermore, existing approaches focus exclusively on either image-spa",
+      "url": "http://arxiv.org/abs/2602.11880v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11703v1",
+      "title": "Semantically Conditioned Diffusion Models for Cerebral DSA Synthesis",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "Digital subtraction angiography (DSA) plays a central role in the diagnosis and treatment of cerebrovascular disease, yet its invasive nature and high acquisition cost severely limit large-scale data collection and public data sharing. Therefore, we developed a semantically conditioned latent diffusion model (LDM) that synthesizes arterial-phase cerebral DSA frames under explicit control of anatomical circulation (anterior vs.\\ posterior) and canonical C-arm positions. We curated a large single-",
+      "url": "http://arxiv.org/abs/2602.11703v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11690v1",
+      "title": "ANML: Attribution-Native Machine Learning with Guaranteed Robustness",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "Frontier AI systems increasingly train on specialized expert data, from clinical records to proprietary research to curated datasets, yet current training pipelines treat all samples identically. A Nobel laureate's contribution receives the same weight as an unverified submission. We introduce ANML (Attribution-Native Machine Learning), a framework that weights training samples by four quality factors: gradient-based consistency (q), verification status (v), contributor reputation (r), and tempo",
+      "url": "http://arxiv.org/abs/2602.11690v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11684v1",
+      "title": "PatientHub: A Unified Framework for Patient Simulation",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "As Large Language Models increasingly power role-playing applications, simulating patients has become a valuable tool for training counselors and scaling therapeutic assessment. However, prior work is fragmented: existing approaches rely on incompatible, non-standardized data formats, prompts, and evaluation metrics, hindering reproducibility and fair comparison. In this paper, we introduce PatientHub, a unified and modular framework that standardizes the definition, composition, and deployment ",
+      "url": "http://arxiv.org/abs/2602.11684v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11674v1",
+      "title": "Benchmark Health Index: A Systematic Framework for Benchmarking the Benchmarks of LLMs",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "Large Language Models (LLMs) are advancing rapidly, yet the benchmarks used to measure this progress are becoming increasingly unreliable. Score inflation and selective reporting have eroded the authority of standard benchmarks, leaving the community uncertain about which evaluation results remain trustworthy. We introduce the Benchmark Health Index (BHI), a pure data-driven framework for auditing evaluation sets along three orthogonal and complementary axes: (1) Capability Discrimination, measu",
+      "url": "http://arxiv.org/abs/2602.11674v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11661v1",
+      "title": "Quark Medical Alignment: A Holistic Multi-Dimensional Alignment and Collaborative Optimization Paradigm",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "While reinforcement learning for large language model alignment has progressed rapidly in recent years, transferring these paradigms to high-stakes medical question answering reveals a fundamental paradigm mismatch. Reinforcement Learning from Human Feedback relies on preference annotations that are prohibitively expensive and often fail to reflect the absolute correctness of medical facts. Reinforcement Learning from Verifiable Rewards lacks effective automatic verifiers and struggles to handle",
+      "url": "http://arxiv.org/abs/2602.11661v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11646v1",
+      "title": "Brain Tumor Classifiers Under Attack: Robustness of ResNet Variants Against Transferable FGSM and PGD Attacks",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "Adversarial robustness in deep learning models for brain tumor classification remains an underexplored yet critical challenge, particularly for clinical deployment scenarios involving MRI data. In this work, we investigate the susceptibility and resilience of several ResNet-based architectures, referred to as BrainNet, BrainNeXt and DilationNet, against gradient-based adversarial attacks, namely FGSM and PGD. These models, based on ResNet, ResNeXt, and dilated ResNet variants respectively, are e",
+      "url": "http://arxiv.org/abs/2602.11646v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    },
+    {
+      "id": "2602.11520v1",
+      "title": "Locally Interpretable Individualized Treatment Rules for Black-Box Decision Models",
+      "authors": "Unknown",
+      "source": "arXiv",
+      "pubDate": "2026-02-12",
+      "abstract": "Individualized treatment rules (ITRs) aim to optimize healthcare by tailoring treatment decisions to patient-specific characteristics. Existing methods typically rely on either interpretable but inflexible models or highly flexible black-box approaches that sacrifice interpretability; moreover, most impose a single global decision rule across patients. We introduce the Locally Interpretable Individualized Treatment Rule (LI-ITR) method, which combines flexible machine learning models to accurate",
+      "url": "http://arxiv.org/abs/2602.11520v1",
+      "category": "Artificial Intelligence, Computation and Language (NLP)"
+    }
+  ],
+  "regulatory": [
+    {
+      "title": "説明会情報の更新及び令和８年度採用パンフレットの掲載（総合職（数理・デジタル系））",
+      "link": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/suuri.html",
+      "pubDate": "",
+      "source": "厚生労働省 新着情報"
+    },
+    {
+      "title": "「SaMD 産学官サブフォーラム2026」を開催します",
+      "link": "https://www.mhlw.go.jp/stf/newpage_68142.html",
+      "pubDate": "",
+      "source": "厚生労働省 新着情報"
+    },
+    {
+      "title": "[全製品]医薬品・医療機器等安全性情報 No.426（厚生労働省発行）を掲載しました",
+      "link": "https://www.pmda.go.jp/safety/info-services/drugs/calling-attention/safety-info/0165.html",
+      "pubDate": "",
+      "source": "PMDA 安全性情報"
+    },
+    {
+      "title": "[審査][安全][イベント]PMDAシンポジウム「既存の診療情報を活用した医療機器開発」の開催について（資料掲載）",
+      "link": "https://www.pmda.go.jp/review-services/symposia/0196.html",
+      "pubDate": "",
+      "source": "PMDA 安全性情報"
+    },
+    {
+      "title": "[審査][安全][イベント]PMDAシンポジウム「リアルワールドデータを活用した医療機器開発」の開催について",
+      "link": "https://www.pmda.go.jp/review-services/symposia/0199.html",
+      "pubDate": "",
+      "source": "PMDA 安全性情報"
+    },
+    {
+      "title": "[審査][安全][イベント]PMDAシンポジウム「生成AIの医療活用の最前線」の開催について",
+      "link": "https://www.pmda.go.jp/review-services/symposia/0198.html",
+      "pubDate": "",
+      "source": "PMDA 安全性情報"
+    },
+    {
+      "title": "[医療]「不具合が疑われる症例報告に関する情報（医療機器）」に2025年9月分の情報を追加しました",
+      "link": "https://www.pmda.go.jp/safety/info-services/devices/0090.html",
+      "pubDate": "",
+      "source": "PMDA 安全性情報"
+    },
+    {
+      "title": "[医療]「IMDRF不具合用語集を踏まえた医療機器不具合用語集の改訂について（その4）」を掲載しました",
+      "link": "https://www.pmda.go.jp/safety/reports/mah/0006.html",
+      "pubDate": "",
+      "source": "PMDA 安全性情報"
+    },
+    {
+      "title": "[医療]「2024年度医療機器相談の受付状況」を掲載しました",
+      "link": "https://www.pmda.go.jp/safety/consultation-for-patients/on-devices/state/0001.html",
+      "pubDate": "",
+      "source": "PMDA 安全性情報"
+    },
+    {
+      "title": "[全製品]令和7年度 第1回医療機器の安全使用に関する調査結果を掲載しました",
+      "link": "https://www.pmda.go.jp/safety/info-services/medical-safety-info/0004.html",
+      "pubDate": "",
+      "source": "PMDA 安全性情報"
+    },
+    {
+      "title": "[審査][安全][イベント]PMDAシンポジウム「生成AIの医療活用の最前線」の開催について",
+      "link": "https://www.pmda.go.jp/review-services/symposia/0198.html",
+      "pubDate": "",
+      "source": "PMDA 承認審査"
+    },
+    {
+      "title": "[医療]「プログラム医療機器の承認等情報」のページを更新しました",
+      "link": "https://www.pmda.go.jp/review-services/drug-reviews/about-reviews/devices/0052.html",
+      "pubDate": "",
+      "source": "PMDA 承認審査"
+    },
+    {
+      "title": "[医療]「プログラム医療機器」のページを更新しました",
+      "link": "https://www.pmda.go.jp/review-services/drug-reviews/about-reviews/devices/0048.html",
+      "pubDate": "",
+      "source": "PMDA 承認審査"
+    },
+    {
+      "title": "[医療]医療機器プログラム（SaMD）の審査ポイントに関する意見募集について",
+      "link": "https://www.pmda.go.jp/review-services/drug-reviews/about-reviews/devices/0058.html",
+      "pubDate": "",
+      "source": "PMDA 承認審査"
+    },
+    {
+      "title": "[その他]「AI対応WG」のページを新設しました",
+      "link": "https://www.pmda.go.jp/rs-std-jp/cross-sectional-project/0024.html",
+      "pubDate": "",
+      "source": "PMDA 規制科学・標準化"
+    },
+    {
+      "title": "Infusion Pump Software Recall: Baxter Removes Sigma Spectrum Infusion System Platforms",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/infusion-pump-software-recall-baxter-removes-sigma-spectrum-infusion-system-platforms",
+      "pubDate": "",
+      "source": "FDA MedWatch"
+    }
+  ],
+  "stats": {
+    "totalPapers": 30,
+    "totalPreprints": 15,
+    "totalRegulatory": 16,
+    "queriesUsed": 3,
+    "abstractsFound": 27
+  }
+}
