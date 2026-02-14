@@ -9,11 +9,12 @@ import type { GitHubRepo } from "@/lib/types";
 async function getGitHubRepos(): Promise<GitHubRepo[]> {
   try {
     const res = await fetch(
-      "https://api.github.com/users/kgraph57/repos?sort=updated&per_page=6",
+      "https://api.github.com/users/kgraph57/repos?sort=updated&per_page=30",
+      { next: { revalidate: 3600 } },
     );
     if (!res.ok) return [];
     const repos = await res.json();
-    return repos.filter((r: GitHubRepo) => !r.name.startsWith(".")).slice(0, 3);
+    return repos.filter((r: GitHubRepo) => !r.name.startsWith("."));
   } catch {
     return [];
   }

@@ -1,23 +1,23 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Send, Mail } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { toast } from "sonner"
+import { useState } from "react";
+import { Send } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { toast } from "sonner";
 
 export default function ContactPage() {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault()
-    setLoading(true)
+    e.preventDefault();
+    setLoading(true);
 
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-    toast.success("お問い合わせを送信しました。ありがとうございます。")
-    ;(e.target as HTMLFormElement).reset()
-    setLoading(false)
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    toast.success("お問い合わせを送信しました。ありがとうございます。");
+    (e.target as HTMLFormElement).reset();
+    setLoading(false);
   }
 
   return (
@@ -35,13 +35,26 @@ export default function ContactPage() {
             <label htmlFor="name" className="mb-2 block text-sm font-medium">
               お名前
             </label>
-            <Input id="name" name="name" required placeholder="山田 太郎" className="rounded-lg" />
+            <Input
+              id="name"
+              name="name"
+              required
+              placeholder="山田 太郎"
+              className="rounded-lg"
+            />
           </div>
           <div>
             <label htmlFor="email" className="mb-2 block text-sm font-medium">
               メールアドレス
             </label>
-            <Input id="email" name="email" type="email" required placeholder="you@example.com" className="rounded-lg" />
+            <Input
+              id="email"
+              name="email"
+              type="email"
+              required
+              placeholder="you@example.com"
+              className="rounded-lg"
+            />
           </div>
         </div>
 
@@ -49,14 +62,27 @@ export default function ContactPage() {
           <label htmlFor="subject" className="mb-2 block text-sm font-medium">
             件名
           </label>
-          <Input id="subject" name="subject" required placeholder="お問い合わせ内容の概要" className="rounded-lg" />
+          <Input
+            id="subject"
+            name="subject"
+            required
+            placeholder="お問い合わせ内容の概要"
+            className="rounded-lg"
+          />
         </div>
 
         <div>
           <label htmlFor="message" className="mb-2 block text-sm font-medium">
             メッセージ
           </label>
-          <Textarea id="message" name="message" required rows={6} placeholder="詳細をお書きください" className="rounded-lg" />
+          <Textarea
+            id="message"
+            name="message"
+            required
+            rows={6}
+            placeholder="詳細をお書きください"
+            className="rounded-lg"
+          />
         </div>
 
         <button
@@ -68,14 +94,6 @@ export default function ContactPage() {
           {loading ? "送信中..." : "送信する"}
         </button>
       </form>
-
-      <div className="mt-12 flex items-center gap-2 text-sm text-muted-foreground">
-        <Mail className="h-4 w-4" />
-        <span>直接メール:</span>
-        <a href="mailto:okaken0507@gmail.com" className="underline underline-offset-4 decoration-border hover:text-foreground hover:decoration-foreground">
-          okaken0507@gmail.com
-        </a>
-      </div>
     </div>
-  )
+  );
 }
