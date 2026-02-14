@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { Github, Twitter } from "lucide-react"
+import Link from "next/link";
+import { Github, Twitter } from "lucide-react";
 
 const FOOTER_LINKS = {
   product: {
@@ -25,7 +25,7 @@ const FOOTER_LINKS = {
       { href: "/contact", label: "お問い合わせ" },
     ],
   },
-}
+};
 
 export function Footer() {
   return (
@@ -35,16 +35,20 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <div className="flex h-7 w-7 items-center justify-center rounded-md bg-primary">
-                <span className="text-xs font-bold text-primary-foreground">C</span>
+                <span className="text-xs font-bold text-primary-foreground">
+                  C
+                </span>
               </div>
               <span className="font-bold tracking-tight">Clinova</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              医療従事者のための<br />AIナレッジポータル
+              医療従事者のための
+              <br />
+              AIナレッジポータル
             </p>
             <div className="mt-4 flex gap-2">
               <a
-                href="https://github.com/kenokamoto"
+                href="https://github.com/kgraph57"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex h-8 w-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:text-foreground hover:bg-accent"
@@ -86,5 +90,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

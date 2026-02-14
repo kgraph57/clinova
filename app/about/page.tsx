@@ -1,12 +1,12 @@
-import type { Metadata } from "next"
-import Link from "next/link"
-import { Github, Twitter, Mail } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Github, Twitter, Mail } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
   title: "About",
   description: "Clinovaについて - 医療従事者のためのAIナレッジポータル",
-}
+};
 
 export default function AboutPage() {
   return (
@@ -19,16 +19,14 @@ export default function AboutPage() {
           </div>
           <div>
             <h1 className="text-2xl font-bold">Ken Okamoto</h1>
-            <p className="text-sm text-muted-foreground">
-              医師 / 医療AI研究者
-            </p>
+            <p className="text-sm text-muted-foreground">医師 / 医療AI研究者</p>
           </div>
         </div>
 
         <div className="mt-4 flex gap-2">
           <Button asChild variant="outline" size="sm" className="gap-1.5">
             <a
-              href="https://github.com/kenokamoto"
+              href="https://github.com/kgraph57"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -89,10 +87,7 @@ export default function AboutPage() {
               desc: "散在する医療AI情報を体系的に整理。最新の知見もタイムリーに反映",
             },
           ].map((item) => (
-            <div
-              key={item.title}
-              className="rounded-lg border bg-card p-4"
-            >
+            <div key={item.title} className="rounded-lg border bg-card p-4">
               <h3 className="text-sm font-semibold">{item.title}</h3>
               <p className="mt-1 text-xs text-muted-foreground">{item.desc}</p>
             </div>
@@ -112,5 +107,5 @@ export default function AboutPage() {
         </Button>
       </section>
     </div>
-  )
+  );
 }

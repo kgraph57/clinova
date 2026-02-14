@@ -1,31 +1,29 @@
-import { HeroSection } from "@/components/home/HeroSection"
-import { CategoryOverview } from "@/components/home/CategoryOverview"
-import { FeaturedArticles } from "@/components/home/FeaturedArticles"
-import { NewsletterSection } from "@/components/home/NewsletterSection"
-import { GitHubSection } from "@/components/home/GitHubSection"
-import { getFeaturedArticles, getArticleCount } from "@/lib/content"
-import type { GitHubRepo } from "@/lib/types"
+import { HeroSection } from "@/components/home/HeroSection";
+import { CategoryOverview } from "@/components/home/CategoryOverview";
+import { FeaturedArticles } from "@/components/home/FeaturedArticles";
+import { NewsletterSection } from "@/components/home/NewsletterSection";
+import { GitHubSection } from "@/components/home/GitHubSection";
+import { getFeaturedArticles, getArticleCount } from "@/lib/content";
+import type { GitHubRepo } from "@/lib/types";
 
 async function getGitHubRepos(): Promise<GitHubRepo[]> {
   try {
     const res = await fetch(
-      "https://api.github.com/users/kenokamoto/repos?sort=updated&per_page=6",
+      "https://api.github.com/users/kgraph57/repos?sort=updated&per_page=6",
       { next: { revalidate: 3600 } },
-    )
-    if (!res.ok) return []
-    const repos = await res.json()
-    return repos
-      .filter((r: GitHubRepo) => !r.name.startsWith("."))
-      .slice(0, 3)
+    );
+    if (!res.ok) return [];
+    const repos = await res.json();
+    return repos.filter((r: GitHubRepo) => !r.name.startsWith(".")).slice(0, 3);
   } catch {
-    return []
+    return [];
   }
 }
 
 export default async function Home() {
-  const featured = getFeaturedArticles()
-  const counts = getArticleCount()
-  const repos = await getGitHubRepos()
+  const featured = getFeaturedArticles();
+  const counts = getArticleCount();
+  const repos = await getGitHubRepos();
 
   return (
     <>
@@ -35,5 +33,5 @@ export default async function Home() {
       <NewsletterSection />
       <GitHubSection repos={repos} />
     </>
-  )
+  );
 }
