@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { Clock, AlertTriangle } from "lucide-react"
+import { Clock, AlertTriangle, ArrowUpRight } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { fadeInUp } from "@/lib/animations"
 import { CATEGORIES, CONTENT_TYPES } from "@/lib/constants"
@@ -22,34 +22,39 @@ export function ArticleCard({ article }: ArticleCardProps) {
     <motion.div variants={fadeInUp}>
       <Link
         href={`/knowledge/${article.slug}`}
-        className="group flex flex-col rounded-xl border bg-card p-5 transition-all hover:-translate-y-0.5 hover:border-primary/20 hover:shadow-md"
+        className="group relative flex h-full flex-col rounded-xl border bg-card p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
       >
-        {/* Top: Category + Content Type */}
+        {/* Arrow indicator */}
+        <ArrowUpRight className="absolute right-4 top-4 h-4 w-4 text-muted-foreground/0 transition-all duration-200 group-hover:text-primary/60 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+
+        {/* Category + Type */}
         <div className="flex items-center gap-2">
           {Icon && (
             <div
               className={cn(
-                "flex h-7 w-7 items-center justify-center rounded-md",
+                "flex h-8 w-8 items-center justify-center rounded-lg",
                 category?.bgColor,
                 category?.darkBgColor,
               )}
             >
-              <Icon className={cn("h-3.5 w-3.5", category?.color)} />
+              <Icon className={cn("h-4 w-4", category?.color)} />
             </div>
           )}
-          <Badge variant="secondary" className="text-[10px] font-normal">
-            {contentType?.label}
-          </Badge>
-          {article.riskLevel === "high" && (
-            <Badge variant="destructive" className="gap-1 text-[10px]">
-              <AlertTriangle className="h-2.5 w-2.5" />
-              高リスク
+          <div className="flex items-center gap-1.5">
+            <Badge variant="secondary" className="rounded-md text-[10px] font-normal">
+              {contentType?.label}
             </Badge>
-          )}
+            {article.riskLevel === "high" && (
+              <Badge variant="destructive" className="gap-0.5 rounded-md text-[10px]">
+                <AlertTriangle className="h-2.5 w-2.5" />
+                高リスク
+              </Badge>
+            )}
+          </div>
         </div>
 
         {/* Title */}
-        <h3 className="mt-3 line-clamp-2 text-sm font-semibold leading-snug group-hover:text-primary">
+        <h3 className="mt-3 line-clamp-2 text-[0.9375rem] font-semibold leading-snug tracking-tight group-hover:text-primary">
           {article.title}
         </h3>
 
@@ -58,19 +63,21 @@ export function ArticleCard({ article }: ArticleCardProps) {
           {article.description}
         </p>
 
-        {/* Footer: tags + meta */}
+        {/* Tags + Meta */}
         <div className="mt-auto pt-4">
-          <div className="flex flex-wrap gap-1">
-            {article.tags.slice(0, 3).map((tag) => (
-              <span
-                key={tag}
-                className="rounded-md bg-muted px-1.5 py-0.5 text-[10px] text-muted-foreground"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-          <div className="mt-2 flex items-center gap-3 text-[10px] text-muted-foreground">
+          {article.tags.length > 0 && (
+            <div className="flex flex-wrap gap-1 mb-2.5">
+              {article.tags.slice(0, 3).map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded bg-muted px-1.5 py-0.5 text-[10px] text-muted-foreground"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+          <div className="flex items-center gap-3 text-[10px] text-muted-foreground">
             <span>{article.publishedAt}</span>
             {article.estimatedReadTime > 0 && (
               <span className="flex items-center gap-0.5">
@@ -81,7 +88,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
             {article.difficulty && (
               <Badge
                 variant="outline"
-                className="h-4 text-[9px] font-normal"
+                className="ml-auto h-[18px] rounded px-1.5 text-[9px] font-normal"
               >
                 {article.difficulty === "beginner"
                   ? "初級"

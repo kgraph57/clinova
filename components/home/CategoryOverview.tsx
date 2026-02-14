@@ -12,14 +12,14 @@ interface CategoryOverviewProps {
 
 export function CategoryOverview({ counts }: CategoryOverviewProps) {
   return (
-    <section className="py-16 sm:py-20">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <section className="py-20 sm:py-24">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="text-center">
           <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
             カテゴリから探す
           </h2>
-          <p className="mt-2 text-sm text-muted-foreground">
-            目的に合わせてナレッジを体系的にアクセス
+          <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
+            5つの領域で医療AIナレッジを体系的に整理
           </p>
         </div>
 
@@ -28,7 +28,7 @@ export function CategoryOverview({ counts }: CategoryOverviewProps) {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
-          className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5"
+          className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-5"
         >
           {CATEGORIES.map((cat) => {
             const Icon = cat.icon
@@ -38,22 +38,17 @@ export function CategoryOverview({ counts }: CategoryOverviewProps) {
                 <Link
                   href={`/knowledge?category=${cat.id}`}
                   className={cn(
-                    "group flex flex-col items-center rounded-xl border p-6 text-center transition-all",
-                    "hover:-translate-y-0.5 hover:border-primary/20 hover:shadow-md",
+                    "group flex flex-col items-center rounded-xl border p-6 text-center transition-all duration-200",
+                    "hover:-translate-y-1 hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5",
                     cat.bgColor,
                     cat.darkBgColor,
                   )}
                 >
-                  <div
-                    className={cn(
-                      "flex h-12 w-12 items-center justify-center rounded-lg",
-                      "bg-white/80 dark:bg-white/10",
-                    )}
-                  >
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/80 shadow-sm dark:bg-white/10">
                     <Icon className={cn("h-6 w-6", cat.color)} />
                   </div>
                   <h3 className="mt-3 text-sm font-semibold">{cat.label}</h3>
-                  <p className="mt-1 text-xs text-muted-foreground">
+                  <p className="mt-0.5 text-xs text-muted-foreground">
                     {count} 件
                   </p>
                 </Link>

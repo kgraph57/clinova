@@ -21,25 +21,25 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="mx-auto flex h-14 max-w-6xl items-center px-4 sm:px-6">
-        <Link href="/" className="mr-8 flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-            <span className="text-sm font-bold text-primary-foreground">C</span>
+    <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
+      <div className="mx-auto flex h-14 max-w-5xl items-center px-4 sm:px-6">
+        <Link href="/" className="mr-8 flex items-center gap-2.5">
+          <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-teal-500 to-teal-600 shadow-sm dark:from-teal-500 dark:to-teal-700">
+            <span className="text-xs font-bold text-white">C</span>
           </div>
-          <span className="text-lg font-bold tracking-tight">Clinova</span>
+          <span className="text-base font-bold tracking-tight">Clinova</span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden items-center gap-0.5 md:flex">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               className={cn(
-                "px-3 py-2 text-sm font-medium rounded-md transition-colors",
+                "px-3 py-1.5 text-[13px] font-medium rounded-md transition-colors",
                 pathname === item.href
                   ? "text-primary bg-primary/5"
-                  : "text-muted-foreground hover:text-foreground hover:bg-accent"
+                  : "text-muted-foreground hover:text-foreground hover:bg-accent",
               )}
             >
               {item.label}
@@ -52,7 +52,7 @@ export function Header() {
           <Button
             variant="ghost"
             size="icon"
-            className="h-9 w-9 md:hidden"
+            className="h-8 w-8 md:hidden"
             onClick={() => setMobileOpen(true)}
           >
             <Menu className="h-4 w-4" />

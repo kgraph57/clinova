@@ -15,20 +15,20 @@ export function FeaturedArticles({ articles }: FeaturedArticlesProps) {
   if (articles.length === 0) return null
 
   return (
-    <section className="py-16 sm:py-20">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <section className="py-16 sm:py-24">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="flex items-end justify-between">
           <div>
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+            <h2 className="text-xl font-bold tracking-tight sm:text-2xl">
               注目のナレッジ
             </h2>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-1.5 text-[13px] text-muted-foreground">
               医療AIの実践に役立つ厳選コンテンツ
             </p>
           </div>
           <Link
             href="/knowledge"
-            className="hidden items-center gap-1 text-sm font-medium text-primary hover:underline sm:flex"
+            className="hidden items-center gap-1 text-[13px] font-medium text-primary transition-colors hover:text-primary/80 sm:flex"
           >
             すべて見る
             <ArrowRight className="h-3.5 w-3.5" />
@@ -47,10 +47,10 @@ export function FeaturedArticles({ articles }: FeaturedArticlesProps) {
           ))}
         </motion.div>
 
-        <div className="mt-6 text-center sm:hidden">
+        <div className="mt-8 text-center sm:hidden">
           <Link
             href="/knowledge"
-            className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+            className="inline-flex items-center gap-1 text-[13px] font-medium text-primary"
           >
             すべて見る
             <ArrowRight className="h-3.5 w-3.5" />

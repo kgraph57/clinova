@@ -3,6 +3,7 @@
 import { useSearchParams } from "next/navigation"
 import { Suspense } from "react"
 import { motion } from "framer-motion"
+import { Search } from "lucide-react"
 import { containerVariants } from "@/lib/animations"
 import { SearchBar } from "./SearchBar"
 import { CategorySidebar } from "./CategorySidebar"
@@ -35,16 +36,16 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
   const activeCat = CATEGORIES.find((c) => c.id === category)
 
   return (
-    <div className="flex gap-8">
+    <div className="flex gap-10">
       <CategorySidebar counts={counts} />
 
       <div className="min-w-0 flex-1">
-        <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h1 className="text-2xl font-bold tracking-tight">
+            <h1 className="text-xl font-bold tracking-tight sm:text-2xl">
               {activeCat ? activeCat.label : "すべてのナレッジ"}
             </h1>
-            <p className="mt-1 text-sm text-muted-foreground">
+            <p className="mt-1 text-[13px] text-muted-foreground">
               {filtered.length} 件のコンテンツ
             </p>
           </div>
@@ -54,12 +55,12 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
         </div>
 
         {/* Mobile category pills */}
-        <div className="mb-6 flex gap-2 overflow-x-auto pb-2 lg:hidden">
+        <div className="mb-6 flex gap-1.5 overflow-x-auto pb-2 lg:hidden">
           <a
             href="/knowledge"
-            className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${
+            className={`shrink-0 rounded-full px-3 py-1.5 text-[11px] font-medium transition-colors ${
               !category
-                ? "bg-primary text-primary-foreground"
+                ? "bg-primary text-primary-foreground shadow-sm"
                 : "bg-muted text-muted-foreground hover:bg-accent"
             }`}
           >
@@ -69,9 +70,9 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
             <a
               key={cat.id}
               href={`/knowledge?category=${cat.id}`}
-              className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${
+              className={`shrink-0 rounded-full px-3 py-1.5 text-[11px] font-medium transition-colors ${
                 category === cat.id
-                  ? "bg-primary text-primary-foreground"
+                  ? "bg-primary text-primary-foreground shadow-sm"
                   : "bg-muted text-muted-foreground hover:bg-accent"
               }`}
             >
@@ -92,8 +93,11 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
             ))}
           </motion.div>
         ) : (
-          <div className="py-20 text-center">
-            <p className="text-muted-foreground">
+          <div className="py-24 text-center">
+            <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-muted">
+              <Search className="h-5 w-5 text-muted-foreground" />
+            </div>
+            <p className="mt-4 text-[13px] text-muted-foreground">
               {query
                 ? `「${query}」に一致するコンテンツはありません`
                 : "このカテゴリにはまだコンテンツがありません"}
@@ -107,7 +111,7 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
 
 export function KnowledgeContent(props: KnowledgeContentProps) {
   return (
-    <Suspense fallback={<div className="py-20 text-center text-muted-foreground">読み込み中...</div>}>
+    <Suspense fallback={<div className="py-24 text-center text-[13px] text-muted-foreground">読み込み中...</div>}>
       <KnowledgeInner {...props} />
     </Suspense>
   )

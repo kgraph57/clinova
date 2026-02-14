@@ -14,14 +14,14 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
   const contentType = CONTENT_TYPES.find((c) => c.id === article.contentType)
 
   return (
-    <div className="mb-8">
+    <div className="mb-10">
       {/* Breadcrumbs */}
-      <nav className="mb-4 flex items-center gap-1 text-xs text-muted-foreground">
-        <Link href="/" className="hover:text-foreground">
+      <nav className="mb-6 flex items-center gap-1 text-[11px] text-muted-foreground">
+        <Link href="/" className="transition-colors hover:text-foreground">
           ホーム
         </Link>
         <ChevronRight className="h-3 w-3" />
-        <Link href="/knowledge" className="hover:text-foreground">
+        <Link href="/knowledge" className="transition-colors hover:text-foreground">
           ナレッジ
         </Link>
         {category && (
@@ -29,7 +29,7 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
             <ChevronRight className="h-3 w-3" />
             <Link
               href={`/knowledge?category=${category.id}`}
-              className="hover:text-foreground"
+              className="transition-colors hover:text-foreground"
             >
               {category.label}
             </Link>
@@ -38,11 +38,11 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
       </nav>
 
       {/* Badges */}
-      <div className="mb-3 flex flex-wrap items-center gap-2">
+      <div className="mb-4 flex flex-wrap items-center gap-2">
         {category && (
           <Badge
             variant="secondary"
-            className={cn("gap-1", category.bgColor, category.darkBgColor)}
+            className={cn("gap-1 rounded-md", category.bgColor, category.darkBgColor)}
           >
             {(() => {
               const Icon = category.icon
@@ -52,12 +52,12 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
           </Badge>
         )}
         {contentType && (
-          <Badge variant="outline" className="text-xs font-normal">
+          <Badge variant="outline" className="rounded-md text-[10px] font-normal">
             {contentType.label}
           </Badge>
         )}
         {article.riskLevel === "high" && (
-          <Badge variant="destructive" className="gap-1">
+          <Badge variant="destructive" className="gap-1 rounded-md">
             <AlertTriangle className="h-3 w-3" />
             高リスク
           </Badge>
@@ -65,7 +65,7 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
         {article.riskLevel === "medium" && (
           <Badge
             variant="secondary"
-            className="gap-1 border-amber-300 bg-amber-50 text-amber-700 dark:bg-amber-950/30 dark:text-amber-300"
+            className="gap-1 rounded-md border-amber-300 bg-amber-50 text-amber-700 dark:bg-amber-950/30 dark:text-amber-300"
           >
             <AlertTriangle className="h-3 w-3" />
             中リスク
@@ -74,17 +74,17 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
       </div>
 
       {/* Title */}
-      <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+      <h1 className="text-2xl font-bold leading-tight tracking-tight sm:text-3xl">
         {article.title}
       </h1>
 
       {/* Description */}
-      <p className="mt-2 text-base text-muted-foreground">
+      <p className="mt-3 text-[0.9375rem] leading-relaxed text-muted-foreground">
         {article.description}
       </p>
 
       {/* Meta */}
-      <div className="mt-4 flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
+      <div className="mt-5 flex flex-wrap items-center gap-3 text-[11px] text-muted-foreground">
         <span>{article.publishedAt}</span>
         {article.estimatedReadTime > 0 && (
           <span className="flex items-center gap-1">
@@ -93,7 +93,7 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
           </span>
         )}
         {article.difficulty && (
-          <Badge variant="outline" className="text-[10px] font-normal">
+          <Badge variant="outline" className="rounded-md text-[10px] font-normal">
             {article.difficulty === "beginner"
               ? "初級"
               : article.difficulty === "intermediate"
@@ -105,17 +105,20 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
 
       {/* Tags */}
       {article.tags.length > 0 && (
-        <div className="mt-3 flex flex-wrap gap-1.5">
+        <div className="mt-4 flex flex-wrap gap-1.5">
           {article.tags.map((tag) => (
             <span
               key={tag}
-              className="rounded-md bg-muted px-2 py-0.5 text-[11px] text-muted-foreground"
+              className="rounded-md bg-muted px-2 py-0.5 text-[10px] text-muted-foreground"
             >
               {tag}
             </span>
           ))}
         </div>
       )}
+
+      {/* Divider */}
+      <div className="mt-8 border-b" />
     </div>
   )
 }

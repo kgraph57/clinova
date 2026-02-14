@@ -31,13 +31,13 @@ export function SearchBar() {
 
   return (
     <div className="relative">
-      <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+      <Search className="absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-muted-foreground" />
       <Input
         type="search"
         placeholder="キーワードで検索..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="pl-9 pr-8"
+        className="rounded-lg pl-9 pr-8 text-[13px]"
       />
       {query && (
         <Button
