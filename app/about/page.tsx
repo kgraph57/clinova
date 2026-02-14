@@ -4,7 +4,7 @@ import { Github, Mail, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Clinovaについて - 医療従事者のためのAIナレッジポータル",
+  description: "Hoshizuについて - 散らばる星を、星座にする",
 };
 
 export default function AboutPage() {
@@ -18,7 +18,9 @@ export default function AboutPage() {
           </div>
           <div>
             <h1 className="text-xl font-medium">Ken Okamoto</h1>
-            <p className="mt-0.5 text-sm text-muted-foreground">医師 / 医療AI研究者</p>
+            <p className="mt-0.5 text-sm text-muted-foreground">
+              医師 / 医療AI研究者
+            </p>
           </div>
         </div>
 
@@ -44,17 +46,17 @@ export default function AboutPage() {
 
       {/* Mission */}
       <section className="mt-16">
-        <h2 className="font-serif text-2xl tracking-tight">Clinovaとは</h2>
+        <h2 className="font-serif text-2xl tracking-tight">Hoshizuとは</h2>
         <div className="mt-6 space-y-4 text-base leading-[1.8] text-muted-foreground">
           <p>
-            Clinova（クリノバ）は、医療従事者のためのAIナレッジポータルです。
-            臨床現場や研究で使える AI プロンプト、ワークフローガイド、
-            学習コンテンツを体系的にまとめています。
+            Hoshizu（星図）は、散らばるデータをつなぎ、使えるナレッジに変える
+            医療AIナレッジポータルです。プロンプト、ワークフローガイド、
+            学習コンテンツを1箇所に集約しています。
           </p>
           <p>
             医療AIに関する情報はTwitter、Note、論文、書籍など様々な場所に散在しています。
-            それらを1箇所に集約し、忙しい医療者がすぐに実践できる形で提供することが
-            Clinovaのミッションです。
+            それらの「星」をつなぎ、実践で使える「星座」に変えることが
+            Hoshizuのミッションです。
           </p>
           <p>
             「AI本を読んでも実践に結びつかない」「情報が散らばりすぎて
@@ -66,7 +68,9 @@ export default function AboutPage() {
 
       {/* Contact CTA */}
       <section className="mt-16 rounded-2xl bg-warm-oat p-8 dark:bg-muted sm:p-10">
-        <h2 className="font-serif text-xl tracking-tight">フィードバック・コラボレーション</h2>
+        <h2 className="font-serif text-xl tracking-tight">
+          フィードバック・コラボレーション
+        </h2>
         <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
           コンテンツの提案、誤りの報告、コラボレーションのご相談など、
           お気軽にお問い合わせください。

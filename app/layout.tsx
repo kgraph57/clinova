@@ -20,16 +20,16 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   title: {
-    default: "Clinova - 医療従事者のためのAIナレッジポータル",
-    template: "%s | Clinova",
+    default: "Hoshizu - 散らばる星を、星座にする",
+    template: "%s | Hoshizu",
   },
   description:
-    "医療AI、体系的に。プロンプトライブラリ、ワークフローガイド、キュレーション記事を1箇所に集約。",
+    "散らばるデータをつなぎ、使えるナレッジに。プロンプト、ワークフロー、ガイドを1箇所に集約。",
   metadataBase: new URL("https://kgraph57.github.io/clinova"),
   openGraph: {
     type: "website",
     locale: "ja_JP",
-    siteName: "Clinova",
+    siteName: "Hoshizu",
   },
 };
 

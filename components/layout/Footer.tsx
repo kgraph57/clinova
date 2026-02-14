@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { Github, Twitter } from "lucide-react"
+import Link from "next/link";
+import { Github, Twitter } from "lucide-react";
 
 const FOOTER_LINKS = {
   product: {
@@ -25,7 +25,7 @@ const FOOTER_LINKS = {
       { href: "/contact", label: "お問い合わせ" },
     ],
   },
-}
+};
 
 export function Footer() {
   return (
@@ -33,11 +33,13 @@ export function Footer() {
       <div className="mx-auto max-w-[1200px] px-6">
         <div className="grid gap-10 py-16 md:grid-cols-4">
           <div>
-            <span className="text-sm font-semibold tracking-tight">Clinova</span>
+            <span className="text-sm font-semibold tracking-tight">
+              Hoshizu
+            </span>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              医療従事者のための
+              散らばる星を、
               <br />
-              AIナレッジポータル
+              星座にする。
             </p>
             <div className="mt-5 flex gap-4">
               <a
@@ -79,9 +81,9 @@ export function Footer() {
         </div>
 
         <div className="border-t py-6 text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Clinova. All rights reserved.
+          &copy; {new Date().getFullYear()} Hoshizu. All rights reserved.
         </div>
       </div>
     </footer>
-  )
+  );
 }

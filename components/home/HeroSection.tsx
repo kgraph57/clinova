@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { motion } from "framer-motion"
-import { ArrowRight } from "lucide-react"
-import { containerVariants, fadeInUp } from "@/lib/animations"
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import { containerVariants, fadeInUp } from "@/lib/animations";
 
 export function HeroSection() {
   return (
@@ -19,17 +19,17 @@ export function HeroSection() {
             variants={fadeInUp}
             className="font-serif text-4xl leading-[1.15] tracking-tight sm:text-5xl lg:text-6xl"
           >
-            医療AIナレッジを、
+            散らばる星を、
             <br />
-            体系的に。
+            星座にする。
           </motion.h1>
 
           <motion.p
             variants={fadeInUp}
             className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground"
           >
-            プロンプトライブラリからワークフローガイドまで。
-            臨床と研究で使える医療AIナレッジを1箇所に集約し、
+            散在するデータをつなぎ、使えるナレッジに。
+            プロンプト、ワークフロー、ガイドを1箇所に集約し、
             あなたの実践を加速します。
           </motion.p>
 
@@ -54,5 +54,5 @@ export function HeroSection() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

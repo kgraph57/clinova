@@ -1,9 +1,9 @@
 import { Stethoscope, Microscope, Heart, Brain, Workflow } from "lucide-react";
 
 export const SITE_CONFIG = {
-  name: "Clinova",
-  description: "医療従事者のためのAIナレッジポータル",
-  tagline: "医療AI、体系的に。",
+  name: "Hoshizu",
+  description: "散らばる星を、星座にする。",
+  tagline: "散らばる星を、星座にする。",
   url: "https://kgraph57.github.io/clinova",
   author: {
     name: "Ken Okamoto",

@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Mail, ArrowRight } from "lucide-react"
-import { fadeInUp } from "@/lib/animations"
+import { motion } from "framer-motion";
+import { Mail, ArrowRight } from "lucide-react";
+import { fadeInUp } from "@/lib/animations";
 
 export function NewsletterSection() {
   return (
@@ -27,7 +27,7 @@ export function NewsletterSection() {
 
             <div className="mt-8">
               <a
-                href="mailto:okaken0507@gmail.com?subject=Clinova%20メルマガ登録希望"
+                href="mailto:okaken0507@gmail.com?subject=Hoshizu%20メルマガ登録希望"
                 className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-80"
               >
                 メールで登録
@@ -38,5 +38,5 @@ export function NewsletterSection() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
