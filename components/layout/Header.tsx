@@ -11,6 +11,7 @@ import { useState } from "react";
 
 const NAV_ITEMS = [
   { href: "/knowledge", label: "ナレッジ" },
+  { href: "/learn", label: "Learn" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "お問い合わせ" },
 ];

@@ -13,6 +13,7 @@ import { cn } from "@/lib/utils";
 const NAV_ITEMS = [
   { href: "/", label: "ホーム" },
   { href: "/knowledge", label: "ナレッジ" },
+  { href: "/learn", label: "Learn" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "お問い合わせ" },
 ];

@@ -45,10 +45,11 @@ export function HeroSection() {
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
-              href="/about"
-              className="text-sm text-muted-foreground underline underline-offset-4 decoration-border transition-colors hover:text-foreground hover:decoration-foreground"
+              href="/learn"
+              className="inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium transition-colors hover:bg-muted"
             >
-              詳しく知る
+              学習コース
+              <ArrowRight className="h-4 w-4" />
             </Link>
           </motion.div>
         </motion.div>
