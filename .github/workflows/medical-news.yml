@@ -1,9 +1,9 @@
 name: Medical AI News Fetch (Weekly)
 
 on:
-  # 毎週月曜 9:00 JST (日曜 24:00 UTC)
+  # 毎週日曜 5:00 JST (土曜 20:00 UTC)
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: "0 20 * * 6"
   # 手動実行
   workflow_dispatch:
 
@@ -35,11 +35,11 @@ jobs:
       - name: Check for new data
         id: check
         run: |
-          if git diff --quiet scripts/data/; then
+          if git diff --quiet data/; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            PAPERS=$(jq '.stats.totalPapers' scripts/data/latest-fetch.json)
-            REGULATORY=$(jq '.stats.totalRegulatory' scripts/data/latest-fetch.json)
+            PAPERS=$(jq '.stats.totalPapers' data/latest-fetch.json)
+            REGULATORY=$(jq '.stats.totalRegulatory' data/latest-fetch.json)
             echo "has_changes=true" >> $GITHUB_OUTPUT
             echo "papers=$PAPERS" >> $GITHUB_OUTPUT
             echo "regulatory=$REGULATORY" >> $GITHUB_OUTPUT
@@ -50,7 +50,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add scripts/data/
+          git add data/
           git commit -m "data: 医療AI最新データ取得 ($(date +%Y-%m-%d))"
           git push
 
@@ -73,8 +73,8 @@ jobs:
                 `### 次のステップ\n\n` +
                 `Claude Code で以下を実行:\n` +
                 `\`\`\`\n` +
-                `最新の取得データ (scripts/data/latest-fetch.json) から記事を書いて\n` +
+                `最新の取得データ (data/latest-fetch.json) から記事を書いて\n` +
                 `\`\`\`\n\n` +
-                `データファイル: \`scripts/data/latest-fetch.json\``,
+                `データファイル: \`data/latest-fetch.json\``,
               labels: ['auto-generated', 'content']
             });
