@@ -77,4 +77,5 @@ export const CONTENT_TYPES = [
   { id: "tip", label: "Tips", labelEn: "Tips" },
   { id: "guide", label: "ガイド", labelEn: "Guide" },
   { id: "article", label: "記事", labelEn: "Article" },
+  { id: "news", label: "ニュース", labelEn: "News" },
 ] as const;

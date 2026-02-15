@@ -3,7 +3,7 @@ export interface Article {
   title: string;
   description: string;
   category: string;
-  contentType: "prompt" | "tip" | "guide" | "article";
+  contentType: "prompt" | "tip" | "guide" | "article" | "news";
   difficulty?: "beginner" | "intermediate" | "advanced";
   tags: string[];
   publishedAt: string;

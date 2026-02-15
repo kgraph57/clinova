@@ -7,7 +7,7 @@ import type { Article } from "./types";
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
 function getContentDirectories(): string[] {
-  return ["prompts", "tips", "guides", "articles"];
+  return ["prompts", "tips", "guides", "articles", "news"];
 }
 
 function readMDXFile(filePath: string): Article | null {
@@ -94,16 +94,7 @@ export function getAllSlugs(): string[] {
 }
 
 export function getNewsArticles(): Article[] {
-  return getAllArticles().filter(
-    (a) =>
-      a.contentType === "article" &&
-      (a.tags.some(
-        (t) => t.includes("ニュースレター") || t.includes("最新動向"),
-      ) ||
-        a.slug.startsWith("newsletter-") ||
-        a.slug.startsWith("paper-review-") ||
-        a.slug.startsWith("regulation-update-")),
-  );
+  return getAllArticles().filter((a) => a.contentType === "news");
 }
 
 export function getLatestNews(count = 3): Article[] {
@@ -115,6 +106,8 @@ export function getArticleCount(): Record<string, number> {
   const counts: Record<string, number> = { all: articles.length };
   for (const article of articles) {
     counts[article.category] = (counts[article.category] ?? 0) + 1;
+    counts[`type:${article.contentType}`] =
+      (counts[`type:${article.contentType}`] ?? 0) + 1;
   }
   return counts;
 }

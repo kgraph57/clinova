@@ -236,6 +236,33 @@
   border-color: var(--border);
   margin: 2.5rem 0;
 }
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.prose thead {
+  border-bottom: 2px solid var(--border);
+}
+.prose th {
+  text-align: left;
+  font-weight: 600;
+  padding: 0.625rem 1rem;
+  color: var(--foreground);
+}
+.prose td {
+  padding: 0.625rem 1rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted-foreground);
+}
+.prose tbody tr:last-child td {
+  border-bottom: none;
+}
+.prose tbody tr:hover {
+  background: var(--muted);
+}
 
 /* ── Smooth scrolling ────────────────────── */
 html {
