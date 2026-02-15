@@ -3,7 +3,11 @@ import { CategoryOverview } from "@/components/home/CategoryOverview";
 import { FeaturedArticles } from "@/components/home/FeaturedArticles";
 import { NewsletterSection } from "@/components/home/NewsletterSection";
 import { GitHubSection } from "@/components/home/GitHubSection";
-import { getFeaturedArticles, getArticleCount } from "@/lib/content";
+import {
+  getFeaturedArticles,
+  getArticleCount,
+  getLatestNews,
+} from "@/lib/content";
 import type { GitHubRepo } from "@/lib/types";
 
 async function getGitHubRepos(): Promise<GitHubRepo[]> {
@@ -23,6 +27,7 @@ async function getGitHubRepos(): Promise<GitHubRepo[]> {
 export default async function Home() {
   const featured = getFeaturedArticles();
   const counts = getArticleCount();
+  const news = getLatestNews(3);
   const repos = await getGitHubRepos();
 
   return (
@@ -30,7 +35,7 @@ export default async function Home() {
       <HeroSection />
       <CategoryOverview counts={counts} />
       <FeaturedArticles articles={featured} />
-      <NewsletterSection />
+      <NewsletterSection articles={news} />
       <GitHubSection repos={repos} />
     </>
   );

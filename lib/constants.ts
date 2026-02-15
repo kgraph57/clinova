@@ -66,6 +66,7 @@ export type CategoryId = (typeof CATEGORIES)[number]["id"];
 export const NAV_ITEMS = [
   { href: "/", label: "Home" },
   { href: "/knowledge", label: "Knowledge" },
+  { href: "/news", label: "News" },
   { href: "/learn", label: "Learn" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
