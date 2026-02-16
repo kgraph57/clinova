@@ -6,8 +6,10 @@ import {
   getAllSlugs,
   getArticlesByCategory,
 } from "@/lib/content";
+import { getRelatedCourses } from "@/lib/courses";
 import { ArticleHeader } from "@/components/article/ArticleHeader";
 import { ArticleFooter } from "@/components/article/ArticleFooter";
+import { ReadingProgress } from "@/components/article/ReadingProgress";
 import { PromptTemplate } from "@/components/article/PromptTemplate";
 import { Warning } from "@/components/article/Warning";
 import { SITE_CONFIG } from "@/lib/constants";
@@ -56,6 +58,8 @@ export default async function ArticlePage({ params }: PageProps) {
     .filter((a) => a.slug !== article.slug)
     .slice(0, 3);
 
+  const relatedCourses = getRelatedCourses(article.category);
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -79,6 +83,7 @@ export default async function ArticlePage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <ReadingProgress />
       <div className="mx-auto max-w-[720px] px-6 py-12 sm:py-20">
         <ArticleHeader article={article} />
 
@@ -86,7 +91,11 @@ export default async function ArticlePage({ params }: PageProps) {
           <MDXRemote source={article.content} components={mdxComponents} />
         </article>
 
-        <ArticleFooter article={article} relatedArticles={related} />
+        <ArticleFooter
+          article={article}
+          relatedArticles={related}
+          relatedCourses={relatedCourses}
+        />
       </div>
     </>
   );

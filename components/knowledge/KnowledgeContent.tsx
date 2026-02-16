@@ -116,20 +116,26 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
           >
             すべて
           </button>
-          {CONTENT_TYPES.map((ct) => (
-            <button
-              key={ct.id}
-              type="button"
-              onClick={() => handleTypeChange(ct.id)}
-              className={`shrink-0 rounded-full border px-4 py-1.5 text-sm transition-colors ${
-                contentType === ct.id
-                  ? "border-foreground bg-foreground text-background"
-                  : "border-border bg-background text-muted-foreground hover:border-foreground hover:text-foreground"
-              }`}
-            >
-              {ct.label}
-            </button>
-          ))}
+          {CONTENT_TYPES.map((ct) => {
+            const typeCount = counts[`type:${ct.id}`] ?? 0;
+            return (
+              <button
+                key={ct.id}
+                type="button"
+                onClick={() => handleTypeChange(ct.id)}
+                className={`shrink-0 rounded-full border px-4 py-1.5 text-sm transition-colors ${
+                  contentType === ct.id
+                    ? "border-foreground bg-foreground text-background"
+                    : "border-border bg-background text-muted-foreground hover:border-foreground hover:text-foreground"
+                }`}
+              >
+                {ct.label}
+                <span className="ml-1.5 tabular-nums opacity-60">
+                  {typeCount}
+                </span>
+              </button>
+            );
+          })}
         </div>
 
         {filtered.length > 0 ? (
@@ -148,8 +154,19 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
             <p className="text-muted-foreground">
               {query
                 ? `「${query}」に一致するコンテンツはありません`
-                : "このカテゴリにはまだコンテンツがありません"}
+                : contentType && category
+                  ? `${activeCat?.label ?? "このカテゴリ"}の${CONTENT_TYPES.find((ct) => ct.id === contentType)?.label ?? ""}はまだありません`
+                  : "このカテゴリにはまだコンテンツがありません"}
             </p>
+            {contentType && category && (
+              <button
+                type="button"
+                onClick={() => handleTypeChange("")}
+                className="mt-4 text-sm text-muted-foreground underline underline-offset-4 transition-colors hover:text-foreground"
+              >
+                フィルタを解除してすべて表示
+              </button>
+            )}
           </div>
         )}
       </div>

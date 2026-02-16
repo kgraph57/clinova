@@ -5,6 +5,7 @@ import {
   getCourseById,
   getLessonsForCourse,
 } from "@/lib/courses"
+import { SITE_CONFIG } from "@/lib/constants"
 import { CourseHeader } from "@/components/learn/CourseHeader"
 import { LessonList } from "@/components/learn/LessonList"
 
@@ -26,6 +27,11 @@ export async function generateMetadata({
   return {
     title: course.title,
     description: course.description,
+    openGraph: {
+      title: `${course.title} | Hoshizu`,
+      description: course.description,
+      type: "website",
+    },
   }
 }
 
@@ -39,10 +45,31 @@ export default async function CoursePage({ params }: PageProps) {
 
   const lessons = getLessonsForCourse(courseId)
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name: course.title,
+    description: course.description,
+    provider: {
+      "@type": "Person",
+      name: SITE_CONFIG.author.name,
+    },
+    numberOfLessons: course.lessonCount,
+    timeRequired: `PT${course.estimatedTotalMinutes}M`,
+    isAccessibleForFree: true,
+    inLanguage: "ja",
+  }
+
   return (
-    <div className="mx-auto max-w-[720px] px-6 py-12 sm:py-20">
-      <CourseHeader course={course} />
-      <LessonList courseId={courseId} lessons={lessons} />
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="mx-auto max-w-[720px] px-6 py-12 sm:py-20">
+        <CourseHeader course={course} />
+        <LessonList courseId={courseId} lessons={lessons} />
+      </div>
+    </>
   )
 }

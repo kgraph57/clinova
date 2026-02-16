@@ -1,15 +1,16 @@
-import Link from "next/link"
-import { ChevronRight, Clock, AlertTriangle } from "lucide-react"
-import { CATEGORIES, CONTENT_TYPES } from "@/lib/constants"
-import type { Article } from "@/lib/types"
+import Link from "next/link";
+import Image from "next/image";
+import { ChevronRight, Clock, AlertTriangle } from "lucide-react";
+import { CATEGORIES, CONTENT_TYPES } from "@/lib/constants";
+import type { Article } from "@/lib/types";
 
 interface ArticleHeaderProps {
-  article: Article
+  article: Article;
 }
 
 export function ArticleHeader({ article }: ArticleHeaderProps) {
-  const category = CATEGORIES.find((c) => c.id === article.category)
-  const contentType = CONTENT_TYPES.find((c) => c.id === article.contentType)
+  const category = CATEGORIES.find((c) => c.id === article.category);
+  const contentType = CONTENT_TYPES.find((c) => c.id === article.contentType);
 
   return (
     <div className="mb-12">
@@ -19,7 +20,10 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
           ホーム
         </Link>
         <ChevronRight className="h-3 w-3" />
-        <Link href="/knowledge" className="transition-colors hover:text-foreground">
+        <Link
+          href="/knowledge"
+          className="transition-colors hover:text-foreground"
+        >
           ナレッジ
         </Link>
         {category && (
@@ -65,8 +69,22 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
         {article.description}
       </p>
 
-      {/* Date + Read time */}
+      {/* Author + Date + Read time */}
       <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+        <Link
+          href="/about"
+          className="flex items-center gap-2 transition-colors hover:text-foreground"
+        >
+          <Image
+            src="https://github.com/kgraph57.png"
+            alt="Ken Okamoto"
+            width={24}
+            height={24}
+            className="rounded-full"
+          />
+          <span>Ken Okamoto</span>
+        </Link>
+        <span className="text-border">|</span>
         <span>{article.publishedAt}</span>
         {article.estimatedReadTime > 0 && (
           <span className="flex items-center gap-1">
@@ -92,5 +110,5 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
 
       <div className="mt-10 border-b" />
     </div>
-  )
+  );
 }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Twitter } from "lucide-react";
+import { Github, Twitter, Mail, PenLine } from "lucide-react";
 
 const FOOTER_LINKS = {
   product: {
@@ -14,8 +14,9 @@ const FOOTER_LINKS = {
   resources: {
     title: "リソース",
     links: [
+      { href: "/learn", label: "学習コース" },
+      { href: "/news", label: "ニュースレター" },
       { href: "/knowledge?category=ai-fundamentals", label: "AI基礎" },
-      { href: "/knowledge?category=clinical", label: "臨床実践" },
     ],
   },
   company: {
@@ -47,16 +48,27 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground transition-colors hover:text-foreground"
+                aria-label="GitHub"
               >
                 <Github className="h-4 w-4" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/kgraph_"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground transition-colors hover:text-foreground"
+                aria-label="X (Twitter)"
               >
                 <Twitter className="h-4 w-4" />
+              </a>
+              <a
+                href="https://note.com/kgraph_"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground transition-colors hover:text-foreground"
+                aria-label="note"
+              >
+                <PenLine className="h-4 w-4" />
               </a>
             </div>
           </div>
@@ -78,6 +90,25 @@ export function Footer() {
               </ul>
             </div>
           ))}
+        </div>
+
+        {/* Request CTA */}
+        <div className="border-t py-8">
+          <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="text-sm font-medium">講演・執筆・監修のご依頼</p>
+              <p className="mt-1 text-xs text-muted-foreground">
+                セミナー、記事執筆、研修、コンテンツ監修など、お気軽にご相談ください
+              </p>
+            </div>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-medium transition-colors hover:bg-muted"
+            >
+              <Mail className="h-3.5 w-3.5" />
+              ご依頼・ご相談
+            </Link>
+          </div>
         </div>
 
         <div className="border-t py-6 text-sm text-muted-foreground">

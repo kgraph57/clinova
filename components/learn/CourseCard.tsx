@@ -1,16 +1,20 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { motion } from "framer-motion"
-import { Clock, BookOpen, ArrowRight } from "lucide-react"
-import { fadeInUp } from "@/lib/animations"
-import type { CourseMetadata } from "@/lib/courses"
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { Clock, BookOpen, ArrowRight } from "lucide-react";
+import { fadeInUp } from "@/lib/animations";
+import { CATEGORIES } from "@/lib/constants";
+import type { CourseMetadata } from "@/lib/courses";
 
 interface CourseCardProps {
-  course: CourseMetadata
+  course: CourseMetadata;
 }
 
 export function CourseCard({ course }: CourseCardProps) {
+  const categoryLabel =
+    CATEGORIES.find((c) => c.id === course.category)?.label ?? course.category;
+
   return (
     <motion.div variants={fadeInUp}>
       <Link
@@ -18,7 +22,7 @@ export function CourseCard({ course }: CourseCardProps) {
         className="group flex h-full flex-col rounded-2xl bg-muted/50 p-6 transition-colors hover:bg-muted"
       >
         <div className="flex items-center gap-2 text-sm text-muted-foreground">
-          <span>{course.category}</span>
+          <span>{categoryLabel}</span>
           <span className="text-border">|</span>
           <span className="flex items-center gap-1">
             <BookOpen className="h-3.5 w-3.5" />
@@ -36,12 +40,11 @@ export function CourseCard({ course }: CourseCardProps) {
 
         <div className="mt-auto flex items-center justify-between pt-6">
           <span className="flex items-center gap-1 text-sm text-muted-foreground">
-            <Clock className="h-3.5 w-3.5" />
-            約{course.estimatedTotalMinutes}分
+            <Clock className="h-3.5 w-3.5" />約{course.estimatedTotalMinutes}分
           </span>
           <ArrowRight className="h-4 w-4 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
         </div>
       </Link>
     </motion.div>
-  )
+  );
 }

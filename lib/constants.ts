@@ -4,12 +4,12 @@ export const SITE_CONFIG = {
   name: "Hoshizu",
   description: "散らばる星を、星座にする。",
   tagline: "散らばる星を、星座にする。",
-  url: "https://kgraph57.github.io/clinova",
+  url: "https://kgraph57.github.io/hoshizu",
   author: {
     name: "Ken Okamoto",
     github: "kgraph57",
-    twitter: "",
-    note: "",
+    twitter: "kgraph_",
+    note: "kgraph_",
   },
 } as const;
 
