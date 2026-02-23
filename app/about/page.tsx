@@ -17,6 +17,10 @@ import {
   Target,
   Star,
   ExternalLink,
+  Users,
+  UserCheck,
+  Presentation,
+  Calendar,
 } from "lucide-react";
 import { getArticleCount } from "@/lib/content";
 import { getCourseCount } from "@/lib/courses";
@@ -196,6 +200,64 @@ export default function AboutPage() {
                   <h3 className="text-sm font-medium">{service.label}</h3>
                   <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
                     {service.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Activities */}
+        <section className="mt-16">
+          <h2 className="font-serif text-2xl tracking-tight">講演・教育活動</h2>
+          <div className="mt-6 space-y-4">
+            {[
+              {
+                period: "2025.04 —",
+                title: "院内AIセミナー 企画・開講",
+                detail: "医師・医療従事者向け、全7回シリーズ",
+                icon: Mic,
+              },
+              {
+                period: "2025.08",
+                title: "医師向け生成AI講座（全6講座）",
+                detail:
+                  "後期研修医対象、111スライド・計3時間超の体系プログラム",
+                icon: GraduationCap,
+              },
+              {
+                period: "2026.01",
+                title: "キャリアアップ研修会 登壇",
+                detail: "全職員＋院外300名超参加、ハイブリッド開催",
+                icon: Users,
+              },
+              {
+                period: "2026.02 —",
+                title: "個別AI指導セッション",
+                detail: "CLS・各診療科部長・スタッフへの実践指導",
+                icon: UserCheck,
+              },
+              {
+                period: "2026.04 —",
+                title: "医師のためのAI実践道場（全8回）",
+                detail: "週1回ランチセミナー形式、プロンプト〜論文執筆まで",
+                icon: Presentation,
+              },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="flex items-start gap-4 rounded-xl border p-5"
+              >
+                <item.icon className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs text-muted-foreground">
+                      {item.period}
+                    </span>
+                  </div>
+                  <h3 className="mt-0.5 text-sm font-medium">{item.title}</h3>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {item.detail}
                   </p>
                 </div>
               </div>
