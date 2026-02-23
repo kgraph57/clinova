@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Github, Twitter, Mail, PenLine } from "lucide-react";
+import { Github, Twitter, Mail, PenLine, Rss } from "lucide-react";
 import { EmailCapture } from "@/components/layout/EmailCapture";
+import { SITE_CONFIG } from "@/lib/constants";
 
 const FOOTER_LINKS = {
   services: {
@@ -82,6 +83,15 @@ export function Footer() {
                 aria-label="note"
               >
                 <PenLine className="h-4 w-4" />
+              </a>
+              <a
+                href={`${SITE_CONFIG.url}/feed.xml`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground transition-colors hover:text-foreground"
+                aria-label="RSS Feed"
+              >
+                <Rss className="h-4 w-4" />
               </a>
             </div>
           </div>

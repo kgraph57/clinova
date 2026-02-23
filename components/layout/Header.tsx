@@ -6,6 +6,7 @@ import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "./ThemeToggle";
 import { MobileNav } from "./MobileNav";
+import { SearchDialog } from "./SearchDialog";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 
@@ -47,6 +48,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <SearchDialog />
           <ThemeToggle />
           <Button
             variant="ghost"

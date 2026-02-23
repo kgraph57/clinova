@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import {
   getArticleBySlug,
   getAllSlugs,
@@ -65,11 +66,15 @@ export async function generateMetadata({
   return {
     title: article.title,
     description: article.description,
+    alternates: {
+      canonical: `/knowledge/${slug}`,
+    },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
       publishedTime: article.publishedAt,
+      ...(article.updatedAt && { modifiedTime: article.updatedAt }),
     },
   };
 }
@@ -121,7 +126,11 @@ export default async function ArticlePage({ params }: PageProps) {
         {tocItems.length > 0 && <MobileToc items={tocItems} />}
 
         <article className={`prose ${isNewsletter ? "newsletter-prose" : ""}`}>
-          <MDXRemote source={article.content} components={mdxComponents} />
+          <MDXRemote
+            source={article.content}
+            components={mdxComponents}
+            options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
+          />
         </article>
 
         <ArticleFooter

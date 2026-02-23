@@ -7,6 +7,9 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ScrollToTop } from "@/components/layout/ScrollToTop";
 import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
+import { SkipNavigation } from "@/components/layout/SkipNavigation";
+import { ThemeColorMeta } from "@/components/layout/ThemeColorMeta";
 import "./globals.css";
 
 const inter = Inter({
@@ -29,6 +32,15 @@ export const metadata: Metadata = {
   description:
     "医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。",
   metadataBase: new URL("https://kgraph57.github.io/hoshizu"),
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  alternates: {
+    types: {
+      "application/rss+xml": "/feed.xml",
+    },
+  },
   openGraph: {
     type: "website",
     locale: "ja_JP",
@@ -68,10 +80,14 @@ export default function RootLayout({
       >
         <GoogleAnalytics />
         <ThemeProvider>
+          <ThemeColorMeta />
           <ProgressProvider>
+            <SkipNavigation />
             <div className="relative flex min-h-svh flex-col">
               <Header />
-              <main className="flex-1">{children}</main>
+              <main id="main-content" className="flex-1">
+                <ErrorBoundary>{children}</ErrorBoundary>
+              </main>
               <Footer />
             </div>
             <ScrollToTop />

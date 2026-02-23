@@ -1,3 +1,4 @@
+import { cache } from "react";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -38,7 +39,7 @@ function readMDXFile(filePath: string): Article | null {
   }
 }
 
-export function getAllArticles(): Article[] {
+export const getAllArticles = cache(function getAllArticles(): Article[] {
   const articles: Article[] = [];
 
   for (const dir of getContentDirectories()) {
@@ -56,7 +57,7 @@ export function getAllArticles(): Article[] {
     (a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
   );
-}
+});
 
 export function getArticlesByCategory(category: string): Article[] {
   return getAllArticles().filter((a) => a.category === category);

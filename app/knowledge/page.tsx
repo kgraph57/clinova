@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "ナレッジ",
   description:
     "医療AIのプロンプト、Tips、ワークフローガイドを体系的にまとめたナレッジベース",
+  alternates: {
+    canonical: "/knowledge",
+  },
 };
 
 export default function KnowledgePage() {

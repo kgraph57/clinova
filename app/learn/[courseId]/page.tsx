@@ -33,6 +33,9 @@ export async function generateMetadata({
   return {
     title: course.title,
     description: course.description,
+    alternates: {
+      canonical: `/learn/${courseId}`,
+    },
     openGraph: {
       title: `${course.title} | Hoshizu`,
       description: course.description,

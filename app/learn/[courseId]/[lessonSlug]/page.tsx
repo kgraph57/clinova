@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import {
   getAllLessonParams,
   getCourseById,
@@ -57,6 +58,9 @@ export async function generateMetadata({
   return {
     title: lesson.title,
     description: lesson.description,
+    alternates: {
+      canonical: `/learn/${courseId}/${lessonSlug}`,
+    },
     openGraph: {
       title: `${lesson.title} - ${course?.title ?? "Learn"}`,
       description: lesson.description,
@@ -99,7 +103,11 @@ export default async function LessonPage({ params }: PageProps) {
         <MobileToc items={tocItems} />
 
         <article className="prose">
-          <MDXRemote source={lesson.content} components={mdxComponents} />
+          <MDXRemote
+            source={lesson.content}
+            components={mdxComponents}
+            options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
+          />
         </article>
 
         <LessonCompleteButton courseId={courseId} lessonSlug={lessonSlug} />

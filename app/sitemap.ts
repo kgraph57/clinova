@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllSlugs } from "@/lib/content";
+import { getAllArticles, getAllSlugs } from "@/lib/content";
 import { getAllCourseSlugs, getAllLessonParams } from "@/lib/courses";
 
 export const dynamic = "force-static";
@@ -7,40 +7,51 @@ export const dynamic = "force-static";
 const BASE_URL = "https://kgraph57.github.io/hoshizu";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  // 最新記事の更新日をリストページの lastModified に使う
+  const articles = getAllArticles();
+  const latestArticleDate = articles[0]?.publishedAt
+    ? new Date(articles[0].publishedAt)
+    : new Date();
+
+  // slug → publishedAt のマップ
+  const articleDateMap = new Map(
+    articles.map((a) => [a.slug, new Date(a.updatedAt ?? a.publishedAt)]),
+  );
+
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: BASE_URL,
-      lastModified: new Date(),
+      lastModified: latestArticleDate,
       changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: `${BASE_URL}/knowledge`,
-      lastModified: new Date(),
+      lastModified: latestArticleDate,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${BASE_URL}/learn`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-01-01"),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${BASE_URL}/news`,
-      lastModified: new Date(),
+      lastModified: latestArticleDate,
       changeFrequency: "weekly",
       priority: 0.7,
     },
     {
       url: `${BASE_URL}/about`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-01-01"),
       changeFrequency: "monthly",
       priority: 0.6,
     },
     {
       url: `${BASE_URL}/contact`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-01-01"),
       changeFrequency: "yearly",
       priority: 0.5,
     },
@@ -48,7 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const knowledgePages: MetadataRoute.Sitemap = getAllSlugs().map((slug) => ({
     url: `${BASE_URL}/knowledge/${slug}`,
-    lastModified: new Date(),
+    lastModified: articleDateMap.get(slug) ?? latestArticleDate,
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));

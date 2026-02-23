@@ -1,3 +1,4 @@
+import { cache } from "react";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -106,7 +107,7 @@ function readLessonFile(courseId: string, filename: string): LessonFull | null {
   };
 }
 
-export function getAllCourses(): CourseMetadata[] {
+export const getAllCourses = cache(function getAllCourses(): CourseMetadata[] {
   if (!fs.existsSync(COURSES_DIR)) return [];
 
   const dirs = fs
@@ -121,7 +122,7 @@ export function getAllCourses(): CourseMetadata[] {
   }
 
   return courses.sort((a, b) => a.order - b.order);
-}
+});
 
 export function getCourseCount(): number {
   return getAllCourses().length;
