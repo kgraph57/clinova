@@ -3,6 +3,7 @@ import { CategoryOverview } from "@/components/home/CategoryOverview";
 import { FeaturedArticles } from "@/components/home/FeaturedArticles";
 import { ServicesSection } from "@/components/home/ServicesSection";
 import { SkillsSection } from "@/components/home/SkillsSection";
+import { PublicationsSection } from "@/components/home/PublicationsSection";
 import { NewsletterSection } from "@/components/home/NewsletterSection";
 import { CreatorSection } from "@/components/home/CreatorSection";
 import {
@@ -59,6 +60,7 @@ export default async function Home() {
       <FeaturedArticles articles={featured} />
       <ServicesSection />
       <SkillsSection />
+      <PublicationsSection />
       <NewsletterSection articles={news} />
       <CreatorSection
         contentCount={counts.all ?? 0}

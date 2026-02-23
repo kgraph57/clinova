@@ -15,13 +15,16 @@ import {
   Brain,
   Lightbulb,
   Target,
+  Star,
+  ExternalLink,
 } from "lucide-react";
 import { getArticleCount } from "@/lib/content";
 import { getCourseCount } from "@/lib/courses";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Hoshizu — 医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行っています。",
+  description:
+    "Hoshizu — 医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行っています。",
 };
 
 const MISSION_POINTS = [
@@ -198,6 +201,37 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Publications */}
+        <section className="mt-16">
+          <h2 className="font-serif text-2xl tracking-tight">書籍</h2>
+          <a
+            href="https://www.amazon.co.jp/dp/4885637481"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group mt-6 flex items-start gap-4 rounded-xl border p-5 transition-colors hover:bg-muted/50"
+          >
+            <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
+            <div className="flex-1">
+              <div className="flex items-start justify-between">
+                <h3 className="text-sm font-medium">
+                  ケースで学ぶ若手医師のAI活用ガイド
+                </h3>
+                <ExternalLink className="h-3.5 w-3.5 flex-shrink-0 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
+              </div>
+              <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                診療・救急・病棟・教育・研究・論文作成まで73の臨床ケースを収録。東京医学社、2026年1月刊。
+              </p>
+              <div className="mt-2 flex items-center gap-3 text-xs text-muted-foreground">
+                <span className="flex items-center gap-1">
+                  <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
+                  5.0 (6件)
+                </span>
+                <span>共著</span>
+              </div>
+            </div>
+          </a>
         </section>
 
         {/* Founder */}
