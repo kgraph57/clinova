@@ -11,7 +11,16 @@ import {
 } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
-const TIMELINE = [
+type TimelineItem = {
+  period: string;
+  title: string;
+  description: string;
+  icon: typeof Mic;
+  tag: string;
+  highlight?: boolean;
+};
+
+const TIMELINE: TimelineItem[] = [
   {
     period: "2025.04 —",
     title: "院内AIセミナー 開始",
@@ -53,7 +62,7 @@ const TIMELINE = [
     icon: Presentation,
     tag: "シリーズ",
   },
-] as const;
+];
 
 const STATS = [
   { value: "10+", label: "セミナー・講座" },
