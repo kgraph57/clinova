@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo, useId } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { motion } from "framer-motion";
 
 function seededRandom(seed: number) {
@@ -79,7 +79,7 @@ function generateLines(stars: StarData[]): LineData[] {
 export function ConstellationAnimation() {
   const [mounted, setMounted] = useState(false);
   const [seed] = useState(() => Math.floor(Math.random() * 100000));
-  const uid = useId();
+  const [uid] = useState(() => "cs" + Math.random().toString(36).slice(2, 8));
 
   useEffect(() => setMounted(true), []);
 
