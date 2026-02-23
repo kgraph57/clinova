@@ -267,7 +267,11 @@ export default function AboutPage() {
 
         {/* Publications */}
         <section className="mt-16">
-          <h2 className="font-serif text-2xl tracking-tight">書籍</h2>
+          <h2 className="font-serif text-2xl tracking-tight">
+            書籍・雑誌・連載
+          </h2>
+
+          {/* Book */}
           <a
             href="https://www.amazon.co.jp/dp/4885637481"
             target="_blank"
@@ -294,6 +298,47 @@ export default function AboutPage() {
               </div>
             </div>
           </a>
+
+          {/* Serials */}
+          <div className="mt-4 flex items-start gap-4 rounded-xl border p-5">
+            <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="rounded-full border px-2 py-0.5 text-[11px] font-medium">
+                  分担執筆
+                </span>
+                <span className="text-xs text-muted-foreground">
+                  2026年3月号
+                </span>
+              </div>
+              <h3 className="mt-1 text-sm font-medium">
+                小児内科「AIとともに育つ医療」特集号
+              </h3>
+              <p className="mt-1 text-sm text-muted-foreground">
+                「小児科専攻医によるAI実践」を執筆。松尾豊、大塚篤司ほか各領域の第一人者が集結した全22項目の特集号。東京医学社。
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-4 flex items-start gap-4 rounded-xl border p-5">
+            <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="rounded-full border px-2 py-0.5 text-[11px] font-medium">
+                  連載
+                </span>
+                <span className="text-xs text-muted-foreground">
+                  2026年3月〜
+                </span>
+              </div>
+              <h3 className="mt-1 text-sm font-medium">
+                日経メディカル「医師のための生成AI活用Tips集」
+              </h3>
+              <p className="mt-1 text-sm text-muted-foreground">
+                鑑別診断のAI壁打ち、PHIゼロの実践、深夜の専門外急患対応など、臨床現場のリアルな課題をAIで解決する全10回連載。日経BP。
+              </p>
+            </div>
+          </div>
         </section>
 
         {/* Founder */}

@@ -1,10 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BookOpen, Star, ArrowUpRight } from "lucide-react";
+import {
+  BookOpen,
+  Star,
+  ArrowUpRight,
+  Newspaper,
+  FileText,
+} from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
-const PUBLICATIONS = [
+const BOOKS = [
   {
     title: "ケースで学ぶ若手医師のAI活用ガイド",
     role: "共著",
@@ -20,6 +26,27 @@ const PUBLICATIONS = [
   },
 ] as const;
 
+const SERIALS = [
+  {
+    title: "小児内科 58巻3号「AIとともに育つ医療」",
+    role: "分担執筆",
+    publisher: "東京医学社",
+    date: "2026年3月号",
+    description:
+      "特集「AIとともに育つ医療 ― 小児医療の新しいかたち」にて「小児科専攻医によるAI実践」を執筆。松尾豊、大塚篤司ほか各領域の第一人者が集結した全22項目の特集号。",
+    icon: FileText,
+  },
+  {
+    title: "日経メディカル「医師のための生成AI活用Tips集」",
+    role: "連載",
+    publisher: "日経BP",
+    date: "2026年3月〜",
+    description:
+      "鑑別診断のAI壁打ち、PHIゼロの実践、深夜の専門外急患、存在しない論文への対処など、臨床現場のリアルな課題をAIで解決する全10回連載。",
+    icon: Newspaper,
+  },
+] as const;
+
 export function PublicationsSection() {
   return (
     <section className="border-t py-20 sm:py-28">
@@ -30,16 +57,17 @@ export function PublicationsSection() {
             Publications
           </h2>
         </div>
-        <p className="mt-3 text-muted-foreground">書籍・執筆活動</p>
+        <p className="mt-3 text-muted-foreground">書籍・雑誌・連載</p>
 
         <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
-          className="mt-10"
+          className="mt-10 flex flex-col gap-6"
         >
-          {PUBLICATIONS.map((book) => (
+          {/* Book */}
+          {BOOKS.map((book) => (
             <motion.a
               key={book.isbn}
               variants={fadeInUp}
@@ -82,6 +110,41 @@ export function PublicationsSection() {
               </div>
             </motion.a>
           ))}
+
+          {/* Serials */}
+          <div className="grid gap-4 sm:grid-cols-2">
+            {SERIALS.map((item) => {
+              const Icon = item.icon;
+              return (
+                <motion.div
+                  key={item.title}
+                  variants={fadeInUp}
+                  className="flex items-start gap-4 rounded-2xl bg-muted/50 p-6"
+                >
+                  <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-background">
+                    <Icon className="h-5 w-5 text-muted-foreground" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2">
+                      <span className="rounded-full border px-2 py-0.5 text-[11px] font-medium">
+                        {item.role}
+                      </span>
+                      <span className="text-xs text-muted-foreground">
+                        {item.date}
+                      </span>
+                    </div>
+                    <h3 className="mt-1.5 text-sm font-medium">{item.title}</h3>
+                    <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                      {item.description}
+                    </p>
+                    <p className="mt-2 text-xs text-muted-foreground">
+                      {item.publisher}
+                    </p>
+                  </div>
+                </motion.div>
+              );
+            })}
+          </div>
         </motion.div>
       </div>
     </section>
