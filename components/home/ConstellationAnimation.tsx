@@ -3,123 +3,137 @@
 import { useEffect, useState, useMemo } from "react";
 import { motion } from "framer-motion";
 
-function seededRandom(seed: number) {
+function prng(seed: number) {
   let s = seed;
   return () => {
-    s = (s * 16807 + 0) % 2147483647;
+    s = (s * 16807) % 2147483647;
     return (s - 1) / 2147483646;
   };
 }
 
-interface StarData {
+interface Star {
   cx: number;
   cy: number;
   r: number;
-  opacity: number;
+  peakOp: number;
+  baseOp: number;
   delay: number;
-  driftX: number;
-  driftY: number;
-  twinkle: number;
-  bright: boolean;
+  dx: number;
+  dy: number;
+  twinkleDur: number;
+  sparkle: boolean;
 }
 
-interface LineData {
+interface Line {
   x1: number;
   y1: number;
   x2: number;
   y2: number;
   delay: number;
-  opacity: number;
+  op: number;
 }
 
-function generateStars(seed: number): StarData[] {
-  const rand = seededRandom(seed);
-  const stars: StarData[] = [];
-  for (let i = 0; i < 55; i++) {
-    const bright = i < 10;
-    stars.push({
-      cx: 5 + rand() * 90,
-      cy: 5 + rand() * 90,
-      r: bright ? 1.5 + rand() * 1.5 : 0.5 + rand() * 1,
-      opacity: bright ? 0.7 + rand() * 0.3 : 0.15 + rand() * 0.4,
-      delay: rand() * 2,
-      driftX: (rand() - 0.5) * 4,
-      driftY: (rand() - 0.5) * 4,
-      twinkle: 2 + rand() * 3,
-      bright,
+function makeStars(seed: number): Star[] {
+  const rand = prng(seed);
+  const out: Star[] = [];
+
+  for (let i = 0; i < 50; i++) {
+    const sparkle = i < 8;
+    const mid = i >= 8 && i < 20;
+    out.push({
+      cx: 2 + rand() * 96,
+      cy: 2 + rand() * 96,
+      r: sparkle
+        ? 0.4 + rand() * 0.35
+        : mid
+          ? 0.2 + rand() * 0.2
+          : 0.1 + rand() * 0.15,
+      peakOp: sparkle
+        ? 0.6 + rand() * 0.4
+        : mid
+          ? 0.25 + rand() * 0.2
+          : 0.1 + rand() * 0.12,
+      baseOp: sparkle ? 0.04 : 0.02,
+      delay: rand() * 5,
+      dx: (rand() - 0.5) * 1.2,
+      dy: (rand() - 0.5) * 1.2,
+      twinkleDur: sparkle ? 2.5 + rand() * 2.5 : 4 + rand() * 5,
+      sparkle,
     });
   }
-  return stars;
+  return out;
 }
 
-function generateLines(stars: StarData[]): LineData[] {
-  const lines: LineData[] = [];
-  const threshold = 25;
+function makeLines(stars: Star[]): Line[] {
+  const out: Line[] = [];
   for (let i = 0; i < stars.length; i++) {
     for (let j = i + 1; j < stars.length; j++) {
-      const dx = stars[i].cx - stars[j].cx;
-      const dy = stars[i].cy - stars[j].cy;
-      const dist = Math.sqrt(dx * dx + dy * dy);
-      if (dist < threshold) {
-        const fade = 1 - dist / threshold;
-        lines.push({
+      const d = Math.hypot(
+        stars[i].cx - stars[j].cx,
+        stars[i].cy - stars[j].cy,
+      );
+      if (d < 18 && (stars[i].sparkle || stars[j].sparkle)) {
+        out.push({
           x1: stars[i].cx,
           y1: stars[i].cy,
           x2: stars[j].cx,
           y2: stars[j].cy,
-          delay: 1.5 + i * 0.1,
-          opacity: fade * 0.3 * Math.min(stars[i].opacity, stars[j].opacity),
+          delay: 2.5 + i * 0.12,
+          op: (1 - d / 18) * 0.08,
         });
       }
     }
   }
-  return lines;
+  return out;
 }
 
 export function ConstellationAnimation() {
-  const [mounted, setMounted] = useState(false);
-  const [seed] = useState(() => Math.floor(Math.random() * 100000));
-  const [uid] = useState(() => "cs" + Math.random().toString(36).slice(2, 8));
+  const [ok, setOk] = useState(false);
+  const [seed] = useState(() => Math.floor(Math.random() * 99999));
+  const [id] = useState(() => "h" + Math.random().toString(36).slice(2, 7));
 
-  useEffect(() => setMounted(true), []);
+  useEffect(() => setOk(true), []);
 
-  const stars = useMemo(() => generateStars(seed), [seed]);
-  const lines = useMemo(() => generateLines(stars), [stars]);
+  const stars = useMemo(() => makeStars(seed), [seed]);
+  const lines = useMemo(() => makeLines(stars), [stars]);
 
-  if (!mounted) return null;
+  if (!ok) return null;
 
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 1.5, delay: 0.3 }}
+      transition={{ duration: 2, delay: 0.3 }}
       className="relative h-full w-full"
     >
       <style>{`
-        @keyframes ${uid}-twinkle {
-          0%, 100% { opacity: var(--star-op); }
-          50% { opacity: calc(var(--star-op) * 0.4); }
+        @keyframes ${id}-twinkle {
+          0%   { opacity: var(--base) }
+          45%  { opacity: var(--peak) }
+          55%  { opacity: var(--peak) }
+          100% { opacity: var(--base) }
         }
-        @keyframes ${uid}-drift {
-          0%, 100% { transform: translate(0, 0); }
-          50% { transform: translate(var(--dx), var(--dy)); }
+        @keyframes ${id}-drift {
+          0%,100% { transform: translate(0,0) }
+          50% { transform: translate(var(--mx),var(--my)) }
         }
-        @keyframes ${uid}-line-in {
-          from { opacity: 0; stroke-dashoffset: 1; }
-          to { opacity: var(--line-op); stroke-dashoffset: 0; }
+        @keyframes ${id}-line {
+          from { opacity:0; stroke-dashoffset:1 }
+          to { opacity: var(--lo); stroke-dashoffset:0 }
         }
-        .${uid}-star {
+        .${id}-s {
           animation:
-            ${uid}-twinkle var(--tw-dur) ease-in-out infinite,
-            ${uid}-drift var(--drift-dur) ease-in-out infinite;
-          animation-delay: var(--delay);
+            ${id}-twinkle var(--td) ease-in-out infinite,
+            ${id}-drift var(--dd) ease-in-out infinite;
+          animation-delay: var(--dl);
+          will-change: opacity;
         }
-        .${uid}-line {
-          stroke-dasharray: 1;
-          stroke-dashoffset: 1;
-          opacity: 0;
-          animation: ${uid}-line-in 2s ease-out forwards;
-          animation-delay: var(--delay);
+        .${id}-l {
+          stroke-dasharray:1;
+          stroke-dashoffset:1;
+          opacity:0;
+          animation: ${id}-line 3.5s cubic-bezier(.4,0,.2,1) forwards;
+          animation-delay: var(--dl);
         }
       `}</style>
       <svg
@@ -128,68 +142,42 @@ export function ConstellationAnimation() {
         className="h-full w-full"
         aria-hidden="true"
       >
-        {lines.map((line, i) => (
+        {lines.map((l, i) => (
           <line
-            key={`l-${i}`}
-            x1={line.x1}
-            y1={line.y1}
-            x2={line.x2}
-            y2={line.y2}
-            className={`stroke-foreground ${uid}-line`}
-            strokeWidth={0.15}
+            key={`l${i}`}
+            x1={l.x1}
+            y1={l.y1}
+            x2={l.x2}
+            y2={l.y2}
+            className={`stroke-foreground ${id}-l`}
+            strokeWidth={0.08}
             pathLength={1}
             style={
-              {
-                "--line-op": line.opacity,
-                "--delay": `${line.delay}s`,
-              } as React.CSSProperties
+              { "--lo": l.op, "--dl": `${l.delay}s` } as React.CSSProperties
             }
           />
         ))}
-
-        {stars.map((star, i) => (
+        {stars.map((s, i) => (
           <circle
-            key={`s-${i}`}
-            cx={star.cx}
-            cy={star.cy}
-            r={star.r}
-            className={`fill-foreground ${uid}-star`}
+            key={`s${i}`}
+            cx={s.cx}
+            cy={s.cy}
+            r={s.r}
+            className={`fill-foreground ${id}-s`}
             style={
               {
-                "--star-op": star.opacity,
-                "--tw-dur": `${star.twinkle}s`,
-                "--drift-dur": `${18 + i * 0.5}s`,
-                "--dx": `${star.driftX}px`,
-                "--dy": `${star.driftY}px`,
-                "--delay": `${star.delay}s`,
-                opacity: star.opacity,
+                "--peak": s.peakOp,
+                "--base": s.baseOp,
+                "--td": `${s.twinkleDur}s`,
+                "--dd": `${25 + i * 0.5}s`,
+                "--mx": `${s.dx}px`,
+                "--my": `${s.dy}px`,
+                "--dl": `${s.delay}s`,
+                opacity: s.baseOp,
               } as React.CSSProperties
             }
           />
         ))}
-
-        {stars
-          .filter((s) => s.bright)
-          .map((star, i) => (
-            <circle
-              key={`g-${i}`}
-              cx={star.cx}
-              cy={star.cy}
-              r={star.r * 4}
-              className={`fill-foreground ${uid}-star`}
-              style={
-                {
-                  "--star-op": star.opacity * 0.08,
-                  "--tw-dur": `${star.twinkle}s`,
-                  "--drift-dur": `${18 + i * 0.5}s`,
-                  "--dx": `${star.driftX}px`,
-                  "--dy": `${star.driftY}px`,
-                  "--delay": `${star.delay}s`,
-                  opacity: star.opacity * 0.08,
-                } as React.CSSProperties
-              }
-            />
-          ))}
       </svg>
     </motion.div>
   );
