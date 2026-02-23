@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
-const SERVICES = [
+const ACTIVITIES = [
   {
     icon: Mic,
     label: "講演・セミナー",
@@ -72,7 +72,7 @@ export function CreatorSection({
                 />
                 <h3 className="mt-4 text-lg font-medium">Ken Okamoto</h3>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  医師 / 医療AI研究者
+                  Founder / 医師
                 </p>
                 <div className="mt-3 flex gap-3">
                   <a
@@ -122,7 +122,10 @@ export function CreatorSection({
 
             {/* Content */}
             <div className="flex-1">
-              <h2 className="font-serif text-2xl tracking-tight sm:text-3xl">
+              <p className="text-xs font-medium tracking-widest text-muted-foreground">
+                Founder
+              </p>
+              <h2 className="mt-2 font-serif text-2xl tracking-tight sm:text-3xl">
                 臨床の現場から、医療AIの実践知を届ける
               </h2>
               <p className="mt-4 leading-relaxed text-muted-foreground">
@@ -131,18 +134,18 @@ export function CreatorSection({
                 「読んで終わり」ではなく「明日の臨床で使える」ナレッジを目指しています。
               </p>
 
-              {/* Services */}
+              {/* Activities */}
               <div className="mt-8 grid gap-4 sm:grid-cols-2">
-                {SERVICES.map((service) => (
+                {ACTIVITIES.map((activity) => (
                   <div
-                    key={service.label}
+                    key={activity.label}
                     className="flex items-start gap-3 rounded-xl bg-muted/50 p-4"
                   >
-                    <service.icon className="mt-0.5 h-4 w-4 flex-shrink-0 text-muted-foreground" />
+                    <activity.icon className="mt-0.5 h-4 w-4 flex-shrink-0 text-muted-foreground" />
                     <div>
-                      <p className="text-sm font-medium">{service.label}</p>
+                      <p className="text-sm font-medium">{activity.label}</p>
                       <p className="mt-0.5 text-xs text-muted-foreground">
-                        {service.description}
+                        {activity.description}
                       </p>
                     </div>
                   </div>

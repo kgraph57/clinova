@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { Inter, Lora } from "next/font/google";
 import { Toaster } from "sonner";
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
+import { ProgressProvider } from "@/components/learn/ProgressProvider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ScrollToTop } from "@/components/layout/ScrollToTop";
+import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
 import "./globals.css";
 
 const inter = Inter({
@@ -25,7 +27,7 @@ export const metadata: Metadata = {
     template: "%s | Hoshizu",
   },
   description:
-    "散らばるデータをつなぎ、使えるナレッジに。プロンプト、ワークフロー、ガイドを1箇所に集約。",
+    "医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。",
   metadataBase: new URL("https://kgraph57.github.io/hoshizu"),
   openGraph: {
     type: "website",
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Hoshizu",
     title: "Hoshizu - 散らばる星を、星座にする",
     description:
-      "医療AI実践ナレッジポータル。プロンプト、ワークフロー、学習コースを1箇所に集約。",
+      "医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。",
     images: [
       {
         url: "/og.png",
@@ -49,7 +51,7 @@ export const metadata: Metadata = {
     creator: "@kgraph_",
     title: "Hoshizu - 散らばる星を、星座にする",
     description:
-      "医療AI実践ナレッジポータル。プロンプト、ワークフロー、学習コースを1箇所に集約。",
+      "医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。",
     images: ["/og.png"],
   },
 };
@@ -64,14 +66,17 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${lora.variable} font-sans antialiased`}
       >
+        <GoogleAnalytics />
         <ThemeProvider>
-          <div className="relative flex min-h-svh flex-col">
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </div>
-          <ScrollToTop />
-          <Toaster position="bottom-right" />
+          <ProgressProvider>
+            <div className="relative flex min-h-svh flex-col">
+              <Header />
+              <main className="flex-1">{children}</main>
+              <Footer />
+            </div>
+            <ScrollToTop />
+            <Toaster position="bottom-right" />
+          </ProgressProvider>
         </ThemeProvider>
       </body>
     </html>

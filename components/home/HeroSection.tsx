@@ -15,9 +15,16 @@ export function HeroSection() {
           animate="visible"
           className="max-w-3xl"
         >
+          <motion.p
+            variants={fadeInUp}
+            className="text-sm font-medium tracking-widest text-muted-foreground"
+          >
+            Healthcare &times; AI &times; Technology
+          </motion.p>
+
           <motion.h1
             variants={fadeInUp}
-            className="font-serif text-4xl leading-[1.15] tracking-tight sm:text-5xl lg:text-6xl"
+            className="mt-4 font-serif text-4xl leading-[1.15] tracking-tight sm:text-5xl lg:text-6xl"
           >
             散らばる星を、
             <br />
@@ -28,9 +35,8 @@ export function HeroSection() {
             variants={fadeInUp}
             className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground"
           >
-            散在するデータをつなぎ、使えるナレッジに。
-            プロンプト、ワークフロー、ガイドを1箇所に集約し、
-            あなたの実践を加速します。
+            Hoshizuは、医療とテクノロジーの交差点で
+            プロダクト開発・ナレッジ共有・AI活用支援を行っています。
           </motion.p>
 
           <motion.div

@@ -13,26 +13,44 @@ import {
   GraduationCap,
   Stethoscope,
   Brain,
+  Lightbulb,
+  Target,
 } from "lucide-react";
 import { getArticleCount } from "@/lib/content";
 import { getCourseCount } from "@/lib/courses";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Ken Okamoto — 医師 / 医療AI研究者",
+  description: "Hoshizu — 医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行っています。",
 };
 
-const EXPERTISE = [
+const MISSION_POINTS = [
+  {
+    icon: Target,
+    label: "Mission",
+    description:
+      "医療AIに関する情報はSNS、論文、書籍など様々な場所に散在しています。それらの「星」をつなぎ、実践で使える「星座」に変えること。",
+  },
+  {
+    icon: Lightbulb,
+    label: "Vision",
+    description:
+      "すべての医療従事者がAIを日常のツールとして使いこなし、患者さんにより良い医療を届けられる世界を目指します。",
+  },
+] as const;
+
+const WHAT_WE_DO = [
   {
     icon: Brain,
-    label: "医療AI実装",
+    label: "プロダクト開発",
     description:
-      "LLMを活用した臨床支援ツールの設計・プロンプトエンジニアリング",
+      "医療・子育て領域のWebアプリケーション・ツールを設計・開発しています。",
   },
   {
     icon: Stethoscope,
-    label: "臨床実践",
-    description: "AIを日常診療に統合するワークフローの構築と検証",
+    label: "ナレッジ共有",
+    description:
+      "プロンプトテンプレート・学習コース・ワークフローガイドを体系化し、無料で公開しています。",
   },
 ] as const;
 
@@ -67,24 +85,26 @@ export default function AboutPage() {
   const counts = getArticleCount();
   const courseCount = getCourseCount();
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Ken Okamoto",
-    jobTitle: "医師 / 医療AI研究者",
-    url: "https://kgraph57.github.io/hoshizu/about",
-    sameAs: [
-      "https://github.com/kgraph57",
-      "https://x.com/kgraph_",
-      "https://note.com/kgraph_",
-    ],
-    knowsAbout: [
-      "Medical AI",
-      "Prompt Engineering",
-      "Clinical Decision Support",
-      "Healthcare Informatics",
-    ],
-  };
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Hoshizu",
+      url: "https://kgraph57.github.io/hoshizu",
+      description:
+        "医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行っています。",
+      founder: {
+        "@type": "Person",
+        name: "Ken Okamoto",
+        jobTitle: "Founder / 医師",
+      },
+      sameAs: [
+        "https://github.com/kgraph57",
+        "https://x.com/kgraph_",
+        "https://note.com/kgraph_",
+      ],
+    },
+  ];
 
   return (
     <>
@@ -93,9 +113,99 @@ export default function AboutPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="mx-auto max-w-[720px] px-6 py-20 sm:py-28">
-        {/* Profile */}
+        {/* Company Header */}
         <section>
-          <div className="flex items-center gap-5">
+          <p className="text-sm font-medium tracking-widest text-muted-foreground">
+            About Hoshizu
+          </p>
+          <h1 className="mt-3 font-serif text-3xl tracking-tight sm:text-4xl">
+            散らばる星を、星座にする。
+          </h1>
+          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
+            Hoshizuは、医療とテクノロジーの交差点で
+            プロダクト開発・ナレッジ共有・AI活用支援を行っています。
+          </p>
+        </section>
+
+        {/* Stats */}
+        <section className="mt-10 flex gap-6">
+          <div className="text-center">
+            <p className="text-2xl font-semibold">{counts.all ?? 0}+</p>
+            <p className="mt-0.5 text-xs text-muted-foreground">コンテンツ</p>
+          </div>
+          <div className="text-center">
+            <p className="text-2xl font-semibold">{courseCount}</p>
+            <p className="mt-0.5 text-xs text-muted-foreground">学習コース</p>
+          </div>
+          <div className="text-center">
+            <p className="text-2xl font-semibold">3</p>
+            <p className="mt-0.5 text-xs text-muted-foreground">サービス</p>
+          </div>
+        </section>
+
+        {/* Mission & Vision */}
+        <section className="mt-16">
+          <h2 className="font-serif text-2xl tracking-tight">
+            Mission &amp; Vision
+          </h2>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            {MISSION_POINTS.map((item) => (
+              <div key={item.label} className="rounded-xl bg-muted/50 p-5">
+                <item.icon className="h-5 w-5 text-muted-foreground" />
+                <h3 className="mt-3 text-sm font-medium">{item.label}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* What We Do */}
+        <section className="mt-16">
+          <h2 className="font-serif text-2xl tracking-tight">事業内容</h2>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            {WHAT_WE_DO.map((item) => (
+              <div key={item.label} className="rounded-xl bg-muted/50 p-5">
+                <item.icon className="h-5 w-5 text-muted-foreground" />
+                <h3 className="mt-3 text-sm font-medium">{item.label}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Services */}
+        <section className="mt-16">
+          <h2 className="font-serif text-2xl tracking-tight">
+            対応可能なお仕事
+          </h2>
+          <div className="mt-6 space-y-4">
+            {SERVICES.map((service) => (
+              <div
+                key={service.label}
+                className="flex items-start gap-4 rounded-xl border p-5"
+              >
+                <service.icon className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
+                <div>
+                  <h3 className="text-sm font-medium">{service.label}</h3>
+                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                    {service.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Founder */}
+        <section className="mt-16 border-t pt-16">
+          <p className="text-sm font-medium tracking-widest text-muted-foreground">
+            Founder
+          </p>
+          <div className="mt-6 flex items-center gap-5">
             <Image
               src="https://github.com/kgraph57.png"
               alt="Ken Okamoto"
@@ -104,12 +214,18 @@ export default function AboutPage() {
               className="rounded-full"
             />
             <div>
-              <h1 className="text-xl font-medium">Ken Okamoto</h1>
+              <h3 className="text-xl font-medium">Ken Okamoto</h3>
               <p className="mt-0.5 text-sm text-muted-foreground">
                 医師 / 医療AI研究者
               </p>
             </div>
           </div>
+
+          <p className="mt-6 leading-[1.8] text-muted-foreground">
+            臨床医としてAIを日常的に活用する中で得た知見を、
+            プロンプトテンプレート・学習コース・ワークフローガイドとして体系化しています。
+            「読んで終わり」ではなく「明日の臨床で使える」ナレッジを目指しています。
+          </p>
 
           <div className="mt-5 flex flex-wrap gap-4">
             <a
@@ -145,83 +261,6 @@ export default function AboutPage() {
               <Mail className="h-4 w-4" />
               Contact
             </Link>
-          </div>
-
-          {/* Stats */}
-          <div className="mt-6 flex gap-6">
-            <div className="text-center">
-              <p className="text-2xl font-semibold">{counts.all ?? 0}+</p>
-              <p className="mt-0.5 text-xs text-muted-foreground">コンテンツ</p>
-            </div>
-            <div className="text-center">
-              <p className="text-2xl font-semibold">{courseCount}</p>
-              <p className="mt-0.5 text-xs text-muted-foreground">学習コース</p>
-            </div>
-            <div className="text-center">
-              <p className="text-2xl font-semibold">5</p>
-              <p className="mt-0.5 text-xs text-muted-foreground">専門領域</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Mission */}
-        <section className="mt-16">
-          <h2 className="font-serif text-2xl tracking-tight">Hoshizuとは</h2>
-          <div className="mt-6 space-y-4 text-base leading-[1.8] text-muted-foreground">
-            <p>
-              Hoshizu（星図）は、散らばるデータをつなぎ、使えるナレッジに変える
-              医療AIナレッジポータルです。プロンプト、ワークフローガイド、
-              学習コンテンツを1箇所に集約しています。
-            </p>
-            <p>
-              医療AIに関する情報はTwitter、Note、論文、書籍など様々な場所に散在しています。
-              それらの「星」をつなぎ、実践で使える「星座」に変えることが
-              Hoshizuのミッションです。
-            </p>
-            <p>
-              「AI本を読んでも実践に結びつかない」「情報が散らばりすぎて
-              体系化できていない」— そんな声に応えるために、
-              実際に臨床・研究で使えるナレッジを厳選してお届けします。
-            </p>
-          </div>
-        </section>
-
-        {/* Expertise */}
-        <section className="mt-16">
-          <h2 className="font-serif text-2xl tracking-tight">専門領域</h2>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {EXPERTISE.map((item) => (
-              <div key={item.label} className="rounded-xl bg-muted/50 p-5">
-                <item.icon className="h-5 w-5 text-muted-foreground" />
-                <h3 className="mt-3 text-sm font-medium">{item.label}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
-                  {item.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Services */}
-        <section className="mt-16">
-          <h2 className="font-serif text-2xl tracking-tight">
-            対応可能なお仕事
-          </h2>
-          <div className="mt-6 space-y-4">
-            {SERVICES.map((service) => (
-              <div
-                key={service.label}
-                className="flex items-start gap-4 rounded-xl border p-5"
-              >
-                <service.icon className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
-                <div>
-                  <h3 className="text-sm font-medium">{service.label}</h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
-                    {service.description}
-                  </p>
-                </div>
-              </div>
-            ))}
           </div>
         </section>
 

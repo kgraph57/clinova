@@ -1,8 +1,18 @@
-import { Stethoscope, Microscope, Heart, Brain, Workflow } from "lucide-react";
+import {
+  Stethoscope,
+  Microscope,
+  Heart,
+  Brain,
+  Workflow,
+  Sparkles,
+  TrendingUp,
+  Crown,
+} from "lucide-react";
 
 export const SITE_CONFIG = {
   name: "Hoshizu",
-  description: "散らばる星を、星座にする。",
+  description:
+    "医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行っています。",
   tagline: "散らばる星を、星座にする。",
   url: "https://kgraph57.github.io/hoshizu",
   author: {
@@ -62,6 +72,41 @@ export const CATEGORIES = [
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]["id"];
+
+export const LEVELS = [
+  {
+    id: "beginner",
+    label: "入門",
+    labelEn: "Beginner",
+    icon: Sparkles,
+    color: "text-emerald-600",
+    bgColor: "bg-emerald-50",
+    darkBgColor: "dark:bg-emerald-950/30",
+    order: 1,
+  },
+  {
+    id: "intermediate",
+    label: "実践",
+    labelEn: "Intermediate",
+    icon: TrendingUp,
+    color: "text-blue-600",
+    bgColor: "bg-blue-50",
+    darkBgColor: "dark:bg-blue-950/30",
+    order: 2,
+  },
+  {
+    id: "advanced",
+    label: "応用",
+    labelEn: "Advanced",
+    icon: Crown,
+    color: "text-violet-600",
+    bgColor: "bg-violet-50",
+    darkBgColor: "dark:bg-violet-950/30",
+    order: 3,
+  },
+] as const;
+
+export type LevelId = (typeof LEVELS)[number]["id"];
 
 export const NAV_ITEMS = [
   { href: "/", label: "Home" },

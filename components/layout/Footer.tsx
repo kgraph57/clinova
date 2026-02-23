@@ -1,26 +1,39 @@
 import Link from "next/link";
 import { Github, Twitter, Mail, PenLine } from "lucide-react";
+import { EmailCapture } from "@/components/layout/EmailCapture";
 
 const FOOTER_LINKS = {
-  product: {
-    title: "コンテンツ",
+  services: {
+    title: "Services",
     links: [
-      { href: "/knowledge", label: "ナレッジ" },
-      { href: "/knowledge?category=diagnosis", label: "診断支援" },
-      { href: "/knowledge?category=research", label: "研究・論文" },
-      { href: "/knowledge?category=workflow", label: "ワークフロー" },
+      {
+        href: "https://github.com/kgraph57/sukusuku-navi",
+        label: "すくすくナビ",
+        external: true,
+      },
+      {
+        href: "https://github.com/kgraph57/nutri-care",
+        label: "NutriCare",
+        external: true,
+      },
+      {
+        href: "https://github.com/kgraph57/pediatric-exam-app",
+        label: "Pediatric Exam",
+        external: true,
+      },
+      { href: "/icu-nutricare", label: "ICU NutriCare" },
     ],
   },
-  resources: {
-    title: "リソース",
+  knowledge: {
+    title: "Knowledge",
     links: [
+      { href: "/knowledge", label: "ナレッジベース" },
       { href: "/learn", label: "学習コース" },
-      { href: "/news", label: "ニュースレター" },
-      { href: "/knowledge?category=ai-fundamentals", label: "AI基礎" },
+      { href: "/news", label: "ニュース" },
     ],
   },
   company: {
-    title: "サイト情報",
+    title: "Company",
     links: [
       { href: "/about", label: "About" },
       { href: "/contact", label: "お問い合わせ" },
@@ -79,12 +92,23 @@ export function Footer() {
               <ul className="mt-4 space-y-3">
                 {section.links.map((link) => (
                   <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                    >
-                      {link.label}
-                    </Link>
+                    {"external" in link && link.external ? (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                      >
+                        {link.label}
+                      </a>
+                    ) : (
+                      <Link
+                        href={link.href}
+                        className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                      >
+                        {link.label}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -92,22 +116,23 @@ export function Footer() {
           ))}
         </div>
 
-        {/* Request CTA */}
+        {/* Email Capture */}
         <div className="border-t py-8">
-          <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <p className="text-sm font-medium">講演・執筆・監修のご依頼</p>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <EmailCapture />
+            <div className="flex flex-col justify-center">
+              <p className="text-sm font-medium">お仕事のご依頼</p>
               <p className="mt-1 text-xs text-muted-foreground">
-                セミナー、記事執筆、研修、コンテンツ監修など、お気軽にご相談ください
+                講演、執筆、監修、研修、プロダクト開発など、お気軽にご相談ください
               </p>
+              <Link
+                href="/contact"
+                className="mt-3 inline-flex w-fit items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-medium transition-colors hover:bg-muted"
+              >
+                <Mail className="h-3.5 w-3.5" />
+                ご依頼・ご相談
+              </Link>
             </div>
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-medium transition-colors hover:bg-muted"
-            >
-              <Mail className="h-3.5 w-3.5" />
-              ご依頼・ご相談
-            </Link>
           </div>
         </div>
 
