@@ -12,6 +12,11 @@ import { ArticleFooter } from "@/components/article/ArticleFooter";
 import { ReadingProgress } from "@/components/article/ReadingProgress";
 import { PromptTemplate } from "@/components/article/PromptTemplate";
 import { Warning } from "@/components/article/Warning";
+import { Callout } from "@/components/article/Callout";
+import { H2, H3 } from "@/components/article/HeadingWithId";
+import { TableOfContents } from "@/components/learn/TableOfContents";
+import { MobileToc } from "@/components/learn/MobileToc";
+import { extractToc } from "@/lib/toc";
 import { SITE_CONFIG } from "@/lib/constants";
 
 const isProd = process.env.NODE_ENV === "production";
@@ -34,8 +39,11 @@ function MdxImage(props: React.ImgHTMLAttributes<HTMLImageElement>) {
 }
 
 const mdxComponents = {
+  h2: H2,
+  h3: H3,
   PromptTemplate,
   Warning,
+  Callout,
   img: MdxImage,
 };
 
@@ -80,6 +88,9 @@ export default async function ArticlePage({ params }: PageProps) {
 
   const relatedCourses = getRelatedCourses(article.category);
 
+  const tocItems = extractToc(article.content);
+  const isNewsletter = article.contentType === "news";
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -104,10 +115,12 @@ export default async function ArticlePage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <ReadingProgress />
+      {tocItems.length > 0 && <TableOfContents items={tocItems} />}
       <div className="mx-auto max-w-[720px] px-6 py-12 sm:py-20">
         <ArticleHeader article={article} />
+        {tocItems.length > 0 && <MobileToc items={tocItems} />}
 
-        <article className="prose">
+        <article className={`prose ${isNewsletter ? "newsletter-prose" : ""}`}>
           <MDXRemote source={article.content} components={mdxComponents} />
         </article>
 
