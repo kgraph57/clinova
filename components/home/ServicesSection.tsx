@@ -10,7 +10,7 @@ const SERVICES = [
     repo: "sukusuku-navi",
     description:
       "港区の子育て支援情報を一元化。保育園・医療機関・手当制度などを地域密着で整理し、子育て世代をサポートします。",
-    url: "https://github.com/kgraph57/sukusuku-navi",
+    url: "https://kgraph57.github.io/sukusuku-navi/",
     icon: Baby,
     language: "MDX",
     color: "bg-warm-sage dark:bg-emerald-950/30",
@@ -20,7 +20,7 @@ const SERVICES = [
     repo: "nutri-care",
     description:
       "ICU・病棟向け栄養管理ツール。経腸栄養・静脈栄養の計算を自動化し、臨床現場の栄養管理を効率化します。",
-    url: "https://github.com/kgraph57/nutri-care",
+    url: "https://kgraph57.github.io/nutri-care/",
     icon: Utensils,
     language: "TypeScript",
     color: "bg-warm-sky dark:bg-blue-950/30",
@@ -30,7 +30,7 @@ const SERVICES = [
     repo: "pediatric-exam-app",
     description:
       "小児科専門医試験の学習を支援するアプリ。問題演習・解説・弱点分析で効率的な試験対策を実現します。",
-    url: "https://github.com/kgraph57/pediatric-exam-app",
+    url: "https://kgraph57.github.io/pediatric-exam-app/",
     icon: GraduationCap,
     language: "JavaScript",
     color: "bg-warm-heather dark:bg-purple-950/30",
