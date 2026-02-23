@@ -34,42 +34,41 @@ interface Line {
 function makeStars(seed: number): Star[] {
   const rand = prng(seed);
   const out: Star[] = [];
-  const total = 120;
 
-  for (let i = 0; i < total; i++) {
-    const tier = i < 5 ? "bright" : i < 15 ? "mid" : i < 40 ? "dim" : "dust";
+  for (let i = 0; i < 90; i++) {
+    const tier = i < 5 ? "bright" : i < 14 ? "mid" : i < 35 ? "dim" : "dust";
 
     const r =
       tier === "bright"
-        ? 0.5 + rand() * 0.4
+        ? 0.6 + rand() * 0.5
         : tier === "mid"
-          ? 0.25 + rand() * 0.2
+          ? 0.3 + rand() * 0.25
           : tier === "dim"
-            ? 0.12 + rand() * 0.12
-            : 0.06 + rand() * 0.08;
+            ? 0.15 + rand() * 0.15
+            : 0.08 + rand() * 0.1;
 
     const peak =
       tier === "bright"
-        ? 0.85 + rand() * 0.15
+        ? 0.9 + rand() * 0.1
         : tier === "mid"
-          ? 0.4 + rand() * 0.3
+          ? 0.5 + rand() * 0.35
           : tier === "dim"
-            ? 0.15 + rand() * 0.15
-            : 0.06 + rand() * 0.08;
+            ? 0.2 + rand() * 0.2
+            : 0.08 + rand() * 0.12;
 
     out.push({
       cx: rand() * 100,
       cy: rand() * 100,
       r,
       peak,
-      base: tier === "dust" ? 0.02 : 0.03,
-      delay: rand() * 8,
+      base: tier === "bright" ? 0.1 : tier === "mid" ? 0.06 : 0.03,
+      delay: rand() * 6,
       dur:
         tier === "bright"
-          ? 1.8 + rand() * 2
+          ? 2 + rand() * 2
           : tier === "mid"
-            ? 2.5 + rand() * 3
-            : 4 + rand() * 6,
+            ? 3 + rand() * 3
+            : 4 + rand() * 5,
       cross: tier === "bright",
     });
   }
@@ -78,21 +77,21 @@ function makeStars(seed: number): Star[] {
 
 function makeLines(stars: Star[]): Line[] {
   const out: Line[] = [];
-  const bright = stars.filter((s) => s.cross || s.peak > 0.35);
+  const bright = stars.filter((s) => s.cross || s.peak > 0.4);
   for (let i = 0; i < bright.length; i++) {
     for (let j = i + 1; j < bright.length; j++) {
       const d = Math.hypot(
         bright[i].cx - bright[j].cx,
         bright[i].cy - bright[j].cy,
       );
-      if (d < 15) {
+      if (d < 20) {
         out.push({
           x1: bright[i].cx,
           y1: bright[i].cy,
           x2: bright[j].cx,
           y2: bright[j].cy,
-          delay: 3 + i * 0.3,
-          op: (1 - d / 15) * 0.12,
+          delay: 2 + i * 0.2,
+          op: (1 - d / 20) * 0.2,
         });
       }
     }
@@ -116,25 +115,25 @@ export function ConstellationAnimation() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 2.5, delay: 0.2 }}
-      className="relative h-full w-full"
+      transition={{ duration: 2, delay: 0.3 }}
+      className="relative h-full w-full text-foreground"
     >
       <style>{`
         @keyframes ${id}-sparkle {
           0%   { opacity: var(--b) }
           40%  { opacity: var(--p) }
-          50%  { opacity: var(--p) }
-          60%  { opacity: calc(var(--p) * 0.6) }
-          70%  { opacity: var(--p) }
+          55%  { opacity: var(--p) }
+          65%  { opacity: calc(var(--p) * 0.5) }
+          75%  { opacity: var(--p) }
           100% { opacity: var(--b) }
         }
         @keyframes ${id}-cross {
-          0%   { opacity: 0; transform: scale(0.5) rotate(0deg) }
-          40%  { opacity: var(--p); transform: scale(1) rotate(15deg) }
-          50%  { opacity: var(--p); transform: scale(1.1) rotate(20deg) }
-          60%  { opacity: calc(var(--p) * 0.5); transform: scale(0.9) rotate(25deg) }
-          70%  { opacity: var(--p); transform: scale(1) rotate(30deg) }
-          100% { opacity: 0; transform: scale(0.5) rotate(45deg) }
+          0%   { opacity: 0; transform: scale(0.3) rotate(0deg) }
+          40%  { opacity: var(--p); transform: scale(1) rotate(10deg) }
+          55%  { opacity: var(--p); transform: scale(1.15) rotate(18deg) }
+          65%  { opacity: calc(var(--p) * 0.4); transform: scale(0.85) rotate(25deg) }
+          75%  { opacity: var(--p); transform: scale(1) rotate(32deg) }
+          100% { opacity: 0; transform: scale(0.3) rotate(45deg) }
         }
         @keyframes ${id}-line {
           from { opacity: 0; stroke-dashoffset: 1 }
@@ -153,7 +152,7 @@ export function ConstellationAnimation() {
           stroke-dasharray: 1;
           stroke-dashoffset: 1;
           opacity: 0;
-          animation: ${id}-line 4s cubic-bezier(.4,0,.2,1) forwards;
+          animation: ${id}-line 3s cubic-bezier(.4,0,.2,1) forwards;
           animation-delay: var(--dl);
         }
       `}</style>
@@ -170,8 +169,9 @@ export function ConstellationAnimation() {
             y1={l.y1}
             x2={l.x2}
             y2={l.y2}
-            className={`stroke-foreground/20 ${id}-l`}
-            strokeWidth={0.06}
+            stroke="currentColor"
+            className={`${id}-l`}
+            strokeWidth={0.08}
             pathLength={1}
             style={
               { "--lo": l.op, "--dl": `${l.delay}s` } as React.CSSProperties
@@ -186,7 +186,8 @@ export function ConstellationAnimation() {
                 cx={s.cx}
                 cy={s.cy}
                 r={s.r}
-                className={`fill-foreground ${id}-s`}
+                fill="currentColor"
+                className={`${id}-s`}
                 style={
                   {
                     "--p": s.peak,
@@ -198,15 +199,16 @@ export function ConstellationAnimation() {
                 }
               />
               <line
-                x1={s.cx - s.r * 3}
+                x1={s.cx - s.r * 3.5}
                 y1={s.cy}
-                x2={s.cx + s.r * 3}
+                x2={s.cx + s.r * 3.5}
                 y2={s.cy}
-                className={`stroke-foreground ${id}-c`}
-                strokeWidth={0.04}
+                stroke="currentColor"
+                className={`${id}-c`}
+                strokeWidth={0.05}
                 style={
                   {
-                    "--p": s.peak * 0.6,
+                    "--p": s.peak * 0.7,
                     "--d": `${s.dur}s`,
                     "--dl": `${s.delay}s`,
                     opacity: 0,
@@ -215,14 +217,15 @@ export function ConstellationAnimation() {
               />
               <line
                 x1={s.cx}
-                y1={s.cy - s.r * 3}
+                y1={s.cy - s.r * 3.5}
                 x2={s.cx}
-                y2={s.cy + s.r * 3}
-                className={`stroke-foreground ${id}-c`}
-                strokeWidth={0.04}
+                y2={s.cy + s.r * 3.5}
+                stroke="currentColor"
+                className={`${id}-c`}
+                strokeWidth={0.05}
                 style={
                   {
-                    "--p": s.peak * 0.6,
+                    "--p": s.peak * 0.7,
                     "--d": `${s.dur}s`,
                     "--dl": `${s.delay}s`,
                     opacity: 0,
@@ -236,7 +239,8 @@ export function ConstellationAnimation() {
               cx={s.cx}
               cy={s.cy}
               r={s.r}
-              className={`fill-foreground ${id}-s`}
+              fill="currentColor"
+              className={`${id}-s`}
               style={
                 {
                   "--p": s.peak,
