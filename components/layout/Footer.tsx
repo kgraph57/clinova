@@ -18,7 +18,7 @@ const FOOTER_LINKS = {
       },
       {
         href: "https://kgraph57.github.io/pediatric-exam-app/",
-        label: "Pediatric Exam",
+        label: "Pediatric Learning",
         external: true,
       },
       { href: "/icu-nutricare", label: "ICU NutriCare" },

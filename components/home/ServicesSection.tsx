@@ -26,10 +26,10 @@ const SERVICES = [
     color: "bg-warm-sky dark:bg-blue-950/30",
   },
   {
-    name: "Pediatric Exam",
+    name: "Pediatric Learning",
     repo: "pediatric-exam-app",
     description:
-      "小児科専門医試験の学習を支援するアプリ。問題演習・解説・弱点分析で効率的な試験対策を実現します。",
+      "小児科領域の学習を支援するアプリ。問題演習・解説・弱点分析で効率的な学習を実現します。",
     url: "https://kgraph57.github.io/pediatric-exam-app/",
     icon: GraduationCap,
     language: "JavaScript",
