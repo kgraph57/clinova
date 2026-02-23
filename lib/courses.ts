@@ -47,11 +47,18 @@ const LEVEL_FALLBACK: Record<string, string> = {
   "ai-basics": "beginner",
   "generative-ai-basics": "beginner",
   "prompt-engineering-basics": "beginner",
+  "machine-learning-fundamentals": "beginner",
+  "statistics-basics-medicine": "beginner",
   "medical-ai-overview": "intermediate",
   "medical-data-legal": "intermediate",
   "ai-copyright-ethics": "intermediate",
+  "llm-in-medicine": "intermediate",
+  "patient-communication-ai": "intermediate",
+  "medical-imaging-ai-basics": "intermediate",
+  "ai-implementation-framework": "intermediate",
   "medical-ai-ethics": "advanced",
   "ai-bias-fairness": "advanced",
+  "diagnostic-support": "advanced",
 };
 
 function readCourseMeta(courseId: string): CourseMetadata | null {
@@ -205,11 +212,26 @@ export function getAllLessonParams(): {
 }
 
 const CATEGORY_COURSE_MAP: Record<string, string[]> = {
-  "ai-fundamentals": ["ai-basics", "generative-ai-basics"],
-  workflow: ["prompt-engineering-basics"],
-  clinical: ["medical-ai-overview"],
-  research: ["medical-ai-overview"],
-  diagnosis: ["medical-ai-overview"],
+  "ai-fundamentals": [
+    "ai-basics",
+    "generative-ai-basics",
+    "machine-learning-fundamentals",
+    "statistics-basics-medicine",
+  ],
+  workflow: ["prompt-engineering-basics", "ai-implementation-framework"],
+  clinical: [
+    "medical-ai-overview",
+    "llm-in-medicine",
+    "diagnostic-support",
+    "patient-communication-ai",
+    "medical-imaging-ai-basics",
+  ],
+  research: ["medical-ai-overview", "statistics-basics-medicine"],
+  diagnosis: [
+    "medical-ai-overview",
+    "diagnostic-support",
+    "medical-imaging-ai-basics",
+  ],
 };
 
 export function getRelatedCourses(knowledgeCategory: string): CourseMetadata[] {

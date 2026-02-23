@@ -1,0 +1,164 @@
+---
+title: "RAGによる最新医療情報の活用"
+description: "RAG（Retrieval-Augmented Generation）を用いて信頼性の高い医療情報源をLLMに組み込む方法を学ぶ"
+order: 3
+estimatedMinutes: 20
+---
+
+## はじめに
+
+大規模言語モデル（LLM）は膨大な知識を持っていますが、その知識は学習データがカットオフされた時点のものであり、最新の情報や非公開情報にはアクセスできません。また、事実に基づかない情報を生成する「ハルシネーション（幻覚）」という問題も抱えています。これらの課題を克服し、LLMの回答の信頼性と鮮度を劇的に向上させる技術が**RAG（Retrieval-Augmented Generation）**です。
+
+## RAGとは何か
+
+RAGは、「検索（Retrieval）」と「生成（Generation）」を組み合わせた手法で、2020年にMetaの研究者によって提案されました。ユーザーの質問に対して、まず外部の信頼できる情報源（ナレッジベース）から関連情報を検索し、その検索結果をプロンプトに付加してLLMに渡します。
+
+これにより、LLMは検索してきた最新かつ正確な情報に基づいて回答を生成するため、ハルシネーションを大幅に抑制し、エビデンスに基づいた回答を生成できるようになります。
+
+<Callout type="insight" title="RAGが解決する3つの問題">
+1. **知識の鮮度**: 学習データのカットオフ以降の最新情報を反映できる
+2. **ハルシネーション**: 外部の信頼できる情報に基づくことで幻覚を大幅に抑制
+3. **ドメイン特化**: 院内マニュアルや施設固有のプロトコルなど、一般のLLMが知らない情報を活用可能
+</Callout>
+
+### RAGのプロセス
+
+RAGのプロセスは、大きく分けて以下の4ステップで構成されます。
+
+1. **ナレッジベースの準備**: 信頼できる情報源（最新の診療ガイドライン、医学論文、院内マニュアルなど）を準備する
+2. **インデックス作成**: 情報を小さなチャンク（断片）に分割し、それぞれをベクトル（数値の配列）に変換してベクトルデータベースに保存する
+3. **検索（Retrieval）**: ユーザーの質問をベクトルに変換し、意味的に類似したチャンクをデータベースから検索する
+4. **生成（Generation）**: 検索されたチャンクを元の質問と一緒にLLMに渡し、コンテキストに基づいた回答を生成する
+
+## 医療におけるRAGの重要性
+
+医療は日々新しい研究成果が発表され、診療ガイドラインが更新される、知識の鮮度が極めて重要な分野です。
+
+### エビデンスに基づく医療（EBM）の実践
+
+最新の診療ガイドラインや臨床試験の論文をナレッジベースとすることで、LLMは常に最新のエビデンスに基づいた回答を生成できます。
+
+### 院内情報の活用
+
+各医療機関独自のプロトコル、院内マニュアル、薬剤採用リストなどをナレッジベースに含めることで、その病院の状況に即した回答を生成する「院内特化AIアシスタント」を構築できます。
+
+### ハルシネーションの抑制
+
+LLMが知らない情報については、「提供された情報の中には回答が見つかりません」と応答させることができるため、誤った情報を提供するリスクを低減できます。
+
+### 情報源の明示
+
+回答の生成に使用した情報源を提示することで、ユーザーは情報の真偽を検証し、より深く理解することができます。
+
+<Callout type="warning" title="RAGでもハルシネーションはゼロにならない">
+RAGはハルシネーションを大幅に抑制しますが、完全にゼロにすることはできません。検索されたチャンクの解釈を誤ったり、チャンク間の矛盾する情報を不適切に統合したりする可能性があります。回答には必ず情報源を提示させ、人間が検証するプロセスを組み込みましょう。
+</Callout>
+
+## RAGの実装例
+
+RAGを実装するための代表的なオープンソースフレームワークとして、LangChainとLlamaIndexがあります。
+
+### LangChainを用いた実装の概念
+
+```python
+# 1. ドキュメントローダーで文書を読み込む
+from langchain_community.document_loaders import PyPDFLoader
+loader = PyPDFLoader("latest_guideline.pdf")
+
+# 2. テキストをチャンクに分割
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=1000, chunk_overlap=200
+)
+docs = text_splitter.split_documents(loader.load())
+
+# 3. ベクトルストア（データベース）を作成
+from langchain_openai import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
+embeddings = OpenAIEmbeddings()
+vectorstore = FAISS.from_documents(docs, embeddings)
+
+# 4. 検索と生成を行うチェーンを作成
+from langchain.chains import create_retrieval_chain
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_openai import ChatOpenAI
+
+prompt = ChatPromptTemplate.from_template(
+    """以下のコンテキストのみに基づいて質問に回答してください:
+
+    <context>
+    {context}
+    </context>
+
+    質問: {input}"""
+)
+
+llm = ChatOpenAI()
+document_chain = create_stuff_documents_chain(llm, prompt)
+retrieval_chain = create_retrieval_chain(
+    vectorstore.as_retriever(), document_chain
+)
+
+# 5. 質問を投げ、回答を得る
+response = retrieval_chain.invoke({
+    "input": "高血圧の初期治療薬は何ですか？"
+})
+print(response["answer"])
+```
+
+<Callout type="comparison" title="LangChain vs LlamaIndex">
+**LangChain**は汎用的なLLMアプリケーション構築フレームワークで、RAG以外のタスクチェーンにも対応します。**LlamaIndex**はデータの取り込みとインデックス作成に特化しており、大量の文書を扱うRAGシステムの構築に向いています。医療ガイドラインの検索システムなど、文書量が多い場合はLlamaIndex、ワークフロー全体を組み立てたい場合はLangChainが適しています。
+</Callout>
+
+## まとめ
+
+RAGは、LLMの知識を外部の信頼できる情報源で補強し、回答の信頼性、正確性、鮮度を飛躍的に向上させるための鍵となる技術です。エビデンスが重視される医療分野において、RAGを使いこなすことは、LLMを安全かつ効果的に活用するための必須スキルと言えます。
+
+次のレッスンでは、プロンプトエンジニアリングやRAGの技術を応用し、医療文書作成を自動化・効率化する具体的な方法について探求します。
+
+### 参考文献
+
+- Lewis, P., Perez, E., Piktus, A., et al. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. *Advances in Neural Information Processing Systems*, 33, 9459-9474.
+
+---
+
+<Quiz courseId="llm-in-medicine" lessonSlug="rag-medical-information" questions={[
+  {
+    question: "RAGの4つのステップの正しい順序はどれですか？",
+    options: [
+      "生成 → 検索 → インデックス作成 → ナレッジベース準備",
+      "ナレッジベース準備 → インデックス作成 → 検索 → 生成",
+      "検索 → ナレッジベース準備 → 生成 → インデックス作成",
+      "インデックス作成 → ナレッジベース準備 → 生成 → 検索"
+    ],
+    correctIndex: 1,
+    explanation: "RAGのプロセスは、まず信頼できる情報源（ナレッジベース）を準備し、それをベクトル化してインデックスを作成し、ユーザーの質問に関連する情報を検索し、最後にその情報に基づいてLLMが回答を生成します。"
+  },
+  {
+    question: "医療分野でRAGが特に重要とされる理由として最も適切なものはどれですか？",
+    options: [
+      "LLMの計算コストを削減できるため",
+      "LLMのパラメータ数を減らせるため",
+      "日々更新される診療ガイドラインや最新のエビデンスを回答に反映できるため",
+      "LLMの学習時間を短縮できるため"
+    ],
+    correctIndex: 2,
+    explanation: "医療分野では常に新しい研究成果が発表され、診療ガイドラインが更新されます。RAGを用いることで、LLMの学習データのカットオフに関係なく、最新のエビデンスに基づいた回答を生成できます。"
+  },
+  {
+    question: "RAGで「院内特化AIアシスタント」を構築する際のナレッジベースとして適切でないものはどれですか？",
+    options: [
+      "院内の診療プロトコル",
+      "薬剤採用リスト",
+      "SNSの健康に関する投稿",
+      "院内マニュアルや手順書"
+    ],
+    correctIndex: 2,
+    explanation: "RAGのナレッジベースには信頼性の高い情報源を選択する必要があります。SNSの投稿は信頼性が担保されておらず、誤情報が含まれる可能性が高いため、医療用RAGシステムのナレッジベースとしては不適切です。"
+  }
+]} />
+
+<ActionItem>
+自施設で「院内RAGシステム」を構築するとしたら、どの文書をナレッジベースに含めるべきかリストアップしてみましょう。診療ガイドライン、院内マニュアル、薬剤情報など、優先度をつけて5つ以上挙げ、それぞれの更新頻度と管理方法も検討してください。
+</ActionItem>

@@ -14,9 +14,29 @@ import { PromptTemplate } from "@/components/article/PromptTemplate";
 import { Warning } from "@/components/article/Warning";
 import { SITE_CONFIG } from "@/lib/constants";
 
+const isProd = process.env.NODE_ENV === "production";
+const basePath = isProd ? "/hoshizu" : "";
+
+function MdxImage(props: React.ImgHTMLAttributes<HTMLImageElement>) {
+  const rawSrc = typeof props.src === "string" ? props.src : undefined;
+  const src =
+    rawSrc && rawSrc.startsWith("/") ? `${basePath}${rawSrc}` : rawSrc;
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      {...props}
+      src={src}
+      alt={props.alt ?? ""}
+      className="w-full h-auto rounded-lg shadow-md my-8"
+      loading="lazy"
+    />
+  );
+}
+
 const mdxComponents = {
   PromptTemplate,
   Warning,
+  img: MdxImage,
 };
 
 interface PageProps {
