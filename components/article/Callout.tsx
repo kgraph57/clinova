@@ -1,10 +1,16 @@
-import { ArrowLeftRight, HelpCircle, Info, Lightbulb } from "lucide-react"
-import { cn } from "@/lib/utils"
+import {
+  AlertTriangle,
+  ArrowLeftRight,
+  HelpCircle,
+  Info,
+  Lightbulb,
+} from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface CalloutProps {
-  type?: "info" | "question" | "insight" | "comparison"
-  title?: string
-  children: React.ReactNode
+  type?: "info" | "question" | "insight" | "comparison" | "warning";
+  title?: string;
+  children: React.ReactNode;
 }
 
 const TYPE_CONFIG = {
@@ -32,31 +38,35 @@ const TYPE_CONFIG = {
     text: "text-emerald-900 dark:text-emerald-100",
     iconClass: "text-emerald-500 dark:text-emerald-400",
   },
-} as const
+  warning: {
+    icon: AlertTriangle,
+    bg: "bg-red-50/60 dark:bg-red-950/20",
+    text: "text-red-900 dark:text-red-100",
+    iconClass: "text-red-500 dark:text-red-400",
+  },
+} as const;
 
 export function Callout({ type = "info", title, children }: CalloutProps) {
-  const config = TYPE_CONFIG[type]
-  const Icon = config.icon
+  const config = TYPE_CONFIG[type];
+  const Icon = config.icon;
 
   return (
     <div
       className={cn(
         "my-8 rounded-2xl p-5 text-sm leading-relaxed",
         config.bg,
-        config.text
+        config.text,
       )}
     >
       <div className="flex gap-3">
         <Icon className={cn("mt-0.5 h-4 w-4 shrink-0", config.iconClass)} />
         <div className="min-w-0 flex-1">
-          {title ? (
-            <p className="mb-2 font-semibold">{title}</p>
-          ) : null}
+          {title ? <p className="mb-2 font-semibold">{title}</p> : null}
           <div className="[&>:first-child]:mt-0 [&>:last-child]:mb-0">
             {children}
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
