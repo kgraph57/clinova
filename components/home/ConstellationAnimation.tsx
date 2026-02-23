@@ -1,113 +1,94 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-function prng(seed: number) {
-  let s = seed;
-  return () => {
-    s = (s * 16807) % 2147483647;
-    return (s - 1) / 2147483646;
-  };
-}
+const STARS = [
+  { x: 50, y: 8, s: 1.8, bright: true },
+  { x: 30, y: 15, s: 1.2, bright: false },
+  { x: 68, y: 12, s: 1.4, bright: true },
+  { x: 22, y: 30, s: 1.0, bright: false },
+  { x: 42, y: 25, s: 1.6, bright: true },
+  { x: 60, y: 28, s: 1.0, bright: false },
+  { x: 78, y: 22, s: 1.3, bright: true },
+  { x: 15, y: 45, s: 0.9, bright: false },
+  { x: 35, y: 42, s: 1.5, bright: true },
+  { x: 55, y: 45, s: 1.1, bright: false },
+  { x: 72, y: 40, s: 1.4, bright: true },
+  { x: 88, y: 35, s: 1.0, bright: false },
+  { x: 25, y: 58, s: 1.3, bright: true },
+  { x: 45, y: 55, s: 1.0, bright: false },
+  { x: 65, y: 58, s: 1.6, bright: true },
+  { x: 82, y: 52, s: 1.1, bright: false },
+  { x: 18, y: 72, s: 1.1, bright: false },
+  { x: 38, y: 68, s: 1.4, bright: true },
+  { x: 58, y: 72, s: 1.2, bright: false },
+  { x: 75, y: 68, s: 1.5, bright: true },
+  { x: 92, y: 65, s: 0.9, bright: false },
+  { x: 30, y: 82, s: 1.3, bright: true },
+  { x: 50, y: 85, s: 1.0, bright: false },
+  { x: 70, y: 80, s: 1.4, bright: true },
+  { x: 85, y: 78, s: 1.1, bright: false },
+  { x: 45, y: 92, s: 1.2, bright: false },
+  { x: 62, y: 90, s: 1.5, bright: true },
+];
 
-interface Star {
-  cx: number;
-  cy: number;
-  r: number;
-  peak: number;
-  base: number;
-  delay: number;
-  dur: number;
-  cross: boolean;
-}
+const LINES: [number, number][] = [
+  [0, 4],
+  [4, 2],
+  [2, 6],
+  [1, 4],
+  [4, 5],
+  [3, 8],
+  [8, 9],
+  [9, 10],
+  [7, 12],
+  [12, 13],
+  [13, 14],
+  [14, 15],
+  [10, 14],
+  [6, 10],
+  [12, 17],
+  [17, 18],
+  [18, 19],
+  [14, 19],
+  [19, 23],
+  [17, 21],
+  [21, 22],
+  [22, 26],
+  [23, 24],
+  [22, 25],
+  [25, 26],
+];
 
-interface Line {
-  x1: number;
-  y1: number;
-  x2: number;
-  y2: number;
-  delay: number;
-  op: number;
-}
-
-function makeStars(seed: number): Star[] {
-  const rand = prng(seed);
-  const out: Star[] = [];
-
-  for (let i = 0; i < 90; i++) {
-    const tier = i < 5 ? "bright" : i < 14 ? "mid" : i < 35 ? "dim" : "dust";
-
-    const r =
-      tier === "bright"
-        ? 0.6 + rand() * 0.5
-        : tier === "mid"
-          ? 0.3 + rand() * 0.25
-          : tier === "dim"
-            ? 0.15 + rand() * 0.15
-            : 0.08 + rand() * 0.1;
-
-    const peak =
-      tier === "bright"
-        ? 0.9 + rand() * 0.1
-        : tier === "mid"
-          ? 0.5 + rand() * 0.35
-          : tier === "dim"
-            ? 0.2 + rand() * 0.2
-            : 0.08 + rand() * 0.12;
-
-    out.push({
-      cx: rand() * 100,
-      cy: rand() * 100,
-      r,
-      peak,
-      base: tier === "bright" ? 0.1 : tier === "mid" ? 0.06 : 0.03,
-      delay: rand() * 6,
-      dur:
-        tier === "bright"
-          ? 2 + rand() * 2
-          : tier === "mid"
-            ? 3 + rand() * 3
-            : 4 + rand() * 5,
-      cross: tier === "bright",
-    });
-  }
-  return out;
-}
-
-function makeLines(stars: Star[]): Line[] {
-  const out: Line[] = [];
-  const bright = stars.filter((s) => s.cross || s.peak > 0.4);
-  for (let i = 0; i < bright.length; i++) {
-    for (let j = i + 1; j < bright.length; j++) {
-      const d = Math.hypot(
-        bright[i].cx - bright[j].cx,
-        bright[i].cy - bright[j].cy,
-      );
-      if (d < 20) {
-        out.push({
-          x1: bright[i].cx,
-          y1: bright[i].cy,
-          x2: bright[j].cx,
-          y2: bright[j].cy,
-          delay: 2 + i * 0.2,
-          op: (1 - d / 20) * 0.2,
-        });
-      }
-    }
-  }
-  return out;
-}
+const DUST = [
+  { x: 8, y: 20, s: 0.4 },
+  { x: 12, y: 55, s: 0.35 },
+  { x: 95, y: 15, s: 0.45 },
+  { x: 90, y: 48, s: 0.3 },
+  { x: 5, y: 85, s: 0.4 },
+  { x: 48, y: 35, s: 0.3 },
+  { x: 82, y: 88, s: 0.35 },
+  { x: 55, y: 18, s: 0.3 },
+  { x: 35, y: 50, s: 0.25 },
+  { x: 75, y: 55, s: 0.3 },
+  { x: 20, y: 90, s: 0.35 },
+  { x: 60, y: 65, s: 0.25 },
+  { x: 40, y: 78, s: 0.3 },
+  { x: 88, y: 25, s: 0.3 },
+  { x: 10, y: 38, s: 0.25 },
+  { x: 95, y: 75, s: 0.35 },
+  { x: 52, y: 50, s: 0.2 },
+  { x: 28, y: 45, s: 0.25 },
+  { x: 68, y: 35, s: 0.2 },
+  { x: 42, y: 15, s: 0.25 },
+];
 
 export function ConstellationAnimation() {
   const [ok, setOk] = useState(false);
-  const [seed] = useState(() => Math.floor(Math.random() * 99999));
-  const [id] = useState(() => "k" + Math.random().toString(36).slice(2, 7));
+  const [id] = useState(() => "c" + Math.random().toString(36).slice(2, 7));
 
   useEffect(() => setOk(true), []);
-
-  const stars = useMemo(() => makeStars(seed), [seed]);
-  const lines = useMemo(() => makeLines(stars), [stars]);
 
   if (!ok) return null;
 
@@ -115,144 +96,165 @@ export function ConstellationAnimation() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 2, delay: 0.3 }}
+      transition={{ duration: 1.5, delay: 0.5 }}
       className="relative h-full w-full text-foreground"
     >
       <style>{`
-        @keyframes ${id}-sparkle {
-          0%   { opacity: var(--b) }
-          40%  { opacity: var(--p) }
-          55%  { opacity: var(--p) }
-          65%  { opacity: calc(var(--p) * 0.5) }
-          75%  { opacity: var(--p) }
-          100% { opacity: var(--b) }
+        @keyframes ${id}-twinkle {
+          0%, 100% { opacity: var(--lo) }
+          50% { opacity: var(--hi) }
         }
-        @keyframes ${id}-cross {
-          0%   { opacity: 0; transform: scale(0.3) rotate(0deg) }
-          40%  { opacity: var(--p); transform: scale(1) rotate(10deg) }
-          55%  { opacity: var(--p); transform: scale(1.15) rotate(18deg) }
-          65%  { opacity: calc(var(--p) * 0.4); transform: scale(0.85) rotate(25deg) }
-          75%  { opacity: var(--p); transform: scale(1) rotate(32deg) }
-          100% { opacity: 0; transform: scale(0.3) rotate(45deg) }
+        @keyframes ${id}-flash {
+          0%, 100% { opacity: 0.05 }
+          20% { opacity: 1 }
+          30% { opacity: 0.7 }
+          40% { opacity: 1 }
+          60% { opacity: 0.1 }
         }
-        @keyframes ${id}-line {
-          from { opacity: 0; stroke-dashoffset: 1 }
-          to   { opacity: var(--lo); stroke-dashoffset: 0 }
+        @keyframes ${id}-cross-h {
+          0%, 100% { opacity: 0; transform: scaleX(0.3) }
+          20% { opacity: 0.8; transform: scaleX(1) }
+          40% { opacity: 0.6; transform: scaleX(1.2) }
+          60% { opacity: 0.1; transform: scaleX(0.5) }
         }
-        .${id}-s {
-          animation: ${id}-sparkle var(--d) ease-in-out infinite;
+        @keyframes ${id}-cross-v {
+          0%, 100% { opacity: 0; transform: scaleY(0.3) }
+          25% { opacity: 0.8; transform: scaleY(1) }
+          45% { opacity: 0.6; transform: scaleY(1.2) }
+          65% { opacity: 0.1; transform: scaleY(0.5) }
+        }
+        @keyframes ${id}-draw {
+          to { stroke-dashoffset: 0 }
+        }
+        @keyframes ${id}-dust {
+          0%, 100% { opacity: 0.04 }
+          50% { opacity: 0.18 }
+        }
+        .${id}-star {
+          animation: ${id}-twinkle var(--dur) ease-in-out infinite;
           animation-delay: var(--dl);
         }
-        .${id}-c {
-          animation: ${id}-cross var(--d) ease-in-out infinite;
+        .${id}-bright {
+          animation: ${id}-flash var(--dur) ease-in-out infinite;
+          animation-delay: var(--dl);
+        }
+        .${id}-ch {
+          animation: ${id}-cross-h var(--dur) ease-in-out infinite;
           animation-delay: var(--dl);
           transform-origin: center;
         }
-        .${id}-l {
+        .${id}-cv {
+          animation: ${id}-cross-v var(--dur) ease-in-out infinite;
+          animation-delay: var(--dl);
+          transform-origin: center;
+        }
+        .${id}-line {
           stroke-dasharray: 1;
           stroke-dashoffset: 1;
-          opacity: 0;
-          animation: ${id}-line 3s cubic-bezier(.4,0,.2,1) forwards;
+          animation: ${id}-draw 1.5s ease-out forwards;
+          animation-delay: var(--dl);
+        }
+        .${id}-dust {
+          animation: ${id}-dust var(--dur) ease-in-out infinite;
           animation-delay: var(--dl);
         }
       `}</style>
       <svg
         viewBox="0 0 100 100"
-        preserveAspectRatio="xMidYMid slice"
+        preserveAspectRatio="xMidYMid meet"
         className="h-full w-full"
         aria-hidden="true"
       >
-        {lines.map((l, i) => (
+        {LINES.map(([a, b], i) => (
           <line
             key={`l${i}`}
-            x1={l.x1}
-            y1={l.y1}
-            x2={l.x2}
-            y2={l.y2}
+            x1={STARS[a].x}
+            y1={STARS[a].y}
+            x2={STARS[b].x}
+            y2={STARS[b].y}
             stroke="currentColor"
-            className={`${id}-l`}
-            strokeWidth={0.08}
+            strokeWidth={0.15}
+            opacity={0.2}
             pathLength={1}
+            className={`${id}-line`}
+            style={{ "--dl": `${1 + i * 0.12}s` } as React.CSSProperties}
+          />
+        ))}
+
+        {DUST.map((d, i) => (
+          <circle
+            key={`d${i}`}
+            cx={d.x}
+            cy={d.y}
+            r={d.s}
+            fill="currentColor"
+            className={`${id}-dust`}
             style={
-              { "--lo": l.op, "--dl": `${l.delay}s` } as React.CSSProperties
+              {
+                "--dur": `${4 + (i % 5) * 1.5}s`,
+                "--dl": `${i * 0.7}s`,
+                opacity: 0.04,
+              } as React.CSSProperties
             }
           />
         ))}
 
-        {stars.map((s, i) =>
-          s.cross ? (
-            <g key={`s${i}`}>
-              <circle
-                cx={s.cx}
-                cy={s.cy}
-                r={s.r}
-                fill="currentColor"
-                className={`${id}-s`}
-                style={
-                  {
-                    "--p": s.peak,
-                    "--b": s.base,
-                    "--d": `${s.dur}s`,
-                    "--dl": `${s.delay}s`,
-                    opacity: s.base,
-                  } as React.CSSProperties
-                }
-              />
-              <line
-                x1={s.cx - s.r * 3.5}
-                y1={s.cy}
-                x2={s.cx + s.r * 3.5}
-                y2={s.cy}
-                stroke="currentColor"
-                className={`${id}-c`}
-                strokeWidth={0.05}
-                style={
-                  {
-                    "--p": s.peak * 0.7,
-                    "--d": `${s.dur}s`,
-                    "--dl": `${s.delay}s`,
-                    opacity: 0,
-                  } as React.CSSProperties
-                }
-              />
-              <line
-                x1={s.cx}
-                y1={s.cy - s.r * 3.5}
-                x2={s.cx}
-                y2={s.cy + s.r * 3.5}
-                stroke="currentColor"
-                className={`${id}-c`}
-                strokeWidth={0.05}
-                style={
-                  {
-                    "--p": s.peak * 0.7,
-                    "--d": `${s.dur}s`,
-                    "--dl": `${s.delay}s`,
-                    opacity: 0,
-                  } as React.CSSProperties
-                }
-              />
-            </g>
-          ) : (
+        {STARS.map((star, i) => (
+          <g key={`s${i}`}>
             <circle
-              key={`s${i}`}
-              cx={s.cx}
-              cy={s.cy}
-              r={s.r}
+              cx={star.x}
+              cy={star.y}
+              r={star.s * 0.5}
               fill="currentColor"
-              className={`${id}-s`}
+              className={star.bright ? `${id}-bright` : `${id}-star`}
               style={
                 {
-                  "--p": s.peak,
-                  "--b": s.base,
-                  "--d": `${s.dur}s`,
-                  "--dl": `${s.delay}s`,
-                  opacity: s.base,
+                  "--lo": star.bright ? 0.15 : 0.1,
+                  "--hi": star.bright ? 1 : 0.5,
+                  "--dur": `${star.bright ? 2.5 + (i % 3) * 0.8 : 4 + (i % 4) * 1.2}s`,
+                  "--dl": `${0.5 + i * 0.15}s`,
+                  opacity: star.bright ? 0.15 : 0.1,
                 } as React.CSSProperties
               }
             />
-          ),
-        )}
+            {star.bright && (
+              <>
+                <line
+                  x1={star.x - star.s * 2}
+                  y1={star.y}
+                  x2={star.x + star.s * 2}
+                  y2={star.y}
+                  stroke="currentColor"
+                  strokeWidth={0.08}
+                  className={`${id}-ch`}
+                  style={
+                    {
+                      "--dur": `${2.5 + (i % 3) * 0.8}s`,
+                      "--dl": `${0.5 + i * 0.15}s`,
+                      opacity: 0,
+                    } as React.CSSProperties
+                  }
+                />
+                <line
+                  x1={star.x}
+                  y1={star.y - star.s * 2}
+                  x2={star.x}
+                  y2={star.y + star.s * 2}
+                  stroke="currentColor"
+                  strokeWidth={0.08}
+                  className={`${id}-cv`}
+                  style={
+                    {
+                      "--dur": `${2.5 + (i % 3) * 0.8}s`,
+                      "--dl": `${0.5 + i * 0.15}s`,
+                      opacity: 0,
+                    } as React.CSSProperties
+                  }
+                />
+              </>
+            )}
+          </g>
+        ))}
       </svg>
     </motion.div>
   );
