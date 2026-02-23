@@ -1,12 +1,17 @@
-import Link from "next/link"
-import { ChevronRight, Clock, BookOpen } from "lucide-react"
-import type { CourseMetadata } from "@/lib/courses"
+import Link from "next/link";
+import { ChevronRight, Clock, BookOpen } from "lucide-react";
+import { CATEGORIES } from "@/lib/constants";
+import { LevelBadge } from "./LevelBadge";
+import type { CourseMetadata } from "@/lib/courses";
 
 interface CourseHeaderProps {
-  course: CourseMetadata
+  course: CourseMetadata;
 }
 
 export function CourseHeader({ course }: CourseHeaderProps) {
+  const categoryLabel =
+    CATEGORIES.find((c) => c.id === course.category)?.label ?? course.category;
+
   return (
     <div className="mb-12">
       <nav className="mb-8 flex items-center gap-1.5 text-sm text-muted-foreground">
@@ -14,10 +19,18 @@ export function CourseHeader({ course }: CourseHeaderProps) {
           ホーム
         </Link>
         <ChevronRight className="h-3 w-3" />
-        <Link href="/learn" className="transition-colors hover:text-foreground">
+        <Link
+          href="/learn"
+          className="transition-colors hover:text-foreground"
+        >
           Learn
         </Link>
       </nav>
+
+      <div className="mb-3 flex items-center gap-2">
+        <LevelBadge level={course.level} size="md" />
+        <span className="text-sm text-muted-foreground">{categoryLabel}</span>
+      </div>
 
       <h1 className="font-serif text-3xl leading-tight tracking-tight sm:text-4xl">
         {course.title}
@@ -40,5 +53,5 @@ export function CourseHeader({ course }: CourseHeaderProps) {
 
       <div className="mt-10 border-b" />
     </div>
-  )
+  );
 }

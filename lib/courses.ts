@@ -10,10 +10,18 @@ export interface CourseMetadata {
   title: string;
   description: string;
   category: string;
+  level: string;
   lessonCount: number;
   estimatedTotalMinutes: number;
   order: number;
+  free: boolean;
+  learningOutcomes: readonly string[];
+  prerequisites: readonly string[];
+  targetAudience: readonly string[];
+  skills: readonly string[];
 }
+
+const FREE_COURSES = new Set(["ai-basics", "prompt-engineering-basics"]);
 
 export interface LessonMetadata {
   courseId: string;
@@ -35,6 +43,17 @@ export interface LessonNavItem {
   order: number;
 }
 
+const LEVEL_FALLBACK: Record<string, string> = {
+  "ai-basics": "beginner",
+  "generative-ai-basics": "beginner",
+  "prompt-engineering-basics": "beginner",
+  "medical-ai-overview": "intermediate",
+  "medical-data-legal": "intermediate",
+  "ai-copyright-ethics": "intermediate",
+  "medical-ai-ethics": "advanced",
+  "ai-bias-fairness": "advanced",
+};
+
 function readCourseMeta(courseId: string): CourseMetadata | null {
   const indexPath = path.join(COURSES_DIR, courseId, "_index.mdx");
   if (!fs.existsSync(indexPath)) return null;
@@ -47,9 +66,15 @@ function readCourseMeta(courseId: string): CourseMetadata | null {
     title: data.title ?? "",
     description: data.description ?? "",
     category: data.category ?? "",
+    level: data.level ?? LEVEL_FALLBACK[courseId] ?? "beginner",
     lessonCount: data.lessonCount ?? 0,
     estimatedTotalMinutes: data.estimatedTotalMinutes ?? 0,
     order: data.order ?? 0,
+    free: FREE_COURSES.has(courseId),
+    learningOutcomes: data.learningOutcomes ?? [],
+    prerequisites: data.prerequisites ?? [],
+    targetAudience: data.targetAudience ?? [],
+    skills: data.skills ?? [],
   };
 }
 
@@ -97,6 +122,14 @@ export function getCourseCount(): number {
 
 export function getCourseById(courseId: string): CourseMetadata | null {
   return readCourseMeta(courseId);
+}
+
+export function getPrerequisiteCourses(courseId: string): CourseMetadata[] {
+  const course = readCourseMeta(courseId);
+  if (!course || course.prerequisites.length === 0) return [];
+  return course.prerequisites
+    .map((id) => readCourseMeta(id))
+    .filter((c): c is CourseMetadata => c !== null);
 }
 
 export function getLessonsForCourse(courseId: string): LessonMetadata[] {

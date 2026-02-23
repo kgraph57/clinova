@@ -1,7 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { Send, Mail, Mic, PenTool, BookOpen, GraduationCap, MessageSquare } from "lucide-react";
+import {
+  Send,
+  Mail,
+  Mic,
+  PenTool,
+  BookOpen,
+  GraduationCap,
+  MessageSquare,
+} from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
@@ -28,7 +36,8 @@ export default function ContactPage() {
     const name = formData.get("name") as string;
     const email = formData.get("email") as string;
     const message = formData.get("message") as string;
-    const typeLabel = REQUEST_TYPES.find((t) => t.id === selectedType)?.label ?? "";
+    const typeLabel =
+      REQUEST_TYPES.find((t) => t.id === selectedType)?.label ?? "";
 
     const mailtoBody = [
       typeLabel ? `【ご依頼種別】${typeLabel}` : "",
@@ -40,7 +49,7 @@ export default function ContactPage() {
       .filter(Boolean)
       .join("\n");
 
-    const mailtoUrl = `mailto:your-email@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(mailtoBody)}`;
+    const mailtoUrl = `mailto:contact@hoshizu.dev?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(mailtoBody)}`;
 
     window.location.href = mailtoUrl;
 
@@ -72,7 +81,7 @@ export default function ContactPage() {
                 "inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm transition-colors",
                 selectedType === type.id
                   ? "border-foreground bg-foreground text-background"
-                  : "hover:bg-muted"
+                  : "hover:bg-muted",
               )}
             >
               <type.icon className="h-3.5 w-3.5" />
@@ -155,11 +164,11 @@ export default function ContactPage() {
           直接メールでもお気軽にご連絡ください
         </p>
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:contact@hoshizu.dev"
           className="mt-3 inline-flex items-center gap-2 text-sm font-medium transition-colors hover:text-muted-foreground"
         >
           <Mail className="h-4 w-4" />
-          your-email@example.com
+          contact@hoshizu.dev
         </a>
       </div>
     </div>
