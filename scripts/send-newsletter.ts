@@ -23,9 +23,10 @@ import { Resend } from "resend";
 
 // ─── 設定 ───────────────────────────────────────────
 
-const PROJECT_ROOT = join(import.meta.dirname ?? ".", "..");
-const NEWSLETTER_HTML = join(import.meta.dirname ?? ".", "data", "newsletter.html");
-const NEWSLETTER_META = join(import.meta.dirname ?? ".", "data", "newsletter-meta.json");
+const SCRIPT_DIR = import.meta.dirname ?? join(process.cwd(), "scripts");
+const PROJECT_ROOT = join(SCRIPT_DIR, "..");
+const NEWSLETTER_HTML = join(SCRIPT_DIR, "data", "newsletter.html");
+const NEWSLETTER_META = join(SCRIPT_DIR, "data", "newsletter-meta.json");
 const SUBSCRIBERS_FILE = join(PROJECT_ROOT, "subscribers", "subscribers.json");
 
 const BATCH_SIZE = 100;
@@ -76,7 +77,8 @@ interface NewsletterMeta {
 function parseArgs(): { dryRun: boolean; subject: string | null } {
   const dryRun = process.argv.includes("--dry-run");
   const subjectIndex = process.argv.indexOf("--subject");
-  const subject = subjectIndex !== -1 ? (process.argv[subjectIndex + 1] ?? null) : null;
+  const subject =
+    subjectIndex !== -1 ? (process.argv[subjectIndex + 1] ?? null) : null;
   return { dryRun, subject };
 }
 
@@ -91,7 +93,9 @@ function loadSubscribers(): readonly Subscriber[] {
   const data = JSON.parse(raw) as SubscriberList;
 
   if (!Array.isArray(data.subscribers)) {
-    throw new Error("購読者データの形式が不正です。subscribers 配列が必要です。");
+    throw new Error(
+      "購読者データの形式が不正です。subscribers 配列が必要です。",
+    );
   }
 
   return data.subscribers;
@@ -103,7 +107,7 @@ function loadNewsletterHtml(): string {
   if (!existsSync(NEWSLETTER_HTML)) {
     throw new Error(
       `ニュースレターHTMLが見つかりません: ${NEWSLETTER_HTML}\n` +
-      "先に generate-newsletter.ts を実行してください。",
+        "先に generate-newsletter.ts を実行してください。",
     );
   }
   return readFileSync(NEWSLETTER_HTML, "utf-8");
@@ -120,7 +124,10 @@ function loadNewsletterMeta(): NewsletterMeta | null {
 
 // ─── バッチ送信 ──────────────────────────────────────
 
-function createBatches<T>(items: readonly T[], size: number): ReadonlyArray<readonly T[]> {
+function createBatches<T>(
+  items: readonly T[],
+  size: number,
+): ReadonlyArray<readonly T[]> {
   const batches: T[][] = [];
   for (let i = 0; i < items.length; i += size) {
     batches.push(items.slice(i, i + size));
@@ -206,8 +213,8 @@ async function main() {
   if (!apiKey && !dryRun) {
     throw new Error(
       "RESEND_API_KEY 環境変数が設定されていません。\n" +
-      "Resend (https://resend.com) でAPIキーを取得し、環境変数に設定してください。\n" +
-      "テストの場合は --dry-run フラグを使用してください。",
+        "Resend (https://resend.com) でAPIキーを取得し、環境変数に設定してください。\n" +
+        "テストの場合は --dry-run フラグを使用してください。",
     );
   }
 
@@ -220,11 +227,14 @@ async function main() {
   const activeSubscribers = allSubscribers.filter((s) => s.active);
 
   // 件名決定
-  const subject = subjectOverride ?? meta?.subject ?? `[Hoshizu] 医療AIニュースレター`;
+  const subject =
+    subjectOverride ?? meta?.subject ?? `[Hoshizu] 医療AIニュースレター`;
 
   console.log(`件名: ${subject}`);
   console.log(`送信元: ${from}`);
-  console.log(`購読者: ${allSubscribers.length} 名 (アクティブ: ${activeSubscribers.length} 名)`);
+  console.log(
+    `購読者: ${allSubscribers.length} 名 (アクティブ: ${activeSubscribers.length} 名)`,
+  );
   console.log(`HTML サイズ: ${(html.length / 1024).toFixed(1)} KB`);
   if (meta) {
     console.log(`コンテンツ: ${meta.totalItems} 件`);
@@ -248,7 +258,9 @@ async function main() {
     const batch = batches[i];
     if (!batch) continue;
 
-    console.log(`--- バッチ ${i + 1}/${batches.length} (${batch.length} 件) ---`);
+    console.log(
+      `--- バッチ ${i + 1}/${batches.length} (${batch.length} 件) ---`,
+    );
 
     const results = await sendBatch(resend, batch, html, subject, from, dryRun);
     for (const r of results) {
