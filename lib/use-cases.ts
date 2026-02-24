@@ -37,9 +37,9 @@ export const USE_CASES: readonly UseCase[] = [
     featured: [
       "on-call-ai-toolkit",
       "clinical-emergency-protocol",
+      "structured-handoff",
       "night-shift-prep",
       "differential-diagnosis",
-      "clinical-risk-stratification",
     ],
     slugPatterns: [
       /oncall/,
@@ -56,6 +56,7 @@ export const USE_CASES: readonly UseCase[] = [
       /polypharmacy/,
       /lab-interpretation/,
       /symptom-analysis/,
+      /handoff/,
     ],
     categories: ["clinical", "diagnosis"],
   },
@@ -71,10 +72,10 @@ export const USE_CASES: readonly UseCase[] = [
     darkBgColor: "dark:bg-blue-950/30",
     featured: [
       "conference-prep-workflow",
+      "morning-rounds-prep",
       "case-presentation",
       "journal-club-express",
       "presentation-format",
-      "conference-presentation",
     ],
     slugPatterns: [
       /conference/,
@@ -87,6 +88,7 @@ export const USE_CASES: readonly UseCase[] = [
       /case-presentation/,
       /poster/,
       /slide/,
+      /morning-rounds/,
     ],
     categories: [],
   },
@@ -125,6 +127,7 @@ export const USE_CASES: readonly UseCase[] = [
       /evidence-summary/,
       /abstract-draft/,
       /pubmed/,
+      /qi-project/,
     ],
     categories: ["research"],
   },
@@ -140,10 +143,10 @@ export const USE_CASES: readonly UseCase[] = [
     darkBgColor: "dark:bg-amber-950/30",
     featured: [
       "doc-discharge-summary",
+      "ai-ambient-documentation",
       "admin-referral-letter",
       "admin-incident-report",
       "medical-documents",
-      "discharge-summary",
     ],
     slugPatterns: [
       /^admin-/,
@@ -159,6 +162,7 @@ export const USE_CASES: readonly UseCase[] = [
       /meeting-summarizer/,
       /email-professional/,
       /consultation-email/,
+      /ambient/,
     ],
     categories: [],
   },
