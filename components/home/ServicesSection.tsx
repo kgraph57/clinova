@@ -1,10 +1,22 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Baby, Utensils, GraduationCap } from "lucide-react";
+import { ArrowUpRight, Baby, Activity, GraduationCap } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
-const SERVICES = [
+type Service = {
+  name: string;
+  repo: string;
+  description: string;
+  url: string;
+  internal?: boolean;
+  icon: React.ElementType;
+  language: string;
+  color: string;
+};
+
+const SERVICES: Service[] = [
   {
     name: "すくすくナビ",
     repo: "sukusuku-navi",
@@ -16,12 +28,13 @@ const SERVICES = [
     color: "bg-warm-sage dark:bg-emerald-950/30",
   },
   {
-    name: "NutriCare",
+    name: "ICU NutriCare",
     repo: "nutri-care",
     description:
-      "ICU・病棟向け栄養管理ツール。経腸栄養・静脈栄養の計算を自動化し、臨床現場の栄養管理を効率化します。",
-    url: "https://kgraph57.github.io/nutri-care/",
-    icon: Utensils,
+      "ICU・PICU向け包括的栄養管理アプリ。379製品のデータベースと12の臨床機能で、エビデンスに基づく栄養サポートを提供します。",
+    url: "/icu-nutricare",
+    internal: true,
+    icon: Activity,
     language: "TypeScript",
     color: "bg-warm-sky dark:bg-blue-950/30",
   },
@@ -35,7 +48,7 @@ const SERVICES = [
     language: "JavaScript",
     color: "bg-warm-heather dark:bg-purple-950/30",
   },
-] as const;
+];
 
 const LANGUAGE_DOTS: Record<string, string> = {
   TypeScript: "bg-blue-500",
@@ -63,15 +76,9 @@ export function ServicesSection() {
         >
           {SERVICES.map((service) => {
             const Icon = service.icon;
-            return (
-              <motion.a
-                key={service.repo}
-                variants={fadeInUp}
-                href={service.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`group flex flex-col justify-between rounded-2xl p-8 transition-all duration-200 hover:scale-[1.02] ${service.color}`}
-              >
+            const cardClass = `group flex flex-col justify-between rounded-2xl p-8 transition-all duration-200 hover:scale-[1.02] ${service.color}`;
+            const inner = (
+              <>
                 <div>
                   <div className="flex items-start justify-between">
                     <Icon className="h-7 w-7 text-foreground/70" />
@@ -94,7 +101,26 @@ export function ServicesSection() {
                     {service.repo}
                   </span>
                 </div>
-              </motion.a>
+              </>
+            );
+
+            return (
+              <motion.div key={service.repo} variants={fadeInUp}>
+                {service.internal ? (
+                  <Link href={service.url} className={cardClass}>
+                    {inner}
+                  </Link>
+                ) : (
+                  <a
+                    href={service.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={cardClass}
+                  >
+                    {inner}
+                  </a>
+                )}
+              </motion.div>
             );
           })}
         </motion.div>

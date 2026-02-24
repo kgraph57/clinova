@@ -12,17 +12,80 @@ publishedAt: "2026-02-14"
 
 ## 概要
 
-tidyverse, tableone, survivalなどを使用した統計解析用のRコードを生成します。
+臨床研究データの統計解析に必要なRコードをAIに生成させるためのプロンプトです。R言語は臨床研究の統計解析で広く使用されており、特にtableone、survival、forestplotなどのパッケージは論文執筆に直結する出力を提供します。
 
 ## プロンプトテンプレート
 
 ```text
 以下のデータ解析を行いたいので、Rコード（tidyverse, tableone, survivalなどを使用）を作成してください。
-データフレーム名は \
+
+# データの説明
+- データフレーム名: df
+- サンプル数: [n]例
+- 変数一覧:
+  - [変数名1]: [型（numeric/factor/Date）] - [説明]
+  - [変数名2]: [型] - [説明]
+  - [変数名3]: [型] - [説明]
+  - [アウトカム変数]: [型] - [説明]
+
+# 解析内容
+1. 記述統計: [Table 1作成（tableoneパッケージ使用）/ 基本統計量]
+   - 層別変数: [変数名]
+   - SMD（標準化平均差）を含めるか: [はい/いいえ]
+2. 群間比較: [比較方法を指定]
+   - 正規分布: [t検定 / 分散分析]
+   - 非正規分布: [Wilcoxon / Kruskal-Wallis]
+   - カテゴリカル: [カイ二乗検定 / Fisher正確検定]
+3. 主解析: [Cox回帰 / ロジスティック回帰 / 線形混合モデル]
+   - 目的変数: [変数名]
+   - 時間変数（生存分析の場合）: [変数名]
+   - イベント変数（生存分析の場合）: [変数名]
+   - 説明変数: [変数名リスト]
+4. 可視化: [Kaplan-Meier曲線（survminer）/ Forest plot / ggplot2]
+   - 論文投稿用の解像度・フォントサイズを指定
+
+# 出力要件
+- コードにはコメントを日本語で付けてください
+- tidyverseスタイル（パイプ演算子 |> を使用）で記述
+- 結果はflextableまたはgt形式でWord/HTML出力可能にする
+- p値は小数点以下3桁、95%信頼区間を含める
+- 図はggsave()で論文投稿用の解像度（300 dpi）で保存
 ```
+
+## 使用例
+
+### 入力例
+
+```text
+# データの説明
+- データフレーム名: df
+- サンプル数: 350例
+- 変数一覧:
+  - age: numeric - 年齢（歳）
+  - sex: factor（Male/Female）- 性別
+  - stage: factor（I/II/III/IV）- がんステージ
+  - treatment: factor（Surgery/Chemo/Combined）- 治療法
+  - os_months: numeric - 全生存期間（月）
+  - os_event: numeric（0/1）- 死亡イベント
+  - pfs_months: numeric - 無増悪生存期間（月）
+  - pfs_event: numeric（0/1）- 増悪イベント
+
+# 解析内容
+1. 記述統計: treatment群で層別化したTable 1（SMDあり）
+2. 主解析: 全生存期間に対するCox比例ハザードモデル（age, sex, stage, treatmentで調整）
+3. 可視化: treatment群別のKaplan-Meier曲線（log-rank検定p値付き）+ 調整ハザード比のForest plot
+```
+
+## よくある失敗と対策
+
+- **factor型への変換を忘れる**: カテゴリカル変数は`as.factor()`で明示的に変換する
+- **比例ハザード性の確認を省略する**: Cox回帰では`cox.zph()`で確認が必須
+- **パッケージの読み込みを忘れる**: `library()`文を冒頭にまとめて記載させる
+- **日本語フォントの問題**: ggplot2で日本語を使う場合は`theme(text = element_text(family = "HiraKakuProN-W3"))`等の指定が必要
 
 ## 活用のポイント
 
-- 入力情報はできるだけ詳細に記載すると、より精度の高い出力が得られます。
-- AIの出力を鵜呑みにせず、必ず専門的知見と照らし合わせて検証してください。
-- 必要に応じて出力結果をもとに追加の対話を行い、内容を洗練させてください。
+- `str(df)` や `head(df)` の出力を貼り付けると、変数の型認識が正確になる
+- Table 1には`tableone::CreateTableOne()`が最も簡便。`print(tableone, smd = TRUE)`でSMDも出力可能
+- 生存分析の可視化には`survminer::ggsurvplot()`を指定すると論文品質の図が得られる
+- RMarkdownまたはQuartoでの出力を指示すると、コードと結果が一体化した再現可能なレポートが作れる

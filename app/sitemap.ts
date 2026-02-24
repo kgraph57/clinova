@@ -55,6 +55,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.5,
     },
+    {
+      url: `${BASE_URL}/icu-nutricare`,
+      lastModified: new Date("2026-01-01"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
   ];
 
   const knowledgePages: MetadataRoute.Sitemap = getAllSlugs().map((slug) => ({
