@@ -1,0 +1,142 @@
+name: Newsletter Send (Weekly)
+
+on:
+  # 手動実行（件名カスタム可能）
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: "ニュースレターの件名（空欄で自動生成）"
+        required: false
+        type: string
+      dry_run:
+        description: "テスト実行 (送信しない)"
+        required: false
+        type: boolean
+        default: false
+      days:
+        description: "コンテンツ収集期間 (日数)"
+        required: false
+        type: number
+        default: 7
+
+  # medical-news.yml 完了後に自動トリガー
+  workflow_run:
+    workflows: ["Medical AI News Fetch (Weekly)"]
+    types:
+      - completed
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  send-newsletter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # workflow_run の場合は成功時のみ実行
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate newsletter HTML
+        id: generate
+        run: |
+          DAYS=${{ inputs.days || 7 }}
+          npx tsx scripts/generate-newsletter.ts --days "$DAYS"
+
+          # メタデータから情報を取得
+          if [ -f scripts/data/newsletter-meta.json ]; then
+            TOTAL_ITEMS=$(jq '.totalItems' scripts/data/newsletter-meta.json)
+            SUBJECT=$(jq -r '.subject' scripts/data/newsletter-meta.json)
+            echo "total_items=$TOTAL_ITEMS" >> $GITHUB_OUTPUT
+            echo "default_subject=$SUBJECT" >> $GITHUB_OUTPUT
+          else
+            echo "total_items=0" >> $GITHUB_OUTPUT
+            echo "default_subject=[Hoshizu] Newsletter" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Determine subject line
+        id: subject
+        run: |
+          CUSTOM_SUBJECT="${{ inputs.subject }}"
+          DEFAULT_SUBJECT="${{ steps.generate.outputs.default_subject }}"
+          if [ -n "$CUSTOM_SUBJECT" ]; then
+            echo "value=$CUSTOM_SUBJECT" >> $GITHUB_OUTPUT
+          else
+            echo "value=$DEFAULT_SUBJECT" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send newsletter
+        id: send
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          FLAGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ] || [ "${{ github.event_name }}" = "workflow_run" ]; then
+            FLAGS="--dry-run"
+          fi
+
+          SUBJECT="${{ steps.subject.outputs.value }}"
+          npx tsx scripts/send-newsletter.ts --subject "$SUBJECT" $FLAGS 2>&1 | tee send-output.txt
+
+          # 結果をステップ出力に設定
+          if grep -q '"failed":0' send-output.txt; then
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "status=partial_failure" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create result issue
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const date = new Date().toISOString().split('T')[0];
+            const totalItems = ${{ steps.generate.outputs.total_items || 0 }};
+            const status = '${{ steps.send.outputs.status || "unknown" }}';
+            const isDryRun = '${{ inputs.dry_run }}' === 'true' || '${{ github.event_name }}' === 'workflow_run';
+            const trigger = '${{ github.event_name }}';
+            const subject = `${{ steps.subject.outputs.value }}`;
+
+            const statusLabel = status === 'success' ? 'OK' : 'PARTIAL FAILURE';
+            const modeLabel = isDryRun ? 'DRY RUN' : '本番送信';
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Newsletter: ${modeLabel} ${statusLabel} (${date})`,
+              body: [
+                `## ニュースレター送信結果\n`,
+                `| 項目 | 値 |`,
+                `|------|------|`,
+                `| 日時 | ${date} |`,
+                `| モード | ${modeLabel} |`,
+                `| ステータス | ${statusLabel} |`,
+                `| トリガー | ${trigger} |`,
+                `| コンテンツ数 | ${totalItems} 件 |`,
+                `| 件名 | ${subject} |`,
+                ``,
+                `### 次のステップ`,
+                ``,
+                isDryRun
+                  ? `DRY RUN が完了しました。本番送信するには、workflow_dispatch で \`dry_run: false\` を指定して再実行してください。`
+                  : `送信が完了しました。Resend ダッシュボードで送信結果を確認してください。`,
+                ``,
+                `---`,
+                `*自動生成: newsletter.yml*`,
+              ].join('\n'),
+              labels: ['auto-generated', 'newsletter']
+            });

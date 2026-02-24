@@ -12,17 +12,12 @@ const FOOTER_LINKS = {
         label: "すくすくナビ",
         external: true,
       },
-      {
-        href: "https://kgraph57.github.io/nutri-care/",
-        label: "NutriCare",
-        external: true,
-      },
+      { href: "/icu-nutricare", label: "ICU NutriCare" },
       {
         href: "https://kgraph57.github.io/pediatric-exam-app/",
         label: "Pediatric Learning",
         external: true,
       },
-      { href: "/icu-nutricare", label: "ICU NutriCare" },
     ],
   },
   knowledge: {

@@ -43,3 +43,11 @@ next-env.d.ts
 # generated at build time
 /public/search-index.json
 /public/feed.xml
+
+# newsletter generated output
+/data/newsletter.html
+/data/newsletter-meta.json
+/scripts/data/
+
+# subscriber list (contains email addresses)
+/subscribers/subscribers.json

@@ -10,6 +10,9 @@
     "lint": "eslint",
     "fetch-news": "tsx scripts/fetch-medical-news.ts",
     "fetch-news:dry": "DRY_RUN=true tsx scripts/fetch-medical-news.ts",
+    "newsletter:generate": "tsx scripts/generate-newsletter.ts",
+    "newsletter:send": "tsx scripts/send-newsletter.ts",
+    "newsletter:send:dry": "tsx scripts/send-newsletter.ts --dry-run",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -33,6 +36,7 @@
     "rehype-autolink-headings": "^7.1.0",
     "rehype-slug": "^6.0.0",
     "remark-gfm": "^4.0.1",
+    "resend": "^6.9.2",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.4.0",
     "zod": "^4.3.6"
