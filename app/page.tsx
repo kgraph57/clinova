@@ -3,6 +3,7 @@ import { CategoryOverview } from "@/components/home/CategoryOverview";
 import { FeaturedArticles } from "@/components/home/FeaturedArticles";
 import { ServicesSection } from "@/components/home/ServicesSection";
 import { SkillsSection } from "@/components/home/SkillsSection";
+import { GitHubSection } from "@/components/home/GitHubSection";
 import { PublicationsSection } from "@/components/home/PublicationsSection";
 import { ActivitiesSection } from "@/components/home/ActivitiesSection";
 import { NewsletterSection } from "@/components/home/NewsletterSection";
@@ -14,12 +15,14 @@ import {
 } from "@/lib/content";
 import { getCourseCount } from "@/lib/courses";
 import { SITE_CONFIG } from "@/lib/constants";
+import { getGitHubRepos } from "@/lib/github";
 
 export default async function Home() {
   const featured = getFeaturedArticles();
   const counts = getArticleCount();
   const news = getLatestNews(3);
   const courseCount = getCourseCount();
+  const repos = await getGitHubRepos();
 
   const jsonLd = [
     {
@@ -61,6 +64,7 @@ export default async function Home() {
       <FeaturedArticles articles={featured} />
       <ServicesSection />
       <SkillsSection />
+      <GitHubSection repos={repos} />
       <PublicationsSection />
       <ActivitiesSection />
       <NewsletterSection articles={news} />
