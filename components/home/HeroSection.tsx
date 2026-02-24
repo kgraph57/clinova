@@ -5,6 +5,12 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
+const STATS = [
+  { value: "200+", label: "コンテンツ" },
+  { value: "15", label: "学習コース" },
+  { value: "無料", label: "公開中" },
+] as const;
+
 export function HeroSection() {
   return (
     <section className="py-20 sm:py-28 lg:py-36">
@@ -56,6 +62,22 @@ export function HeroSection() {
               学習コース
               <ArrowRight className="h-4 w-4" />
             </Link>
+          </motion.div>
+
+          <motion.div
+            variants={fadeInUp}
+            className="mt-14 flex items-center gap-8"
+          >
+            {STATS.map((stat, i) => (
+              <div key={i} className="flex flex-col">
+                <span className="text-2xl font-semibold tracking-tight">
+                  {stat.value}
+                </span>
+                <span className="mt-0.5 text-xs text-muted-foreground">
+                  {stat.label}
+                </span>
+              </div>
+            ))}
           </motion.div>
         </motion.div>
       </div>
