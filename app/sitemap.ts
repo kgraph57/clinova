@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllArticles, getAllSlugs } from "@/lib/content";
 import { getAllCourseSlugs, getAllLessonParams } from "@/lib/courses";
+import { getAllChapterSlugs } from "@/lib/book";
 
 export const dynamic = "force-static";
 
@@ -86,5 +87,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }),
   );
 
-  return [...staticPages, ...knowledgePages, ...coursePages, ...lessonPages];
+  const bookPages: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/book`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+    ...getAllChapterSlugs().map((slug) => ({
+      url: `${BASE_URL}/book/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+
+  return [
+    ...staticPages,
+    ...knowledgePages,
+    ...coursePages,
+    ...lessonPages,
+    ...bookPages,
+  ];
 }

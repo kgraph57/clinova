@@ -14,6 +14,7 @@ const NAV_ITEMS = [
   { href: "/", label: "Home" },
   { href: "/knowledge", label: "Knowledge" },
   { href: "/learn", label: "Learn" },
+  { href: "/book", label: "Book" },
   { href: "/news", label: "News" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
