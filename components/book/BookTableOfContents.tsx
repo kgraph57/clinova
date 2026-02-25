@@ -18,15 +18,22 @@ interface PartWithChapters extends BookPart {
 }
 
 interface BookTableOfContentsProps {
+  readonly bookId: string;
   readonly parts: readonly PartWithChapters[];
 }
 
-function PartSection({ part }: { readonly part: PartWithChapters }) {
+function PartSection({
+  bookId,
+  part,
+}: {
+  readonly bookId: string;
+  readonly part: PartWithChapters;
+}) {
   const [open, setOpen] = useState(true);
   const { isComplete } = useProgress();
 
   const completedInPart = part.chapterDetails.filter((ch) =>
-    isComplete("book", ch.slug),
+    isComplete(`book-${bookId}`, ch.slug),
   ).length;
 
   return (
@@ -61,7 +68,7 @@ function PartSection({ part }: { readonly part: PartWithChapters }) {
       {open && (
         <div className="mb-4 ml-7 flex flex-col gap-1">
           {part.chapterDetails.map((ch) => (
-            <ChapterItem key={ch.slug} chapter={ch} />
+            <ChapterItem key={ch.slug} bookId={bookId} chapter={ch} />
           ))}
         </div>
       )}
@@ -70,12 +77,14 @@ function PartSection({ part }: { readonly part: PartWithChapters }) {
 }
 
 function ChapterItem({
+  bookId,
   chapter,
 }: {
+  readonly bookId: string;
   readonly chapter: ChapterMetadata;
 }) {
   const { isComplete } = useProgress();
-  const completed = isComplete("book", chapter.slug);
+  const completed = isComplete(`book-${bookId}`, chapter.slug);
   const isComingSoon = chapter.status === "coming-soon";
 
   if (isComingSoon) {
@@ -89,7 +98,7 @@ function ChapterItem({
 
   return (
     <Link
-      href={`/book/${chapter.slug}`}
+      href={`/book/${bookId}/${chapter.slug}`}
       className={cn(
         "group flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm transition-colors hover:bg-muted/50",
         completed && "text-emerald-700 dark:text-emerald-400",
@@ -113,7 +122,7 @@ function ChapterItem({
   );
 }
 
-export function BookTableOfContents({ parts }: BookTableOfContentsProps) {
+export function BookTableOfContents({ bookId, parts }: BookTableOfContentsProps) {
   return (
     <div className="rounded-2xl border">
       <div className="px-5 py-4">
@@ -121,7 +130,7 @@ export function BookTableOfContents({ parts }: BookTableOfContentsProps) {
       </div>
       <div className="px-4">
         {parts.map((part) => (
-          <PartSection key={part.id} part={part} />
+          <PartSection key={part.id} bookId={bookId} part={part} />
         ))}
       </div>
     </div>

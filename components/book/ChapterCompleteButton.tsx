@@ -6,14 +6,17 @@ import { cn } from "@/lib/utils";
 import { useProgress } from "@/components/learn/ProgressProvider";
 
 interface ChapterCompleteButtonProps {
+  readonly bookId: string;
   readonly chapterSlug: string;
 }
 
 export function ChapterCompleteButton({
+  bookId,
   chapterSlug,
 }: ChapterCompleteButtonProps) {
   const { isComplete, toggleComplete } = useProgress();
-  const completed = isComplete("book", chapterSlug);
+  const courseId = `book-${bookId}`;
+  const completed = isComplete(courseId, chapterSlug);
 
   return (
     <motion.div
@@ -23,7 +26,7 @@ export function ChapterCompleteButton({
     >
       <button
         type="button"
-        onClick={() => toggleComplete("book", chapterSlug)}
+        onClick={() => toggleComplete(courseId, chapterSlug)}
         className={cn(
           "flex w-full items-center justify-center gap-3 rounded-2xl border border-dashed p-6 text-sm font-medium transition-colors",
           completed

@@ -3,11 +3,18 @@ import { ChevronRight, Clock } from "lucide-react";
 import type { ChapterMetadata } from "@/lib/book";
 
 interface ChapterHeaderProps {
+  readonly bookId: string;
+  readonly bookTitle: string;
   readonly chapter: ChapterMetadata;
   readonly totalChapters: number;
 }
 
-export function ChapterHeader({ chapter, totalChapters }: ChapterHeaderProps) {
+export function ChapterHeader({
+  bookId,
+  bookTitle,
+  chapter,
+  totalChapters,
+}: ChapterHeaderProps) {
   return (
     <div className="mb-12">
       <nav className="mb-8 flex items-center gap-1.5 text-sm text-muted-foreground">
@@ -17,6 +24,13 @@ export function ChapterHeader({ chapter, totalChapters }: ChapterHeaderProps) {
         <ChevronRight className="h-3 w-3" />
         <Link href="/book" className="transition-colors hover:text-foreground">
           Book
+        </Link>
+        <ChevronRight className="h-3 w-3" />
+        <Link
+          href={`/book/${bookId}`}
+          className="transition-colors hover:text-foreground"
+        >
+          {bookTitle}
         </Link>
         <ChevronRight className="h-3 w-3" />
         <span className="truncate">{chapter.partTitle}</span>

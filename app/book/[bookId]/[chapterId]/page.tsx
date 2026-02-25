@@ -4,9 +4,9 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import {
   getBookMetadata,
-  getAllChapterSlugs,
   getChapterBySlug,
   getChapterNavigation,
+  getAllBookChapterParams,
 } from "@/lib/book";
 import { ChapterHeader } from "@/components/book/ChapterHeader";
 import { ChapterNavigation } from "@/components/book/ChapterNavigation";
@@ -35,27 +35,27 @@ const mdxComponents = {
 };
 
 interface PageProps {
-  params: Promise<{ chapterId: string }>;
+  params: Promise<{ bookId: string; chapterId: string }>;
 }
 
 export function generateStaticParams() {
-  return getAllChapterSlugs().map((chapterId) => ({ chapterId }));
+  return getAllBookChapterParams();
 }
 
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const { chapterId } = await params;
-  const chapter = getChapterBySlug(chapterId);
+  const { bookId, chapterId } = await params;
+  const chapter = getChapterBySlug(bookId, chapterId);
   if (!chapter) return {};
 
-  const book = getBookMetadata();
+  const book = getBookMetadata(bookId);
 
   return {
     title: chapter.title,
     description: chapter.description,
     alternates: {
-      canonical: `/book/${chapterId}`,
+      canonical: `/book/${bookId}/${chapterId}`,
     },
     openGraph: {
       title: `${chapter.title} - ${book.title}`,
@@ -66,9 +66,9 @@ export async function generateMetadata({
 }
 
 export default async function ChapterPage({ params }: PageProps) {
-  const { chapterId } = await params;
-  const book = getBookMetadata();
-  const chapter = getChapterBySlug(chapterId);
+  const { bookId, chapterId } = await params;
+  const book = getBookMetadata(bookId);
+  const chapter = getChapterBySlug(bookId, chapterId);
 
   if (!chapter) {
     notFound();
@@ -97,16 +97,18 @@ export default async function ChapterPage({ params }: PageProps) {
     );
   }
 
-  const { prev, next } = getChapterNavigation(chapterId);
+  const { prev, next } = getChapterNavigation(bookId, chapterId);
   const tocItems = extractToc(chapter.content);
 
   return (
     <>
       <ReadingProgress />
-      <LessonTracker courseId="book" lessonSlug={chapterId} />
+      <LessonTracker courseId={`book-${bookId}`} lessonSlug={chapterId} />
       <TableOfContents items={tocItems} />
       <div className="mx-auto max-w-[720px] px-6 py-12 sm:py-20">
         <ChapterHeader
+          bookId={bookId}
+          bookTitle={book.title}
           chapter={chapter}
           totalChapters={book.totalChapters}
         />
@@ -120,8 +122,8 @@ export default async function ChapterPage({ params }: PageProps) {
           />
         </article>
 
-        <ChapterCompleteButton chapterSlug={chapterId} />
-        <ChapterNavigation prev={prev} next={next} />
+        <ChapterCompleteButton bookId={bookId} chapterSlug={chapterId} />
+        <ChapterNavigation bookId={bookId} prev={prev} next={next} />
       </div>
     </>
   );

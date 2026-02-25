@@ -3,16 +3,21 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import type { ChapterNavItem } from "@/lib/book";
 
 interface ChapterNavigationProps {
+  readonly bookId: string;
   readonly prev: ChapterNavItem | null;
   readonly next: ChapterNavItem | null;
 }
 
-export function ChapterNavigation({ prev, next }: ChapterNavigationProps) {
+export function ChapterNavigation({
+  bookId,
+  prev,
+  next,
+}: ChapterNavigationProps) {
   return (
     <nav className="mt-16 flex items-stretch gap-4 border-t pt-8">
       {prev ? (
         <Link
-          href={`/book/${prev.slug}`}
+          href={`/book/${bookId}/${prev.slug}`}
           className="group flex flex-1 flex-col rounded-xl border p-4 transition-colors hover:bg-muted/50"
         >
           <span className="flex items-center gap-1 text-sm text-muted-foreground">
@@ -29,7 +34,7 @@ export function ChapterNavigation({ prev, next }: ChapterNavigationProps) {
 
       {next ? (
         <Link
-          href={`/book/${next.slug}`}
+          href={`/book/${bookId}/${next.slug}`}
           className="group flex flex-1 flex-col items-end rounded-xl border p-4 text-right transition-colors hover:bg-muted/50"
         >
           <span className="flex items-center gap-1 text-sm text-muted-foreground">
@@ -42,7 +47,7 @@ export function ChapterNavigation({ prev, next }: ChapterNavigationProps) {
         </Link>
       ) : (
         <Link
-          href="/book"
+          href={`/book/${bookId}`}
           className="group flex flex-1 flex-col items-end rounded-xl border p-4 text-right transition-colors hover:bg-muted/50"
         >
           <span className="flex items-center gap-1 text-sm text-muted-foreground">

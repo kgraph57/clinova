@@ -3,18 +3,21 @@
 import { useProgress } from "@/components/learn/ProgressProvider";
 
 interface BookProgressBarProps {
+  readonly bookId: string;
   readonly totalChapters: number;
   readonly chapterSlugs: readonly string[];
 }
 
 export function BookProgressBar({
+  bookId,
   totalChapters,
   chapterSlugs,
 }: BookProgressBarProps) {
   const { isComplete } = useProgress();
 
+  const courseId = `book-${bookId}`;
   const completedCount = chapterSlugs.filter((slug) =>
-    isComplete("book", slug),
+    isComplete(courseId, slug),
   ).length;
 
   const percentage =
