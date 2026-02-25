@@ -19,10 +19,24 @@ import { CaseStudy } from "@/components/article/CaseStudy";
 import { YouTubeEmbed } from "@/components/article/YouTubeEmbed";
 import { Callout } from "@/components/article/Callout";
 import { H2, H3 } from "@/components/article/HeadingWithId";
+import { PromptTemplate } from "@/components/article/PromptTemplate";
+import { ActionItem } from "@/components/learn/ActionItem";
 import { LessonTracker } from "@/components/learn/LessonTracker";
 import { TableOfContents } from "@/components/learn/TableOfContents";
 import { MobileToc } from "@/components/learn/MobileToc";
 import { extractToc } from "@/lib/toc";
+import { StatHighlight } from "@/components/book/mdx/StatHighlight";
+import { StatRow } from "@/components/book/mdx/StatRow";
+import { StepFlow, StepFlowStep } from "@/components/book/mdx/StepFlow";
+import {
+  ComparisonCard,
+  ComparisonBefore,
+  ComparisonAfter,
+} from "@/components/book/mdx/ComparisonCard";
+import { BarChart } from "@/components/book/mdx/BarChart";
+import { Timeline, TimelineEvent } from "@/components/book/mdx/Timeline";
+import { KeyTakeaway } from "@/components/book/mdx/KeyTakeaway";
+import { Figure } from "@/components/book/mdx/Figure";
 
 const mdxComponents = {
   h2: H2,
@@ -32,6 +46,20 @@ const mdxComponents = {
   CaseStudy,
   YouTubeEmbed,
   Callout,
+  PromptTemplate,
+  ActionItem,
+  StatHighlight,
+  StatRow,
+  StepFlow,
+  StepFlowStep,
+  ComparisonCard,
+  ComparisonBefore,
+  ComparisonAfter,
+  BarChart,
+  Timeline,
+  TimelineEvent,
+  KeyTakeaway,
+  Figure,
 };
 
 interface PageProps {
@@ -114,7 +142,7 @@ export default async function ChapterPage({ params }: PageProps) {
         />
         <MobileToc items={tocItems} />
 
-        <article className="prose">
+        <article className="prose book-prose">
           <MDXRemote
             source={chapter.content}
             components={mdxComponents}

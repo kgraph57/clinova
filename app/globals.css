@@ -264,6 +264,54 @@
   background: var(--muted);
 }
 
+/* ── Book-specific prose enhancements ──── */
+.book-prose {
+  font-size: 1.0625rem;
+  letter-spacing: 0.01em;
+}
+.book-prose table {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.book-prose thead {
+  background: var(--muted);
+}
+.book-prose th {
+  font-size: 0.8125rem;
+  padding: 0.75rem 1rem;
+}
+.book-prose td {
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+}
+.book-prose hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+  margin: 3rem 0;
+}
+.book-prose pre {
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+}
+.book-prose > p > strong:only-child {
+  display: block;
+  background: var(--muted);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.7;
+}
+.book-prose h3:last-of-type ~ ol {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--muted-foreground);
+}
+.book-prose h3:last-of-type ~ ol a {
+  word-break: break-all;
+}
+
 /* ── Newsletter-specific prose styles ───── */
 .newsletter-prose h1 {
   background: linear-gradient(135deg, #4a7c6f 0%, #6f4a7c 100%);
