@@ -1,3 +1,4 @@
+import { Children, isValidElement } from "react";
 import { cn } from "@/lib/utils";
 
 const COLOR_MAP = {
@@ -8,36 +9,40 @@ const COLOR_MAP = {
   oat: "text-foreground",
 } as const;
 
-interface StatRowItem {
+interface StatRowProps {
+  readonly children: React.ReactNode;
+}
+
+interface StatRowItemProps {
   readonly value: string;
   readonly label: string;
   readonly color?: keyof typeof COLOR_MAP;
 }
 
-interface StatRowProps {
-  readonly items: readonly StatRowItem[];
-}
-
-export function StatRow({ items = [] }: StatRowProps) {
-  if (items.length === 0) return null;
+export function StatRow({ children }: StatRowProps) {
   return (
     <div className="my-8 flex flex-wrap items-stretch divide-y rounded-2xl bg-[var(--color-warm-oat)] dark:bg-muted/40 sm:divide-x sm:divide-y-0">
-      {items.map((item, i) => (
-        <div
-          key={i}
-          className="flex flex-1 basis-full flex-col items-center justify-center px-4 py-5 sm:basis-0"
-        >
-          <p
-            className={cn(
-              "font-serif text-3xl font-medium tracking-tight",
-              COLOR_MAP[item.color ?? "oat"],
-            )}
-          >
-            {item.value}
-          </p>
-          <p className="mt-1 text-xs text-muted-foreground">{item.label}</p>
-        </div>
-      ))}
+      {Children.map(children, (child) => {
+        if (!isValidElement<StatRowItemProps>(child)) return null;
+        const { value, label, color = "oat" } = child.props;
+        return (
+          <div className="flex flex-1 basis-full flex-col items-center justify-center px-4 py-5 sm:basis-0">
+            <p
+              className={cn(
+                "font-serif text-3xl font-medium tracking-tight",
+                COLOR_MAP[color],
+              )}
+            >
+              {value}
+            </p>
+            <p className="mt-1 text-xs text-muted-foreground">{label}</p>
+          </div>
+        );
+      })}
     </div>
   );
+}
+
+export function StatRowItem(_props: StatRowItemProps) {
+  return null;
 }

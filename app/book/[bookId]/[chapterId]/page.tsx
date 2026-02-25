@@ -26,14 +26,14 @@ import { TableOfContents } from "@/components/learn/TableOfContents";
 import { MobileToc } from "@/components/learn/MobileToc";
 import { extractToc } from "@/lib/toc";
 import { StatHighlight } from "@/components/book/mdx/StatHighlight";
-import { StatRow } from "@/components/book/mdx/StatRow";
+import { StatRow, StatRowItem } from "@/components/book/mdx/StatRow";
 import { StepFlow, StepFlowStep } from "@/components/book/mdx/StepFlow";
 import {
   ComparisonCard,
   ComparisonBefore,
   ComparisonAfter,
 } from "@/components/book/mdx/ComparisonCard";
-import { BarChart } from "@/components/book/mdx/BarChart";
+import { BarChart, BarChartBar } from "@/components/book/mdx/BarChart";
 import { Timeline, TimelineEvent } from "@/components/book/mdx/Timeline";
 import { KeyTakeaway } from "@/components/book/mdx/KeyTakeaway";
 import { Figure } from "@/components/book/mdx/Figure";
@@ -50,12 +50,14 @@ const mdxComponents = {
   ActionItem,
   StatHighlight,
   StatRow,
+  StatRowItem,
   StepFlow,
   StepFlowStep,
   ComparisonCard,
   ComparisonBefore,
   ComparisonAfter,
   BarChart,
+  BarChartBar,
   Timeline,
   TimelineEvent,
   KeyTakeaway,

@@ -29,12 +29,12 @@ tags: ["プロンプト", "R-T-C-F-C", "構造化", "医療AI", "実践"]
 | Role Prompting（役割設定） | +24.1% |
 | 構造化プロンプト（5要素統合） | **+32.8%** |
 
-<BarChart title="プロンプト手法別の精度向上" data={[
-  { label: "Few-shot", value: 12.3, suffix: "%" },
-  { label: "Chain-of-Thought", value: 18.7, suffix: "%" },
-  { label: "Role設定", value: 24.1, suffix: "%" },
-  { label: "構造化プロンプト", value: 32.8, suffix: "%" }
-]} />
+<BarChart title="プロンプト手法別の精度向上">
+  <BarChartBar label="Few-shot" value={12.3} suffix="%" />
+  <BarChartBar label="Chain-of-Thought" value={18.7} suffix="%" />
+  <BarChartBar label="Role設定" value={24.1} suffix="%" />
+  <BarChartBar label="構造化プロンプト" value={32.8} suffix="%" />
+</BarChart>
 
 「川崎病の診断基準は？」と聞くのと、適切に構造化されたプロンプトで聞くのとでは、**出力の精度が3割以上変わる**のである。
 

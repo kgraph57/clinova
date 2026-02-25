@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Children, isValidElement, useEffect, useRef, useState } from "react";
 
 const BAR_COLORS = [
   "bg-[hsl(var(--chart-1))]",
@@ -10,25 +10,40 @@ const BAR_COLORS = [
   "bg-[hsl(var(--chart-5))]",
 ] as const;
 
-interface BarChartItem {
+interface BarChartProps {
+  readonly title?: string;
+  readonly maxValue?: number;
+  readonly children: React.ReactNode;
+}
+
+interface BarChartBarProps {
   readonly label: string;
   readonly value: number;
   readonly suffix?: string;
 }
 
-interface BarChartProps {
-  readonly title?: string;
-  readonly data: readonly BarChartItem[];
-  readonly maxValue?: number;
+interface ParsedBar {
+  readonly label: string;
+  readonly value: number;
+  readonly suffix: string;
 }
 
-export function BarChart({ title, data = [], maxValue }: BarChartProps) {
+export function BarChart({ title, maxValue, children }: BarChartProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 
-  if (data.length === 0) return null;
+  const bars: ParsedBar[] = [];
+  Children.forEach(children, (child) => {
+    if (isValidElement<BarChartBarProps>(child)) {
+      bars.push({
+        label: child.props.label ?? "",
+        value: Number(child.props.value) || 0,
+        suffix: child.props.suffix ?? "",
+      });
+    }
+  });
 
-  const max = maxValue ?? Math.max(...data.map((d) => d.value));
+  const max = maxValue ?? Math.max(...bars.map((b) => b.value), 1);
 
   useEffect(() => {
     const el = ref.current;
@@ -48,6 +63,8 @@ export function BarChart({ title, data = [], maxValue }: BarChartProps) {
     return () => observer.disconnect();
   }, []);
 
+  if (bars.length === 0) return null;
+
   return (
     <div
       ref={ref}
@@ -60,7 +77,7 @@ export function BarChart({ title, data = [], maxValue }: BarChartProps) {
       ) : null}
 
       <div className="space-y-3">
-        {data.map((item, i) => {
+        {bars.map((item, i) => {
           const pct = max > 0 ? (item.value / max) * 100 : 0;
           return (
             <div key={i} className="flex items-center gap-3">
@@ -75,7 +92,7 @@ export function BarChart({ title, data = [], maxValue }: BarChartProps) {
               </div>
               <span className="w-14 shrink-0 text-sm font-medium tabular-nums">
                 {item.value}
-                {item.suffix ?? ""}
+                {item.suffix}
               </span>
             </div>
           );
@@ -83,4 +100,8 @@ export function BarChart({ title, data = [], maxValue }: BarChartProps) {
       </div>
     </div>
   );
+}
+
+export function BarChartBar(_props: BarChartBarProps) {
+  return null;
 }
