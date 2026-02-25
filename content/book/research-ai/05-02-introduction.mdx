@@ -1,0 +1,183 @@
+---
+title: "Introduction — 文献の位置づけ"
+description: "説得力のあるIntroductionを書くための構造とAI活用法。先行研究の位置づけとギャップの提示。"
+slug: "05-02-introduction"
+order: 18
+partId: "part05"
+partTitle: "論文執筆"
+partOrder: 5
+estimatedMinutes: 20
+free: false
+status: "published"
+tags: ["Introduction", "文献レビュー", "ギャップ", "執筆", "構造"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+# Introduction — 文献の位置づけ
+
+## Introductionの役割
+
+Introductionは読者に「なぜこの研究が必要なのか」を納得させるセクションです。具体的には以下の3つの機能を果たします。
+
+1. **背景の提示**: 研究テーマの臨床的・科学的重要性
+2. **ギャップの同定**: 現在のエビデンスに何が欠けているか
+3. **目的の明示**: 本研究が何を明らかにしようとしているか
+
+<Callout>
+Introductionは「ファンネル（漏斗）構造」で書きます。広い話題から始めて、徐々に焦点を絞り、最後に研究目的を述べる。読者を自然に研究の核心へ導く構造です。
+</Callout>
+
+## ファンネル構造の4段落モデル
+
+多くの医学論文のIntroductionは3-4段落で構成されます。
+
+### 段落1: 疾患・問題の重要性
+
+最初の段落では、研究テーマの全体像と臨床的重要性を述べます。
+
+**含むべき内容：**
+- 疾患の疫学（有病率、罹患率、死亡率）
+- 臨床的影響（患者のQOL、医療費、社会的負担）
+- 最新のデータ（可能な限り新しい統計）
+
+### 段落2: 現在のエビデンスの要約
+
+関連する先行研究のキーとなるエビデンスを要約します。
+
+**含むべき内容：**
+- 主要な先行研究の結果（RCT、メタアナリシス）
+- 現在のガイドライン推奨
+- エビデンスの進化（以前の理解→現在の理解）
+
+### 段落3: エビデンスのギャップ
+
+最も重要な段落です。ここで「本研究がなぜ必要か」を明確にします。
+
+**含むべき内容：**
+- 先行研究の限界（サンプルサイズ、対象集団、アウトカム）
+- まだ答えが出ていない疑問
+- 矛盾する結果とその原因
+- "However" "Nevertheless" "Despite" などの転換語で始まることが多い
+
+### 段落4: 研究の目的
+
+最後の段落で、本研究の目的を明確に述べます。
+
+**含むべき内容：**
+- 研究目的（1-2文）
+- 仮説（もしあれば）
+- 研究デザインの概略
+
+## AIを活用したIntroduction執筆
+
+<PromptTemplate title="Introduction のドラフト作成">
+以下の情報に基づいて、医学論文のIntroductionのドラフトを作成してください。
+
+**研究テーマ**: [テーマ]
+**PICO**:
+- P: [対象集団]
+- I: [介入/曝露]
+- C: [比較対照]
+- O: [主要アウトカム]
+
+**主要な先行研究（引用予定）**:
+1. [著者, 年] - [主要知見の要約]
+2. [著者, 年] - [主要知見の要約]
+3. [著者, 年] - [主要知見の要約]
+
+**エビデンスのギャップ**: [文献ギャップ分析から特定したギャップ]
+**研究目的**: [本研究の目的]
+
+以下の構造で4段落のIntroductionを作成してください：
+- 段落1: 疾患/問題の臨床的重要性（3-4文）
+- 段落2: 先行研究のエビデンス要約（4-5文）
+- 段落3: エビデンスのギャップ（3-4文）
+- 段落4: 本研究の目的と仮説（2-3文）
+
+学術英語で記述し、引用箇所を[XX]形式で示してください。語数は300-400語を目安にしてください。
+</PromptTemplate>
+
+## 先行研究の引用戦略
+
+### 何をどう引用するか
+
+| 引用する内容 | 引用すべき文献 | 引用の形式 |
+|-------------|---------------|-----------|
+| 疫学データ | 大規模コホート、国際統計 | 最新の数値を引用 |
+| 治療の標準 | ガイドライン | ガイドライン名と推奨グレード |
+| 先行研究の結果 | 当該テーマのRCT・メタアナリシス | 結果を具体的に要約 |
+| ギャップの根拠 | 系統的レビュー、先行研究のLimitations | 著者自身の言葉で限界を記述 |
+
+### 引用の文法
+
+<ComparisonCard beforeLabel="弱い引用の書き方" afterLabel="強い引用の書き方">
+<ComparisonBefore>
+
+A study showed that... [1]. Another study found that... [2]. Research has demonstrated that... [3].
+
+</ComparisonBefore>
+<ComparisonAfter>
+
+In a randomized trial of 4,000 patients, Smith et al. demonstrated a 25% reduction in cardiovascular events (RR 0.75, 95% CI 0.63-0.89) [1]. These findings were consistent with a meta-analysis of 12 trials (n=15,000) that confirmed the benefit across age subgroups [2]. However, patients over 80 years were systematically excluded from these trials, leaving uncertainty about efficacy in the oldest patients [3].
+
+</ComparisonAfter>
+</ComparisonCard>
+
+### 引用数のバランス
+
+Introduction では通常10-20件の参考文献を引用します。バランスのポイントは以下の通りです。
+
+- 古典的な論文（2-3件）: 分野の基盤となる重要研究
+- 最近の論文（3-5年以内のもの多め）: 最新のエビデンス
+- 系統的レビュー/メタアナリシス: 可能であれば含める
+- 自分と異なる結論の論文も含める: 公平性の担保
+
+<PromptTemplate title="Introduction の先行研究引用チェック">
+以下のIntroductionドラフトについて、引用の質と網羅性をチェックしてください。
+
+[Introductionのドラフトを貼り付け]
+
+以下を評価してください：
+1. **引用の最新性**: 5年以上前の引用が多すぎないか
+2. **引用のバランス**: ポジティブな結果の研究に偏っていないか
+3. **エビデンスレベル**: 可能な場面でメタアナリシス/RCTを引用しているか
+4. **ギャップの根拠**: ギャップの主張が引用で裏付けられているか
+5. **不足している引用**: このテーマで引用すべきだが漏れている重要な研究
+6. **過剰な引用**: 不要な引用を削減できる箇所
+</PromptTemplate>
+
+## よくある Introduction の問題
+
+<Warning>
+以下はIntroduction で頻繁に見られる問題です：
+1. **レビュー論文のようになる**: Introductionは文献レビューではありません。研究目的に直結する文献のみを簡潔に引用してください
+2. **ギャップが不明確**: "Limited data exist" だけでは不十分。何が、なぜ不足しているかを具体的に述べてください
+3. **結果の先出し**: Introductionで結果に言及しない（"We found that..." は不適切）
+4. **長すぎる**: 500語を超える Introduction は通常長すぎます
+5. **目的が曖昧**: "To investigate the relationship between..." は弱い。具体的なPICOを含めてください
+</Warning>
+
+## Introduction の推敲チェックリスト
+
+<StepFlow>
+  <StepFlowStep number={1} title="論理の流れ">
+    各段落が自然につながっているか。読者が迷わずに研究目的にたどり着けるか。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="ギャップの明確さ">
+    「なぜこの研究が必要か」が明確に伝わるか。ギャップが具体的か。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="目的の具体性">
+    研究目的にPICO要素が含まれているか。「何を明らかにするか」が1文で分かるか。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="引用の適切さ">
+    すべての事実に引用があるか。引用が最新か。バランスが取れているか。
+  </StepFlowStep>
+  <StepFlowStep number={5} title="語数と簡潔さ">
+    不要な繰り返しがないか。各文が論理の前進に寄与しているか。
+  </StepFlowStep>
+</StepFlow>
+
+<KeyTakeaway>
+Introductionはファンネル構造（広い背景→先行研究→ギャップ→研究目的）で書きます。AIは先行研究の整理とドラフト作成に有用ですが、「エビデンスのギャップ」と「研究の必要性」の議論は、あなた自身の研究への深い理解から生まれるものです。AIの下書きをベースに、あなたの言葉でリライトしてください。
+</KeyTakeaway>

@@ -1,0 +1,248 @@
+---
+title: "論文執筆・改訂"
+description: "英語医学論文の執筆、改訂、査読対応を支援するプロンプトテンプレート集。IMRADの各セクション別テンプレートを提供。"
+slug: "04-03-paper-writing"
+order: 19
+partId: "part04"
+partTitle: "研究・教育プロンプト"
+partOrder: 4
+estimatedMinutes: 22
+free: false
+status: "published"
+tags: ["論文執筆", "学術ライティング", "IMRAD", "査読対応", "英語論文"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+## 論文執筆へのAI活用
+
+AIは医学論文の執筆プロセスを大幅に効率化できます。ただし、AIが生成した文章をそのまま投稿することは、多くのジャーナルで問題視されています。AIは「執筆支援ツール」として使い、最終的な内容は著者の責任で確認・編集してください。
+
+<Warning>
+多くの医学ジャーナル（ICMJE準拠）では、AI使用の開示が求められています。AIを執筆支援に使用した場合は、Methods セクションまたは Acknowledgements で使用したAIツールとその使用範囲を明記してください。AIは著者にはなれません。
+</Warning>
+
+## IMRAD 各セクションの執筆支援
+
+### Introduction
+
+<PromptTemplate title="Introduction セクション執筆支援">
+あなたは医学論文のライティングコーチです。
+
+以下の情報から、医学論文のIntroductionセクションのドラフトを作成してください。
+
+【研究テーマ】
+[テーマの概要]
+
+【先行研究のまとめ】
+- [先行研究1の要点]
+- [先行研究2の要点]
+- [先行研究3の要点]
+
+【研究のギャップ（未解決の問題）】
+[何がまだ分かっていないか]
+
+【本研究の目的】
+[この研究で明らかにしたいこと]
+
+【出力形式】
+Introductionは以下の「逆三角形」構造で：
+
+Paragraph 1: 大きな文脈（疾患の疫学・臨床的重要性）
+Paragraph 2: これまでの知見（先行研究の要約）
+Paragraph 3: 残された課題（Research gap）
+Paragraph 4: 本研究の目的と仮説
+
+【制約】
+- 250-400語程度の英語で作成
+- 各主張に [Reference needed] のプレースホルダーを付記
+- 能動態を基本とする
+- 簡潔かつ明確な表現
+- ジャーナルのスタイルに合わせた学術的トーン
+</PromptTemplate>
+
+### Methods
+
+<PromptTemplate title="Methods セクション執筆支援">
+あなたは医学研究の方法論の専門家です。
+
+以下の研究方法の情報から、Methodsセクションのドラフトを作成してください。
+
+【研究デザイン】
+[RCT/前向きコホート/後ろ向きコホート等]
+
+【対象と方法】
+- 対象集団: [包含・除外基準]
+- 登録期間: [期間]
+- 施設: [単施設/多施設]
+- サンプルサイズ: [N]
+- サンプルサイズ計算の根拠: [計算方法]
+
+【介入/曝露】
+[介入または曝露の詳細]
+
+【アウトカム】
+- 主要アウトカム: [定義]
+- 副次アウトカム: [定義]
+
+【統計解析】
+- 使用した手法: [リスト]
+- ソフトウェア: [名前とバージョン]
+- 有意水準: [α]
+
+【倫理審査】
+- IRB承認: [番号]
+- 同意取得: [方法]
+
+【出力形式】
+以下のサブセクションに分けて記述：
+1. Study Design and Setting
+2. Participants
+3. Intervention / Exposure
+4. Outcome Measures
+5. Statistical Analysis
+6. Ethical Considerations
+
+【制約】
+- CONSORT / STROBE / STARD 等の報告ガイドラインに準拠
+- 再現可能な詳細さで記述
+- 受動態を適切に使用
+- 過去形で記述
+</PromptTemplate>
+
+### Results / Discussion
+
+<PromptTemplate title="Results/Discussion 執筆支援">
+あなたは医学論文の執筆指導者です。
+
+以下のデータと解析結果から、ResultsセクションとDiscussionセクションのドラフトを作成してください。
+
+【Results用の情報】
+- ベースラインの特性: [表1のデータ]
+- 主要アウトカムの結果: [数値データ]
+- 副次アウトカムの結果: [数値データ]
+- サブグループ解析: [結果]
+
+【Discussion用の情報】
+- 主要な発見の要約: [最も重要な結果]
+- 先行研究との比較: [一致する点・異なる点]
+- 臨床的意義: [実臨床への影響]
+- 研究の強み: [列挙]
+- 研究の限界: [列挙]
+- 今後の研究への示唆: [将来の方向性]
+
+【Results の構成】
+1. 患者フローと基本特性
+2. 主要アウトカム（最初に最も重要な結果）
+3. 副次アウトカム
+4. サブグループ解析
+5. 安全性データ（該当する場合）
+
+【Discussion の構成】
+1. 主要な発見の要約（1段落）
+2. 先行研究との比較と解釈（2-3段落）
+3. 臨床的示唆（1段落）
+4. 研究の強みと限界（1段落）
+5. 結論と今後の展望（1段落）
+
+【制約】
+- Resultsは事実のみ、解釈はDiscussionで
+- 統計結果は正確に報告（効果量、CI、p値）
+- Discussionでは結果を過大解釈しない
+- 限界は正直に記述
+</PromptTemplate>
+
+## 査読対応
+
+<PromptTemplate title="査読コメントへの対応プロンプト">
+あなたは医学論文の査読対応に豊富な経験を持つ研究者です。
+
+以下の査読コメントに対する回答レターのドラフトを作成してください。
+
+【査読者のコメント】
+[査読コメントを貼り付け]
+
+【対応の出力形式】
+各コメントに対して：
+
+Response to Reviewer [X], Comment [Y]:
+
+We thank the reviewer for this insightful comment.
+
+[回答の内容]
+- コメントに同意する場合: 修正内容の説明
+- 部分的に同意する場合: 同意する部分と議論の余地がある部分を分けて説明
+- 同意しない場合: 丁寧に反論し、根拠を示す
+
+[改訂箇所の引用]
+The revised manuscript now reads (page X, line Y):
+"[修正後の文章]"
+
+【制約】
+- 全てのコメントに対して具体的に回答
+- 丁寧かつプロフェッショナルな語調
+- 修正した箇所はページ番号・行番号で示す
+- 同意できないコメントにも敬意を持って回答
+- 追加の解析や文献が必要な場合は具体的に
+</PromptTemplate>
+
+## 英語表現の改善
+
+<PromptTemplate title="医学英語の校正・改善プロンプト">
+あなたは医学英語のネイティブエディターです。
+
+以下の英文を、医学論文にふさわしい表現に校正・改善してください。
+
+【原文】
+[校正したい英文を貼り付け]
+
+【校正の観点】
+1. 文法的な誤りの修正
+2. 医学論文にふさわしい語彙への置き換え
+3. 簡潔性の改善（冗長な表現の削減）
+4. 論理的な流れの改善
+5. 能動態/受動態の適切な使い分け
+
+【出力形式】
+■ 校正後の文章
+[修正後の全文]
+
+■ 変更箇所の説明
+| 原文 | 修正後 | 修正理由 |
+|------|--------|----------|
+
+■ 全体的なコメント
+[文章全体の質についてのフィードバック]
+
+【制約】
+- 著者の意図を変えないこと
+- 過度に複雑な表現にしないこと
+- ジャーナルのスタイルガイドに準拠
+- 医学用語は正確に使用
+</PromptTemplate>
+
+<ComparisonCard beforeLabel="未校正の医学英語" afterLabel="校正済みの医学英語">
+<ComparisonBefore>
+
+We could find that the patients who received the new drug showed better outcomes than the control group. The results were statistically significant.
+
+</ComparisonBefore>
+<ComparisonAfter>
+
+Patients receiving the investigational agent demonstrated significantly improved outcomes compared with the control group (mean difference: 2.3 points; 95% CI: 1.1-3.5; p=0.002).
+
+</ComparisonAfter>
+</ComparisonCard>
+
+<Callout>
+論文執筆プロンプトのコツ：
+- **IMRADの構造を指定**: セクションごとに分けて依頼する方が精度が高い
+- **データは正確に入力**: 統計データの正確さはAIの出力の正確さに直結
+- **報告ガイドライン**: CONSORT, STROBE等を指定すると網羅性が向上
+- **ジャーナルの指定**: 投稿先のジャーナルを指定するとスタイルが合う
+- **AI使用の開示**: 使用したAIツールは論文内で開示する
+</Callout>
+
+<KeyTakeaway>
+論文執筆プロンプトは、IMRAD各セクションの構造化されたドラフト作成、査読コメントへの対応文の準備、英語表現の改善に有用です。ただし、AIの出力はドラフトであり、著者自身による内容の検証と編集が不可欠です。ジャーナルのAI使用ポリシーを確認し、使用を適切に開示してください。
+</KeyTakeaway>

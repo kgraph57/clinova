@@ -1,0 +1,254 @@
+---
+title: "R/Pythonコード生成"
+description: "研究デザインに応じた統計解析コードをAIで自動生成し、効率的に分析を実行する方法。"
+slug: "04-02-code-generation"
+order: 14
+partId: "part04"
+partTitle: "統計解析とAI"
+partOrder: 4
+estimatedMinutes: 22
+free: false
+status: "published"
+tags: ["R", "Python", "コード生成", "統計解析", "再現性"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+# R/Pythonコード生成
+
+## AIによるコード生成のメリットと注意点
+
+AIは統計解析コードの生成を劇的に効率化します。研究者が統計の概念を理解していれば、コードの詳細な構文を暗記していなくても、AIがRやPythonの正確なコードを生成してくれます。
+
+### メリット
+
+- ゼロからコードを書く時間を大幅短縮
+- パッケージの選択と関数の使い方を自動提案
+- 初心者でも高度な解析を実装可能
+- コメント付きの読みやすいコードを生成
+
+### 注意点
+
+<Warning>
+AIが生成したコードは「動く」ことと「正しい」ことは別です。以下の点に特に注意してください：
+- パッケージのバージョン互換性（古い構文が含まれることがある）
+- デフォルト設定が適切か（例：回帰分析のリンク関数、参照カテゴリ）
+- データの前処理が正しく行われているか
+- 結果の解釈が統計的に正確か
+必ず生成されたコードを理解した上で実行し、結果を検証してください。
+</Warning>
+
+## Rによる統計解析コード生成
+
+### 基本テンプレート
+
+<PromptTemplate title="R統計解析コード生成">
+以下の研究について、R言語の統計解析コードを生成してください。
+
+**研究デザイン**: [RCT / コホート / ケースコントロール等]
+**主要解析**: [t検定 / ANOVA / ロジスティック回帰 / Cox回帰等]
+**データ構造**:
+- サンプルサイズ: [n]
+- 群変数: [変数名]（カテゴリ: [群1, 群2]）
+- 主要アウトカム: [変数名]（型: [連続/二値/生存時間]）
+- 共変量: [変数名リスト]
+- 時間変数（生存分析の場合）: [変数名]
+- イベント変数（生存分析の場合）: [変数名]
+
+以下を含むコードを生成してください：
+1. 必要なパッケージの読み込み
+2. データの読み込みと前処理
+3. 記述統計（Table 1の生成）
+4. 前提条件の確認（正規性、等分散性等）
+5. 主要解析
+6. 感度分析
+7. 結果のフォーマット（出版用テーブル、フォレストプロット等）
+8. 各ステップにコメントを付ける
+
+コードはtidyverse スタイルで記述し、再現性のためにseed設定を含めてください。
+</PromptTemplate>
+
+### 実践例：RCTの主要解析（R）
+
+以下は、RCTの主要解析をRで実行するコードの例です。
+
+```r
+# ============================================
+# RCT主要解析：セマグルチド vs シタグリプチン
+# 主要アウトカム：24週後のHbA1c変化量
+# ============================================
+
+# パッケージの読み込み
+library(tidyverse)
+library(tableone)
+library(broom)
+library(gtsummary)
+
+set.seed(42)
+
+# データの読み込み
+data <- read_csv("trial_data.csv")
+
+# --- Table 1: ベースライン特性 ---
+vars <- c("age", "sex", "bmi", "hba1c_baseline", "diabetes_duration", "egfr")
+table1 <- CreateTableOne(vars = vars, strata = "treatment", data = data)
+print(table1, smd = TRUE)
+
+# --- 前提条件の確認 ---
+# 正規性の確認（Shapiro-Wilk検定）
+shapiro.test(data$hba1c_change[data$treatment == "semaglutide"])
+shapiro.test(data$hba1c_change[data$treatment == "sitagliptin"])
+
+# --- 主要解析：共分散分析（ANCOVA） ---
+# ベースラインHbA1cで調整
+model_primary <- lm(hba1c_change ~ treatment + hba1c_baseline, data = data)
+summary(model_primary)
+confint(model_primary)
+
+# 結果の整形
+tidy(model_primary, conf.int = TRUE)
+
+# --- 感度分析 ---
+# 追加の共変量で調整
+model_adjusted <- lm(
+  hba1c_change ~ treatment + hba1c_baseline + age + sex + bmi,
+  data = data
+)
+tidy(model_adjusted, conf.int = TRUE)
+```
+
+## Pythonによる統計解析コード生成
+
+<PromptTemplate title="Python統計解析コード生成">
+以下の研究について、Pythonの統計解析コードを生成してください。
+
+**研究デザイン**: [デザイン]
+**主要解析**: [手法]
+**データ構造**: [上記と同様の情報]
+
+以下のライブラリを使用してください：
+- pandas（データ操作）
+- scipy.stats（基本的な検定）
+- statsmodels（回帰分析）
+- lifelines（生存分析）
+- matplotlib / seaborn（可視化）
+- tableone（Table 1生成）
+
+各ステップにdocstringとコメントを含め、Jupyter Notebook形式で使用可能な構造にしてください。
+</PromptTemplate>
+
+### 実践例：生存分析（Python）
+
+```python
+"""
+コホート研究の生存分析
+主要アウトカム：心血管イベント発生までの時間
+"""
+
+import pandas as pd
+import numpy as np
+from lifelines import KaplanMeierFitter, CoxPHFitter
+from lifelines.statistics import logrank_test
+import matplotlib.pyplot as plt
+
+# データの読み込み
+df = pd.read_csv("cohort_data.csv")
+
+# --- Kaplan-Meier推定 ---
+kmf = KaplanMeierFitter()
+
+fig, ax = plt.subplots(figsize=(10, 6))
+
+for group in df["exposure"].unique():
+    mask = df["exposure"] == group
+    kmf.fit(
+        durations=df.loc[mask, "follow_up_years"],
+        event_observed=df.loc[mask, "cv_event"],
+        label=group
+    )
+    kmf.plot_survival_function(ax=ax)
+
+ax.set_xlabel("Follow-up (years)")
+ax.set_ylabel("Survival probability")
+ax.set_title("Kaplan-Meier Survival Curves")
+plt.tight_layout()
+plt.savefig("km_plot.png", dpi=300)
+
+# --- ログランク検定 ---
+group_a = df[df["exposure"] == "exposed"]
+group_b = df[df["exposure"] == "unexposed"]
+
+results = logrank_test(
+    group_a["follow_up_years"], group_b["follow_up_years"],
+    event_observed_A=group_a["cv_event"],
+    event_observed_B=group_b["cv_event"]
+)
+print(f"Log-rank test p-value: {results.p_value:.4f}")
+
+# --- Cox比例ハザード回帰 ---
+cph = CoxPHFitter()
+cph.fit(
+    df[["follow_up_years", "cv_event", "exposure_binary",
+        "age", "sex", "smoking", "hypertension", "diabetes"]],
+    duration_col="follow_up_years",
+    event_col="cv_event"
+)
+cph.print_summary()
+```
+
+## 再現性の確保
+
+### プロジェクト構造の推奨
+
+```
+research_project/
+├── data/
+│   ├── raw/           # 生データ（変更不可）
+│   └── processed/     # 前処理済みデータ
+├── scripts/
+│   ├── 01_data_cleaning.R
+│   ├── 02_descriptive.R
+│   ├── 03_primary_analysis.R
+│   ├── 04_sensitivity.R
+│   └── 05_figures.R
+├── output/
+│   ├── tables/
+│   └── figures/
+├── renv.lock          # R パッケージバージョン固定
+└── README.md
+```
+
+<PromptTemplate title="再現可能な解析環境のセットアップ">
+以下の研究プロジェクトのために、再現可能な解析環境をセットアップするコードを生成してください。
+
+言語: [R / Python]
+主要パッケージ: [使用予定のパッケージリスト]
+OS: [Windows / macOS / Linux]
+
+以下を含めてください：
+1. プロジェクトディレクトリ構造の作成スクリプト
+2. パッケージ管理（R: renv / Python: requirements.txt or poetry）
+3. バージョン固定の方法
+4. 乱数シードの設定
+5. セッション情報の記録（R: sessionInfo() / Python: pip freeze）
+6. .gitignore の設定（データファイルの除外等）
+</PromptTemplate>
+
+<StepFlow>
+  <StepFlowStep number={1} title="環境構築">
+    renv (R) または venv/poetry (Python) でパッケージバージョンを固定。チーム全員が同じ環境で作業できるようにする。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="データ前処理の文書化">
+    生データから解析データへの変換を完全にスクリプト化。手作業の介入をゼロにする。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="解析の実行">
+    スクリプトを番号順に実行するだけで、すべての結果が再現されるようにする。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="結果の自動出力">
+    テーブルと図表をスクリプトから直接出力。手動でのコピー&ペーストを排除。
+  </StepFlowStep>
+</StepFlow>
+
+<KeyTakeaway>
+AIは統計解析コードの生成を飛躍的に効率化しますが、生成されたコードの理解と検証は研究者の責任です。「動くコード」ではなく「正しいコード」を目指し、再現可能な解析環境をプロジェクトの初日から構築してください。R/Pythonのどちらを選ぶかはチームのスキルセットに依存しますが、パッケージバージョンの固定と乱数シードの設定は必須です。
+</KeyTakeaway>

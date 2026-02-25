@@ -1,6 +1,6 @@
 "use client";
 
-import { Children, isValidElement, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const BAR_COLORS = [
   "bg-[hsl(var(--chart-1))]",
@@ -12,7 +12,6 @@ const BAR_COLORS = [
 
 interface BarChartProps {
   readonly title?: string;
-  readonly maxValue?: number;
   readonly children: React.ReactNode;
 }
 
@@ -20,30 +19,13 @@ interface BarChartBarProps {
   readonly label: string;
   readonly value: number;
   readonly suffix?: string;
+  readonly max?: number;
+  readonly index?: number;
 }
 
-interface ParsedBar {
-  readonly label: string;
-  readonly value: number;
-  readonly suffix: string;
-}
-
-export function BarChart({ title, maxValue, children }: BarChartProps) {
+export function BarChart({ title, children }: BarChartProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
-
-  const bars: ParsedBar[] = [];
-  Children.forEach(children, (child) => {
-    if (isValidElement<BarChartBarProps>(child)) {
-      bars.push({
-        label: child.props.label ?? "",
-        value: Number(child.props.value) || 0,
-        suffix: child.props.suffix ?? "",
-      });
-    }
-  });
-
-  const max = maxValue ?? Math.max(...bars.map((b) => b.value), 1);
 
   useEffect(() => {
     const el = ref.current;
@@ -63,11 +45,10 @@ export function BarChart({ title, maxValue, children }: BarChartProps) {
     return () => observer.disconnect();
   }, []);
 
-  if (bars.length === 0) return null;
-
   return (
     <div
       ref={ref}
+      data-visible={visible}
       className="my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10"
     >
       {title ? (
@@ -75,33 +56,36 @@ export function BarChart({ title, maxValue, children }: BarChartProps) {
           {title}
         </p>
       ) : null}
-
-      <div className="space-y-3">
-        {bars.map((item, i) => {
-          const pct = max > 0 ? (item.value / max) * 100 : 0;
-          return (
-            <div key={i} className="flex items-center gap-3">
-              <span className="w-28 shrink-0 text-right text-sm text-muted-foreground sm:w-36">
-                {item.label}
-              </span>
-              <div className="relative h-7 flex-1 overflow-hidden rounded-lg bg-muted/50">
-                <div
-                  className={`${BAR_COLORS[i % BAR_COLORS.length]} absolute inset-y-0 left-0 rounded-lg transition-all duration-700 ease-out`}
-                  style={{ width: visible ? `${pct}%` : "0%" }}
-                />
-              </div>
-              <span className="w-14 shrink-0 text-sm font-medium tabular-nums">
-                {item.value}
-                {item.suffix}
-              </span>
-            </div>
-          );
-        })}
-      </div>
+      <div className="space-y-3">{children}</div>
     </div>
   );
 }
 
-export function BarChartBar(_props: BarChartBarProps) {
-  return null;
+export function BarChartBar({
+  label,
+  value,
+  suffix = "",
+  max = 100,
+  index = 0,
+}: BarChartBarProps) {
+  const pct = max > 0 ? (Number(value) / Number(max)) * 100 : 0;
+  const colorClass = BAR_COLORS[Number(index) % BAR_COLORS.length];
+
+  return (
+    <div className="flex items-center gap-3">
+      <span className="w-28 shrink-0 text-right text-sm text-muted-foreground sm:w-36">
+        {label}
+      </span>
+      <div className="relative h-7 flex-1 overflow-hidden rounded-lg bg-muted/50">
+        <div
+          className={`${colorClass} absolute inset-y-0 left-0 rounded-lg transition-all duration-700 ease-out`}
+          style={{ width: `${pct}%` }}
+        />
+      </div>
+      <span className="w-14 shrink-0 text-sm font-medium tabular-nums">
+        {value}
+        {suffix}
+      </span>
+    </div>
+  );
 }

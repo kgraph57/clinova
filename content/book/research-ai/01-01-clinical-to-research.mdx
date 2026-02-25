@@ -1,0 +1,183 @@
+---
+title: "臨床疑問から研究疑問へ（PICO/FINERフレームワーク）"
+description: "臨床現場の「なぜ？」を構造化された研究疑問に変換するフレームワークと、AIによる支援手法を解説。"
+slug: "01-01-clinical-to-research"
+order: 1
+partId: "part01"
+partTitle: "リサーチクエスチョンの立て方"
+partOrder: 1
+estimatedMinutes: 20
+free: true
+status: "published"
+tags: ["PICO", "FINER", "リサーチクエスチョン", "臨床疑問", "研究デザイン"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+# 臨床疑問から研究疑問へ（PICO/FINERフレームワーク）
+
+## 臨床疑問と研究疑問の違い
+
+臨床の現場では、日々さまざまな疑問が生まれます。「この患者に抗凝固薬を使うべきか」「術後の鎮痛にはどの薬が最適か」「退院後のリハビリ頻度はどのくらいが良いのか」。これらは **臨床疑問（clinical question）** です。
+
+しかし、臨床疑問をそのまま研究に持ち込むことはできません。「最適な治療は何か」という漠然とした問いでは、研究の方向性が定まらず、適切なデザインも選べません。臨床疑問を **研究疑問（research question: RQ）** に変換する必要があります。
+
+<Callout>
+良いRQの条件：具体的（Specific）、測定可能（Measurable）、答えが得られる（Answerable）、現実的（Realistic）、期限がある（Time-bound）。SMARTの原則は目標設定だけでなく、RQ設計にも適用できます。
+</Callout>
+
+## PICOフレームワーク
+
+RQ構造化の最も基本的なフレームワークが **PICO** です。
+
+| 要素 | 意味 | 例 |
+|------|------|-----|
+| **P** (Patient/Population) | 対象患者・集団 | 65歳以上の心房細動患者 |
+| **I** (Intervention/Exposure) | 介入・曝露 | DOAC（直接経口抗凝固薬） |
+| **C** (Comparison) | 比較対照 | ワルファリン |
+| **O** (Outcome) | アウトカム | 脳卒中発症率、大出血イベント |
+
+### PICOの変形
+
+研究デザインによって、PICOは以下のように拡張されます。
+
+- **PICO**: 介入研究（RCT等）の標準形
+- **PECO**: 観察研究（E = Exposure：曝露）
+- **PICOS**: 系統的レビュー（S = Study design：研究デザイン）
+- **PICOT**: 時間軸を明示（T = Time：追跡期間）
+- **PIO**: 比較対照のない研究（予後研究等）
+
+### AIを使ったPICO構造化
+
+臨床疑問をPICO形式に変換するとき、AIは強力な支援者になります。
+
+<PromptTemplate title="臨床疑問のPICO構造化">
+以下の臨床疑問をPICO形式に構造化してください。
+
+臨床疑問: [あなたの臨床疑問をそのまま記述]
+
+以下の形式で回答してください：
+
+1. **P (Patient/Population)**: 対象集団を具体的に記述。年齢、性別、疾患ステージ、合併症等の包含基準と除外基準を含める。
+2. **I (Intervention/Exposure)**: 介入・曝露を具体的に記述。用量、期間、投与経路等を含める。
+3. **C (Comparison)**: 比較対照を記述。プラセボ、標準治療、別の介入等。
+4. **O (Outcome)**: 主要アウトカムと副次アウトカムを区別して記述。測定方法と評価時期も含める。
+
+さらに、以下も提案してください：
+- PICO形式の1文の研究疑問（英語・日本語）
+- 考えられる交絡因子
+- 推奨される研究デザイン
+</PromptTemplate>
+
+### 実践例：PICOの構造化
+
+**臨床疑問（曖昧な形）：**
+「高齢の糖尿病患者に新しいGLP-1受容体作動薬って効果あるのかな？」
+
+**AIによるPICO構造化：**
+
+| 要素 | 構造化された内容 |
+|------|------------------|
+| P | 65歳以上の2型糖尿病患者（HbA1c 7.0%以上、eGFR 30以上）。インスリン使用者は除外。 |
+| I | セマグルチド 1.0mg 週1回皮下注射 |
+| C | DPP-4阻害薬（シタグリプチン 50mg/日） |
+| O | 主要：24週後のHbA1c変化量。副次：体重変化、低血糖イベント数、消化器症状の発現率 |
+
+**1文のRQ（英語）：**
+"In patients aged 65 years or older with type 2 diabetes and HbA1c ≥7.0%, does once-weekly semaglutide 1.0mg compared with sitagliptin 50mg daily result in a greater reduction in HbA1c at 24 weeks?"
+
+## FINERフレームワーク
+
+PICO で構造化したRQが「良い研究」になるかを評価するのが **FINER** フレームワークです。
+
+<StepFlow>
+  <StepFlowStep number={1} title="Feasible（実行可能性）">
+    十分な症例数を確保できるか？技術的に実施可能か？予算・期間は現実的か？対象集団へのアクセスはあるか？
+  </StepFlowStep>
+  <StepFlowStep number={2} title="Interesting（興味深さ）">
+    研究者自身が知りたいと思えるか？同僚の関心を引くか？学会で議論の的になるか？
+  </StepFlowStep>
+  <StepFlowStep number={3} title="Novel（新規性）">
+    既存のエビデンスに何を加えるか？先行研究との違いは何か？ガイドラインを変える可能性はあるか？
+  </StepFlowStep>
+  <StepFlowStep number={4} title="Ethical（倫理性）">
+    患者への不利益はないか？倫理委員会の承認を得られるか？同意取得は可能か？
+  </StepFlowStep>
+  <StepFlowStep number={5} title="Relevant（関連性）">
+    臨床実践や政策に影響するか？患者アウトカムの改善につながるか？科学的知見を前進させるか？
+  </StepFlowStep>
+</StepFlow>
+
+### AIによるFINER評価
+
+<PromptTemplate title="FINER基準によるRQ評価">
+以下のリサーチクエスチョンをFINER基準で評価してください。
+
+リサーチクエスチョン: [PICO形式のRQ]
+研究環境:
+- 施設: [施設タイプ（大学病院、市中病院等）]
+- 年間症例数: [対象疾患の年間症例数（概算）]
+- 利用可能なリソース: [研究費、スタッフ、設備等]
+- 研究期間: [想定する研究期間]
+
+各基準について以下の形式で評価してください：
+1. スコア（1-5）
+2. 根拠
+3. 改善提案（スコア4未満の場合）
+
+最後に、総合的な実現可能性と推奨事項をまとめてください。
+</PromptTemplate>
+
+## よくある落とし穴とAIによる回避
+
+### 落とし穴1: RQが広すぎる
+
+**悪い例：** 「糖尿病治療におけるAIの効果は？」
+
+この問いでは、対象集団も介入も定義されていません。AIに以下のプロンプトで絞り込みを依頼しましょう。
+
+<PromptTemplate title="RQの焦点絞り込み">
+以下のRQは範囲が広すぎます。臨床的に意味のある、具体的なサブクエスチョンを5つ提案してください。各提案にはPICO要素を含めてください。
+
+広いRQ: [あなたの広いRQ]
+関心のある領域: [特に関心のあるサブトピック、あれば]
+</PromptTemplate>
+
+### 落とし穴2: アウトカムが不明確
+
+「患者の状態が良くなるか」ではなく、「12週後のHbA1cが0.5%以上低下するか」のように、測定可能な指標を定義します。
+
+### 落とし穴3: 新規性の欠如
+
+「すでに誰かがやっている研究」を避けるためには、文献ギャップ分析が必要です。これは次章で詳しく扱います。
+
+<Warning>
+AIにRQを提案してもらうとき、AIが「すでに答えが出ている問い」を新規として提示することがあります。必ずPubMedやCochrane Libraryで先行研究を確認してください。
+</Warning>
+
+## 実践ワークショップ：RQを作ってみよう
+
+以下の手順で、あなた自身のRQを構築してください。
+
+<StepFlow>
+  <StepFlowStep number={1} title="臨床疑問の書き出し">
+    最近の臨床経験で感じた疑問を3つ、自由形式で書き出す。形式にこだわらず、思いつくまま記述する。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="PICO構造化">
+    3つの疑問それぞれについて、上記のプロンプトテンプレートを使ってPICO形式に変換する。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="FINER評価">
+    PICO形式のRQをFINER基準で評価する。スコアが最も高いRQを選択する。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="RQの精錬">
+    選択したRQのFINERスコアが低い項目について、改善策を検討し、RQを修正する。
+  </StepFlowStep>
+</StepFlow>
+
+<KeyTakeaway>
+良いリサーチクエスチョンは、良い研究の50%を決めます。PICOで構造を作り、FINERで実現可能性を評価する。この2つのフレームワークをAIの力で効率的に回すことで、研究の質と速度を両立できます。
+</KeyTakeaway>
+
+## 次章の予告
+
+次章では、AIを使った「文献ギャップ分析」を解説します。PICO で構造化したRQが本当に新規性を持つか、既存のエビデンスとの差分を系統的に分析する方法を学びます。

@@ -1,0 +1,205 @@
+---
+title: "Abstract・タイトル・カバーレター"
+description: "論文の「顔」であるAbstractとタイトルの書き方、投稿を成功させるカバーレターの作成をAIで支援。"
+slug: "05-05-abstract-title"
+order: 21
+partId: "part05"
+partTitle: "論文執筆"
+partOrder: 5
+estimatedMinutes: 18
+free: false
+status: "published"
+tags: ["Abstract", "タイトル", "カバーレター", "投稿", "構造化抄録"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+# Abstract・タイトル・カバーレター
+
+## Abstract：論文の最重要セクション
+
+Abstractは論文で最も多く読まれるセクションです。多くの読者はAbstractだけで論文を読むかどうかを決めます。PubMed検索でも、Abstractの質が読者のクリック率を左右します。
+
+### 構造化抄録（Structured Abstract）
+
+ほとんどの医学ジャーナルは構造化抄録を要求しています。
+
+| セクション | 内容 | 推奨語数 |
+|-----------|------|---------|
+| **Background/Objective** | 背景と研究目的 | 2-3文 |
+| **Methods** | デザイン、対象、介入、アウトカム | 3-4文 |
+| **Results** | 主要結果（数値を含む） | 3-4文 |
+| **Conclusions** | 結論と臨床的意義 | 1-2文 |
+
+### Abstract作成の原則
+
+1. **具体的な数値を含める**: 効果量、95%CI、p値
+2. **本文と完全に一致**: 数値の不一致は致命的エラー
+3. **スタンドアローン**: Abstract単独で理解できる
+4. **略語を最小限に**: 初出で定義
+5. **引用なし**: Abstractでは参考文献を引用しない（一部ジャーナルを除く）
+
+<PromptTemplate title="構造化抄録の作成">
+以下の論文の情報から、構造化抄録（250-300語）を作成してください。
+
+**タイトル**: [タイトル]
+**研究デザイン**: [デザイン]
+**対象**: [P]
+**介入**: [I]
+**比較対照**: [C]
+**主要アウトカム**: [O]
+
+**主要結果**:
+- 介入群: [結果]
+- 対照群: [結果]
+- 効果量: [値, 95%CI, p値]
+
+**副次結果**: [主要な副次結果]
+**結論**: [主著者としての結論]
+
+以下の構造で作成してください：
+**Background**: 背景と研究目的（2-3文）
+**Methods**: 研究デザイン、対象、介入、主要アウトカムの定義（3-4文）
+**Results**: 参加者数、主要結果（数値含む）、副次結果（3-4文）
+**Conclusions**: 結論と臨床的含意（1-2文）
+
+厳密に[語数制限]語以内に収めてください。
+</PromptTemplate>
+
+### Abstractの品質チェック
+
+<PromptTemplate title="Abstract の品質チェック">
+以下のAbstractの品質をチェックしてください。
+
+[Abstractのドラフトを貼り付け]
+
+以下の観点で評価してください：
+1. **構造の完全性**: 背景/目的/方法/結果/結論がすべて含まれているか
+2. **数値の正確性**: 効果量、CI、p値が本文と一致しているか
+3. **語数**: 制限内に収まっているか
+4. **スタンドアローン**: Abstract単独で理解できるか
+5. **略語**: 初出で定義されているか
+6. **結論の妥当性**: 結果から導かれる論理的な結論か（過剰な一般化はないか）
+7. **臨床登録番号**: 含まれているか（ICMJE要求）
+8. **キーワードとの整合性**: 主要概念がカバーされているか
+</PromptTemplate>
+
+## タイトルの書き方
+
+タイトルは論文の「看板」です。PubMedの検索結果やジャーナルの目次で、読者が最初に目にするものです。
+
+### タイトルの3タイプ
+
+| タイプ | 例 | 特徴 |
+|--------|-----|------|
+| **記述的** | Effect of Semaglutide on HbA1c in Elderly Patients with Type 2 Diabetes | 中立的、最も一般的 |
+| **宣言的** | Semaglutide Reduces HbA1c More Than Sitagliptin in Elderly Patients | 結果を主張、議論あり |
+| **疑問的** | Does Semaglutide Improve Glycemic Control in Elderly Diabetic Patients? | 読者の興味を引く |
+
+<Callout>
+多くのジャーナルは記述的タイトルを好みます。宣言的タイトルは結果を先出しするため、一部のジャーナルでは推奨されません。投稿先の既刊論文のタイトルスタイルを確認してください。
+</Callout>
+
+### タイトル作成のチェックリスト
+
+- 15語以内が理想（最大20語）
+- 研究デザインを含める（ジャーナルの要求による）
+- 略語を使わない（広く認知されたものを除く）
+- 主要な結果を反映（記述的または宣言的）
+- PICO要素のうち少なくともP, I, Oを含む
+- 魅力的だが誇張しない
+
+<PromptTemplate title="タイトル候補の生成">
+以下の研究について、タイトル候補を5つ提案してください。
+
+**研究デザイン**: [デザイン]
+**PICO**:
+- P: [対象]
+- I: [介入]
+- C: [比較]
+- O: [主要アウトカム]
+**主要結果**: [結果の要約]
+**投稿先ジャーナル**: [ジャーナル名]
+
+以下の形式で5候補を提案してください：
+1. 記述的タイトル（最も保守的）
+2. 記述的タイトル（研究デザインを含む）
+3. 宣言的タイトル（結果を主張）
+4. 疑問的タイトル
+5. ジャーナルの既刊論文のスタイルに合わせたタイトル
+
+各候補について語数と推奨度を示してください。
+</PromptTemplate>
+
+## カバーレター
+
+カバーレターは、編集者（Editor）に向けて論文の価値を簡潔に伝える書類です。多くのジャーナルで必須です。
+
+### カバーレターの構造
+
+<StepFlow>
+  <StepFlowStep number={1} title="宛名と論文の基本情報">
+    Editor-in-Chief の名前、論文タイトル、著者名、論文の種類（Original Article等）。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="研究の意義（2-3文）">
+    この研究がなぜ重要で、ジャーナルの読者にとって価値があるか。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="主要知見の要約（1-2文）">
+    最も重要な結果を簡潔に記述。数値を含める。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="このジャーナルを選んだ理由（1文）">
+    ジャーナルのスコープとの適合性。
+  </StepFlowStep>
+  <StepFlowStep number={5} title="必須声明">
+    オリジナル未投稿であること。利益相反。全著者の承認。倫理承認。
+  </StepFlowStep>
+</StepFlow>
+
+<PromptTemplate title="カバーレターの作成">
+以下の情報から、ジャーナル投稿用のカバーレターを作成してください。
+
+**ジャーナル名**: [名前]
+**Editor-in-Chief**: [名前]
+**論文タイトル**: [タイトル]
+**論文の種類**: [Original Article / Review / Letter等]
+**著者**: [著者リスト]
+**責任著者**: [名前, 所属, メールアドレス]
+
+**研究の意義**: [2-3文で研究の重要性を説明]
+**主要知見**: [主要結果の要約]
+**このジャーナルを選んだ理由**: [スコープとの適合性]
+
+以下の声明を含めてください：
+- 原著であり、他のジャーナルに投稿中でないこと
+- すべての著者が最終稿を読み承認したこと
+- 利益相反の有無
+- 倫理委員会の承認を得ていること
+- データ共有の意思
+
+フォーマルな学術英語で、1ページ以内に収めてください。
+</PromptTemplate>
+
+<ComparisonCard beforeLabel="弱いカバーレター" afterLabel="強いカバーレター">
+<ComparisonBefore>
+
+Dear Editor, Please consider our paper for publication. We think it is important. Thank you.
+
+</ComparisonBefore>
+<ComparisonAfter>
+
+Dear Professor [Name], We submit our manuscript entitled "[Title]" for consideration as an Original Article in [Journal]. This multicenter trial of 500 patients demonstrates that [intervention] reduces [outcome] by 38% compared with standard care — the first evidence in patients over 80 years with comorbid CKD. We believe these findings will be of immediate clinical relevance to your readership given the aging global population and the current guideline uncertainty in this subgroup.
+
+</ComparisonAfter>
+</ComparisonCard>
+
+<Warning>
+カバーレターでは、以下を避けてください：
+- 結果の誇張（"groundbreaking" "revolutionary" 等の表現）
+- 論文の詳細な方法論（それは論文本体で述べる）
+- 他のジャーナルにリジェクトされた経緯
+- 特定の査読者の指名の要求（ただし、推奨/除外査読者はカバーレターとは別のフィールドで求められることがある）
+</Warning>
+
+<KeyTakeaway>
+Abstract、タイトル、カバーレターは論文の「営業ツール」です。読者や編集者に最初に届くこれらの要素の質が、論文の運命を左右します。AIで効率的にドラフトを作成し、本文との数値の一致を厳密にチェックしましょう。特にAbstractの数値の不一致は査読でほぼ確実に指摘されます。
+</KeyTakeaway>

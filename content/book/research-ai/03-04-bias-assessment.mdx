@@ -1,0 +1,182 @@
+---
+title: "バイアス評価と質スコアリング"
+description: "GRADE評価、ROBINSツール、エビデンスの確実性評価をAIで効率化する包括的アプローチ。"
+slug: "03-04-bias-assessment"
+order: 12
+partId: "part03"
+partTitle: "批判的吟味とデータ抽出"
+partOrder: 3
+estimatedMinutes: 20
+free: false
+status: "published"
+tags: ["GRADE", "ROBINS-I", "エビデンスの確実性", "バイアス", "質評価"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+# バイアス評価と質スコアリング
+
+## エビデンスの確実性を評価する
+
+個々の研究のバイアスリスクを評価した後、次のステップはエビデンスの全体的な確実性（certainty of evidence）を評価することです。これはGRADE（Grading of Recommendations, Assessment, Development and Evaluation）フレームワークで行います。
+
+GRADEは現在、WHO、Cochrane、120以上の組織で採用されており、ガイドライン作成の国際標準です。
+
+<Callout>
+GRADEの目的は「このエビデンスをどの程度信頼できるか」を体系的に判断することです。個々の研究の質ではなく、特定のアウトカムに対するエビデンス全体の確実性を評価します。
+</Callout>
+
+## GRADEフレームワーク
+
+### エビデンスの確実性の4段階
+
+| 確実性 | 定義 | 意味 |
+|--------|------|------|
+| **高（High）** | 真の効果は推定値の近くにある | さらなる研究で信頼性は変わらない |
+| **中（Moderate）** | 推定値はおそらく真の効果に近い | さらなる研究で変わる可能性がある |
+| **低（Low）** | 真の効果は推定値と大きく異なりうる | さらなる研究で変わる可能性が高い |
+| **非常に低（Very Low）** | 推定値にほとんど信頼を置けない | 真の効果は不確か |
+
+### GRADEのグレードダウン要因（5つ）
+
+<StepFlow>
+  <StepFlowStep number={1} title="バイアスリスク（Risk of Bias）">
+    研究のRoB評価に基づく。高リスクの研究が多い場合、エビデンスの確実性をグレードダウン。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="非一貫性（Inconsistency）">
+    研究間で結果がばらついている場合。I²統計量が高い（>50-75%）場合にグレードダウン。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="非直接性（Indirectness）">
+    PICOの各要素が自分の臨床疑問と一致しない場合。代替アウトカム（サロゲート）の使用も含む。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="不精確さ（Imprecision）">
+    信頼区間が広く、臨床的に重要な差をまたぐ場合。サンプルサイズが不十分な場合。OIS（Optimal Information Size）の概念。
+  </StepFlowStep>
+  <StepFlowStep number={5} title="出版バイアス（Publication Bias）">
+    ポジティブな結果の研究が優先的に出版されている可能性。ファネルプロットの非対称性、Eggerの検定。
+  </StepFlowStep>
+</StepFlow>
+
+### GRADEのグレードアップ要因（3つ）
+
+観察研究は「低」から開始しますが、以下の場合にグレードアップが可能です。
+
+1. **効果量が大きい**: RR > 2 または RR < 0.5 で1段階、RR > 5 または RR < 0.2 で2段階
+2. **用量反応関係**: 曝露量と効果量の間に明確な用量反応関係がある
+3. **交絡が効果を過小評価する方向**: 残余交絡が真の効果をむしろ弱める方向に働いている
+
+### AIによるGRADE評価
+
+<PromptTemplate title="GRADEエビデンス評価">
+以下のメタアナリシスの結果について、GRADEフレームワークでエビデンスの確実性を評価してください。
+
+アウトカム: [アウトカム名]
+効果量: [RR/OR/MD = 値, 95%CI, p値]
+含まれた研究数: [件]
+総サンプルサイズ: [人]
+I²: [%]
+
+各研究のRoB評価:
+[各研究のRoB 2またはNOSの結果]
+
+以下の5つの要因について評価してください：
+
+1. **バイアスリスク**: 含まれた研究のRoB評価に基づく総合評価。グレードダウンの要否と程度。
+2. **非一貫性**: I²統計量、信頼区間の重複、効果の方向の一致性。サブグループ解析やメタ回帰で説明可能か。
+3. **非直接性**: 研究の対象集団、介入、比較対照、アウトカムが本来のPICOとどの程度一致するか。
+4. **不精確さ**: 95%CIの幅、臨床的に重要な差との関係、OISの充足。
+5. **出版バイアス**: ファネルプロットの非対称性、小規模研究効果の有無。
+
+最終判定: High / Moderate / Low / Very Low
+Summary of Findings テーブル形式で出力してください。
+</PromptTemplate>
+
+## ROBINS-Iツール
+
+ROBINS-I（Risk Of Bias In Non-randomised Studies of Interventions）は、非ランダム化研究の介入効果を評価するためのCochrane公式ツールです。NOS（Newcastle-Ottawa Scale）よりも詳細な評価が可能です。
+
+### ROBINS-Iの7ドメイン
+
+| ドメイン | 評価内容 |
+|---------|---------|
+| 交絡によるバイアス | 測定・未測定の交絡因子の影響 |
+| 参加者選択のバイアス | 研究への参加が介入とアウトカムに関連 |
+| 介入の分類バイアス | 介入状況の分類が正確か |
+| 意図した介入からの逸脱 | ITTフレームワークでの逸脱の影響 |
+| 欠測データのバイアス | 追跡不能や欠測の影響 |
+| アウトカム測定のバイアス | 評価者の盲検化、測定の客観性 |
+| 報告された結果選択のバイアス | 事前計画と報告の一致 |
+
+<PromptTemplate title="ROBINS-I評価">
+以下の非ランダム化介入研究について、ROBINS-Iツールで評価してください。
+
+[論文テキストを貼り付け]
+
+7つのドメインそれぞれについて：
+- 判定: Low / Moderate / Serious / Critical / No information
+- 根拠（論文中の記述を引用）
+- 改善のための提案
+
+最終判定を以下の基準で出力してください：
+- **Low risk**: すべてのドメインでLow
+- **Moderate risk**: 少なくとも1つのドメインでModerate
+- **Serious risk**: 少なくとも1つのドメインでSerious
+- **Critical risk**: 少なくとも1つのドメインでCritical
+</PromptTemplate>
+
+## Summary of Findings テーブル
+
+GRADEの評価結果は、Summary of Findings（SoF）テーブルにまとめます。これは系統的レビューの「顔」ともいえる重要なテーブルです。
+
+<PromptTemplate title="Summary of Findingsテーブルの作成">
+以下のメタアナリシス結果から、GRADEpro GDT形式のSummary of Findingsテーブルを作成してください。
+
+対象者: [対象集団]
+介入: [介入]
+比較: [比較対照]
+セッティング: [実施環境]
+
+各アウトカムについて以下を記載：
+
+| アウトカム | 研究数 | 参加者数 | 効果量（95%CI） | エビデンスの確実性 | コメント |
+|-----------|--------|---------|----------------|-------------------|---------|
+| [主要アウトカム] | | | | | |
+| [副次アウトカム1] | | | | | |
+| [副次アウトカム2] | | | | | |
+
+各アウトカムのGRADE評価の根拠（どの要因でグレードダウン/アップしたか）も記載してください。
+
+対照群のリスク（1000人あたりのイベント数）と介入群のリスクも計算してください。
+</PromptTemplate>
+
+## GRADEpro GDTツールの活用
+
+GRADEpro GDT（gradepro.org）は、GRADE評価とSoFテーブルの作成を支援するウェブツールです。
+
+### GRADEpro GDTとAIの併用ワークフロー
+
+1. メタアナリシスの結果をGRADEpro GDTに入力
+2. AIで各グレードダウン/アップ要因の根拠文を下書き
+3. GRADEpro GDTで正式なSoFテーブルを生成
+4. レビューチームで判定を合議
+
+<Warning>
+GRADE評価は主観的判断を含みます。同じデータを見ても、評価者によって判定が異なることがあります。AIの評価は「出発点」として使い、最終判定はレビューチームの合議で決定してください。特に、グレードダウンの程度（1段階か2段階か）は、臨床的文脈に依存する判断です。
+</Warning>
+
+<ComparisonCard beforeLabel="手動のGRADE評価" afterLabel="AI支援のGRADE評価">
+<ComparisonBefore>
+
+各ドメインの根拠文を一から記述。研究間の比較を手作業で実施。SoFテーブルの作成に数時間。評価者間の一致度が低い場合がある。
+
+</ComparisonBefore>
+<ComparisonAfter>
+
+AIが根拠文のドラフトを生成。研究間の比較を自動で構造化。SoFテーブルのドラフトを数分で生成。AIの一貫した評価を出発点に合議。
+
+</ComparisonAfter>
+</ComparisonCard>
+
+<KeyTakeaway>
+バイアス評価は個々の研究レベル（RoB 2、NOS、ROBINS-I）とエビデンス全体レベル（GRADE）の2段階で行います。AIはこれらの評価プロセスの効率化と一貫性の向上に貢献しますが、最終的な判定は臨床・方法論的な専門知識を持つ人間のチームが行います。
+</KeyTakeaway>

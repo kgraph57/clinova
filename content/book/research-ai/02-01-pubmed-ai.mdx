@@ -1,0 +1,227 @@
+---
+title: "PubMed × AI構造化検索ワークフロー"
+description: "PubMedの検索機能をAIで最大限に活用し、網羅的かつ効率的に文献を収集する実践ワークフロー。"
+slug: "02-01-pubmed-ai"
+order: 4
+partId: "part02"
+partTitle: "文献検索の革新"
+partOrder: 2
+estimatedMinutes: 20
+free: true
+status: "published"
+tags: ["PubMed", "MeSH", "検索式", "文献検索", "Semantic Scholar"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+# PubMed × AI構造化検索ワークフロー
+
+## PubMed検索の現状と課題
+
+PubMedは3,700万件以上の文献を収録する、医学研究の最も基本的なデータベースです。しかし、効果的な検索には MeSH（Medical Subject Headings）の理解、Boolean演算子の適切な使用、検索式の反復的改善が必要であり、初学者にとっては高いハードルとなっています。
+
+よくある問題は以下の通りです。
+
+- **検索結果が多すぎる**: 非特異的な検索語で数万件がヒット、スクリーニング不可能
+- **検索結果が少なすぎる**: MeSHの選択ミスや過度な絞り込みで重要な論文を見落とす
+- **再現性の欠如**: 検索プロセスが文書化されておらず、後から検証できない
+- **最新論文の漏れ**: MeSHインデックスが未付与の最新論文が検索にかからない
+
+<Callout>
+系統的レビューにおける検索式の質は、レビュー全体の質を直接左右します。PRISMA 2020では、完全な検索式を少なくとも1つのデータベースについて報告することが要求されています。
+</Callout>
+
+## AI構造化検索の5ステップワークフロー
+
+<StepFlow>
+  <StepFlowStep number={1} title="PICO要素からの検索語展開">
+    各PICO要素に対して、MeSHターム、フリーテキスト語、同義語、関連語をAIで網羅的に生成する。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="検索式の構築">
+    Boolean演算子（AND, OR, NOT）を使って、PICO要素を組み合わせた検索式を構築する。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="検索の実行と結果評価">
+    PubMedで検索を実行し、ヒット数と上位論文の関連性を確認。必要に応じて検索式を調整する。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="感度と特異度のバランス調整">
+    系統的レビューでは感度重視（網羅的）、臨床疑問の解決では特異度重視（精度重視）に調整する。
+  </StepFlowStep>
+  <StepFlowStep number={5} title="補完検索の実施">
+    引用文献追跡、被引用文献検索、関連論文機能で検索を補完する。
+  </StepFlowStep>
+</StepFlow>
+
+## ステップ1: PICO要素からの検索語展開
+
+<PromptTemplate title="PICO要素からのMeSH・検索語展開">
+以下のPICO要素から、PubMed検索に使用する検索語を展開してください。
+
+P (Population): [対象集団]
+I (Intervention): [介入]
+C (Comparison): [比較対照]
+O (Outcome): [アウトカム]
+
+各PICO要素について以下を提示してください：
+1. **MeSHターム**: 正確なMeSH見出し語。サブヘディングも含める。Explode（上位語に含まれる下位語をすべて含む）の推奨有無。
+2. **Entry Terms**: MeSHのエントリーターム（同義語として登録されている語）
+3. **フリーテキスト語**: MeSHに含まれない重要な関連語、略語、商品名等
+4. **タイトル/抄録検索の推奨語**: [tiab]フィールドで検索すべき語
+5. **除外すべき語**: NOTで除外すべき無関係な同音語等
+
+最後に、PubMed形式の完成した検索式を提示してください。
+</PromptTemplate>
+
+### 検索語展開の実践例
+
+**PICO**: 高齢者の心房細動（P）に対するDOAC（I）vs ワルファリン（C）の脳卒中予防効果（O）
+
+**P の検索語展開：**
+
+```
+("Atrial Fibrillation"[MeSH Terms] OR "atrial fibrillation"[tiab] OR "AF"[tiab] OR "AFib"[tiab] OR "auricular fibrillation"[tiab])
+AND
+("Aged"[MeSH Terms] OR "Aged, 80 and over"[MeSH Terms] OR "elderly"[tiab] OR "older adults"[tiab] OR "geriatric"[tiab] OR "aged"[tiab])
+```
+
+**I の検索語展開：**
+
+```
+("Anticoagulants"[MeSH Terms] OR "Factor Xa Inhibitors"[MeSH Terms] OR "dabigatran"[tiab] OR "rivaroxaban"[tiab] OR "apixaban"[tiab] OR "edoxaban"[tiab] OR "DOAC"[tiab] OR "NOAC"[tiab] OR "direct oral anticoagulant*"[tiab])
+```
+
+## ステップ2: 検索式の構築
+
+<PromptTemplate title="PubMed検索式の構築と最適化">
+以下の検索語を組み合わせて、PubMed検索式を構築してください。
+
+P の検索語ブロック:
+[Pの検索語]
+
+I の検索語ブロック:
+[Iの検索語]
+
+C の検索語ブロック:（必要に応じて）
+[Cの検索語]
+
+O の検索語ブロック:（必要に応じて）
+[Oの検索語]
+
+検索の目的: [系統的レビュー（感度重視）/ 臨床疑問の解決（特異度重視）]
+
+以下を提示してください：
+1. **高感度バージョン**: 網羅性を重視した検索式（系統的レビュー用）
+2. **高特異度バージョン**: 精度を重視した検索式（臨床疑問解決用）
+3. **バランスバージョン**: 感度と特異度のバランスを取った検索式
+4. **PubMed Clinical Queries のフィルター活用法**
+5. **各バージョンの予想ヒット数の大小関係**
+</PromptTemplate>
+
+## ステップ3: PubMed Best Match vs Most Recent
+
+PubMedのデフォルトのソート順は「Best Match」です。これはAIアルゴリズムに基づいて関連性の高い論文を上位に表示する機能で、2018年に導入されました。
+
+**Best Matchが有効な場合：**
+- 探索的検索（何が出てくるか見たい）
+- 臨床疑問の迅速な解決
+- 最も関連性の高い数本の論文を見つけたい
+
+**Most Recentが有効な場合：**
+- 系統的レビュー（全論文を網羅的にスクリーニング必要）
+- 最新論文のキャッチアップ
+- 検索結果の再現性を重視する場合
+
+<Warning>
+系統的レビューの検索では、Best Matchのソート順に依存してはいけません。検索式でヒットしたすべての論文をスクリーニングする必要があります。Best Matchのアルゴリズムは変更される可能性があり、検索の再現性が保証されません。
+</Warning>
+
+## ステップ4: 検索結果の品質評価
+
+検索結果が適切かどうかを評価するため、以下の確認を行います。
+
+### 感度チェック（見落としがないか）
+
+事前に知っている重要論文（「ランドマーク研究」）がヒットしているか確認します。
+
+<PromptTemplate title="検索式の感度チェック">
+以下の検索テーマについて、必ず検索でヒットすべき「ランドマーク研究」のリストを作成してください。
+
+検索テーマ: [あなたのRQ]
+対象期間: [検索の対象期間]
+
+以下の基準でランドマーク研究を選定してください：
+1. 当該分野のガイドラインで引用されている研究
+2. 被引用数が多い研究
+3. 研究デザインの質が高い研究（大規模RCT等）
+4. 最近の系統的レビューに含まれている研究
+
+各研究について、PMID、タイトル、主要知見を提示してください。
+
+注意：論文の実在を必ずPubMedで確認してください。架空の論文を含めないでください。
+</PromptTemplate>
+
+### 特異度チェック（ノイズが多すぎないか）
+
+ヒットした論文の上位20件を確認し、関連性の低い論文の割合（NNR: Number Needed to Read）を評価します。NNRが5以上（5本読んで1本しか関連がない）なら、検索式の特異度を高める必要があります。
+
+## ステップ5: Semantic Scholarとの併用
+
+PubMedのキーワードマッチング検索だけでは、意味的に関連する論文を見落とす可能性があります。Semantic Scholarのセマンティック検索を組み合わせることで、カバレッジを向上させます。
+
+<ComparisonCard beforeLabel="PubMed単独の検索" afterLabel="PubMed + Semantic Scholar の併用">
+<ComparisonBefore>
+
+MeSHとフリーテキストのキーワードマッチング。Boolean演算子による論理的な組み合わせ。MeSH未付与の最新論文は漏れやすい。概念的に関連するが異なる語を使った論文は見落としやすい。プレプリントは含まない。
+
+</ComparisonBefore>
+<ComparisonAfter>
+
+キーワードマッチング＋意味的類似性の二重カバレッジ。類似論文の自動推薦で検索の盲点を補完。最新論文もセマンティック検索でカバー。異なる用語を使った関連論文も意味的に発見。プレプリントも検索対象に含められる。
+
+</ComparisonAfter>
+</ComparisonCard>
+
+## 検索記録のテンプレート
+
+系統的レビューでは、検索の全プロセスを文書化する必要があります。
+
+<PromptTemplate title="検索記録の文書化">
+以下の検索結果を、PRISMA 2020に準拠した検索記録として文書化してください。
+
+データベース: PubMed
+検索日: [日付]
+検索式:
+[完成した検索式]
+
+ヒット数: [件数]
+適用したフィルター: [言語、出版年等]
+
+以下のPRISMAフローダイアグラムの各段階の数値も記録してください：
+1. データベース検索でのヒット数
+2. その他のソース（ハンドサーチ、引用追跡等）での追加件数
+3. 重複除去後の件数
+4. タイトル・抄録スクリーニング後の件数
+5. 全文スクリーニング後の件数
+6. 最終的に組み入れた件数
+</PromptTemplate>
+
+## PubMed APIとプログラマティック検索
+
+大規模な検索や定期的なモニタリングには、PubMed E-utilities APIが有用です。Pythonの`biopython`ライブラリを使うと、検索の自動化が可能です。
+
+```python
+from Bio import Entrez
+
+Entrez.email = "your.email@example.com"
+
+# 検索の実行
+handle = Entrez.esearch(db="pubmed", term="atrial fibrillation AND DOAC AND elderly", retmax=100)
+record = Entrez.read(handle)
+
+# PMIDリストの取得
+pmid_list = record["IdList"]
+print(f"ヒット数: {record['Count']}, 取得PMID数: {len(pmid_list)}")
+```
+
+<KeyTakeaway>
+PubMed検索の質は、検索語の網羅性と検索式の論理構造で決まります。AIを使ってMeSHとフリーテキスト語を体系的に展開し、Semantic Scholarで意味的な補完を行うことで、見落としリスクを大幅に低減できます。系統的レビューでは、検索の全プロセスを文書化することを忘れないでください。
+</KeyTakeaway>

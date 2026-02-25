@@ -1,0 +1,233 @@
+---
+title: "出版品質の図表作成"
+description: "R/PythonとAIを活用して、ジャーナル投稿に対応した高品質な図表を効率的に作成する方法。"
+slug: "04-04-figures-tables"
+order: 16
+partId: "part04"
+partTitle: "統計解析とAI"
+partOrder: 4
+estimatedMinutes: 20
+free: false
+status: "published"
+tags: ["図表作成", "ggplot2", "matplotlib", "フォレストプロット", "Table 1"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+# 出版品質の図表作成
+
+## 図表は論文の「顔」
+
+査読者や読者がまず目にするのは、アブストラクトと図表です。図表の質は論文の第一印象を決め、研究の説得力に直結します。
+
+### ジャーナルの図表要件
+
+多くのジャーナルは以下の共通要件を持っています。
+
+| 要件 | 一般的な基準 |
+|------|------------|
+| 解像度 | 300 DPI以上（ラインアート: 600-1200 DPI） |
+| ファイル形式 | TIFF, EPS, PDF（ベクター形式推奨） |
+| カラーモード | RGB（オンライン用）、CMYK（印刷用） |
+| フォント | Arial, Helvetica, Times New Roman |
+| フォントサイズ | 最小8pt（図中のラベル） |
+| 図の幅 | 1カラム: 80-90mm、2カラム: 170-180mm |
+
+<Callout>
+カラーの図には追加料金がかかるジャーナルがあります。グレースケールでも判読可能なデザインにするか、オープンアクセスジャーナルを選択することを検討してください。また、色覚多様性に配慮したカラーパレット（例：viridis）の使用が推奨されます。
+</Callout>
+
+## Table 1（ベースライン特性テーブル）
+
+Table 1は、研究参加者のベースライン特性を示す最も基本的なテーブルです。
+
+<PromptTemplate title="Table 1のコード生成">
+以下の研究のTable 1（ベースライン特性テーブル）を作成するコードを生成してください。
+
+言語: [R / Python]
+研究デザイン: [RCT / コホート]
+群変数: [変数名]
+群のカテゴリ: [群1, 群2（, 群3）]
+
+含める変数：
+- 連続変数（正規分布）: [変数リスト] → 平均±SDで表示
+- 連続変数（非正規分布）: [変数リスト] → 中央値(IQR)で表示
+- カテゴリ変数: [変数リスト] → n(%)で表示
+
+追加要件：
+- 総計の列も含める
+- RCTの場合: p値は不要（CONSORT推奨）、SMD（標準化平均差）を表示
+- コホートの場合: 群間比較のp値を含める
+- 欠測数を脚注で記載
+- 出版品質のフォーマット（gtsummaryまたはtableone使用）
+</PromptTemplate>
+
+### Rでの Table 1 作成例
+
+```r
+library(gtsummary)
+
+# Table 1の作成
+table1 <- data %>%
+  select(treatment, age, sex, bmi, hba1c, diabetes_duration, smoking) %>%
+  tbl_summary(
+    by = treatment,
+    type = list(
+      c(age, bmi, hba1c, diabetes_duration) ~ "continuous",
+      c(sex, smoking) ~ "categorical"
+    ),
+    statistic = list(
+      all_continuous() ~ "{mean} ({sd})",
+      all_categorical() ~ "{n} ({p}%)"
+    ),
+    digits = list(
+      all_continuous() ~ 1,
+      all_categorical() ~ c(0, 1)
+    ),
+    missing = "ifany"
+  ) %>%
+  add_overall() %>%
+  add_difference() %>%
+  modify_header(label ~ "**Characteristic**") %>%
+  bold_labels()
+```
+
+## フォレストプロット
+
+メタアナリシスの結果を視覚化するフォレストプロットは、系統的レビューで最も重要な図です。
+
+<PromptTemplate title="フォレストプロットのコード生成">
+以下のメタアナリシスの結果から、フォレストプロットを作成するコードを生成してください。
+
+言語: [R / Python]
+効果量の種類: [RR / OR / HR / MD / SMD]
+スケール: [対数 / 線形]
+
+データ:
+| 研究名 | 効果量 | 95%CI下限 | 95%CI上限 | 重み(%) |
+|--------|--------|----------|----------|---------|
+[データを記入]
+
+統合効果量（ランダム効果モデル）: [値, 95%CI]
+I²: [%]
+p値（異質性）: [値]
+
+以下の要件：
+- 各研究の点推定値のサイズは重みに比例
+- ダイヤモンドで統合効果量を表示
+- 帰無効果線（RR=1 or MD=0）を破線で表示
+- サブグループ別の層別化（必要に応じて）
+- 右側に数値テーブル（効果量と95%CI）
+- 出版品質（300 DPI以上）
+</PromptTemplate>
+
+### Rでのフォレストプロット（metaforパッケージ）
+
+```r
+library(metafor)
+
+# データの準備
+dat <- escalc(measure = "RR", ai = events_treat, bi = no_events_treat,
+              ci = events_ctrl, di = no_events_ctrl, data = study_data)
+
+# ランダム効果モデル
+res <- rema(yi, vi, data = dat)
+
+# フォレストプロット
+forest(res,
+       slab = study_data$study_name,
+       header = TRUE,
+       xlab = "Risk Ratio (95% CI)",
+       refline = 1,
+       digits = 2,
+       cex = 0.8)
+```
+
+## Kaplan-Meier曲線
+
+<PromptTemplate title="Kaplan-Meier曲線のコード生成">
+以下の生存分析の結果から、出版品質のKaplan-Meier曲線を作成するコードを生成してください。
+
+言語: [R / Python]
+群変数: [変数名]
+時間変数: [変数名]
+イベント変数: [変数名]
+
+以下の要件：
+- リスクテーブル（Number at risk）を図の下に配置
+- 95%信頼区間を帯（shading）で表示
+- 打ち切りをチックマークで表示
+- ログランク検定のp値を図中に表示
+- 中央値（生存期間）のテキスト注釈
+- 色覚多様性に配慮したカラーパレット
+- X軸: 時間（年/月）、Y軸: 生存確率（0-100%）
+</PromptTemplate>
+
+### Rでの出版品質KM曲線（survminer）
+
+```r
+library(survival)
+library(survminer)
+
+fit <- survfit(Surv(time, event) ~ group, data = df)
+
+ggsurvplot(
+  fit,
+  data = df,
+  risk.table = TRUE,
+  pval = TRUE,
+  conf.int = TRUE,
+  palette = c("#0072B2", "#D55E00"),
+  xlab = "Time (months)",
+  ylab = "Survival probability (%)",
+  surv.scale = "percent",
+  break.time.by = 6,
+  risk.table.height = 0.25,
+  ggtheme = theme_classic2(base_size = 14),
+  font.main = c(16, "bold"),
+  font.x = c(14),
+  font.y = c(14)
+)
+```
+
+## その他の重要な図表
+
+### Bland-Altman プロット（一致度評価）
+
+2つの測定法の一致度を評価する図。
+
+### ROC曲線（診断精度）
+
+診断テストの感度と特異度のトレードオフを視覚化する図。
+
+### ファネルプロット（出版バイアス）
+
+メタアナリシスにおける出版バイアスの視覚的評価。
+
+<StepFlow>
+  <StepFlowStep number={1} title="図のドラフト作成">
+    AIにコードを生成させ、デフォルト設定で図を作成。データの傾向を確認。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="ジャーナル要件の確認">
+    投稿先ジャーナルのAuthor Guidelinesで図の要件（サイズ、解像度、形式）を確認。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="デザインの調整">
+    フォント、カラー、軸ラベル、凡例をジャーナル要件に合わせて調整。色覚多様性への配慮。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="出力と最終確認">
+    高解像度（300 DPI以上）で出力。印刷サイズでの視認性を確認。
+  </StepFlowStep>
+</StepFlow>
+
+<Warning>
+図表の作成において、以下の点に注意してください：
+- Y軸を0から開始しないグラフは効果を誇張する（特に棒グラフ）
+- 3Dグラフや不要な装飾（チャートジャンク）は避ける
+- 同一の図内で二重Y軸を使うと誤解を招きやすい
+- 円グラフよりも棒グラフの方が比較に適している
+- エラーバーがSDなのかSEなのか95%CIなのかを必ず明記する
+</Warning>
+
+<KeyTakeaway>
+出版品質の図表作成は、Rのggplot2/survminer/metaforやPythonのmatplotlib/seabornを使い、AIにコードを生成させることで大幅に効率化できます。ジャーナルの要件（解像度、サイズ、形式）を事前に確認し、色覚多様性への配慮とデータの誠実な表現を心がけてください。
+</KeyTakeaway>

@@ -1,0 +1,192 @@
+---
+title: "IMRaD構造の最適化"
+description: "医学論文の標準構造IMRaDの各セクションの役割と、AIを活用した効率的な執筆戦略。"
+slug: "05-01-imrad"
+order: 17
+partId: "part05"
+partTitle: "論文執筆"
+partOrder: 5
+estimatedMinutes: 20
+free: false
+status: "published"
+tags: ["IMRaD", "論文構造", "執筆戦略", "アウトライン", "論文の流れ"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+# IMRaD構造の最適化
+
+## IMRaDとは何か
+
+IMRaDは、医学論文の標準的な構造を指す略称です。
+
+- **I** - Introduction（緒言）: なぜこの研究を行ったか
+- **M** - Methods（方法）: どのように行ったか
+- **R** - Results（結果）: 何がわかったか
+- **a** - and
+- **D** - Discussion（考察）: それは何を意味するか
+
+この構造は、1970年代にICMJE（国際医学雑誌編集者委員会）によって標準化され、現在では医学論文のほぼすべてがこの形式に従っています。
+
+<Callout>
+IMRaDは単なるフォーマットではなく、科学的思考のプロセスそのものを反映した構造です。「問い→方法→結果→解釈」という論理の流れは、読者が研究を理解し評価するための最も効率的な方法です。
+</Callout>
+
+## 各セクションの役割と分量の目安
+
+| セクション | 役割 | 分量の目安 | 時制 |
+|-----------|------|-----------|------|
+| Title | 研究内容の要約 | 15語以内 | — |
+| Abstract | 全体の要約 | 250-300語 | 過去形（結果）、現在形（結論） |
+| Introduction | 背景、ギャップ、目的 | 全体の10-15% | 現在形（既知事項）、過去形（先行研究） |
+| Methods | 研究手法の詳細 | 全体の25-30% | 過去形 |
+| Results | データと分析結果 | 全体の25-30% | 過去形 |
+| Discussion | 結果の解釈と意義 | 全体の25-30% | 現在形（解釈）、過去形（本研究の結果） |
+| References | 参考文献 | 30-50件が一般的 | — |
+
+## 執筆の順序
+
+論文は「最初から順番に書く」必要はありません。むしろ、効率的な執筆順序は以下の通りです。
+
+<StepFlow>
+  <StepFlowStep number={1} title="Methods を最初に書く">
+    研究が完了した時点で最も明確に書けるセクション。実施した内容を正確に記述するだけ。主観的判断が最も少ない。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="Results を書く">
+    Methodsに記述した解析の結果を、図表とともに提示する。Methodsの順序と対応させる。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="Introduction を書く">
+    結果が出揃った後、研究の背景と目的を逆算的に構成する。Results への導線を意識する。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="Discussion を書く">
+    結果の解釈、先行研究との比較、限界、臨床的意義を論じる。Introduction で提起した問いに答える。
+  </StepFlowStep>
+  <StepFlowStep number={5} title="Abstract と Title を最後に書く">
+    論文全体が完成してから、最も重要なポイントを凝縮する。
+  </StepFlowStep>
+</StepFlow>
+
+## AIを活用したアウトライン作成
+
+<PromptTemplate title="論文のアウトライン作成">
+以下の研究について、IMRaD構造の論文アウトラインを作成してください。
+
+**研究タイトル（仮）**: [タイトル]
+**研究デザイン**: [デザイン]
+**PICO**:
+- P: [対象集団]
+- I: [介入/曝露]
+- C: [比較対照]
+- O: [主要アウトカム]
+**主要な結果**: [結果の概要]
+**投稿先ジャーナル**: [ジャーナル名]
+
+以下の形式でアウトラインを作成してください：
+
+**Introduction（3-4段落）**
+- 段落1: [トピック文と含むべき内容]
+- 段落2: [トピック文と含むべき内容]
+- ...
+
+**Methods（各サブセクション）**
+- Study Design: [含むべき内容]
+- Participants: [含むべき内容]
+- Intervention: [含むべき内容]
+- Outcomes: [含むべき内容]
+- Statistical Analysis: [含むべき内容]
+
+**Results（各サブセクション）**
+- Patient Flow: [含むべき内容]
+- Baseline Characteristics: [含むべき内容]
+- Primary Outcome: [含むべき内容]
+- Secondary Outcomes: [含むべき内容]
+
+**Discussion（5-6段落）**
+- 段落1: [トピック文と含むべき内容]
+- 段落2: [トピック文と含むべき内容]
+- ...
+
+各段落の推奨文字数も示してください。
+</PromptTemplate>
+
+## セクション間の一貫性チェック
+
+論文の各セクション間には論理的な一貫性が必要です。
+
+### よくある不一致
+
+- Introduction で述べた目的が Methods に反映されていない
+- Methods で記述した解析が Results に含まれていない
+- Results にある解析が Methods に記述されていない
+- Discussion が Results と矛盾している
+- Abstract が本文と異なる数値を報告している
+
+<PromptTemplate title="セクション間の一貫性チェック">
+以下の論文ドラフトについて、セクション間の一貫性をチェックしてください。
+
+[論文ドラフトの各セクションを貼り付け]
+
+以下の観点で確認してください：
+1. **Introduction-Methods 一貫性**: Introduction で述べた目的・仮説が Methods のデザインと合致しているか
+2. **Methods-Results 一貫性**: Methods で記述したすべての解析の結果が Results に報告されているか。Results に Methods に記載のない解析がないか
+3. **Results-Discussion 一貫性**: Discussion で言及する結果がすべて Results に報告されているか。Results の重要な知見が Discussion で議論されているか
+4. **Abstract-本文 一貫性**: Abstract の数値・結論が本文と一致しているか
+5. **参考文献の一貫性**: 本文中の引用番号と参考文献リストが一致しているか
+
+不一致がある場合、具体的な箇所と修正提案を示してください。
+</PromptTemplate>
+
+## 段落の構造
+
+学術論文の段落は、以下の構造が基本です。
+
+1. **トピック文（Topic Sentence）**: 段落の主張を1文で述べる
+2. **根拠（Supporting Sentences）**: トピック文を裏付けるデータや引用
+3. **つなぎ文（Transition）**: 次の段落への橋渡し
+
+<ComparisonCard beforeLabel="構造のない段落" afterLabel="構造化された段落">
+<ComparisonBefore>
+
+心房細動の患者は多い。DOACは使われている。ワルファリンよりいいかもしれない。高齢者ではデータが少ない。本研究ではDOACの安全性を調べた。
+
+</ComparisonBefore>
+<ComparisonAfter>
+
+心房細動は高齢者で最も多い持続性不整脈であり、脳卒中リスクの主要因である（トピック文）。DOACはワルファリンに代わる抗凝固療法として広く使用されているが、75歳以上のエビデンスは限られている（根拠+ギャップ）。そこで本研究では、80歳以上の心房細動患者におけるDOACの安全性プロファイルを検討した（目的+つなぎ）。
+
+</ComparisonAfter>
+</ComparisonCard>
+
+## ジャーナル別のフォーマット確認
+
+<PromptTemplate title="ジャーナルフォーマットの確認">
+以下のジャーナルの投稿規定に合わせて、論文のフォーマット要件を確認してください。
+
+ジャーナル名: [ジャーナル名]
+
+以下の項目を確認してください：
+1. **語数制限**: Abstract、本文の最大語数
+2. **図表数の制限**: 最大図数、最大表数
+3. **参考文献スタイル**: Vancouver、APA等
+4. **構造化抄録の要件**: Background/Methods/Results/Conclusions等
+5. **倫理声明の要件**: IRB承認、同意書の記載
+6. **利益相反声明の形式**
+7. **データ共有ポリシー**
+8. **AI使用の開示要件**
+9. **カバーレターの要件**
+10. **Word/LaTeX テンプレートの有無**
+</PromptTemplate>
+
+<Warning>
+AIに論文の下書きを依頼する場合、AIの出力をそのまま投稿してはいけません。AIが生成した文章は、以下の問題を含む可能性があります：
+- 存在しない参考文献の引用
+- 他の論文からの無意識的な剽窃
+- 過度に一般的な表現（具体性の欠如）
+- 研究の独自の知見が希薄化
+
+AIの出力は「下書きの下書き」として使い、研究者自身の言葉で大幅にリライトしてください。
+</Warning>
+
+<KeyTakeaway>
+IMRaD構造は科学的論理の流れを反映した構造です。Methods→Results→Introduction→Discussion→Abstractの順で執筆し、AIにはアウトライン作成とセクション間の一貫性チェックを担当させましょう。各段落はトピック文→根拠→つなぎ文の構造を守り、投稿先ジャーナルのフォーマットに早い段階で合わせることが効率的です。
+</KeyTakeaway>

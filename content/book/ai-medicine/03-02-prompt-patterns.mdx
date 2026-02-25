@@ -30,10 +30,10 @@ tags: ["プロンプト", "R-T-C-F-C", "構造化", "医療AI", "実践"]
 | 構造化プロンプト（5要素統合） | **+32.8%** |
 
 <BarChart title="プロンプト手法別の精度向上">
-  <BarChartBar label="Few-shot" value={12.3} suffix="%" />
-  <BarChartBar label="Chain-of-Thought" value={18.7} suffix="%" />
-  <BarChartBar label="Role設定" value={24.1} suffix="%" />
-  <BarChartBar label="構造化プロンプト" value={32.8} suffix="%" />
+  <BarChartBar label="Few-shot" value={12.3} suffix="%" max={32.8} index={0} />
+  <BarChartBar label="Chain-of-Thought" value={18.7} suffix="%" max={32.8} index={1} />
+  <BarChartBar label="Role設定" value={24.1} suffix="%" max={32.8} index={2} />
+  <BarChartBar label="構造化プロンプト" value={32.8} suffix="%" max={32.8} index={3} />
 </BarChart>
 
 「川崎病の診断基準は？」と聞くのと、適切に構造化されたプロンプトで聞くのとでは、**出力の精度が3割以上変わる**のである。

@@ -1,0 +1,149 @@
+---
+title: "AI使用の開示（ICMJE・ジャーナルポリシー）"
+description: "研究におけるAI使用の開示義務と、ICMJE・主要ジャーナルのポリシーを網羅的に解説。"
+slug: "07-01-disclosure"
+order: 25
+partId: "part07"
+partTitle: "研究倫理とAI"
+partOrder: 7
+estimatedMinutes: 20
+free: false
+status: "published"
+tags: ["AI倫理", "ICMJE", "開示", "ジャーナルポリシー", "著者権", "透明性"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+# AI使用の開示（ICMJE・ジャーナルポリシー）
+
+## なぜAI使用の開示が必要か
+
+AIの研究利用が急速に広がる中、「AIをどのように使い、それをどう開示するか」は研究倫理の最重要テーマの一つになっています。開示が必要な理由は3つあります。
+
+1. **透明性**: 読者が研究プロセスの全体像を理解できる
+2. **再現性**: 同じAIツールとプロンプトを使って結果を再現できる
+3. **責任の明確化**: AI生成コンテンツの最終的な責任が著者にあることの確認
+
+<Callout>
+AI使用の開示は「罰則を避けるため」ではなく、「科学の透明性を守るため」に行うものです。適切に開示すれば、AI使用は研究の質を向上させるポジティブな要素として評価されます。
+</Callout>
+
+## ICMJEの立場
+
+ICMJE（International Committee of Medical Journal Editors）は、2023年以降AIに関する明確な方針を発表しています。
+
+### 核心的なポイント
+
+1. **AIは著者になれない**: AIは著者の4基準（実質的貢献、ドラフト作成、最終承認、説明責任）を満たせない
+2. **使用の開示が必須**: AIツールの使用は Methods または Acknowledgements で開示する
+3. **著者の責任**: AI生成コンテンツを含む論文の内容に対して、著者が全責任を負う
+4. **具体的な記述**: どのAIツールを、どの目的で使用したかを明記する
+
+### ICMJE準拠の開示文テンプレート
+
+<PromptTemplate title="AI使用の開示文作成">
+以下のAI使用状況から、ICMJE準拠の開示文を作成してください。
+
+使用したAIツール:
+1. ツール名: [名前]
+   バージョン: [バージョン]
+   使用目的: [文献検索支援 / 統計コード生成 / 英文校正 / ドラフト支援等]
+   使用したセクション: [Methods / Results / Discussion等]
+
+2. ツール名: [名前]
+   バージョン: [バージョン]
+   使用目的: [目的]
+   使用したセクション: [セクション]
+
+以下の2バージョンを作成してください：
+1. **Methods セクション用**: 研究プロセスでのAI使用（文献検索、データ解析等）
+2. **Acknowledgements セクション用**: 執筆支援としてのAI使用（英文校正、ドラフト支援等）
+
+各バージョンで以下を含めてください：
+- 使用ツール名とバージョン
+- 使用目的の具体的な記述
+- AI出力の検証プロセスの記述
+- 著者による最終責任の声明
+</PromptTemplate>
+
+## 主要ジャーナルのAIポリシー
+
+### Nature / Nature Medicine
+
+- AI使用はMethods または Acknowledgements で開示必須
+- AIを著者として記載することは不可
+- AI生成の画像は許可されない（特に合成データの画像）
+- データの分析・解釈にAIを使用した場合は方法論を詳述
+
+### The Lancet
+
+- AI/LLMの使用をMethodsで詳細に記述
+- AIを著者として認めない
+- AI使用に関する専用チェックボックスが投稿システムに導入
+
+### NEJM (New England Journal of Medicine)
+
+- AI使用の開示を要求
+- AIが生成した文章を含む場合は明示
+- 編集者が追加情報を求める場合がある
+
+### BMJ
+
+- AI使用の開示必須
+- 完全な透明性が求められる
+- 投稿時にAI使用に関する質問に回答
+
+### JAMA
+
+- AIを著者として認めない
+- 使用したAIツールの詳細をMethodsで記述
+- AI出力の責任は著者が負う
+
+## 開示が必要な場面と不要な場面
+
+| 場面 | 開示の要否 | 理由 |
+|------|-----------|------|
+| AIで文献検索式を作成 | 必要 | 研究方法の一部 |
+| AIで統計コードを生成 | 必要 | 解析方法の再現性に関わる |
+| AIでドラフトの下書きを作成 | 必要 | 執筆支援 |
+| AIで英文校正を実施 | 必要 | 多くのジャーナルが要求 |
+| AIでデータ分析を実施 | 必要 | 研究方法の核心 |
+| スペルチェッカーの使用 | 不要 | 従来のツールと同等 |
+| 参考文献管理ソフトの使用 | 不要 | 従来のツールと同等 |
+| 表計算ソフトの基本機能 | 不要 | 従来のツールと同等 |
+
+<StepFlow>
+  <StepFlowStep number={1} title="AI使用の記録">
+    研究開始時からAIの使用を記録する。日付、ツール名、バージョン、使用目的、入力プロンプト、出力の要約。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="投稿先ポリシーの確認">
+    投稿先ジャーナルのAI使用に関するポリシーを確認する。Author Guidelinesの最新版を参照。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="開示文の作成">
+    記録に基づいて開示文を作成。使用ツール、使用目的、検証プロセスを具体的に記述。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="共著者の確認">
+    すべての共著者がAI使用状況と開示文に同意していることを確認。
+  </StepFlowStep>
+  <StepFlowStep number={5} title="投稿時の申告">
+    投稿システムのAI使用に関するチェックボックスや質問に正確に回答する。
+  </StepFlowStep>
+</StepFlow>
+
+## 開示文の実例
+
+### Methodsでの開示例
+
+"Literature search strategies were developed with the assistance of Claude (Anthropic, version claude-3.5-sonnet, accessed January 2026). The AI-generated search terms were validated against existing MeSH terms and refined by two authors (XX and YY). Statistical analysis code in R was generated using GPT-4 (OpenAI, version gpt-4-0125-preview) and independently verified by the study statistician (ZZ). All AI-generated outputs were critically reviewed and verified by the authors, who take full responsibility for the content."
+
+### Acknowledgementsでの開示例
+
+"The authors used Writefull (version X.X) for English language editing of the manuscript. Claude (Anthropic) was used to generate initial draft paragraphs of the Introduction and Discussion sections, which were substantially rewritten by the authors. The authors take full responsibility for the content of the manuscript."
+
+<Warning>
+AI使用のポリシーは急速に変化しています。2024年と2025年、さらに2026年でも各ジャーナルのポリシーが更新されている可能性があります。投稿前に必ず最新のAuthor Guidelinesを確認してください。また、同じ出版社でもジャーナルごとにポリシーが異なる場合があります。
+</Warning>
+
+<KeyTakeaway>
+AI使用の開示は研究の透明性と再現性を守るための重要な責務です。ICMJEの原則に従い、どのAIツールを、どの目的で、どのように使用したかを具体的に記録・開示してください。AIを著者として記載することはできませんが、適切に開示したAI使用は研究プロセスの質を高める正当なアプローチとして認められています。
+</KeyTakeaway>

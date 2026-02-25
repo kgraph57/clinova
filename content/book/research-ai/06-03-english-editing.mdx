@@ -1,0 +1,214 @@
+---
+title: "非ネイティブのための英文校正"
+description: "日本人研究者が陥りやすい英語の問題とAIによる英文校正ワークフロー。"
+slug: "06-03-english-editing"
+order: 24
+partId: "part06"
+partTitle: "投稿・査読・改訂"
+partOrder: 6
+estimatedMinutes: 20
+free: false
+status: "published"
+tags: ["英文校正", "学術英語", "非ネイティブ", "Writefull", "Paperpal"]
+publishedAt: "2026-03-01"
+updatedAt: "2026-03-01"
+---
+
+# 非ネイティブのための英文校正
+
+## 英語の壁をAIで超える
+
+日本人研究者にとって、英語論文の執筆は大きなハードルです。研究の質がどれほど高くても、英語の質が低ければ査読者の印象は悪くなり、リジェクトのリスクが高まります。
+
+しかし、AI言語ツールの発展により、この壁は確実に低くなっています。
+
+<Callout>
+英語の完璧さを求める必要はありません。学術英語の目標は「正確で明瞭であること（accurate and clear）」です。文学的な美しさではなく、科学的な正確さと読みやすさが求められます。
+</Callout>
+
+## 日本人研究者がよく犯す英語の問題
+
+### 1. 冠詞（a/the/無冠詞）
+
+日本語に冠詞がないため、最も頻繁に犯される誤りです。
+
+| 場面 | 正しい使い方 | 例 |
+|------|------------|-----|
+| 初出の不特定 | a/an | We conducted **a** randomized trial. |
+| 既出・特定 | the | **The** trial enrolled 200 patients. |
+| 複数・不特定 | 無冠詞 | **Patients** with diabetes were included. |
+| 唯一のもの | the | **The** primary outcome was HbA1c. |
+
+### 2. 時制の混乱
+
+学術英語の時制には明確なルールがあります。
+
+| セクション | 基本時制 | 例 |
+|-----------|---------|-----|
+| Introduction（既知事項） | 現在形 | Diabetes **is** a leading cause of CKD. |
+| Introduction（先行研究） | 過去形 | Smith et al. **reported** that... |
+| Methods | 過去形 | Patients **were** randomized to... |
+| Results | 過去形 | HbA1c **decreased** by 0.5%. |
+| Discussion（本研究の結果） | 過去形 | Our study **showed** that... |
+| Discussion（一般的な解釈） | 現在形 | These findings **suggest** that... |
+
+### 3. 受動態の過剰使用
+
+日本語の影響で受動態を多用しがちですが、能動態の方が読みやすいケースが多いです。
+
+<ComparisonCard beforeLabel="受動態の過剰使用" afterLabel="能動態を活用">
+<ComparisonBefore>
+
+Blood samples were collected by the research nurse. Data were analyzed using R software. It was found that the intervention was effective.
+
+</ComparisonBefore>
+<ComparisonAfter>
+
+The research nurse collected blood samples. We analyzed data using R software. The intervention reduced HbA1c by 0.5% (p=0.003).
+
+</ComparisonAfter>
+</ComparisonCard>
+
+### 4. 直訳による不自然な表現
+
+| 日本語直訳 | 自然な学術英語 |
+|-----------|--------------|
+| It is considered that... | We suggest that... / Evidence suggests... |
+| Recently, it became clear that... | Recent evidence indicates that... |
+| In this study, we examined... | We examined... / This study examined... |
+| As a result, ... was revealed. | We found that... / Analysis revealed... |
+| It is necessary to investigate... | Further research is needed to... |
+
+### 5. 曖昧な表現
+
+| 曖昧な表現 | 明確な表現 |
+|-----------|-----------|
+| many patients | 156 patients (62%) |
+| significantly improved | improved by 0.5% (95% CI 0.3-0.7, p=0.003) |
+| a long follow-up period | a 5-year follow-up period |
+| a large study | a multicenter study of 5,000 patients |
+| recently | in 2025 |
+
+## AIによる英文校正ワークフロー
+
+<StepFlow>
+  <StepFlowStep number={1} title="セクションごとのAI校正">
+    論文を各セクションに分けてAIに校正を依頼。一度に全文を入力するよりも精度が高い。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="文法・スペルチェック">
+    基本的な文法エラー、スペルミス、句読法の修正。Grammarly、Writefull等の専用ツールも併用。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="学術表現の改善">
+    口語的表現を学術的表現に変換。冗長な表現を簡潔にする。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="一貫性チェック">
+    用語の統一（American English vs British English）、略語の統一、数値フォーマットの統一。
+  </StepFlowStep>
+  <StepFlowStep number={5} title="ネイティブチェック（可能であれば）">
+    AI校正後にネイティブスピーカーの共著者やプロの英文校正サービスによる最終確認。
+  </StepFlowStep>
+</StepFlow>
+
+<PromptTemplate title="学術英語の校正">
+以下の医学論文のテキストを校正してください。
+
+[校正したいテキストを貼り付け]
+
+以下の観点で校正してください：
+1. **文法**: 冠詞、時制、主語-動詞の一致、前置詞
+2. **明瞭さ**: 曖昧な表現を具体的に
+3. **簡潔さ**: 冗長な表現を簡潔に（ただし意味を変えない）
+4. **学術性**: 口語的表現を学術的表現に
+5. **一貫性**: 英語の種類（American/British）を統一
+
+修正箇所ごとに：
+- 元の表現
+- 修正後の表現
+- 修正の理由
+
+最後に、全体的なフィードバックと改善ポイントを要約してください。
+</PromptTemplate>
+
+## 専門AIツールの活用
+
+### Writefull
+
+Writefullは学術英語に特化したAI校正ツールです。
+
+**特徴：**
+- 学術論文のコーパスに基づく校正
+- 科学英語特有の表現パターンを認識
+- Word、LaTeXへのプラグイン
+- パラフレーズ機能
+- タイトルとアブストラクトの生成機能
+
+### Paperpal
+
+PaperpalはSpringer Nature系列が提供するAI校正ツールです。
+
+**特徴：**
+- 学術英語の文法・スタイル校正
+- 一貫性チェック
+- 投稿前チェックリスト
+- 無料版と有料版
+
+### Grammarly
+
+一般的な英文校正ツールですが、学術英語にも対応しています。
+
+## セクション別の校正ポイント
+
+<PromptTemplate title="セクション特化の校正">
+以下の[Introduction / Methods / Results / Discussion]セクションを校正してください。
+
+[テキストを貼り付け]
+
+このセクション特有の確認ポイント：
+
+**Introduction の場合：**
+- ファンネル構造になっているか
+- 先行研究の引用が適切か
+- ギャップの記述が明確か
+- 目的文が具体的か
+
+**Methods の場合：**
+- 過去形で統一されているか
+- 再現可能なレベルの詳細さか
+- 統計用語が正確か
+
+**Results の場合：**
+- 過去形で統一されているか
+- 数値のフォーマットが一貫しているか
+- 解釈を含んでいないか
+
+**Discussion の場合：**
+- 推測レベルの表現が適切か（may, might, could等）
+- 先行研究との比較が明確か
+- 限界の記述が具体的か
+</PromptTemplate>
+
+## American English vs British English
+
+ジャーナルによって米語か英語かが指定されています。
+
+| American English | British English |
+|-----------------|----------------|
+| randomized | randomised |
+| analyze | analyse |
+| center | centre |
+| color | colour |
+| hemoglobin | haemoglobin |
+| pediatrics | paediatrics |
+| estrogen | oestrogen |
+
+<Warning>
+AIによる英文校正は非常に便利ですが、以下の点に注意してください：
+1. AIが科学的な意味を変えてしまう可能性があります。修正後の文が元の意味と同じか必ず確認してください
+2. AIの表現の好みに過度に依存すると、すべての文が似たようなスタイルになります（「AI臭い」文章）
+3. 専門用語をAIが一般的な表現に変えてしまうことがあります
+4. 投稿前にジャーナルのAI使用ポリシーを確認してください。一部のジャーナルはAI校正の使用を制限しています
+</Warning>
+
+<KeyTakeaway>
+非ネイティブ研究者にとってAIは英文校正の強力なパートナーです。冠詞、時制、受動態の過剰使用など日本人研究者に特有の問題をAIで効率的に修正できます。ただし、AIの修正が科学的な意味を変えていないか必ず確認し、可能であれば最終段階でネイティブスピーカーのチェックを受けてください。
+</KeyTakeaway>
