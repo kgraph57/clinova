@@ -1,10 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { BookOpen, Clock, User, ChevronRight } from "lucide-react";
-import { cn } from "@/lib/utils";
 import { useProgress } from "@/components/learn/ProgressProvider";
 import type { BookMetadata } from "@/lib/book";
+
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
 interface BookLibraryProps {
   readonly books: readonly BookMetadata[];
@@ -31,29 +33,24 @@ function BookCard({ book }: { readonly book: BookMetadata }) {
   return (
     <Link
       href={`/book/${book.bookId}`}
-      className="group flex flex-col overflow-hidden rounded-2xl border transition-all hover:border-foreground/20 hover:shadow-lg sm:flex-row"
+      className="group flex flex-col overflow-hidden rounded-2xl border transition-all hover:border-foreground/20 hover:shadow-lg"
     >
-      {/* Cover */}
-      <div
-        className={cn(
-          "relative flex shrink-0 items-center justify-center overflow-hidden",
-          "h-56 sm:h-auto sm:w-52",
-          book.coverImage
-            ? "bg-cover bg-center"
-            : "bg-gradient-to-br from-slate-800 to-slate-950 dark:from-slate-700 dark:to-slate-900",
-        )}
-        style={
-          book.coverImage
-            ? { backgroundImage: `url(${book.coverImage})` }
-            : undefined
-        }
-      >
-        {!book.coverImage && (
-          <div className="flex flex-col items-center gap-3 px-6 text-center">
-            <BookOpen className="h-10 w-10 text-white/40" />
-            <span className="font-serif text-sm leading-tight text-white/70">
-              {book.title}
-            </span>
+      {/* Cover Image — 横長 16:9 */}
+      <div className="relative w-full overflow-hidden" style={{ aspectRatio: "16/9" }}>
+        {book.coverImage ? (
+          <img
+            src={`${BASE_PATH}${book.coverImage}`}
+            alt={book.title}
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-slate-800 to-slate-950 dark:from-slate-700 dark:to-slate-900">
+            <div className="flex flex-col items-center gap-3 px-6 text-center">
+              <BookOpen className="h-10 w-10 text-white/40" />
+              <span className="font-serif text-sm leading-tight text-white/70">
+                {book.title}
+              </span>
+            </div>
           </div>
         )}
       </div>
@@ -122,7 +119,7 @@ export function BookLibrary({ books }: BookLibraryProps) {
   }
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
       {books.map((book) => (
         <BookCard key={book.bookId} book={book} />
       ))}
