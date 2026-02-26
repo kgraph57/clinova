@@ -3,8 +3,11 @@
 import Link from "next/link";
 import { BookOpen, Clock, User, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+
 import { useProgress } from "@/components/learn/ProgressProvider";
 import type { BookMetadata } from "@/lib/book";
+
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
 interface BookLibraryProps {
   readonly books: readonly BookMetadata[];
@@ -44,7 +47,7 @@ function BookCard({ book }: { readonly book: BookMetadata }) {
         )}
         style={
           book.coverImage
-            ? { backgroundImage: `url(${book.coverImage})` }
+            ? { backgroundImage: `url(${BASE_PATH}${book.coverImage})` }
             : undefined
         }
       >
