@@ -1,12 +1,4 @@
 import type { Metadata } from "next";
-import {
-  Baby,
-  MapPin,
-  Stethoscope,
-  Coins,
-  BookOpen,
-  Search,
-} from "lucide-react";
 import { ServiceHero } from "@/components/services/ServiceHero";
 import {
   ServiceFeatures,
@@ -33,37 +25,37 @@ const FEATURES: ServiceFeature[] = [
     title: "保育園・幼稚園情報",
     description:
       "港区内の保育施設を網羅。定員・対象年齢・特色などを比較できます。",
-    icon: Baby,
+    iconName: "Baby",
   },
   {
     title: "医療機関マップ",
     description:
       "小児科・夜間休日診療・救急対応など、いざというときに頼れる医療機関を検索。",
-    icon: Stethoscope,
+    iconName: "Stethoscope",
   },
   {
     title: "手当・助成制度",
     description:
       "児童手当・医療費助成・出産費用助成など、申請可能な制度を一覧で確認。",
-    icon: Coins,
+    iconName: "Coins",
   },
   {
     title: "地域密着情報",
     description:
       "港区に特化した子育てサロン・イベント・支援センターの情報を整理。",
-    icon: MapPin,
+    iconName: "MapPin",
   },
   {
     title: "おかもん先生の記事",
     description:
       "小児科医が監修する信頼性の高い育児・健康情報をお届けします。",
-    icon: BookOpen,
+    iconName: "BookOpen",
   },
   {
     title: "かんたん検索",
     description:
       "年齢やカテゴリから必要な情報にすぐアクセス。迷わず見つかる設計。",
-    icon: Search,
+    iconName: "Search",
   },
 ];
 

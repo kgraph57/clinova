@@ -1,12 +1,4 @@
 import type { Metadata } from "next";
-import {
-  ClipboardCheck,
-  Calculator,
-  BookOpenCheck,
-  CalendarCheck,
-  Phone,
-  FileText,
-} from "lucide-react";
 import { ServiceHero } from "@/components/services/ServiceHero";
 import {
   ServiceFeatures,
@@ -33,37 +25,37 @@ const FEATURES: ServiceFeature[] = [
     title: "パーソナライズドタイムライン",
     description:
       "婚姻届の提出日を入力するだけで、あなた専用のやることリストを自動生成。",
-    icon: CalendarCheck,
+    iconName: "CalendarCheck",
   },
   {
     title: "給付金シミュレーター",
     description:
       "結婚新生活支援事業・配偶者控除など、受給可能な制度と金額を診断。",
-    icon: Calculator,
+    iconName: "Calculator",
   },
   {
     title: "手続きチェックリスト",
     description:
       "婚姻届・名義変更・保険・年金など、カテゴリ別に漏れなく確認。",
-    icon: ClipboardCheck,
+    iconName: "ClipboardCheck",
   },
   {
     title: "53の解説記事",
     description:
       "手続き・制度をわかりやすく解説。公的機関の情報を根拠に正確さを担保。",
-    icon: FileText,
+    iconName: "FileText",
   },
   {
     title: "用語集",
     description:
       "戸籍謄本？配偶者控除？はじめて聞く言葉もすぐわかる辞書機能。",
-    icon: BookOpenCheck,
+    iconName: "BookOpenCheck",
   },
   {
     title: "相談窓口まとめ",
     description:
       "役所・年金事務所・法テラスなど、困ったときの連絡先を一覧で。",
-    icon: Phone,
+    iconName: "Phone",
   },
 ];
 

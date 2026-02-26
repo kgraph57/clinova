@@ -1,12 +1,4 @@
 import type { Metadata } from "next";
-import {
-  Brain,
-  BarChart3,
-  BookOpen,
-  Target,
-  Repeat,
-  Trophy,
-} from "lucide-react";
 import { ServiceHero } from "@/components/services/ServiceHero";
 import {
   ServiceFeatures,
@@ -33,37 +25,37 @@ const FEATURES: ServiceFeature[] = [
     title: "問題演習",
     description:
       "小児科専門医試験レベルの問題を領域別に出題。繰り返し解いて定着。",
-    icon: Brain,
+    iconName: "Brain",
   },
   {
     title: "詳細な解説",
     description:
       "各問題に根拠を示した解説を収録。正解の理由だけでなく不正解の理由も。",
-    icon: BookOpen,
+    iconName: "BookOpen",
   },
   {
     title: "弱点分析",
     description:
       "正答率を領域・疾患別に可視化。苦手な分野を自動で特定し重点出題。",
-    icon: BarChart3,
+    iconName: "BarChart3",
   },
   {
     title: "目標設定",
     description:
       "学習計画を立てて進捗を追跡。試験日から逆算した学習ペースを提案。",
-    icon: Target,
+    iconName: "Target",
   },
   {
     title: "復習モード",
     description:
       "間違えた問題・ブックマーク問題を効率よく復習。忘却曲線に基づく再出題。",
-    icon: Repeat,
+    iconName: "Repeat",
   },
   {
     title: "達成度トラッキング",
     description:
       "学習の積み重ねを可視化。モチベーションを維持する仕組みを設計。",
-    icon: Trophy,
+    iconName: "Trophy",
   },
 ];
 
