@@ -8,7 +8,6 @@ const FOOTER_LINKS = {
     title: "Services",
     links: [
       { href: "/sukusuku-navi", label: "すくすくナビ" },
-      { href: "/icu-nutricare", label: "Nutri-Care" },
       { href: "/futari-navi", label: "ふたりナビ" },
       { href: "/pediatric-learning", label: "Pediatric Learning" },
     ],
