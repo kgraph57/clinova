@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Baby, Activity, GraduationCap } from "lucide-react";
+import { ArrowUpRight, Baby, Heart, GraduationCap } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
 type Service = {
@@ -22,19 +22,20 @@ const SERVICES: Service[] = [
     repo: "sukusuku-navi",
     description:
       "港区の子育て支援情報を一元化。保育園・医療機関・手当制度などを地域密着で整理し、子育て世代をサポートします。",
-    url: "https://kgraph57.github.io/sukusuku-navi/",
+    url: "/sukusuku-navi",
+    internal: true,
     icon: Baby,
     language: "MDX",
     color: "bg-warm-sage dark:bg-emerald-950/30",
   },
   {
-    name: "ICU NutriCare",
-    repo: "nutri-care",
+    name: "ふたりナビ",
+    repo: "futari-navi",
     description:
-      "ICU・PICU向け包括的栄養管理アプリ。379製品のデータベースと12の臨床機能で、エビデンスに基づく栄養サポートを提供します。",
-    url: "/icu-nutricare",
+      "結婚手続き・届出・給付金ナビ。婚姻届の提出から名義変更・保険・税金まで、手続きをステップごとにガイドします。",
+    url: "/futari-navi",
     internal: true,
-    icon: Activity,
+    icon: Heart,
     language: "TypeScript",
     color: "bg-warm-sky dark:bg-blue-950/30",
   },
@@ -43,7 +44,8 @@ const SERVICES: Service[] = [
     repo: "pediatric-exam-app",
     description:
       "小児科領域の学習を支援するアプリ。問題演習・解説・弱点分析で効率的な学習を実現します。",
-    url: "https://kgraph57.github.io/pediatric-exam-app/",
+    url: "/pediatric-learning",
+    internal: true,
     icon: GraduationCap,
     language: "JavaScript",
     color: "bg-warm-heather dark:bg-purple-950/30",

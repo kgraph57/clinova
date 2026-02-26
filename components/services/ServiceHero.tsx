@@ -4,7 +4,23 @@ import { motion } from "framer-motion";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
-export function HeroSection() {
+type ServiceHeroProps = {
+  badge: string;
+  title: React.ReactNode;
+  description: string;
+  demoUrl: string;
+  demoLabel?: string;
+  githubUrl: string;
+};
+
+export function ServiceHero({
+  badge,
+  title,
+  description,
+  demoUrl,
+  demoLabel = "サイトを見る",
+  githubUrl,
+}: ServiceHeroProps) {
   return (
     <section className="py-20 sm:py-28 lg:py-36">
       <div className="mx-auto max-w-[1200px] px-6">
@@ -19,25 +35,21 @@ export function HeroSection() {
             className="mb-6 inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-xs font-medium text-muted-foreground"
           >
             <span className="h-1.5 w-1.5 rounded-full bg-chart-1" />
-            Open Source — 379製品 × 97栄養成分
+            {badge}
           </motion.div>
 
           <motion.h1
             variants={fadeInUp}
             className="font-serif text-4xl leading-[1.15] tracking-tight sm:text-5xl lg:text-6xl"
           >
-            ICUの栄養管理を、
-            <br />
-            定量化する。
+            {title}
           </motion.h1>
 
           <motion.p
             variants={fadeInUp}
             className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground"
           >
-            経腸栄養・静脈栄養の成分を自動計算し、
-            充足度をスコアリング。薬剤相互作用の検出から
-            投与プロトコル生成まで、栄養管理のワークフローを一つに。
+            {description}
           </motion.p>
 
           <motion.div
@@ -45,16 +57,16 @@ export function HeroSection() {
             className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center"
           >
             <a
-              href="https://kgraph57.github.io/nutri-care/"
+              href={demoUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-80"
             >
-              デモを試す
+              {demoLabel}
               <ExternalLink className="h-4 w-4" />
             </a>
             <a
-              href="https://github.com/kgraph57/nutri-care"
+              href={githubUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium transition-colors hover:bg-muted"

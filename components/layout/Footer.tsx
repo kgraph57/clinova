@@ -7,17 +7,9 @@ const FOOTER_LINKS = {
   services: {
     title: "Services",
     links: [
-      {
-        href: "https://kgraph57.github.io/sukusuku-navi/",
-        label: "すくすくナビ",
-        external: true,
-      },
-      { href: "/icu-nutricare", label: "ICU NutriCare" },
-      {
-        href: "https://kgraph57.github.io/pediatric-exam-app/",
-        label: "Pediatric Learning",
-        external: true,
-      },
+      { href: "/sukusuku-navi", label: "すくすくナビ" },
+      { href: "/futari-navi", label: "ふたりナビ" },
+      { href: "/pediatric-learning", label: "Pediatric Learning" },
     ],
   },
   knowledge: {

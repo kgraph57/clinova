@@ -5,7 +5,19 @@ import { motion } from "framer-motion";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
-export function CtaSection() {
+type ServiceCtaProps = {
+  title: React.ReactNode;
+  description: string;
+  demoUrl: string;
+  demoLabel?: string;
+};
+
+export function ServiceCta({
+  title,
+  description,
+  demoUrl,
+  demoLabel = "サイトを見る",
+}: ServiceCtaProps) {
   return (
     <section className="border-t py-20 sm:py-28">
       <div className="mx-auto max-w-[1200px] px-6">
@@ -20,16 +32,13 @@ export function CtaSection() {
             variants={fadeInUp}
             className="font-serif text-3xl tracking-tight sm:text-4xl"
           >
-            栄養管理の未来を、
-            <br />
-            一緒につくりませんか
+            {title}
           </motion.h2>
           <motion.p
             variants={fadeInUp}
             className="mt-4 leading-relaxed text-muted-foreground"
           >
-            共同研究・カスタム開発・導入検討など、
-            お気軽にご相談ください。
+            {description}
           </motion.p>
 
           <motion.div
@@ -44,12 +53,12 @@ export function CtaSection() {
               <ArrowRight className="h-4 w-4" />
             </Link>
             <a
-              href="https://kgraph57.github.io/nutri-care/"
+              href={demoUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium transition-colors hover:bg-muted"
             >
-              デモを試す
+              {demoLabel}
               <ExternalLink className="h-4 w-4" />
             </a>
           </motion.div>
