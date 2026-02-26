@@ -57,6 +57,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
+      url: `${BASE_URL}/icu-nutricare`,
+      lastModified: new Date("2026-01-01"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/sukusuku-navi`,
       lastModified: new Date("2026-01-01"),
       changeFrequency: "monthly",

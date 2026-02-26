@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Baby, Heart, GraduationCap } from "lucide-react";
+import { ArrowUpRight, Baby, Activity, Heart, GraduationCap } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
 type Service = {
@@ -29,6 +29,17 @@ const SERVICES: Service[] = [
     color: "bg-warm-sage dark:bg-emerald-950/30",
   },
   {
+    name: "Nutri-Care",
+    repo: "nutri-care",
+    description:
+      "臨床栄養管理アプリ。379製品のデータベースとNRS-2002/MNA-SF/GLIM栄養スクリーニングなど15の臨床機能で、エビデンスに基づく栄養サポートを提供します。",
+    url: "/icu-nutricare",
+    internal: true,
+    icon: Activity,
+    language: "TypeScript",
+    color: "bg-warm-sky dark:bg-blue-950/30",
+  },
+  {
     name: "ふたりナビ",
     repo: "futari-navi",
     description:
@@ -37,7 +48,7 @@ const SERVICES: Service[] = [
     internal: true,
     icon: Heart,
     language: "TypeScript",
-    color: "bg-warm-sky dark:bg-blue-950/30",
+    color: "bg-warm-rose dark:bg-rose-950/30",
   },
   {
     name: "Pediatric Learning",
@@ -74,7 +85,7 @@ export function ServicesSection() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
-          className="mt-12 grid gap-6 lg:grid-cols-3"
+          className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
         >
           {SERVICES.map((service) => {
             const Icon = service.icon;
