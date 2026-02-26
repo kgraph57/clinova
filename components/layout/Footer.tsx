@@ -9,6 +9,7 @@ const FOOTER_LINKS = {
     links: [
       { href: "/sukusuku-navi", label: "すくすくナビ" },
       { href: "/futari-navi", label: "ふたりナビ" },
+      { href: "/icu-nutricare", label: "Nutri-Care" },
       { href: "/pediatric-learning", label: "Pediatric Learning" },
     ],
   },
