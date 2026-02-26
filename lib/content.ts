@@ -34,6 +34,7 @@ function readMDXFile(filePath: string): Article | null {
       riskLevel: data.riskLevel,
       estimatedReadTime: Math.ceil(stats.minutes),
       content,
+      coverImage: data.coverImage ?? null,
     };
   } catch {
     return null;

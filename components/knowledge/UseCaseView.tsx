@@ -2,12 +2,15 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown, ChevronUp, Clock } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 import { USE_CASES, getUseCaseArticles } from "@/lib/use-cases";
 import { CONTENT_TYPES } from "@/lib/constants";
 import type { Article } from "@/lib/types";
+
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
 interface UseCaseViewProps {
   articles: Article[];
@@ -27,31 +30,49 @@ function UseCaseSection({
   if (totalCount === 0) return null;
 
   const Icon = useCase.icon;
+  const headerImage = `${BASE_PATH}/images/use-cases/${useCase.id}.png`;
 
   return (
     <motion.section variants={fadeInUp} className="space-y-4">
-      <div className="flex items-start gap-4">
-        <div
-          className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl ${useCase.bgColor} ${useCase.darkBgColor}`}
-        >
-          <Icon className={`h-6 w-6 ${useCase.color}`} />
+      {/* Header with image */}
+      <div className="relative overflow-hidden rounded-2xl">
+        <div className="relative h-48 w-full sm:h-56">
+          <Image
+            src={headerImage}
+            alt={useCase.title}
+            fill
+            className="object-cover"
+            sizes="(max-width: 1200px) 100vw, 1200px"
+          />
+          {/* Gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent" />
         </div>
-        <div className="min-w-0 flex-1">
-          <div className="flex items-baseline gap-3">
-            <h2 className="font-serif text-xl font-medium tracking-tight sm:text-2xl">
-              {useCase.title}
-            </h2>
-            <span className="text-sm text-muted-foreground">
-              {useCase.subtitle}
-            </span>
+        {/* Text overlay */}
+        <div className="absolute inset-0 flex items-end p-6">
+          <div className="flex items-start gap-3">
+            <div
+              className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/20 backdrop-blur-sm`}
+            >
+              <Icon className="h-5 w-5 text-white" />
+            </div>
+            <div>
+              <div className="flex items-baseline gap-3">
+                <h2 className="font-serif text-xl font-medium tracking-tight text-white sm:text-2xl">
+                  {useCase.title}
+                </h2>
+                <span className="text-sm text-white/70">
+                  {useCase.subtitle}
+                </span>
+              </div>
+              <p className="mt-1 text-sm leading-relaxed text-white/80">
+                {useCase.description}
+              </p>
+            </div>
           </div>
-          <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-            {useCase.description}
-          </p>
+          <span className="ml-auto shrink-0 rounded-full bg-white/20 px-3 py-1 text-xs tabular-nums text-white backdrop-blur-sm">
+            {totalCount}件
+          </span>
         </div>
-        <span className="shrink-0 rounded-full bg-muted px-3 py-1 text-xs tabular-nums text-muted-foreground">
-          {totalCount}件
-        </span>
       </div>
 
       {/* Featured items */}

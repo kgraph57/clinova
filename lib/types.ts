@@ -14,6 +14,7 @@ export interface Article {
   riskLevel?: "high" | "medium" | "low";
   estimatedReadTime: number;
   content: string;
+  coverImage?: string;
 }
 
 export interface GitHubRepo {
