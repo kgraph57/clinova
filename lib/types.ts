@@ -4,6 +4,7 @@ export interface Article {
   description: string;
   category: string;
   contentType: "prompt" | "tip" | "guide" | "article" | "news";
+  newsType?: "weekly" | "paper" | "regulation" | "product";
   difficulty?: "beginner" | "intermediate" | "advanced";
   tags: string[];
   publishedAt: string;

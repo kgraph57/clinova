@@ -24,6 +24,7 @@ function readMDXFile(filePath: string): Article | null {
       description: data.description ?? "",
       category: data.category ?? "ai-fundamentals",
       contentType: data.contentType ?? "article",
+      newsType: data.newsType,
       difficulty: data.difficulty,
       tags: data.tags ?? [],
       publishedAt: data.publishedAt ?? new Date().toISOString().split("T")[0],

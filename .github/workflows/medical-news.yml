@@ -1,4 +1,4 @@
-name: Medical AI News Fetch (Weekly)
+name: Weekly Medical AI Newsletter
 
 on:
   # 毎週日曜 5:00 JST (土曜 20:00 UTC)
@@ -9,12 +9,11 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 jobs:
-  fetch-data:
+  generate-newsletter:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
@@ -29,52 +28,26 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Step 1: データ取得 (PubMed, medRxiv, arXiv, 厚労省, PMDA, FDA)
       - name: Fetch medical news data
         run: npx tsx scripts/fetch-medical-news.ts
 
-      - name: Check for new data
-        id: check
-        run: |
-          if git diff --quiet data/; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            PAPERS=$(jq '.stats.totalPapers' data/latest-fetch.json)
-            REGULATORY=$(jq '.stats.totalRegulatory' data/latest-fetch.json)
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "papers=$PAPERS" >> $GITHUB_OUTPUT
-            echo "regulatory=$REGULATORY" >> $GITHUB_OUTPUT
-          fi
+      # Step 2: Claude API で記事自動生成
+      - name: Generate weekly article
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npx tsx scripts/generate-weekly-article.ts
 
-      - name: Commit data
-        if: steps.check.outputs.has_changes == 'true'
+      # Step 3: 変更があればコミット & プッシュ → 自動デプロイ
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git commit -m "data: 医療AI最新データ取得 ($(date +%Y-%m-%d))"
-          git push
-
-      - name: Create notification issue
-        if: steps.check.outputs.has_changes == 'true'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const papers = ${{ steps.check.outputs.papers || 0 }};
-            const regulatory = ${{ steps.check.outputs.regulatory || 0 }};
-            const date = new Date().toISOString().split('T')[0];
-
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `📰 医療AI最新データ取得完了 (${date})`,
-              body: `## 自動取得データ\n\n` +
-                `- 論文: **${papers}** 件\n` +
-                `- 規制ニュース: **${regulatory}** 件\n\n` +
-                `### 次のステップ\n\n` +
-                `Claude Code で以下を実行:\n` +
-                `\`\`\`\n` +
-                `最新の取得データ (data/latest-fetch.json) から記事を書いて\n` +
-                `\`\`\`\n\n` +
-                `データファイル: \`data/latest-fetch.json\``,
-              labels: ['auto-generated', 'content']
-            });
+          git add scripts/data/ content/news/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            DATE=$(date +%Y-%m-%d)
+            git commit -m "feat: Weekly Medical AI Newsletter 自動生成 ($DATE)"
+            git push
+          fi

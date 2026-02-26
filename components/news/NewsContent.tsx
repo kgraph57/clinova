@@ -1,14 +1,34 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Newspaper, Clock, ArrowUpRight, Calendar } from "lucide-react";
+import {
+  Newspaper,
+  Clock,
+  ArrowUpRight,
+  Calendar,
+  Radio,
+  FileText,
+  Scale,
+  Package,
+} from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 import type { Article } from "@/lib/types";
 
 interface NewsContentProps {
   articles: Article[];
 }
+
+const NEWS_TABS = [
+  { key: "all", label: "All", icon: Newspaper },
+  { key: "weekly", label: "Weekly", icon: Radio },
+  { key: "paper", label: "論文", icon: FileText },
+  { key: "regulation", label: "規制", icon: Scale },
+  { key: "product", label: "プロダクト", icon: Package },
+] as const;
+
+type TabKey = (typeof NEWS_TABS)[number]["key"];
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
@@ -19,7 +39,13 @@ function formatDate(dateStr: string): string {
   });
 }
 
-function NewsCard({ article, featured }: { article: Article; featured?: boolean }) {
+function NewsCard({
+  article,
+  featured,
+}: {
+  article: Article;
+  featured?: boolean;
+}) {
   return (
     <motion.div variants={fadeInUp}>
       <Link
@@ -29,7 +55,7 @@ function NewsCard({ article, featured }: { article: Article; featured?: boolean 
         }`}
       >
         <div className="flex-1">
-          {/* Date + Read time */}
+          {/* Date + Read time + Badge */}
           <div className="flex items-center gap-3 text-sm text-muted-foreground">
             <span className="flex items-center gap-1.5">
               <Calendar className="h-3.5 w-3.5" />
@@ -40,6 +66,9 @@ function NewsCard({ article, featured }: { article: Article; featured?: boolean 
                 <Clock className="h-3.5 w-3.5" />
                 {article.estimatedReadTime}min
               </span>
+            )}
+            {article.newsType && (
+              <NewsTypeBadge newsType={article.newsType} />
             )}
           </div>
 
@@ -82,17 +111,46 @@ function NewsCard({ article, featured }: { article: Article; featured?: boolean 
   );
 }
 
+const BADGE_STYLES: Record<string, string> = {
+  weekly: "bg-blue-100 text-blue-700 dark:bg-blue-950 dark:text-blue-300",
+  paper: "bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300",
+  regulation: "bg-amber-100 text-amber-700 dark:bg-amber-950 dark:text-amber-300",
+  product: "bg-purple-100 text-purple-700 dark:bg-purple-950 dark:text-purple-300",
+};
+
+const BADGE_LABELS: Record<string, string> = {
+  weekly: "Weekly",
+  paper: "論文",
+  regulation: "規制",
+  product: "プロダクト",
+};
+
+function NewsTypeBadge({ newsType }: { newsType: string }) {
+  return (
+    <span
+      className={`rounded-full px-2 py-0.5 text-xs font-medium ${
+        BADGE_STYLES[newsType] ?? "bg-muted text-muted-foreground"
+      }`}
+    >
+      {BADGE_LABELS[newsType] ?? newsType}
+    </span>
+  );
+}
+
 export function NewsContent({ articles }: NewsContentProps) {
-  const [latest, ...rest] = articles;
+  const [activeTab, setActiveTab] = useState<TabKey>("all");
+
+  const filtered =
+    activeTab === "all"
+      ? articles
+      : articles.filter((a) => a.newsType === activeTab);
+
+  const [latest, ...rest] = filtered;
 
   return (
     <>
       {/* Header */}
-      <motion.div
-        variants={fadeInUp}
-        initial="hidden"
-        animate="visible"
-      >
+      <motion.div variants={fadeInUp} initial="hidden" animate="visible">
         <div className="flex items-center gap-3">
           <Newspaper className="h-5 w-5 text-muted-foreground" />
           <h1 className="font-serif text-3xl tracking-tight sm:text-4xl">
@@ -104,17 +162,44 @@ export function NewsContent({ articles }: NewsContentProps) {
         </p>
       </motion.div>
 
-      {articles.length === 0 ? (
+      {/* Tabs */}
+      <div className="mt-8 flex flex-wrap gap-2">
+        {NEWS_TABS.map(({ key, label, icon: Icon }) => {
+          const count =
+            key === "all"
+              ? articles.length
+              : articles.filter((a) => a.newsType === key).length;
+          if (key !== "all" && count === 0) return null;
+          return (
+            <button
+              key={key}
+              onClick={() => setActiveTab(key)}
+              className={`flex items-center gap-1.5 rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+                activeTab === key
+                  ? "bg-foreground text-background"
+                  : "bg-muted text-muted-foreground hover:bg-muted/80"
+              }`}
+            >
+              <Icon className="h-3.5 w-3.5" />
+              {label}
+              <span className="ml-0.5 text-xs opacity-70">({count})</span>
+            </button>
+          );
+        })}
+      </div>
+
+      {filtered.length === 0 ? (
         <div className="mt-16 text-center text-muted-foreground">
           <Newspaper className="mx-auto h-10 w-10 opacity-40" />
-          <p className="mt-4">まだニュースがありません。</p>
+          <p className="mt-4">この分類のニュースはまだありません。</p>
         </div>
       ) : (
         <motion.div
+          key={activeTab}
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="mt-12 space-y-6"
+          className="mt-8 space-y-6"
         >
           {/* Featured (latest) */}
           {latest && <NewsCard article={latest} featured />}
