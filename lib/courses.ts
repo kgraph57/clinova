@@ -20,6 +20,7 @@ export interface CourseMetadata {
   prerequisites: readonly string[];
   targetAudience: readonly string[];
   skills: readonly string[];
+  coverImage?: string;
 }
 
 const FREE_COURSES = new Set(["ai-basics", "prompt-engineering-basics"]);
@@ -83,6 +84,7 @@ function readCourseMeta(courseId: string): CourseMetadata | null {
     prerequisites: data.prerequisites ?? [],
     targetAudience: data.targetAudience ?? [],
     skills: data.skills ?? [],
+    coverImage: data.coverImage,
   };
 }
 
