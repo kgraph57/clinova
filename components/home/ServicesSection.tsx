@@ -2,13 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import {
-  ArrowUpRight,
-  Baby,
-  Heart,
-  Activity,
-  GraduationCap,
-} from "lucide-react";
+import { ArrowUpRight, Baby, Heart, GraduationCap } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
 type Service = {
@@ -44,17 +38,6 @@ const SERVICES: Service[] = [
     icon: Heart,
     language: "TypeScript",
     color: "bg-warm-rose dark:bg-rose-950/30",
-  },
-  {
-    name: "Nutri-Care",
-    repo: "nutri-care",
-    description:
-      "包括的栄養管理アプリ。379製品のデータベースと12の臨床機能で、エビデンスに基づく栄養サポートを提供します。",
-    url: "/icu-nutricare",
-    internal: true,
-    icon: Activity,
-    language: "TypeScript",
-    color: "bg-warm-sky dark:bg-blue-950/30",
   },
   {
     name: "Pediatric Learning",
