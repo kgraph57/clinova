@@ -10,7 +10,7 @@ import { USE_CASES, getUseCaseArticles } from "@/lib/use-cases";
 import { CONTENT_TYPES } from "@/lib/constants";
 import type { Article } from "@/lib/types";
 
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
 interface UseCaseViewProps {
   articles: Article[];

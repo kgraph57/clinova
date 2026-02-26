@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
+
 const STATS = [
   { value: "200+", label: "コンテンツ" },
   { value: "15", label: "学習コース" },
@@ -94,7 +96,7 @@ export function HeroSection() {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <Image
-                src="/images/hero-main.png"
+                src={`${BASE_PATH}/images/hero-main.png`}
                 alt="散らばる星を、星座にする。"
                 width={2752}
                 height={1536}

@@ -7,7 +7,7 @@ import { Newspaper, Clock, ArrowUpRight, Calendar } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 import type { Article } from "@/lib/types";
 
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
 interface NewsContentProps {
   articles: Article[];
