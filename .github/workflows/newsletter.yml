@@ -21,7 +21,7 @@ on:
 
   # medical-news.yml 完了後に自動トリガー
   workflow_run:
-    workflows: ["Medical AI News Fetch (Weekly)"]
+    workflows: ["Weekly Medical AI Newsletter"]
     types:
       - completed
 

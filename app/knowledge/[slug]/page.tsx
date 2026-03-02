@@ -12,11 +12,15 @@ import { ArticleHeader } from "@/components/article/ArticleHeader";
 import { ArticleFooter } from "@/components/article/ArticleFooter";
 import { ReadingProgress } from "@/components/article/ReadingProgress";
 import { PromptTemplate } from "@/components/article/PromptTemplate";
+import { PromptPlayground } from "@/components/article/PromptPlayground";
 import { Warning } from "@/components/article/Warning";
 import { Callout } from "@/components/article/Callout";
 import { H2, H3 } from "@/components/article/HeadingWithId";
 import { TableOfContents } from "@/components/learn/TableOfContents";
 import { MobileToc } from "@/components/learn/MobileToc";
+import { BookmarkButton } from "@/components/bookmark/BookmarkButton";
+import { ReadTracker } from "@/components/article/ReadTracker";
+import { GiscusComments } from "@/components/article/GiscusComments";
 import { extractToc } from "@/lib/toc";
 import { SITE_CONFIG } from "@/lib/constants";
 
@@ -43,6 +47,7 @@ const mdxComponents = {
   h2: H2,
   h3: H3,
   PromptTemplate,
+  PromptPlayground,
   Warning,
   Callout,
   img: MdxImage,
@@ -122,6 +127,14 @@ export default async function ArticlePage({ params }: PageProps) {
       <ReadingProgress />
       {tocItems.length > 0 && <TableOfContents items={tocItems} />}
       <div className="mx-auto max-w-[720px] px-6 py-12 sm:py-20">
+        <div className="mb-4 flex justify-end">
+          <BookmarkButton
+            slug={article.slug}
+            title={article.title}
+            contentType={article.contentType}
+            variant="full"
+          />
+        </div>
         <ArticleHeader article={article} />
         {tocItems.length > 0 && <MobileToc items={tocItems} />}
 
@@ -133,11 +146,15 @@ export default async function ArticlePage({ params }: PageProps) {
           />
         </article>
 
+        <ReadTracker slug={article.slug} />
+
         <ArticleFooter
           article={article}
           relatedArticles={related}
           relatedCourses={relatedCourses}
         />
+
+        <GiscusComments />
       </div>
     </>
   );

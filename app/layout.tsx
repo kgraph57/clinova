@@ -7,6 +7,8 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ScrollToTop } from "@/components/layout/ScrollToTop";
 import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
+import { ServiceWorkerRegistration } from "@/components/layout/ServiceWorkerRegistration";
+import { ChatWidget } from "@/components/chat/ChatWidget";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { SkipNavigation } from "@/components/layout/SkipNavigation";
 import { ThemeColorMeta } from "@/components/layout/ThemeColorMeta";
@@ -91,6 +93,8 @@ export default function RootLayout({
               <Footer />
             </div>
             <ScrollToTop />
+            <ServiceWorkerRegistration />
+            <ChatWidget />
             <Toaster position="bottom-right" />
           </ProgressProvider>
         </ThemeProvider>

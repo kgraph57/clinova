@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "knowledge": "ナレッジ",
+    "news": "ニュース",
+    "learn": "ラーニング",
+    "glossary": "用語辞典",
+    "tools": "ツール比較",
+    "about": "About",
+    "contact": "コンタクト"
+  },
+  "common": {
+    "search": "検索",
+    "searchPlaceholder": "検索...",
+    "readMore": "もっと読む",
+    "viewAll": "すべて見る",
+    "back": "戻る",
+    "copy": "コピー",
+    "copied": "コピー済み",
+    "save": "保存",
+    "saved": "保存済み",
+    "loading": "読み込み中...",
+    "noResults": "結果が見つかりませんでした",
+    "minuteRead": "分で読めます",
+    "read": "既読"
+  },
+  "home": {
+    "weeklyPickup": "今週のピックアップ",
+    "weeklyPickupDescription": "今週おすすめのコンテンツをピックアップ",
+    "featuredKnowledge": "注目のナレッジ",
+    "featuredDescription": "医療AIの実践に役立つ厳選コンテンツ"
+  },
+  "glossary": {
+    "title": "医療AI用語辞典",
+    "description": "医療AIの理解に必要な用語を、カテゴリ・レベル別に検索できます。",
+    "searchPlaceholder": "用語を検索...",
+    "allCategories": "すべて",
+    "termsCount": "件の用語",
+    "relatedTerms": "関連用語"
+  },
+  "tools": {
+    "title": "医療AIツール比較",
+    "description": "医療現場で使えるAIツールを、用途・安全性・対応言語で比較できます。",
+    "searchPlaceholder": "ツール名で検索...",
+    "toolsCount": "件のツール",
+    "details": "詳細を見る",
+    "strengths": "強み",
+    "limitations": "制限事項",
+    "useCases": "ユースケース"
+  },
+  "bookmark": {
+    "title": "ブックマーク",
+    "description": "保存した記事をここから素早くアクセスできます。",
+    "empty": "まだブックマークがありません。",
+    "emptyHint": "記事ページの「保存」ボタンでブックマークできます。",
+    "added": "ブックマークに追加しました",
+    "removed": "ブックマークを解除しました"
+  },
+  "chat": {
+    "title": "Hoshizu AI",
+    "description": "コンテンツを検索・質問",
+    "placeholder": "質問を入力...",
+    "welcomeMessage": "医療AIに関する質問やコンテンツの検索ができます"
+  },
+  "categories": {
+    "diagnosis": "診断支援",
+    "research": "研究・論文",
+    "clinical": "臨床実践",
+    "ai-fundamentals": "AI基礎",
+    "workflow": "ワークフロー"
+  },
+  "levels": {
+    "beginner": "入門",
+    "intermediate": "実践",
+    "advanced": "応用"
+  },
+  "contentTypes": {
+    "prompt": "プロンプト",
+    "tip": "Tips",
+    "guide": "ガイド",
+    "article": "記事",
+    "news": "ニュース"
+  }
+}

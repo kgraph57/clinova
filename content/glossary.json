@@ -1,0 +1,182 @@
+[
+  {
+    "id": "llm",
+    "term": "LLM（大規模言語モデル）",
+    "termEn": "Large Language Model",
+    "definition": "膨大なテキストデータで学習された大規模なニューラルネットワーク。自然言語の理解・生成に優れ、GPT-4やClaudeなどが代表例。医療分野では臨床文書の要約、鑑別診断支援、文献検索などに活用される。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["transformer", "fine-tuning", "prompt-engineering"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "rag",
+    "term": "RAG（検索拡張生成）",
+    "termEn": "Retrieval-Augmented Generation",
+    "definition": "外部データベースから関連情報を検索し、その結果をLLMのコンテキストに組み込んで回答を生成する手法。医療ガイドラインや論文データベースと組み合わせることで、根拠に基づく回答が可能になる。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["llm", "embedding", "vector-database"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "fine-tuning",
+    "term": "ファインチューニング",
+    "termEn": "Fine-tuning",
+    "definition": "事前学習済みモデルを特定のタスクやドメインのデータで追加学習させる手法。医療特化のモデル構築に使われるが、データの品質とバイアスに注意が必要。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["llm", "transfer-learning", "lora"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "prompt-engineering",
+    "term": "プロンプトエンジニアリング",
+    "termEn": "Prompt Engineering",
+    "definition": "AIモデルから望ましい出力を得るために、入力（プロンプト）を設計・最適化する技術。医療分野ではCoT（思考の連鎖）やfew-shot学習が特に有効。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["llm", "cot", "few-shot"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "cot",
+    "term": "CoT（思考の連鎖）",
+    "termEn": "Chain of Thought",
+    "definition": "AIに段階的な推論プロセスを明示的に踏ませるプロンプト手法。複雑な臨床推論や鑑別診断において、論理的なステップを追った回答を得られる。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["prompt-engineering", "llm"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "transformer",
+    "term": "Transformer",
+    "termEn": "Transformer",
+    "definition": "自己注意機構（Self-Attention）を基盤とするニューラルネットワークアーキテクチャ。GPT、BERT、Claudeなど現代のLLMの基礎技術。2017年にGoogleが提案。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["llm", "attention"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "embedding",
+    "term": "エンベディング（埋め込み表現）",
+    "termEn": "Embedding",
+    "definition": "テキストや画像などのデータを固定長の数値ベクトルに変換したもの。意味的に近い概念は近いベクトルになる。RAGやセマンティック検索の基盤技術。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["rag", "vector-database"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "vector-database",
+    "term": "ベクトルデータベース",
+    "termEn": "Vector Database",
+    "definition": "エンベディングベクトルを効率的に保存・検索するデータベース。類似性検索が高速で、RAGシステムの検索エンジンとして使用される。Pinecone、Weaviate、pgvectorなどが代表的。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["embedding", "rag"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "hallucination",
+    "term": "ハルシネーション（幻覚）",
+    "termEn": "Hallucination",
+    "definition": "AIモデルが事実に基づかない情報を生成する現象。医療分野では存在しない論文の引用や誤った薬用量の提示など、深刻なリスクにつながる可能性がある。",
+    "category": "clinical",
+    "relatedTerms": ["llm", "rag"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "few-shot",
+    "term": "Few-shot学習",
+    "termEn": "Few-shot Learning",
+    "definition": "少数の例示をプロンプトに含めることで、モデルにタスクの形式や出力パターンを学習させる手法。臨床ノートの構造化や、特定の書式に沿った出力に有効。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["prompt-engineering", "zero-shot"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "hipaa",
+    "term": "HIPAA",
+    "termEn": "Health Insurance Portability and Accountability Act",
+    "definition": "米国の医療情報の保護に関する法律。患者の医療情報（PHI）の取り扱いを規制する。AI医療ツールを使用する際にも遵守が必要。日本では個人情報保護法が対応する。",
+    "category": "clinical",
+    "relatedTerms": ["phi", "deidentification"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "clinical-decision-support",
+    "term": "臨床意思決定支援システム（CDSS）",
+    "termEn": "Clinical Decision Support System",
+    "definition": "医療従事者の診断・治療の意思決定を支援するシステム。AIの導入により、画像診断の補助、薬物相互作用チェック、リスクスコア算出などが可能に。",
+    "category": "clinical",
+    "relatedTerms": ["diagnostic-ai", "ehr"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "diagnostic-ai",
+    "term": "診断AI",
+    "termEn": "Diagnostic AI",
+    "definition": "医用画像（X線、CT、MRI、病理画像等）や臨床データから疾患を検出・分類するAIシステム。FDA/PMDA承認を受けた製品も増加している。",
+    "category": "diagnosis",
+    "relatedTerms": ["clinical-decision-support", "medical-imaging"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "medical-imaging",
+    "term": "医用画像AI",
+    "termEn": "Medical Imaging AI",
+    "definition": "放射線画像、内視鏡画像、病理画像などを解析するAI技術。畳み込みニューラルネットワーク（CNN）やVision Transformerが使用される。",
+    "category": "diagnosis",
+    "relatedTerms": ["diagnostic-ai", "cnn"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "nlp-medical",
+    "term": "医療NLP",
+    "termEn": "Medical Natural Language Processing",
+    "definition": "電子カルテ、診療記録、医学文献などの非構造化テキストデータを解析する技術。情報抽出、分類、要約、翻訳などのタスクに適用される。",
+    "category": "research",
+    "relatedTerms": ["llm", "ehr"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "bias",
+    "term": "バイアス（AI）",
+    "termEn": "AI Bias",
+    "definition": "学習データや設計に起因するAIの系統的な偏り。医療AIでは特定の人種・性別・年齢層での精度低下が問題になる。公平性の確保は医療AI開発の重要課題。",
+    "category": "clinical",
+    "relatedTerms": ["fairness", "explainability"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "explainability",
+    "term": "説明可能AI（XAI）",
+    "termEn": "Explainable AI",
+    "definition": "AIの判断根拠を人間が理解できる形で提示する技術・手法。医療分野では「なぜその診断に至ったか」の説明責任が特に重要。SHAP、Grad-CAMなどの手法がある。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["bias", "clinical-decision-support"],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "lora",
+    "term": "LoRA",
+    "termEn": "Low-Rank Adaptation",
+    "definition": "大規模モデルのパラメータの一部のみを効率的に微調整する手法。フルファインチューニングに比べ計算コストが大幅に低く、医療ドメインへの適応に活用されている。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["fine-tuning", "llm"],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "zero-shot",
+    "term": "Zero-shot学習",
+    "termEn": "Zero-shot Learning",
+    "definition": "例示なしでタスクを実行させるプロンプト手法。事前学習の知識のみで推論を行う。単純なタスクや一般的な医学知識に基づく質問に適している。",
+    "category": "ai-fundamentals",
+    "relatedTerms": ["few-shot", "prompt-engineering"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "sdm",
+    "term": "SDM（共同意思決定）",
+    "termEn": "Shared Decision Making",
+    "definition": "医療者と患者が、エビデンスと患者の価値観を共有しながら治療方針を決定するプロセス。AIツールによるリスク可視化やオプション比較が支援に活用されつつある。",
+    "category": "clinical",
+    "relatedTerms": ["clinical-decision-support"],
+    "difficulty": "beginner"
+  }
+]

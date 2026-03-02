@@ -1,5 +1,5 @@
 const STORAGE_KEY = "hoshizu_v1";
-const STORAGE_VERSION = 1;
+const STORAGE_VERSION = 2;
 
 export interface QuizResult {
   readonly answers: readonly number[];
@@ -12,6 +12,13 @@ export interface CertificateInfo {
   readonly userName: string;
   readonly completedAt: number;
   readonly courseTitle: string;
+}
+
+export interface BookmarkItem {
+  readonly slug: string;
+  readonly title: string;
+  readonly contentType: string;
+  readonly bookmarkedAt: number;
 }
 
 interface ProgressData {
@@ -31,11 +38,21 @@ interface CertificateData {
   readonly certificates: Readonly<Record<string, CertificateInfo>>;
 }
 
+interface BookmarkData {
+  readonly items: Readonly<Record<string, BookmarkItem>>;
+}
+
+interface ReadingData {
+  readonly readArticles: Readonly<Record<string, { readonly readAt: number }>>;
+}
+
 interface StorageSchema {
   readonly version: number;
   readonly progress: ProgressData;
   readonly quiz: QuizData;
   readonly certificate: CertificateData;
+  readonly bookmark: BookmarkData;
+  readonly reading: ReadingData;
 }
 
 function createEmpty(): StorageSchema {
@@ -44,6 +61,8 @@ function createEmpty(): StorageSchema {
     progress: { completedLessons: {}, lastVisited: null },
     quiz: { results: {} },
     certificate: { certificates: {} },
+    bookmark: { items: {} },
+    reading: { readArticles: {} },
   };
 }
 
@@ -78,8 +97,15 @@ function write(data: StorageSchema): void {
   }
 }
 
-function migrate(_old: StorageSchema): StorageSchema {
-  // Future migrations go here
+function migrate(old: StorageSchema): StorageSchema {
+  if (old.version === 1) {
+    return {
+      ...old,
+      version: STORAGE_VERSION,
+      bookmark: (old as Partial<StorageSchema>).bookmark ?? { items: {} },
+      reading: (old as Partial<StorageSchema>).reading ?? { readArticles: {} },
+    };
+  }
   return createEmpty();
 }
 
@@ -199,10 +225,7 @@ export function getCertificate(courseId: string): CertificateInfo | null {
   return read().certificate.certificates[courseId] ?? null;
 }
 
-export function saveCertificate(
-  courseId: string,
-  info: CertificateInfo,
-): void {
+export function saveCertificate(courseId: string, info: CertificateInfo): void {
   const data = read();
   const updated: StorageSchema = {
     ...data,
@@ -212,4 +235,70 @@ export function saveCertificate(
     },
   };
   write(updated);
+}
+
+// --- Bookmarks ---
+
+export function getBookmarks(): readonly BookmarkItem[] {
+  const items = read().bookmark.items;
+  return Object.values(items).sort((a, b) => b.bookmarkedAt - a.bookmarkedAt);
+}
+
+export function isBookmarked(slug: string): boolean {
+  return slug in read().bookmark.items;
+}
+
+export function addBookmark(item: BookmarkItem): void {
+  const data = read();
+  const updated: StorageSchema = {
+    ...data,
+    bookmark: {
+      ...data.bookmark,
+      items: { ...data.bookmark.items, [item.slug]: item },
+    },
+  };
+  write(updated);
+}
+
+export function removeBookmark(slug: string): void {
+  const data = read();
+  const { [slug]: _, ...rest } = data.bookmark.items;
+  const updated: StorageSchema = {
+    ...data,
+    bookmark: { ...data.bookmark, items: rest },
+  };
+  write(updated);
+}
+
+// --- Reading Tracking ---
+
+export function isArticleRead(slug: string): boolean {
+  return slug in read().reading.readArticles;
+}
+
+export function markArticleRead(slug: string): void {
+  const data = read();
+  if (slug in data.reading.readArticles) return;
+
+  const updated: StorageSchema = {
+    ...data,
+    reading: {
+      ...data.reading,
+      readArticles: {
+        ...data.reading.readArticles,
+        [slug]: { readAt: Date.now() },
+      },
+    },
+  };
+  write(updated);
+}
+
+export function getReadArticleCount(): number {
+  return Object.keys(read().reading.readArticles).length;
+}
+
+export function getReadArticles(): Readonly<
+  Record<string, { readonly readAt: number }>
+> {
+  return read().reading.readArticles;
 }

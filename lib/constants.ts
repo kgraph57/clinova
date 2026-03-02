@@ -113,6 +113,8 @@ export const NAV_ITEMS = [
   { href: "/knowledge", label: "Knowledge" },
   { href: "/news", label: "News" },
   { href: "/learn", label: "Learn" },
+  { href: "/glossary", label: "Glossary" },
+  { href: "/tools", label: "Tools" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ] as const;

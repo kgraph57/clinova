@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Home",
+    "knowledge": "Knowledge",
+    "news": "News",
+    "learn": "Learn",
+    "glossary": "Glossary",
+    "tools": "Tools",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "common": {
+    "search": "Search",
+    "searchPlaceholder": "Search...",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "back": "Back",
+    "copy": "Copy",
+    "copied": "Copied",
+    "save": "Save",
+    "saved": "Saved",
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "minuteRead": "min read",
+    "read": "Read"
+  },
+  "home": {
+    "weeklyPickup": "Weekly Pickup",
+    "weeklyPickupDescription": "Curated content picks for this week",
+    "featuredKnowledge": "Featured Knowledge",
+    "featuredDescription": "Curated content for medical AI practice"
+  },
+  "glossary": {
+    "title": "Medical AI Glossary",
+    "description": "Search medical AI terminology by category and level.",
+    "searchPlaceholder": "Search terms...",
+    "allCategories": "All",
+    "termsCount": "terms",
+    "relatedTerms": "Related terms"
+  },
+  "tools": {
+    "title": "Medical AI Tool Comparison",
+    "description": "Compare AI tools for healthcare by use case, safety, and language support.",
+    "searchPlaceholder": "Search by tool name...",
+    "toolsCount": "tools",
+    "details": "Show details",
+    "strengths": "Strengths",
+    "limitations": "Limitations",
+    "useCases": "Use Cases"
+  },
+  "bookmark": {
+    "title": "Bookmarks",
+    "description": "Quick access to your saved articles.",
+    "empty": "No bookmarks yet.",
+    "emptyHint": "Use the 'Save' button on article pages to bookmark content.",
+    "added": "Added to bookmarks",
+    "removed": "Removed from bookmarks"
+  },
+  "chat": {
+    "title": "Hoshizu AI",
+    "description": "Search & ask about content",
+    "placeholder": "Ask a question...",
+    "welcomeMessage": "Ask questions about medical AI or search for content"
+  },
+  "categories": {
+    "diagnosis": "Diagnosis",
+    "research": "Research",
+    "clinical": "Clinical",
+    "ai-fundamentals": "AI Basics",
+    "workflow": "Workflow"
+  },
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "contentTypes": {
+    "prompt": "Prompt",
+    "tip": "Tips",
+    "guide": "Guide",
+    "article": "Article",
+    "news": "News"
+  }
+}

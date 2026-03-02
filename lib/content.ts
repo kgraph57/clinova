@@ -104,6 +104,24 @@ export function getLatestNews(count = 3): Article[] {
   return getNewsArticles().slice(0, count);
 }
 
+export function getWeeklyPickup(count = 3): Article[] {
+  const featured = getAllArticles().filter((a) => a.featured);
+  if (featured.length === 0) return getAllArticles().slice(0, count);
+
+  const now = new Date();
+  const startOfYear = new Date(now.getFullYear(), 0, 1);
+  const weekNum = Math.floor(
+    (now.getTime() - startOfYear.getTime()) / (7 * 24 * 60 * 60 * 1000),
+  );
+  const startIdx = (weekNum * 3) % featured.length;
+
+  const result: Article[] = [];
+  for (let i = 0; i < count; i++) {
+    result.push(featured[(startIdx + i) % featured.length]!);
+  }
+  return result;
+}
+
 export function getArticleCount(): Record<string, number> {
   const articles = getAllArticles();
   const counts: Record<string, number> = { all: articles.length };

@@ -1,4 +1,5 @@
 import { HeroSection } from "@/components/home/HeroSection";
+import { WeeklyPickup } from "@/components/home/WeeklyPickup";
 import { CategoryOverview } from "@/components/home/CategoryOverview";
 import { FeaturedArticles } from "@/components/home/FeaturedArticles";
 import { ServicesSection } from "@/components/home/ServicesSection";
@@ -12,6 +13,7 @@ import {
   getFeaturedArticles,
   getArticleCount,
   getLatestNews,
+  getWeeklyPickup,
 } from "@/lib/content";
 import { getCourseCount } from "@/lib/courses";
 import { SITE_CONFIG } from "@/lib/constants";
@@ -19,6 +21,7 @@ import { getGitHubRepos } from "@/lib/github";
 
 export default async function Home() {
   const featured = getFeaturedArticles();
+  const weeklyPickup = getWeeklyPickup(3);
   const counts = getArticleCount();
   const news = getLatestNews(3);
   const courseCount = getCourseCount();
@@ -60,6 +63,7 @@ export default async function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <HeroSection />
+      <WeeklyPickup articles={weeklyPickup} />
       <CategoryOverview counts={counts} />
       <FeaturedArticles articles={featured} />
       <ServicesSection />
