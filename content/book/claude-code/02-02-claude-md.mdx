@@ -1,0 +1,219 @@
+---
+title: "CLAUDE.md — プロジェクトの「取扱説明書」"
+description: "CLAUDE.mdはClaude Codeへのプロジェクト指示書。書き方、配置場所、効果的な内容、そしてチーム開発での活用法を解説する。"
+slug: "02-02-claude-md"
+order: 5
+partId: "part02"
+partTitle: "コア概念"
+partOrder: 2
+free: true
+status: "published"
+tags: ["CLAUDE.md", "設定", "プロジェクト", "指示", "コンテキスト"]
+estimatedMinutes: 20
+publishedAt: "2026-03-02"
+updatedAt: "2026-03-02"
+---
+
+**CLAUDE.mdは、Claude Codeに「このプロジェクトではこう振る舞ってほしい」と伝える取扱説明書である。一度書けば、毎回の対話で繰り返し説明する必要がなくなる。**
+
+---
+
+## CLAUDE.mdとは何か
+
+プロジェクトの根本的な情報を毎回Claude Codeに説明するのは非効率である。
+
+「このプロジェクトはNext.jsで、TypeScriptを使っていて、テストはVitestで、デプロイはGitHub Pagesで...」
+
+CLAUDE.mdは、こうした**プロジェクト固有の知識**をファイルに書き出すことで、Claude Codeが自動的に読み込んでくれる仕組みである。
+
+プロジェクトルートに `CLAUDE.md` を配置するだけで、Claude Codeは起動時に自動的にこのファイルを読み取り、その内容を**常にコンテキストとして保持**する。
+
+---
+
+## 配置場所と優先度
+
+CLAUDE.mdは複数の場所に配置でき、それぞれ異なるスコープを持つ。
+
+### 配置の階層
+
+| 場所 | スコープ | 用途 |
+|------|---------|------|
+| `~/.claude/CLAUDE.md` | グローバル（全プロジェクト共通） | 個人の汎用ルール |
+| `プロジェクトルート/CLAUDE.md` | プロジェクト全体 | プロジェクト固有の情報 |
+| `サブディレクトリ/CLAUDE.md` | 特定ディレクトリ | ディレクトリ固有のルール |
+| `.claude/rules/*.md` | プロジェクト（ルール分割） | テーマ別のルールファイル |
+
+### 優先度
+
+より具体的な（深い階層の）CLAUDE.mdが優先される。ただし、すべてのCLAUDE.mdの内容が累積的に適用される。矛盾する指示がある場合は、より具体的な方が優先される。
+
+---
+
+## 何を書くべきか
+
+### プロジェクト概要
+
+```markdown
+## Project Overview
+This is a medical AI knowledge portal built with Next.js 16, TypeScript,
+and Tailwind CSS 4. Content is managed as MDX files.
+```
+
+Claude Codeがプロジェクトの「全体像」を即座に把握できるようにする。
+
+### 技術スタック
+
+```markdown
+## Tech Stack
+- Framework: Next.js 16 (App Router, Static Export)
+- Language: TypeScript
+- Styling: Tailwind CSS 4
+- UI: Radix UI + shadcn/ui
+- Testing: Vitest
+- Deployment: GitHub Pages
+```
+
+### 主要コマンド
+
+```markdown
+## Commands
+- `npm run dev` — 開発サーバー起動
+- `npm run build` — 本番ビルド
+- `npm test` — テスト実行
+- `npm run lint` — リンター実行
+```
+
+Claude Codeがテストやビルドを実行する際に、正しいコマンドを使えるようにする。
+
+### アーキテクチャの説明
+
+```markdown
+## Architecture
+- `app/` — Next.js App Router pages
+- `components/` — React components
+- `content/` — MDX content files
+- `lib/` — Utility functions & data layer
+```
+
+### コーディング規約
+
+```markdown
+## Coding Standards
+- Use immutable patterns (never mutate objects)
+- Files should be under 800 lines
+- Functions should be under 50 lines
+- Always handle errors with try-catch
+- Use Zod for input validation
+```
+
+### 重要な注意事項
+
+```markdown
+## Important Notes
+- Never commit .env files
+- Always run tests before committing
+- Use conventional commits format
+```
+
+---
+
+## 何を書くべきでないか
+
+### 秘密情報
+
+```markdown
+# NG: APIキーやパスワード
+API_KEY=sk-ant-api03-xxxxx
+DATABASE_URL=postgresql://user:password@host:5432/db
+```
+
+CLAUDE.mdはGitリポジトリにコミットされることが多い。秘密情報は絶対に書かない。
+
+### 過度に長い内容
+
+CLAUDE.mdは**常にコンテキストに読み込まれる**ため、長すぎると貴重なコンテキストウィンドウを消費する。
+
+簡潔に、本質的な情報だけを記載する。詳細なドキュメントは別ファイルに置き、必要な時だけ参照させる方がよい。
+
+---
+
+## 実例: Hoshizu プロジェクトのCLAUDE.md
+
+実際のプロジェクトでのCLAUDE.mdの例を見てみよう。
+
+```markdown
+# CLAUDE.md
+
+## Project Overview
+Hoshizu — 医療従事者のためのAIナレッジポータル。
+プロンプトテンプレート、テクニック解説、ガイド、記事、
+コース学習をMDX形式で管理し、Next.jsの静的サイトとして配信。
+
+## Commands
+- `npm run dev` — 開発サーバー起動
+- `npm run build` — 本番ビルド（静的エクスポート）
+- `npm test` — テスト実行
+- `npm run lint` — リンター実行
+
+## Architecture
+- app/ — Next.js App Router pages
+- components/ — React components
+- content/ — MDX content files (articles, guides, prompts, tips, courses, book)
+- lib/ — Utility functions & data layer
+
+## Content Authoring
+MDXファイルのfrontmatter形式:
+- title, description, category, contentType, tags, publishedAt
+- プロンプトテンプレートで {{変数名}} を使うと Prompt Playground が自動表示
+
+## Important Notes
+- 静的エクスポート（output: 'export'）のため、サーバーサイド機能は使えない
+- MDXコンテンツの追加・編集が最も頻繁な作業
+- コンポーネントは shadcn/ui ベース
+```
+
+---
+
+## .claude/rules/ ディレクトリ
+
+CLAUDE.mdが大きくなりすぎる場合は、`.claude/rules/` ディレクトリにテーマ別のルールファイルを配置できる。
+
+```
+.claude/
+└── rules/
+    ├── coding-style.md
+    ├── git-workflow.md
+    ├── testing.md
+    ├── security.md
+    └── performance.md
+```
+
+これらのファイルもClaude Codeの起動時に自動的に読み込まれる。チームで共有するルールはプロジェクトの `.claude/rules/` に、個人的なルールは `~/.claude/rules/` に配置する。
+
+<Callout type="info" title="CLAUDE.md vs .claude/rules/">
+CLAUDE.mdはプロジェクトの概要と基本情報に使い、.claude/rules/ は詳細なルールの分割管理に使う。大規模なプロジェクトでは、ルールファイルを分けた方がメンテナンスしやすい。
+</Callout>
+
+---
+
+## CLAUDE.mdを育てる
+
+CLAUDE.mdは一度書いて終わりではない。プロジェクトの成長に合わせて更新していく。
+
+### イテレーションのコツ
+
+1. **最初は最小限**: プロジェクト概要、主要コマンド、技術スタック。これだけで十分
+2. **問題が起きたら追記**: Claude Codeが同じ間違いを繰り返す場合、その対策をCLAUDE.mdに追記する
+3. **定期的に見直す**: 不要になった記述は削除し、最新の状態を反映する
+4. **チームで共有**: プルリクエストでCLAUDE.mdの変更もレビューする
+
+**CLAUDE.mdは「生きたドキュメント」である。** プロジェクトと共に進化させることで、Claude Codeとの協働がどんどんスムーズになる。
+
+<KeyTakeaway>
+- CLAUDE.mdはClaude Codeが起動時に自動読み込みするプロジェクト指示書
+- プロジェクトルート、サブディレクトリ、~/.claude/ に配置でき、深い階層が優先される
+- 書くべき内容: プロジェクト概要、技術スタック、主要コマンド、アーキテクチャ、コーディング規約
+- 書くべきでない内容: 秘密情報、過度に長い詳細説明
+- .claude/rules/ ディレクトリでテーマ別にルールを分割管理できる
+- プロジェクトの成長に合わせてCLAUDE.mdも継続的に更新する
+</KeyTakeaway>

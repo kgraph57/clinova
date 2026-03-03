@@ -1,0 +1,196 @@
+---
+title: "Hooks — イベント駆動の自動化エンジン"
+description: "PreToolUse、PostToolUse、Stop。Claude Codeのイベントにフックして自動フォーマット、セキュリティチェック、品質保証を実現する。"
+slug: "03-01-hooks"
+order: 8
+partId: "part03"
+partTitle: "カスタマイズ"
+partOrder: 3
+free: true
+status: "published"
+tags: ["Hooks", "PreToolUse", "PostToolUse", "自動化", "イベント"]
+estimatedMinutes: 25
+publishedAt: "2026-03-02"
+updatedAt: "2026-03-02"
+---
+
+**Hooksは、Claude Codeの「行動」に対して自動的にトリガーされるスクリプトである。人間が忘れがちな品質チェックを、仕組みで担保する。**
+
+---
+
+## Hooksとは何か
+
+Claude Codeがツールを使うたびに、特定のタイミングで**シェルコマンドを自動実行**できる仕組みがHooksである。
+
+医療に例えれば、「処方箋を書くたびにアレルギーチェックを自動で走らせる」ようなものだ。人間の意志力や記憶に頼るのではなく、**仕組み**で品質を担保する。
+
+---
+
+## 3つのフックタイプ
+
+### PreToolUse — ツール実行の「前」
+
+ツールが実行される前にトリガーされる。バリデーション、パラメータの検証、特定操作のブロックに使う。
+
+**ユースケース:**
+- 特定のファイルの編集をブロックする
+- 長時間コマンドの前にtmuxの使用を促す
+- `git push` の前にレビューを挟む
+
+```json
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "command": "if echo \"$TOOL_INPUT\" | grep -q 'git push'; then echo 'BLOCK: git pushの前にレビューしてください'; fi"
+      }
+    ]
+  }
+}
+```
+
+PreToolUseフックが `BLOCK:` で始まるメッセージを出力すると、そのツール実行はブロックされる。
+
+### PostToolUse — ツール実行の「後」
+
+ツールが実行された後にトリガーされる。フォーマット、型チェック、警告の表示に使う。
+
+**ユースケース:**
+- ファイル編集後にPrettierで自動フォーマット
+- TypeScriptファイル編集後に型チェック
+- console.logが含まれていたら警告
+
+```json
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "command": "if echo \"$FILE_PATH\" | grep -qE '\\.(ts|tsx|js|jsx)$'; then npx prettier --write \"$FILE_PATH\"; fi"
+      },
+      {
+        "matcher": "Edit",
+        "command": "if echo \"$FILE_PATH\" | grep -qE '\\.tsx?$'; then npx tsc --noEmit 2>&1 | head -20; fi"
+      }
+    ]
+  }
+}
+```
+
+### Stop — セッション終了時
+
+Claude Codeのセッションが終了する際にトリガーされる。最終チェックに使う。
+
+```json
+{
+  "hooks": {
+    "Stop": [
+      {
+        "command": "git diff --name-only | xargs grep -l 'console.log' 2>/dev/null && echo '警告: console.logが残っています'"
+      }
+    ]
+  }
+}
+```
+
+---
+
+## matcher — フックの対象を絞る
+
+`matcher` を指定すると、特定のツールに対してのみフックが発動する。
+
+| matcher値 | 対象 |
+|-----------|------|
+| `"Edit"` | Editツールの使用時 |
+| `"Write"` | Writeツールの使用時 |
+| `"Bash"` | Bashツールの使用時 |
+| `"Read"` | Readツールの使用時 |
+| 省略 | すべてのツール使用時 |
+
+---
+
+## 実践レシピ集
+
+### レシピ1: 自動フォーマット
+
+TypeScript/JavaScriptファイルの編集後にPrettierを実行する。
+
+```json
+{
+  "PostToolUse": [
+    {
+      "matcher": "Edit",
+      "command": "if echo \"$FILE_PATH\" | grep -qE '\\.(ts|tsx|js|jsx)$'; then npx prettier --write \"$FILE_PATH\" 2>/dev/null; fi"
+    }
+  ]
+}
+```
+
+### レシピ2: console.log 警告
+
+編集したファイルにconsole.logが含まれていたら警告する。
+
+```json
+{
+  "PostToolUse": [
+    {
+      "matcher": "Edit",
+      "command": "if grep -n 'console\\.log' \"$FILE_PATH\" 2>/dev/null; then echo '⚠ console.logが検出されました'; fi"
+    }
+  ]
+}
+```
+
+### レシピ3: git push 前のレビュー
+
+git pushの前に確認を促す。
+
+```json
+{
+  "PreToolUse": [
+    {
+      "matcher": "Bash",
+      "command": "if echo \"$TOOL_INPUT\" | grep -q 'git push'; then echo '📋 pushする前に変更内容を確認してください'; fi"
+    }
+  ]
+}
+```
+
+### レシピ4: 長時間コマンドの tmux リマインダー
+
+npm、pnpm、cargo等の長時間コマンド実行時にtmuxの使用を促す。
+
+```json
+{
+  "PreToolUse": [
+    {
+      "matcher": "Bash",
+      "command": "if echo \"$TOOL_INPUT\" | grep -qE '^(npm|pnpm|yarn|cargo) (install|build|test)'; then echo 'ℹ 長時間コマンドです。tmux内での実行を検討してください'; fi"
+    }
+  ]
+}
+```
+
+---
+
+## デバッグとトラブルシューティング
+
+フックが期待通りに動かない場合のチェックポイント。
+
+1. **シェルコマンドを直接実行してみる**: フックのコマンドをターミナルで手動実行し、正しく動作するか確認
+2. **環境変数を確認**: `$FILE_PATH`、`$TOOL_INPUT` 等が正しく渡されているか
+3. **matcherを確認**: ツール名が正しいか（大文字小文字に注意）
+4. **出力を確認**: PreToolUseで `BLOCK:` を使う場合、正確にこのプレフィックスで始まっているか
+
+<Callout type="info" title="Hooksの設計哲学">
+Hooksは「強制」ではなく「支援」のためのものである。開発者の作業を妨げるのではなく、見落としがちな品質チェックを自動化することが目的。フックを追加しすぎると作業が遅くなるため、本当に必要なものだけを設定する。
+</Callout>
+
+<KeyTakeaway>
+- Hooksには PreToolUse（実行前）、PostToolUse（実行後）、Stop（セッション終了時）の3タイプがある
+- PreToolUseでBLOCK:を出力すると操作をブロックできる
+- matcherでフックの対象ツールを絞り込める
+- 代表的な用途: 自動フォーマット、型チェック、console.log警告、push前レビュー
+- フックは「強制」ではなく「支援」。必要最小限に絞ることが重要
+</KeyTakeaway>

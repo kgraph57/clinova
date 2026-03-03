@@ -1,0 +1,133 @@
+---
+title: "Plan Mode — 設計してから実装する"
+description: "複雑なタスクは設計から始める。Plan Modeでコードベースを探索し、実装計画を立て、ユーザー承認を得てから実装に移る。"
+slug: "04-04-plan-mode"
+order: 15
+partId: "part04"
+partTitle: "開発ワークフロー"
+partOrder: 4
+free: true
+status: "published"
+tags: ["Plan Mode", "設計", "アーキテクチャ", "承認", "ワークフロー"]
+estimatedMinutes: 15
+publishedAt: "2026-03-02"
+updatedAt: "2026-03-02"
+---
+
+**「コードを書く前に設計する」。当たり前のことだが、AIの速さに流されると忘れがちである。Plan Modeは、この「設計ファースト」を仕組みで担保する。**
+
+---
+
+## Plan Modeとは何か
+
+Plan Modeは、Claude Codeの特殊な動作モードである。
+
+**通常モード**: Claude Codeはファイルの読み書き、コマンド実行、あらゆる操作が可能。
+
+**Plan Mode**: Claude Codeは**読み取り系のツールしか使えない**。Glob、Grep、Readでコードベースを探索し、実装計画を立てる。ファイルの編集やコマンドの実行はできない。
+
+この制約が重要である。計画段階で「うっかり実装を始めてしまう」ことを防ぎ、**設計と実装を明確に分離**する。
+
+---
+
+## いつPlan Modeを使うか
+
+### 使うべき場面
+
+- **新機能の実装**: 認証システム、ダッシュボード、API設計
+- **複数の実装方法がある**: Redis vs メモリキャッシュ、WebSocket vs SSE
+- **多ファイルにまたがる変更**: リファクタリング、アーキテクチャ変更
+- **要件が不明確**: 探索してから方針を決めたい
+
+### 使わなくてよい場面
+
+- タイポの修正
+- 1ファイルの小さな変更
+- 明確な指示がすでにある単純タスク
+
+---
+
+## Plan Modeのフロー
+
+### 1. Plan Modeに入る
+
+```
+> 認証機能を追加したい。まず計画を立てて。
+```
+
+Claude Codeは自動的に（または `/plan` スキルで明示的に）Plan Modeに入る。
+
+### 2. コードベースの探索
+
+Plan Mode内で、Claude Codeは以下を行う。
+
+- Globでファイル構造を把握
+- Grepで既存の認証コードを検索
+- Readで関連ファイルを読み取り
+- 既存のパターンとアーキテクチャを分析
+
+### 3. 実装計画の作成
+
+探索結果に基づいて、ステップバイステップの実装計画を作成する。
+
+```markdown
+## 実装計画: 認証機能の追加
+
+### Phase 1: 認証基盤
+1. Firebase Auth のセットアップ（lib/firebase.ts）
+2. AuthContext の作成（contexts/AuthContext.tsx）
+3. useAuth フックの作成（hooks/useAuth.ts）
+
+### Phase 2: UI
+4. LoginForm コンポーネント（components/auth/LoginForm.tsx）
+5. SignupForm コンポーネント（components/auth/SignupForm.tsx）
+6. AuthGuard コンポーネント（components/auth/AuthGuard.tsx）
+
+### Phase 3: テスト
+7. 各コンポーネントのユニットテスト
+8. 認証フローの統合テスト
+
+### リスク
+- Firebase の設定が既存の環境変数と競合する可能性
+- SSR非対応（静的エクスポートのため問題なし）
+```
+
+### 4. ユーザー承認
+
+計画が完成したら、Claude Codeはユーザーに承認を求める。
+
+- **承認**: Plan Modeを抜け、計画に沿って実装を開始
+- **修正**: フィードバックを反映して計画を修正
+- **却下**: 計画を破棄して別のアプローチを検討
+
+---
+
+## Plan Modeと AskUserQuestion
+
+Plan Mode中に不明点がある場合、Claude Codeは `AskUserQuestion` ツールで質問を投げることができる。
+
+```
+認証方式はどちらを希望しますか？
+1. Firebase Authentication（推奨）— セットアップが簡単
+2. NextAuth.js — より柔軟だが設定が複雑
+3. カスタム実装 — 完全な制御が可能
+```
+
+このように、Plan Modeは**双方向の設計プロセス**を実現する。
+
+---
+
+## 実践のコツ
+
+1. **大きなタスクほどPlan Modeを使う**: 「3ファイル以上に変更が及ぶ」が一つの目安
+2. **計画は具体的に**: ファイルパス、関数名、データフローまで含める
+3. **リスクを明示する**: 既存コードへの影響、依存関係の変更
+4. **段階的に実装する**: 計画のPhaseごとにコミットし、確認を挟む
+
+<KeyTakeaway>
+- Plan Modeは読み取り専用モードで、設計と実装を明確に分離する
+- 新機能追加、複数アプローチの選択、多ファイル変更の際に使うべき
+- コードベース探索 → 計画作成 → ユーザー承認 → 実装開始のフローで進む
+- AskUserQuestionで不明点を確認しながら双方向の設計プロセスを実現
+- 3ファイル以上の変更が予想されるタスクではPlan Modeの活用を推奨
+</KeyTakeaway>

@@ -1,0 +1,213 @@
+---
+title: "設定ファイル — settings.jsonの全貌"
+description: "グローバル設定とプロジェクト設定。パーミッション、許可ツール、環境変数、モデル選択。Claude Codeの挙動を細かく制御する。"
+slug: "02-03-settings"
+order: 6
+partId: "part02"
+partTitle: "コア概念"
+partOrder: 2
+free: true
+status: "published"
+tags: ["settings.json", "設定", "パーミッション", "環境変数", "カスタマイズ"]
+estimatedMinutes: 20
+publishedAt: "2026-03-02"
+updatedAt: "2026-03-02"
+---
+
+**settings.jsonは、Claude Codeの「性格」を決めるファイルである。パーミッション、ツール許可、フック、プラグイン。あらゆる挙動をここで制御する。**
+
+---
+
+## 2つのsettings.json
+
+Claude Codeの設定ファイルは2つの階層に存在する。
+
+### グローバル設定: `~/.claude/settings.json`
+
+すべてのプロジェクトに適用される個人設定。
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "WebSearch"
+    ],
+    "deny": []
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "command": "prettier --write $FILE_PATH"
+      }
+    ]
+  }
+}
+```
+
+### プロジェクト設定: `.claude/settings.json`
+
+特定のプロジェクトだけに適用される設定。チームメンバー全員で共有できるようにGitリポジトリにコミットする。
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm test)",
+      "Bash(npm run build)",
+      "Bash(npm run lint)"
+    ]
+  }
+}
+```
+
+**優先度**: プロジェクト設定 > グローバル設定
+
+---
+
+## 主要な設定項目
+
+### permissions — ツール許可
+
+Claude Codeのどのツールを自動承認するかを制御する。
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit",
+      "Write",
+      "Bash(npm test)",
+      "Bash(npm run build)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force *)"
+    ]
+  }
+}
+```
+
+**パターン記法:**
+- `"Read"`: Readツールをすべて許可
+- `"Bash(npm test)"`: `npm test` コマンドだけを許可
+- `"Bash(git *)"`: gitで始まるすべてのコマンドを許可
+- ワイルドカード `*` でパターンマッチが可能
+
+<Callout type="warning" title="Bash許可は慎重に">
+`"Bash"` とだけ書くと、すべてのBashコマンドが自動承認される。`rm -rf`、`git push --force` なども確認なしに実行されてしまう。Bashは必ずコマンドパターン付きで許可すること。
+</Callout>
+
+### hooks — 自動化フック
+
+ツール実行の前後に自動的に実行されるコマンド。詳しくはPart 3「Hooks」の章で解説する。
+
+### enabledPlugins — プラグイン有効化
+
+インストール済みプラグインのうち、有効にするものを指定する。
+
+```json
+{
+  "enabledPlugins": [
+    "everything-claude-code"
+  ]
+}
+```
+
+---
+
+## 実践的な設定パターン
+
+### パターン1: 安全重視（初学者向け）
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep"
+    ]
+  }
+}
+```
+
+読み取り系のツールだけを自動承認。ファイル編集やコマンド実行は毎回確認が入る。
+
+### パターン2: 開発効率重視
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit",
+      "Write",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force *)",
+      "Bash(git reset --hard *)"
+    ]
+  }
+}
+```
+
+ファイル操作と安全なGitコマンドを自動承認。破壊的な操作は明示的に拒否。
+
+### パターン3: プロジェクト共有設定
+
+`.claude/settings.json` に書いてGitにコミットし、チーム全体で共有する。
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm test)",
+      "Bash(npm run build)",
+      "Bash(npm run lint)",
+      "Bash(npx vitest *)"
+    ]
+  }
+}
+```
+
+プロジェクト固有のコマンドだけを許可。個人の好みはグローバル設定で管理する。
+
+---
+
+## 設定の確認方法
+
+現在の設定状態は `/status` コマンドで確認できる。
+
+```
+> /status
+```
+
+どのツールが許可されているか、どのフックが設定されているか、現在のモデルは何かなどが表示される。
+
+<KeyTakeaway>
+- settings.jsonはグローバル（~/.claude/）とプロジェクト（.claude/）の2階層で管理される
+- permissions.allow でツールの自動承認パターンを設定し、deny で明示的な拒否を設定する
+- Bashは必ずコマンドパターン付き（例: `Bash(npm test)`）で許可する
+- プロジェクト設定はGitにコミットしてチームで共有できる
+- `/status` コマンドで現在の設定状態を確認できる
+</KeyTakeaway>

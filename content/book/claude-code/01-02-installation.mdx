@@ -1,0 +1,233 @@
+---
+title: "インストールとセットアップ — 5分で始めるClaude Code"
+description: "macOS、Linux、Windows（WSL）でのインストール手順。APIキーの設定からVSCode連携まで、最短で動かす方法を解説する。"
+slug: "01-02-installation"
+order: 2
+partId: "part01"
+partTitle: "Claude Codeとは"
+partOrder: 1
+free: true
+status: "published"
+tags: ["インストール", "セットアップ", "npm", "VSCode", "API"]
+estimatedMinutes: 10
+publishedAt: "2026-03-02"
+updatedAt: "2026-03-02"
+---
+
+**5分でインストールし、最初のコマンドを打つ。Claude Codeの世界への入り口は驚くほどシンプルである。**
+
+---
+
+## 前提条件
+
+Claude Codeを使うには、以下が必要である。
+
+### 必須
+
+- **Node.js 18以上**: JavaScript実行環境。Claude Codeはnpmパッケージとして配布されている
+- **Anthropic APIキー** または **Claude Max/Teamサブスクリプション**: AIを動かすための認証
+
+### 推奨
+
+- **Git**: バージョン管理（Claude Codeのgit連携機能を使うために必要）
+- **VSCode**: IDE連携（Claude Code VSCode拡張機能が利用可能）
+
+<Callout type="info" title="Node.jsが入っていない場合">
+macOSなら `brew install node`、Linuxなら `sudo apt install nodejs npm` でインストールできる。バージョンは `node --version` で確認する。v18以上が必要。
+</Callout>
+
+---
+
+## インストール手順
+
+### Step 1: npmでインストール
+
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+グローバルインストールにより、どのディレクトリからでも `claude` コマンドが使えるようになる。
+
+### Step 2: 初回起動
+
+```bash
+claude
+```
+
+初回起動時に、認証方法の選択を求められる。
+
+### Step 3: 認証
+
+認証には2つの方法がある。
+
+**方法A: Anthropic APIキー**
+
+```bash
+export ANTHROPIC_API_KEY="sk-ant-api03-xxxxxxxxxxxxx"
+```
+
+APIキーは [console.anthropic.com](https://console.anthropic.com) で取得できる。`.bashrc` や `.zshrc` に追加しておくと、毎回設定する必要がなくなる。
+
+**方法B: Claude Max / Teamサブスクリプション**
+
+Claude MaxまたはTeamプランに加入している場合、ブラウザ認証で連携できる。初回起動時に表示されるURLをブラウザで開き、認証を完了する。
+
+<Callout type="warning" title="APIキーの取り扱い">
+APIキーは秘密鍵である。GitHubにpushしたり、他人と共有してはならない。`.env` ファイルや環境変数で管理し、`.gitignore` に含めること。
+</Callout>
+
+---
+
+## 動作確認
+
+インストールと認証が完了したら、プロジェクトディレクトリに移動して起動する。
+
+```bash
+cd ~/my-project
+claude
+```
+
+以下のようなウェルカム画面が表示されれば成功である。
+
+```
+╭──────────────────────────────────────────────╮
+│ ✻ Welcome to Claude Code!                     │
+│                                               │
+│   /help for commands, /status for settings    │
+╰──────────────────────────────────────────────╯
+
+>
+```
+
+試しに簡単な質問をしてみよう。
+
+```
+> このディレクトリにはどんなファイルがある？
+```
+
+Claude Codeがファイル一覧を表示し、プロジェクトの概要を説明してくれれば、セットアップは完了である。
+
+---
+
+## VSCode連携
+
+Claude CodeにはVSCode拡張機能が用意されている。
+
+### インストール方法
+
+1. VSCodeの拡張機能マーケットプレイスで「Claude Code」を検索
+2. Anthropic公式の拡張機能をインストール
+3. VSCode内のターミナルパネルで `claude` コマンドが使えるようになる
+
+### VSCode連携の利点
+
+- **ファイル参照がクリック可能**: Claude Codeが出力するファイルパスをクリックすると、VSCodeでそのファイルが開く
+- **選択範囲の送信**: エディタでコードを選択した状態でClaude Codeに質問すると、選択箇所が自動的にコンテキストに含まれる
+- **統合ターミナル**: VSCodeのターミナル内でClaude Codeを起動できるため、エディタとの行き来がスムーズ
+
+---
+
+## プラットフォーム別の注意点
+
+### macOS
+
+最もスムーズに動作するプラットフォーム。Homebrewでnpmを管理している場合は特に問題ない。
+
+```bash
+brew install node
+npm install -g @anthropic-ai/claude-code
+```
+
+### Linux (Ubuntu/Debian)
+
+```bash
+sudo apt update
+sudo apt install nodejs npm
+npm install -g @anthropic-ai/claude-code
+```
+
+Node.jsのバージョンが古い場合は、[nvm](https://github.com/nvm-sh/nvm)を使って最新版を管理するのが推奨される。
+
+### Windows (WSL)
+
+Claude CodeはネイティブWindowsでは動作しない。**WSL（Windows Subsystem for Linux）**が必要である。
+
+```bash
+# WSLのUbuntu内で
+sudo apt update
+sudo apt install nodejs npm
+npm install -g @anthropic-ai/claude-code
+```
+
+WSL内のファイルシステムで作業することを推奨する。Windowsのファイルシステム（`/mnt/c/`）はパフォーマンスが低い。
+
+---
+
+## トラブルシューティング
+
+### `command not found: claude`
+
+npmのグローバルインストール先がPATHに含まれていない可能性がある。
+
+```bash
+# パスの確認
+npm config get prefix
+
+# 出力例: /usr/local
+# /usr/local/bin がPATHに含まれていることを確認
+echo $PATH
+```
+
+### `ANTHROPIC_API_KEY not set`
+
+環境変数が設定されていない。シェルの設定ファイルに追加する。
+
+```bash
+# ~/.zshrc (macOS) または ~/.bashrc (Linux) に追加
+export ANTHROPIC_API_KEY="sk-ant-api03-xxxxxxxxxxxxx"
+
+# 設定を反映
+source ~/.zshrc
+```
+
+### パーミッションエラー
+
+npmのグローバルインストールで権限エラーが出る場合。
+
+```bash
+# 方法1: sudo を使う（非推奨）
+sudo npm install -g @anthropic-ai/claude-code
+
+# 方法2: npmのデフォルトディレクトリを変更（推奨）
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.zshrc
+source ~/.zshrc
+npm install -g @anthropic-ai/claude-code
+```
+
+---
+
+## アップデート
+
+Claude Codeは頻繁にアップデートされる。最新版を使うことで、新機能やバグ修正の恩恵を受けられる。
+
+```bash
+npm update -g @anthropic-ai/claude-code
+```
+
+---
+
+## 次のステップ
+
+インストールが完了したら、次章でClaude Codeとの最初の対話を体験する。
+
+ファイルの読み書き、コード生成、テスト実行。基本操作を手を動かしながら学んでいこう。
+
+<KeyTakeaway>
+- Claude Codeは `npm install -g @anthropic-ai/claude-code` でインストールできる
+- 認証にはAnthropic APIキーまたはClaude Max/Teamサブスクリプションが必要
+- VSCode拡張機能を使うと、ファイル参照のクリック遷移や選択範囲の送信が可能になる
+- macOS、Linux、Windows（WSL）に対応。Windowsの場合はWSLが必須
+- APIキーは環境変数で管理し、絶対にGitリポジトリにコミットしない
+</KeyTakeaway>

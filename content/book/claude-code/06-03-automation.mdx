@@ -1,0 +1,183 @@
+---
+title: "自動化パイプライン — CI/CDとの統合"
+description: "GitHub Actions、自動テスト、自動デプロイ。Claude Codeで構築したプロジェクトをCI/CDパイプラインで自動化する方法を解説する。"
+slug: "06-03-automation"
+order: 22
+partId: "part06"
+partTitle: "実践プロジェクト"
+partOrder: 6
+free: true
+status: "published"
+tags: ["CI/CD", "GitHub Actions", "自動化", "デプロイ", "テスト"]
+estimatedMinutes: 20
+publishedAt: "2026-03-02"
+updatedAt: "2026-03-02"
+---
+
+**コードを書くだけでは終わらない。テスト、ビルド、デプロイ。これらを自動化して初めて、持続可能な開発が実現する。**
+
+---
+
+## なぜCI/CDが重要か
+
+Claude Codeで高速にコードを書けるようになると、デプロイの頻度も上がる。手動でテスト→ビルド→デプロイを繰り返していては、ボトルネックがそこに移動するだけだ。
+
+**CI/CD（Continuous Integration / Continuous Deployment）** は、この作業を自動化する仕組みである。
+
+---
+
+## GitHub Actionsワークフロー
+
+### 基本構成
+
+```
+> GitHub Actionsで以下のCI/CDパイプラインを作成して:
+> 1. mainブランチへのpush時にトリガー
+> 2. Node.js 20でテスト実行
+> 3. ビルド
+> 4. GitHub Pagesにデプロイ
+```
+
+Claude Codeが生成する `.github/workflows/deploy.yml`:
+
+```yaml
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+      - uses: actions/deploy-pages@v4
+```
+
+### PR時のチェック
+
+```yaml
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+```
+
+PRが作成されるたびに、リント・テスト・ビルドが自動実行される。
+
+---
+
+## テスト自動化
+
+### ユニットテスト
+
+```
+> vitest を使ったユニットテストのCI設定を追加して。
+> カバレッジレポートも生成して。
+```
+
+### E2Eテスト
+
+```
+> Playwrightを使ったE2EテストをCIに追加して。
+> トップページ、記事ページ、検索機能のテストを含めて。
+```
+
+Playwrightはheadlessブラウザで実際のユーザー操作をシミュレートする。
+
+---
+
+## スケジュール実行
+
+### 定期タスクの自動化
+
+```yaml
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # 毎週月曜 9:00 UTC
+
+jobs:
+  weekly-tasks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci
+      - run: node scripts/fetch-news.js
+      - run: node scripts/generate-newsletter.js
+```
+
+ニュース取得、ニュースレター生成、サイトマップ更新など、定期的なタスクをcronで自動化できる。
+
+---
+
+## Claude Codeの役割
+
+### ワークフローの生成
+
+```
+> GitHub Actionsのワークフローを作って。
+> テスト→ビルド→デプロイの順で。
+```
+
+Claude Codeは `.github/workflows/` にYAMLファイルを生成する。
+
+### パイプラインのデバッグ
+
+```
+> GitHub Actionsのビルドが失敗した。エラーログを見て原因を特定して。
+```
+
+エラーメッセージを分析し、修正案を提示してくれる。
+
+### ビルドスクリプトの作成
+
+検索インデックス生成、OG画像生成、RSSフィード生成など、ビルドプロセスに組み込むスクリプトをClaude Codeが作成する。
+
+---
+
+## モニタリング
+
+### ヘルスチェック
+
+```
+> デプロイ後にサイトのヘルスチェックを行うステップを追加して。
+> トップページが200を返すことを確認。
+```
+
+### ビルドサイズ監視
+
+```
+> ビルド出力のサイズをチェックして、前回比で10%以上増えたら警告を出すステップを追加して。
+```
+
+<Callout type="info" title="CI/CDは一度作れば終わり、ではない">
+プロジェクトの成長に伴い、CI/CDパイプラインも進化させる必要がある。新しいテストの追加、デプロイ先の変更、パフォーマンスチェックの追加。Claude Codeに「CIを改善して」と頼むことで、継続的にパイプラインを最適化できる。
+</Callout>
+
+<KeyTakeaway>
+- GitHub Actionsでテスト→ビルド→デプロイを自動化し、手動作業を排除する
+- PR時のチェック（リント・テスト・ビルド）で品質ゲートを設ける
+- cron scheduleで定期タスク（ニュース取得、サイトマップ更新等）を自動化
+- Claude Codeはワークフロー生成、デバッグ、ビルドスクリプト作成を支援する
+- CI/CDはプロジェクトの成長に合わせて継続的に改善する
+</KeyTakeaway>

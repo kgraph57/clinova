@@ -1,0 +1,187 @@
+---
+title: "Claude API — プログラマティックなAIアクセス"
+description: "Claude CodeはClaude APIの上に構築されている。APIの基本、メッセージ送信、ストリーミング、ツール使用をコードレベルで理解する。"
+slug: "07-01-claude-api"
+order: 23
+partId: "part07"
+partTitle: "エコシステム"
+partOrder: 7
+free: true
+status: "published"
+tags: ["Claude API", "Anthropic", "SDK", "プログラミング", "API"]
+estimatedMinutes: 25
+publishedAt: "2026-03-02"
+updatedAt: "2026-03-02"
+---
+
+**Claude Codeの裏側で動いているのがClaude APIである。このAPIを直接使えば、自分だけのAIツールを構築できる。**
+
+---
+
+## Claude APIとは
+
+Claude APIは、Anthropicが提供するプログラマティックなAIアクセス手段である。
+
+Claude Code、ブラウザ版のClaude、そしてサードパーティのアプリケーション。これらすべてが、内部的にClaude APIを呼び出している。
+
+APIを直接使うことで、Claude Codeでは実現できない**カスタムワークフロー**を構築できる。
+
+---
+
+## Anthropic SDK
+
+### TypeScript/JavaScript
+
+```typescript
+import Anthropic from '@anthropic-ai/sdk'
+
+const client = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY
+})
+
+const message = await client.messages.create({
+  model: 'claude-sonnet-4-6',
+  max_tokens: 1024,
+  messages: [
+    { role: 'user', content: '小児の発熱の鑑別診断を5つ挙げて' }
+  ]
+})
+
+console.log(message.content[0].text)
+```
+
+### Python
+
+```python
+import anthropic
+
+client = anthropic.Anthropic(
+    api_key=os.environ["ANTHROPIC_API_KEY"]
+)
+
+message = client.messages.create(
+    model="claude-sonnet-4-6",
+    max_tokens=1024,
+    messages=[
+        {"role": "user", "content": "小児の発熱の鑑別診断を5つ挙げて"}
+    ]
+)
+
+print(message.content[0].text)
+```
+
+---
+
+## モデル選択
+
+2026年3月現在、3つのモデルファミリーが利用可能。
+
+| モデル | ID | 特徴 | 用途 |
+|--------|-----|------|------|
+| Opus 4.6 | `claude-opus-4-6` | 最も深い推論力 | 複雑な分析、アーキテクチャ設計 |
+| Sonnet 4.6 | `claude-sonnet-4-6` | バランス型 | 一般的な開発作業、主力モデル |
+| Haiku 4.5 | `claude-haiku-4-5-20251001` | 高速・低コスト | 軽量タスク、大量処理 |
+
+### コスト最適化の指針
+
+- **Haikuで十分なタスク**: 分類、要約、簡単な変換（Sonnetの約3分の1のコスト）
+- **Sonnetが適切なタスク**: コード生成、文章作成、一般的な分析
+- **Opusが必要なタスク**: 複雑な推論、マルチステップの問題解決
+
+---
+
+## ストリーミング
+
+リアルタイムで応答を受け取る場合はストリーミングを使う。
+
+```typescript
+const stream = await client.messages.stream({
+  model: 'claude-sonnet-4-6',
+  max_tokens: 1024,
+  messages: [{ role: 'user', content: 'プロンプト' }]
+})
+
+for await (const event of stream) {
+  if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
+    process.stdout.write(event.delta.text)
+  }
+}
+```
+
+---
+
+## ツール使用（Function Calling）
+
+Claude APIの真髄は**ツール使用**にある。Claude Codeのツールシステムも、この機能で実現されている。
+
+```typescript
+const response = await client.messages.create({
+  model: 'claude-sonnet-4-6',
+  max_tokens: 1024,
+  tools: [{
+    name: 'calculate_bmi',
+    description: 'BMIを計算する',
+    input_schema: {
+      type: 'object',
+      properties: {
+        height_cm: { type: 'number', description: '身長（cm）' },
+        weight_kg: { type: 'number', description: '体重（kg）' }
+      },
+      required: ['height_cm', 'weight_kg']
+    }
+  }],
+  messages: [{ role: 'user', content: '身長165cm、体重60kgのBMIは？' }]
+})
+```
+
+Claudeがツールを呼び出すと決定した場合、レスポンスに `tool_use` ブロックが含まれる。アプリケーション側でツールを実行し、結果を返すことで対話が続く。
+
+---
+
+## 医療ツールの構築例
+
+### 薬剤相互作用チェッカー
+
+```typescript
+const tools = [{
+  name: 'check_interaction',
+  description: '2つの薬剤の相互作用を確認する',
+  input_schema: {
+    type: 'object',
+    properties: {
+      drug_a: { type: 'string' },
+      drug_b: { type: 'string' }
+    }
+  }
+}]
+```
+
+### 臨床検査値解釈
+
+```typescript
+const tools = [{
+  name: 'interpret_lab',
+  description: '臨床検査値を解釈する',
+  input_schema: {
+    type: 'object',
+    properties: {
+      test_name: { type: 'string' },
+      value: { type: 'number' },
+      unit: { type: 'string' },
+      patient_age_years: { type: 'number' }
+    }
+  }
+}]
+```
+
+<Callout type="warning" title="医療AIツールの注意点">
+Claude APIで構築した医療ツールは、あくまで「支援ツール」として位置づける。最終的な臨床判断は必ず医師が行う。また、APIに送信するデータに患者の個人情報を含めないよう注意する。
+</Callout>
+
+<KeyTakeaway>
+- Claude APIはClaude Codeの基盤技術であり、直接使えばカスタムAIツールを構築できる
+- TypeScript/Python SDKでメッセージ送信、ストリーミング、ツール使用が可能
+- Opus/Sonnet/Haikuの3モデルをコスト・性能に応じて使い分ける
+- ツール使用（Function Calling）でClaude Codeのツールシステムと同等の機能を実装できる
+- 医療ツール構築時は支援ツールとして位置づけ、患者データの取り扱いに注意する
+</KeyTakeaway>

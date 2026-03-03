@@ -1,0 +1,169 @@
+---
+title: "Agent SDK — カスタムエージェントを構築する"
+description: "Claude Agent SDKを使って、独自のAIエージェントを構築する。ツール定義、ガードレール、マルチエージェント構成の実装方法を解説する。"
+slug: "07-02-agent-sdk"
+order: 24
+partId: "part07"
+partTitle: "エコシステム"
+partOrder: 7
+free: true
+status: "published"
+tags: ["Agent SDK", "エージェント", "構築", "ツール", "カスタム"]
+estimatedMinutes: 25
+publishedAt: "2026-03-02"
+updatedAt: "2026-03-02"
+---
+
+**Claude Codeは「使う」ものだが、Agent SDKは「作る」ためのものだ。自分だけのAIエージェントを構築し、特定のワークフローを自動化する。**
+
+---
+
+## Agent SDKとは
+
+Claude Agent SDKは、カスタムAIエージェントをプログラマティックに構築するためのフレームワークである。
+
+**Claude Codeとの違い:**
+
+| | Claude Code | Agent SDK |
+|---|------------|-----------|
+| 用途 | 対話的な開発支援 | カスタムエージェント構築 |
+| 操作 | ターミナルで対話 | コードで定義 |
+| ツール | 組み込みツール群 | 自分で定義 |
+| デプロイ | ローカル実行 | サーバー/CI/CD統合 |
+
+---
+
+## 基本構成
+
+### エージェントの定義
+
+```typescript
+import { Agent } from 'claude_agent_sdk'
+
+const medicalReviewer = new Agent({
+  name: 'medical-reviewer',
+  model: 'claude-sonnet-4-6',
+  instructions: `
+    あなたは医療コンテンツレビューの専門家です。
+    提供されたコンテンツの医学的正確性を評価し、
+    エビデンスレベルを判定してください。
+  `,
+  tools: [checkPubMed, evaluateEvidence, generateReport]
+})
+```
+
+### ツールの定義
+
+```typescript
+const checkPubMed = {
+  name: 'check_pubmed',
+  description: 'PubMedで関連文献を検索する',
+  parameters: {
+    type: 'object',
+    properties: {
+      query: { type: 'string', description: '検索クエリ' },
+      max_results: { type: 'number', default: 5 }
+    }
+  },
+  execute: async ({ query, max_results }) => {
+    // PubMed API呼び出し
+    const results = await searchPubMed(query, max_results)
+    return JSON.stringify(results)
+  }
+}
+```
+
+---
+
+## ガードレール
+
+エージェントの安全性を担保する仕組み。
+
+### 入力ガードレール
+
+```typescript
+const inputGuard = {
+  name: 'phi-detector',
+  description: '個人健康情報の検出',
+  check: async (input) => {
+    if (containsPHI(input)) {
+      return {
+        block: true,
+        reason: '個人健康情報が含まれています'
+      }
+    }
+    return { block: false }
+  }
+}
+```
+
+### 出力ガードレール
+
+```typescript
+const outputGuard = {
+  name: 'medical-disclaimer',
+  description: '医療免責事項の付加',
+  transform: async (output) => {
+    return output + '\n\n※ この情報は参考目的です。診断・治療は医師にご相談ください。'
+  }
+}
+```
+
+---
+
+## マルチエージェント構成
+
+複数のエージェントを連携させるパターン。
+
+### パイプライン型
+
+```
+文献検索エージェント → 批判的吟味エージェント → レポート生成エージェント
+```
+
+各エージェントが前段の出力を入力として受け取り、処理を進める。
+
+### オーケストレーター型
+
+```
+        ┌→ 文献検索エージェント ──┐
+管理者 ─┤                        ├→ 管理者 → レポート
+        └→ 統計解析エージェント ──┘
+```
+
+管理者エージェントがタスクを分配し、結果を統合する。
+
+---
+
+## ユースケース
+
+### 1. 自動コードレビューBot
+
+PRが作成されるたびに、Agent SDKで構築したレビューBotが自動的にコードをチェック。GitHub Webhookと連携。
+
+### 2. 医療文書プロセッサー
+
+紹介状や退院サマリーのドラフトを、テンプレートと患者情報から自動生成。
+
+### 3. 研究アシスタント
+
+文献検索→批判的吟味→エビデンステーブル作成を自動化するパイプライン。
+
+---
+
+## デプロイ
+
+Agent SDKで構築したエージェントは、様々な環境にデプロイできる。
+
+- **ローカル**: 開発・テスト用
+- **サーバー**: REST API として常時稼働
+- **CI/CD**: GitHub Actions 等から呼び出し
+- **Webhook**: イベント駆動で自動実行
+
+<KeyTakeaway>
+- Agent SDKはカスタムAIエージェントをプログラマティックに構築するフレームワーク
+- ツール定義でエージェントの能力を拡張し、ガードレールで安全性を担保する
+- パイプライン型・オーケストレーター型のマルチエージェント構成が可能
+- コードレビューBot、医療文書プロセッサー、研究アシスタント等のユースケース
+- ローカル、サーバー、CI/CD、Webhook等にデプロイ可能
+</KeyTakeaway>

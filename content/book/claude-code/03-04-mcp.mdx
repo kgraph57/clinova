@@ -1,0 +1,192 @@
+---
+title: "MCP Servers — 外部世界とつながる"
+description: "Model Context Protocol（MCP）でClaude Codeの能力を拡張する。GitHub、データベース、外部APIとの連携方法を解説する。"
+slug: "03-04-mcp"
+order: 11
+partId: "part03"
+partTitle: "カスタマイズ"
+partOrder: 3
+free: true
+status: "published"
+tags: ["MCP", "Model Context Protocol", "拡張", "API", "連携"]
+estimatedMinutes: 20
+publishedAt: "2026-03-02"
+updatedAt: "2026-03-02"
+---
+
+**Claude Codeは、ローカルのファイルシステムとWebだけで動作するわけではない。MCPを通じて、GitHub、データベース、外部API、あらゆるサービスと連携できる。**
+
+---
+
+## MCPとは何か
+
+**MCP（Model Context Protocol）** は、AIモデルと外部ツール・データソースを接続するためのオープンプロトコルである。Anthropicが策定し、オープンスタンダードとして公開している。
+
+簡単に言えば、MCPは**「AIにプラグインを追加する仕組み」**である。
+
+Claude Codeは標準でファイル操作やBash実行ができるが、MCPサーバーを追加することで、以下のような機能を得られる。
+
+- **GitHub**: Issue、PR、リポジトリ操作を認証付きで実行
+- **データベース**: PostgreSQL、MySQL等へのクエリ実行
+- **Slack**: メッセージの送受信
+- **Google Drive**: ドキュメントの読み書き
+- **カスタムAPI**: 任意のREST/GraphQL APIとの連携
+
+---
+
+## MCPの仕組み
+
+```
+Claude Code ←→ MCP Client ←→ MCP Server ←→ 外部サービス
+```
+
+1. Claude Codeが「GitHubのIssue一覧を取得したい」と判断する
+2. MCP ClientがMCP Serverにリクエストを送信する
+3. MCP ServerがGitHub APIを呼び出す
+4. 結果がClaude Codeに返される
+
+この仕組みにより、Claude Code自体を改造することなく、新しいサービスとの連携を**追加**できる。
+
+---
+
+## MCPサーバーの設定
+
+settings.jsonにMCPサーバーの設定を追加する。
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_TOKEN": "ghp_xxxxxxxxxx"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/dir"]
+    }
+  }
+}
+```
+
+### 設定のポイント
+
+- `command`: MCPサーバーの起動コマンド
+- `args`: コマンドの引数
+- `env`: 環境変数（APIトークン等）
+
+<Callout type="warning" title="トークンの管理">
+MCPサーバーの設定に含まれるAPIトークンは、settings.jsonに直接記述される。このファイルをGitにコミットしないよう注意すること。グローバル設定（~/.claude/settings.json）に書くか、環境変数経由で渡すことを推奨する。
+</Callout>
+
+---
+
+## よく使うMCPサーバー
+
+### GitHub MCP Server
+
+GitHubのIssue、PR、リポジトリを直接操作できる。
+
+```
+> このリポジトリのオープンなIssueを一覧表示して
+> Issue #42 にコメントを追加して
+> PRのレビューコメントを取得して
+```
+
+### Filesystem MCP Server
+
+追加のファイルシステムアクセスを提供する。特定のディレクトリへのアクセスを安全に制限できる。
+
+### Database MCP Server
+
+PostgreSQLやMySQLに直接クエリを実行できる。
+
+```
+> patientsテーブルから年齢が10歳未満のレコードを取得して
+```
+
+---
+
+## MCPのセキュリティ
+
+MCPは強力だが、セキュリティ上の考慮が必要である。
+
+### 最小権限
+
+MCPサーバーに渡すトークンの権限は最小限にする。GitHubトークンなら、必要なリポジトリとスコープだけに限定する。
+
+### アクセス制限
+
+Filesystem MCPサーバーでは、アクセスを許可するディレクトリを明示的に指定する。ルートディレクトリや機密ファイルを含むディレクトリへのアクセスは与えない。
+
+### 監査
+
+MCPサーバー経由のすべての操作は、Claude Codeのパーミッションシステムを通過する。不審な操作は確認ダイアログで阻止できる。
+
+---
+
+## カスタムMCPサーバーの構築
+
+既存のMCPサーバーでは対応できないサービスとの連携が必要な場合、カスタムMCPサーバーを構築できる。
+
+### 基本構造
+
+```typescript
+import { Server } from "@modelcontextprotocol/sdk/server";
+
+const server = new Server({
+  name: "my-custom-server",
+  version: "1.0.0"
+});
+
+// ツール定義
+server.setRequestHandler("tools/list", async () => ({
+  tools: [{
+    name: "get_patient_count",
+    description: "患者数を取得する",
+    inputSchema: {
+      type: "object",
+      properties: {
+        department: { type: "string" }
+      }
+    }
+  }]
+}));
+
+// ツール実行
+server.setRequestHandler("tools/call", async (request) => {
+  if (request.params.name === "get_patient_count") {
+    // 実際のAPI呼び出し
+    return { content: [{ type: "text", text: "42" }] };
+  }
+});
+```
+
+### 医療現場での応用例
+
+- **電子カルテAPI連携**: 患者データの読み取り（読み取り専用で安全に）
+- **DICOM画像サーバー**: 医用画像の検索と表示
+- **薬剤データベース**: 薬剤情報の検索と相互作用チェック
+- **ガイドラインデータベース**: 最新の診療ガイドラインの検索
+
+---
+
+## MCPの未来
+
+MCPはオープンスタンダードとして急速に成長している。
+
+- **エコシステムの拡大**: 新しいMCPサーバーが日々公開されている
+- **標準化**: 他のAIプラットフォームもMCPを採用し始めている
+- **セキュリティ強化**: 認証・認可の標準化が進行中
+
+MCPを理解しておくことは、Claude Codeだけでなく、AI開発全般の未来を見据える上で重要な投資である。
+
+<KeyTakeaway>
+- MCPはAIモデルと外部サービスを接続するオープンプロトコル
+- GitHub、データベース、ファイルシステム等のMCPサーバーが利用可能
+- settings.jsonのmcpServers設定でMCPサーバーを追加する
+- トークンの管理とアクセス制限に注意し、最小権限の原則を守る
+- カスタムMCPサーバーを構築して独自のサービスと連携できる
+</KeyTakeaway>
