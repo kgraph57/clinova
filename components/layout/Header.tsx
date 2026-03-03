@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "./ThemeToggle";
 import { MobileNav } from "./MobileNav";
 import { SearchDialog } from "./SearchDialog";
+import { LocaleSwitcher } from "./LocaleSwitcher";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 
@@ -15,8 +16,9 @@ const NAV_ITEMS = [
   { href: "/learn", label: "Learn" },
   { href: "/book", label: "Book" },
   { href: "/news", label: "News" },
+  { href: "/glossary", label: "Glossary" },
+  { href: "/tools", label: "Tools" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export function Header() {
@@ -50,6 +52,7 @@ export function Header() {
 
         <div className="flex items-center gap-2">
           <SearchDialog />
+          <LocaleSwitcher />
           <ThemeToggle />
           <Button
             variant="ghost"
