@@ -2,9 +2,14 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { BookOpen, Clock, User, ChevronRight } from "lucide-react";
 import { useProgress } from "@/components/learn/ProgressProvider";
 import type { BookMetadata } from "@/lib/book";
+import {
+  BookOpen,
+  CaretRight,
+  Clock,
+  User,
+} from "@phosphor-icons/react";
 
 const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
@@ -101,7 +106,7 @@ function BookCard({ book }: { readonly book: BookMetadata }) {
 
         <div className="mt-4 flex items-center gap-1 text-sm font-medium text-foreground">
           <span>読み始める</span>
-          <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+          <CaretRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
         </div>
       </div>
     </Link>

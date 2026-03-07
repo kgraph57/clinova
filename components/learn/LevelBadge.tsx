@@ -1,6 +1,10 @@
-import { Sparkles, TrendingUp, Crown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { LEVELS } from "@/lib/constants";
+import {
+  Crown,
+  Sparkle,
+  TrendUp,
+} from "@phosphor-icons/react";
 
 interface LevelBadgeProps {
   readonly level: string;
@@ -8,8 +12,8 @@ interface LevelBadgeProps {
 }
 
 const ICON_MAP = {
-  beginner: Sparkles,
-  intermediate: TrendingUp,
+  beginner: Sparkle,
+  intermediate: TrendUp,
   advanced: Crown,
 } as const;
 

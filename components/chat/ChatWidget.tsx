@@ -1,8 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { MessageCircle, X, Send, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  ChatCircle,
+  PaperPlaneTilt,
+  SpinnerGap,
+  X,
+} from "@phosphor-icons/react";
 
 interface ChatMessage {
   readonly role: "user" | "assistant";
@@ -92,7 +97,7 @@ export function ChatWidget() {
         className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-foreground text-background shadow-lg transition-transform hover:scale-105"
         aria-label="チャットを開く"
       >
-        <MessageCircle className="h-6 w-6" />
+        <ChatCircle className="h-6 w-6" />
       </button>
     );
   }
@@ -146,7 +151,7 @@ export function ChatWidget() {
         {loading && (
           <div className="mb-3 text-left">
             <div className="inline-block rounded-2xl bg-muted px-4 py-2">
-              <Loader2 className="h-4 w-4 animate-spin text-muted-foreground" />
+              <SpinnerGap className="h-4 w-4 animate-spin text-muted-foreground" />
             </div>
           </div>
         )}
@@ -176,7 +181,7 @@ export function ChatWidget() {
             className="h-9 w-9 shrink-0 rounded-xl"
             disabled={loading || !input.trim()}
           >
-            <Send className="h-4 w-4" />
+            <PaperPlaneTilt className="h-4 w-4" />
           </Button>
         </form>
       </div>

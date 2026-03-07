@@ -1,11 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Play } from "lucide-react";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 import { useProgress } from "@/components/learn/ProgressProvider";
 import type { CourseMetadata } from "@/lib/courses";
+import {
+  ArrowRight,
+  Play,
+} from "@phosphor-icons/react";
 
 interface ContinueLearningProps {
   readonly courses: readonly CourseMetadata[];

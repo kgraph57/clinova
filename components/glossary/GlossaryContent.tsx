@@ -1,10 +1,12 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Search } from "lucide-react";
 import { GlossaryCard } from "./GlossaryCard";
 import { CATEGORIES, LEVELS } from "@/lib/constants";
 import type { GlossaryTerm } from "@/lib/glossary";
+import {
+  MagnifyingGlass,
+} from "@phosphor-icons/react";
 
 interface GlossaryContentProps {
   readonly terms: readonly GlossaryTerm[];
@@ -33,7 +35,7 @@ export function GlossaryContent({ terms }: GlossaryContentProps) {
   return (
     <div>
       <div className="relative">
-        <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+        <MagnifyingGlass className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
         <input
           type="text"
           value={query}

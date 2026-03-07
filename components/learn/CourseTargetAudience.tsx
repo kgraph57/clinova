@@ -1,4 +1,6 @@
-import { Users } from "lucide-react";
+import {
+  Users,
+} from "@phosphor-icons/react";
 
 interface CourseTargetAudienceProps {
   readonly targetAudience: readonly string[];

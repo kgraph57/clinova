@@ -1,13 +1,10 @@
 import { HeroSection } from "@/components/home/HeroSection";
-import { WeeklyPickup } from "@/components/home/WeeklyPickup";
+import { StatementSection } from "@/components/home/StatementSection";
 import { CategoryOverview } from "@/components/home/CategoryOverview";
-import { FeaturedArticles } from "@/components/home/FeaturedArticles";
-import { ServicesSection } from "@/components/home/ServicesSection";
-import { SkillsSection } from "@/components/home/SkillsSection";
-import { GitHubSection } from "@/components/home/GitHubSection";
-import { PublicationsSection } from "@/components/home/PublicationsSection";
-import { ActivitiesSection } from "@/components/home/ActivitiesSection";
-import { NewsletterSection } from "@/components/home/NewsletterSection";
+import { EditorialPicksSection } from "@/components/home/EditorialPicksSection";
+import { CredentialsSection } from "@/components/home/CredentialsSection";
+import { ProductsSection } from "@/components/home/ProductsSection";
+import { LatestSection } from "@/components/home/LatestSection";
 import { CreatorSection } from "@/components/home/CreatorSection";
 import {
   getFeaturedArticles,
@@ -17,7 +14,6 @@ import {
 } from "@/lib/content";
 import { getCourseCount } from "@/lib/courses";
 import { SITE_CONFIG } from "@/lib/constants";
-import { getGitHubRepos } from "@/lib/github";
 
 export default async function Home() {
   const featured = getFeaturedArticles();
@@ -25,7 +21,8 @@ export default async function Home() {
   const counts = getArticleCount();
   const news = getLatestNews(3);
   const courseCount = getCourseCount();
-  const repos = await getGitHubRepos();
+
+  const editorialPicks = [...weeklyPickup, ...featured].slice(0, 5);
 
   const jsonLd = [
     {
@@ -62,16 +59,24 @@ export default async function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {/* 1. 世界観 */}
       <HeroSection />
-      <WeeklyPickup articles={weeklyPickup} />
+      {/* 2. このサイトは何か — 数字で信頼感 */}
+      <StatementSection
+        articleCount={counts.all ?? 0}
+        courseCount={courseCount}
+      />
+      {/* 3. 何があるか — カテゴリで探す導線 */}
       <CategoryOverview counts={counts} />
-      <FeaturedArticles articles={featured} />
-      <ServicesSection />
-      <SkillsSection />
-      <GitHubSection repos={repos} />
-      <PublicationsSection />
-      <ActivitiesSection />
-      <NewsletterSection articles={news} />
+      {/* 4. 具体的な厳選コンテンツ */}
+      <EditorialPicksSection articles={editorialPicks} />
+      {/* 5. 信頼性の証明 */}
+      <CredentialsSection />
+      {/* 6. つくっているもの */}
+      <ProductsSection />
+      {/* 7. 最新情報 */}
+      <LatestSection articles={news} />
+      {/* 8. 締め — 誰がやっているか + CTA */}
       <CreatorSection
         contentCount={counts.all ?? 0}
         courseCount={courseCount}

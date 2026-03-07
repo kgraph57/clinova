@@ -1,7 +1,10 @@
 import Link from "next/link";
-import { ArrowRight, BookOpen } from "lucide-react";
 import type { CourseMetadata } from "@/lib/courses";
 import { LevelBadge } from "./LevelBadge";
+import {
+  ArrowRight,
+  BookOpen,
+} from "@phosphor-icons/react";
 
 interface CoursePrerequisitesProps {
   readonly prerequisites: readonly CourseMetadata[];

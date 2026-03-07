@@ -3,30 +3,29 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import {
-  Zap,
-  Shield,
-  GraduationCap,
-  Microscope,
-  Stethoscope,
-  ArrowRight,
-  Clock,
-  Target,
-} from "lucide-react";
 import { fadeInUp } from "@/lib/animations";
 import { cn } from "@/lib/utils";
 import type { LearningPath } from "@/lib/learning-paths";
+import {
+  ArrowRight,
+  Clock,
+  GraduationCap,
+  Lightning,
+  Microscope,
+  Shield,
+  Stethoscope,
+  Target,
+} from "@phosphor-icons/react";
 
 const ICON_MAP = {
-  Zap,
+  Zap: Lightning,
   Shield,
   GraduationCap,
   Microscope,
   Stethoscope,
 } as const;
 
-const BASE_PATH =
-  process.env.NODE_ENV === "production" ? "/hoshizu" : "";
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
 interface LearningPathCardProps {
   readonly path: LearningPath;
@@ -59,7 +58,9 @@ export function LearningPathCard({ path }: LearningPathCardProps) {
         {/* コンテンツ */}
         <div className="flex flex-col flex-1 p-5">
           <div className="flex items-start gap-3">
-            <span className={cn("rounded-lg bg-muted p-2 shrink-0", path.color)}>
+            <span
+              className={cn("rounded-lg bg-muted p-2 shrink-0", path.color)}
+            >
               <Icon className="h-5 w-5" />
             </span>
             <div>

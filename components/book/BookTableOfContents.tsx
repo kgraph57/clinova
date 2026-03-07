@@ -2,16 +2,16 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import {
-  ChevronDown,
-  ChevronRight,
-  Clock,
-  Lock,
-  CheckCircle2,
-} from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useProgress } from "@/components/learn/ProgressProvider";
 import type { BookPart, ChapterMetadata } from "@/lib/book";
+import {
+  CaretDown,
+  CaretRight,
+  CheckCircle,
+  Clock,
+  Lock,
+} from "@phosphor-icons/react";
 
 interface PartWithChapters extends BookPart {
   readonly chapterDetails: readonly ChapterMetadata[];
@@ -44,9 +44,9 @@ function PartSection({
         className="flex w-full items-center gap-3 px-1 py-5 text-left transition-colors hover:text-foreground"
       >
         {open ? (
-          <ChevronDown className="h-4 w-4 shrink-0 text-muted-foreground" />
+          <CaretDown className="h-4 w-4 shrink-0 text-muted-foreground" />
         ) : (
-          <ChevronRight className="h-4 w-4 shrink-0 text-muted-foreground" />
+          <CaretRight className="h-4 w-4 shrink-0 text-muted-foreground" />
         )}
         <div className="flex-1">
           <div className="flex items-center gap-2">
@@ -105,7 +105,7 @@ function ChapterItem({
       )}
     >
       {completed ? (
-        <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-500" />
+        <CheckCircle className="h-4 w-4 shrink-0 text-emerald-500" />
       ) : !chapter.free ? (
         <Lock className="h-3.5 w-3.5 shrink-0 text-muted-foreground/40" />
       ) : (

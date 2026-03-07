@@ -1,4 +1,7 @@
-import { ArrowDown, ArrowRight } from "lucide-react";
+import {
+  ArrowDown,
+  ArrowRight,
+} from "@phosphor-icons/react";
 
 interface ComparisonCardProps {
   readonly beforeLabel?: string;

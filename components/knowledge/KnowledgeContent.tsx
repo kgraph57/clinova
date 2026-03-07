@@ -3,7 +3,6 @@
 import { useSearchParams, useRouter } from "next/navigation";
 import { Suspense, useCallback } from "react";
 import { motion } from "framer-motion";
-import { LayoutGrid, Compass } from "lucide-react";
 import { containerVariants } from "@/lib/animations";
 import { SearchBar } from "./SearchBar";
 import { CategorySidebar } from "./CategorySidebar";
@@ -11,6 +10,10 @@ import { ArticleCard } from "./ArticleCard";
 import { UseCaseView } from "./UseCaseView";
 import { CATEGORIES, CONTENT_TYPES } from "@/lib/constants";
 import type { Article } from "@/lib/types";
+import {
+  Compass,
+  SquaresFour,
+} from "@phosphor-icons/react";
 
 interface KnowledgeContentProps {
   articles: Article[];
@@ -124,7 +127,7 @@ function KnowledgeInner({ articles, counts }: KnowledgeContentProps) {
                 : "border-border bg-background text-muted-foreground hover:border-foreground hover:text-foreground"
             }`}
           >
-            <LayoutGrid className="h-3.5 w-3.5" />
+            <SquaresFour className="h-3.5 w-3.5" />
             すべて
           </button>
         </div>

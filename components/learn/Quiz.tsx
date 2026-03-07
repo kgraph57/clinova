@@ -2,10 +2,15 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { CheckCircle2, XCircle, RotateCcw, ClipboardCheck } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { getQuizResult, saveQuizResult, type QuizResult } from "@/lib/storage";
 import { fadeInUp } from "@/lib/animations";
+import {
+  ArrowCounterClockwise,
+  CheckCircle,
+  ClipboardText,
+  XCircle,
+} from "@phosphor-icons/react";
 
 export interface QuizQuestion {
   readonly question: string;
@@ -94,7 +99,7 @@ export function Quiz({ questions = [], courseId, lessonSlug }: QuizProps) {
       className="my-10 rounded-2xl border bg-muted/30 p-6 sm:p-8"
     >
       <div className="mb-6 flex items-center gap-2">
-        <ClipboardCheck className="h-5 w-5 text-muted-foreground" />
+        <ClipboardText className="h-5 w-5 text-muted-foreground" />
         <h3 className="text-sm font-semibold tracking-wide">セルフチェック</h3>
       </div>
 
@@ -143,7 +148,7 @@ export function Quiz({ questions = [], courseId, lessonSlug }: QuizProps) {
                           showWrong && "border-red-400 bg-red-400 text-white",
                         )}
                       >
-                        {showCorrect && <CheckCircle2 className="h-3 w-3" />}
+                        {showCorrect && <CheckCircle className="h-3 w-3" />}
                         {showWrong && <XCircle className="h-3 w-3" />}
                         {!submitted && String.fromCharCode(65 + oIdx)}
                       </span>
@@ -199,7 +204,7 @@ export function Quiz({ questions = [], courseId, lessonSlug }: QuizProps) {
               onClick={handleRetry}
               className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              <RotateCcw className="h-3.5 w-3.5" />
+              <ArrowCounterClockwise className="h-3.5 w-3.5" />
               やり直す
             </button>
           </>

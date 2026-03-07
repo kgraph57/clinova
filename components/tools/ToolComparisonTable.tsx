@@ -1,4 +1,8 @@
-import { Check, X, ExternalLink } from "lucide-react";
+import {
+  ArrowSquareOut,
+  Check,
+  X,
+} from "@phosphor-icons/react";
 import type { AITool } from "./ToolComparisonContent";
 
 interface ToolComparisonTableProps {
@@ -58,7 +62,7 @@ export function ToolComparisonTable({ tools }: ToolComparisonTableProps) {
                   rel="noopener noreferrer"
                   className="text-muted-foreground transition-colors hover:text-foreground"
                 >
-                  <ExternalLink className="mx-auto h-4 w-4" />
+                  <ArrowSquareOut className="mx-auto h-4 w-4" />
                 </a>
               </td>
             </tr>

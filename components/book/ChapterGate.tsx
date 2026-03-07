@@ -1,7 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { Lock, Mail, ArrowRight } from "lucide-react";
+import {
+  ArrowRight,
+  Envelope,
+  Lock,
+} from "@phosphor-icons/react";
 
 interface ChapterGateProps {
   readonly partTitle: string;
@@ -45,7 +49,7 @@ export function ChapterGate({
             href="/contact"
             className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-80"
           >
-            <Mail className="h-4 w-4" />
+            <Envelope className="h-4 w-4" />
             ニュースレター登録でアクセス
             <ArrowRight className="h-3.5 w-3.5" />
           </Link>

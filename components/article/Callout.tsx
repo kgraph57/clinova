@@ -1,10 +1,10 @@
 import {
-  AlertTriangle,
-  ArrowLeftRight,
-  HelpCircle,
+  ArrowsLeftRight,
   Info,
   Lightbulb,
-} from "lucide-react";
+  Question,
+  Warning,
+} from "@phosphor-icons/react";
 import { cn } from "@/lib/utils";
 
 interface CalloutProps {
@@ -21,7 +21,7 @@ const TYPE_CONFIG = {
     iconClass: "text-blue-500 dark:text-blue-400",
   },
   question: {
-    icon: HelpCircle,
+    icon: Question,
     bg: "bg-violet-50/60 dark:bg-violet-950/20",
     text: "text-violet-900 dark:text-violet-100",
     iconClass: "text-violet-500 dark:text-violet-400",
@@ -33,13 +33,13 @@ const TYPE_CONFIG = {
     iconClass: "text-amber-500 dark:text-amber-400",
   },
   comparison: {
-    icon: ArrowLeftRight,
+    icon: ArrowsLeftRight,
     bg: "bg-emerald-50/60 dark:bg-emerald-950/20",
     text: "text-emerald-900 dark:text-emerald-100",
     iconClass: "text-emerald-500 dark:text-emerald-400",
   },
   warning: {
-    icon: AlertTriangle,
+    icon: Warning,
     bg: "bg-red-50/60 dark:bg-red-950/20",
     text: "text-red-900 dark:text-red-100",
     iconClass: "text-red-500 dark:text-red-400",

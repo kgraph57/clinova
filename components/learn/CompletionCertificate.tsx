@@ -1,9 +1,13 @@
 "use client";
 
 import { useCallback, useRef, useState } from "react";
-import { Download, Share2, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { saveCertificate } from "@/lib/storage";
+import {
+  Download,
+  ShareNetwork,
+  X,
+} from "@phosphor-icons/react";
 
 interface CompletionCertificateProps {
   readonly courseId: string;
@@ -177,7 +181,7 @@ export function CompletionCertificate({
                 onClick={handleShare}
                 className="inline-flex flex-1 items-center justify-center gap-2 rounded-full border px-4 py-2.5 text-sm font-medium transition-colors hover:bg-muted"
               >
-                <Share2 className="h-4 w-4" />
+                <ShareNetwork className="h-4 w-4" />
                 X で共有
               </button>
             </div>

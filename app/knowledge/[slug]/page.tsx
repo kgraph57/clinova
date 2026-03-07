@@ -21,6 +21,7 @@ import { MobileToc } from "@/components/learn/MobileToc";
 import { BookmarkButton } from "@/components/bookmark/BookmarkButton";
 import { ReadTracker } from "@/components/article/ReadTracker";
 import { GiscusComments } from "@/components/article/GiscusComments";
+import { FloatingReadBar } from "@/components/article/FloatingReadBar";
 import { extractToc } from "@/lib/toc";
 import { SITE_CONFIG } from "@/lib/constants";
 
@@ -92,9 +93,12 @@ export default async function ArticlePage({ params }: PageProps) {
     notFound();
   }
 
-  const related = getArticlesByCategory(article.category)
-    .filter((a) => a.slug !== article.slug)
-    .slice(0, 3);
+  const sameCategory = getArticlesByCategory(article.category).filter(
+    (a) => a.slug !== article.slug,
+  );
+
+  const related = sameCategory.slice(0, 3);
+  const nextArticle = sameCategory[0] ?? null;
 
   const relatedCourses = getRelatedCourses(article.category);
 
@@ -156,6 +160,7 @@ export default async function ArticlePage({ params }: PageProps) {
 
         <GiscusComments />
       </div>
+      <FloatingReadBar article={article} nextArticle={nextArticle} />
     </>
   );
 }

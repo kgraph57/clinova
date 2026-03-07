@@ -1,4 +1,8 @@
-import { BookOpen, Clock, User } from "lucide-react";
+import {
+  BookOpen,
+  Clock,
+  User,
+} from "@phosphor-icons/react";
 
 interface BookHeroProps {
   readonly title: string;

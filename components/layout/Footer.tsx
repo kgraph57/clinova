@@ -1,140 +1,90 @@
 import Link from "next/link";
-import { Github, Twitter, Mail, PenLine, Rss } from "lucide-react";
-import { EmailCapture } from "@/components/layout/EmailCapture";
 import { SITE_CONFIG } from "@/lib/constants";
+import {
+  GithubLogo,
+  PencilLine,
+  Rss,
+  TwitterLogo,
+} from "@phosphor-icons/react";
 
-const FOOTER_LINKS = {
-  services: {
-    title: "Services",
-    links: [
-      { href: "/sukusuku-navi", label: "すくすくナビ" },
-      { href: "/futari-navi", label: "ふたりナビ" },
-      { href: "/pediatric-learning", label: "Pediatric Learning" },
-    ],
+const NAV_LINKS = [
+  { href: "/knowledge", label: "Knowledge" },
+  { href: "/learn", label: "Learn" },
+  { href: "/news", label: "News" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
+];
+
+const SOCIAL_LINKS = [
+  {
+    href: "https://github.com/kgraph57",
+    label: "GitHub",
+    icon: GithubLogo,
   },
-  knowledge: {
-    title: "Knowledge",
-    links: [
-      { href: "/knowledge", label: "ナレッジベース" },
-      { href: "/learn", label: "学習コース" },
-      { href: "/news", label: "ニュース" },
-    ],
+  {
+    href: "https://x.com/kgraph_",
+    label: "X",
+    icon: TwitterLogo,
   },
-  company: {
-    title: "Company",
-    links: [
-      { href: "/about", label: "About" },
-      { href: "/contact", label: "お問い合わせ" },
-    ],
+  {
+    href: "https://note.com/kgraph_",
+    label: "note",
+    icon: PencilLine,
   },
-};
+  {
+    href: `${SITE_CONFIG.url}/feed.xml`,
+    label: "RSS",
+    icon: Rss,
+  },
+];
 
 export function Footer() {
   return (
     <footer className="border-t">
-      <div className="mx-auto max-w-[1200px] px-6">
-        <div className="grid gap-10 py-16 md:grid-cols-4">
-          <div>
-            <span className="text-sm font-semibold tracking-tight">
-              Hoshizu
-            </span>
-            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              散らばる星を、
-              <br />
-              星座にする。
-            </p>
-            <div className="mt-5 flex gap-4">
-              <a
-                href="https://github.com/kgraph57"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground transition-colors hover:text-foreground"
-                aria-label="GitHub"
-              >
-                <Github className="h-4 w-4" />
-              </a>
-              <a
-                href="https://x.com/kgraph_"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground transition-colors hover:text-foreground"
-                aria-label="X (Twitter)"
-              >
-                <Twitter className="h-4 w-4" />
-              </a>
-              <a
-                href="https://note.com/kgraph_"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground transition-colors hover:text-foreground"
-                aria-label="note"
-              >
-                <PenLine className="h-4 w-4" />
-              </a>
-              <a
-                href={`${SITE_CONFIG.url}/feed.xml`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground transition-colors hover:text-foreground"
-                aria-label="RSS Feed"
-              >
-                <Rss className="h-4 w-4" />
-              </a>
-            </div>
-          </div>
+      <div className="mx-auto max-w-[1200px] px-6 py-20 sm:py-24">
+        <div className="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
+          <Link
+            href="/"
+            className="font-serif text-lg font-medium tracking-tight"
+          >
+            Hoshizu
+          </Link>
 
-          {Object.values(FOOTER_LINKS).map((section) => (
-            <div key={section.title}>
-              <h3 className="text-sm font-medium">{section.title}</h3>
-              <ul className="mt-4 space-y-3">
-                {section.links.map((link) => (
-                  <li key={link.href}>
-                    {"external" in link && link.external ? (
-                      <a
-                        href={link.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                      >
-                        {link.label}
-                      </a>
-                    ) : (
-                      <Link
-                        href={link.href}
-                        className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                      >
-                        {link.label}
-                      </Link>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-
-        {/* Email Capture */}
-        <div className="border-t py-8">
-          <div className="grid gap-6 sm:grid-cols-2">
-            <EmailCapture />
-            <div className="flex flex-col justify-center">
-              <p className="text-sm font-medium">お仕事のご依頼</p>
-              <p className="mt-1 text-xs text-muted-foreground">
-                講演、執筆、監修、研修、プロダクト開発など、お気軽にご相談ください
-              </p>
+          <nav className="flex flex-wrap gap-6">
+            {NAV_LINKS.map((link) => (
               <Link
-                href="/contact"
-                className="mt-3 inline-flex w-fit items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-medium transition-colors hover:bg-muted"
+                key={link.href}
+                href={link.href}
+                className="text-sm text-muted-foreground transition-colors hover:text-foreground"
               >
-                <Mail className="h-3.5 w-3.5" />
-                ご依頼・ご相談
+                {link.label}
               </Link>
-            </div>
-          </div>
+            ))}
+          </nav>
         </div>
 
-        <div className="border-t py-6 text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Hoshizu. All rights reserved.
+        <div className="mt-12 flex flex-col gap-6 border-t pt-8 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-xs text-muted-foreground">
+            &copy; {new Date().getFullYear()} Hoshizu. All rights reserved.
+          </p>
+
+          <div className="flex gap-4">
+            {SOCIAL_LINKS.map((link) => {
+              const Icon = link.icon;
+              return (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
+                  aria-label={link.label}
+                >
+                  <Icon className="h-4 w-4" />
+                </a>
+              );
+            })}
+          </div>
         </div>
       </div>
     </footer>

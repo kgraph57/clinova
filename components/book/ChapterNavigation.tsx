@@ -1,6 +1,9 @@
 import Link from "next/link";
-import { ArrowLeft, ArrowRight } from "lucide-react";
 import type { ChapterNavItem } from "@/lib/book";
+import {
+  ArrowLeft,
+  ArrowRight,
+} from "@phosphor-icons/react";
 
 interface ChapterNavigationProps {
   readonly bookId: string;

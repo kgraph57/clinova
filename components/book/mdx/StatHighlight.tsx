@@ -1,4 +1,6 @@
-import { TrendingUp } from "lucide-react";
+import {
+  TrendUp,
+} from "@phosphor-icons/react";
 
 interface StatHighlightProps {
   readonly value: string;
@@ -28,7 +30,7 @@ export function StatHighlight({
 
       {trend ? (
         <div className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-emerald-100/60 px-3 py-1 text-xs text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400">
-          <TrendingUp className="h-3 w-3" />
+          <TrendUp className="h-3 w-3" />
           <span>
             {trend.from} → {trend.to}
           </span>

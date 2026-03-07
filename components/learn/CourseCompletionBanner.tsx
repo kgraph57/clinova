@@ -1,11 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { Award } from "lucide-react";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 import { useProgress } from "@/components/learn/ProgressProvider";
 import { CompletionCertificate } from "@/components/learn/CompletionCertificate";
+import {
+  Medal,
+} from "@phosphor-icons/react";
 
 interface CourseCompletionBannerProps {
   readonly courseId: string;
@@ -33,7 +35,7 @@ export function CourseCompletionBanner({
         className="mb-8 rounded-2xl bg-[var(--color-warm-oat)] p-6 dark:bg-muted"
       >
         <div className="flex flex-col items-center gap-3 text-center sm:flex-row sm:text-left">
-          <Award className="h-8 w-8 shrink-0 text-amber-500" />
+          <Medal className="h-8 w-8 shrink-0 text-amber-500" />
           <div className="flex-1">
             <p className="font-semibold">
               おめでとうございます！このコースを完了しました
@@ -47,7 +49,7 @@ export function CourseCompletionBanner({
             onClick={() => setShowCert(true)}
             className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-80"
           >
-            <Award className="h-4 w-4" />
+            <Medal className="h-4 w-4" />
             修了証を発行
           </button>
         </div>

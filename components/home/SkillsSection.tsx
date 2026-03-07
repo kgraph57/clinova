@@ -1,15 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { containerVariants, fadeInUp } from "@/lib/animations";
 import {
   ArrowUpRight,
-  FileText,
+  Article,
+  ChartBar,
+  ChartPie,
+  GithubLogo,
   ShieldCheck,
-  BarChart3,
-  PieChart,
-  Github,
-} from "lucide-react";
-import { containerVariants, fadeInUp } from "@/lib/animations";
+} from "@phosphor-icons/react";
 
 const SKILLS = [
   {
@@ -18,7 +18,7 @@ const SKILLS = [
     description:
       "論文執筆の全工程をAIで支援。文献検索から投稿原稿まで一気通貫。",
     url: "https://github.com/kgraph57/paper-writer-skill",
-    icon: FileText,
+    icon: Article,
   },
   {
     name: "Evidentia",
@@ -33,7 +33,7 @@ const SKILLS = [
     repo: "mckinsey-style-visualization-skill",
     description: "戦略コンサルティング水準のデータ可視化を自動生成。",
     url: "https://github.com/kgraph57/mckinsey-style-visualization-skill",
-    icon: BarChart3,
+    icon: ChartBar,
   },
   {
     name: "HBR Viz",
@@ -41,7 +41,7 @@ const SKILLS = [
     description:
       "Harvard Business Review スタイルのチャート・インフォグラフィック生成。",
     url: "https://github.com/kgraph57/hbr-style-visualization",
-    icon: PieChart,
+    icon: ChartPie,
   },
 ] as const;
 
@@ -64,7 +64,7 @@ export function SkillsSection() {
             rel="noopener noreferrer"
             className="hidden items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground sm:flex"
           >
-            <Github className="h-4 w-4" />
+            <GithubLogo className="h-4 w-4" />
             その他のプロジェクト
           </a>
         </div>
@@ -111,7 +111,7 @@ export function SkillsSection() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground"
           >
-            <Github className="h-4 w-4" />
+            <GithubLogo className="h-4 w-4" />
             その他のプロジェクト
           </a>
         </div>

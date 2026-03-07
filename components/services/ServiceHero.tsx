@@ -1,8 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, ExternalLink } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
+import {
+  ArrowRight,
+  ArrowSquareOut,
+} from "@phosphor-icons/react";
 
 type ServiceHeroProps = {
   badge: string;
@@ -63,7 +66,7 @@ export function ServiceHero({
               className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-80"
             >
               {demoLabel}
-              <ExternalLink className="h-4 w-4" />
+              <ArrowSquareOut className="h-4 w-4" />
             </a>
             <a
               href={githubUrl}

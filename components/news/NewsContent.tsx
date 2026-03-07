@@ -4,18 +4,18 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import {
-  Newspaper,
-  Clock,
-  ArrowUpRight,
-  Calendar,
-  Radio,
-  FileText,
-  Scale,
-  Package,
-} from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 import type { Article } from "@/lib/types";
+import {
+  ArrowUpRight,
+  Article as ArticleIcon,
+  Broadcast,
+  Calendar,
+  Clock,
+  Newspaper,
+  Package,
+  Scales,
+} from "@phosphor-icons/react";
 
 const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
@@ -25,9 +25,9 @@ interface NewsContentProps {
 
 const NEWS_TABS = [
   { key: "all", label: "All", icon: Newspaper },
-  { key: "weekly", label: "Weekly", icon: Radio },
-  { key: "paper", label: "論文", icon: FileText },
-  { key: "regulation", label: "規制", icon: Scale },
+  { key: "weekly", label: "Weekly", icon: Broadcast },
+  { key: "paper", label: "論文", icon: ArticleIcon },
+  { key: "regulation", label: "規制", icon: Scales },
   { key: "product", label: "プロダクト", icon: Package },
 ] as const;
 
@@ -42,8 +42,16 @@ function formatDate(dateStr: string): string {
   });
 }
 
-function NewsCard({ article, featured }: { article: Article; featured?: boolean }) {
-  const imageSrc = article.coverImage ? `${BASE_PATH}${article.coverImage}` : null;
+function NewsCard({
+  article,
+  featured,
+}: {
+  article: Article;
+  featured?: boolean;
+}) {
+  const imageSrc = article.coverImage
+    ? `${BASE_PATH}${article.coverImage}`
+    : null;
 
   return (
     <motion.div variants={fadeInUp}>
@@ -73,7 +81,9 @@ function NewsCard({ article, featured }: { article: Article; featured?: boolean 
         )}
 
         {/* Content */}
-        <div className={`flex flex-1 flex-col justify-between p-6 ${featured ? "sm:p-8" : ""}`}>
+        <div
+          className={`flex flex-1 flex-col justify-between p-6 ${featured ? "sm:p-8" : ""}`}
+        >
           <div>
             {/* Date + Read time + Badge */}
             <div className="flex items-center gap-3 text-sm text-muted-foreground">
@@ -134,9 +144,12 @@ function NewsCard({ article, featured }: { article: Article; featured?: boolean 
 
 const BADGE_STYLES: Record<string, string> = {
   weekly: "bg-blue-100 text-blue-700 dark:bg-blue-950 dark:text-blue-300",
-  paper: "bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300",
-  regulation: "bg-amber-100 text-amber-700 dark:bg-amber-950 dark:text-amber-300",
-  product: "bg-purple-100 text-purple-700 dark:bg-purple-950 dark:text-purple-300",
+  paper:
+    "bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300",
+  regulation:
+    "bg-amber-100 text-amber-700 dark:bg-amber-950 dark:text-amber-300",
+  product:
+    "bg-purple-100 text-purple-700 dark:bg-purple-950 dark:text-purple-300",
 };
 
 const BADGE_LABELS: Record<string, string> = {

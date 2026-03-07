@@ -2,10 +2,12 @@
 
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { ArrowRight } from "lucide-react"
 import { containerVariants } from "@/lib/animations"
 import { ArticleCard } from "@/components/knowledge/ArticleCard"
 import type { Article } from "@/lib/types"
+import {
+  ArrowRight,
+} from "@phosphor-icons/react";
 
 interface FeaturedArticlesProps {
   articles: Article[]

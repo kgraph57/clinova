@@ -1,10 +1,14 @@
 "use client";
 
 import { useCallback, useMemo, useState } from "react";
-import { Copy, Check, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { extractVariables, fillTemplate } from "@/lib/prompt-utils";
+import {
+  Check,
+  Copy,
+  Play,
+} from "@phosphor-icons/react";
 
 interface PromptPlaygroundProps {
   readonly children: React.ReactNode;

@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  BookOpen,
-  Star,
-  ArrowUpRight,
-  Newspaper,
-  FileText,
-} from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
+import {
+  ArrowUpRight,
+  Article,
+  BookOpen,
+  Newspaper,
+  Star,
+} from "@phosphor-icons/react";
 
 const BOOKS = [
   {
@@ -34,7 +34,7 @@ const SERIALS = [
     date: "2026年3月号",
     description:
       "特集「AIとともに育つ医療 ― 小児医療の新しいかたち」にて「小児科専攻医によるAI実践」を執筆。松尾豊、大塚篤司ほか各領域の第一人者が集結した全22項目の特集号。",
-    icon: FileText,
+    icon: Article,
   },
   {
     title: "日経メディカル「医師のための生成AI活用Tips集」",

@@ -2,8 +2,11 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, ExternalLink } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
+import {
+  ArrowRight,
+  ArrowSquareOut,
+} from "@phosphor-icons/react";
 
 type ServiceCtaProps = {
   title: React.ReactNode;
@@ -59,7 +62,7 @@ export function ServiceCta({
               className="inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium transition-colors hover:bg-muted"
             >
               {demoLabel}
-              <ExternalLink className="h-4 w-4" />
+              <ArrowSquareOut className="h-4 w-4" />
             </a>
           </motion.div>
         </motion.div>

@@ -1,4 +1,6 @@
-import { Tag } from "lucide-react";
+import {
+  Tag,
+} from "@phosphor-icons/react";
 
 interface CourseSkillTagsProps {
   readonly skills: readonly string[];

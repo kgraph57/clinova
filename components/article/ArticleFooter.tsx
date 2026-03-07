@@ -1,19 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import {
-  ArrowLeft,
-  ArrowRight,
-  BookOpen,
-  Clock,
-  Share2,
-  Twitter,
-} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ArticleCard } from "@/components/knowledge/ArticleCard";
 import { toast } from "sonner";
 import type { Article } from "@/lib/types";
 import type { CourseMetadata } from "@/lib/courses";
+import {
+  ArrowLeft,
+  ArrowRight,
+  BookOpen,
+  Clock,
+  ShareNetwork,
+  TwitterLogo,
+} from "@phosphor-icons/react";
 
 interface ArticleFooterProps {
   article: Article;
@@ -57,7 +57,7 @@ export function ArticleFooter({
           className="gap-1.5 rounded-full"
           onClick={handleTweet}
         >
-          <Twitter className="h-3.5 w-3.5" />
+          <TwitterLogo className="h-3.5 w-3.5" />
           Tweet
         </Button>
         <Button
@@ -66,7 +66,7 @@ export function ArticleFooter({
           className="gap-1.5 rounded-full"
           onClick={handleShare}
         >
-          <Share2 className="h-3.5 w-3.5" />
+          <ShareNetwork className="h-3.5 w-3.5" />
           URLをコピー
         </Button>
       </div>

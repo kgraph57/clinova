@@ -1,7 +1,6 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { Bookmark, BookmarkCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import {
@@ -10,6 +9,10 @@ import {
   removeBookmark,
   type BookmarkItem,
 } from "@/lib/storage";
+import {
+  Bookmark,
+  BookmarkSimple,
+} from "@phosphor-icons/react";
 
 interface BookmarkButtonProps {
   readonly slug: string;
@@ -59,7 +62,7 @@ export function BookmarkButton({
       >
         {bookmarked ? (
           <>
-            <BookmarkCheck className="h-4 w-4 text-primary" />
+            <BookmarkSimple className="h-4 w-4 text-primary" />
             保存済み
           </>
         ) : (
@@ -79,7 +82,7 @@ export function BookmarkButton({
       aria-label={bookmarked ? "ブックマーク解除" : "ブックマークに追加"}
     >
       {bookmarked ? (
-        <BookmarkCheck className="h-4 w-4 fill-primary text-primary" />
+        <BookmarkSimple className="h-4 w-4 fill-primary text-primary" />
       ) : (
         <Bookmark className="h-4 w-4" />
       )}

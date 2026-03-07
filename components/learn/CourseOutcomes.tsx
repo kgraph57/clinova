@@ -1,8 +1,10 @@
 "use client";
 
-import { CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion";
 import { containerVariants, fadeInUp } from "@/lib/animations";
+import {
+  CheckCircle,
+} from "@phosphor-icons/react";
 
 interface CourseOutcomesProps {
   readonly outcomes: readonly string[];
@@ -29,7 +31,7 @@ export function CourseOutcomes({ outcomes }: CourseOutcomesProps) {
             variants={fadeInUp}
             className="flex items-start gap-2"
           >
-            <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
+            <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
             <span className="text-sm leading-relaxed">{outcome}</span>
           </motion.li>
         ))}

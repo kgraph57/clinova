@@ -1,4 +1,11 @@
-import { ArrowUpRight, BookOpen, FileText, Globe, Newspaper, Scale } from "lucide-react"
+import {
+  ArrowUpRight,
+  Article,
+  BookOpen,
+  Globe,
+  Newspaper,
+  Scales,
+} from "@phosphor-icons/react";
 import { cn } from "@/lib/utils"
 
 interface ResourceCardProps {
@@ -13,12 +20,12 @@ interface ResourceCardProps {
 
 const TYPE_CONFIG = {
   paper: {
-    icon: FileText,
+    icon: Article,
     label: "論文",
     accent: "border-l-emerald-600/40 dark:border-l-emerald-400/40",
   },
   law: {
-    icon: Scale,
+    icon: Scales,
     label: "法令",
     accent: "border-l-sky-600/40 dark:border-l-sky-400/40",
   },

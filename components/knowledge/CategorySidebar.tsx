@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { LayoutGrid } from "lucide-react";
 import { CATEGORIES } from "@/lib/constants";
+import { ICON_MAP } from "@/lib/category-icons";
 import { cn } from "@/lib/utils";
+import { SquaresFour } from "@phosphor-icons/react";
 
 interface CategorySidebarProps {
   counts: Record<string, number>;
@@ -38,14 +39,14 @@ export function CategorySidebar({ counts }: CategorySidebarProps) {
           )}
         >
           <span className="flex items-center gap-2">
-            <LayoutGrid className="h-4 w-4" />
+            <SquaresFour className="h-4 w-4" />
             すべて
           </span>
           <span className="tabular-nums">{counts.all ?? 0}</span>
         </Link>
 
         {CATEGORIES.map((cat) => {
-          const Icon = cat.icon;
+          const Icon = ICON_MAP[cat.iconName];
           const isActive = activeCategory === cat.id;
           return (
             <Link

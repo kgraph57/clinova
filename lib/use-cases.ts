@@ -1,20 +1,20 @@
-import {
-  Siren,
-  Presentation,
-  BookOpen,
-  FileText,
-  MessageCircleHeart,
-  ShieldCheck,
-} from "lucide-react";
-import type { LucideIcon } from "lucide-react";
+import type { Icon } from "@phosphor-icons/react";
 import type { Article } from "./types";
+import {
+  Article as ArticleIcon,
+  BookOpen,
+  ChatTeardrop,
+  Presentation,
+  ShieldCheck,
+  Siren,
+} from "@phosphor-icons/react";
 
 export interface UseCase {
   readonly id: string;
   readonly title: string;
   readonly subtitle: string;
   readonly description: string;
-  readonly icon: LucideIcon;
+  readonly icon: Icon;
   readonly color: string;
   readonly bgColor: string;
   readonly darkBgColor: string;
@@ -147,7 +147,7 @@ export const USE_CASES: readonly UseCase[] = [
     subtitle: "Medical Documentation",
     description:
       "退院サマリー、紹介状、インシデントレポート。日常の書類作成を効率化するテンプレート集。",
-    icon: FileText,
+    icon: ArticleIcon,
     color: "text-amber-600",
     bgColor: "bg-amber-50",
     darkBgColor: "dark:bg-amber-950/30",
@@ -183,7 +183,7 @@ export const USE_CASES: readonly UseCase[] = [
     subtitle: "Patient Communication",
     description:
       "患者説明、Bad News の伝え方、SDM支援。「どう伝えたらいいか」を一緒に考えるセクション。",
-    icon: MessageCircleHeart,
+    icon: ChatTeardrop,
     color: "text-pink-600",
     bgColor: "bg-pink-50",
     darkBgColor: "dark:bg-pink-950/30",

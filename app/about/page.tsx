@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import {
-  Github,
-  Twitter,
-  PenLine,
-  Mail,
-  ArrowRight,
-  Mic,
-  PenTool,
-  BookOpen,
-  GraduationCap,
-  Stethoscope,
-  Brain,
-  Lightbulb,
-  Target,
-  Star,
-  ExternalLink,
-  Users,
-  UserCheck,
-  Presentation,
-  Calendar,
-} from "lucide-react";
 import { getArticleCount } from "@/lib/content";
 import { getCourseCount } from "@/lib/courses";
+import {
+  ArrowRight,
+  ArrowSquareOut,
+  BookOpen,
+  Brain,
+  Calendar,
+  Envelope,
+  GithubLogo,
+  GraduationCap,
+  Lightbulb,
+  Microphone,
+  PenNib,
+  PencilLine,
+  Presentation,
+  Star,
+  Stethoscope,
+  Target,
+  TwitterLogo,
+  UserCheck,
+  Users,
+} from "@phosphor-icons/react/ssr";
 
 export const metadata: Metadata = {
   title: "About",
@@ -63,13 +63,13 @@ const WHAT_WE_DO = [
 
 const SERVICES = [
   {
-    icon: Mic,
+    icon: Microphone,
     label: "講演・セミナー",
     description:
       "学会・病院・企業向けに、医療AIの基礎から実践導入まで。ハンズオン形式にも対応します。",
   },
   {
-    icon: PenTool,
+    icon: PenNib,
     label: "執筆・連載",
     description:
       "医療AI活用に関する解説記事、書籍執筆、Web連載。専門知識をわかりやすく伝えます。",
@@ -216,7 +216,7 @@ export default function AboutPage() {
                 period: "2025.04 —",
                 title: "院内AIセミナー 企画・開講",
                 detail: "医師・医療従事者向け、全7回シリーズ",
-                icon: Mic,
+                icon: Microphone,
               },
               {
                 period: "2025.08",
@@ -284,7 +284,7 @@ export default function AboutPage() {
                 <h3 className="text-sm font-medium">
                   ケースで学ぶ若手医師のAI活用ガイド
                 </h3>
-                <ExternalLink className="h-3.5 w-3.5 flex-shrink-0 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
+                <ArrowSquareOut className="h-3.5 w-3.5 flex-shrink-0 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
               </div>
               <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
                 診療・救急・病棟・教育・研究・論文作成まで73の臨床ケースを収録。東京医学社、2026年1月刊。
@@ -375,7 +375,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              <Github className="h-4 w-4" />
+              <GithubLogo className="h-4 w-4" />
               GitHub
             </a>
             <a
@@ -384,7 +384,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              <Twitter className="h-4 w-4" />X
+              <TwitterLogo className="h-4 w-4" />X
             </a>
             <a
               href="https://note.com/kgraph_"
@@ -392,14 +392,14 @@ export default function AboutPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              <PenLine className="h-4 w-4" />
+              <PencilLine className="h-4 w-4" />
               note
             </a>
             <Link
               href="/contact"
               className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              <Mail className="h-4 w-4" />
+              <Envelope className="h-4 w-4" />
               Contact
             </Link>
           </div>

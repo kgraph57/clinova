@@ -1,7 +1,10 @@
 import Link from "next/link"
-import { ChevronRight, Clock } from "lucide-react"
 import type { CourseMetadata, LessonFull } from "@/lib/courses"
 import { LessonProgress } from "./LessonProgress"
+import {
+  CaretRight,
+  Clock,
+} from "@phosphor-icons/react";
 
 interface LessonHeaderProps {
   course: CourseMetadata
@@ -15,11 +18,11 @@ export function LessonHeader({ course, lesson }: LessonHeaderProps) {
         <Link href="/" className="transition-colors hover:text-foreground">
           ホーム
         </Link>
-        <ChevronRight className="h-3 w-3" />
+        <CaretRight className="h-3 w-3" />
         <Link href="/learn" className="transition-colors hover:text-foreground">
           Learn
         </Link>
-        <ChevronRight className="h-3 w-3" />
+        <CaretRight className="h-3 w-3" />
         <Link
           href={`/learn/${course.courseId}`}
           className="transition-colors hover:text-foreground"

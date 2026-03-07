@@ -1,43 +1,43 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  Baby,
-  MapPin,
-  Stethoscope,
-  Coins,
-  BookOpen,
-  Search,
-  ClipboardCheck,
-  Calculator,
-  BookOpenCheck,
-  CalendarCheck,
-  Phone,
-  FileText,
-  Brain,
-  BarChart3,
-  Target,
-  Repeat,
-  Trophy,
-} from "lucide-react";
-import type { LucideIcon } from "lucide-react";
+import type { Icon } from "@phosphor-icons/react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
+import {
+  Article,
+  Baby,
+  BookOpen,
+  BookOpenText,
+  Brain,
+  Calculator,
+  CalendarCheck,
+  ChartBar,
+  ClipboardText,
+  Coins,
+  MagnifyingGlass,
+  MapPin,
+  Phone,
+  Repeat,
+  Stethoscope,
+  Target,
+  Trophy,
+} from "@phosphor-icons/react";
 
-const ICON_MAP: Record<string, LucideIcon> = {
+const ICON_MAP: Record<string, Icon> = {
   Baby,
   MapPin,
   Stethoscope,
   Coins,
   BookOpen,
-  Search,
-  ClipboardCheck,
+  MagnifyingGlass,
+  ClipboardText,
   Calculator,
-  BookOpenCheck,
+  BookOpenText,
   CalendarCheck,
   Phone,
-  FileText,
+  Article,
   Brain,
-  BarChart3,
+  ChartBar,
   Target,
   Repeat,
   Trophy,

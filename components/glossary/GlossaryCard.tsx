@@ -1,9 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
 import { CATEGORIES, LEVELS } from "@/lib/constants";
 import type { GlossaryTerm } from "@/lib/glossary";
+import {
+  CaretDown,
+  CaretUp,
+} from "@phosphor-icons/react";
 
 interface GlossaryCardProps {
   readonly term: GlossaryTerm;
@@ -35,9 +38,9 @@ export function GlossaryCard({ term, allTerms }: GlossaryCardProps) {
           aria-label={expanded ? "折りたたむ" : "展開する"}
         >
           {expanded ? (
-            <ChevronUp className="h-4 w-4" />
+            <CaretUp className="h-4 w-4" />
           ) : (
-            <ChevronDown className="h-4 w-4" />
+            <CaretDown className="h-4 w-4" />
           )}
         </button>
       </div>

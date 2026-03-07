@@ -1,8 +1,12 @@
 import Link from "next/link";
-import { ChevronRight, Clock, BookOpen } from "lucide-react";
 import { CATEGORIES } from "@/lib/constants";
 import { LevelBadge } from "./LevelBadge";
 import type { CourseMetadata } from "@/lib/courses";
+import {
+  BookOpen,
+  CaretRight,
+  Clock,
+} from "@phosphor-icons/react";
 
 interface CourseHeaderProps {
   course: CourseMetadata;
@@ -18,7 +22,7 @@ export function CourseHeader({ course }: CourseHeaderProps) {
         <Link href="/" className="transition-colors hover:text-foreground">
           ホーム
         </Link>
-        <ChevronRight className="h-3 w-3" />
+        <CaretRight className="h-3 w-3" />
         <Link
           href="/learn"
           className="transition-colors hover:text-foreground"

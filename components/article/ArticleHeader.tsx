@@ -1,8 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ChevronRight, Clock, AlertTriangle } from "lucide-react";
 import { CATEGORIES, CONTENT_TYPES } from "@/lib/constants";
 import type { Article } from "@/lib/types";
+import {
+  CaretRight,
+  Clock,
+  Warning,
+} from "@phosphor-icons/react";
 
 interface ArticleHeaderProps {
   article: Article;
@@ -19,7 +23,7 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
         <Link href="/" className="transition-colors hover:text-foreground">
           ホーム
         </Link>
-        <ChevronRight className="h-3 w-3" />
+        <CaretRight className="h-3 w-3" />
         <Link
           href="/knowledge"
           className="transition-colors hover:text-foreground"
@@ -28,7 +32,7 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
         </Link>
         {category && (
           <>
-            <ChevronRight className="h-3 w-3" />
+            <CaretRight className="h-3 w-3" />
             <Link
               href={`/knowledge?category=${category.id}`}
               className="transition-colors hover:text-foreground"
@@ -52,7 +56,7 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
           <>
             <span className="text-border">|</span>
             <span className="flex items-center gap-1 text-destructive">
-              <AlertTriangle className="h-3.5 w-3.5" />
+              <Warning className="h-3.5 w-3.5" />
               高リスク
             </span>
           </>

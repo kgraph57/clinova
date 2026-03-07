@@ -2,8 +2,13 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Baby, Heart, GraduationCap } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
+import {
+  ArrowUpRight,
+  Baby,
+  GraduationCap,
+  Heartbeat,
+} from "@phosphor-icons/react";
 
 type Service = {
   name: string;
@@ -35,7 +40,7 @@ const SERVICES: Service[] = [
       "結婚手続き・届出・給付金ナビ。婚姻届の提出から名義変更・保険・税金まで、手続きをステップごとにガイドします。",
     url: "/futari-navi",
     internal: true,
-    icon: Heart,
+    icon: Heartbeat,
     language: "TypeScript",
     color: "bg-warm-rose dark:bg-rose-950/30",
   },

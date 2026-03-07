@@ -1,6 +1,9 @@
 import Link from "next/link";
-import { ChevronRight, Clock } from "lucide-react";
 import type { ChapterMetadata } from "@/lib/book";
+import {
+  CaretRight,
+  Clock,
+} from "@phosphor-icons/react";
 
 interface ChapterHeaderProps {
   readonly bookId: string;
@@ -21,18 +24,18 @@ export function ChapterHeader({
         <Link href="/" className="transition-colors hover:text-foreground">
           ホーム
         </Link>
-        <ChevronRight className="h-3 w-3" />
+        <CaretRight className="h-3 w-3" />
         <Link href="/book" className="transition-colors hover:text-foreground">
           Book
         </Link>
-        <ChevronRight className="h-3 w-3" />
+        <CaretRight className="h-3 w-3" />
         <Link
           href={`/book/${bookId}`}
           className="transition-colors hover:text-foreground"
         >
           {bookTitle}
         </Link>
-        <ChevronRight className="h-3 w-3" />
+        <CaretRight className="h-3 w-3" />
         <span className="truncate">{chapter.partTitle}</span>
       </nav>
 

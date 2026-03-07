@@ -1,14 +1,3 @@
-import {
-  Stethoscope,
-  Microscope,
-  Heart,
-  Brain,
-  Workflow,
-  Sparkles,
-  TrendingUp,
-  Crown,
-} from "lucide-react";
-
 export const SITE_CONFIG = {
   name: "Hoshizu",
   description:
@@ -28,7 +17,7 @@ export const CATEGORIES = [
     id: "diagnosis",
     label: "診断支援",
     labelEn: "Diagnosis",
-    icon: Stethoscope,
+    iconName: "Stethoscope" as const,
     color: "text-rose-600",
     bgColor: "bg-rose-50",
     darkBgColor: "dark:bg-rose-950/30",
@@ -37,7 +26,7 @@ export const CATEGORIES = [
     id: "research",
     label: "研究・論文",
     labelEn: "Research",
-    icon: Microscope,
+    iconName: "Microscope" as const,
     color: "text-blue-600",
     bgColor: "bg-blue-50",
     darkBgColor: "dark:bg-blue-950/30",
@@ -46,7 +35,7 @@ export const CATEGORIES = [
     id: "clinical",
     label: "臨床実践",
     labelEn: "Clinical",
-    icon: Heart,
+    iconName: "Heartbeat" as const,
     color: "text-green-600",
     bgColor: "bg-green-50",
     darkBgColor: "dark:bg-green-950/30",
@@ -55,7 +44,7 @@ export const CATEGORIES = [
     id: "ai-fundamentals",
     label: "AI基礎",
     labelEn: "AI Basics",
-    icon: Brain,
+    iconName: "Brain" as const,
     color: "text-purple-600",
     bgColor: "bg-purple-50",
     darkBgColor: "dark:bg-purple-950/30",
@@ -64,7 +53,7 @@ export const CATEGORIES = [
     id: "workflow",
     label: "ワークフロー",
     labelEn: "Workflow",
-    icon: Workflow,
+    iconName: "TreeStructure" as const,
     color: "text-amber-600",
     bgColor: "bg-amber-50",
     darkBgColor: "dark:bg-amber-950/30",
@@ -72,13 +61,14 @@ export const CATEGORIES = [
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]["id"];
+export type CategoryIconName = (typeof CATEGORIES)[number]["iconName"];
 
 export const LEVELS = [
   {
     id: "beginner",
     label: "入門",
     labelEn: "Beginner",
-    icon: Sparkles,
+    iconName: "Sparkle" as const,
     color: "text-emerald-600",
     bgColor: "bg-emerald-50",
     darkBgColor: "dark:bg-emerald-950/30",
@@ -88,7 +78,7 @@ export const LEVELS = [
     id: "intermediate",
     label: "実践",
     labelEn: "Intermediate",
-    icon: TrendingUp,
+    iconName: "TrendUp" as const,
     color: "text-blue-600",
     bgColor: "bg-blue-50",
     darkBgColor: "dark:bg-blue-950/30",
@@ -98,7 +88,7 @@ export const LEVELS = [
     id: "advanced",
     label: "応用",
     labelEn: "Advanced",
-    icon: Crown,
+    iconName: "Crown" as const,
     color: "text-violet-600",
     bgColor: "bg-violet-50",
     darkBgColor: "dark:bg-violet-950/30",
@@ -107,6 +97,7 @@ export const LEVELS = [
 ] as const;
 
 export type LevelId = (typeof LEVELS)[number]["id"];
+export type LevelIconName = (typeof LEVELS)[number]["iconName"];
 
 export const NAV_ITEMS = [
   { href: "/", label: "Home" },

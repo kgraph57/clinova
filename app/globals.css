@@ -53,11 +53,25 @@
   --color-warm-sky: #dfe8f0;
   --color-warm-heather: #ece3ed;
   --color-warm-cactus: #e0ebe2;
+  /* Surface depth layers */
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-surface-dark: var(--surface-dark);
+  --color-surface-dark-fg: var(--surface-dark-fg);
+  --color-accent-gold: var(--accent-gold);
+  --color-accent-gold-muted: var(--accent-gold-muted);
 }
 
 /* ── Anthropic-inspired warm cream palette ──── */
 :root {
   --radius: 0.625rem;
+  /* Surface depth layers */
+  --surface-elevated: #ffffff;
+  --surface-sunken: #f7f5ee;
+  --surface-dark: #1a1917;
+  --surface-dark-fg: #e8e5dc;
+  --accent-gold: #b8a88a;
+  --accent-gold-muted: rgba(184, 168, 138, 0.15);
   --background: #fcfcf4;
   --foreground: #141413;
   --card: #ffffff;
@@ -92,6 +106,12 @@
 }
 
 .dark {
+  --surface-elevated: #222220;
+  --surface-sunken: #111110;
+  --surface-dark: #0a0a09;
+  --surface-dark-fg: #d4d1c8;
+  --accent-gold: #c4b498;
+  --accent-gold-muted: rgba(196, 180, 152, 0.15);
   --background: #141413;
   --foreground: #f0ede6;
   --card: #1c1c1a;
@@ -498,4 +518,27 @@ html {
 }
 .dark ::selection {
   background: rgba(240, 237, 230, 0.2);
+}
+
+/* ── Dark section (inline dark bg without theme toggle) ── */
+.section-dark {
+  --background: var(--surface-dark);
+  --foreground: var(--surface-dark-fg);
+  --muted-foreground: rgba(232, 229, 220, 0.6);
+  --border: rgba(232, 229, 220, 0.12);
+  --muted: rgba(232, 229, 220, 0.08);
+  background: var(--surface-dark);
+  color: var(--surface-dark-fg);
+}
+
+/* ── Reduced motion ────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

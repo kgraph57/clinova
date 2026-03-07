@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Lora } from "next/font/google";
+import { Inter, Cormorant_Garamond } from "next/font/google";
 import { Toaster } from "sonner";
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
 import { ProgressProvider } from "@/components/learn/ProgressProvider";
@@ -10,8 +10,10 @@ import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
 import { ServiceWorkerRegistration } from "@/components/layout/ServiceWorkerRegistration";
 import { ChatWidget } from "@/components/chat/ChatWidget";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
+import { IconProvider } from "@/components/layout/IconProvider";
 import { SkipNavigation } from "@/components/layout/SkipNavigation";
 import { ThemeColorMeta } from "@/components/layout/ThemeColorMeta";
+import { PageTransition } from "@/components/layout/PageTransition";
 import "./globals.css";
 
 const inter = Inter({
@@ -20,8 +22,9 @@ const inter = Inter({
   display: "swap",
 });
 
-const lora = Lora({
+const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
   variable: "--font-serif",
   display: "swap",
 });
@@ -78,25 +81,29 @@ export default function RootLayout({
   return (
     <html lang="ja" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${lora.variable} font-sans antialiased`}
+        className={`${inter.variable} ${cormorant.variable} font-sans antialiased`}
       >
         <GoogleAnalytics />
         <ThemeProvider>
-          <ThemeColorMeta />
-          <ProgressProvider>
-            <SkipNavigation />
-            <div className="relative flex min-h-svh flex-col">
-              <Header />
-              <main id="main-content" className="flex-1">
-                <ErrorBoundary>{children}</ErrorBoundary>
-              </main>
-              <Footer />
-            </div>
-            <ScrollToTop />
-            <ServiceWorkerRegistration />
-            <ChatWidget />
-            <Toaster position="bottom-right" />
-          </ProgressProvider>
+          <IconProvider>
+            <ThemeColorMeta />
+            <ProgressProvider>
+              <SkipNavigation />
+              <div className="relative flex min-h-svh flex-col">
+                <Header />
+                <main id="main-content" className="flex-1 pt-16">
+                  <ErrorBoundary>
+                    <PageTransition>{children}</PageTransition>
+                  </ErrorBoundary>
+                </main>
+                <Footer />
+              </div>
+              <ScrollToTop />
+              <ServiceWorkerRegistration />
+              <ChatWidget />
+              <Toaster position="bottom-right" />
+            </ProgressProvider>
+          </IconProvider>
         </ThemeProvider>
       </body>
     </html>

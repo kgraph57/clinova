@@ -1,6 +1,9 @@
 import Link from "next/link"
-import { ArrowLeft, ArrowRight } from "lucide-react"
 import type { LessonNavItem } from "@/lib/courses"
+import {
+  ArrowLeft,
+  ArrowRight,
+} from "@phosphor-icons/react";
 
 interface LessonNavigationProps {
   courseId: string

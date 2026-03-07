@@ -1,9 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, ArrowRight, Check, Loader2, AlertCircle } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
+import {
+  ArrowRight,
+  Check,
+  Envelope,
+  SpinnerGap,
+  WarningCircle,
+} from "@phosphor-icons/react";
 
 /**
  * Formspree フォームID
@@ -95,7 +101,7 @@ export function EmailCapture() {
   return (
     <div className="rounded-2xl bg-muted/50 p-6 sm:p-8">
       <div className="flex items-start gap-3">
-        <Mail className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
+        <Envelope className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
         <div className="flex-1">
           <h3 className="text-sm font-semibold">
             医療AI の最新情報を受け取る
@@ -112,7 +118,7 @@ export function EmailCapture() {
           ) : submitState === "error" ? (
             <div className="mt-4 space-y-2">
               <div className="flex items-center gap-2 text-sm text-destructive">
-                <AlertCircle className="h-4 w-4" />
+                <WarningCircle className="h-4 w-4" />
                 送信に失敗しました。もう一度お試しください。
               </div>
               <button
@@ -144,7 +150,7 @@ export function EmailCapture() {
               >
                 {submitState === "submitting" ? (
                   <>
-                    <Loader2 className="h-3 w-3 animate-spin" />
+                    <SpinnerGap className="h-3 w-3 animate-spin" />
                     送信中
                   </>
                 ) : (

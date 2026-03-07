@@ -1,4 +1,6 @@
-import { Rocket } from "lucide-react";
+import {
+  Rocket,
+} from "@phosphor-icons/react";
 import type { ReactNode } from "react";
 
 interface ActionItemProps {

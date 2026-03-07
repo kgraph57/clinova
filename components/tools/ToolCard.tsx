@@ -1,15 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import {
-  ExternalLink,
-  ChevronDown,
-  ChevronUp,
-  ShieldCheck,
-  Globe,
-  Award,
-} from "lucide-react";
 import type { AITool } from "./ToolComparisonContent";
+import {
+  ArrowSquareOut,
+  CaretDown,
+  CaretUp,
+  Globe,
+  Medal,
+  ShieldCheck,
+} from "@phosphor-icons/react";
 
 interface ToolCardProps {
   readonly tool: AITool;
@@ -32,7 +32,7 @@ export function ToolCard({ tool }: ToolCardProps) {
           className="text-muted-foreground transition-colors hover:text-foreground"
           aria-label={`${tool.name}のサイトを開く`}
         >
-          <ExternalLink className="h-4 w-4" />
+          <ArrowSquareOut className="h-4 w-4" />
         </a>
       </div>
 
@@ -51,7 +51,7 @@ export function ToolCard({ tool }: ToolCardProps) {
         )}
         {tool.medicalCertification && (
           <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-2 py-0.5 text-[10px] text-amber-600 dark:bg-amber-950/30 dark:text-amber-400">
-            <Award className="h-3 w-3" />
+            <Medal className="h-3 w-3" />
             認証済
           </span>
         )}
@@ -65,9 +65,9 @@ export function ToolCard({ tool }: ToolCardProps) {
       >
         {expanded ? "閉じる" : "詳細を見る"}
         {expanded ? (
-          <ChevronUp className="h-3 w-3" />
+          <CaretUp className="h-3 w-3" />
         ) : (
-          <ChevronDown className="h-3 w-3" />
+          <CaretDown className="h-3 w-3" />
         )}
       </button>
 

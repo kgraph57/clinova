@@ -2,12 +2,16 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Clock, BookOpen, ArrowRight } from "lucide-react";
 import { fadeInUp } from "@/lib/animations";
 import { CATEGORIES } from "@/lib/constants";
 import { useProgress } from "@/components/learn/ProgressProvider";
 import { LevelBadge } from "@/components/learn/LevelBadge";
 import type { CourseMetadata } from "@/lib/courses";
+import {
+  ArrowRight,
+  BookOpen,
+  Clock,
+} from "@phosphor-icons/react";
 
 interface CourseCardProps {
   course: CourseMetadata;

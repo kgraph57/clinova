@@ -1,9 +1,12 @@
 "use client";
 
-import { CheckCircle2, Circle } from "lucide-react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { useProgress } from "@/components/learn/ProgressProvider";
+import {
+  CheckCircle,
+  Circle,
+} from "@phosphor-icons/react";
 
 interface LessonCompleteButtonProps {
   readonly courseId: string;
@@ -34,7 +37,7 @@ export function LessonCompleteButton({
         )}
       >
         {completed ? (
-          <CheckCircle2 className="h-5 w-5" />
+          <CheckCircle className="h-5 w-5" />
         ) : (
           <Circle className="h-5 w-5 text-muted-foreground" />
         )}

@@ -4,11 +4,16 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowRight, ChevronDown, ChevronUp, Clock } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 import { USE_CASES, getUseCaseArticles } from "@/lib/use-cases";
 import { CONTENT_TYPES } from "@/lib/constants";
 import type { Article } from "@/lib/types";
+import {
+  ArrowRight,
+  CaretDown,
+  CaretUp,
+  Clock,
+} from "@phosphor-icons/react";
 
 const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
@@ -103,12 +108,12 @@ function UseCaseSection({
           >
             {expanded ? (
               <>
-                <ChevronUp className="h-4 w-4" />
+                <CaretUp className="h-4 w-4" />
                 閉じる
               </>
             ) : (
               <>
-                <ChevronDown className="h-4 w-4" />
+                <CaretDown className="h-4 w-4" />
                 関連コンテンツをもっと見る ({related.length}件)
               </>
             )}

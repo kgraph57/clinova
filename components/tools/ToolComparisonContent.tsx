@@ -1,9 +1,13 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Search, LayoutGrid, Table2 } from "lucide-react";
 import { ToolCard } from "./ToolCard";
 import { ToolComparisonTable } from "./ToolComparisonTable";
+import {
+  MagnifyingGlass,
+  SquaresFour,
+  Table,
+} from "@phosphor-icons/react";
 
 export interface AITool {
   readonly id: string;
@@ -54,7 +58,7 @@ export function ToolComparisonContent({ tools }: ToolComparisonContentProps) {
     <div>
       <div className="flex items-center gap-3">
         <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+          <MagnifyingGlass className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <input
             type="text"
             value={query}
@@ -73,7 +77,7 @@ export function ToolComparisonContent({ tools }: ToolComparisonContentProps) {
             }`}
             aria-label="カード表示"
           >
-            <LayoutGrid className="h-4 w-4" />
+            <SquaresFour className="h-4 w-4" />
           </button>
           <button
             onClick={() => setViewMode("table")}
@@ -84,7 +88,7 @@ export function ToolComparisonContent({ tools }: ToolComparisonContentProps) {
             }`}
             aria-label="テーブル表示"
           >
-            <Table2 className="h-4 w-4" />
+            <Table className="h-4 w-4" />
           </button>
         </div>
       </div>

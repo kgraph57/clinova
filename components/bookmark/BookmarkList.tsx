@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Bookmark, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import {
@@ -11,6 +10,10 @@ import {
   type BookmarkItem,
 } from "@/lib/storage";
 import { CONTENT_TYPES } from "@/lib/constants";
+import {
+  Bookmark,
+  Trash,
+} from "@phosphor-icons/react";
 
 export function BookmarkList() {
   const [items, setItems] = useState<readonly BookmarkItem[]>([]);
@@ -64,7 +67,7 @@ export function BookmarkList() {
               onClick={() => handleRemove(item.slug)}
               aria-label="ブックマーク解除"
             >
-              <Trash2 className="h-4 w-4" />
+              <Trash className="h-4 w-4" />
             </Button>
           </li>
         );

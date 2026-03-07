@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Sparkles, ArrowRight } from "lucide-react";
 import { containerVariants } from "@/lib/animations";
 import { ArticleCard } from "@/components/knowledge/ArticleCard";
 import type { Article } from "@/lib/types";
+import {
+  ArrowRight,
+  Sparkle,
+} from "@phosphor-icons/react";
 
 interface WeeklyPickupProps {
   readonly articles: Article[];
@@ -20,7 +23,7 @@ export function WeeklyPickup({ articles }: WeeklyPickupProps) {
         <div className="flex items-end justify-between">
           <div>
             <div className="mb-2 flex items-center gap-2">
-              <Sparkles className="h-5 w-5 text-amber-500" />
+              <Sparkle className="h-5 w-5 text-amber-500" />
               <span className="text-sm font-medium text-amber-600 dark:text-amber-400">
                 Weekly Pickup
               </span>

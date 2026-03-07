@@ -2,10 +2,17 @@
 
 import { useRef, useState, useCallback, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Github, Star, ArrowUpRight, ChevronLeft, ChevronRight, Clock } from "lucide-react"
 import { containerVariants, fadeInUp } from "@/lib/animations"
 import { cn } from "@/lib/utils"
 import type { GitHubRepo } from "@/lib/types"
+import {
+  ArrowUpRight,
+  CaretLeft,
+  CaretRight,
+  Clock,
+  GithubLogo,
+  Star,
+} from "@phosphor-icons/react";
 
 const LANGUAGE_COLORS: Record<string, string> = {
   TypeScript: "bg-blue-500",
@@ -77,7 +84,7 @@ export function GitHubSection({ repos }: GitHubSectionProps) {
         <div className="flex items-end justify-between">
           <div>
             <div className="flex items-center gap-3">
-              <Github className="h-5 w-5" />
+              <GithubLogo className="h-5 w-5" />
               <h2 className="font-serif text-3xl tracking-tight sm:text-4xl">
                 GitHub
               </h2>
@@ -107,7 +114,7 @@ export function GitHubSection({ repos }: GitHubSectionProps) {
               )}
               aria-label="前へスクロール"
             >
-              <ChevronLeft className="h-4 w-4" />
+              <CaretLeft className="h-4 w-4" />
             </button>
             <button
               onClick={() => scroll("right")}
@@ -120,7 +127,7 @@ export function GitHubSection({ repos }: GitHubSectionProps) {
               )}
               aria-label="次へスクロール"
             >
-              <ChevronRight className="h-4 w-4" />
+              <CaretRight className="h-4 w-4" />
             </button>
           </div>
         </div>
@@ -189,7 +196,7 @@ export function GitHubSection({ repos }: GitHubSectionProps) {
             rel="noopener noreferrer"
             className="group flex w-[300px] flex-none snap-start flex-col items-center justify-center rounded-2xl border border-dashed p-6 transition-colors hover:bg-muted/50 sm:w-[340px]"
           >
-            <Github className="h-8 w-8 text-muted-foreground transition-colors group-hover:text-foreground" />
+            <GithubLogo className="h-8 w-8 text-muted-foreground transition-colors group-hover:text-foreground" />
             <p className="mt-3 text-sm font-medium">
               すべてのリポジトリを見る
             </p>

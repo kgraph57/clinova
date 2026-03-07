@@ -2,11 +2,15 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Clock, ArrowRight, Check } from "lucide-react";
 import { fadeInUp } from "@/lib/animations";
 import { useProgress } from "@/components/learn/ProgressProvider";
 import { cn } from "@/lib/utils";
 import type { LessonMetadata } from "@/lib/courses";
+import {
+  ArrowRight,
+  Check,
+  Clock,
+} from "@phosphor-icons/react";
 
 interface LessonListItemProps {
   courseId: string;

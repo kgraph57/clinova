@@ -2,9 +2,12 @@
 
 import { useCallback, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { ChevronDown, List } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { TocItem } from "@/lib/toc";
+import {
+  CaretDown,
+  List,
+} from "@phosphor-icons/react";
 
 interface MobileTocProps {
   readonly items: readonly TocItem[];
@@ -26,7 +29,7 @@ export function MobileToc({ items }: MobileTocProps) {
       >
         <List className="h-4 w-4" />
         <span>目次を見る</span>
-        <ChevronDown
+        <CaretDown
           className={cn(
             "ml-auto h-4 w-4 transition-transform duration-200",
             open && "rotate-180",

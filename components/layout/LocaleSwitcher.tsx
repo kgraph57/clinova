@@ -2,8 +2,10 @@
 
 import { useCallback } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { Globe } from "lucide-react";
 import { LOCALES, DEFAULT_LOCALE, type Locale } from "@/lib/i18n/config";
+import {
+  Globe,
+} from "@phosphor-icons/react";
 
 export function LocaleSwitcher() {
   const pathname = usePathname();

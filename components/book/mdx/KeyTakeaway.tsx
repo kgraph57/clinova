@@ -1,4 +1,6 @@
-import { BookOpen } from "lucide-react";
+import {
+  BookOpen,
+} from "@phosphor-icons/react";
 
 interface KeyTakeawayProps {
   readonly title?: string;

@@ -1,5 +1,11 @@
+import {
+  ArrowLeft,
+  BookOpen,
+  Envelope,
+  GraduationCap,
+  Newspaper,
+} from "@phosphor-icons/react/ssr";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, GraduationCap, Newspaper, Mail } from "lucide-react";
 
 export default function NotFound() {
   return (
@@ -51,7 +57,7 @@ export default function NotFound() {
           href="/contact"
           className="flex items-center gap-3 rounded-xl border p-4 transition-colors hover:bg-muted"
         >
-          <Mail className="h-5 w-5 text-muted-foreground" />
+          <Envelope className="h-5 w-5 text-muted-foreground" />
           <div>
             <p className="text-sm font-medium">お問い合わせ</p>
             <p className="text-xs text-muted-foreground">

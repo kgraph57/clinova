@@ -1,21 +1,21 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { containerVariants, fadeInUp } from "@/lib/animations";
 import {
-  Mic,
-  Users,
+  Calendar,
   GraduationCap,
+  Microphone,
   Presentation,
   UserCheck,
-  Calendar,
-} from "lucide-react";
-import { containerVariants, fadeInUp } from "@/lib/animations";
+  Users,
+} from "@phosphor-icons/react";
 
 type TimelineItem = {
   period: string;
   title: string;
   description: string;
-  icon: typeof Mic;
+  icon: typeof Microphone;
   tag: string;
   highlight?: boolean;
 };
@@ -26,7 +26,7 @@ const TIMELINE: TimelineItem[] = [
     title: "院内AIセミナー 開始",
     description:
       "国立成育医療研究センターにて医師・医療従事者向けの生成AIセミナーを企画・開講。全7回シリーズとして継続的に実施。",
-    icon: Mic,
+    icon: Microphone,
     tag: "セミナー",
   },
   {

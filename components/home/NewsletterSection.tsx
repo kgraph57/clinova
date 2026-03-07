@@ -2,9 +2,14 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Newspaper, ArrowRight, Clock, Calendar } from "lucide-react";
 import { containerVariants, fadeInUp } from "@/lib/animations";
 import type { Article } from "@/lib/types";
+import {
+  ArrowRight,
+  Calendar,
+  Clock,
+  Newspaper,
+} from "@phosphor-icons/react";
 
 interface NewsletterSectionProps {
   articles: Article[];

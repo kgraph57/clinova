@@ -1,26 +1,26 @@
 "use client";
 
 import { useState } from "react";
-import {
-  Send,
-  Mail,
-  Mic,
-  PenTool,
-  BookOpen,
-  GraduationCap,
-  MessageSquare,
-} from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
+import {
+  BookOpen,
+  ChatCircleDots,
+  Envelope,
+  GraduationCap,
+  Microphone,
+  PaperPlaneTilt,
+  PenNib,
+} from "@phosphor-icons/react";
 
 const REQUEST_TYPES = [
-  { id: "lecture", icon: Mic, label: "講演・セミナー" },
-  { id: "writing", icon: PenTool, label: "執筆・連載" },
+  { id: "lecture", icon: Microphone, label: "講演・セミナー" },
+  { id: "writing", icon: PenNib, label: "執筆・連載" },
   { id: "supervision", icon: BookOpen, label: "監修・コンサル" },
   { id: "training", icon: GraduationCap, label: "研修・ワークショップ" },
-  { id: "other", icon: MessageSquare, label: "その他" },
+  { id: "other", icon: ChatCircleDots, label: "その他" },
 ] as const;
 
 export default function ContactPage() {
@@ -152,7 +152,7 @@ export default function ContactPage() {
           disabled={loading}
           className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-80 disabled:opacity-50"
         >
-          <Send className="h-4 w-4" />
+          <PaperPlaneTilt className="h-4 w-4" />
           {loading ? "送信中..." : "メールで送信する"}
         </button>
       </form>
@@ -167,7 +167,7 @@ export default function ContactPage() {
           href="mailto:contact@hoshizu.dev"
           className="mt-3 inline-flex items-center gap-2 text-sm font-medium transition-colors hover:text-muted-foreground"
         >
-          <Mail className="h-4 w-4" />
+          <Envelope className="h-4 w-4" />
           contact@hoshizu.dev
         </a>
       </div>

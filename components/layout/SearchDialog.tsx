@@ -4,14 +4,14 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Command } from "cmdk";
 import {
+  Article,
   BookOpen,
   GraduationCap,
   Lightbulb,
-  FileText,
+  MagnifyingGlass,
   Newspaper,
-  Search,
-  Sparkles,
-} from "lucide-react";
+  Sparkle,
+} from "@phosphor-icons/react";
 
 interface SearchEntry {
   readonly slug: string;
@@ -24,10 +24,10 @@ interface SearchEntry {
 }
 
 const TYPE_ICONS: Record<string, typeof BookOpen> = {
-  prompt: Sparkles,
+  prompt: Sparkle,
   tip: Lightbulb,
   guide: BookOpen,
-  article: FileText,
+  article: Article,
   news: Newspaper,
   course: GraduationCap,
 };
@@ -101,7 +101,7 @@ export function SearchDialog() {
         aria-label="検索"
         className="hidden items-center gap-2 rounded-lg border bg-muted/50 px-3 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-muted md:inline-flex"
       >
-        <Search className="h-3.5 w-3.5" />
+        <MagnifyingGlass className="h-3.5 w-3.5" />
         <span>検索</span>
         <kbd className="pointer-events-none ml-2 hidden select-none rounded border bg-background px-1.5 py-0.5 font-mono text-[10px] font-medium lg:inline-block">
           ⌘K
@@ -114,7 +114,7 @@ export function SearchDialog() {
         aria-label="検索"
         className="flex h-8 w-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground md:hidden"
       >
-        <Search className="h-4 w-4" />
+        <MagnifyingGlass className="h-4 w-4" />
       </button>
 
       {/* Modal overlay */}
@@ -130,7 +130,7 @@ export function SearchDialog() {
               shouldFilter={true}
             >
               <div className="flex items-center gap-2 border-b px-4">
-                <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
+                <MagnifyingGlass className="h-4 w-4 shrink-0 text-muted-foreground" />
                 <Command.Input
                   autoFocus
                   value={query}
@@ -153,7 +153,7 @@ export function SearchDialog() {
                 </Command.Empty>
 
                 {Object.entries(grouped).map(([type, items]) => {
-                  const Icon = TYPE_ICONS[type] ?? FileText;
+                  const Icon = TYPE_ICONS[type] ?? Article;
                   const label = TYPE_LABELS[type] ?? type;
 
                   return (

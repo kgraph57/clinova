@@ -1,10 +1,13 @@
 "use client"
 
-import { Search, X } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { useRouter, useSearchParams } from "next/navigation"
 import { useState, useEffect, useCallback } from "react"
+import {
+  MagnifyingGlass,
+  X,
+} from "@phosphor-icons/react";
 
 export function SearchBar() {
   const router = useRouter()
@@ -31,7 +34,7 @@ export function SearchBar() {
 
   return (
     <div className="relative">
-      <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+      <MagnifyingGlass className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
       <Input
         type="search"
         placeholder="キーワードで検索..."

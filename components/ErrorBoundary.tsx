@@ -2,7 +2,10 @@
 
 import { Component, type ReactNode } from "react";
 import Link from "next/link";
-import { AlertTriangle, RefreshCw } from "lucide-react";
+import {
+  ArrowsClockwise,
+  Warning,
+} from "@phosphor-icons/react";
 
 interface Props {
   readonly children: ReactNode;
@@ -44,7 +47,7 @@ export class ErrorBoundary extends Component<Props, State> {
 
       return (
         <div className="flex min-h-[40vh] flex-col items-center justify-center px-6 text-center">
-          <AlertTriangle className="h-10 w-10 text-muted-foreground" />
+          <Warning className="h-10 w-10 text-muted-foreground" />
           <h2 className="mt-4 font-serif text-2xl">
             表示できませんでした
           </h2>
@@ -56,7 +59,7 @@ export class ErrorBoundary extends Component<Props, State> {
               onClick={this.handleReset}
               className="inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-medium transition-colors hover:bg-muted"
             >
-              <RefreshCw className="h-3.5 w-3.5" />
+              <ArrowsClockwise className="h-3.5 w-3.5" />
               再試行
             </button>
             <Link
