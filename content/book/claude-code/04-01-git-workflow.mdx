@@ -1,6 +1,6 @@
 ---
 title: "Git連携 — コミットからPRまでをAIと共に"
-description: "Claude Codeによるgit status確認、差分分析、コミットメッセージ生成、PR作成。日常のGitワークフローがどう変わるかを解説する。"
+description: "Claude Codeによるgit status確認、差分分析、コミットメッセージ生成、PR作成。日常のGitワークフローがどう変わるかを扱う。"
 slug: "04-01-git-workflow"
 order: 12
 partId: "part04"
@@ -14,7 +14,7 @@ publishedAt: "2026-03-02"
 updatedAt: "2026-03-02"
 ---
 
-**Gitの操作は開発の根幹である。Claude Codeは、状態確認からコミット、PR作成まで、Gitワークフロー全体を一貫して支援する。**
+Gitの操作は開発の根幹だ。Claude Codeは、状態確認からコミット、PR作成まで、Gitワークフロー全体を一貫して支援する。
 
 ---
 
@@ -22,10 +22,10 @@ updatedAt: "2026-03-02"
 
 Claude Codeには、Gitに関する明確な安全哲学がある。
 
-1. **新規コミットを優先**: `--amend` よりも新しいコミットを作る
-2. **Hooksをスキップしない**: `--no-verify` は使わない
-3. **force pushしない**: `--force` は原則禁止
-4. **破壊的操作を避ける**: `reset --hard`、`checkout .` は慎重に
+1. 新規コミットを優先: `--amend` よりも新しいコミットを作る
+2. Hooksをスキップしない: `--no-verify` は使わない
+3. force pushしない: `--force` は原則禁止
+4. 破壊的操作を避ける: `reset --hard`、`checkout .` は慎重に
 
 この哲学は「取り消しの効かない操作を避ける」という原則に基づいている。
 
@@ -52,7 +52,7 @@ Claude Codeは以下の手順を踏む。
 1. `git status` で未追跡ファイルを確認
 2. `git diff` でステージ済み・未ステージの変更を確認
 3. `git log` で最近のコミットメッセージのスタイルを確認
-4. 変更内容を分析し、**Conventional Commits**形式でメッセージを生成
+4. 変更内容を分析し、Conventional Commits形式でメッセージを生成
 
 ### Conventional Commits
 

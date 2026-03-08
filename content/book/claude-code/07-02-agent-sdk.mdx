@@ -1,6 +1,6 @@
 ---
 title: "Agent SDK — カスタムエージェントを構築する"
-description: "Claude Agent SDKを使って、独自のAIエージェントを構築する。ツール定義、ガードレール、マルチエージェント構成の実装方法を解説する。"
+description: "Claude Agent SDKを使って、独自のAIエージェントを構築する。ツール定義、ガードレール、マルチエージェント構成の実装方法を扱う。"
 slug: "07-02-agent-sdk"
 order: 24
 partId: "part07"
@@ -14,15 +14,15 @@ publishedAt: "2026-03-02"
 updatedAt: "2026-03-02"
 ---
 
-**Claude Codeは「使う」ものだが、Agent SDKは「作る」ためのものだ。自分だけのAIエージェントを構築し、特定のワークフローを自動化する。**
+Claude Codeは「使う」ものだが、Agent SDKは「作る」ためのものだ。自分だけのAIエージェントを構築し、特定のワークフローを自動化する。
 
 ---
 
 ## Agent SDKとは
 
-Claude Agent SDKは、カスタムAIエージェントをプログラマティックに構築するためのフレームワークである。
+Claude Agent SDKは、カスタムAIエージェントをプログラマティックに構築するためのフレームワークだ。
 
-**Claude Codeとの違い:**
+Claude Codeとの違い:
 
 | | Claude Code | Agent SDK |
 |---|------------|-----------|
@@ -155,10 +155,10 @@ PRが作成されるたびに、Agent SDKで構築したレビューBotが自動
 
 Agent SDKで構築したエージェントは、様々な環境にデプロイできる。
 
-- **ローカル**: 開発・テスト用
-- **サーバー**: REST API として常時稼働
-- **CI/CD**: GitHub Actions 等から呼び出し
-- **Webhook**: イベント駆動で自動実行
+- ローカル: 開発・テスト用
+- サーバー: REST API として常時稼働
+- CI/CD: GitHub Actions 等から呼び出し
+- Webhook: イベント駆動で自動実行
 
 <KeyTakeaway>
 - Agent SDKはカスタムAIエージェントをプログラマティックに構築するフレームワーク

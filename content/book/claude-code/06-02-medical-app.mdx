@@ -1,6 +1,6 @@
 ---
 title: "医療アプリを作る — Hoshizuの開発事例"
-description: "実際の医療AIナレッジポータル「Hoshizu」はClaude Codeでどう作られたか。MDXコンテンツ管理、検索、PWA対応の実装過程を紹介する。"
+description: "実際の医療AIナレッジポータル「Hoshizu」はClaude Codeでどう作られたか。MDXコンテンツ管理、検索、PWA対応の実装過程を見ていく。"
 slug: "06-02-medical-app"
 order: 21
 partId: "part06"
@@ -14,7 +14,7 @@ publishedAt: "2026-03-02"
 updatedAt: "2026-03-02"
 ---
 
-**本書を読んでいるこのサイト「Hoshizu」自体が、Claude Codeで構築された医療アプリケーションである。その開発過程を公開する。**
+本書を読んでいるこのサイト「Hoshizu」自体が、Claude Codeで構築された医療アプリケーションだ。その開発過程を公開する。
 
 ---
 
@@ -22,13 +22,13 @@ updatedAt: "2026-03-02"
 
 Hoshizuは、医療AIに関するナレッジポータルである。
 
-- **Books**: 体系的な学習コンテンツ（本書を含む）
-- **Learn**: 記事形式のナレッジベース
-- **Knowledge**: 疾患・薬剤データベース
-- **Tools**: プロンプトテンプレート集
-- **Glossary**: 用語集
+- Books: 体系的な学習コンテンツ（本書を含む）
+- Learn: 記事形式のナレッジベース
+- Knowledge: 疾患・薬剤データベース
+- Tools: プロンプトテンプレート集
+- Glossary: 用語集
 
-すべてのコンテンツは**MDX**（Markdown + JSX）で管理され、Next.jsで静的サイトとして生成される。
+すべてのコンテンツはMDX（Markdown + JSX）で管理され、Next.jsで静的サイトとして生成される。
 
 ---
 
@@ -72,9 +72,9 @@ hoshizu/
 
 Hoshizuの書籍機能は3層構造を取る。
 
-1. **Book**（`_index.mdx`）: 書籍全体のメタデータとPart/Chapter定義
-2. **Part**: 論理的なセクション分け（Part 1「基礎」、Part 2「応用」等）
-3. **Chapter**（`XX-YY-slug.mdx`）: 個別の章
+1. Book（`_index.mdx`）: 書籍全体のメタデータとPart/Chapter定義
+2. Part: 論理的なセクション分け（Part 1「基礎」、Part 2「応用」等）
+3. Chapter（`XX-YY-slug.mdx`）: 個別の章
 
 ```yaml
 # _index.mdx のフロントマター
@@ -90,7 +90,7 @@ parts:
 
 ### Claude Codeでの量産
 
-26章の書籍コンテンツを作成する際、Claude Codeの**並列エージェント**機能を活用した。
+26章の書籍コンテンツを作成する際、Claude Codeの並列エージェント機能を活用した。
 
 1. `_index.mdx` で全体構成を定義
 2. 複数のエージェントを並列起動し、各Partを同時に執筆
@@ -137,9 +137,9 @@ Claude Codeは `scripts/generate-search-index.ts` を作成し、ビルド時に
 
 ### Service Worker キャッシュ戦略
 
-- **静的アセット**: Cache First（フォント、画像）
-- **HTMLページ**: Stale While Revalidate（オフライン閲覧可能）
-- **API**: Network First
+- 静的アセット: Cache First（フォント、画像）
+- HTMLページ: Stale While Revalidate（オフライン閲覧可能）
+- API: Network First
 
 ---
 

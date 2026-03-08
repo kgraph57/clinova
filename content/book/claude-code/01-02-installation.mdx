@@ -1,6 +1,6 @@
 ---
 title: "インストールとセットアップ — 5分で始めるClaude Code"
-description: "macOS、Linux、Windows（WSL）でのインストール手順。APIキーの設定からVSCode連携まで、最短で動かす方法を解説する。"
+description: "macOS、Linux、Windows（WSL）でのインストール手順。APIキーの設定からVSCode連携まで、最短で動かす方法を扱う。"
 slug: "01-02-installation"
 order: 2
 partId: "part01"
@@ -14,7 +14,7 @@ publishedAt: "2026-03-02"
 updatedAt: "2026-03-02"
 ---
 
-**5分でインストールし、最初のコマンドを打つ。Claude Codeの世界への入り口は驚くほどシンプルである。**
+5分でインストールし、最初のコマンドを打つ。Claude Codeの世界への入り口は驚くほどシンプルだ。
 
 ---
 
@@ -24,13 +24,13 @@ Claude Codeを使うには、以下が必要である。
 
 ### 必須
 
-- **Node.js 18以上**: JavaScript実行環境。Claude Codeはnpmパッケージとして配布されている
-- **Anthropic APIキー** または **Claude Max/Teamサブスクリプション**: AIを動かすための認証
+- Node.js 18以上: JavaScript実行環境。Claude Codeはnpmパッケージとして配布されている
+- Anthropic APIキー または Claude Max/Teamサブスクリプション: AIを動かすための認証
 
 ### 推奨
 
-- **Git**: バージョン管理（Claude Codeのgit連携機能を使うために必要）
-- **VSCode**: IDE連携（Claude Code VSCode拡張機能が利用可能）
+- Git: バージョン管理（Claude Codeのgit連携機能を使うために必要）
+- VSCode: IDE連携（Claude Code VSCode拡張機能が利用可能）
 
 <Callout type="info" title="Node.jsが入っていない場合">
 macOSなら `brew install node`、Linuxなら `sudo apt install nodejs npm` でインストールできる。バージョンは `node --version` で確認する。v18以上が必要。
@@ -60,7 +60,7 @@ claude
 
 認証には2つの方法がある。
 
-**方法A: Anthropic APIキー**
+方法A: Anthropic APIキー
 
 ```bash
 export ANTHROPIC_API_KEY="sk-ant-api03-xxxxxxxxxxxxx"
@@ -68,12 +68,12 @@ export ANTHROPIC_API_KEY="sk-ant-api03-xxxxxxxxxxxxx"
 
 APIキーは [console.anthropic.com](https://console.anthropic.com) で取得できる。`.bashrc` や `.zshrc` に追加しておくと、毎回設定する必要がなくなる。
 
-**方法B: Claude Max / Teamサブスクリプション**
+方法B: Claude Max / Teamサブスクリプション
 
 Claude MaxまたはTeamプランに加入している場合、ブラウザ認証で連携できる。初回起動時に表示されるURLをブラウザで開き、認証を完了する。
 
 <Callout type="warning" title="APIキーの取り扱い">
-APIキーは秘密鍵である。GitHubにpushしたり、他人と共有してはならない。`.env` ファイルや環境変数で管理し、`.gitignore` に含めること。
+APIキーは秘密鍵だ。GitHubにpushしたり、他人と共有してはならない。`.env` ファイルや環境変数で管理し、`.gitignore` に含めること。
 </Callout>
 
 ---
@@ -87,7 +87,7 @@ cd ~/my-project
 claude
 ```
 
-以下のようなウェルカム画面が表示されれば成功である。
+以下のようなウェルカム画面が表示されれば成功だ。
 
 ```
 ╭──────────────────────────────────────────────╮
@@ -121,9 +121,9 @@ Claude CodeにはVSCode拡張機能が用意されている。
 
 ### VSCode連携の利点
 
-- **ファイル参照がクリック可能**: Claude Codeが出力するファイルパスをクリックすると、VSCodeでそのファイルが開く
-- **選択範囲の送信**: エディタでコードを選択した状態でClaude Codeに質問すると、選択箇所が自動的にコンテキストに含まれる
-- **統合ターミナル**: VSCodeのターミナル内でClaude Codeを起動できるため、エディタとの行き来がスムーズ
+- ファイル参照がクリック可能: Claude Codeが出力するファイルパスをクリックすると、VSCodeでそのファイルが開く
+- 選択範囲の送信: エディタでコードを選択した状態でClaude Codeに質問すると、選択箇所が自動的にコンテキストに含まれる
+- 統合ターミナル: VSCodeのターミナル内でClaude Codeを起動できるため、エディタとの行き来がスムーズ
 
 ---
 
@@ -150,7 +150,7 @@ Node.jsのバージョンが古い場合は、[nvm](https://github.com/nvm-sh/nv
 
 ### Windows (WSL)
 
-Claude CodeはネイティブWindowsでは動作しない。**WSL（Windows Subsystem for Linux）**が必要である。
+Claude CodeはネイティブWindowsでは動作しない。WSL（Windows Subsystem for Linux）が必要だ。
 
 ```bash
 # WSLのUbuntu内で

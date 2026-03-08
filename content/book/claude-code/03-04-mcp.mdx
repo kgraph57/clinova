@@ -1,6 +1,6 @@
 ---
 title: "MCP Servers — 外部世界とつながる"
-description: "Model Context Protocol（MCP）でClaude Codeの能力を拡張する。GitHub、データベース、外部APIとの連携方法を解説する。"
+description: "Model Context Protocol（MCP）でClaude Codeの能力を拡張する。GitHub、データベース、外部APIとの連携方法を扱う。"
 slug: "03-04-mcp"
 order: 11
 partId: "part03"
@@ -14,23 +14,23 @@ publishedAt: "2026-03-02"
 updatedAt: "2026-03-02"
 ---
 
-**Claude Codeは、ローカルのファイルシステムとWebだけで動作するわけではない。MCPを通じて、GitHub、データベース、外部API、あらゆるサービスと連携できる。**
+Claude Codeは、ローカルのファイルシステムとWebだけで動作するわけではない。MCPを通じて、GitHub、データベース、外部API、あらゆるサービスと連携できる。
 
 ---
 
 ## MCPとは何か
 
-**MCP（Model Context Protocol）** は、AIモデルと外部ツール・データソースを接続するためのオープンプロトコルである。Anthropicが策定し、オープンスタンダードとして公開している。
+MCP（Model Context Protocol） は、AIモデルと外部ツール・データソースを接続するためのオープンプロトコルだ。Anthropicが策定し、オープンスタンダードとして公開している。
 
-簡単に言えば、MCPは**「AIにプラグインを追加する仕組み」**である。
+簡単に言えば、MCPは「AIにプラグインを追加する仕組み」である。
 
 Claude Codeは標準でファイル操作やBash実行ができるが、MCPサーバーを追加することで、以下のような機能を得られる。
 
-- **GitHub**: Issue、PR、リポジトリ操作を認証付きで実行
-- **データベース**: PostgreSQL、MySQL等へのクエリ実行
-- **Slack**: メッセージの送受信
-- **Google Drive**: ドキュメントの読み書き
-- **カスタムAPI**: 任意のREST/GraphQL APIとの連携
+- GitHub: Issue、PR、リポジトリ操作を認証付きで実行
+- データベース: PostgreSQL、MySQL等へのクエリ実行
+- Slack: メッセージの送受信
+- Google Drive: ドキュメントの読み書き
+- カスタムAPI: 任意のREST/GraphQL APIとの連携
 
 ---
 
@@ -45,7 +45,7 @@ Claude Code ←→ MCP Client ←→ MCP Server ←→ 外部サービス
 3. MCP ServerがGitHub APIを呼び出す
 4. 結果がClaude Codeに返される
 
-この仕組みにより、Claude Code自体を改造することなく、新しいサービスとの連携を**追加**できる。
+この仕組みにより、Claude Code自体を改造することなく、新しいサービスとの連携を追加できる。
 
 ---
 
@@ -111,7 +111,7 @@ PostgreSQLやMySQLに直接クエリを実行できる。
 
 ## MCPのセキュリティ
 
-MCPは強力だが、セキュリティ上の考慮が必要である。
+MCPは強力だが、セキュリティ上の考慮が必要だ。
 
 ### 最小権限
 
@@ -166,10 +166,10 @@ server.setRequestHandler("tools/call", async (request) => {
 
 ### 医療現場での応用例
 
-- **電子カルテAPI連携**: 患者データの読み取り（読み取り専用で安全に）
-- **DICOM画像サーバー**: 医用画像の検索と表示
-- **薬剤データベース**: 薬剤情報の検索と相互作用チェック
-- **ガイドラインデータベース**: 最新の診療ガイドラインの検索
+- 電子カルテAPI連携: 患者データの読み取り（読み取り専用で安全に）
+- DICOM画像サーバー: 医用画像の検索と表示
+- 薬剤データベース: 薬剤情報の検索と相互作用チェック
+- ガイドラインデータベース: 最新の診療ガイドラインの検索
 
 ---
 
@@ -177,11 +177,11 @@ server.setRequestHandler("tools/call", async (request) => {
 
 MCPはオープンスタンダードとして急速に成長している。
 
-- **エコシステムの拡大**: 新しいMCPサーバーが日々公開されている
-- **標準化**: 他のAIプラットフォームもMCPを採用し始めている
-- **セキュリティ強化**: 認証・認可の標準化が進行中
+- エコシステムの拡大: 新しいMCPサーバーが日々公開されている
+- 標準化: 他のAIプラットフォームもMCPを採用し始めている
+- セキュリティ強化: 認証・認可の標準化が進行中
 
-MCPを理解しておくことは、Claude Codeだけでなく、AI開発全般の未来を見据える上で重要な投資である。
+MCPを理解しておくことは、Claude Codeだけでなく、AI開発全般の未来を見据える上で重要な投資だ。
 
 <KeyTakeaway>
 - MCPはAIモデルと外部サービスを接続するオープンプロトコル
