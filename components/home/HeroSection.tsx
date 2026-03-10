@@ -5,16 +5,14 @@ import { motion } from "framer-motion";
 import { TextReveal } from "@/components/effects/TextReveal";
 import { MagneticButton } from "@/components/effects/MagneticButton";
 import { StarField } from "@/components/effects/StarField";
-import {
-  CaretDown,
-} from "@phosphor-icons/react";
+import { CaretDown } from "@phosphor-icons/react";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
 export function HeroSection() {
   return (
     <section className="relative -mt-16 flex min-h-svh flex-col justify-end bg-[#0a0a0f] px-6 pb-24 sm:pb-32 lg:pb-40">
-      <StarField count={150} revealRadius={220} />
+      <StarField count={150} revealRadius={120} />
 
       <div className="relative z-10 mx-auto w-full max-w-[1200px]">
         {/* Eyebrow — top-left quiet label */}

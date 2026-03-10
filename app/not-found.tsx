@@ -1,11 +1,13 @@
+"use client";
+
+import Link from "next/link";
 import {
   ArrowLeft,
   BookOpen,
   Envelope,
   GraduationCap,
   Newspaper,
-} from "@phosphor-icons/react/ssr";
-import Link from "next/link";
+} from "@phosphor-icons/react";
 
 export default function NotFound() {
   return (

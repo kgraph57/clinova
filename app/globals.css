@@ -531,6 +531,20 @@ html {
   color: var(--surface-dark-fg);
 }
 
+/* ── Marquee animation ─────────────────── */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 1.5rem));
+  }
+}
+
+.animate-marquee {
+  animation: marquee var(--marquee-duration, 40s) linear infinite;
+}
+
 /* ── Reduced motion ────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   *,

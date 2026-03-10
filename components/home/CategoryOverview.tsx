@@ -7,6 +7,7 @@ import { CATEGORIES } from "@/lib/constants";
 import { ICON_MAP } from "@/lib/category-icons";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "@phosphor-icons/react";
+import { TiltCard } from "@/components/effects/TiltCard";
 
 const WARM_COLORS = [
   "bg-warm-sage",
@@ -22,7 +23,7 @@ interface CategoryOverviewProps {
 
 export function CategoryOverview({ counts }: CategoryOverviewProps) {
   return (
-    <section className="border-t py-32 sm:py-48">
+    <section className="py-32 sm:py-48">
       <div className="mx-auto max-w-[1200px] px-6">
         <h2 className="font-serif text-3xl tracking-tight sm:text-4xl">
           カテゴリから探す
@@ -43,26 +44,30 @@ export function CategoryOverview({ counts }: CategoryOverviewProps) {
             const count = counts[cat.id] ?? 0;
             return (
               <motion.div key={cat.id} variants={fadeInUp}>
-                <Link
-                  href={`/knowledge?category=${cat.id}`}
-                  className={cn(
-                    "group flex flex-col justify-between rounded-2xl p-8 transition-all duration-200 hover:scale-[1.02]",
-                    WARM_COLORS[i % WARM_COLORS.length],
-                    "dark:bg-muted",
-                  )}
-                >
-                  <div>
-                    <Icon className="h-6 w-6 text-foreground/70" />
-                    <h3 className="mt-4 text-lg font-medium">{cat.label}</h3>
-                    <p className="mt-1 text-sm text-muted-foreground">
-                      {count} 件のコンテンツ
-                    </p>
-                  </div>
-                  <div className="mt-6 flex items-center gap-1 text-sm font-medium text-foreground/70 transition-colors group-hover:text-foreground">
-                    詳しく見る
-                    <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
-                  </div>
-                </Link>
+                <TiltCard tiltDeg={4} glare>
+                  <Link
+                    href={`/knowledge?category=${cat.id}`}
+                    className={cn(
+                      "group flex flex-col justify-between rounded-2xl p-8 transition-all duration-300",
+                      WARM_COLORS[i % WARM_COLORS.length],
+                      "dark:bg-muted",
+                    )}
+                  >
+                    <div>
+                      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-background/60 backdrop-blur-sm transition-transform duration-300 group-hover:scale-110">
+                        <Icon className="h-6 w-6 text-foreground/70" />
+                      </div>
+                      <h3 className="mt-4 text-lg font-medium">{cat.label}</h3>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        {count} 件のコンテンツ
+                      </p>
+                    </div>
+                    <div className="mt-6 flex items-center gap-1 text-sm font-medium text-foreground/70 transition-colors group-hover:text-foreground">
+                      詳しく見る
+                      <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
+                    </div>
+                  </Link>
+                </TiltCard>
               </motion.div>
             );
           })}

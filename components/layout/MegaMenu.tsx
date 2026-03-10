@@ -408,7 +408,7 @@ const PANELS: Record<string, React.ComponentType<{ onClose: () => void }>> = {
 };
 
 /* ─── MegaMenu ─── */
-export function MegaMenu() {
+export function MegaMenu({ scrolled = true }: { scrolled?: boolean }) {
   const pathname = usePathname();
   const [openMega, setOpenMega] = useState<string | null>(null);
   const [pinned, setPinned] = useState(false);
@@ -467,10 +467,13 @@ export function MegaMenu() {
             onClick={(e) => handleClick(item.href, e)}
             className={cn(
               "text-sm transition-colors",
-              pathname === item.href || pathname.startsWith(item.href)
-                ? "text-foreground"
-                : "text-muted-foreground hover:text-foreground",
-              openMega === item.href && "text-foreground",
+              !scrolled
+                ? "text-white/70 hover:text-white"
+                : pathname === item.href || pathname.startsWith(item.href)
+                  ? "text-foreground"
+                  : "text-muted-foreground hover:text-foreground",
+              openMega === item.href &&
+                (scrolled ? "text-foreground" : "text-white"),
             )}
           >
             {item.label}

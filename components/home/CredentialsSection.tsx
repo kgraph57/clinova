@@ -1,24 +1,27 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
-import { fadeInSlow } from "@/lib/animations";
-import { HoverRevealImage } from "@/components/effects/HoverRevealImage";
-import {
-  ArrowUpRight,
-  Star,
-} from "@phosphor-icons/react";
+import { containerVariants, fadeInSlow, fadeInUp } from "@/lib/animations";
+import { AnimatedCounter } from "@/components/effects/AnimatedCounter";
+import { ArrowUpRight, Star } from "@phosphor-icons/react";
+
+const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
 const STATS = [
-  { value: "10+", label: "セミナー" },
-  { value: "300+", label: "参加者" },
-  { value: "1", label: "書籍（共著）" },
-  { value: "2", label: "連載" },
+  { value: 10, suffix: "+", label: "セミナー" },
+  { value: 300, suffix: "+", label: "参加者" },
+  { value: 1, suffix: "", label: "書籍（共著）" },
+  { value: 2, suffix: "", label: "連載" },
 ] as const;
 
 const BOOK = {
-  title: "ケースで学ぶ若手医師のAI活用ガイド",
+  title: "ケースで学ぶ 若手医師のAI活用ガイド",
+  subtitle: "現場を動かす考え方と使い方",
   publisher: "東京医学社",
-  date: "2026年1月",
+  authors: "監修: 五十嵐隆　編集: 島袋林秀　執筆: 岡本賢・牧庸彦・新野一眞",
+  format: "73ケース収録",
+  date: "2025年",
   url: "https://www.amazon.co.jp/dp/4885637481",
   rating: 5.0,
   reviews: 6,
@@ -27,14 +30,10 @@ const BOOK = {
 
 const SERIALS = [
   {
-    title: "小児内科 58巻3号",
-    note: "2026年3月号",
+    title: "小児内科 58巻3号「AIとともに育つ医療」",
+    note: "東京医学社　2026年3月号\n岡本賢が「若手医師によるAI実践：メタ分析と未来予測から見える今」を寄稿。医療AIの現状をメタ分析の知見と将来展望から読み解く。",
     image: "/images/books/pediatrics-ai-cover.png",
-  },
-  {
-    title: "日経メディカル連載",
-    note: "2026年3月〜",
-    image: "/images/books/medical-prompts-cover.png",
+    url: "https://www.tokyo-igakusha.co.jp/b/li/b.html?zcid=4&menu=next",
   },
 ] as const;
 
@@ -43,19 +42,16 @@ const ACTIVITIES = [
     period: "2025.04 —",
     title: "院内AIセミナー 開始",
     tag: "セミナー",
-    image: "/images/courses/ai-basics.png",
   },
   {
     period: "2026.01",
     title: "キャリアアップ研修会（300名超）",
     tag: "大規模研修",
-    image: "/images/courses/medical-ai-overview.png",
   },
   {
     period: "2026.04 —",
     title: "医師のためのAI実践道場（全8回）",
     tag: "シリーズ",
-    image: "/images/courses/generative-ai-basics.png",
   },
 ] as const;
 
@@ -63,144 +59,173 @@ export function CredentialsSection() {
   return (
     <section className="section-dark py-32 sm:py-48">
       <div className="mx-auto max-w-[1200px] px-6">
+        {/* Header */}
         <motion.div
           variants={fadeInSlow}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
         >
-          <h2 className="font-serif text-3xl tracking-tight text-[var(--surface-dark-fg)] sm:text-4xl">
-            Track Record
-          </h2>
-          <p className="mt-3 text-[var(--surface-dark-fg)]/60">
-            執筆・講演・教育活動の実績
+          <p className="text-xs font-medium uppercase tracking-[0.3em] text-[var(--surface-dark-fg)]/30">
+            From practice to principle.
           </p>
+          <h2 className="mt-4 font-serif text-3xl tracking-tight text-[var(--surface-dark-fg)] sm:text-4xl">
+            Books & Track Record
+          </h2>
         </motion.div>
 
-        <div className="mt-16">
-          {/* Stats */}
-          <motion.div
-            variants={fadeInSlow}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-50px" }}
-            className="flex flex-wrap gap-12"
-          >
-            {STATS.map((stat) => (
-              <div key={stat.label}>
-                <p className="text-3xl font-semibold text-[var(--surface-dark-fg)]">
-                  {stat.value}
-                </p>
-                <p className="mt-1 text-sm text-[var(--surface-dark-fg)]/50">
-                  {stat.label}
-                </p>
-              </div>
-            ))}
-          </motion.div>
+        {/* Stats row */}
+        <motion.div
+          variants={fadeInSlow}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          className="mt-12 flex flex-wrap gap-12"
+        >
+          {STATS.map((stat) => (
+            <div key={stat.label}>
+              <AnimatedCounter
+                value={stat.value}
+                suffix={stat.suffix}
+                className="text-3xl font-semibold text-[var(--surface-dark-fg)]"
+              />
+              <p className="mt-1 text-sm text-[var(--surface-dark-fg)]/50">
+                {stat.label}
+              </p>
+            </div>
+          ))}
+        </motion.div>
 
-          {/* Book — hover reveals cover */}
-          <motion.div
-            variants={fadeInSlow}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-50px" }}
+        {/* Books grid — cover images prominent */}
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          className="mt-16 grid gap-6 sm:grid-cols-2"
+        >
+          {/* Main book — larger card */}
+          <motion.a
+            variants={fadeInUp}
+            href={BOOK.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative sm:col-span-1"
           >
-            <HoverRevealImage
-              imageSrc={BOOK.image}
-              imageAlt={BOOK.title}
-              width={200}
-              height={280}
-            >
-              <a
-                href={BOOK.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group mt-16 block rounded-2xl border border-[var(--surface-dark-fg)]/10 p-8 transition-colors hover:border-[var(--surface-dark-fg)]/20"
-              >
-                <div className="flex items-start justify-between">
-                  <div>
-                    <span className="rounded-full border border-[var(--surface-dark-fg)]/20 px-2.5 py-0.5 text-xs font-medium text-[var(--surface-dark-fg)]/70">
-                      共著
-                    </span>
-                    <h3 className="mt-3 text-lg font-medium text-[var(--surface-dark-fg)]">
-                      {BOOK.title}
-                    </h3>
-                  </div>
-                  <ArrowUpRight className="h-4 w-4 flex-shrink-0 text-[var(--surface-dark-fg)]/40 opacity-0 transition-opacity group-hover:opacity-100" />
-                </div>
-                <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-[var(--surface-dark-fg)]/50">
-                  <span>{BOOK.publisher}</span>
-                  <span>{BOOK.date}</span>
-                  <span className="flex items-center gap-1">
-                    <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
-                    {BOOK.rating} ({BOOK.reviews}件)
+            <div className="overflow-hidden rounded-2xl bg-[var(--surface-dark-fg)]/5 p-6 transition-colors duration-300 hover:bg-[var(--surface-dark-fg)]/8">
+              <div className="mx-auto max-w-[200px]">
+                <Image
+                  src={`${BASE_PATH}${BOOK.image}`}
+                  alt={BOOK.title}
+                  width={400}
+                  height={533}
+                  loading="eager"
+                  className="rounded-lg object-cover shadow-2xl transition-transform duration-500 group-hover:scale-[1.03] group-hover:-translate-y-1"
+                />
+              </div>
+              <div className="mt-6">
+                <span className="rounded-full border border-[var(--surface-dark-fg)]/20 px-2.5 py-0.5 text-xs font-medium text-[var(--surface-dark-fg)]/70">
+                  共著
+                </span>
+                <h3 className="mt-2 text-sm font-medium leading-snug text-[var(--surface-dark-fg)]">
+                  {BOOK.title}
+                </h3>
+                <p className="mt-1 text-xs leading-relaxed text-[var(--surface-dark-fg)]/40">
+                  {BOOK.subtitle}
+                </p>
+                <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[var(--surface-dark-fg)]/50">
+                  <span>
+                    {BOOK.publisher}　{BOOK.format}
+                  </span>
+                  <span className="flex items-center gap-0.5">
+                    <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
+                    {BOOK.rating}
                   </span>
                 </div>
-              </a>
-            </HoverRevealImage>
-          </motion.div>
+                <p className="mt-1 text-xs text-[var(--surface-dark-fg)]/40">
+                  {BOOK.authors}
+                </p>
+              </div>
+              <ArrowUpRight className="absolute right-4 top-4 h-4 w-4 text-[var(--surface-dark-fg)]/30 opacity-0 transition-opacity group-hover:opacity-100" />
+            </div>
+          </motion.a>
 
-          {/* Serials — hover reveals covers */}
-          <motion.div
-            variants={fadeInSlow}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-50px" }}
-            className="mt-10 flex flex-col gap-4 sm:flex-row sm:gap-8"
-          >
-            {SERIALS.map((serial) => (
-              <HoverRevealImage
-                key={serial.title}
-                imageSrc={serial.image}
-                imageAlt={serial.title}
-                width={200}
-                height={280}
-              >
-                <div className="cursor-default py-2">
-                  <p className="text-sm font-medium text-[var(--surface-dark-fg)]">
+          {/* Serial publications */}
+          {SERIALS.map((serial) => (
+            <motion.a
+              key={serial.title}
+              variants={fadeInUp}
+              href={serial.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative sm:col-span-1"
+            >
+              <div className="overflow-hidden rounded-2xl bg-[var(--surface-dark-fg)]/5 p-6 transition-colors duration-300 hover:bg-[var(--surface-dark-fg)]/8">
+                <div className="mx-auto max-w-[200px]">
+                  <Image
+                    src={`${BASE_PATH}${serial.image}`}
+                    alt={serial.title}
+                    width={400}
+                    height={533}
+                    loading="eager"
+                    className="rounded-lg object-cover shadow-2xl transition-transform duration-500 group-hover:scale-[1.03] group-hover:-translate-y-1"
+                  />
+                </div>
+                <div className="mt-6">
+                  <span className="rounded-full border border-[var(--surface-dark-fg)]/20 px-2.5 py-0.5 text-xs font-medium text-[var(--surface-dark-fg)]/70">
+                    寄稿
+                  </span>
+                  <h3 className="mt-2 text-sm font-medium text-[var(--surface-dark-fg)]">
                     {serial.title}
-                  </p>
-                  <p className="mt-0.5 text-xs text-[var(--surface-dark-fg)]/50">
+                  </h3>
+                  <p className="mt-1 whitespace-pre-line text-xs leading-relaxed text-[var(--surface-dark-fg)]/50">
                     {serial.note}
                   </p>
                 </div>
-              </HoverRevealImage>
-            ))}
-          </motion.div>
+                <ArrowUpRight className="absolute right-4 top-4 h-4 w-4 text-[var(--surface-dark-fg)]/30 opacity-0 transition-opacity group-hover:opacity-100" />
+              </div>
+            </motion.a>
+          ))}
+        </motion.div>
 
-          {/* Activities — hover reveals images */}
-          <motion.div
-            variants={fadeInSlow}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-50px" }}
-            className="mt-16"
-          >
-            <p className="text-xs font-medium uppercase tracking-widest text-[var(--surface-dark-fg)]/40">
-              Selected Activities
-            </p>
-            <div className="mt-6 flex flex-col gap-1">
-              {ACTIVITIES.map((activity) => (
-                <HoverRevealImage
-                  key={activity.title}
-                  imageSrc={activity.image}
-                  imageAlt={activity.title}
-                  width={320}
-                  height={200}
-                >
-                  <div className="flex items-baseline gap-4 rounded-lg px-2 py-3 transition-colors hover:bg-[var(--surface-dark-fg)]/5">
-                    <span className="flex-shrink-0 text-xs tracking-wide text-[var(--surface-dark-fg)]/40">
-                      {activity.period}
-                    </span>
-                    <span className="text-sm text-[var(--surface-dark-fg)]/80">
-                      {activity.title}
-                    </span>
-                  </div>
-                </HoverRevealImage>
-              ))}
-            </div>
-          </motion.div>
-        </div>
+        {/* Activities timeline */}
+        <motion.div
+          variants={fadeInSlow}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          className="mt-16"
+        >
+          <p className="text-xs font-medium uppercase tracking-widest text-[var(--surface-dark-fg)]/40">
+            Selected Activities
+          </p>
+          <div className="mt-6 flex flex-col">
+            {ACTIVITIES.map((activity, i) => (
+              <motion.div
+                key={activity.title}
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.6,
+                  delay: i * 0.1,
+                  ease: [0.16, 1, 0.3, 1],
+                }}
+                className="flex items-center gap-4 border-b border-[var(--surface-dark-fg)]/8 py-4 transition-colors hover:bg-[var(--surface-dark-fg)]/[0.03]"
+              >
+                <span className="w-24 flex-shrink-0 text-xs tracking-wide text-[var(--surface-dark-fg)]/40">
+                  {activity.period}
+                </span>
+                <span className="flex-1 text-sm text-[var(--surface-dark-fg)]/80">
+                  {activity.title}
+                </span>
+                <span className="rounded-full border border-[var(--surface-dark-fg)]/15 px-2.5 py-0.5 text-xs text-[var(--surface-dark-fg)]/50">
+                  {activity.tag}
+                </span>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </section>
   );

@@ -1,11 +1,16 @@
 import { HeroSection } from "@/components/home/HeroSection";
 import { StatementSection } from "@/components/home/StatementSection";
+import { PhilosophySection } from "@/components/home/PhilosophySection";
+import { MarqueeBanner } from "@/components/home/MarqueeBanner";
+import { ServicesOverview } from "@/components/home/ServicesOverview";
 import { CategoryOverview } from "@/components/home/CategoryOverview";
 import { EditorialPicksSection } from "@/components/home/EditorialPicksSection";
 import { CredentialsSection } from "@/components/home/CredentialsSection";
 import { ProductsSection } from "@/components/home/ProductsSection";
+import { NoteArticlesSection } from "@/components/home/NoteArticlesSection";
 import { LatestSection } from "@/components/home/LatestSection";
 import { CreatorSection } from "@/components/home/CreatorSection";
+import { AnimatedDivider } from "@/components/effects/AnimatedDivider";
 import {
   getFeaturedArticles,
   getArticleCount,
@@ -59,24 +64,52 @@ export default async function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* 1. 世界観 */}
+
+      {/* ── 1. Hero — 世界観 ────────────────────── */}
       <HeroSection />
-      {/* 2. このサイトは何か — 数字で信頼感 */}
+
+      {/* ── 2. Statement — 何をしているか + 数字 ── */}
       <StatementSection
         articleCount={counts.all ?? 0}
         courseCount={courseCount}
       />
-      {/* 3. 何があるか — カテゴリで探す導線 */}
-      <CategoryOverview counts={counts} />
-      {/* 4. 具体的な厳選コンテンツ */}
+
+      {/* ── 3. Philosophy — 3領域のベン図 ─────── */}
+      <PhilosophySection />
+
+      {/* ── Marquee — キーワード帯 ──────────────── */}
+      <MarqueeBanner />
+
+      {/* ── 4. Services — 01-04 ナンバリング ──── */}
+      <ServicesOverview />
+
+      <AnimatedDivider className="mx-auto max-w-[1200px] px-6" />
+
+      {/* ── 5. Picks — 厳選コンテンツ ──────────── */}
       <EditorialPicksSection articles={editorialPicks} />
-      {/* 5. 信頼性の証明 */}
+
+      <AnimatedDivider className="mx-auto max-w-[1200px] px-6" />
+
+      {/* ── 6. Books & Track Record — 書籍・実績 ─ */}
       <CredentialsSection />
-      {/* 6. つくっているもの */}
+
+      {/* ── 7. Products — プロダクト＋スキル ─────── */}
       <ProductsSection />
-      {/* 7. 最新情報 */}
+
+      <AnimatedDivider className="mx-auto max-w-[1200px] px-6" />
+
+      {/* ── 8. note — 最新記事サムネイル ──────── */}
+      <NoteArticlesSection />
+
+      {/* ── 9. Categories — カテゴリで探す ──────── */}
+      <CategoryOverview counts={counts} />
+
+      <AnimatedDivider className="mx-auto max-w-[1200px] px-6" />
+
+      {/* ── 10. Latest — 医療AIニュース ──────── */}
       <LatestSection articles={news} />
-      {/* 8. 締め — 誰がやっているか + CTA */}
+
+      {/* ── 11. Creator — Founder + CTA ─────── */}
       <CreatorSection
         contentCount={counts.all ?? 0}
         courseCount={courseCount}

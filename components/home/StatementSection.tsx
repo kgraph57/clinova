@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeInSlow } from "@/lib/animations";
+import { AnimatedCounter } from "@/components/effects/AnimatedCounter";
 
 const BASE_PATH = process.env.NODE_ENV === "production" ? "/hoshizu" : "";
 
@@ -31,7 +32,7 @@ export function StatementSection({
               src={`${BASE_PATH}/images/hero-main.png`}
               alt="星空を見上げる医師 — 散らばる星を、星座にする"
               fill
-              className="object-cover"
+              className="object-cover transition-transform duration-700 hover:scale-[1.02]"
               sizes="(max-width: 1200px) 100vw, 1200px"
               priority
             />
@@ -60,7 +61,7 @@ export function StatementSection({
             </h2>
           </motion.div>
 
-          {/* Right: stats */}
+          {/* Right: animated stats */}
           <motion.div
             variants={fadeInSlow}
             initial="hidden"
@@ -69,21 +70,25 @@ export function StatementSection({
             className="flex gap-12 lg:flex-col lg:gap-8"
           >
             <div>
-              <p className="text-3xl font-semibold tabular-nums tracking-tight">
-                {articleCount}+
-              </p>
+              <AnimatedCounter
+                value={articleCount}
+                suffix="+"
+                className="text-3xl font-semibold tabular-nums tracking-tight"
+              />
               <p className="mt-1 text-sm text-muted-foreground">ナレッジ記事</p>
             </div>
             <div>
-              <p className="text-3xl font-semibold tabular-nums tracking-tight">
-                {courseCount}
-              </p>
+              <AnimatedCounter
+                value={courseCount}
+                className="text-3xl font-semibold tabular-nums tracking-tight"
+              />
               <p className="mt-1 text-sm text-muted-foreground">学習コース</p>
             </div>
             <div>
-              <p className="text-3xl font-semibold tabular-nums tracking-tight">
-                5
-              </p>
+              <AnimatedCounter
+                value={5}
+                className="text-3xl font-semibold tabular-nums tracking-tight"
+              />
               <p className="mt-1 text-sm text-muted-foreground">カテゴリ</p>
             </div>
           </motion.div>
