@@ -45,6 +45,15 @@ const SERIALS = [
       "鑑別診断のAI壁打ち、PHIゼロの実践、深夜の専門外急患、存在しない論文への対処など、臨床現場のリアルな課題をAIで解決する全10回連載。",
     icon: Newspaper,
   },
+  {
+    title: "日経メディカル「医師の調べ物に役立つAI検索ツール、何ができる？ どう使い分ける？」",
+    role: "掲載",
+    publisher: "日経BP",
+    date: "2026年3月11日",
+    description:
+      "シリーズ◎医療現場での活用進む人工知能。生成AIの登場で変わった医師の情報アクセスと、AI検索ツールの活用法・使い分けを解説。",
+    icon: Newspaper,
+  },
 ] as const;
 
 export function PublicationsSection() {

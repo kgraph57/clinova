@@ -348,6 +348,34 @@ export function AboutPageContent({
               </p>
             </div>
           </div>
+
+          <a
+            href="https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t285/202603/592302.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group mt-4 flex items-start gap-4 rounded-xl border p-5 transition-colors hover:bg-muted/50"
+          >
+            <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
+            <div className="flex-1">
+              <div className="flex items-start justify-between">
+                <div className="flex items-center gap-2">
+                  <span className="rounded-full border px-2 py-0.5 text-[11px] font-medium">
+                    掲載
+                  </span>
+                  <span className="text-xs text-muted-foreground">
+                    2026年3月11日
+                  </span>
+                </div>
+                <ArrowSquareOut className="h-3.5 w-3.5 flex-shrink-0 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
+              </div>
+              <h3 className="mt-1 text-sm font-medium">
+                日経メディカル「医師の調べ物に役立つAI検索ツール、何ができる？ どう使い分ける？」
+              </h3>
+              <p className="mt-1 text-sm text-muted-foreground">
+                シリーズ◎医療現場での活用進む人工知能。生成AIの登場で変わった医師の情報アクセスと、AI検索ツールの活用法・使い分けを解説。日経BP。
+              </p>
+            </div>
+          </a>
         </section>
 
         {/* Founder */}

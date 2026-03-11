@@ -37,6 +37,21 @@ const SERIALS = [
   },
 ] as const;
 
+const MEDIA = [
+  {
+    title: "日経メディカル「医師のための生成AI活用Tips集」",
+    note: "臨床現場のリアルな課題をAIで解決する全10回連載",
+    tag: "連載",
+    url: "https://medical.nikkeibp.co.jp/leaf/mem/pub/series/okamoto/",
+  },
+  {
+    title: "医師の調べ物に役立つAI検索ツール、何ができる？ どう使い分ける？",
+    note: "シリーズ◎医療現場での活用進む人工知能（2026年3月11日）",
+    tag: "掲載",
+    url: "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t285/202603/592302.html",
+  },
+] as const;
+
 const ACTIVITIES = [
   {
     period: "2025.04 —",
@@ -186,6 +201,49 @@ export function CredentialsSection() {
               </div>
             </motion.a>
           ))}
+        </motion.div>
+
+        {/* Media & Articles */}
+        <motion.div
+          variants={fadeInSlow}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          className="mt-16"
+        >
+          <p className="text-xs font-medium uppercase tracking-widest text-[var(--surface-dark-fg)]/40">
+            Media & Articles
+          </p>
+          <div className="mt-6 flex flex-col">
+            {MEDIA.map((item, i) => (
+              <motion.a
+                key={item.title}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.6,
+                  delay: i * 0.1,
+                  ease: [0.16, 1, 0.3, 1],
+                }}
+                className="group flex items-center gap-4 border-b border-[var(--surface-dark-fg)]/8 py-4 transition-colors hover:bg-[var(--surface-dark-fg)]/[0.03]"
+              >
+                <span className="flex-1 text-sm text-[var(--surface-dark-fg)]/80 group-hover:text-[var(--surface-dark-fg)]">
+                  {item.title}
+                  <span className="mt-0.5 block text-xs text-[var(--surface-dark-fg)]/40">
+                    {item.note}
+                  </span>
+                </span>
+                <span className="rounded-full border border-[var(--surface-dark-fg)]/15 px-2.5 py-0.5 text-xs text-[var(--surface-dark-fg)]/50">
+                  {item.tag}
+                </span>
+                <ArrowUpRight className="h-4 w-4 flex-shrink-0 text-[var(--surface-dark-fg)]/30 opacity-0 transition-opacity group-hover:opacity-100" />
+              </motion.a>
+            ))}
+          </div>
         </motion.div>
 
         {/* Activities timeline */}
