@@ -1,0 +1,139 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","claude-code","05-03-multi-agent"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","claude-code","d"],{"children":[["chapterId","05-03-multi-agent","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+20:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+22:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+23:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+1f:Tfe0,
+一人の開発者がチームに変わる。マルチエージェントシステムは、複数のAIエージェントが協調して一つのプロジェクトに取り組む仕組みだ。
+
+---
+
+## マルチエージェントとは何か
+
+通常のClaude Codeは「一人の開発者」として動作する。一つのコンテキストで、一つのタスクに順番に取り組む。
+
+マルチエージェントでは、複数のエージェントが同時に、それぞれ独立したコンテキストで動作する。あたかも開発チームのように。
+
+- チームリード: 全体を統括し、タスクを割り当てる
+- 実装担当: コードを書く
+- テスト担当: テストを書いて実行する
+- レビュー担当: コードをレビューする
+
+---
+
+## チームの作成
+
+### TeamCreate
+
+チームを作成すると、以下が行われる。
+
+1. チーム設定ファイルを作成（`~/.claude/teams/{team-name}/config.json`）
+2. 共有タスクリストを作成（`~/.claude/tasks/{team-name}/`）
+3. チームリードとして現在のセッションを設定
+
+### チームメイトの追加
+
+Agentツールで `team_name` パラメータを指定して、チームメイトを追加する。各チームメイトは独立したプロセスとして起動し、チームのタスクリストにアクセスできる。
+
+---
+
+## タスク管理と協調
+
+### タスクの状態
+
+| 状態 | 意味 |
+|------|------|
+| pending | 未着手 |
+| in_progress | 作業中 |
+| completed | 完了 |
+| blocked | 他タスクの完了待ち |
+
+チームメイトは定期的にタスクリストを確認し、未割り当てのタスクをID順に取得する。
+
+### コミュニケーション
+
+- 直接メッセージ: 特定のチームメイトへ指示を送る。通常はこちら
+- ブロードキャスト: 全員への一斉通知。コストが高いため重大情報のみ
+- シャットダウン要求: 作業完了後にチームメイトを終了させる
+
+<Callout type="warning" title="ブロードキャストは控えめに">
+ブロードキャストはすべてのチームメイトにメッセージを送信するため、コストが高い。全員に影響する重大な情報のみに使い、通常は直接メッセージを使う。
+</Callout>
+
+---
+
+## Worktree分離との組み合わせ
+
+マルチエージェントで最も注意すべきはファイルの競合。`isolation: "worktree"` を指定すると、各エージェントはリポジトリの独立したコピーで作業し、競合を構造的に防げる。
+
+---
+
+## 実践例: 3エージェントでの機能開発
+
+シナリオ: ブックマーク機能の追加
+
+1. team-leadがタスクを定義し割り当て
+2. frontend-dev（worktree分離）がUIコンポーネントを実装
+3. test-writer（worktree分離）が並行してテストを作成
+4. 各自が完了を報告
+5. team-leadが結果を確認、必要なら修正を指示
+6. 全チームメイトをシャットダウン → TeamDeleteでクリーンアップ
+
+---
+
+## コスト考慮
+
+各エージェントがAPIを消費するため、コスト意識が重要。
+
+- 軽量タスクにはHaikuモデルのエージェントを使う
+- 必要な時だけチームを編成し、完了後はすぐシャットダウン
+
+| 場面 | マルチエージェント | 単一エージェント |
+|------|-----------------|----------------|
+| 5ファイル以上の大規模変更 | 効果的 | 時間がかかる |
+| 実装とテストの並行作業 | 効果的 | 順番にしかできない |
+| 単一ファイルの修正 | 過剰 | 十分 |
+
+<KeyTakeaway>
+- マルチエージェントは複数のAIが協調して一つのプロジェクトに取り組む仕組み
+- TeamCreateでチームを作成し、共有タスクリストとメッセージで協調する
+- Worktree分離で複数エージェントのファイル競合を構造的に防ぐ
+- 大規模変更・並行作業・マルチパースペクティブレビューに効果的
+</KeyTakeaway>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-claude-code","lessonSlug":"05-03-multi-agent"}],["$","$L1d",null,{"items":[{"id":"マルチエージェントとは何か","text":"マルチエージェントとは何か","level":2},{"id":"チームの作成","text":"チームの作成","level":2},{"id":"teamcreate","text":"TeamCreate","level":3},{"id":"チームメイトの追加","text":"チームメイトの追加","level":3},{"id":"タスク管理と協調","text":"タスク管理と協調","level":2},{"id":"タスクの状態","text":"タスクの状態","level":3},{"id":"コミュニケーション","text":"コミュニケーション","level":3},{"id":"worktree分離との組み合わせ","text":"Worktree分離との組み合わせ","level":2},{"id":"実践例-3エージェントでの機能開発","text":"実践例: 3エージェントでの機能開発","level":2},{"id":"コスト考慮","text":"コスト考慮","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"05-03-multi-agent","title":"マルチエージェント — チームで開発する","description":"TeamCreate、SendMessage、TaskCreate。複数のエージェントを協調させて、一人では不可能な規模の開発を実現する。","partId":"part05","partTitle":"高度なテクニック","order":18,"partOrder":5,"estimatedMinutes":25,"estimatedReadTime":4,"free":true,"status":"published","tags":["マルチエージェント","チーム","並列","協調","タスク"],"content":"$1f"},"totalChapters":26}],["$","$L20",null,{"items":"$12:2:props:items"}],["$","article",null,{"className":"prose book-prose","children":"$L21"}],["$","$L22",null,{"bookId":"claude-code","chapterSlug":"05-03-multi-agent"}],["$","$L23",null,{"bookId":"claude-code","prev":{"slug":"05-02-context-management","title":"コンテキスト管理 — 窓の向こうの知識をつなぐ","order":17},"next":{"slug":"05-04-worktrees","title":"Worktrees — 並行開発の技法","order":19}}]]}]]
+24:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+25:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+21:[["$","p",null,{"children":"一人の開発者がチームに変わる。マルチエージェントシステムは、複数のAIエージェントが協調して一つのプロジェクトに取り組む仕組みだ。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"マルチエージェントとは何か","children":"マルチエージェントとは何か"}],"\n",["$","p",null,{"children":"通常のClaude Codeは「一人の開発者」として動作する。一つのコンテキストで、一つのタスクに順番に取り組む。"}],"\n",["$","p",null,{"children":"マルチエージェントでは、複数のエージェントが同時に、それぞれ独立したコンテキストで動作する。あたかも開発チームのように。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"チームリード: 全体を統括し、タスクを割り当てる"}],"\n",["$","li",null,{"children":"実装担当: コードを書く"}],"\n",["$","li",null,{"children":"テスト担当: テストを書いて実行する"}],"\n",["$","li",null,{"children":"レビュー担当: コードをレビューする"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"チームの作成","children":"チームの作成"}],"\n",["$","h3",null,{"id":"teamcreate","children":"TeamCreate"}],"\n",["$","p",null,{"children":"チームを作成すると、以下が行われる。"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":["チーム設定ファイルを作成（",["$","code",null,{"children":"~/.claude/teams/{team-name}/config.json"}],"）"]}],"\n",["$","li",null,{"children":["共有タスクリストを作成（",["$","code",null,{"children":"~/.claude/tasks/{team-name}/"}],"）"]}],"\n",["$","li",null,{"children":"チームリードとして現在のセッションを設定"}],"\n"]}],"\n",["$","h3",null,{"id":"チームメイトの追加","children":"チームメイトの追加"}],"\n",["$","p",null,{"children":["Agentツールで ",["$","code",null,{"children":"team_name"}]," パラメータを指定して、チームメイトを追加する。各チームメイトは独立したプロセスとして起動し、チームのタスクリストにアクセスできる。"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"タスク管理と協調","children":"タスク管理と協調"}],"\n",["$","h3",null,{"id":"タスクの状態","children":"タスクの状態"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"状態"}],["$","th",null,{"children":"意味"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"pending"}],["$","td",null,{"children":"未着手"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"in_progress"}],["$","td",null,{"children":"作業中"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"completed"}],["$","td",null,{"children":"完了"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"blocked"}],["$","td",null,{"children":"他タスクの完了待ち"}]]}]]}]]}],"\n",["$","p",null,{"children":"チームメイトは定期的にタスクリストを確認し、未割り当てのタスクをID順に取得する。"}],"\n",["$","h3",null,{"id":"コミュニケーション","children":"コミュニケーション"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"直接メッセージ: 特定のチームメイトへ指示を送る。通常はこちら"}],"\n",["$","li",null,{"children":"ブロードキャスト: 全員への一斉通知。コストが高いため重大情報のみ"}],"\n",["$","li",null,{"children":"シャットダウン要求: 作業完了後にチームメイトを終了させる"}],"\n"]}],"\n",["$","$L24",null,{"type":"warning","title":"ブロードキャストは控えめに","children":["$","p",null,{"children":"ブロードキャストはすべてのチームメイトにメッセージを送信するため、コストが高い。全員に影響する重大な情報のみに使い、通常は直接メッセージを使う。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"worktree分離との組み合わせ","children":"Worktree分離との組み合わせ"}],"\n",["$","p",null,{"children":["マルチエージェントで最も注意すべきはファイルの競合。",["$","code",null,{"children":"isolation: \"worktree\""}]," を指定すると、各エージェントはリポジトリの独立したコピーで作業し、競合を構造的に防げる。"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"実践例-3エージェントでの機能開発","children":"実践例: 3エージェントでの機能開発"}],"\n",["$","p",null,{"children":"シナリオ: ブックマーク機能の追加"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"team-leadがタスクを定義し割り当て"}],"\n",["$","li",null,{"children":"frontend-dev（worktree分離）がUIコンポーネントを実装"}],"\n",["$","li",null,{"children":"test-writer（worktree分離）が並行してテストを作成"}],"\n",["$","li",null,{"children":"各自が完了を報告"}],"\n",["$","li",null,{"children":"team-leadが結果を確認、必要なら修正を指示"}],"\n",["$","li",null,{"children":"全チームメイトをシャットダウン → TeamDeleteでクリーンアップ"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"コスト考慮","children":"コスト考慮"}],"\n",["$","p",null,{"children":"各エージェントがAPIを消費するため、コスト意識が重要。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"軽量タスクにはHaikuモデルのエージェントを使う"}],"\n",["$","li",null,{"children":"必要な時だけチームを編成し、完了後はすぐシャットダウン"}],"\n"]}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"場面"}],["$","th",null,{"children":"マルチエージェント"}],["$","th",null,{"children":"単一エージェント"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"5ファイル以上の大規模変更"}],["$","td",null,{"children":"効果的"}],["$","td",null,{"children":"時間がかかる"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"実装とテストの並行作業"}],["$","td",null,{"children":"効果的"}],["$","td",null,{"children":"順番にしかできない"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"単一ファイルの修正"}],["$","td",null,{"children":"過剰"}],["$","td",null,{"children":"十分"}]]}]]}]]}],"\n",["$","$L25",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"マルチエージェントは複数のAIが協調して一つのプロジェクトに取り組む仕組み"}],"\n",["$","li",null,{"children":"TeamCreateでチームを作成し、共有タスクリストとメッセージで協調する"}],"\n",["$","li",null,{"children":"Worktree分離で複数エージェントのファイル競合を構造的に防ぐ"}],"\n",["$","li",null,{"children":"大規模変更・並行作業・マルチパースペクティブレビューに効果的"}],"\n"]}]}]]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+26:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"マルチエージェント — チームで開発する | Hoshizu"}],["$","meta","1",{"name":"description","content":"TeamCreate、SendMessage、TaskCreate。複数のエージェントを協調させて、一人では不可能な規模の開発を実現する。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/claude-code/05-03-multi-agent"}],["$","meta","4",{"property":"og:title","content":"マルチエージェント — チームで開発する - Claude Code完全ガイド — AIコーディングの新しい形"}],["$","meta","5",{"property":"og:description","content":"TeamCreate、SendMessage、TaskCreate。複数のエージェントを協調させて、一人では不可能な規模の開発を実現する。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L26","15",{}]]

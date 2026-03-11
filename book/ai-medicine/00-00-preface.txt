@@ -1,0 +1,187 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","ai-medicine","00-00-preface"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","ai-medicine","d"],{"children":[["chapterId","00-00-preface","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T1cdb,
+**訓練された者だけがAIの恩恵を受ける。訓練なき者にとって、AIは武器ではなく凶器となる。**
+
+---
+
+## 「訓練された者だけがAIの恩恵を受ける」
+
+2025年、*JAMA Internal Medicine*に掲載された無作為化比較試験（RCT）は、医療界に衝撃を与えた。
+
+50名の医師を対象に、AIを使った診断の精度を検証した研究である。結果は直感に反するものだった。
+
+**AIの支援を受けた医師群は、AIなしの医師群よりも診断精度が低かった。**
+
+読み間違いではない。AIを「使った」医師の方が「使わなかった」医師よりも成績が悪かったのである。
+
+しかし、話はここで終わらない。同じ時期に発表されたパキスタンのRCTでは、20時間のAIリテラシー訓練を受けた医学生は、対照群と比較して診断スコアが**28.8パーセンテージポイント向上**した。
+
+この2つのRCTが突きつけるメッセージは明快である。
+
+**AIは、訓練なしに使えば害になり、訓練を受けて使えば強力な武器になる。**
+
+<Callout type="warning" title="2つのRCTが示す明暗">
+AI支援を受けた医師群はAIなしの群より診断精度が低下した一方、20時間のAIリテラシー訓練を受けた医学生は診断スコアが28.8ポイント向上した。訓練の有無が結果を決定的に分ける。
+</Callout>
+
+問題は「AIを使うかどうか」ではない。「いかに正しく使いこなすか」である。
+
+---
+
+## 世界は「使うかどうか」の議論を終えた
+
+2025年、米国医師会（AMA）の調査によると、米国の病院勤務医の**72%**がすでにAIを日常業務で使用している。2023年の38%からわずか2年で倍増した。
+
+Stanford大学医学部はAIを全学生の必修科目とし、米国医科大学協会（AAMC）はAIコンピテンシーフレームワークを策定した。
+
+**世界は「AIを使うかどうか」の議論をとうに終え、「いかに安全に、効果的に使いこなすか」のフェーズに入っている。**
+
+一方、日本はどうか。
+
+電子カルテの普及率はようやく上がってきたとはいえ、PHSが現役で動き、FAXが病病連携の主要ツールである施設も少なくない。AIリテラシー教育が体系的に行われている医学部は、まだほとんどない。
+
+しかし、このギャップは必ずしも悲観すべきものではない。
+
+後発であるということは、世界中の先行事例から学び、失敗を避け、最短距離で進める「機会」でもある。
+
+そして、その機会をつかむためには、体系的な知識と実践のガイドが必要である。
+
+---
+
+## 本シリーズの目的
+
+本シリーズは、医療現場におけるAI活用を体系的に解説する連載である。
+
+単なる「使い方マニュアル」ではなく、**AI時代の医師としての生き方を再定義する**ことを目指す。
+
+AIは聴診器やMRIと同じく、医師の道具である。聴診器の使い方を知らずに胸に当てても、心雑音は聞こえない。MRIの読影技術なしに画像を見ても、病変は見つけられない。
+
+**AIも同じである。正しい使い方を学ばなければ、AIは役に立たないどころか、害をなす。**
+
+---
+
+## チャプター構成
+
+本シリーズは9つのチャプターで構成される。
+
+### Ch.1「なぜ今AIなのか」
+世界と日本の現状を数字で把握し、なぜ今このタイミングでAIを学ぶべきなのかの根拠を示す。
+
+### Ch.2「AIを理解する」
+大規模言語モデル（LLM）の仕組み、得意・不得意、そしてリスクを、臨床医の視点から理解する。「なぜAIが嘘をつくのか」「なぜ得意な領域と苦手な領域があるのか」を構造的に理解することは、安全に使うための前提条件である。
+
+### Ch.3「AIを使いこなす」
+プロンプトの書き方、ツールの選び方、自分専用のAIアシスタントの作り方を実践的に学ぶ。
+
+### Ch.4「臨床で使う」
+カルテ・紹介状・退院サマリーの文書作成、AI鑑別診断の4ステップ・プロトコル、外来・救急・病棟の場面別活用、患者コミュニケーション、そしてマルチモーダルAIの臨床応用まで、すべて実例とともに解説する。
+
+### Ch.5「研究で使う」
+文献検索、論文執筆、統計解析、学会発表におけるAI活用を扱う。
+
+### Ch.6「倫理と安全」
+倫理4原則のAI時代への読み替え、患者安全、プライバシー保護を扱う。
+
+### Ch.7「規制と制度」
+日本を含む世界の規制動向を概観する。
+
+### Ch.8「教える・導く」
+カリキュラム設計、部門導入のROI計算、教育者としてのキャリアパスを扱う。
+
+### Ch.9「未来を見据える」
+AI for Science、AIエージェント、そして10年後の医師像を展望する。
+
+### 特集記事
+医療AIプロンプト集、ツール比較表、症例検討、総合演習など。
+
+---
+
+## 読み方のガイド
+
+本シリーズは順番に読むこともできるし、必要な回だけを読むこともできる。各回は独立して読めるよう設計してある。
+
+ただし、**Ch.2「AIを理解する」**は、他のチャプターを読む前に目を通しておくことを推奨する。
+
+AIの仕組みとリスクの基本を理解していないと、実践編が「ただのレシピ集」になってしまうからである。
+
+---
+
+## AI時代の医師という選択
+
+AIは医師を代替しない。しかし、**AIを使いこなす医師は、使いこなせない医師を代替するかもしれない。**
+
+この問いに、今、答えを出す必要がある。
+
+世界の72%の医師が既にAIを使っている。スタンフォードは必修化した。日本の医学部の教育はまだ追いついていない。
+
+しかし、それは個人の学習を妨げる理由にはならない。
+
+**本シリーズは、あなたが「訓練された者」になるための体系的ガイドである。**
+
+読むだけでは不十分だ。実際にAIに触れ、試し、失敗し、学ぶ。その過程を通じてのみ、AIは真に「使える」道具となる。
+
+いつかあなたが後輩の医師から「AIって、使っていいんですかね？」と問われたとき、自信を持って答えられるようになっていることを。
+
+<KeyTakeaway>
+- RCTが示すエビデンス：AI訓練なしの医師は診断精度が低下し、訓練を受けた医学生は28.8ポイント向上した
+- 米国病院勤務医の72%がすでにAIを日常業務で使用しており、世界は「使うかどうか」から「いかに使いこなすか」のフェーズに移行している
+- AIは聴診器やMRIと同じ医師の道具であり、正しい使い方を学ばなければ害をなす
+- 本シリーズは全9チャプターで構成され、理解・実践・倫理・規制・教育・未来を体系的にカバーする
+- Ch.2「AIを理解する」はすべての実践編の前提条件であり、最初に読むことを推奨する
+</KeyTakeaway>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-ai-medicine","lessonSlug":"00-00-preface"}],["$","$L1d",null,{"items":[{"id":"訓練された者だけがaiの恩恵を受ける","text":"「訓練された者だけがAIの恩恵を受ける」","level":2},{"id":"世界は使うかどうかの議論を終えた","text":"世界は「使うかどうか」の議論を終えた","level":2},{"id":"本シリーズの目的","text":"本シリーズの目的","level":2},{"id":"チャプター構成","text":"チャプター構成","level":2},{"id":"ch1なぜ今aiなのか","text":"Ch.1「なぜ今AIなのか」","level":3},{"id":"ch2aiを理解する","text":"Ch.2「AIを理解する」","level":3},{"id":"ch3aiを使いこなす","text":"Ch.3「AIを使いこなす」","level":3},{"id":"ch4臨床で使う","text":"Ch.4「臨床で使う」","level":3},{"id":"ch5研究で使う","text":"Ch.5「研究で使う」","level":3},{"id":"ch6倫理と安全","text":"Ch.6「倫理と安全」","level":3},{"id":"ch7規制と制度","text":"Ch.7「規制と制度」","level":3},{"id":"ch8教える導く","text":"Ch.8「教える・導く」","level":3},{"id":"ch9未来を見据える","text":"Ch.9「未来を見据える」","level":3},{"id":"特集記事","text":"特集記事","level":3},{"id":"読み方のガイド","text":"読み方のガイド","level":2},{"id":"ai時代の医師という選択","text":"AI時代の医師という選択","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"ai-medicine","bookTitle":"AI×医療 — 臨床医のための実践ガイド","chapter":{"slug":"00-00-preface","title":"はじめに — AI時代の医師をどう生きるか","description":"訓練された者だけがAIの恩恵を受ける。訓練なき者にとって、AIは武器ではなく凶器となる。","partId":"preface","partTitle":"まえがき","order":0,"partOrder":0,"estimatedMinutes":6,"estimatedReadTime":10,"free":true,"status":"published","tags":["AI","医療","医師","リテラシー","RCT"],"content":"$1f"},"totalChapters":33}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"ai-medicine","chapterSlug":"00-00-preface"}]
+23:["$","$L27",null,{"bookId":"ai-medicine","prev":null,"next":{"slug":"01-01-world-trends","title":"72%の医師がすでにAIを使っている — 世界の潮流2026","order":1}}]
+28:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+25:[["$","p",null,{"children":["$","strong",null,{"children":"訓練された者だけがAIの恩恵を受ける。訓練なき者にとって、AIは武器ではなく凶器となる。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"訓練された者だけがaiの恩恵を受ける","children":"「訓練された者だけがAIの恩恵を受ける」"}],"\n",["$","p",null,{"children":["2025年、",["$","em",null,{"children":"JAMA Internal Medicine"}],"に掲載された無作為化比較試験（RCT）は、医療界に衝撃を与えた。"]}],"\n",["$","p",null,{"children":"50名の医師を対象に、AIを使った診断の精度を検証した研究である。結果は直感に反するものだった。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"AIの支援を受けた医師群は、AIなしの医師群よりも診断精度が低かった。"}]}],"\n",["$","p",null,{"children":"読み間違いではない。AIを「使った」医師の方が「使わなかった」医師よりも成績が悪かったのである。"}],"\n",["$","p",null,{"children":["しかし、話はここで終わらない。同じ時期に発表されたパキスタンのRCTでは、20時間のAIリテラシー訓練を受けた医学生は、対照群と比較して診断スコアが",["$","strong",null,{"children":"28.8パーセンテージポイント向上"}],"した。"]}],"\n",["$","p",null,{"children":"この2つのRCTが突きつけるメッセージは明快である。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"AIは、訓練なしに使えば害になり、訓練を受けて使えば強力な武器になる。"}]}],"\n",["$","$L28",null,{"type":"warning","title":"2つのRCTが示す明暗","children":["$","p",null,{"children":"AI支援を受けた医師群はAIなしの群より診断精度が低下した一方、20時間のAIリテラシー訓練を受けた医学生は診断スコアが28.8ポイント向上した。訓練の有無が結果を決定的に分ける。"}]}],"\n",["$","p",null,{"children":"問題は「AIを使うかどうか」ではない。「いかに正しく使いこなすか」である。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"世界は使うかどうかの議論を終えた","children":"世界は「使うかどうか」の議論を終えた"}],"\n",["$","p",null,{"children":"2025年、米国医師会（AMA）の調査によると、米国の病院勤務医の**72%**がすでにAIを日常業務で使用している。2023年の38%からわずか2年で倍増した。"}],"\n",["$","p",null,{"children":"Stanford大学医学部はAIを全学生の必修科目とし、米国医科大学協会（AAMC）はAIコンピテンシーフレームワークを策定した。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"世界は「AIを使うかどうか」の議論をとうに終え、「いかに安全に、効果的に使いこなすか」のフェーズに入っている。"}]}],"\n",["$","p",null,{"children":"一方、日本はどうか。"}],"\n",["$","p",null,{"children":"電子カルテの普及率はようやく上がってきたとはいえ、PHSが現役で動き、FAXが病病連携の主要ツールである施設も少なくない。AIリテラシー教育が体系的に行われている医学部は、まだほとんどない。"}],"\n",["$","p",null,{"children":"しかし、このギャップは必ずしも悲観すべきものではない。"}],"\n",["$","p",null,{"children":"後発であるということは、世界中の先行事例から学び、失敗を避け、最短距離で進める「機会」でもある。"}],"\n",["$","p",null,{"children":"そして、その機会をつかむためには、体系的な知識と実践のガイドが必要である。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"本シリーズの目的","children":"本シリーズの目的"}],"\n",["$","p",null,{"children":"本シリーズは、医療現場におけるAI活用を体系的に解説する連載である。"}],"\n",["$","p",null,{"children":["単なる「使い方マニュアル」ではなく、",["$","strong",null,{"children":"AI時代の医師としての生き方を再定義する"}],"ことを目指す。"]}],"\n",["$","p",null,{"children":"AIは聴診器やMRIと同じく、医師の道具である。聴診器の使い方を知らずに胸に当てても、心雑音は聞こえない。MRIの読影技術なしに画像を見ても、病変は見つけられない。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"AIも同じである。正しい使い方を学ばなければ、AIは役に立たないどころか、害をなす。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"チャプター構成","children":"チャプター構成"}],"\n",["$","p",null,{"children":"本シリーズは9つのチャプターで構成される。"}],"\n",["$","h3",null,{"id":"ch1なぜ今aiなのか","children":"Ch.1「なぜ今AIなのか」"}],"\n",["$","p",null,{"children":"世界と日本の現状を数字で把握し、なぜ今このタイミングでAIを学ぶべきなのかの根拠を示す。"}],"\n",["$","h3",null,{"id":"ch2aiを理解する","children":"Ch.2「AIを理解する」"}],"\n",["$","p",null,{"children":"大規模言語モデル（LLM）の仕組み、得意・不得意、そしてリスクを、臨床医の視点から理解する。「なぜAIが嘘をつくのか」「なぜ得意な領域と苦手な領域があるのか」を構造的に理解することは、安全に使うための前提条件である。"}],"\n",["$","h3",null,{"id":"ch3aiを使いこなす","children":"Ch.3「AIを使いこなす」"}],"\n",["$","p",null,{"children":"プロンプトの書き方、ツールの選び方、自分専用のAIアシスタントの作り方を実践的に学ぶ。"}],"\n",["$","h3",null,{"id":"ch4臨床で使う","children":"Ch.4「臨床で使う」"}],"\n",["$","p",null,{"children":"カルテ・紹介状・退院サマリーの文書作成、AI鑑別診断の4ステップ・プロトコル、外来・救急・病棟の場面別活用、患者コミュニケーション、そしてマルチモーダルAIの臨床応用まで、すべて実例とともに解説する。"}],"\n",["$","h3",null,{"id":"ch5研究で使う","children":"Ch.5「研究で使う」"}],"\n",["$","p",null,{"children":"文献検索、論文執筆、統計解析、学会発表におけるAI活用を扱う。"}],"\n",["$","h3",null,{"id":"ch6倫理と安全","children":"Ch.6「倫理と安全」"}],"\n",["$","p",null,{"children":"倫理4原則のAI時代への読み替え、患者安全、プライバシー保護を扱う。"}],"\n",["$","h3",null,{"id":"ch7規制と制度","children":"Ch.7「規制と制度」"}],"\n",["$","p",null,{"children":"日本を含む世界の規制動向を概観する。"}],"\n",["$","h3",null,{"id":"ch8教える導く","children":"Ch.8「教える・導く」"}],"\n",["$","p",null,{"children":"カリキュラム設計、部門導入のROI計算、教育者としてのキャリアパスを扱う。"}],"\n",["$","h3",null,{"id":"ch9未来を見据える","children":"Ch.9「未来を見据える」"}],"\n",["$","p",null,{"children":"AI for Science、AIエージェント、そして10年後の医師像を展望する。"}],"\n",["$","h3",null,{"id":"特集記事","children":"特集記事"}],"\n",["$","p",null,{"children":"医療AIプロンプト集、ツール比較表、症例検討、総合演習など。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"読み方のガイド","children":"読み方のガイド"}],"\n",["$","p",null,{"children":"本シリーズは順番に読むこともできるし、必要な回だけを読むこともできる。各回は独立して読めるよう設計してある。"}],"\n",["$","p",null,{"children":"ただし、**Ch.2「AIを理解する」**は、他のチャプターを読む前に目を通しておくことを推奨する。"}],"\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33"]
+34:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+29:["$","p",null,{"children":"AIの仕組みとリスクの基本を理解していないと、実践編が「ただのレシピ集」になってしまうからである。"}]
+2a:["$","hr",null,{}]
+2b:["$","h2",null,{"id":"ai時代の医師という選択","children":"AI時代の医師という選択"}]
+2c:["$","p",null,{"children":["AIは医師を代替しない。しかし、",["$","strong",null,{"children":"AIを使いこなす医師は、使いこなせない医師を代替するかもしれない。"}]]}]
+2d:["$","p",null,{"children":"この問いに、今、答えを出す必要がある。"}]
+2e:["$","p",null,{"children":"世界の72%の医師が既にAIを使っている。スタンフォードは必修化した。日本の医学部の教育はまだ追いついていない。"}]
+2f:["$","p",null,{"children":"しかし、それは個人の学習を妨げる理由にはならない。"}]
+30:["$","p",null,{"children":["$","strong",null,{"children":"本シリーズは、あなたが「訓練された者」になるための体系的ガイドである。"}]}]
+31:["$","p",null,{"children":"読むだけでは不十分だ。実際にAIに触れ、試し、失敗し、学ぶ。その過程を通じてのみ、AIは真に「使える」道具となる。"}]
+32:["$","p",null,{"children":"いつかあなたが後輩の医師から「AIって、使っていいんですかね？」と問われたとき、自信を持って答えられるようになっていることを。"}]
+33:["$","$L34",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"RCTが示すエビデンス：AI訓練なしの医師は診断精度が低下し、訓練を受けた医学生は28.8ポイント向上した"}],"\n",["$","li",null,{"children":"米国病院勤務医の72%がすでにAIを日常業務で使用しており、世界は「使うかどうか」から「いかに使いこなすか」のフェーズに移行している"}],"\n",["$","li",null,{"children":"AIは聴診器やMRIと同じ医師の道具であり、正しい使い方を学ばなければ害をなす"}],"\n",["$","li",null,{"children":"本シリーズは全9チャプターで構成され、理解・実践・倫理・規制・教育・未来を体系的にカバーする"}],"\n",["$","li",null,{"children":"Ch.2「AIを理解する」はすべての実践編の前提条件であり、最初に読むことを推奨する"}],"\n"]}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+35:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"はじめに — AI時代の医師をどう生きるか | Hoshizu"}],["$","meta","1",{"name":"description","content":"訓練された者だけがAIの恩恵を受ける。訓練なき者にとって、AIは武器ではなく凶器となる。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/ai-medicine/00-00-preface"}],["$","meta","4",{"property":"og:title","content":"はじめに — AI時代の医師をどう生きるか - AI×医療 — 臨床医のための実践ガイド"}],["$","meta","5",{"property":"og:description","content":"訓練された者だけがAIの恩恵を受ける。訓練なき者にとって、AIは武器ではなく凶器となる。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L35","15",{}]]

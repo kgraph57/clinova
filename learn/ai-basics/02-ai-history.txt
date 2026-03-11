@@ -1,0 +1,220 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","learn","ai-basics","02-ai-history"],"q":"","i":false,"f":[[["",{"children":["learn",{"children":[["courseId","ai-basics","d"],{"children":[["lessonSlug","02-ai-history","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+1e:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+1f:T26b4,
+# AIの歴史 — 技術進化の物語
+
+## はじめに — なぜAIの歴史を学ぶのか
+
+AI技術は過去70年間、「ブーム」と「冬の時代」を繰り返してきました。この歴史を知ることで、現在の生成AIブームが「今回こそ本物か、それともまた冬が来るのか」を見極める視点を得られます。結論から言えば、今回は本物ですが、過去のブームから学ぶべき教訓は多くあります。
+
+---
+
+## 第1次AIブーム（1950年代-1960年代）— 夢の始まり
+
+### ダートマス会議（1956年）
+
+<CaseStudy title="ダートマス会議 — 「人工知能」という言葉が生まれた日" year={1956} jurisdiction="国際" tags={["AI誕生", "ダートマス", "マッカーシー"]}>
+
+**背景**: 1956年夏、米国ダートマス大学でジョン・マッカーシーが「Artificial Intelligence」という用語を提案し、2ヶ月間のワークショップを開催。参加者にはマービン・ミンスキー、クロード・シャノン、アレン・ニューウェルら後のAI研究の巨人たちが含まれていた。
+
+**楽観主義**: 参加者たちは「10年以内に機械が人間と同等の知能を持つ」と信じていた。この予測は大きく外れることになる。
+
+**教訓**: 新技術の可能性に対する過度な楽観主義は、その後の失望と資金の引き上げ（「AIの冬」）を招く。現在の生成AIブームにも同じリスクがある。
+
+</CaseStudy>
+
+この時代のAIは、論理的推論と記号処理が中心でした。「体温38度以上 AND 咳あり → 風邪の疑い」のような明示的なルールをプログラムする手法です。簡単な定理の証明やゲームでは成果を上げましたが、現実世界の複雑さには対応できませんでした。
+
+---
+
+## 第2次AIブーム（1980年代）— エキスパートシステムの時代
+
+### MYCINと医療AI
+
+<CaseStudy title="MYCIN — 医療AIの先駆者" year={1972} jurisdiction="米国" tags={["エキスパートシステム", "感染症", "ルールベース"]}>
+
+**開発**: スタンフォード大学のEdward Shortliffeが1972年に開発。約600の「if-then」ルールに基づく感染症診断支援システム。
+
+**性能**: 血液感染症の診断で**65%の精度**を達成。これは当時の感染症専門医の平均（約80%）には及ばなかったが、非専門医（50%以下）を上回った。
+
+**限界**: ルールの追加・更新が困難。新しい知見が得られても、専門家が手動でルールを追加する必要があった。実際の臨床現場では使用されなかった。
+
+**教訓**: 「専門家の知識をルール化すればAIができる」というアプローチには限界がある。知識は明示的なルールだけでなく、暗黙知（経験に基づく直感）にも依存している。
+
+</CaseStudy>
+
+### 第2次AIの冬（1990年代前半）
+
+エキスパートシステムの限界が明らかになり、再びAI研究への投資が減少。「AIは使えない」という評価が定着しました。
+
+---
+
+## 第3次AIブーム（2010年代-現在）— 深層学習革命
+
+### ImageNet 2012 — 深層学習のビッグバン
+
+<CaseStudy title="ImageNet 2012 — 深層学習が画像認識を支配した瞬間" year={2012} jurisdiction="国際" tags={["深層学習", "ImageNet", "CNN"]}>
+
+**背景**: ImageNet Large Scale Visual Recognition Challenge（ILSVRC）は、120万枚の画像を1,000カテゴリに分類するコンテスト。2012年まで、エラー率の改善は毎年1-2ポイント程度だった。
+
+**衝撃**: 2012年、トロント大学のAlex Krizhevskyが深層学習モデル「AlexNet」でエラー率を**26.2%→15.3%**に劇的に低下させた。2位との差は10ポイント以上。
+
+**なぜこの時**: (1) GPUの計算力向上、(2) 大規模データセットの整備、(3) ドロップアウト等のアルゴリズム改良の3要素が揃った。
+
+**医療への波及**: この成功を受け、医療画像診断AIの研究が爆発的に増加。皮膚がん診断、眼底画像解析、病理画像解析などの分野で深層学習が適用されるようになった。
+
+</CaseStudy>
+
+### AlphaGo — AIが人間の直感を超えた日（2016年）
+
+2016年、Google DeepMindのAlphaGoが囲碁の世界チャンピオン李世ドルに4勝1敗で勝利。囲碁は「AIには10年以上かかる」と言われていた領域であり、世界に衝撃を与えました。
+
+### Attention Is All You Need — Transformer革命（2017年）
+
+<ResourceCard
+  type="paper"
+  title="Attention Is All You Need"
+  url="https://arxiv.org/abs/1706.03762"
+  authors="Vaswani A, Shazeer N, Parmar N et al."
+  source="NeurIPS"
+  year={2017}
+  description="Transformerアーキテクチャを提案した論文。GPT、BERT、ChatGPT、Claude、全ての基盤"
+/>
+
+2017年にGoogleの研究者が提案した**Transformer**アーキテクチャは、現在の生成AIの全てを支える基盤技術です。GPT（OpenAI）、BERT（Google）、Claude（Anthropic）、Gemini（Google）、全てがTransformerに基づいています。
+
+### ChatGPT — AIが一般社会に浸透した瞬間（2022年11月）
+
+2022年11月30日、OpenAIがChatGPTを公開。**5日間で100万ユーザー**を突破し、史上最速で普及したテクノロジーとなりました。
+
+---
+
+## 医療AIの転換点
+
+| 年 | 出来事 | 意義 |
+|:---|:---|:---|
+| 1972 | MYCIN開発 | 医療AIの先駆者（未実用化） |
+| 2016 | 皮膚がん診断AI（Nature） | 深層学習が皮膚科専門医と同等の精度 |
+| 2018 | EndoBRAIN承認（日本） | PMDA初の深層学習大腸内視鏡AI |
+| 2019 | EIRL承認（日本） | 初の深層学習脳MRI AI |
+| 2022 | nodoca承認（日本） | 初のAI「新医療機器」 |
+| 2023 | GPT-4が医師国家試験合格水準 | 生成AIが医学知識テストで高得点 |
+| 2024 | AlphaFold2にノーベル賞 | AIによる科学的発見の評価 |
+
+---
+
+## AIブームと冬の教訓
+
+<Callout type="insight" title="「今回は本物」— だが過去から学ぶべきこと">
+
+第3次AIブームが過去と異なる理由: (1) **計算力の飛躍的向上**（GPU/TPU）、(2) **インターネットによる大規模データの蓄積**、(3) **実際の商業的成功**（ChatGPTの収益、AI医療機器の保険適用）。
+
+しかし、過去のAIの冬から学ぶべき教訓:
+- **過度な期待は禁物**: AIは万能ではない。特定のタスクでの成功を汎用的な知能と誤解しない
+- **限界の理解が重要**: AIの能力だけでなく限界を正確に把握することが適切な活用の前提
+- **人間の役割は変わる、なくならない**: AIは医師を代替するのではなく、医師の仕事のあり方を変える
+
+</Callout>
+
+---
+
+## まとめ
+
+AIの歴史は「楽観→失望→再挑戦」の繰り返しです。1956年のダートマス会議から70年、第3次ブームの現在は、計算力・データ・実用性の3要素が揃い、過去とは質的に異なる段階にあります。医療AIもMYCIN（1972年、未実用化）からEndoBRAIN・nodoca（実際の臨床使用、保険適用）へと大きく進化しました。
+
+次のレッスンでは、AIの**分類と種類**を学びます。
+
+<Quiz
+  courseId="ai-basics"
+  lessonSlug="02-ai-history"
+  questions={[
+    {
+      question: "2012年にImageNetコンテストで深層学習が注目された理由はどれか？",
+      options: ["初めてAIが画像認識に使用されたため", "AlexNetがエラー率を26.2%→15.3%に劇的に低下させ、2位と10ポイント以上の差をつけたため", "人間の画像認識精度を初めて超えたため", "Googleが賞金を大幅に増額したため"],
+      correctIndex: 1,
+      explanation: "2012年、AlexNetが深層学習を用いてImageNetのエラー率を26.2%→15.3%に劇的に低下させました。従来の手法では毎年1-2ポイントの改善だったため、この10ポイント以上の飛躍が世界に衝撃を与え、深層学習ブームの起点となりました。"
+    },
+    {
+      question: "ChatGPT、Claude、Gemini等の生成AIの基盤技術はどれか？",
+      options: ["エキスパートシステム（if-thenルール）", "畳み込みニューラルネットワーク（CNN）", "Transformerアーキテクチャ（2017年提案）", "強化学習（AlphaGoの手法）"],
+      correctIndex: 2,
+      explanation: "2017年にGoogleの研究者が「Attention Is All You Need」論文で提案したTransformerアーキテクチャが、GPT、BERT、ChatGPT、Claude、Gemini等の全ての生成AIの基盤です。"
+    },
+    {
+      question: "過去のAIブームと冬の教訓として最も重要なものはどれか？",
+      options: ["AI研究に投資すべきではない", "AIの能力だけでなく限界を正確に理解し、過度な期待を避けること", "AIは全ての分野で人間を代替する", "AIの冬は二度と来ない"],
+      correctIndex: 1,
+      explanation: "過去のAIの冬は、過度な期待（「10年で人間と同等に」）が失望に変わることで訪れました。AIの能力だけでなく限界を正確に理解し、適切な期待値で活用することが、第3次ブームを持続的な発展につなげる鍵です。"
+    }
+  ]}
+/>
+
+<ActionItem>
+「AIの冬」の歴史を踏まえ、現在自施設で検討中のAI導入について、「過度な期待」と「適切な期待」を区別してみましょう。AIにできることとできないことを具体的にリスト化し、導入判断の根拠として活用してください。
+</ActionItem>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"ai-basics","lessonSlug":"02-ai-history"}],["$","$L1d",null,{"items":[{"id":"はじめに-なぜaiの歴史を学ぶのか","text":"はじめに — なぜAIの歴史を学ぶのか","level":2},{"id":"第1次aiブーム1950年代-1960年代-夢の始まり","text":"第1次AIブーム（1950年代-1960年代）— 夢の始まり","level":2},{"id":"ダートマス会議1956年","text":"ダートマス会議（1956年）","level":3},{"id":"第2次aiブーム1980年代-エキスパートシステムの時代","text":"第2次AIブーム（1980年代）— エキスパートシステムの時代","level":2},{"id":"mycinと医療ai","text":"MYCINと医療AI","level":3},{"id":"第2次aiの冬1990年代前半","text":"第2次AIの冬（1990年代前半）","level":3},{"id":"第3次aiブーム2010年代-現在-深層学習革命","text":"第3次AIブーム（2010年代-現在）— 深層学習革命","level":2},{"id":"imagenet-2012-深層学習のビッグバン","text":"ImageNet 2012 — 深層学習のビッグバン","level":3},{"id":"alphago-aiが人間の直感を超えた日2016年","text":"AlphaGo — AIが人間の直感を超えた日（2016年）","level":3},{"id":"attention-is-all-you-need-transformer革命2017年","text":"Attention Is All You Need — Transformer革命（2017年）","level":3},{"id":"chatgpt-aiが一般社会に浸透した瞬間2022年11月","text":"ChatGPT — AIが一般社会に浸透した瞬間（2022年11月）","level":3},{"id":"医療aiの転換点","text":"医療AIの転換点","level":2},{"id":"aiブームと冬の教訓","text":"AIブームと冬の教訓","level":2},{"id":"まとめ","text":"まとめ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"course":{"courseId":"ai-basics","title":"AIとは何か - 基礎から理解する人工知能","description":"AIの定義、知能の本質、機械学習の基礎、AIの種類と分類を体系的に学びます","category":"ai-fundamentals","level":"beginner","lessonCount":8,"estimatedTotalMinutes":128,"order":1,"free":true,"learningOutcomes":["AIの定義と種類を正確に説明できる","機械学習の基本的な仕組みを理解できる","AIの現在の能力と限界を区別できる","AIの社会的影響を多角的に評価できる"],"prerequisites":[],"targetAudience":["AIについて初めて学ぶ方","医療分野でAIの基礎知識を得たい方","AI関連のニュースを正しく理解したい方"],"skills":["AI基礎知識","機械学習概論","AI分類"],"coverImage":"$undefined"},"lesson":{"courseId":"ai-basics","slug":"02-ai-history","title":"AIの歴史と発展の軌跡","description":"ダートマス会議からChatGPTまで、AIブームと冬の時代の繰り返し、そして医療AIの転換点を学びます","order":2,"estimatedMinutes":20,"estimatedReadTime":12,"content":"$1f"}}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+26:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+27:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose","children":"$L25"}]
+22:["$","$L26",null,{"courseId":"ai-basics","lessonSlug":"02-ai-history"}]
+23:["$","$L27",null,{"courseId":"ai-basics","prev":{"slug":"01-ai-definition","title":"AIの定義と知能の本質","order":1},"next":{"slug":"03-ai-classification","title":"AIの分類と種類","order":3}}]
+25:[["$","h1",null,{"children":"AIの歴史 — 技術進化の物語"}],"\n",["$","h2",null,{"id":"はじめに-なぜaiの歴史を学ぶのか","children":"はじめに — なぜAIの歴史を学ぶのか"}],"\n",["$","p",null,{"children":"AI技術は過去70年間、「ブーム」と「冬の時代」を繰り返してきました。この歴史を知ることで、現在の生成AIブームが「今回こそ本物か、それともまた冬が来るのか」を見極める視点を得られます。結論から言えば、今回は本物ですが、過去のブームから学ぶべき教訓は多くあります。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"第1次aiブーム1950年代-1960年代-夢の始まり","children":"第1次AIブーム（1950年代-1960年代）— 夢の始まり"}],"\n",["$","h3",null,{"id":"ダートマス会議1956年","children":"ダートマス会議（1956年）"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-amber-600/50 dark:border-l-amber-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","国際"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"ダートマス会議 — 「人工知能」という言葉が生まれた日"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"背景"}],": 1956年夏、米国ダートマス大学でジョン・マッカーシーが「Artificial Intelligence」という用語を提案し、2ヶ月間のワークショップを開催。参加者にはマービン・ミンスキー、クロード・シャノン、アレン・ニューウェルら後のAI研究の巨人たちが含まれていた。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"楽観主義"}],": 参加者たちは「10年以内に機械が人間と同等の知能を持つ」と信じていた。この予測は大きく外れることになる。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"教訓"}],": 新技術の可能性に対する過度な楽観主義は、その後の失望と資金の引き上げ（「AIの冬」）を招く。現在の生成AIブームにも同じリスクがある。"]}]]}]]}],"\n",["$","p",null,{"children":"この時代のAIは、論理的推論と記号処理が中心でした。「体温38度以上 AND 咳あり → 風邪の疑い」のような明示的なルールをプログラムする手法です。簡単な定理の証明やゲームでは成果を上げましたが、現実世界の複雑さには対応できませんでした。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"第2次aiブーム1980年代-エキスパートシステムの時代","children":"第2次AIブーム（1980年代）— エキスパートシステムの時代"}],"\n",["$","h3",null,{"id":"mycinと医療ai","children":"MYCINと医療AI"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-blue-600/50 dark:border-l-blue-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","米国"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"MYCIN — 医療AIの先駆者"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"開発"}],": スタンフォード大学のEdward Shortliffeが1972年に開発。約600の「if-then」ルールに基づく感染症診断支援システム。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"性能"}],": 血液感染症の診断で",["$","strong",null,{"children":"65%の精度"}],"を達成。これは当時の感染症専門医の平均（約80%）には及ばなかったが、非専門医（50%以下）を上回った。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"限界"}],": ルールの追加・更新が困難。新しい知見が得られても、専門家が手動でルールを追加する必要があった。実際の臨床現場では使用されなかった。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"教訓"}],": 「専門家の知識をルール化すればAIができる」というアプローチには限界がある。知識は明示的なルールだけでなく、暗黙知（経験に基づく直感）にも依存している。"]}]]}]]}],"\n",["$","h3",null,{"id":"第2次aiの冬1990年代前半","children":"第2次AIの冬（1990年代前半）"}],"\n",["$","p",null,{"children":"エキスパートシステムの限界が明らかになり、再びAI研究への投資が減少。「AIは使えない」という評価が定着しました。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"第3次aiブーム2010年代-現在-深層学習革命","children":"第3次AIブーム（2010年代-現在）— 深層学習革命"}],"\n",["$","h3",null,{"id":"imagenet-2012-深層学習のビッグバン","children":"ImageNet 2012 — 深層学習のビッグバン"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-amber-600/50 dark:border-l-amber-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","国際"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"ImageNet 2012 — 深層学習が画像認識を支配した瞬間"}],null]}],"$L28"]}],"\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b"]
+3c:I[89213,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ResourceCard"]
+3d:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Callout"]
+3e:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+3f:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+28:["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"背景"}],": ImageNet Large Scale Visual Recognition Challenge（ILSVRC）は、120万枚の画像を1,000カテゴリに分類するコンテスト。2012年まで、エラー率の改善は毎年1-2ポイント程度だった。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"衝撃"}],": 2012年、トロント大学のAlex Krizhevskyが深層学習モデル「AlexNet」でエラー率を**26.2%→15.3%**に劇的に低下させた。2位との差は10ポイント以上。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"なぜこの時"}],": (1) GPUの計算力向上、(2) 大規模データセットの整備、(3) ドロップアウト等のアルゴリズム改良の3要素が揃った。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"医療への波及"}],": この成功を受け、医療画像診断AIの研究が爆発的に増加。皮膚がん診断、眼底画像解析、病理画像解析などの分野で深層学習が適用されるようになった。"]}]]}]
+29:["$","h3",null,{"id":"alphago-aiが人間の直感を超えた日2016年","children":"AlphaGo — AIが人間の直感を超えた日（2016年）"}]
+2a:["$","p",null,{"children":"2016年、Google DeepMindのAlphaGoが囲碁の世界チャンピオン李世ドルに4勝1敗で勝利。囲碁は「AIには10年以上かかる」と言われていた領域であり、世界に衝撃を与えました。"}]
+2b:["$","h3",null,{"id":"attention-is-all-you-need-transformer革命2017年","children":"Attention Is All You Need — Transformer革命（2017年）"}]
+2c:["$","$L3c",null,{"type":"paper","title":"Attention Is All You Need","url":"https://arxiv.org/abs/1706.03762","authors":"Vaswani A, Shazeer N, Parmar N et al.","source":"NeurIPS","description":"Transformerアーキテクチャを提案した論文。GPT、BERT、ChatGPT、Claude、全ての基盤"}]
+2d:["$","p",null,{"children":["2017年にGoogleの研究者が提案した",["$","strong",null,{"children":"Transformer"}],"アーキテクチャは、現在の生成AIの全てを支える基盤技術です。GPT（OpenAI）、BERT（Google）、Claude（Anthropic）、Gemini（Google）、全てがTransformerに基づいています。"]}]
+2e:["$","h3",null,{"id":"chatgpt-aiが一般社会に浸透した瞬間2022年11月","children":"ChatGPT — AIが一般社会に浸透した瞬間（2022年11月）"}]
+2f:["$","p",null,{"children":["2022年11月30日、OpenAIがChatGPTを公開。",["$","strong",null,{"children":"5日間で100万ユーザー"}],"を突破し、史上最速で普及したテクノロジーとなりました。"]}]
+30:["$","hr",null,{}]
+31:["$","h2",null,{"id":"医療aiの転換点","children":"医療AIの転換点"}]
+32:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"年"}],["$","th",null,{"style":{"textAlign":"left"},"children":"出来事"}],["$","th",null,{"style":{"textAlign":"left"},"children":"意義"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"1972"}],["$","td",null,{"style":{"textAlign":"left"},"children":"MYCIN開発"}],["$","td",null,{"style":{"textAlign":"left"},"children":"医療AIの先駆者（未実用化）"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"2016"}],["$","td",null,{"style":{"textAlign":"left"},"children":"皮膚がん診断AI（Nature）"}],["$","td",null,{"style":{"textAlign":"left"},"children":"深層学習が皮膚科専門医と同等の精度"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"2018"}],["$","td",null,{"style":{"textAlign":"left"},"children":"EndoBRAIN承認（日本）"}],["$","td",null,{"style":{"textAlign":"left"},"children":"PMDA初の深層学習大腸内視鏡AI"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"2019"}],["$","td",null,{"style":{"textAlign":"left"},"children":"EIRL承認（日本）"}],["$","td",null,{"style":{"textAlign":"left"},"children":"初の深層学習脳MRI AI"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"2022"}],["$","td",null,{"style":{"textAlign":"left"},"children":"nodoca承認（日本）"}],["$","td",null,{"style":{"textAlign":"left"},"children":"初のAI「新医療機器」"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"2023"}],["$","td",null,{"style":{"textAlign":"left"},"children":"GPT-4が医師国家試験合格水準"}],["$","td",null,{"style":{"textAlign":"left"},"children":"生成AIが医学知識テストで高得点"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"2024"}],["$","td",null,{"style":{"textAlign":"left"},"children":"AlphaFold2にノーベル賞"}],["$","td",null,{"style":{"textAlign":"left"},"children":"AIによる科学的発見の評価"}]]}]]}]]}]
+33:["$","hr",null,{}]
+34:["$","h2",null,{"id":"aiブームと冬の教訓","children":"AIブームと冬の教訓"}]
+35:["$","$L3d",null,{"type":"insight","title":"「今回は本物」— だが過去から学ぶべきこと","children":[["$","p",null,{"children":["第3次AIブームが過去と異なる理由: (1) ",["$","strong",null,{"children":"計算力の飛躍的向上"}],"（GPU/TPU）、(2) ",["$","strong",null,{"children":"インターネットによる大規模データの蓄積"}],"、(3) ",["$","strong",null,{"children":"実際の商業的成功"}],"（ChatGPTの収益、AI医療機器の保険適用）。"]}],["$","p",null,{"children":"しかし、過去のAIの冬から学ぶべき教訓:"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"過度な期待は禁物"}],": AIは万能ではない。特定のタスクでの成功を汎用的な知能と誤解しない"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"限界の理解が重要"}],": AIの能力だけでなく限界を正確に把握することが適切な活用の前提"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"人間の役割は変わる、なくならない"}],": AIは医師を代替するのではなく、医師の仕事のあり方を変える"]}],"\n"]}]]}]
+36:["$","hr",null,{}]
+37:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+38:["$","p",null,{"children":"AIの歴史は「楽観→失望→再挑戦」の繰り返しです。1956年のダートマス会議から70年、第3次ブームの現在は、計算力・データ・実用性の3要素が揃い、過去とは質的に異なる段階にあります。医療AIもMYCIN（1972年、未実用化）からEndoBRAIN・nodoca（実際の臨床使用、保険適用）へと大きく進化しました。"}]
+39:["$","p",null,{"children":["次のレッスンでは、AIの",["$","strong",null,{"children":"分類と種類"}],"を学びます。"]}]
+3a:["$","$L3e",null,{"courseId":"ai-basics","lessonSlug":"02-ai-history"}]
+3b:["$","$L3f",null,{"children":["$","p",null,{"children":"「AIの冬」の歴史を踏まえ、現在自施設で検討中のAI導入について、「過度な期待」と「適切な期待」を区別してみましょう。AIにできることとできないことを具体的にリスト化し、導入判断の根拠として活用してください。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+40:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"AIの歴史と発展の軌跡 | Hoshizu"}],["$","meta","1",{"name":"description","content":"ダートマス会議からChatGPTまで、AIブームと冬の時代の繰り返し、そして医療AIの転換点を学びます"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/learn/ai-basics/02-ai-history"}],["$","meta","4",{"property":"og:title","content":"AIの歴史と発展の軌跡 - AIとは何か - 基礎から理解する人工知能"}],["$","meta","5",{"property":"og:description","content":"ダートマス会議からChatGPTまで、AIブームと冬の時代の繰り返し、そして医療AIの転換点を学びます"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L40","15",{}]]

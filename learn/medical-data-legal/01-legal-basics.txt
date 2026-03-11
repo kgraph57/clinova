@@ -1,0 +1,224 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","learn","medical-data-legal","01-legal-basics"],"q":"","i":false,"f":[[["",{"children":["learn",{"children":[["courseId","medical-data-legal","d"],{"children":[["lessonSlug","01-legal-basics","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+1e:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+1f:T2505,
+# 医療情報の法的取り扱い — 基礎知識
+
+## はじめに — 160万人の患者記録が無断で渡された日
+
+2015年、英国の王立自由病院（Royal Free London NHS Foundation Trust）は、Google DeepMindと急性腎障害（AKI）の早期警告アプリ「Streams」を共同開発する契約を結びました。この契約のもと、**160万人の患者記録**がDeepMindに提供されました。
+
+2017年、英国情報コミッショナー事務局（ICO）は調査の結果、このデータ共有が**データ保護法に違反**していると裁定しました。患者は自分のデータがAI開発のために第三者に提供されることを知らされておらず、同意も得ていませんでした。
+
+<CaseStudy title="Google DeepMind × Royal Free Hospital — 160万人の患者データ無断共有" year={2017} jurisdiction="国際" tags={["データ保護", "同意なき共有", "ICO裁定"]}>
+
+**背景**: 2015年、Royal Free病院がDeepMindに急性腎障害予測アプリ「Streams」開発のためにデータを提供。対象は**直近5年間に入院した全患者160万人**の記録（HIV状態、薬物過量摂取の記録などを含む）。
+
+**ICOの裁定（2017年7月）**: データ保護原則の**4項目に違反**。(1) 公正かつ適法な処理ではない、(2) データ量が過剰、(3) 患者への適切な告知がない、(4) プライバシー影響評価が未実施。
+
+**影響**: 罰金は科されなかったが、DeepMindの医療データ事業は後にGoogle Healthに吸収。2024年には**集団訴訟**も提起された。
+
+**教訓**: 「良い目的のAI開発」であっても、患者の同意なしにデータを共有することは法的に許されない。目的の正当性と手続きの適法性は別の問題。
+
+</CaseStudy>
+
+この事件は、医療AI開発における個人情報保護の重要性を世界に知らしめました。日本でも、個人情報保護法・医療法・医師法の**三層構造**で医療情報は保護されています。
+
+---
+
+## 個人情報保護法 — 医療情報保護の基盤
+
+### 個人情報の定義（法第2条）
+
+個人情報保護法は、医療情報保護の最も基本的な法律です。
+
+| 概念 | 定義 | 医療での例 |
+|:---|:---|:---|
+| 個人情報 | 生存する個人に関する情報で、特定の個人を識別できるもの | 患者氏名、生年月日、患者ID |
+| 個人識別符号 | 身体的特徴をデータ化したもの、公的番号 | ゲノムデータ、マイナンバー |
+| 要配慮個人情報 | 不当な差別・偏見が生じないよう特に配慮を要する情報 | **病歴**、診療情報、障害、遺伝情報 |
+
+<Callout type="insight" title="要配慮個人情報 — 医療情報のほぼ全てが該当">
+
+医療情報の大部分は**要配慮個人情報**（法第2条第3項）に該当します。病歴、診療記録、検査結果、処方歴、遺伝情報などは全て該当し、取得には**原則として本人の同意が必要**です。
+
+一般の個人情報と異なり、要配慮個人情報はオプトアウト（事後拒否）による第三者提供が認められないなど、より厳格な規制が課されます。
+
+</Callout>
+
+### 個人情報取扱事業者の義務
+
+医療機関は「個人情報取扱事業者」として、以下の義務を負います:
+
+- **利用目的の特定・公表**（法第17条・第21条）: 取得時に利用目的を明示
+- **目的外利用の禁止**（法第18条）: 利用目的の範囲を超えた利用は原則禁止
+- **安全管理措置**（法第23条）: 組織的・人的・物理的・技術的な安全管理
+- **第三者提供の制限**（法第27条）: 原則として本人の同意が必要
+
+<ResourceCard
+  type="law"
+  title="個人情報の保護に関する法律"
+  url="https://elaws.e-gov.go.jp/document?lawid=415AC0000000057"
+  source="e-Gov法令検索"
+  description="個人情報保護法の全文。2022年4月施行の改正法を含む最新版"
+/>
+
+---
+
+## 医療法 — 診療記録の管理義務
+
+### 診療録の保存義務
+
+医療法は、診療記録の作成・保存を医療機関に義務付けています。
+
+| 文書 | 保存期間 | 根拠法 |
+|:---|:---|:---|
+| 診療録（カルテ） | **5年間** | 医師法第24条第2項 |
+| 処方箋 | **3年間** | 薬剤師法第28条 |
+| 手術記録 | **5年間** | 医療法施行規則第20条 |
+| 看護記録 | **2年間** | 医療法施行規則第20条 |
+| エックス線写真 | **3年間** | 医療法施行規則第30条の23の2 |
+
+### 電子保存の三原則
+
+2005年のe-文書法施行により、診療録の電子保存が法的に認められました。電子保存には**三原則**の充足が求められます:
+
+1. **真正性**: 作成者の識別・認証ができること（改ざん防止を含む）
+2. **見読性**: 必要に応じて内容を確認できること（画面表示・印刷）
+3. **保存性**: 法定保存期間中、適切に保存されること（バックアップを含む）
+
+---
+
+## 医師法 — 守秘義務と記録義務
+
+### 守秘義務（刑法第134条第1項）
+
+医師の守秘義務は、個人情報保護法とは別に**刑法**で罰則付きで規定されています。
+
+<Callout type="comparison" title="個人情報保護法の義務 vs 刑法の守秘義務">
+
+**個人情報保護法**: 個人情報取扱事業者（医療機関）の義務。違反は行政処分（命令違反に対して1年以下の懲役又は100万円以下の罰金）。
+
+**刑法第134条第1項**: 医師・薬剤師等の**個人の義務**。「正当な理由がないのに、その業務上取り扱ったことについて知り得た人の秘密を漏らした」場合、**6月以下の懲役又は10万円以下の罰金**。
+
+→ 両方が重畳的に適用される。つまり、医療情報の漏洩は「個人情報保護法違反 + 秘密漏示罪」の**二重の責任**を問われうる。
+
+</Callout>
+
+### 守秘義務の例外
+
+守秘義務には法定の例外があります:
+
+- **法令に基づく場合**: 感染症法に基づく届出、児童虐待防止法に基づく通告
+- **本人の同意**: 患者本人が情報提供に同意した場合
+- **正当事由**: 他の患者や社会の生命・身体の保護のために必要な場合
+
+### 診療録記載義務（医師法第24条）
+
+医師は診療を行った場合、**遅滞なく**診療録に必要事項を記載しなければなりません。AI診断支援を使用した場合、AIの使用事実、AIの判定結果、医師の最終判断を記載することが推奨されます。
+
+---
+
+## まとめ
+
+医療情報は、個人情報保護法（要配慮個人情報としての保護）、医療法（診療記録の保存義務）、医師法・刑法（守秘義務）の三層構造で保護されています。DeepMind事件が示すように、「AIのための良い研究」であっても、これらの法的要件を無視することは許されません。
+
+次のレッスンでは、個人情報保護法の**2022年改正**を含む詳細規定を学びます。
+
+<Quiz
+  courseId="medical-data-legal"
+  lessonSlug="01-legal-basics"
+  questions={[
+    {
+      question: "個人情報保護法における「要配慮個人情報」に該当するものはどれか？",
+      options: ["患者の電話番号", "患者の勤務先", "患者の病歴", "患者の住所"],
+      correctIndex: 2,
+      explanation: "病歴は要配慮個人情報（法第2条第3項）に該当します。不当な差別や偏見が生じないよう特に配慮を要する情報であり、取得には原則として本人の同意が必要です。電話番号・住所・勤務先は一般の個人情報であり、要配慮個人情報には該当しません。"
+    },
+    {
+      question: "医師の守秘義務違反に対する刑事罰の根拠法はどれか？",
+      options: ["個人情報保護法第23条", "医師法第24条", "刑法第134条第1項", "医療法第21条"],
+      correctIndex: 2,
+      explanation: "医師の守秘義務は刑法第134条第1項に規定されており、違反すると6月以下の懲役又は10万円以下の罰金が科されます。個人情報保護法の義務とは別に、刑法で個人の罰則が定められている点が重要です。"
+    },
+    {
+      question: "電子診療録が法的に認められるための三原則はどれか？",
+      options: ["機密性・完全性・可用性", "真正性・見読性・保存性", "正確性・迅速性・網羅性", "安全性・有効性・品質性"],
+      correctIndex: 1,
+      explanation: "電子診療録には「真正性」（作成者の識別・改ざん防止）、「見読性」（内容確認が可能）、「保存性」（法定期間の適切な保存）の三原則が求められます。これは2005年のe-文書法施行に伴い整備された基準です。"
+    }
+  ]}
+/>
+
+<ActionItem>
+DeepMind×Royal Free事件の概要を踏まえ、自施設のAI関連データ共有契約を確認しましょう。「データの範囲」「利用目的の明示」「患者への告知方法」「同意の取得手続き」の4点が契約に含まれているかチェックすることが第一歩です。
+</ActionItem>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"medical-data-legal","lessonSlug":"01-legal-basics"}],["$","$L1d",null,{"items":[{"id":"はじめに-160万人の患者記録が無断で渡された日","text":"はじめに — 160万人の患者記録が無断で渡された日","level":2},{"id":"個人情報保護法-医療情報保護の基盤","text":"個人情報保護法 — 医療情報保護の基盤","level":2},{"id":"個人情報の定義法第2条","text":"個人情報の定義（法第2条）","level":3},{"id":"個人情報取扱事業者の義務","text":"個人情報取扱事業者の義務","level":3},{"id":"医療法-診療記録の管理義務","text":"医療法 — 診療記録の管理義務","level":2},{"id":"診療録の保存義務","text":"診療録の保存義務","level":3},{"id":"電子保存の三原則","text":"電子保存の三原則","level":3},{"id":"医師法-守秘義務と記録義務","text":"医師法 — 守秘義務と記録義務","level":2},{"id":"守秘義務刑法第134条第1項","text":"守秘義務（刑法第134条第1項）","level":3},{"id":"守秘義務の例外","text":"守秘義務の例外","level":3},{"id":"診療録記載義務医師法第24条","text":"診療録記載義務（医師法第24条）","level":3},{"id":"まとめ","text":"まとめ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"course":{"courseId":"medical-data-legal","title":"医療情報の法的取り扱い - 個人情報保護法と医療法","description":"個人情報保護法、医療法、医師法における医療情報の取り扱い、AI利用時の法的要件、現在の法律と規制を詳しく学びます","category":"ai-fundamentals","level":"intermediate","lessonCount":7,"estimatedTotalMinutes":132,"order":5,"free":false,"learningOutcomes":["医療データに関する法規制を説明できる","個人情報保護法の要件を実務に適用できる","AI診断の法的責任を理解できる","最新の法改正動向を把握できる"],"prerequisites":["ai-basics"],"targetAudience":["医療データを取り扱う管理者","AI導入の法的リスクを評価したい方","医療情報システムの担当者"],"skills":["個人情報保護法","医療法","AI規制"],"coverImage":"$undefined"},"lesson":{"courseId":"medical-data-legal","slug":"01-legal-basics","title":"個人情報保護法の基礎","description":"DeepMind×NHS事件を起点に、個人情報保護法・医療法・医師法の三層構造を理解します","order":1,"estimatedMinutes":18,"estimatedReadTime":13,"content":"$1f"}}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+26:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+27:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose","children":"$L25"}]
+22:["$","$L26",null,{"courseId":"medical-data-legal","lessonSlug":"01-legal-basics"}]
+23:["$","$L27",null,{"courseId":"medical-data-legal","prev":null,"next":{"slug":"02-privacy-law-details","title":"医療法と医師法における情報管理","order":2}}]
+28:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Callout"]
+29:I[89213,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ResourceCard"]
+25:[["$","h1",null,{"children":"医療情報の法的取り扱い — 基礎知識"}],"\n",["$","h2",null,{"id":"はじめに-160万人の患者記録が無断で渡された日","children":"はじめに — 160万人の患者記録が無断で渡された日"}],"\n",["$","p",null,{"children":["2015年、英国の王立自由病院（Royal Free London NHS Foundation Trust）は、Google DeepMindと急性腎障害（AKI）の早期警告アプリ「Streams」を共同開発する契約を結びました。この契約のもと、",["$","strong",null,{"children":"160万人の患者記録"}],"がDeepMindに提供されました。"]}],"\n",["$","p",null,{"children":["2017年、英国情報コミッショナー事務局（ICO）は調査の結果、このデータ共有が",["$","strong",null,{"children":"データ保護法に違反"}],"していると裁定しました。患者は自分のデータがAI開発のために第三者に提供されることを知らされておらず、同意も得ていませんでした。"]}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-amber-600/50 dark:border-l-amber-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","国際"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"Google DeepMind × Royal Free Hospital — 160万人の患者データ無断共有"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"背景"}],": 2015年、Royal Free病院がDeepMindに急性腎障害予測アプリ「Streams」開発のためにデータを提供。対象は",["$","strong",null,{"children":"直近5年間に入院した全患者160万人"}],"の記録（HIV状態、薬物過量摂取の記録などを含む）。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"ICOの裁定（2017年7月）"}],": データ保護原則の",["$","strong",null,{"children":"4項目に違反"}],"。(1) 公正かつ適法な処理ではない、(2) データ量が過剰、(3) 患者への適切な告知がない、(4) プライバシー影響評価が未実施。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"影響"}],": 罰金は科されなかったが、DeepMindの医療データ事業は後にGoogle Healthに吸収。2024年には",["$","strong",null,{"children":"集団訴訟"}],"も提起された。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"教訓"}],": 「良い目的のAI開発」であっても、患者の同意なしにデータを共有することは法的に許されない。目的の正当性と手続きの適法性は別の問題。"]}]]}]]}],"\n",["$","p",null,{"children":["この事件は、医療AI開発における個人情報保護の重要性を世界に知らしめました。日本でも、個人情報保護法・医療法・医師法の",["$","strong",null,{"children":"三層構造"}],"で医療情報は保護されています。"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"個人情報保護法-医療情報保護の基盤","children":"個人情報保護法 — 医療情報保護の基盤"}],"\n",["$","h3",null,{"id":"個人情報の定義法第2条","children":"個人情報の定義（法第2条）"}],"\n",["$","p",null,{"children":"個人情報保護法は、医療情報保護の最も基本的な法律です。"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"概念"}],["$","th",null,{"style":{"textAlign":"left"},"children":"定義"}],["$","th",null,{"style":{"textAlign":"left"},"children":"医療での例"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"個人情報"}],["$","td",null,{"style":{"textAlign":"left"},"children":"生存する個人に関する情報で、特定の個人を識別できるもの"}],["$","td",null,{"style":{"textAlign":"left"},"children":"患者氏名、生年月日、患者ID"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"個人識別符号"}],["$","td",null,{"style":{"textAlign":"left"},"children":"身体的特徴をデータ化したもの、公的番号"}],["$","td",null,{"style":{"textAlign":"left"},"children":"ゲノムデータ、マイナンバー"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"要配慮個人情報"}],["$","td",null,{"style":{"textAlign":"left"},"children":"不当な差別・偏見が生じないよう特に配慮を要する情報"}],["$","td",null,{"style":{"textAlign":"left"},"children":[["$","strong",null,{"children":"病歴"}],"、診療情報、障害、遺伝情報"]}]]}]]}]]}],"\n",["$","$L28",null,{"type":"insight","title":"要配慮個人情報 — 医療情報のほぼ全てが該当","children":[["$","p",null,{"children":["医療情報の大部分は",["$","strong",null,{"children":"要配慮個人情報"}],"（法第2条第3項）に該当します。病歴、診療記録、検査結果、処方歴、遺伝情報などは全て該当し、取得には",["$","strong",null,{"children":"原則として本人の同意が必要"}],"です。"]}],["$","p",null,{"children":"一般の個人情報と異なり、要配慮個人情報はオプトアウト（事後拒否）による第三者提供が認められないなど、より厳格な規制が課されます。"}]]}],"\n",["$","h3",null,{"id":"個人情報取扱事業者の義務","children":"個人情報取扱事業者の義務"}],"\n",["$","p",null,{"children":"医療機関は「個人情報取扱事業者」として、以下の義務を負います:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"利用目的の特定・公表"}],"（法第17条・第21条）: 取得時に利用目的を明示"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"目的外利用の禁止"}],"（法第18条）: 利用目的の範囲を超えた利用は原則禁止"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"安全管理措置"}],"（法第23条）: 組織的・人的・物理的・技術的な安全管理"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"第三者提供の制限"}],"（法第27条）: 原則として本人の同意が必要"]}],"\n"]}],"\n",["$","$L29",null,{"type":"law","title":"個人情報の保護に関する法律","url":"https://elaws.e-gov.go.jp/document?lawid=415AC0000000057","source":"e-Gov法令検索","description":"個人情報保護法の全文。2022年4月施行の改正法を含む最新版"}],"\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41"]
+42:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+43:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+2a:["$","hr",null,{}]
+2b:["$","h2",null,{"id":"医療法-診療記録の管理義務","children":"医療法 — 診療記録の管理義務"}]
+2c:["$","h3",null,{"id":"診療録の保存義務","children":"診療録の保存義務"}]
+2d:["$","p",null,{"children":"医療法は、診療記録の作成・保存を医療機関に義務付けています。"}]
+2e:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"文書"}],["$","th",null,{"style":{"textAlign":"left"},"children":"保存期間"}],["$","th",null,{"style":{"textAlign":"left"},"children":"根拠法"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"診療録（カルテ）"}],["$","td",null,{"style":{"textAlign":"left"},"children":["$","strong",null,{"children":"5年間"}]}],["$","td",null,{"style":{"textAlign":"left"},"children":"医師法第24条第2項"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"処方箋"}],["$","td",null,{"style":{"textAlign":"left"},"children":["$","strong",null,{"children":"3年間"}]}],["$","td",null,{"style":{"textAlign":"left"},"children":"薬剤師法第28条"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"手術記録"}],["$","td",null,{"style":{"textAlign":"left"},"children":["$","strong",null,{"children":"5年間"}]}],["$","td",null,{"style":{"textAlign":"left"},"children":"医療法施行規則第20条"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"看護記録"}],["$","td",null,{"style":{"textAlign":"left"},"children":["$","strong",null,{"children":"2年間"}]}],["$","td",null,{"style":{"textAlign":"left"},"children":"医療法施行規則第20条"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"エックス線写真"}],["$","td",null,{"style":{"textAlign":"left"},"children":["$","strong",null,{"children":"3年間"}]}],["$","td",null,{"style":{"textAlign":"left"},"children":"医療法施行規則第30条の23の2"}]]}]]}]]}]
+2f:["$","h3",null,{"id":"電子保存の三原則","children":"電子保存の三原則"}]
+30:["$","p",null,{"children":["2005年のe-文書法施行により、診療録の電子保存が法的に認められました。電子保存には",["$","strong",null,{"children":"三原則"}],"の充足が求められます:"]}]
+31:["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"真正性"}],": 作成者の識別・認証ができること（改ざん防止を含む）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"見読性"}],": 必要に応じて内容を確認できること（画面表示・印刷）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"保存性"}],": 法定保存期間中、適切に保存されること（バックアップを含む）"]}],"\n"]}]
+32:["$","hr",null,{}]
+33:["$","h2",null,{"id":"医師法-守秘義務と記録義務","children":"医師法 — 守秘義務と記録義務"}]
+34:["$","h3",null,{"id":"守秘義務刑法第134条第1項","children":"守秘義務（刑法第134条第1項）"}]
+35:["$","p",null,{"children":["医師の守秘義務は、個人情報保護法とは別に",["$","strong",null,{"children":"刑法"}],"で罰則付きで規定されています。"]}]
+36:["$","$L28",null,{"type":"comparison","title":"個人情報保護法の義務 vs 刑法の守秘義務","children":[["$","p",null,{"children":[["$","strong",null,{"children":"個人情報保護法"}],": 個人情報取扱事業者（医療機関）の義務。違反は行政処分（命令違反に対して1年以下の懲役又は100万円以下の罰金）。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"刑法第134条第1項"}],": 医師・薬剤師等の",["$","strong",null,{"children":"個人の義務"}],"。「正当な理由がないのに、その業務上取り扱ったことについて知り得た人の秘密を漏らした」場合、",["$","strong",null,{"children":"6月以下の懲役又は10万円以下の罰金"}],"。"]}],["$","p",null,{"children":["→ 両方が重畳的に適用される。つまり、医療情報の漏洩は「個人情報保護法違反 + 秘密漏示罪」の",["$","strong",null,{"children":"二重の責任"}],"を問われうる。"]}]]}]
+37:["$","h3",null,{"id":"守秘義務の例外","children":"守秘義務の例外"}]
+38:["$","p",null,{"children":"守秘義務には法定の例外があります:"}]
+39:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"法令に基づく場合"}],": 感染症法に基づく届出、児童虐待防止法に基づく通告"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"本人の同意"}],": 患者本人が情報提供に同意した場合"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"正当事由"}],": 他の患者や社会の生命・身体の保護のために必要な場合"]}],"\n"]}]
+3a:["$","h3",null,{"id":"診療録記載義務医師法第24条","children":"診療録記載義務（医師法第24条）"}]
+3b:["$","p",null,{"children":["医師は診療を行った場合、",["$","strong",null,{"children":"遅滞なく"}],"診療録に必要事項を記載しなければなりません。AI診断支援を使用した場合、AIの使用事実、AIの判定結果、医師の最終判断を記載することが推奨されます。"]}]
+3c:["$","hr",null,{}]
+3d:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+3e:["$","p",null,{"children":"医療情報は、個人情報保護法（要配慮個人情報としての保護）、医療法（診療記録の保存義務）、医師法・刑法（守秘義務）の三層構造で保護されています。DeepMind事件が示すように、「AIのための良い研究」であっても、これらの法的要件を無視することは許されません。"}]
+3f:["$","p",null,{"children":["次のレッスンでは、個人情報保護法の",["$","strong",null,{"children":"2022年改正"}],"を含む詳細規定を学びます。"]}]
+40:["$","$L42",null,{"courseId":"medical-data-legal","lessonSlug":"01-legal-basics"}]
+41:["$","$L43",null,{"children":["$","p",null,{"children":"DeepMind×Royal Free事件の概要を踏まえ、自施設のAI関連データ共有契約を確認しましょう。「データの範囲」「利用目的の明示」「患者への告知方法」「同意の取得手続き」の4点が契約に含まれているかチェックすることが第一歩です。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+44:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"個人情報保護法の基礎 | Hoshizu"}],["$","meta","1",{"name":"description","content":"DeepMind×NHS事件を起点に、個人情報保護法・医療法・医師法の三層構造を理解します"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/learn/medical-data-legal/01-legal-basics"}],["$","meta","4",{"property":"og:title","content":"個人情報保護法の基礎 - 医療情報の法的取り扱い - 個人情報保護法と医療法"}],["$","meta","5",{"property":"og:description","content":"DeepMind×NHS事件を起点に、個人情報保護法・医療法・医師法の三層構造を理解します"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L44","15",{}]]

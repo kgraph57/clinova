@@ -1,0 +1,201 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+17:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+18:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+19:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+1a:"$Sreact.suspense"
+1c:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+1d:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T13d4,
+Claude Codeの裏側で動いているのがClaude APIだ。このAPIを直接使えば、自分だけのAIツールを構築できる。
+
+---
+
+## Claude APIとは
+
+Claude APIは、Anthropicが提供するプログラマティックなAIアクセス手段である。
+
+Claude Code、ブラウザ版のClaude、そしてサードパーティのアプリケーション。これらすべてが、内部的にClaude APIを呼び出している。
+
+APIを直接使うことで、Claude Codeでは実現できないカスタムワークフローを構築できる。
+
+---
+
+## Anthropic SDK
+
+### TypeScript/JavaScript
+
+```typescript
+import Anthropic from '@anthropic-ai/sdk'
+
+const client = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY
+})
+
+const message = await client.messages.create({
+  model: 'claude-sonnet-4-6',
+  max_tokens: 1024,
+  messages: [
+    { role: 'user', content: '小児の発熱の鑑別診断を5つ挙げて' }
+  ]
+})
+
+console.log(message.content[0].text)
+```
+
+### Python
+
+```python
+import anthropic
+
+client = anthropic.Anthropic(
+    api_key=os.environ["ANTHROPIC_API_KEY"]
+)
+
+message = client.messages.create(
+    model="claude-sonnet-4-6",
+    max_tokens=1024,
+    messages=[
+        {"role": "user", "content": "小児の発熱の鑑別診断を5つ挙げて"}
+    ]
+)
+
+print(message.content[0].text)
+```
+
+---
+
+## モデル選択
+
+2026年3月現在、3つのモデルファミリーが利用可能。
+
+| モデル | ID | 特徴 | 用途 |
+|--------|-----|------|------|
+| Opus 4.6 | `claude-opus-4-6` | 最も深い推論力 | 複雑な分析、アーキテクチャ設計 |
+| Sonnet 4.6 | `claude-sonnet-4-6` | バランス型 | 一般的な開発作業、主力モデル |
+| Haiku 4.5 | `claude-haiku-4-5-20251001` | 高速・低コスト | 軽量タスク、大量処理 |
+
+### コスト最適化の指針
+
+- Haikuで十分なタスク: 分類、要約、簡単な変換（Sonnetの約3分の1のコスト）
+- Sonnetが適切なタスク: コード生成、文章作成、一般的な分析
+- Opusが必要なタスク: 複雑な推論、マルチステップの問題解決
+
+---
+
+## ストリーミング
+
+リアルタイムで応答を受け取る場合はストリーミングを使う。
+
+```typescript
+const stream = await client.messages.stream({
+  model: 'claude-sonnet-4-6',
+  max_tokens: 1024,
+  messages: [{ role: 'user', content: 'プロンプト' }]
+})
+
+for await (const event of stream) {
+  if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
+    process.stdout.write(event.delta.text)
+  }
+}
+```
+
+---
+
+## ツール使用（Function Calling）
+
+Claude APIの真髄はツール使用にある。Claude Codeのツールシステムも、この機能で実現されている。
+
+```typescript
+const response = await client.messages.create({
+  model: 'claude-sonnet-4-6',
+  max_tokens: 1024,
+  tools: [{
+    name: 'calculate_bmi',
+    description: 'BMIを計算する',
+    input_schema: {
+      type: 'object',
+      properties: {
+        height_cm: { type: 'number', description: '身長（cm）' },
+        weight_kg: { type: 'number', description: '体重（kg）' }
+      },
+      required: ['height_cm', 'weight_kg']
+    }
+  }],
+  messages: [{ role: 'user', content: '身長165cm、体重60kgのBMIは？' }]
+})
+```
+
+Claudeがツールを呼び出すと決定した場合、レスポンスに `tool_use` ブロックが含まれる。アプリケーション側でツールを実行し、結果を返すことで対話が続く。
+
+---
+
+## 医療ツールの構築例
+
+### 薬剤相互作用チェッカー
+
+```typescript
+const tools = [{
+  name: 'check_interaction',
+  description: '2つの薬剤の相互作用を確認する',
+  input_schema: {
+    type: 'object',
+    properties: {
+      drug_a: { type: 'string' },
+      drug_b: { type: 'string' }
+    }
+  }
+}]
+```
+
+### 臨床検査値解釈
+
+```typescript
+const tools = [{
+  name: 'interpret_lab',
+  description: '臨床検査値を解釈する',
+  input_schema: {
+    type: 'object',
+    properties: {
+      test_name: { type: 'string' },
+      value: { type: 'number' },
+      unit: { type: 'string' },
+      patient_age_years: { type: 'number' }
+    }
+  }
+}]
+```
+
+<Callout type="warning" title="医療AIツールの注意点">
+Claude APIで構築した医療ツールは、あくまで「支援ツール」として位置づける。最終的な臨床判断は必ず医師が行う。また、APIに送信するデータに患者の個人情報を含めないよう注意する。
+</Callout>
+
+<KeyTakeaway>
+- Claude APIはClaude Codeの基盤技術であり、直接使えばカスタムAIツールを構築できる
+- TypeScript/Python SDKでメッセージ送信、ストリーミング、ツール使用が可能
+- Opus/Sonnet/Haikuの3モデルをコスト・性能に応じて使い分ける
+- ツール使用（Function Calling）でClaude Codeのツールシステムと同等の機能を実装できる
+- 医療ツール構築時は支援ツールとして位置づけ、患者データの取り扱いに注意する
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"07-01-claude-api"}],["$","$L4",null,{"items":[{"id":"claude-apiとは","text":"Claude APIとは","level":2},{"id":"anthropic-sdk","text":"Anthropic SDK","level":2},{"id":"typescriptjavascript","text":"TypeScript/JavaScript","level":3},{"id":"python","text":"Python","level":3},{"id":"モデル選択","text":"モデル選択","level":2},{"id":"コスト最適化の指針","text":"コスト最適化の指針","level":3},{"id":"ストリーミング","text":"ストリーミング","level":2},{"id":"ツール使用function-calling","text":"ツール使用（Function Calling）","level":2},{"id":"医療ツールの構築例","text":"医療ツールの構築例","level":2},{"id":"薬剤相互作用チェッカー","text":"薬剤相互作用チェッカー","level":3},{"id":"臨床検査値解釈","text":"臨床検査値解釈","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"07-01-claude-api","title":"Claude API — プログラマティックなAIアクセス","description":"Claude CodeはClaude APIの上に構築されている。APIの基本、メッセージ送信、ストリーミング、ツール使用をコードレベルで理解する。","partId":"part07","partTitle":"エコシステム","order":23,"partOrder":7,"estimatedMinutes":25,"estimatedReadTime":5,"free":true,"status":"published","tags":["Claude API","Anthropic","SDK","プログラミング","API"],"content":"$6"},"totalChapters":26}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"claude-apiとは","text":"Claude APIとは","level":2},{"id":"anthropic-sdk","text":"Anthropic SDK","level":2},{"id":"typescriptjavascript","text":"TypeScript/JavaScript","level":3},{"id":"python","text":"Python","level":3},{"id":"モデル選択","text":"モデル選択","level":2},{"id":"コスト最適化の指針","text":"コスト最適化の指針","level":3},{"id":"ストリーミング","text":"ストリーミング","level":2},{"id":"ツール使用function-calling","text":"ツール使用（Function Calling）","level":2},{"id":"医療ツールの構築例","text":"医療ツールの構築例","level":2},{"id":"薬剤相互作用チェッカー","text":"薬剤相互作用チェッカー","level":3},{"id":"臨床検査値解釈","text":"臨床検査値解釈","level":3}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"Claude Codeの裏側で動いているのがClaude APIだ。このAPIを直接使えば、自分だけのAIツールを構築できる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"claude-apiとは","children":"Claude APIとは"}],"\n",["$","p",null,{"children":"Claude APIは、Anthropicが提供するプログラマティックなAIアクセス手段である。"}],"\n",["$","p",null,{"children":"Claude Code、ブラウザ版のClaude、そしてサードパーティのアプリケーション。これらすべてが、内部的にClaude APIを呼び出している。"}],"\n",["$","p",null,{"children":"APIを直接使うことで、Claude Codeでは実現できないカスタムワークフローを構築できる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"anthropic-sdk","children":"Anthropic SDK"}],"\n",["$","h3",null,{"id":"typescriptjavascript","children":"TypeScript/JavaScript"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-typescript","children":"import Anthropic from '@anthropic-ai/sdk'\n\nconst client = new Anthropic({\n  apiKey: process.env.ANTHROPIC_API_KEY\n})\n\nconst message = await client.messages.create({\n  model: 'claude-sonnet-4-6',\n  max_tokens: 1024,\n  messages: [\n    { role: 'user', content: '小児の発熱の鑑別診断を5つ挙げて' }\n  ]\n})\n\nconsole.log(message.content[0].text)\n"}]}],"\n",["$","h3",null,{"id":"python","children":"Python"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-python","children":"import anthropic\n\nclient = anthropic.Anthropic(\n    api_key=os.environ[\"ANTHROPIC_API_KEY\"]\n)\n\nmessage = client.messages.create(\n    model=\"claude-sonnet-4-6\",\n    max_tokens=1024,\n    messages=[\n        {\"role\": \"user\", \"content\": \"小児の発熱の鑑別診断を5つ挙げて\"}\n    ]\n)\n\nprint(message.content[0].text)\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"モデル選択","children":"モデル選択"}],"\n",["$","p",null,{"children":"2026年3月現在、3つのモデルファミリーが利用可能。"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"モデル"}],["$","th",null,{"children":"ID"}],["$","th",null,{"children":"特徴"}],["$","th",null,{"children":"用途"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Opus 4.6"}],["$","td",null,{"children":["$","code",null,{"children":"claude-opus-4-6"}]}],["$","td",null,{"children":"最も深い推論力"}],["$","td",null,{"children":"複雑な分析、アーキテクチャ設計"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Sonnet 4.6"}],["$","td",null,{"children":["$","code",null,{"children":"claude-sonnet-4-6"}]}],["$","td",null,{"children":"バランス型"}],["$","td",null,{"children":"一般的な開発作業、主力モデル"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Haiku 4.5"}],["$","td",null,{"children":["$","code",null,{"children":"claude-haiku-4-5-20251001"}]}],["$","td",null,{"children":"高速・低コスト"}],["$","td",null,{"children":"軽量タスク、大量処理"}]]}]]}]]}],"\n",["$","h3",null,{"id":"コスト最適化の指針","children":"コスト最適化の指針"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"Haikuで十分なタスク: 分類、要約、簡単な変換（Sonnetの約3分の1のコスト）"}],"\n",["$","li",null,{"children":"Sonnetが適切なタスク: コード生成、文章作成、一般的な分析"}],"\n",["$","li",null,{"children":"Opusが必要なタスク: 複雑な推論、マルチステップの問題解決"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"ストリーミング","children":"ストリーミング"}],"\n",["$","p",null,{"children":"リアルタイムで応答を受け取る場合はストリーミングを使う。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-typescript","children":"const stream = await client.messages.stream({\n  model: 'claude-sonnet-4-6',\n  max_tokens: 1024,\n  messages: [{ role: 'user', content: 'プロンプト' }]\n})\n\nfor await (const event of stream) {\n  if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {\n    process.stdout.write(event.delta.text)\n  }\n}\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"ツール使用function-calling","children":"ツール使用（Function Calling）"}],"\n",["$","p",null,{"children":"Claude APIの真髄はツール使用にある。Claude Codeのツールシステムも、この機能で実現されている。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-typescript","children":"const response = await client.messages.create({\n  model: 'claude-sonnet-4-6',\n  max_tokens: 1024,\n  tools: [{\n    name: 'calculate_bmi',\n    description: 'BMIを計算する',\n    input_schema: {\n      type: 'object',\n      properties: {\n        height_cm: { type: 'number', description: '身長（cm）' },\n        weight_kg: { type: 'number', description: '体重（kg）' }\n      },\n      required: ['height_cm', 'weight_kg']\n    }\n  }],\n  messages: [{ role: 'user', content: '身長165cm、体重60kgのBMIは？' }]\n})\n"}]}],"\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16"]}]
+9:["$","$L17",null,{"bookId":"claude-code","chapterSlug":"07-01-claude-api"}]
+a:["$","$L18",null,{"bookId":"claude-code","prev":{"slug":"06-03-automation","title":"自動化パイプライン — CI/CDとの統合","order":22},"next":{"slug":"07-02-agent-sdk","title":"Agent SDK — カスタムエージェントを構築する","order":24}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L19",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1b"}]}]
+e:["$","p",null,{"children":["Claudeがツールを呼び出すと決定した場合、レスポンスに ",["$","code",null,{"children":"tool_use"}]," ブロックが含まれる。アプリケーション側でツールを実行し、結果を返すことで対話が続く。"]}]
+f:["$","hr",null,{}]
+10:["$","h2",null,{"id":"医療ツールの構築例","children":"医療ツールの構築例"}]
+11:["$","h3",null,{"id":"薬剤相互作用チェッカー","children":"薬剤相互作用チェッカー"}]
+12:["$","pre",null,{"children":["$","code",null,{"className":"language-typescript","children":"const tools = [{\n  name: 'check_interaction',\n  description: '2つの薬剤の相互作用を確認する',\n  input_schema: {\n    type: 'object',\n    properties: {\n      drug_a: { type: 'string' },\n      drug_b: { type: 'string' }\n    }\n  }\n}]\n"}]}]
+13:["$","h3",null,{"id":"臨床検査値解釈","children":"臨床検査値解釈"}]
+14:["$","pre",null,{"children":["$","code",null,{"className":"language-typescript","children":"const tools = [{\n  name: 'interpret_lab',\n  description: '臨床検査値を解釈する',\n  input_schema: {\n    type: 'object',\n    properties: {\n      test_name: { type: 'string' },\n      value: { type: 'number' },\n      unit: { type: 'string' },\n      patient_age_years: { type: 'number' }\n    }\n  }\n}]\n"}]}]
+15:["$","$L1c",null,{"type":"warning","title":"医療AIツールの注意点","children":["$","p",null,{"children":"Claude APIで構築した医療ツールは、あくまで「支援ツール」として位置づける。最終的な臨床判断は必ず医師が行う。また、APIに送信するデータに患者の個人情報を含めないよう注意する。"}]}]
+16:["$","$L1d",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"Claude APIはClaude Codeの基盤技術であり、直接使えばカスタムAIツールを構築できる"}],"\n",["$","li",null,{"children":"TypeScript/Python SDKでメッセージ送信、ストリーミング、ツール使用が可能"}],"\n",["$","li",null,{"children":"Opus/Sonnet/Haikuの3モデルをコスト・性能に応じて使い分ける"}],"\n",["$","li",null,{"children":"ツール使用（Function Calling）でClaude Codeのツールシステムと同等の機能を実装できる"}],"\n",["$","li",null,{"children":"医療ツール構築時は支援ツールとして位置づけ、患者データの取り扱いに注意する"}],"\n"]}]}]
+1b:null

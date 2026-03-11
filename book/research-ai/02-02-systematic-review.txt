@@ -1,0 +1,257 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","research-ai","02-02-systematic-review"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","research-ai","d"],{"children":[["chapterId","02-02-systematic-review","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T2627,
+# AI支援の系統的レビュー手法
+
+## 系統的レビューの現状
+
+系統的レビューは、エビデンスに基づく医療（EBM）の頂点に位置する研究手法です。しかし、その実施には膨大な時間と労力が必要です。
+
+- 完成までの平均期間：**67週間**（約1年3か月）
+- スクリーニングする論文数：平均 **数千〜数万件**
+- データ抽出にかかる時間：1論文あたり **30分〜2時間**
+- 2人の独立した評価者による二重チェックが標準
+
+この労力の大きさが、系統的レビューの更新を遅らせ、「出版時にはすでに古い」という問題を引き起こしています。Cochrane Reviewの多くは、最新のエビデンスを反映できていません。
+
+<Callout>
+Borah らの2017年の研究によると、系統的レビューの完成までに要する期間は中央値67.3週間（IQR: 40-87週間）でした。AIツールの導入により、特にスクリーニング段階の効率化が進んでいます。
+</Callout>
+
+## AI支援の系統的レビューワークフロー
+
+<StepFlow>
+  <StepFlowStep number={1} title="プロトコル作成（PROSPERO登録）">
+    研究目的、検索戦略、組入基準、データ抽出項目を事前に規定。PROSPEROに登録して透明性を確保。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="網羅的文献検索">
+    複数データベース（PubMed, Embase, CINAHL, Cochrane CENTRAL等）での検索。AIで検索式を最適化。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="重複除去">
+    複数データベースの重複をEndNote、Zotero、またはSyRF等で自動除去。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="AIスクリーニング">
+    タイトル・抄録スクリーニングをAIが優先順位付け。高確率の論文から順に人間がレビュー。
+  </StepFlowStep>
+  <StepFlowStep number={5} title="全文スクリーニング">
+    AIが全文PDFから組入基準との適合性を評価。除外理由の候補を自動生成。
+  </StepFlowStep>
+  <StepFlowStep number={6} title="データ抽出">
+    AIが論文からPICO要素、結果数値、バイアスリスク情報を構造化抽出。
+  </StepFlowStep>
+  <StepFlowStep number={7} title="質評価・メタアナリシス">
+    バイアスリスク評価をAIが支援。可能であればメタアナリシスを実施。
+  </StepFlowStep>
+</StepFlow>
+
+## AIスクリーニングツールの比較
+
+### Rayyan
+
+Rayyanはカタール大学が開発した無料のAIスクリーニングツールです。
+
+**主な機能：**
+- 半自動的なスクリーニング支援（AIが関連度を予測）
+- ラベル・ハイライト機能でキーワードを視覚化
+- 複数レビュアーの意見の不一致を管理
+- RISファイルのインポート・エクスポート
+- 無料で利用可能
+
+### ASReview
+
+ASReview（Amsterdam）は、能動学習（Active Learning）を使ったオープンソースのスクリーニングツールです。
+
+**主な機能：**
+- 能動学習で最も関連性の高い論文を優先的に提示
+- スクリーニングの進行とともに学習が改善
+- 残りの論文数の推定（停止基準の支援）
+- Python ベースでカスタマイズ可能
+- 完全オープンソース・無料
+
+### Covidence
+
+CovidenceはCochrane公認のレビュー管理プラットフォームです。
+
+**主な機能：**
+- 検索結果のインポートから出版まで一気通貫
+- AIスクリーニング支援機能
+- 構造化されたデータ抽出フォーム
+- リスクオブバイアステーブルの自動生成
+- Cochrane Reviewとの直接連携
+- 有料（機関ライセンスあり）
+
+<ComparisonCard beforeLabel="手動スクリーニング" afterLabel="AIスクリーニング">
+<ComparisonBefore>
+
+全論文を順番に1本ずつ評価。関連性の低い論文にも同じ時間をかける。途中でスクリーニング基準がぶれやすい。2人のレビュアーの作業量が均等に膨大。5,000件のスクリーニングに2-4週間。
+
+</ComparisonBefore>
+<ComparisonAfter>
+
+AIが関連度スコアで優先順位付け。高関連度の論文から順にレビュー。AIのスコアがスクリーニング基準の一貫性を支援。関連論文が概ね見つかった時点で停止判断が可能。5,000件のスクリーニングが数日〜1週間に短縮。
+
+</ComparisonAfter>
+</ComparisonCard>
+
+## ASReviewの実践ワークフロー
+
+<StepFlow>
+  <StepFlowStep number={1} title="データのインポート">
+    PubMed等からエクスポートしたRISファイルをASReviewにインポート。タイトル、抄録、著者情報が読み込まれる。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="事前知識の入力（Prior Knowledge）">
+    既に「関連あり」「関連なし」と分かっている論文をそれぞれ数本ラベル付け。これがAIの学習の出発点になる。最低5本ずつが推奨。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="能動学習によるスクリーニング">
+    AIが最も関連性が高いと予測する論文を順次提示。レビュアーが「Include」「Exclude」を判断するたびにAIモデルが更新される。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="停止基準の適用">
+    連続して一定数（例：100本）のExcludeが続いた場合、残りの論文は概ね無関連と判断できる。ただし、系統的レビューでは全件スクリーニングが推奨される。
+  </StepFlowStep>
+</StepFlow>
+
+<Warning>
+AIスクリーニングは便利ですが、系統的レビューの方法論的要件を緩めるものではありません。Cochrane Handbookは2人の独立したレビュアーによるスクリーニングを要求しています。AIは「第三のレビュアー」として、あるいはスクリーニングの効率化ツールとして使用してください。AIのみによるスクリーニングは、現時点では系統的レビューの方法論的基準を満たしません。
+</Warning>
+
+## AIによるデータ抽出
+
+系統的レビューで最も時間のかかる作業の一つがデータ抽出です。AIを使って効率化する方法を解説します。
+
+<PromptTemplate title="系統的レビューのデータ抽出">
+以下の論文から、系統的レビューのためのデータを抽出してください。
+
+[論文のタイトル、抄録、または全文テキストを貼り付け]
+
+以下の項目を抽出してください：
+1. **基本情報**: 著者、年、国、ジャーナル、研究デザイン
+2. **対象集団**: サンプルサイズ、年齢（平均±SD）、性別比、組入基準、除外基準
+3. **介入**: 介入内容、用量、期間、投与経路
+4. **比較対照**: 対照群の内容
+5. **主要アウトカム**: 定義、測定方法、測定時期
+6. **結果**: 主要結果（効果量、95%CI、p値）、副次結果
+7. **バイアスリスク情報**: ランダム化方法、盲検化、脱落率、ITT解析の有無
+8. **資金源・利益相反**: 製薬企業のスポンサー有無
+
+抽出した情報に不明点がある場合は「Not reported」と記載してください。推測で補完しないでください。
+</PromptTemplate>
+
+## PRISMAフローダイアグラムの作成
+
+<PromptTemplate title="PRISMAフローダイアグラムの作成">
+以下のスクリーニング結果から、PRISMA 2020フローダイアグラムのテキストを作成してください。
+
+データベース別ヒット数:
+- PubMed: [件]
+- Embase: [件]
+- CINAHL: [件]
+- Cochrane CENTRAL: [件]
+
+追加検索（引用追跡、ハンドサーチ等）: [件]
+重複除去後: [件]
+タイトル・抄録スクリーニング後（除外数と主な理由）: [件]
+全文スクリーニング後（除外数と各理由）: [件]
+最終組入数: [件]
+- 定量的統合（メタアナリシス）に含めた数: [件]
+- 定性的統合のみ: [件]
+
+PRISMA 2020の新しいフロー（レジスター/ウェブサイト検索を含む）に従ってください。
+</PromptTemplate>
+
+## リビングシステマティックレビュー
+
+AIの力を活用すると、「リビング（継続更新型）」系統的レビューが実現可能になります。
+
+リビングシステマティックレビューとは、新しいエビデンスが出版されるたびに検索・スクリーニング・統合を更新し続ける系統的レビューです。従来は人的リソースの制約から困難でしたが、AIスクリーニングと自動文献モニタリングの組み合わせにより、現実的な選択肢になりつつあります。
+
+### リビングレビューの設計
+
+1. **自動アラート設定**: PubMedのMy NCBIアラートやSemantic ScholarのResearch Feedsで新着論文を自動検出
+2. **AIスクリーニング**: 新着論文をASReviewの学習済みモデルで自動分類
+3. **定期更新サイクル**: 月次または四半期ごとにデータ抽出と統合を更新
+4. **バージョン管理**: 各更新版を明確にバージョニング
+
+<KeyTakeaway>
+AIは系統的レビューの全工程を加速します。特にスクリーニング段階ではASReviewやRayyanの能動学習が劇的な時間短縮を実現します。ただし、AIツールは方法論的な厳密性を補完するものであり、置き換えるものではありません。2人のレビュアーによる独立評価、PRISMA準拠の報告、事前プロトコルの登録といった基本原則は変わりません。
+</KeyTakeaway>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-research-ai","lessonSlug":"02-02-systematic-review"}],["$","$L1d",null,{"items":[{"id":"系統的レビューの現状","text":"系統的レビューの現状","level":2},{"id":"ai支援の系統的レビューワークフロー","text":"AI支援の系統的レビューワークフロー","level":2},{"id":"aiスクリーニングツールの比較","text":"AIスクリーニングツールの比較","level":2},{"id":"rayyan","text":"Rayyan","level":3},{"id":"asreview","text":"ASReview","level":3},{"id":"covidence","text":"Covidence","level":3},{"id":"asreviewの実践ワークフロー","text":"ASReviewの実践ワークフロー","level":2},{"id":"aiによるデータ抽出","text":"AIによるデータ抽出","level":2},{"id":"prismaフローダイアグラムの作成","text":"PRISMAフローダイアグラムの作成","level":2},{"id":"リビングシステマティックレビュー","text":"リビングシステマティックレビュー","level":2},{"id":"リビングレビューの設計","text":"リビングレビューの設計","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"research-ai","bookTitle":"AI時代の医学論文術 — 検索・読解・執筆の新常識","chapter":{"slug":"02-02-systematic-review","title":"AI支援の系統的レビュー手法","description":"スクリーニング、データ抽出、メタアナリシスまで。系統的レビューの全工程をAIで効率化する実践手法。","partId":"part02","partTitle":"文献検索の革新","order":5,"partOrder":2,"estimatedMinutes":25,"estimatedReadTime":10,"free":true,"status":"published","tags":["系統的レビュー","PRISMA","スクリーニング","Rayyan","ASReview","Covidence"],"content":"$1f"},"totalChapters":27}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"research-ai","chapterSlug":"02-02-systematic-review"}]
+23:["$","$L27",null,{"bookId":"research-ai","prev":{"slug":"02-01-pubmed-ai","title":"PubMed × AI構造化検索ワークフロー","order":4},"next":{"slug":"02-03-reference-management","title":"文献管理とAI整理術","order":6}}]
+28:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+25:[["$","h1",null,{"children":"AI支援の系統的レビュー手法"}],"\n",["$","h2",null,{"id":"系統的レビューの現状","children":"系統的レビューの現状"}],"\n",["$","p",null,{"children":"系統的レビューは、エビデンスに基づく医療（EBM）の頂点に位置する研究手法です。しかし、その実施には膨大な時間と労力が必要です。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["完成までの平均期間：",["$","strong",null,{"children":"67週間"}],"（約1年3か月）"]}],"\n",["$","li",null,{"children":["スクリーニングする論文数：平均 ",["$","strong",null,{"children":"数千〜数万件"}]]}],"\n",["$","li",null,{"children":["データ抽出にかかる時間：1論文あたり ",["$","strong",null,{"children":"30分〜2時間"}]]}],"\n",["$","li",null,{"children":"2人の独立した評価者による二重チェックが標準"}],"\n"]}],"\n",["$","p",null,{"children":"この労力の大きさが、系統的レビューの更新を遅らせ、「出版時にはすでに古い」という問題を引き起こしています。Cochrane Reviewの多くは、最新のエビデンスを反映できていません。"}],"\n",["$","$L28",null,{"children":["$","p",null,{"children":"Borah らの2017年の研究によると、系統的レビューの完成までに要する期間は中央値67.3週間（IQR: 40-87週間）でした。AIツールの導入により、特にスクリーニング段階の効率化が進んでいます。"}]}],"\n",["$","h2",null,{"id":"ai支援の系統的レビューワークフロー","children":"AI支援の系統的レビューワークフロー"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"プロトコル作成（PROSPERO登録）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"研究目的、検索戦略、組入基準、データ抽出項目を事前に規定。PROSPEROに登録して透明性を確保。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"網羅的文献検索"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"複数データベース（PubMed, Embase, CINAHL, Cochrane CENTRAL等）での検索。AIで検索式を最適化。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"重複除去"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"複数データベースの重複をEndNote、Zotero、またはSyRF等で自動除去。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"AIスクリーニング"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"タイトル・抄録スクリーニングをAIが優先順位付け。高確率の論文から順に人間がレビュー。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":["$L29","$L2a"]}],"$L2b","$L2c"]}]]}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48"]
+49:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonCard"]
+4a:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonBefore"]
+4b:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonAfter"]
+4c:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+4d:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+4e:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+29:["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}]
+2a:["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"全文スクリーニング"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"AIが全文PDFから組入基準との適合性を評価。除外理由の候補を自動生成。"}]}]]}]
+2b:["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"データ抽出"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"AIが論文からPICO要素、結果数値、バイアスリスク情報を構造化抽出。"}]}]]}]]}]
+2c:["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"質評価・メタアナリシス"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"バイアスリスク評価をAIが支援。可能であればメタアナリシスを実施。"}]}]]}]]}]
+2d:["$","h2",null,{"id":"aiスクリーニングツールの比較","children":"AIスクリーニングツールの比較"}]
+2e:["$","h3",null,{"id":"rayyan","children":"Rayyan"}]
+2f:["$","p",null,{"children":"Rayyanはカタール大学が開発した無料のAIスクリーニングツールです。"}]
+30:["$","p",null,{"children":["$","strong",null,{"children":"主な機能："}]}]
+31:["$","ul",null,{"children":["\n",["$","li",null,{"children":"半自動的なスクリーニング支援（AIが関連度を予測）"}],"\n",["$","li",null,{"children":"ラベル・ハイライト機能でキーワードを視覚化"}],"\n",["$","li",null,{"children":"複数レビュアーの意見の不一致を管理"}],"\n",["$","li",null,{"children":"RISファイルのインポート・エクスポート"}],"\n",["$","li",null,{"children":"無料で利用可能"}],"\n"]}]
+32:["$","h3",null,{"id":"asreview","children":"ASReview"}]
+33:["$","p",null,{"children":"ASReview（Amsterdam）は、能動学習（Active Learning）を使ったオープンソースのスクリーニングツールです。"}]
+34:["$","p",null,{"children":["$","strong",null,{"children":"主な機能："}]}]
+35:["$","ul",null,{"children":["\n",["$","li",null,{"children":"能動学習で最も関連性の高い論文を優先的に提示"}],"\n",["$","li",null,{"children":"スクリーニングの進行とともに学習が改善"}],"\n",["$","li",null,{"children":"残りの論文数の推定（停止基準の支援）"}],"\n",["$","li",null,{"children":"Python ベースでカスタマイズ可能"}],"\n",["$","li",null,{"children":"完全オープンソース・無料"}],"\n"]}]
+36:["$","h3",null,{"id":"covidence","children":"Covidence"}]
+37:["$","p",null,{"children":"CovidenceはCochrane公認のレビュー管理プラットフォームです。"}]
+38:["$","p",null,{"children":["$","strong",null,{"children":"主な機能："}]}]
+39:["$","ul",null,{"children":["\n",["$","li",null,{"children":"検索結果のインポートから出版まで一気通貫"}],"\n",["$","li",null,{"children":"AIスクリーニング支援機能"}],"\n",["$","li",null,{"children":"構造化されたデータ抽出フォーム"}],"\n",["$","li",null,{"children":"リスクオブバイアステーブルの自動生成"}],"\n",["$","li",null,{"children":"Cochrane Reviewとの直接連携"}],"\n",["$","li",null,{"children":"有料（機関ライセンスあり）"}],"\n"]}]
+3a:["$","$L49",null,{"beforeLabel":"手動スクリーニング","afterLabel":"AIスクリーニング","children":[["$","$L4a",null,{"children":["$","p",null,{"children":"全論文を順番に1本ずつ評価。関連性の低い論文にも同じ時間をかける。途中でスクリーニング基準がぶれやすい。2人のレビュアーの作業量が均等に膨大。5,000件のスクリーニングに2-4週間。"}]}],["$","$L4b",null,{"children":["$","p",null,{"children":"AIが関連度スコアで優先順位付け。高関連度の論文から順にレビュー。AIのスコアがスクリーニング基準の一貫性を支援。関連論文が概ね見つかった時点で停止判断が可能。5,000件のスクリーニングが数日〜1週間に短縮。"}]}]]}]
+3b:["$","h2",null,{"id":"asreviewの実践ワークフロー","children":"ASReviewの実践ワークフロー"}]
+3c:["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"データのインポート"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"PubMed等からエクスポートしたRISファイルをASReviewにインポート。タイトル、抄録、著者情報が読み込まれる。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"事前知識の入力（Prior Knowledge）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"既に「関連あり」「関連なし」と分かっている論文をそれぞれ数本ラベル付け。これがAIの学習の出発点になる。最低5本ずつが推奨。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"能動学習によるスクリーニング"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"AIが最も関連性が高いと予測する論文を順次提示。レビュアーが「Include」「Exclude」を判断するたびにAIモデルが更新される。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"停止基準の適用"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"連続して一定数（例：100本）のExcludeが続いた場合、残りの論文は概ね無関連と判断できる。ただし、系統的レビューでは全件スクリーニングが推奨される。"}]}]]}]]}]]}]]}]
+3d:["$","$L4c",null,{"children":["$","p",null,{"children":"AIスクリーニングは便利ですが、系統的レビューの方法論的要件を緩めるものではありません。Cochrane Handbookは2人の独立したレビュアーによるスクリーニングを要求しています。AIは「第三のレビュアー」として、あるいはスクリーニングの効率化ツールとして使用してください。AIのみによるスクリーニングは、現時点では系統的レビューの方法論的基準を満たしません。"}]}]
+3e:["$","h2",null,{"id":"aiによるデータ抽出","children":"AIによるデータ抽出"}]
+3f:["$","p",null,{"children":"系統的レビューで最も時間のかかる作業の一つがデータ抽出です。AIを使って効率化する方法を解説します。"}]
+40:["$","$L4d",null,{"title":"系統的レビューのデータ抽出","children":[["$","p",null,{"children":"以下の論文から、系統的レビューのためのデータを抽出してください。"}],["$","p",null,{"children":"[論文のタイトル、抄録、または全文テキストを貼り付け]"}],["$","p",null,{"children":"以下の項目を抽出してください："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"基本情報"}],": 著者、年、国、ジャーナル、研究デザイン"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"対象集団"}],": サンプルサイズ、年齢（平均±SD）、性別比、組入基準、除外基準"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"介入"}],": 介入内容、用量、期間、投与経路"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"比較対照"}],": 対照群の内容"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"主要アウトカム"}],": 定義、測定方法、測定時期"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"結果"}],": 主要結果（効果量、95%CI、p値）、副次結果"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"バイアスリスク情報"}],": ランダム化方法、盲検化、脱落率、ITT解析の有無"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"資金源・利益相反"}],": 製薬企業のスポンサー有無"]}],"\n"]}],["$","p",null,{"children":"抽出した情報に不明点がある場合は「Not reported」と記載してください。推測で補完しないでください。"}]]}]
+41:["$","h2",null,{"id":"prismaフローダイアグラムの作成","children":"PRISMAフローダイアグラムの作成"}]
+42:["$","$L4d",null,{"title":"PRISMAフローダイアグラムの作成","children":[["$","p",null,{"children":"以下のスクリーニング結果から、PRISMA 2020フローダイアグラムのテキストを作成してください。"}],["$","p",null,{"children":"データベース別ヒット数:"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"PubMed: [件]"}],"\n",["$","li",null,{"children":"Embase: [件]"}],"\n",["$","li",null,{"children":"CINAHL: [件]"}],"\n",["$","li",null,{"children":"Cochrane CENTRAL: [件]"}],"\n"]}],["$","p",null,{"children":"追加検索（引用追跡、ハンドサーチ等）: [件]\n重複除去後: [件]\nタイトル・抄録スクリーニング後（除外数と主な理由）: [件]\n全文スクリーニング後（除外数と各理由）: [件]\n最終組入数: [件]"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"定量的統合（メタアナリシス）に含めた数: [件]"}],"\n",["$","li",null,{"children":"定性的統合のみ: [件]"}],"\n"]}],["$","p",null,{"children":"PRISMA 2020の新しいフロー（レジスター/ウェブサイト検索を含む）に従ってください。"}]]}]
+43:["$","h2",null,{"id":"リビングシステマティックレビュー","children":"リビングシステマティックレビュー"}]
+44:["$","p",null,{"children":"AIの力を活用すると、「リビング（継続更新型）」系統的レビューが実現可能になります。"}]
+45:["$","p",null,{"children":"リビングシステマティックレビューとは、新しいエビデンスが出版されるたびに検索・スクリーニング・統合を更新し続ける系統的レビューです。従来は人的リソースの制約から困難でしたが、AIスクリーニングと自動文献モニタリングの組み合わせにより、現実的な選択肢になりつつあります。"}]
+46:["$","h3",null,{"id":"リビングレビューの設計","children":"リビングレビューの設計"}]
+47:["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"自動アラート設定"}],": PubMedのMy NCBIアラートやSemantic ScholarのResearch Feedsで新着論文を自動検出"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"AIスクリーニング"}],": 新着論文をASReviewの学習済みモデルで自動分類"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"定期更新サイクル"}],": 月次または四半期ごとにデータ抽出と統合を更新"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"バージョン管理"}],": 各更新版を明確にバージョニング"]}],"\n"]}]
+48:["$","$L4e",null,{"children":["$","p",null,{"children":"AIは系統的レビューの全工程を加速します。特にスクリーニング段階ではASReviewやRayyanの能動学習が劇的な時間短縮を実現します。ただし、AIツールは方法論的な厳密性を補完するものであり、置き換えるものではありません。2人のレビュアーによる独立評価、PRISMA準拠の報告、事前プロトコルの登録といった基本原則は変わりません。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+4f:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"AI支援の系統的レビュー手法 | Hoshizu"}],["$","meta","1",{"name":"description","content":"スクリーニング、データ抽出、メタアナリシスまで。系統的レビューの全工程をAIで効率化する実践手法。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/research-ai/02-02-systematic-review"}],["$","meta","4",{"property":"og:title","content":"AI支援の系統的レビュー手法 - AI時代の医学論文術 — 検索・読解・執筆の新常識"}],["$","meta","5",{"property":"og:description","content":"スクリーニング、データ抽出、メタアナリシスまで。系統的レビューの全工程をAIで効率化する実践手法。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L4f","15",{}]]

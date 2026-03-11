@@ -1,0 +1,345 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadingProgress"]
+3:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"TableOfContents"]
+4:I[12900,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"BookmarkButton"]
+5:I[71957,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleHeader"]
+7:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"MobileToc"]
+23:I[52429,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadTracker"]
+24:I[51830,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleFooter"]
+29:I[56788,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"GiscusComments"]
+2a:I[20407,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"FloatingReadBar"]
+2b:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+2c:"$Sreact.suspense"
+6:Tbd3,
+# デジタル病理とAI：がん診断の精度を高める
+
+## 病理診断のデジタル化
+
+Whole Slide Imaging（WSI）技術の進歩により、病理標本のデジタル化が急速に進んでいます。一つのWSIは数万×数万ピクセルの超高解像度画像であり、この膨大なデータの解析にAIが威力を発揮します。
+
+2026年現在、FDA承認済みのデジタル病理AIは20製品を超えています。
+
+## AIが病理に貢献する3つのレベル
+
+### レベル1: 効率化（最も普及）
+
+- **がん領域の自動検出**: WSI全体をスキャンし、がんの可能性が高い領域をハイライト
+- **核分裂像のカウント**: 悪性度判定に必要な核分裂像を自動計数
+- **IHCスコアリング**: HER2、Ki-67、PD-L1の染色スコアの自動判定
+- **Gleasonグレーディング**: 前立腺がんのパターン自動分類
+
+### レベル2: 品質向上（急成長中）
+
+- **リンパ節転移のスクリーニング**: 微小転移の検出（CAMELYONチャレンジで人間を上回る精度）
+- **二重読影の代替**: 病理医の読影後にAIがダブルチェック
+- **稀な所見のフラグ**: 悪性リンパ腫のサブタイプ分類など高度な判断を支援
+
+### レベル3: 新たな知見の発見（研究段階）
+
+HE染色標本から追加検査なしで情報を予測する試みです。
+
+- **MSI予測**: HE染色からマイクロサテライト不安定性を予測
+- **遺伝子変異の推定**: 組織形態からBRAF、KRAS、EGFR変異を推定
+- **予後予測**: 組織学的特徴から生存期間を予測
+
+## 代表的な製品
+
+| 製品 | 用途 | 承認状況 |
+|------|------|---------|
+| Paige Prostate | 前立腺がん検出 | FDA承認 |
+| PathAI | 多がん種の診断支援 | CE-IVD |
+| Google LYNA | リンパ節転移検出 | 研究段階 |
+| Ibex Galen | 多がん種グレーディング | CE-IVD |
+
+## 導入の課題
+
+### インフラ
+
+WSIは1スライドで1〜3GB。大量のストレージと高速ネットワークが必要で、日本の多くの病院ではインフラ整備が追いついていません。
+
+### ワークフロー変更
+
+ガラススライドからデジタルへの移行は病理医のワークフローを根本的に変えます。段階的な導入と教育が重要です。
+
+### バリデーション
+
+海外データで学習されたモデルが、日本の症例（染色条件、スキャナ機種、患者の人種的特徴）で同等の性能を発揮するかは検証が必要です。
+
+## 病理医とAIの協働
+
+1. **AIがスクリーニング → 病理医が確認**: 大量のスライドからAIが絞り込み
+2. **定量評価はAI → 定性評価は病理医**: Ki-67カウントはAI、全体像の解釈は病理医
+3. **教育ツール**: アノテーション付きWSIを研修医教育に活用
+
+最終的な診断の責任は病理医にあるという原則は、AI時代においても変わりません。
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"デジタル病理とAI：がん診断の精度を高める\",\"description\":\"WSI（全組織標本画像）のAI解析が病理診断をどう変えるか。HE染色からバイオマーカー予測まで、最新の研究動向を解説\",\"datePublished\":\"2026-02-14\",\"dateModified\":\"2026-02-14\",\"author\":{\"@type\":\"Person\",\"name\":\"Ken Okamoto\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Hoshizu\"}}"}}],["$","$L2",null,{}],["$","$L3",null,{"items":[{"id":"病理診断のデジタル化","text":"病理診断のデジタル化","level":2},{"id":"aiが病理に貢献する3つのレベル","text":"AIが病理に貢献する3つのレベル","level":2},{"id":"レベル1-効率化最も普及","text":"レベル1: 効率化（最も普及）","level":3},{"id":"レベル2-品質向上急成長中","text":"レベル2: 品質向上（急成長中）","level":3},{"id":"レベル3-新たな知見の発見研究段階","text":"レベル3: 新たな知見の発見（研究段階）","level":3},{"id":"代表的な製品","text":"代表的な製品","level":2},{"id":"導入の課題","text":"導入の課題","level":2},{"id":"インフラ","text":"インフラ","level":3},{"id":"ワークフロー変更","text":"ワークフロー変更","level":3},{"id":"バリデーション","text":"バリデーション","level":3},{"id":"病理医とaiの協働","text":"病理医とAIの協働","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","div",null,{"className":"mb-4 flex justify-end","children":["$","$L4",null,{"slug":"ai-pathology-digital","title":"デジタル病理とAI：がん診断の精度を高める","contentType":"article","variant":"full"}]}],["$","$L5",null,{"article":{"slug":"ai-pathology-digital","title":"デジタル病理とAI：がん診断の精度を高める","description":"WSI（全組織標本画像）のAI解析が病理診断をどう変えるか。HE染色からバイオマーカー予測まで、最新の研究動向を解説","category":"clinical","contentType":"article","difficulty":"advanced","tags":["病理","デジタル病理","がん診断","WSI","バイオマーカー","免疫組織化学"],"publishedAt":"2026-02-14","author":"kenokamoto","featured":false,"estimatedReadTime":4,"content":"$6","coverImage":null}}],["$","$L7",null,{"items":[{"id":"病理診断のデジタル化","text":"病理診断のデジタル化","level":2},{"id":"aiが病理に貢献する3つのレベル","text":"AIが病理に貢献する3つのレベル","level":2},{"id":"レベル1-効率化最も普及","text":"レベル1: 効率化（最も普及）","level":3},{"id":"レベル2-品質向上急成長中","text":"レベル2: 品質向上（急成長中）","level":3},{"id":"レベル3-新たな知見の発見研究段階","text":"レベル3: 新たな知見の発見（研究段階）","level":3},{"id":"代表的な製品","text":"代表的な製品","level":2},{"id":"導入の課題","text":"導入の課題","level":2},{"id":"インフラ","text":"インフラ","level":3},{"id":"ワークフロー変更","text":"ワークフロー変更","level":3},{"id":"バリデーション","text":"バリデーション","level":3},{"id":"病理医とaiの協働","text":"病理医とAIの協働","level":2}]}],["$","article",null,{"className":"prose ","children":[["$","h1",null,{"children":"デジタル病理とAI：がん診断の精度を高める"}],"\n",["$","h2",null,{"id":"病理診断のデジタル化","children":"病理診断のデジタル化"}],"\n",["$","p",null,{"children":"Whole Slide Imaging（WSI）技術の進歩により、病理標本のデジタル化が急速に進んでいます。一つのWSIは数万×数万ピクセルの超高解像度画像であり、この膨大なデータの解析にAIが威力を発揮します。"}],"\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c"]}],"$L1d","$L1e","$L1f"]}],"$L20"],["$L21"],"$L22"]}],"loading":null,"isPartial":false}
+8:["$","p",null,{"children":"2026年現在、FDA承認済みのデジタル病理AIは20製品を超えています。"}]
+9:["$","h2",null,{"id":"aiが病理に貢献する3つのレベル","children":"AIが病理に貢献する3つのレベル"}]
+a:["$","h3",null,{"id":"レベル1-効率化最も普及","children":"レベル1: 効率化（最も普及）"}]
+b:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"がん領域の自動検出"}],": WSI全体をスキャンし、がんの可能性が高い領域をハイライト"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"核分裂像のカウント"}],": 悪性度判定に必要な核分裂像を自動計数"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"IHCスコアリング"}],": HER2、Ki-67、PD-L1の染色スコアの自動判定"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Gleasonグレーディング"}],": 前立腺がんのパターン自動分類"]}],"\n"]}]
+c:["$","h3",null,{"id":"レベル2-品質向上急成長中","children":"レベル2: 品質向上（急成長中）"}]
+d:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"リンパ節転移のスクリーニング"}],": 微小転移の検出（CAMELYONチャレンジで人間を上回る精度）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"二重読影の代替"}],": 病理医の読影後にAIがダブルチェック"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"稀な所見のフラグ"}],": 悪性リンパ腫のサブタイプ分類など高度な判断を支援"]}],"\n"]}]
+e:["$","h3",null,{"id":"レベル3-新たな知見の発見研究段階","children":"レベル3: 新たな知見の発見（研究段階）"}]
+f:["$","p",null,{"children":"HE染色標本から追加検査なしで情報を予測する試みです。"}]
+10:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"MSI予測"}],": HE染色からマイクロサテライト不安定性を予測"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"遺伝子変異の推定"}],": 組織形態からBRAF、KRAS、EGFR変異を推定"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"予後予測"}],": 組織学的特徴から生存期間を予測"]}],"\n"]}]
+11:["$","h2",null,{"id":"代表的な製品","children":"代表的な製品"}]
+12:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"製品"}],["$","th",null,{"children":"用途"}],["$","th",null,{"children":"承認状況"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Paige Prostate"}],["$","td",null,{"children":"前立腺がん検出"}],["$","td",null,{"children":"FDA承認"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"PathAI"}],["$","td",null,{"children":"多がん種の診断支援"}],["$","td",null,{"children":"CE-IVD"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Google LYNA"}],["$","td",null,{"children":"リンパ節転移検出"}],["$","td",null,{"children":"研究段階"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Ibex Galen"}],["$","td",null,{"children":"多がん種グレーディング"}],["$","td",null,{"children":"CE-IVD"}]]}]]}]]}]
+13:["$","h2",null,{"id":"導入の課題","children":"導入の課題"}]
+14:["$","h3",null,{"id":"インフラ","children":"インフラ"}]
+15:["$","p",null,{"children":"WSIは1スライドで1〜3GB。大量のストレージと高速ネットワークが必要で、日本の多くの病院ではインフラ整備が追いついていません。"}]
+16:["$","h3",null,{"id":"ワークフロー変更","children":"ワークフロー変更"}]
+17:["$","p",null,{"children":"ガラススライドからデジタルへの移行は病理医のワークフローを根本的に変えます。段階的な導入と教育が重要です。"}]
+18:["$","h3",null,{"id":"バリデーション","children":"バリデーション"}]
+19:["$","p",null,{"children":"海外データで学習されたモデルが、日本の症例（染色条件、スキャナ機種、患者の人種的特徴）で同等の性能を発揮するかは検証が必要です。"}]
+1a:["$","h2",null,{"id":"病理医とaiの協働","children":"病理医とAIの協働"}]
+1b:["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"AIがスクリーニング → 病理医が確認"}],": 大量のスライドからAIが絞り込み"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"定量評価はAI → 定性評価は病理医"}],": Ki-67カウントはAI、全体像の解釈は病理医"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"教育ツール"}],": アノテーション付きWSIを研修医教育に活用"]}],"\n"]}]
+1c:["$","p",null,{"children":"最終的な診断の責任は病理医にあるという原則は、AI時代においても変わりません。"}]
+1d:["$","$L23",null,{"slug":"ai-pathology-digital"}]
+25:Tbd3,
+# デジタル病理とAI：がん診断の精度を高める
+
+## 病理診断のデジタル化
+
+Whole Slide Imaging（WSI）技術の進歩により、病理標本のデジタル化が急速に進んでいます。一つのWSIは数万×数万ピクセルの超高解像度画像であり、この膨大なデータの解析にAIが威力を発揮します。
+
+2026年現在、FDA承認済みのデジタル病理AIは20製品を超えています。
+
+## AIが病理に貢献する3つのレベル
+
+### レベル1: 効率化（最も普及）
+
+- **がん領域の自動検出**: WSI全体をスキャンし、がんの可能性が高い領域をハイライト
+- **核分裂像のカウント**: 悪性度判定に必要な核分裂像を自動計数
+- **IHCスコアリング**: HER2、Ki-67、PD-L1の染色スコアの自動判定
+- **Gleasonグレーディング**: 前立腺がんのパターン自動分類
+
+### レベル2: 品質向上（急成長中）
+
+- **リンパ節転移のスクリーニング**: 微小転移の検出（CAMELYONチャレンジで人間を上回る精度）
+- **二重読影の代替**: 病理医の読影後にAIがダブルチェック
+- **稀な所見のフラグ**: 悪性リンパ腫のサブタイプ分類など高度な判断を支援
+
+### レベル3: 新たな知見の発見（研究段階）
+
+HE染色標本から追加検査なしで情報を予測する試みです。
+
+- **MSI予測**: HE染色からマイクロサテライト不安定性を予測
+- **遺伝子変異の推定**: 組織形態からBRAF、KRAS、EGFR変異を推定
+- **予後予測**: 組織学的特徴から生存期間を予測
+
+## 代表的な製品
+
+| 製品 | 用途 | 承認状況 |
+|------|------|---------|
+| Paige Prostate | 前立腺がん検出 | FDA承認 |
+| PathAI | 多がん種の診断支援 | CE-IVD |
+| Google LYNA | リンパ節転移検出 | 研究段階 |
+| Ibex Galen | 多がん種グレーディング | CE-IVD |
+
+## 導入の課題
+
+### インフラ
+
+WSIは1スライドで1〜3GB。大量のストレージと高速ネットワークが必要で、日本の多くの病院ではインフラ整備が追いついていません。
+
+### ワークフロー変更
+
+ガラススライドからデジタルへの移行は病理医のワークフローを根本的に変えます。段階的な導入と教育が重要です。
+
+### バリデーション
+
+海外データで学習されたモデルが、日本の症例（染色条件、スキャナ機種、患者の人種的特徴）で同等の性能を発揮するかは検証が必要です。
+
+## 病理医とAIの協働
+
+1. **AIがスクリーニング → 病理医が確認**: 大量のスライドからAIが絞り込み
+2. **定量評価はAI → 定性評価は病理医**: Ki-67カウントはAI、全体像の解釈は病理医
+3. **教育ツール**: アノテーション付きWSIを研修医教育に活用
+
+最終的な診断の責任は病理医にあるという原則は、AI時代においても変わりません。
+26:Tfb5,
+# 放射線画像診断AIの現在地と未来
+
+## 画像診断AIは「黎明期」を超えた
+
+2020年代前半、「AIが放射線科医を置き換える」という議論が盛んでした。2026年の現実は、それとは異なる形で進化しています。AIは放射線科医を置き換えるのではなく、「AIを使う放射線科医が、使わない放射線科医を置き換える」方向に収束しつつあります。
+
+FDA承認済みのAI医療機器は2026年3月時点で1,000件を超え、そのうち約75%が放射線科領域です。これは放射線画像という標準化されたデータ形式がAI開発に適していることを反映しています。
+
+## 臨床導入が進む3つの領域
+
+### 1. 緊急トリアージ（最も成熟）
+
+脳出血、肺塞栓、大動脈解離などの緊急所見を自動検出し、読影キューの優先順位を変更するシステムが最も実用化されています。
+
+**臨床的インパクト:**
+- 緊急所見の報告時間が平均60%短縮
+- 夜間・当直帯での見落とし率低下
+- ワークフロー効率の改善
+
+代表的な製品として、Aidocの頭部CT出血検出（感度95%以上）やViz.aiの大血管閉塞検出（脳卒中チーム起動を20分以上短縮）があります。
+
+### 2. 定量解析（急成長中）
+
+従来は「主観的」だった画像評価を定量化するAIが増えています。
+
+- **骨密度測定**: 日常的なCTから骨密度を推算し、骨粗鬆症スクリーニング
+- **冠動脈石灰化スコア**: 非造影CTからCACスコアを自動算出
+- **脳容積測定**: 認知症の経時的変化を定量追跡
+- **肺結節測定**: RECIST基準に基づく腫瘍径の自動測定と経時比較
+
+### 3. スクリーニング補助（発展途上）
+
+マンモグラフィのAI読影は欧州で大規模臨床試験が進行中です。スウェーデンのMASSIVE試験（8万人規模）では、AI支援読影が二重読影と同等以上の精度を示し、読影医の負担を半減させる可能性が示されました。
+
+## 導入時の落とし穴
+
+### バイアスの問題
+
+学習データの偏りは深刻です。米国の大規模データセットで学習したモデルが、アジア人患者で精度低下する事例が報告されています。自施設のデータでバリデーションを行うことが不可欠です。
+
+### アラート疲れ
+
+偽陽性が多すぎると、臨床医がアラートを無視するようになります。感度と特異度のバランス、アラートの提示方法の設計が重要です。
+
+### 統合コスト
+
+既存のPACS/RISとの統合には技術的・制度的な課題があります。DICOM標準への準拠は前提ですが、実際の導入には数か月のカスタマイズが必要なケースも多いです。
+
+## AIと放射線科医の協働モデル
+
+最も生産性が高いモデルは「AIファースト・リード」です。
+
+1. **AI前処理**: 画像のセグメンテーション、定量測定、異常候補の抽出
+2. **医師確認**: AIの所見を参照しながら最終読影
+3. **フィードバック**: 医師の修正がAIの学習データに還元
+
+このモデルでは、放射線科医の役割は「画像を見る人」から「AIの出力を検証し、臨床的文脈を加える人」に変化します。
+
+## 今後の展望
+
+- **マルチモーダルAI**: 画像＋電子カルテ＋検査データを統合した診断支援
+- **術前シミュレーション**: 3D再構成とAI解析の組み合わせによる手術計画
+- **リアルタイム超音波ガイド**: 超音波プローブを握る非専門医をAIがリアルタイム支援
+
+画像診断AIは「使うかどうか」ではなく「どう使うか」のフェーズに入っています。臨床医としては、AIの限界を理解したうえで、自施設のワークフローに最適な形で導入することが重要です。
+27:Tae0,
+# 栄養アセスメント・プランニング
+
+## 概要
+
+入院患者の20〜50%が栄養障害を有するとされています。適切な栄養管理は合併症の予防、在院日数の短縮、予後の改善に直結します。このプロンプトは、栄養スクリーニングから栄養管理計画の作成までを体系的に支援します。
+
+## プロンプトテンプレート
+
+```text
+あなたはNST（栄養サポートチーム）の経験豊富な医師です。以下の患者情報に基づき、包括的な栄養アセスメントと栄養管理計画を作成してください。
+
+# 患者基本情報
+- 年齢: {{年齢}}歳、性別: {{性別}}
+- 身長: {{身長}}cm、現体重: {{体重}}kg
+- 通常時体重: {{通常体重}}kg（いつの時点: {{時期}}）
+- 主病名: {{診断名}}
+- 入院理由: {{入院理由}}
+
+# 栄養関連データ
+- 血液検査:
+  - Alb: {{Alb}}g/dL、Pre-Alb: {{Pre-Alb}}mg/dL
+  - CRP: {{CRP}}mg/dL
+  - Hb: {{Hb}}g/dL、リンパ球数: {{リンパ球}}
+  - BUN: {{BUN}}mg/dL、Cr: {{Cr}}mg/dL
+  - Na: {{Na}}mEq/L、K: {{K}}mEq/L
+  - 血糖: {{血糖}}mg/dL、HbA1c: {{HbA1c}}%
+- 身体所見: {{浮腫の有無、筋肉量、皮下脂肪}}
+- 消化管機能: {{経口摂取の可否、嚥下機能、腸蠕動}}
+- 現在の栄養摂取: {{食事量、輸液内容}}
+
+# 評価してほしいこと
+1. **栄養スクリーニング**: NRS-2002、MNA-SF、GLIM基準での評価
+2. **必要エネルギー量**: Harris-Benedictの式＋活動係数＋ストレス係数
+3. **必要蛋白量**: 疾患・状態に応じた蛋白必要量（g/kg/日）
+4. **栄養投与経路**: 経口/経腸/静脈の選択と根拠
+5. **具体的な栄養処方**: 製品名、投与量、投与速度、スケジュール
+6. **モニタリング計画**: 再評価の時期と項目
+7. **リフィーディング症候群のリスク**: 評価と予防策
+
+# 出力形式
+- 計算過程を示してください
+- 推奨する栄養製品は一般名と具体的な製品名の両方を記載
+- 注意：最終的な栄養管理計画は、NST回診で多職種で検討してください
+```
+
+## 使い方
+
+1. 血液検査データはできるだけ最新のものを入力
+2. 炎症がある場合、Albは栄養指標として信頼性が低下する（CRPと合わせて評価）
+3. 通常時体重からの変化率が重要な指標
+4. 消化管機能の情報は栄養経路選択の根拠になる
+
+## 活用のポイント
+
+- GLIM基準（2019年）は国際的な栄養障害診断基準として広く採用
+- リフィーディング症候群のリスク評価は、長期絶食・低栄養患者で特に重要
+- 経腸栄養は可能な限り静脈栄養よりも優先する（"If the gut works, use it"）
+28:Tb41,
+# インフォームドコンセント文書生成
+
+## 概要
+
+インフォームドコンセントは患者の自己決定権を尊重する医療の基本です。しかし、医学的に正確でありながら患者に理解しやすい説明文書を作成するのは時間のかかる作業です。このプロンプトは、手術・検査・治療の説明文書の下書きを生成します。
+
+## 安全に関する重要な注意事項
+
+生成された文書は必ず担当医が内容を確認・修正してください。施設ごとの同意書フォーマットに合わせた調整が必要です。法的文書としての有効性は、AIの出力ではなく、医師と患者間の実際のコミュニケーションに基づきます。
+
+## プロンプトテンプレート
+
+```text
+あなたは患者コミュニケーションに長けた経験豊富な外科医です。以下の手術/検査/治療について、患者に分かりやすいインフォームドコンセント説明文書を作成してください。
+
+# 基本情報
+- 処置名: {{処置名}}（例: 腹腔鏡下胆嚢摘出術）
+- 対象患者: {{年齢}}歳、{{性別}}
+- 診断名: {{診断名}}
+- 緊急度: {{予定/準緊急/緊急}}
+
+# 説明文書に含めてほしい内容
+1. **病状の説明**: なぜこの処置が必要か（医学用語を使わず平易に）
+2. **処置の内容**: 具体的に何をするか（麻酔方法、所要時間含む）
+3. **期待される効果**: 処置によって何が改善するか
+4. **リスクと合併症**:
+   - 一般的なリスク（頻度：%で記載）
+   - 稀だが重大なリスク
+   - この患者に特有のリスク（既往歴に基づく）
+5. **代替治療法**: 処置を行わない場合の経過、他の治療選択肢
+6. **術後の経過**: 入院期間、日常生活への復帰時期、フォローアップ
+7. **費用**: 概算（保険適用/自費）
+
+# 文書のトーン
+- 中学生が理解できるレベルの日本語
+- 恐怖を煽りすぎず、かつリスクを過小評価しない
+- 「〜かもしれません」「〜の可能性があります」など適切な表現
+- 患者が質問しやすい雰囲気を作る文末
+
+# 注意事項
+- 生成された文書は担当医が必ず確認・修正してください
+- 施設の同意書フォーマットに合わせて調整してください
+```
+
+## 使い方
+
+1. 処置名は正式名称と一般的な呼び方の両方を入力
+2. 患者の既往歴がある場合は追加し、個別リスクの反映を促す
+3. 生成後は必ず専門医が内容を確認
+
+## 活用のポイント
+
+- 患者の健康リテラシーに合わせて表現レベルを調整可能
+- 外国人患者向けに英語版の生成も可能
+- 家族への説明用の簡易版と、同意書用の詳細版を別々に生成できる
+1e:["$","$L24",null,{"article":{"slug":"ai-pathology-digital","title":"デジタル病理とAI：がん診断の精度を高める","description":"WSI（全組織標本画像）のAI解析が病理診断をどう変えるか。HE染色からバイオマーカー予測まで、最新の研究動向を解説","category":"clinical","contentType":"article","difficulty":"advanced","tags":["病理","デジタル病理","がん診断","WSI","バイオマーカー","免疫組織化学"],"publishedAt":"2026-02-14","author":"kenokamoto","featured":false,"estimatedReadTime":4,"content":"$25","coverImage":null},"relatedArticles":[{"slug":"ai-radiology-revolution","title":"放射線画像診断AIの現在地と未来","description":"胸部X線からCTまで、画像診断AIが臨床現場をどう変えているか。FDA承認済み製品の実力と、放射線科医との協働モデルを解説","category":"clinical","contentType":"article","difficulty":"intermediate","tags":["放射線科","画像診断","FDA承認","CT","胸部X線","AI読影"],"publishedAt":"2026-03-01","author":"kenokamoto","featured":false,"estimatedReadTime":6,"content":"$26","coverImage":null},{"slug":"nutrition-assessment-plan","title":"栄養アセスメント・プランニング","description":"入院患者の栄養状態を評価し、個別化された栄養管理計画を作成する臨床栄養プロンプト","category":"clinical","contentType":"prompt","difficulty":"intermediate","tags":["栄養管理","NST","経腸栄養","静脈栄養","スクリーニング","NRS-2002"],"publishedAt":"2026-02-28","author":"kenokamoto","featured":false,"riskLevel":"medium","estimatedReadTime":4,"content":"$27","coverImage":null},{"slug":"informed-consent-generator","title":"インフォームドコンセント文書生成","description":"手術・検査・治療の説明文書を患者に分かりやすい言葉で作成するプロンプト","category":"clinical","contentType":"prompt","difficulty":"intermediate","tags":["インフォームドコンセント","患者説明","手術説明","同意書","リスク説明"],"publishedAt":"2026-02-25","author":"kenokamoto","featured":false,"riskLevel":"medium","estimatedReadTime":4,"content":"$28","coverImage":null}],"relatedCourses":[{"courseId":"medical-ai-overview","title":"医療AIの全体像 - 応用領域と可能性","description":"医療分野におけるAIの活用領域、現状の課題、今後の展望を包括的に理解します","category":"clinical","level":"intermediate","lessonCount":7,"estimatedTotalMinutes":122,"order":4,"free":false,"learningOutcomes":["医療AIの主要応用分野を説明できる","画像診断AIの原理と限界を理解できる","臨床意思決定支援システムを評価できる","AI導入の課題と対策を提案できる"],"prerequisites":["ai-basics"],"targetAudience":["臨床でAI活用を検討している医師","医療AI製品の導入を担当する方","医療AIの全体像を把握したい方"],"skills":["医療AI応用","画像解析","臨床意思決定支援"]},{"courseId":"llm-in-medicine","title":"医療におけるLLM実践 - 大規模言語モデルの医療応用","description":"LLMの医療応用、臨床現場での活用法、診断支援、文書作成支援、研究支援における実践的な知識を学びます","category":"clinical-ai","level":"intermediate","lessonCount":10,"estimatedTotalMinutes":180,"order":11,"free":false,"learningOutcomes":["LLMの医療応用の現状と可能性を説明できる","臨床現場でLLMを安全に活用する方法を理解できる","LLMを使った診断支援・文書作成の実践方法を習得できる","LLM活用のリスクと限界を正しく認識できる"],"prerequisites":["ai-basics","generative-ai-basics"],"targetAudience":["LLMを臨床で活用したい医療従事者","医療AIの実践的な活用法を知りたい方","生成AIの基礎を学んだ方"],"skills":["LLM活用","医療文書作成","臨床意思決定支援"]},{"courseId":"diagnostic-support","title":"診断支援と臨床判断","description":"AIによる診断支援の実践、鑑別診断の効率化、臨床意思決定支援システムの活用法を学びます","category":"clinical-ai","level":"advanced","lessonCount":4,"estimatedTotalMinutes":72,"order":12,"free":false,"learningOutcomes":["AIを活用した鑑別診断の方法を実践できる","臨床意思決定支援システムの仕組みを理解できる","AI診断支援の限界とリスクを正しく認識できる","エビデンスに基づくAI活用の判断ができる"],"prerequisites":["medical-ai-overview","llm-in-medicine"],"targetAudience":["臨床でAI診断支援を活用したい医師","医療AIの実践的な活用法を知りたい方"],"skills":["AI診断支援","臨床意思決定","鑑別診断"]},{"courseId":"patient-communication-ai","title":"患者コミュニケーション支援 - AI活用","description":"AIを活用した患者説明資料の作成、多言語対応、ヘルスリテラシーに配慮した情報提供の方法を学びます","category":"clinical-ai","level":"intermediate","lessonCount":5,"estimatedTotalMinutes":85,"order":13,"free":false,"learningOutcomes":["AIを使って患者向けの分かりやすい説明資料を作成できる","ヘルスリテラシーに配慮した情報提供の原則を理解できる","多言語対応の患者コミュニケーションを実践できる","AIを活用した共感的コミュニケーションの方法を習得できる"],"prerequisites":["ai-basics","prompt-engineering-basics"],"targetAudience":["患者対応の効率化を目指す医療従事者","多言語対応が必要な医療機関のスタッフ","患者教育資料の作成に関わる方"],"skills":["患者コミュニケーション","ヘルスリテラシー","多言語対応"]},{"courseId":"medical-imaging-ai-basics","title":"医療画像AIの基礎 - X線・CT・MRI解析","description":"医療画像AIの基本技術、CNN・U-Netの仕組み、X線・CT・MRI画像解析の実践と臨床応用を学びます","category":"clinical-ai","level":"intermediate","lessonCount":7,"estimatedTotalMinutes":126,"order":14,"free":false,"learningOutcomes":["医療画像AIの基本的な仕組みを説明できる","CNN・U-Netなどの主要アーキテクチャを理解できる","X線・CT・MRI画像解析AIの臨床応用を把握できる","医療画像AIの評価方法と限界を理解できる"],"prerequisites":["ai-basics","machine-learning-fundamentals"],"targetAudience":["画像診断に関わる放射線科医・各科医師","医療画像AIの導入を検討している方","AIの画像認識技術に興味がある方"],"skills":["医療画像AI","CNN基礎","画像診断支援"]}]}]
+1f:["$","$L29",null,{}]
+20:["$","$L2a",null,{"article":"$1e:props:article","nextArticle":"$1e:props:relatedArticles:0"}]
+21:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/eb46a9559e436395.js","async":true}]
+22:["$","$L2b",null,{"children":["$","$2c",null,{"name":"Next.MetadataOutlet","children":"$@2d"}]}]
+2d:null

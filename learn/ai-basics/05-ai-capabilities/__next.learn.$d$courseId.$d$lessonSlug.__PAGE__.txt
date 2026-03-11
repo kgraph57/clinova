@@ -1,0 +1,201 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+5:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+e:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+f:I[89213,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ResourceCard"]
+20:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+21:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+22:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+23:"$Sreact.suspense"
+25:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Callout"]
+26:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+27:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+6:T2b6c,
+# AIの能力と限界
+
+## はじめに — AIは皮膚科専門医に勝ったのか？
+
+2017年、スタンフォード大学の研究チームがNature誌に画期的な論文を発表しました。深層学習モデルが、皮膚がんの画像診断で**21名の皮膚科専門医と同等以上**の精度を達成したのです。しかし、この「同等以上」には重要な但し書きがあります。AIはデジタル画像でのみ評価され、実際の患者の皮膚を見たわけではありません。触診、患者の病歴、ダーモスコピーの動的所見は一切含まれていません。
+
+この事例は、AIの能力と限界を象徴しています。**特定の条件下では人間を超える**が、**現実の臨床環境は特定の条件ではない**。
+
+<ResourceCard
+  type="paper"
+  title="Dermatologist-level classification of skin cancer with deep neural networks"
+  url="https://www.nature.com/articles/nature21056"
+  authors="Esteva A, Kuprel B, Novoa RA et al."
+  source="Nature"
+  year={2017}
+  description="深層学習が皮膚がん診断で皮膚科専門医と同等精度を達成した画期的論文"
+/>
+
+---
+
+## AIが得意なこと — 3つの強み
+
+### 1. パターン認識 — 人間が見落とすものを見つける
+
+<CaseStudy title="EIRL — 脳動脈瘤の見逃しを9ポイント改善" year={2019} jurisdiction="日本" tags={["画像診断", "脳動脈瘤", "感度向上"]}>
+
+**課題**: 脳MRI読影における脳動脈瘤の見逃し率は放射線科医でも約30%。特に3mm未満の小さな動脈瘤は見落とされやすい。
+
+**成果**: LPIXEL社のEIRLは、AI支援なしの読影感度68.2%を、AI支援ありで**77.2%に向上**させた。特に小さな動脈瘤の検出で改善が顕著。
+
+**原理**: AIは画像の全ピクセルを均等に評価する。人間は疲労や注意力の低下で見逃しが起きるが、AIは一貫した精度を保つ。
+
+</CaseStudy>
+
+### 2. 大量データの高速処理 — 人間にはできないスケール
+
+AIは数千枚の画像を数分で処理できます。放射線科医が1枚のCT画像を読影するのに平均5-10分かかるのに対し、AIは数秒で全スライスをスキャンし、異常候補を提示できます。
+
+### 3. 一貫性 — 疲れない、揺れない
+
+人間の医師の判断は、疲労、時間帯、直前の症例の影響を受けます（アンカリングバイアス）。AIは同じ入力に対して常に同じ出力を返し、判断の一貫性を保ちます。
+
+---
+
+## AIが苦手なこと — 4つの限界
+
+### 1. ハルシネーション — 「嘘を自信満々に語る」
+
+<CaseStudy title="ChatGPTのハルシネーション — 医療情報での危険性" year={2023} jurisdiction="国際" tags={["ハルシネーション", "生成AI", "医療安全"]}>
+
+**現象**: 大規模言語モデル（LLM）は、訓練データに存在しない情報を、あたかも事実であるかのように生成することがある。これを**ハルシネーション（幻覚）**と呼ぶ。
+
+**医療での具体例**:
+- 存在しない臨床試験の結果を引用
+- 実在しない医学論文の著者・タイトル・ジャーナルを生成
+- 薬剤の用量を誤って提示（桁違いの投与量を生成する事例が報告）
+
+**根本原因**: LLMは「次に来る確率が高い単語」を予測しているだけであり、医学的な真偽を判断する能力を持っていない。文脈上「もっともらしい」回答を生成するが、それが事実かどうかは別の問題。
+
+**対策**: AIが生成した医療情報は、必ず一次資料（原著論文、添付文書、ガイドライン）で確認する。AIの出力を「下書き」として扱い、最終確認は人間が行う。
+
+</CaseStudy>
+
+### 2. 文脈理解の限界 — 「行間を読めない」
+
+AIはテキストや画像のパターンを処理しますが、人間の医師のような「文脈の統合」はできません。
+
+| 人間の医師ができること | AIの限界 |
+|:---|:---|
+| 患者の表情・声色から不安を読み取る | テキスト・数値データのみ処理 |
+| 「少し痛い」の背後にある重症の可能性を直感で察知 | 入力された文字列のみを処理 |
+| 家族構成・経済状況を考慮した治療計画 | 与えられたデータ項目のみで判断 |
+| 過去の臨床経験から稀少疾患を想起 | 訓練データにない疾患は検出不能 |
+
+### 3. バイアス — 「データの偏りをそのまま学習する」
+
+<CaseStudy title="皮膚科AIの肌色バイアス — 公平性の課題" year={2021} jurisdiction="国際" tags={["バイアス", "公平性", "皮膚科"]}>
+
+**問題**: 皮膚科AIの訓練データの大部分が白人患者の画像で構成されていたため、有色人種の皮膚病変の検出精度が低いことが複数の研究で報告された。
+
+**具体的な格差**: ある研究では、白人の皮膚がん検出感度が90%以上だった一方、暗い肌色での感度は70%台に低下。
+
+**原因**: AIは訓練データの分布を忠実に学習する。訓練データに特定の集団が少なければ、その集団に対する性能が低下する。これは技術的な限界ではなく、データ収集の偏りという社会的問題。
+
+**教訓**: AI医療機器を評価する際は、「どのような患者集団で検証されたか」を必ず確認する。自施設の患者層と検証データの集団が異なる場合、公表された精度がそのまま適用できない可能性がある。
+
+</CaseStudy>
+
+### 4. ブラックボックス問題 — 「なぜそう判断したか説明できない」
+
+<Callout type="insight" title="説明可能なAI（XAI）— ブラックボックスを開く試み">
+
+**問題**: 深層学習は高精度だが、「なぜその判断をしたか」を説明できない。医療では「AIが異常と判定しました」だけでは不十分で、「画像のどの部分をどう評価した結果か」の説明が求められる。
+
+**代表的な手法**:
+- **Grad-CAM**: 画像のどの領域がAIの判定に影響したかをヒートマップで可視化
+- **SHAP**: 各特徴量が予測にどの程度寄与したかを数値化
+- **Attention Map**: Transformerモデルが「注目した」部分を可視化
+
+**医療での活用**: EIRLは脳動脈瘤の候補位置をマーキングして表示し、医師が「AIがどこを見ているか」を確認できる。完全な説明ではないが、臨床判断の補助として有用。
+
+</Callout>
+
+---
+
+## 能力と限界の実践的整理
+
+<Callout type="comparison" title="AIに任せるべきこと vs 人間が行うべきこと">
+
+**AIに適するタスク**:
+- 大量画像のスクリーニング（見逃しリスクの低減）
+- 定型文書のドラフト作成（時間の効率化）
+- 検査値の異常パターンの検出（24時間の一貫した監視）
+- 文献検索と要約（情報収集の加速）
+
+**人間が不可欠なタスク**:
+- 最終診断と治療方針の決定（責任と文脈判断）
+- 患者・家族とのコミュニケーション（共感と信頼）
+- 倫理的判断（治療の中止・継続の決定）
+- AIの出力の検証（ハルシネーション・バイアスの確認）
+
+→ **原則**: AIは「第二の意見」として活用し、最終判断は常に医師が行う。
+
+</Callout>
+
+---
+
+## まとめ
+
+AIは画像認識や大量データ処理など「パターンマッチング」が求められるタスクで人間を超える能力を示す一方、ハルシネーション、文脈理解の限界、データバイアス、ブラックボックス問題という根本的な限界を抱えています。スタンフォード大学の皮膚がんAIの事例が示すように、「特定条件下での優秀さ」と「臨床現場での信頼性」は異なります。AIの出力を批判的に評価し、人間の判断と組み合わせることが適切な活用の鍵です。
+
+次のレッスンでは、AIの**現状と医療分野での具体的な展望**を学びます。
+
+<Quiz
+  courseId="ai-basics"
+  lessonSlug="05-ai-capabilities"
+  questions={[
+    {
+      question: "AIのハルシネーション（幻覚）とはどのような現象か？",
+      options: ["AIの処理速度が低下する現象", "AIが訓練データに存在しない情報を事実であるかのように生成する現象", "AIが画像を正しく認識できない現象", "AIの学習が途中で停止する現象"],
+      correctIndex: 1,
+      explanation: "ハルシネーションとは、大規模言語モデルが訓練データに存在しない情報（存在しない論文、誤った薬剤用量など）を、あたかも事実であるかのように自信を持って生成する現象です。LLMは「次に来る確率が高い単語」を予測しているだけで、医学的真偽を判断できないため起こります。"
+    },
+    {
+      question: "皮膚科AIのバイアス問題が示す教訓として最も重要なものはどれか？",
+      options: ["AIは皮膚科には使えない", "AI医療機器を評価する際は、検証データの患者集団と自施設の患者層の違いを確認すべき", "AIのバイアスは技術的に解決不可能である", "訓練データの量を増やせばバイアスは自然に解消される"],
+      correctIndex: 1,
+      explanation: "皮膚科AIの肌色バイアスは、訓練データが白人患者に偏っていたことが原因です。AI医療機器を評価する際は「どのような患者集団で検証されたか」を確認し、自施設の患者層と異なる場合は公表精度がそのまま適用できない可能性を考慮すべきです。"
+    },
+    {
+      question: "説明可能なAI（XAI）が医療現場で重要な理由はどれか？",
+      options: ["AIの処理速度を向上させるため", "医師がAIの判断根拠を確認し、臨床判断の補助として活用するため", "AIの開発コストを削減するため", "患者にAIの技術的仕組みを説明するため"],
+      correctIndex: 1,
+      explanation: "医療では「AIが異常と判定しました」だけでは不十分です。Grad-CAM等のXAI手法により、AIが画像のどの部分を見て判断したかを可視化でき、医師が「AIの根拠が妥当か」を確認できます。EIRLの動脈瘤候補マーキングなど、実際の医療AI製品にも応用されています。"
+    }
+  ]}
+/>
+
+<ActionItem>
+次にChatGPTやClaudeに医学的な質問をした際、回答に含まれる具体的な数字（統計データ、薬剤用量、論文の引用）を1つ選び、一次資料で正確性を検証してみましょう。「ハルシネーションチェック」を習慣化することが、生成AIの安全な活用の第一歩です。
+</ActionItem>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"ai-basics","lessonSlug":"05-ai-capabilities"}],["$","$L4",null,{"items":[{"id":"はじめに-aiは皮膚科専門医に勝ったのか","text":"はじめに — AIは皮膚科専門医に勝ったのか？","level":2},{"id":"aiが得意なこと-3つの強み","text":"AIが得意なこと — 3つの強み","level":2},{"id":"1-パターン認識-人間が見落とすものを見つける","text":"1. パターン認識 — 人間が見落とすものを見つける","level":3},{"id":"2-大量データの高速処理-人間にはできないスケール","text":"2. 大量データの高速処理 — 人間にはできないスケール","level":3},{"id":"3-一貫性-疲れない揺れない","text":"3. 一貫性 — 疲れない、揺れない","level":3},{"id":"aiが苦手なこと-4つの限界","text":"AIが苦手なこと — 4つの限界","level":2},{"id":"1-ハルシネーション-嘘を自信満々に語る","text":"1. ハルシネーション — 「嘘を自信満々に語る」","level":3},{"id":"2-文脈理解の限界-行間を読めない","text":"2. 文脈理解の限界 — 「行間を読めない」","level":3},{"id":"3-バイアス-データの偏りをそのまま学習する","text":"3. バイアス — 「データの偏りをそのまま学習する」","level":3},{"id":"4-ブラックボックス問題-なぜそう判断したか説明できない","text":"4. ブラックボックス問題 — 「なぜそう判断したか説明できない」","level":3},{"id":"能力と限界の実践的整理","text":"能力と限界の実践的整理","level":2},{"id":"まとめ","text":"まとめ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"course":{"courseId":"ai-basics","title":"AIとは何か - 基礎から理解する人工知能","description":"AIの定義、知能の本質、機械学習の基礎、AIの種類と分類を体系的に学びます","category":"ai-fundamentals","level":"beginner","lessonCount":8,"estimatedTotalMinutes":128,"order":1,"free":true,"learningOutcomes":["AIの定義と種類を正確に説明できる","機械学習の基本的な仕組みを理解できる","AIの現在の能力と限界を区別できる","AIの社会的影響を多角的に評価できる"],"prerequisites":[],"targetAudience":["AIについて初めて学ぶ方","医療分野でAIの基礎知識を得たい方","AI関連のニュースを正しく理解したい方"],"skills":["AI基礎知識","機械学習概論","AI分類"]},"lesson":{"courseId":"ai-basics","slug":"05-ai-capabilities","title":"AIの能力と限界","description":"パターン認識の強み、ハルシネーション、バイアス、説明可能なAI（XAI）の課題を具体事例で学びます","order":5,"estimatedMinutes":15,"estimatedReadTime":15,"content":"$6"}}],"$L7","$L8","$L9","$La"]}]],["$Lb","$Lc"],"$Ld"]}],"loading":null,"isPartial":false}
+7:["$","$Le",null,{"items":[{"id":"はじめに-aiは皮膚科専門医に勝ったのか","text":"はじめに — AIは皮膚科専門医に勝ったのか？","level":2},{"id":"aiが得意なこと-3つの強み","text":"AIが得意なこと — 3つの強み","level":2},{"id":"1-パターン認識-人間が見落とすものを見つける","text":"1. パターン認識 — 人間が見落とすものを見つける","level":3},{"id":"2-大量データの高速処理-人間にはできないスケール","text":"2. 大量データの高速処理 — 人間にはできないスケール","level":3},{"id":"3-一貫性-疲れない揺れない","text":"3. 一貫性 — 疲れない、揺れない","level":3},{"id":"aiが苦手なこと-4つの限界","text":"AIが苦手なこと — 4つの限界","level":2},{"id":"1-ハルシネーション-嘘を自信満々に語る","text":"1. ハルシネーション — 「嘘を自信満々に語る」","level":3},{"id":"2-文脈理解の限界-行間を読めない","text":"2. 文脈理解の限界 — 「行間を読めない」","level":3},{"id":"3-バイアス-データの偏りをそのまま学習する","text":"3. バイアス — 「データの偏りをそのまま学習する」","level":3},{"id":"4-ブラックボックス問題-なぜそう判断したか説明できない","text":"4. ブラックボックス問題 — 「なぜそう判断したか説明できない」","level":3},{"id":"能力と限界の実践的整理","text":"能力と限界の実践的整理","level":2},{"id":"まとめ","text":"まとめ","level":2}]}]
+8:["$","article",null,{"className":"prose","children":[["$","h1",null,{"children":"AIの能力と限界"}],"\n",["$","h2",null,{"id":"はじめに-aiは皮膚科専門医に勝ったのか","children":"はじめに — AIは皮膚科専門医に勝ったのか？"}],"\n",["$","p",null,{"children":["2017年、スタンフォード大学の研究チームがNature誌に画期的な論文を発表しました。深層学習モデルが、皮膚がんの画像診断で",["$","strong",null,{"children":"21名の皮膚科専門医と同等以上"}],"の精度を達成したのです。しかし、この「同等以上」には重要な但し書きがあります。AIはデジタル画像でのみ評価され、実際の患者の皮膚を見たわけではありません。触診、患者の病歴、ダーモスコピーの動的所見は一切含まれていません。"]}],"\n",["$","p",null,{"children":["この事例は、AIの能力と限界を象徴しています。",["$","strong",null,{"children":"特定の条件下では人間を超える"}],"が、",["$","strong",null,{"children":"現実の臨床環境は特定の条件ではない"}],"。"]}],"\n",["$","$Lf",null,{"type":"paper","title":"Dermatologist-level classification of skin cancer with deep neural networks","url":"https://www.nature.com/articles/nature21056","authors":"Esteva A, Kuprel B, Novoa RA et al.","source":"Nature","description":"深層学習が皮膚がん診断で皮膚科専門医と同等精度を達成した画期的論文"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"aiが得意なこと-3つの強み","children":"AIが得意なこと — 3つの強み"}],"\n",["$","h3",null,{"id":"1-パターン認識-人間が見落とすものを見つける","children":"1. パターン認識 — 人間が見落とすものを見つける"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-rose-600/50 dark:border-l-rose-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","日本"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"EIRL — 脳動脈瘤の見逃しを9ポイント改善"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"課題"}],": 脳MRI読影における脳動脈瘤の見逃し率は放射線科医でも約30%。特に3mm未満の小さな動脈瘤は見落とされやすい。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"成果"}],": LPIXEL社のEIRLは、AI支援なしの読影感度68.2%を、AI支援ありで",["$","strong",null,{"children":"77.2%に向上"}],"させた。特に小さな動脈瘤の検出で改善が顕著。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"原理"}],": AIは画像の全ピクセルを均等に評価する。人間は疲労や注意力の低下で見逃しが起きるが、AIは一貫した精度を保つ。"]}]]}]]}],"\n",["$","h3",null,{"id":"2-大量データの高速処理-人間にはできないスケール","children":"2. 大量データの高速処理 — 人間にはできないスケール"}],"\n",["$","p",null,{"children":"AIは数千枚の画像を数分で処理できます。放射線科医が1枚のCT画像を読影するのに平均5-10分かかるのに対し、AIは数秒で全スライスをスキャンし、異常候補を提示できます。"}],"\n",["$","h3",null,{"id":"3-一貫性-疲れない揺れない","children":"3. 一貫性 — 疲れない、揺れない"}],"\n",["$","p",null,{"children":"人間の医師の判断は、疲労、時間帯、直前の症例の影響を受けます（アンカリングバイアス）。AIは同じ入力に対して常に同じ出力を返し、判断の一貫性を保ちます。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"aiが苦手なこと-4つの限界","children":"AIが苦手なこと — 4つの限界"}],"\n",["$","h3",null,{"id":"1-ハルシネーション-嘘を自信満々に語る","children":"1. ハルシネーション — 「嘘を自信満々に語る」"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-amber-600/50 dark:border-l-amber-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","国際"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"ChatGPTのハルシネーション — 医療情報での危険性"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"現象"}],": 大規模言語モデル（LLM）は、訓練データに存在しない情報を、あたかも事実であるかのように生成することがある。これを**ハルシネーション（幻覚）**と呼ぶ。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"医療での具体例"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"存在しない臨床試験の結果を引用"}],"\n",["$","li",null,{"children":"実在しない医学論文の著者・タイトル・ジャーナルを生成"}],"\n",["$","li",null,{"children":"薬剤の用量を誤って提示（桁違いの投与量を生成する事例が報告）"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"根本原因"}],": LLMは「次に来る確率が高い単語」を予測しているだけであり、医学的な真偽を判断する能力を持っていない。文脈上「もっともらしい」回答を生成するが、それが事実かどうかは別の問題。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"対策"}],": AIが生成した医療情報は、必ず一次資料（原著論文、添付文書、ガイドライン）で確認する。AIの出力を「下書き」として扱い、最終確認は人間が行う。"]}]]}]]}],"\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f"]}]
+9:["$","$L20",null,{"courseId":"ai-basics","lessonSlug":"05-ai-capabilities"}]
+a:["$","$L21",null,{"courseId":"ai-basics","prev":{"slug":"04-machine-learning","title":"機械学習の基本概念","order":4},"next":{"slug":"06-ai-current-state","title":"AIの現状と医療分野での展望","order":6}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true}]
+c:["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true}]
+d:["$","$L22",null,{"children":["$","$23",null,{"name":"Next.MetadataOutlet","children":"$@24"}]}]
+10:["$","h3",null,{"id":"2-文脈理解の限界-行間を読めない","children":"2. 文脈理解の限界 — 「行間を読めない」"}]
+11:["$","p",null,{"children":"AIはテキストや画像のパターンを処理しますが、人間の医師のような「文脈の統合」はできません。"}]
+12:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"人間の医師ができること"}],["$","th",null,{"style":{"textAlign":"left"},"children":"AIの限界"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"患者の表情・声色から不安を読み取る"}],["$","td",null,{"style":{"textAlign":"left"},"children":"テキスト・数値データのみ処理"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"「少し痛い」の背後にある重症の可能性を直感で察知"}],["$","td",null,{"style":{"textAlign":"left"},"children":"入力された文字列のみを処理"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"家族構成・経済状況を考慮した治療計画"}],["$","td",null,{"style":{"textAlign":"left"},"children":"与えられたデータ項目のみで判断"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"過去の臨床経験から稀少疾患を想起"}],["$","td",null,{"style":{"textAlign":"left"},"children":"訓練データにない疾患は検出不能"}]]}]]}]]}]
+13:["$","h3",null,{"id":"3-バイアス-データの偏りをそのまま学習する","children":"3. バイアス — 「データの偏りをそのまま学習する」"}]
+14:["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-amber-600/50 dark:border-l-amber-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","国際"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"皮膚科AIの肌色バイアス — 公平性の課題"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"問題"}],": 皮膚科AIの訓練データの大部分が白人患者の画像で構成されていたため、有色人種の皮膚病変の検出精度が低いことが複数の研究で報告された。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"具体的な格差"}],": ある研究では、白人の皮膚がん検出感度が90%以上だった一方、暗い肌色での感度は70%台に低下。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"原因"}],": AIは訓練データの分布を忠実に学習する。訓練データに特定の集団が少なければ、その集団に対する性能が低下する。これは技術的な限界ではなく、データ収集の偏りという社会的問題。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"教訓"}],": AI医療機器を評価する際は、「どのような患者集団で検証されたか」を必ず確認する。自施設の患者層と検証データの集団が異なる場合、公表された精度がそのまま適用できない可能性がある。"]}]]}]]}]
+15:["$","h3",null,{"id":"4-ブラックボックス問題-なぜそう判断したか説明できない","children":"4. ブラックボックス問題 — 「なぜそう判断したか説明できない」"}]
+16:["$","$L25",null,{"type":"insight","title":"説明可能なAI（XAI）— ブラックボックスを開く試み","children":[["$","p",null,{"children":[["$","strong",null,{"children":"問題"}],": 深層学習は高精度だが、「なぜその判断をしたか」を説明できない。医療では「AIが異常と判定しました」だけでは不十分で、「画像のどの部分をどう評価した結果か」の説明が求められる。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"代表的な手法"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Grad-CAM"}],": 画像のどの領域がAIの判定に影響したかをヒートマップで可視化"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"SHAP"}],": 各特徴量が予測にどの程度寄与したかを数値化"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Attention Map"}],": Transformerモデルが「注目した」部分を可視化"]}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"医療での活用"}],": EIRLは脳動脈瘤の候補位置をマーキングして表示し、医師が「AIがどこを見ているか」を確認できる。完全な説明ではないが、臨床判断の補助として有用。"]}]]}]
+17:["$","hr",null,{}]
+18:["$","h2",null,{"id":"能力と限界の実践的整理","children":"能力と限界の実践的整理"}]
+19:["$","$L25",null,{"type":"comparison","title":"AIに任せるべきこと vs 人間が行うべきこと","children":[["$","p",null,{"children":[["$","strong",null,{"children":"AIに適するタスク"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"大量画像のスクリーニング（見逃しリスクの低減）"}],"\n",["$","li",null,{"children":"定型文書のドラフト作成（時間の効率化）"}],"\n",["$","li",null,{"children":"検査値の異常パターンの検出（24時間の一貫した監視）"}],"\n",["$","li",null,{"children":"文献検索と要約（情報収集の加速）"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"人間が不可欠なタスク"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"最終診断と治療方針の決定（責任と文脈判断）"}],"\n",["$","li",null,{"children":"患者・家族とのコミュニケーション（共感と信頼）"}],"\n",["$","li",null,{"children":"倫理的判断（治療の中止・継続の決定）"}],"\n",["$","li",null,{"children":"AIの出力の検証（ハルシネーション・バイアスの確認）"}],"\n"]}],["$","p",null,{"children":["→ ",["$","strong",null,{"children":"原則"}],": AIは「第二の意見」として活用し、最終判断は常に医師が行う。"]}]]}]
+1a:["$","hr",null,{}]
+1b:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+1c:["$","p",null,{"children":"AIは画像認識や大量データ処理など「パターンマッチング」が求められるタスクで人間を超える能力を示す一方、ハルシネーション、文脈理解の限界、データバイアス、ブラックボックス問題という根本的な限界を抱えています。スタンフォード大学の皮膚がんAIの事例が示すように、「特定条件下での優秀さ」と「臨床現場での信頼性」は異なります。AIの出力を批判的に評価し、人間の判断と組み合わせることが適切な活用の鍵です。"}]
+1d:["$","p",null,{"children":["次のレッスンでは、AIの",["$","strong",null,{"children":"現状と医療分野での具体的な展望"}],"を学びます。"]}]
+1e:["$","$L26",null,{"courseId":"ai-basics","lessonSlug":"05-ai-capabilities"}]
+1f:["$","$L27",null,{"children":["$","p",null,{"children":"次にChatGPTやClaudeに医学的な質問をした際、回答に含まれる具体的な数字（統計データ、薬剤用量、論文の引用）を1つ選び、一次資料で正確性を検証してみましょう。「ハルシネーションチェック」を習慣化することが、生成AIの安全な活用の第一歩です。"}]}]
+24:null

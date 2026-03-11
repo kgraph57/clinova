@@ -1,0 +1,345 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","patient-communication","02-02-risk-communication"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","patient-communication","d"],{"children":[["chapterId","02-02-risk-communication","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T2ca4,
+**「5%のリスク」は、伝え方次第で「ほとんど安全」にも「20人に1人」にもなる。**
+
+---
+
+## リスクコミュニケーションの重要性
+
+医療におけるリスクコミュニケーションとは、治療や検査に伴うリスクを、患者が正しく理解し、適切な意思決定ができるように伝える技術である。
+
+しかし、リスクを「正確に」伝えることと「わかりやすく」伝えることは、しばしば矛盾する。
+
+### 数字の理解度の現実
+
+2023年の *Annals of Internal Medicine* に掲載された研究では、成人の数値リテラシー（ニューメラシー）の実態が明らかになった。
+
+- **20%を5人に1人と換算できない成人**: 28%
+- **「10万人中100人」と「0.1%」が同じと理解できない成人**: 43%
+- **相対リスクと絶対リスクの違いを説明できない成人**: 76%
+- **「生存率95%」と「死亡率5%」が同じ意味だと理解している成人**: 54%
+
+<Callout type="warning" title="数字の伝え方は「数字そのもの」より重要">
+数値リテラシーの低い患者は人口の30〜50%を占める。リスクの数字を正確に伝えても、フォーマットが適切でなければ理解されない。「何を伝えるか」と同時に「どう伝えるか」が決定的に重要である。
+</Callout>
+
+---
+
+## リスク表現の4つのフォーマット
+
+### 1. 自然頻度（Natural Frequency）
+
+最も理解されやすい形式。「1,000人中○人」のように、具体的な人数で表現する。
+
+```
+推奨: 「この手術を受けた1,000人のうち、30人に合併症が起きました」
+非推奨: 「合併症のリスクは3%です」
+```
+
+### 2. パーセンテージ
+
+数値リテラシーが高い患者には適切だが、低い患者には混乱を招く。
+
+```
+注意: 「50%の確率で改善します」
+→ 患者の解釈: 「半分しか治らないなら受けたくない」
+→ 意図: 「2人に1人は症状が改善する」
+```
+
+### 3. 言語的表現
+
+「まれに」「ときどき」などの言葉は、受け手によって解釈が大きく異なる。
+
+| 医師の意図 | 実際のリスク | 患者が想像するリスク |
+|-----------|-------------|-------------------|
+| 非常にまれ | 0.01%未満 | 1〜5% |
+| まれに | 0.1〜1% | 5〜10% |
+| ときどき | 1〜10% | 20〜30% |
+| よくある | 10%以上 | 50%以上 |
+
+<Warning title="言語的リスク表現の危険性">
+「まれに起こる合併症」と説明した場合、医師は1%未満を想定しているが、患者は5〜10%と解釈する可能性がある。言語的表現は必ず数字と併用すること。
+</Warning>
+
+### 4. 視覚的表現（アイコンアレイ）
+
+100人のアイコンを並べ、該当する人数を色で示す方法。最も直感的に理解できる。
+
+```
+合併症リスク3%の場合:
+●●● ○○○○○○○
+○○○○○○○○○○
+○○○○○○○○○○
+○○○○○○○○○○
+○○○○○○○○○○
+○○○○○○○○○○
+○○○○○○○○○○
+○○○○○○○○○○
+○○○○○○○○○○
+○○○○○○○○○○
+● = 合併症あり（3人）  ○ = 合併症なし（97人）
+```
+
+---
+
+## フレーミング効果とその対策
+
+### ポジティブフレーム vs ネガティブフレーム
+
+同じリスク情報でも、表現の仕方（フレーム）によって患者の意思決定が変わる。これを**フレーミング効果**と呼ぶ。
+
+<ComparisonCard
+  before={{
+    title: "ポジティブフレームのみ（バイアスあり）",
+    content: "この手術の成功率は95%です。\n\n→ 患者は手術に前向きになりやすい"
+  }}
+  after={{
+    title: "バランスフレーム（推奨）",
+    content: "この手術を受けた100人のうち、95人は問題なく回復しています。一方で、5人には合併症が起こりました。その内訳は…\n\n→ 両面提示で患者の自律的意思決定を支援"
+  }}
+/>
+
+### AIを使ったバランスフレームの自動生成
+
+<PromptTemplate title="リスク情報のバランスフレーム変換">
+以下のリスクデータを、患者説明用のバランスフレーム形式に変換してください。
+
+**手術**: 腹腔鏡下胆嚢摘出術
+**リスクデータ**:
+- 術後出血: 0.5%
+- 胆管損傷: 0.3%
+- 術後感染: 2%
+- 開腹移行: 5%
+- 深部静脈血栓症: 0.1%
+- 麻酔関連合併症: 0.01%
+
+**変換条件**:
+1. 各リスクを「1,000人中○人」の自然頻度で表現する
+2. ポジティブフレーム（○人は問題なし）とネガティブフレーム（○人に発生）を併記する
+3. 日常生活のリスクとの比較を添える（例: 「交通事故の年間リスクは…」）
+4. アイコンアレイのテキスト版を作成する
+5. リスクの重大度を「軽い」「中くらい」「重い」の3段階で分類する
+6. 各合併症が起きた場合の対処法を一言で添える
+</PromptTemplate>
+
+---
+
+## 相対リスク vs 絶対リスク
+
+メディアや論文でよく使われる「相対リスク」は、患者を大きく惑わせる。
+
+### 例：新薬の効果を伝える場面
+
+ある新薬が心臓発作のリスクを「50%減少させる」と報道された場合を考える。
+
+| 表現方式 | 伝え方 | 印象 |
+|---------|--------|------|
+| 相対リスク減少 | 「心臓発作のリスクが50%減少」 | すごく効く薬 |
+| 絶対リスク減少 | 「心臓発作のリスクが2%から1%に減少」 | 100人中1人が助かる |
+| NNT（治療必要数） | 「100人が飲んで1人の心臓発作を防ぐ」 | 99人には直接効果なし |
+
+<Callout type="info" title="NNT（Number Needed to Treat）の活用">
+NNTは「1人の患者を助けるために何人を治療する必要があるか」を示す。相対リスク減少50%（印象的）が、NNT=100（100人治療して1人が助かる）であれば、印象は大きく変わる。リスクコミュニケーションでは、相対値と絶対値の両方を必ず提示する。
+</Callout>
+
+<PromptTemplate title="相対リスク→絶対リスク変換プロンプト">
+以下の治療効果データを、患者が理解しやすい形式に変換してください。
+
+**データ**:
+- 疾患: [例: 心房細動患者の脳卒中予防]
+- 薬剤: [例: DOAC（直接作用型経口抗凝固薬）]
+- 脳卒中リスク（年間）: 無治療群5%、治療群2%
+
+**出力する形式**:
+1. 相対リスク減少（%）
+2. 絶対リスク減少（%）
+3. NNT（治療必要数）
+4. 1,000人の自然頻度表現
+5. アイコンアレイ（100人版）
+6. 「つまり、こういうことです」と一言で伝える要約文
+7. 出血リスク（NNH）も併記して、利益とリスクのバランスを示す
+</PromptTemplate>
+
+---
+
+## リスク比較の「アンカー」
+
+患者がリスクの大きさを判断するために、比較対象（アンカー）を提供することが有効である。
+
+### 日常リスクとの比較表
+
+| リスク | 年間発生率 |
+|--------|----------|
+| 交通事故で死亡 | 0.004%（10万人中4人） |
+| 食中毒にかかる | 0.02% |
+| 階段で転倒して入院 | 0.1% |
+| インフルエンザにかかる | 5〜10% |
+| 風邪をひく | 30〜50% |
+
+<PromptTemplate title="リスクアンカーの生成">
+以下の医療リスクについて、患者が大きさを実感できる日常的なリスクとの比較を作成してください。
+
+**医療リスク**: 全身麻酔による死亡リスク（0.001%）
+
+**比較の条件**:
+1. 日常生活のリスクとの比較（3つ以上）
+2. 同じ数値を異なる表現で3パターン（自然頻度、パーセント、言語的表現）
+3. 「これくらいの確率です」と一言で伝えるアナロジー
+4. リスクが高くなる要因（年齢、併存疾患など）の注記
+</PromptTemplate>
+
+---
+
+## ヘルスリテラシー別のリスクコミュニケーション
+
+### レベル別アプローチ
+
+| リテラシーレベル | 推奨フォーマット | 避けるべきこと |
+|----------------|----------------|--------------|
+| 低 | アイコンアレイ＋簡単な言葉 | パーセンテージ、相対リスク |
+| 中 | 自然頻度＋バランスフレーム | 相対リスクのみの提示 |
+| 高 | 数値データ＋NNT/NNH＋出典 | 過度な簡略化 |
+
+<PromptTemplate title="リテラシー別リスク説明の自動生成">
+以下のリスク情報を、ヘルスリテラシーの3レベルに合わせて書き分けてください。
+
+**リスク情報**: 大腸内視鏡検査の穿孔リスク（0.05%）
+
+**レベル1（低リテラシー）**:
+- アイコンアレイを使用
+- 「めったに起こらない」「10,000人中5人」
+- 起こった場合どうするかを明記
+
+**レベル2（中リテラシー）**:
+- 自然頻度とパーセンテージの両方
+- バランスフレーム
+- 日常リスクとの比較1つ
+
+**レベル3（高リテラシー）**:
+- 正確なデータと出典
+- リスク因子の列挙
+- 検査を受けない場合のリスクとの比較
+</PromptTemplate>
+
+---
+
+## 不確実性の伝え方
+
+医療においては、リスクの数字自体に不確実性がある。この「不確実性の不確実性」をどう伝えるかも重要である。
+
+### 不確実性を正直に伝える表現
+
+```
+「この合併症の確率は、研究によって1〜5%と幅があります。
+ 当院では過去3年間で約2%の発生率でした。
+ ただし、○○さんの場合は[糖尿病の影響で]少し高くなる可能性があります。
+ 正確な数字をお伝えすることは難しいですが、
+ 注意深く対応する体制を整えています。」
+```
+
+<Callout type="info" title="「わからない」と言える勇気">
+リスクの数字に不確実性がある場合、「正確にはわかりませんが」と正直に伝えることが、むしろ信頼を高める。過度に精密な数字を提示することは、偽りの確実性を与えてしまう。
+</Callout>
+
+---
+
+## 実践チェックリスト
+
+リスクコミュニケーションの品質チェックリスト。
+
+- [ ] リスクを自然頻度（1,000人中○人）で表現したか
+- [ ] ポジティブフレームとネガティブフレームの両方を提示したか
+- [ ] 相対リスクだけでなく絶対リスクも伝えたか
+- [ ] 日常リスクとの比較（アンカー）を提供したか
+- [ ] 患者のリテラシーレベルに合ったフォーマットを選んだか
+- [ ] 不確実性について正直に伝えたか
+- [ ] 患者がリスクを正しく理解しているかTeach-Backで確認したか
+
+<KeyTakeaway
+  points={[
+    "リスクの数字は「自然頻度」形式が最も理解されやすい",
+    "フレーミング効果を避けるため、ポジティブ/ネガティブ両面を必ず提示する",
+    "相対リスクだけの説明はミスリーディング。絶対リスクとNNTを併用する",
+    "ヘルスリテラシーに応じて表現フォーマットを使い分ける",
+    "AIでリスク表現のバリエーションを自動生成し、最適な伝え方を選択する"
+  ]}
+/>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-patient-communication","lessonSlug":"02-02-risk-communication"}],["$","$L1d",null,{"items":[{"id":"リスクコミュニケーションの重要性","text":"リスクコミュニケーションの重要性","level":2},{"id":"数字の理解度の現実","text":"数字の理解度の現実","level":3},{"id":"リスク表現の4つのフォーマット","text":"リスク表現の4つのフォーマット","level":2},{"id":"1-自然頻度natural-frequency","text":"1. 自然頻度（Natural Frequency）","level":3},{"id":"2-パーセンテージ","text":"2. パーセンテージ","level":3},{"id":"3-言語的表現","text":"3. 言語的表現","level":3},{"id":"4-視覚的表現アイコンアレイ","text":"4. 視覚的表現（アイコンアレイ）","level":3},{"id":"フレーミング効果とその対策","text":"フレーミング効果とその対策","level":2},{"id":"ポジティブフレーム-vs-ネガティブフレーム","text":"ポジティブフレーム vs ネガティブフレーム","level":3},{"id":"aiを使ったバランスフレームの自動生成","text":"AIを使ったバランスフレームの自動生成","level":3},{"id":"相対リスク-vs-絶対リスク","text":"相対リスク vs 絶対リスク","level":2},{"id":"例新薬の効果を伝える場面","text":"例：新薬の効果を伝える場面","level":3},{"id":"リスク比較のアンカー","text":"リスク比較の「アンカー」","level":2},{"id":"日常リスクとの比較表","text":"日常リスクとの比較表","level":3},{"id":"ヘルスリテラシー別のリスクコミュニケーション","text":"ヘルスリテラシー別のリスクコミュニケーション","level":2},{"id":"レベル別アプローチ","text":"レベル別アプローチ","level":3},{"id":"不確実性の伝え方","text":"不確実性の伝え方","level":2},{"id":"不確実性を正直に伝える表現","text":"不確実性を正直に伝える表現","level":3},{"id":"実践チェックリスト","text":"実践チェックリスト","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"patient-communication","bookTitle":"AI×患者コミュニケーション術 — 説明・同意・教育・共有の技術","chapter":{"slug":"02-02-risk-communication","title":"リスクコミュニケーションとヘルスリテラシー","description":"治療リスクを正確かつわかりやすく伝えるリスクコミュニケーション技法。数値リテラシー、フレーミング効果、視覚化手法をAIで実践する。","partId":"part02","partTitle":"インフォームドコンセント","order":5,"partOrder":2,"estimatedMinutes":20,"estimatedReadTime":13,"free":true,"status":"published","tags":["リスクコミュニケーション","数値リテラシー","フレーミング","視覚化","ヘルスリテラシー"],"content":"$1f"},"totalChapters":22}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"patient-communication","chapterSlug":"02-02-risk-communication"}]
+23:["$","$L27",null,{"bookId":"patient-communication","prev":{"slug":"02-01-consent-documents","title":"AI支援による同意書作成の効率化","order":4},"next":{"slug":"02-03-visual-aids","title":"視覚的説明資料のAI生成","order":6}}]
+28:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+29:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+2a:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonCard"]
+2b:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+25:[["$","p",null,{"children":["$","strong",null,{"children":"「5%のリスク」は、伝え方次第で「ほとんど安全」にも「20人に1人」にもなる。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"リスクコミュニケーションの重要性","children":"リスクコミュニケーションの重要性"}],"\n",["$","p",null,{"children":"医療におけるリスクコミュニケーションとは、治療や検査に伴うリスクを、患者が正しく理解し、適切な意思決定ができるように伝える技術である。"}],"\n",["$","p",null,{"children":"しかし、リスクを「正確に」伝えることと「わかりやすく」伝えることは、しばしば矛盾する。"}],"\n",["$","h3",null,{"id":"数字の理解度の現実","children":"数字の理解度の現実"}],"\n",["$","p",null,{"children":["2023年の ",["$","em",null,{"children":"Annals of Internal Medicine"}]," に掲載された研究では、成人の数値リテラシー（ニューメラシー）の実態が明らかになった。"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"20%を5人に1人と換算できない成人"}],": 28%"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"「10万人中100人」と「0.1%」が同じと理解できない成人"}],": 43%"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"相対リスクと絶対リスクの違いを説明できない成人"}],": 76%"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"「生存率95%」と「死亡率5%」が同じ意味だと理解している成人"}],": 54%"]}],"\n"]}],"\n",["$","$L28",null,{"type":"warning","title":"数字の伝え方は「数字そのもの」より重要","children":["$","p",null,{"children":"数値リテラシーの低い患者は人口の30〜50%を占める。リスクの数字を正確に伝えても、フォーマットが適切でなければ理解されない。「何を伝えるか」と同時に「どう伝えるか」が決定的に重要である。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"リスク表現の4つのフォーマット","children":"リスク表現の4つのフォーマット"}],"\n",["$","h3",null,{"id":"1-自然頻度natural-frequency","children":"1. 自然頻度（Natural Frequency）"}],"\n",["$","p",null,{"children":"最も理解されやすい形式。「1,000人中○人」のように、具体的な人数で表現する。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"推奨: 「この手術を受けた1,000人のうち、30人に合併症が起きました」\n非推奨: 「合併症のリスクは3%です」\n"}]}],"\n",["$","h3",null,{"id":"2-パーセンテージ","children":"2. パーセンテージ"}],"\n",["$","p",null,{"children":"数値リテラシーが高い患者には適切だが、低い患者には混乱を招く。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"注意: 「50%の確率で改善します」\n→ 患者の解釈: 「半分しか治らないなら受けたくない」\n→ 意図: 「2人に1人は症状が改善する」\n"}]}],"\n",["$","h3",null,{"id":"3-言語的表現","children":"3. 言語的表現"}],"\n",["$","p",null,{"children":"「まれに」「ときどき」などの言葉は、受け手によって解釈が大きく異なる。"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"医師の意図"}],["$","th",null,{"children":"実際のリスク"}],["$","th",null,{"children":"患者が想像するリスク"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"非常にまれ"}],["$","td",null,{"children":"0.01%未満"}],["$","td",null,{"children":"1〜5%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"まれに"}],["$","td",null,{"children":"0.1〜1%"}],["$","td",null,{"children":"5〜10%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"ときどき"}],["$","td",null,{"children":"1〜10%"}],["$","td",null,{"children":"20〜30%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"よくある"}],["$","td",null,{"children":"10%以上"}],["$","td",null,{"children":"50%以上"}]]}]]}]]}],"\n",["$","$L29",null,{"title":"言語的リスク表現の危険性","children":["$","p",null,{"children":"「まれに起こる合併症」と説明した場合、医師は1%未満を想定しているが、患者は5〜10%と解釈する可能性がある。言語的表現は必ず数字と併用すること。"}]}],"\n",["$","h3",null,{"id":"4-視覚的表現アイコンアレイ","children":"4. 視覚的表現（アイコンアレイ）"}],"\n",["$","p",null,{"children":"100人のアイコンを並べ、該当する人数を色で示す方法。最も直感的に理解できる。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"合併症リスク3%の場合:\n●●● ○○○○○○○\n○○○○○○○○○○\n○○○○○○○○○○\n○○○○○○○○○○\n○○○○○○○○○○\n○○○○○○○○○○\n○○○○○○○○○○\n○○○○○○○○○○\n○○○○○○○○○○\n○○○○○○○○○○\n● = 合併症あり（3人）  ○ = 合併症なし（97人）\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"フレーミング効果とその対策","children":"フレーミング効果とその対策"}],"\n",["$","h3",null,{"id":"ポジティブフレーム-vs-ネガティブフレーム","children":"ポジティブフレーム vs ネガティブフレーム"}],"\n",["$","p",null,{"children":["同じリスク情報でも、表現の仕方（フレーム）によって患者の意思決定が変わる。これを",["$","strong",null,{"children":"フレーミング効果"}],"と呼ぶ。"]}],"\n",["$","$L2a",null,{}],"\n",["$","h3",null,{"id":"aiを使ったバランスフレームの自動生成","children":"AIを使ったバランスフレームの自動生成"}],"\n",["$","$L2b",null,{"title":"リスク情報のバランスフレーム変換","children":[["$","p",null,{"children":"以下のリスクデータを、患者説明用のバランスフレーム形式に変換してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"手術"}],": 腹腔鏡下胆嚢摘出術\n",["$","strong",null,{"children":"リスクデータ"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"術後出血: 0.5%"}],"\n",["$","li",null,{"children":"胆管損傷: 0.3%"}],"\n",["$","li",null,{"children":"術後感染: 2%"}],"\n",["$","li",null,{"children":"開腹移行: 5%"}],"\n",["$","li",null,{"children":"深部静脈血栓症: 0.1%"}],"\n",["$","li",null,{"children":"麻酔関連合併症: 0.01%"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"変換条件"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"各リスクを「1,000人中○人」の自然頻度で表現する"}],"\n",["$","li",null,{"children":"ポジティブフレーム（○人は問題なし）とネガティブフレーム（○人に発生）を併記する"}],"\n",["$","li",null,{"children":"日常生活のリスクとの比較を添える（例: 「交通事故の年間リスクは…」）"}],"\n",["$","li",null,{"children":"アイコンアレイのテキスト版を作成する"}],"\n",["$","li",null,{"children":"リスクの重大度を「軽い」「中くらい」「重い」の3段階で分類する"}],"\n","$L2c","\n"]}]]}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a"]
+4b:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+2c:["$","li",null,{"children":"各合併症が起きた場合の対処法を一言で添える"}]
+2d:["$","hr",null,{}]
+2e:["$","h2",null,{"id":"相対リスク-vs-絶対リスク","children":"相対リスク vs 絶対リスク"}]
+2f:["$","p",null,{"children":"メディアや論文でよく使われる「相対リスク」は、患者を大きく惑わせる。"}]
+30:["$","h3",null,{"id":"例新薬の効果を伝える場面","children":"例：新薬の効果を伝える場面"}]
+31:["$","p",null,{"children":"ある新薬が心臓発作のリスクを「50%減少させる」と報道された場合を考える。"}]
+32:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"表現方式"}],["$","th",null,{"children":"伝え方"}],["$","th",null,{"children":"印象"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"相対リスク減少"}],["$","td",null,{"children":"「心臓発作のリスクが50%減少」"}],["$","td",null,{"children":"すごく効く薬"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"絶対リスク減少"}],["$","td",null,{"children":"「心臓発作のリスクが2%から1%に減少」"}],["$","td",null,{"children":"100人中1人が助かる"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"NNT（治療必要数）"}],["$","td",null,{"children":"「100人が飲んで1人の心臓発作を防ぐ」"}],["$","td",null,{"children":"99人には直接効果なし"}]]}]]}]]}]
+33:["$","$L28",null,{"type":"info","title":"NNT（Number Needed to Treat）の活用","children":["$","p",null,{"children":"NNTは「1人の患者を助けるために何人を治療する必要があるか」を示す。相対リスク減少50%（印象的）が、NNT=100（100人治療して1人が助かる）であれば、印象は大きく変わる。リスクコミュニケーションでは、相対値と絶対値の両方を必ず提示する。"}]}]
+34:["$","$L2b",null,{"title":"相対リスク→絶対リスク変換プロンプト","children":[["$","p",null,{"children":"以下の治療効果データを、患者が理解しやすい形式に変換してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"データ"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"疾患: [例: 心房細動患者の脳卒中予防]"}],"\n",["$","li",null,{"children":"薬剤: [例: DOAC（直接作用型経口抗凝固薬）]"}],"\n",["$","li",null,{"children":"脳卒中リスク（年間）: 無治療群5%、治療群2%"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"出力する形式"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"相対リスク減少（%）"}],"\n",["$","li",null,{"children":"絶対リスク減少（%）"}],"\n",["$","li",null,{"children":"NNT（治療必要数）"}],"\n",["$","li",null,{"children":"1,000人の自然頻度表現"}],"\n",["$","li",null,{"children":"アイコンアレイ（100人版）"}],"\n",["$","li",null,{"children":"「つまり、こういうことです」と一言で伝える要約文"}],"\n",["$","li",null,{"children":"出血リスク（NNH）も併記して、利益とリスクのバランスを示す"}],"\n"]}]]}]
+35:["$","hr",null,{}]
+36:["$","h2",null,{"id":"リスク比較のアンカー","children":"リスク比較の「アンカー」"}]
+37:["$","p",null,{"children":"患者がリスクの大きさを判断するために、比較対象（アンカー）を提供することが有効である。"}]
+38:["$","h3",null,{"id":"日常リスクとの比較表","children":"日常リスクとの比較表"}]
+39:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"リスク"}],["$","th",null,{"children":"年間発生率"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"交通事故で死亡"}],["$","td",null,{"children":"0.004%（10万人中4人）"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"食中毒にかかる"}],["$","td",null,{"children":"0.02%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"階段で転倒して入院"}],["$","td",null,{"children":"0.1%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"インフルエンザにかかる"}],["$","td",null,{"children":"5〜10%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"風邪をひく"}],["$","td",null,{"children":"30〜50%"}]]}]]}]]}]
+3a:["$","$L2b",null,{"title":"リスクアンカーの生成","children":[["$","p",null,{"children":"以下の医療リスクについて、患者が大きさを実感できる日常的なリスクとの比較を作成してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"医療リスク"}],": 全身麻酔による死亡リスク（0.001%）"]}],["$","p",null,{"children":[["$","strong",null,{"children":"比較の条件"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"日常生活のリスクとの比較（3つ以上）"}],"\n",["$","li",null,{"children":"同じ数値を異なる表現で3パターン（自然頻度、パーセント、言語的表現）"}],"\n",["$","li",null,{"children":"「これくらいの確率です」と一言で伝えるアナロジー"}],"\n",["$","li",null,{"children":"リスクが高くなる要因（年齢、併存疾患など）の注記"}],"\n"]}]]}]
+3b:["$","hr",null,{}]
+3c:["$","h2",null,{"id":"ヘルスリテラシー別のリスクコミュニケーション","children":"ヘルスリテラシー別のリスクコミュニケーション"}]
+3d:["$","h3",null,{"id":"レベル別アプローチ","children":"レベル別アプローチ"}]
+3e:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"リテラシーレベル"}],["$","th",null,{"children":"推奨フォーマット"}],["$","th",null,{"children":"避けるべきこと"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"低"}],["$","td",null,{"children":"アイコンアレイ＋簡単な言葉"}],["$","td",null,{"children":"パーセンテージ、相対リスク"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"中"}],["$","td",null,{"children":"自然頻度＋バランスフレーム"}],["$","td",null,{"children":"相対リスクのみの提示"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"高"}],["$","td",null,{"children":"数値データ＋NNT/NNH＋出典"}],["$","td",null,{"children":"過度な簡略化"}]]}]]}]]}]
+3f:["$","$L2b",null,{"title":"リテラシー別リスク説明の自動生成","children":[["$","p",null,{"children":"以下のリスク情報を、ヘルスリテラシーの3レベルに合わせて書き分けてください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"リスク情報"}],": 大腸内視鏡検査の穿孔リスク（0.05%）"]}],["$","p",null,{"children":[["$","strong",null,{"children":"レベル1（低リテラシー）"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"アイコンアレイを使用"}],"\n",["$","li",null,{"children":"「めったに起こらない」「10,000人中5人」"}],"\n",["$","li",null,{"children":"起こった場合どうするかを明記"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"レベル2（中リテラシー）"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"自然頻度とパーセンテージの両方"}],"\n",["$","li",null,{"children":"バランスフレーム"}],"\n",["$","li",null,{"children":"日常リスクとの比較1つ"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"レベル3（高リテラシー）"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"正確なデータと出典"}],"\n",["$","li",null,{"children":"リスク因子の列挙"}],"\n",["$","li",null,{"children":"検査を受けない場合のリスクとの比較"}],"\n"]}]]}]
+40:["$","hr",null,{}]
+41:["$","h2",null,{"id":"不確実性の伝え方","children":"不確実性の伝え方"}]
+42:["$","p",null,{"children":"医療においては、リスクの数字自体に不確実性がある。この「不確実性の不確実性」をどう伝えるかも重要である。"}]
+43:["$","h3",null,{"id":"不確実性を正直に伝える表現","children":"不確実性を正直に伝える表現"}]
+44:["$","pre",null,{"children":["$","code",null,{"children":"「この合併症の確率は、研究によって1〜5%と幅があります。\n 当院では過去3年間で約2%の発生率でした。\n ただし、○○さんの場合は[糖尿病の影響で]少し高くなる可能性があります。\n 正確な数字をお伝えすることは難しいですが、\n 注意深く対応する体制を整えています。」\n"}]}]
+45:["$","$L28",null,{"type":"info","title":"「わからない」と言える勇気","children":["$","p",null,{"children":"リスクの数字に不確実性がある場合、「正確にはわかりませんが」と正直に伝えることが、むしろ信頼を高める。過度に精密な数字を提示することは、偽りの確実性を与えてしまう。"}]}]
+46:["$","hr",null,{}]
+47:["$","h2",null,{"id":"実践チェックリスト","children":"実践チェックリスト"}]
+48:["$","p",null,{"children":"リスクコミュニケーションの品質チェックリスト。"}]
+49:["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","リスクを自然頻度（1,000人中○人）で表現したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","ポジティブフレームとネガティブフレームの両方を提示したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","相対リスクだけでなく絶対リスクも伝えたか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","日常リスクとの比較（アンカー）を提供したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","患者のリテラシーレベルに合ったフォーマットを選んだか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","不確実性について正直に伝えたか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","患者がリスクを正しく理解しているかTeach-Backで確認したか"]}],"\n"]}]
+4a:["$","$L4b",null,{}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+4c:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"リスクコミュニケーションとヘルスリテラシー | Hoshizu"}],["$","meta","1",{"name":"description","content":"治療リスクを正確かつわかりやすく伝えるリスクコミュニケーション技法。数値リテラシー、フレーミング効果、視覚化手法をAIで実践する。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/patient-communication/02-02-risk-communication"}],["$","meta","4",{"property":"og:title","content":"リスクコミュニケーションとヘルスリテラシー - AI×患者コミュニケーション術 — 説明・同意・教育・共有の技術"}],["$","meta","5",{"property":"og:description","content":"治療リスクを正確かつわかりやすく伝えるリスクコミュニケーション技法。数値リテラシー、フレーミング効果、視覚化手法をAIで実践する。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L4c","15",{}]]

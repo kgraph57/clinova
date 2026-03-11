@@ -1,0 +1,272 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+32:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+33:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+34:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+35:"$Sreact.suspense"
+37:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+38:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+39:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonCard"]
+3a:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonBefore"]
+3b:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonAfter"]
+3c:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T28c1,
+# PubMed × AI構造化検索ワークフロー
+
+## PubMed検索の現状と課題
+
+PubMedは3,700万件以上の文献を収録する、医学研究の最も基本的なデータベースです。しかし、効果的な検索には MeSH（Medical Subject Headings）の理解、Boolean演算子の適切な使用、検索式の反復的改善が必要であり、初学者にとっては高いハードルとなっています。
+
+よくある問題は以下の通りです。
+
+- **検索結果が多すぎる**: 非特異的な検索語で数万件がヒット、スクリーニング不可能
+- **検索結果が少なすぎる**: MeSHの選択ミスや過度な絞り込みで重要な論文を見落とす
+- **再現性の欠如**: 検索プロセスが文書化されておらず、後から検証できない
+- **最新論文の漏れ**: MeSHインデックスが未付与の最新論文が検索にかからない
+
+<Callout>
+系統的レビューにおける検索式の質は、レビュー全体の質を直接左右します。PRISMA 2020では、完全な検索式を少なくとも1つのデータベースについて報告することが要求されています。
+</Callout>
+
+## AI構造化検索の5ステップワークフロー
+
+<StepFlow>
+  <StepFlowStep number={1} title="PICO要素からの検索語展開">
+    各PICO要素に対して、MeSHターム、フリーテキスト語、同義語、関連語をAIで網羅的に生成する。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="検索式の構築">
+    Boolean演算子（AND, OR, NOT）を使って、PICO要素を組み合わせた検索式を構築する。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="検索の実行と結果評価">
+    PubMedで検索を実行し、ヒット数と上位論文の関連性を確認。必要に応じて検索式を調整する。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="感度と特異度のバランス調整">
+    系統的レビューでは感度重視（網羅的）、臨床疑問の解決では特異度重視（精度重視）に調整する。
+  </StepFlowStep>
+  <StepFlowStep number={5} title="補完検索の実施">
+    引用文献追跡、被引用文献検索、関連論文機能で検索を補完する。
+  </StepFlowStep>
+</StepFlow>
+
+## ステップ1: PICO要素からの検索語展開
+
+<PromptTemplate title="PICO要素からのMeSH・検索語展開">
+以下のPICO要素から、PubMed検索に使用する検索語を展開してください。
+
+P (Population): [対象集団]
+I (Intervention): [介入]
+C (Comparison): [比較対照]
+O (Outcome): [アウトカム]
+
+各PICO要素について以下を提示してください：
+1. **MeSHターム**: 正確なMeSH見出し語。サブヘディングも含める。Explode（上位語に含まれる下位語をすべて含む）の推奨有無。
+2. **Entry Terms**: MeSHのエントリーターム（同義語として登録されている語）
+3. **フリーテキスト語**: MeSHに含まれない重要な関連語、略語、商品名等
+4. **タイトル/抄録検索の推奨語**: [tiab]フィールドで検索すべき語
+5. **除外すべき語**: NOTで除外すべき無関係な同音語等
+
+最後に、PubMed形式の完成した検索式を提示してください。
+</PromptTemplate>
+
+### 検索語展開の実践例
+
+**PICO**: 高齢者の心房細動（P）に対するDOAC（I）vs ワルファリン（C）の脳卒中予防効果（O）
+
+**P の検索語展開：**
+
+```
+("Atrial Fibrillation"[MeSH Terms] OR "atrial fibrillation"[tiab] OR "AF"[tiab] OR "AFib"[tiab] OR "auricular fibrillation"[tiab])
+AND
+("Aged"[MeSH Terms] OR "Aged, 80 and over"[MeSH Terms] OR "elderly"[tiab] OR "older adults"[tiab] OR "geriatric"[tiab] OR "aged"[tiab])
+```
+
+**I の検索語展開：**
+
+```
+("Anticoagulants"[MeSH Terms] OR "Factor Xa Inhibitors"[MeSH Terms] OR "dabigatran"[tiab] OR "rivaroxaban"[tiab] OR "apixaban"[tiab] OR "edoxaban"[tiab] OR "DOAC"[tiab] OR "NOAC"[tiab] OR "direct oral anticoagulant*"[tiab])
+```
+
+## ステップ2: 検索式の構築
+
+<PromptTemplate title="PubMed検索式の構築と最適化">
+以下の検索語を組み合わせて、PubMed検索式を構築してください。
+
+P の検索語ブロック:
+[Pの検索語]
+
+I の検索語ブロック:
+[Iの検索語]
+
+C の検索語ブロック:（必要に応じて）
+[Cの検索語]
+
+O の検索語ブロック:（必要に応じて）
+[Oの検索語]
+
+検索の目的: [系統的レビュー（感度重視）/ 臨床疑問の解決（特異度重視）]
+
+以下を提示してください：
+1. **高感度バージョン**: 網羅性を重視した検索式（系統的レビュー用）
+2. **高特異度バージョン**: 精度を重視した検索式（臨床疑問解決用）
+3. **バランスバージョン**: 感度と特異度のバランスを取った検索式
+4. **PubMed Clinical Queries のフィルター活用法**
+5. **各バージョンの予想ヒット数の大小関係**
+</PromptTemplate>
+
+## ステップ3: PubMed Best Match vs Most Recent
+
+PubMedのデフォルトのソート順は「Best Match」です。これはAIアルゴリズムに基づいて関連性の高い論文を上位に表示する機能で、2018年に導入されました。
+
+**Best Matchが有効な場合：**
+- 探索的検索（何が出てくるか見たい）
+- 臨床疑問の迅速な解決
+- 最も関連性の高い数本の論文を見つけたい
+
+**Most Recentが有効な場合：**
+- 系統的レビュー（全論文を網羅的にスクリーニング必要）
+- 最新論文のキャッチアップ
+- 検索結果の再現性を重視する場合
+
+<Warning>
+系統的レビューの検索では、Best Matchのソート順に依存してはいけません。検索式でヒットしたすべての論文をスクリーニングする必要があります。Best Matchのアルゴリズムは変更される可能性があり、検索の再現性が保証されません。
+</Warning>
+
+## ステップ4: 検索結果の品質評価
+
+検索結果が適切かどうかを評価するため、以下の確認を行います。
+
+### 感度チェック（見落としがないか）
+
+事前に知っている重要論文（「ランドマーク研究」）がヒットしているか確認します。
+
+<PromptTemplate title="検索式の感度チェック">
+以下の検索テーマについて、必ず検索でヒットすべき「ランドマーク研究」のリストを作成してください。
+
+検索テーマ: [あなたのRQ]
+対象期間: [検索の対象期間]
+
+以下の基準でランドマーク研究を選定してください：
+1. 当該分野のガイドラインで引用されている研究
+2. 被引用数が多い研究
+3. 研究デザインの質が高い研究（大規模RCT等）
+4. 最近の系統的レビューに含まれている研究
+
+各研究について、PMID、タイトル、主要知見を提示してください。
+
+注意：論文の実在を必ずPubMedで確認してください。架空の論文を含めないでください。
+</PromptTemplate>
+
+### 特異度チェック（ノイズが多すぎないか）
+
+ヒットした論文の上位20件を確認し、関連性の低い論文の割合（NNR: Number Needed to Read）を評価します。NNRが5以上（5本読んで1本しか関連がない）なら、検索式の特異度を高める必要があります。
+
+## ステップ5: Semantic Scholarとの併用
+
+PubMedのキーワードマッチング検索だけでは、意味的に関連する論文を見落とす可能性があります。Semantic Scholarのセマンティック検索を組み合わせることで、カバレッジを向上させます。
+
+<ComparisonCard beforeLabel="PubMed単独の検索" afterLabel="PubMed + Semantic Scholar の併用">
+<ComparisonBefore>
+
+MeSHとフリーテキストのキーワードマッチング。Boolean演算子による論理的な組み合わせ。MeSH未付与の最新論文は漏れやすい。概念的に関連するが異なる語を使った論文は見落としやすい。プレプリントは含まない。
+
+</ComparisonBefore>
+<ComparisonAfter>
+
+キーワードマッチング＋意味的類似性の二重カバレッジ。類似論文の自動推薦で検索の盲点を補完。最新論文もセマンティック検索でカバー。異なる用語を使った関連論文も意味的に発見。プレプリントも検索対象に含められる。
+
+</ComparisonAfter>
+</ComparisonCard>
+
+## 検索記録のテンプレート
+
+系統的レビューでは、検索の全プロセスを文書化する必要があります。
+
+<PromptTemplate title="検索記録の文書化">
+以下の検索結果を、PRISMA 2020に準拠した検索記録として文書化してください。
+
+データベース: PubMed
+検索日: [日付]
+検索式:
+[完成した検索式]
+
+ヒット数: [件数]
+適用したフィルター: [言語、出版年等]
+
+以下のPRISMAフローダイアグラムの各段階の数値も記録してください：
+1. データベース検索でのヒット数
+2. その他のソース（ハンドサーチ、引用追跡等）での追加件数
+3. 重複除去後の件数
+4. タイトル・抄録スクリーニング後の件数
+5. 全文スクリーニング後の件数
+6. 最終的に組み入れた件数
+</PromptTemplate>
+
+## PubMed APIとプログラマティック検索
+
+大規模な検索や定期的なモニタリングには、PubMed E-utilities APIが有用です。Pythonの`biopython`ライブラリを使うと、検索の自動化が可能です。
+
+```python
+from Bio import Entrez
+
+Entrez.email = "your.email@example.com"
+
+# 検索の実行
+handle = Entrez.esearch(db="pubmed", term="atrial fibrillation AND DOAC AND elderly", retmax=100)
+record = Entrez.read(handle)
+
+# PMIDリストの取得
+pmid_list = record["IdList"]
+print(f"ヒット数: {record['Count']}, 取得PMID数: {len(pmid_list)}")
+```
+
+<KeyTakeaway>
+PubMed検索の質は、検索語の網羅性と検索式の論理構造で決まります。AIを使ってMeSHとフリーテキスト語を体系的に展開し、Semantic Scholarで意味的な補完を行うことで、見落としリスクを大幅に低減できます。系統的レビューでは、検索の全プロセスを文書化することを忘れないでください。
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-research-ai","lessonSlug":"02-01-pubmed-ai"}],["$","$L4",null,{"items":[{"id":"pubmed検索の現状と課題","text":"PubMed検索の現状と課題","level":2},{"id":"ai構造化検索の5ステップワークフロー","text":"AI構造化検索の5ステップワークフロー","level":2},{"id":"ステップ1-pico要素からの検索語展開","text":"ステップ1: PICO要素からの検索語展開","level":2},{"id":"検索語展開の実践例","text":"検索語展開の実践例","level":3},{"id":"ステップ2-検索式の構築","text":"ステップ2: 検索式の構築","level":2},{"id":"ステップ3-pubmed-best-match-vs-most-recent","text":"ステップ3: PubMed Best Match vs Most Recent","level":2},{"id":"ステップ4-検索結果の品質評価","text":"ステップ4: 検索結果の品質評価","level":2},{"id":"感度チェック見落としがないか","text":"感度チェック（見落としがないか）","level":3},{"id":"特異度チェックノイズが多すぎないか","text":"特異度チェック（ノイズが多すぎないか）","level":3},{"id":"ステップ5-semantic-scholarとの併用","text":"ステップ5: Semantic Scholarとの併用","level":2},{"id":"検索記録のテンプレート","text":"検索記録のテンプレート","level":2},{"id":"pubmed-apiとプログラマティック検索","text":"PubMed APIとプログラマティック検索","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"research-ai","bookTitle":"AI時代の医学論文術 — 検索・読解・執筆の新常識","chapter":{"slug":"02-01-pubmed-ai","title":"PubMed × AI構造化検索ワークフロー","description":"PubMedの検索機能をAIで最大限に活用し、網羅的かつ効率的に文献を収集する実践ワークフロー。","partId":"part02","partTitle":"文献検索の革新","order":4,"partOrder":2,"estimatedMinutes":20,"estimatedReadTime":12,"free":true,"status":"published","tags":["PubMed","MeSH","検索式","文献検索","Semantic Scholar"],"content":"$6"},"totalChapters":27}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"pubmed検索の現状と課題","text":"PubMed検索の現状と課題","level":2},{"id":"ai構造化検索の5ステップワークフロー","text":"AI構造化検索の5ステップワークフロー","level":2},{"id":"ステップ1-pico要素からの検索語展開","text":"ステップ1: PICO要素からの検索語展開","level":2},{"id":"検索語展開の実践例","text":"検索語展開の実践例","level":3},{"id":"ステップ2-検索式の構築","text":"ステップ2: 検索式の構築","level":2},{"id":"ステップ3-pubmed-best-match-vs-most-recent","text":"ステップ3: PubMed Best Match vs Most Recent","level":2},{"id":"ステップ4-検索結果の品質評価","text":"ステップ4: 検索結果の品質評価","level":2},{"id":"感度チェック見落としがないか","text":"感度チェック（見落としがないか）","level":3},{"id":"特異度チェックノイズが多すぎないか","text":"特異度チェック（ノイズが多すぎないか）","level":3},{"id":"ステップ5-semantic-scholarとの併用","text":"ステップ5: Semantic Scholarとの併用","level":2},{"id":"検索記録のテンプレート","text":"検索記録のテンプレート","level":2},{"id":"pubmed-apiとプログラマティック検索","text":"PubMed APIとプログラマティック検索","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","h1",null,{"children":"PubMed × AI構造化検索ワークフロー"}],"\n",["$","h2",null,{"id":"pubmed検索の現状と課題","children":"PubMed検索の現状と課題"}],"\n",["$","p",null,{"children":"PubMedは3,700万件以上の文献を収録する、医学研究の最も基本的なデータベースです。しかし、効果的な検索には MeSH（Medical Subject Headings）の理解、Boolean演算子の適切な使用、検索式の反復的改善が必要であり、初学者にとっては高いハードルとなっています。"}],"\n",["$","p",null,{"children":"よくある問題は以下の通りです。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"検索結果が多すぎる"}],": 非特異的な検索語で数万件がヒット、スクリーニング不可能"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"検索結果が少なすぎる"}],": MeSHの選択ミスや過度な絞り込みで重要な論文を見落とす"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"再現性の欠如"}],": 検索プロセスが文書化されておらず、後から検証できない"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"最新論文の漏れ"}],": MeSHインデックスが未付与の最新論文が検索にかからない"]}],"\n"]}],"\n",["$","$Le",null,{"children":["$","p",null,{"children":"系統的レビューにおける検索式の質は、レビュー全体の質を直接左右します。PRISMA 2020では、完全な検索式を少なくとも1つのデータベースについて報告することが要求されています。"}]}],"\n",["$","h2",null,{"id":"ai構造化検索の5ステップワークフロー","children":"AI構造化検索の5ステップワークフロー"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"PICO要素からの検索語展開"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"各PICO要素に対して、MeSHターム、フリーテキスト語、同義語、関連語をAIで網羅的に生成する。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"検索式の構築"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"Boolean演算子（AND, OR, NOT）を使って、PICO要素を組み合わせた検索式を構築する。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"検索の実行と結果評価"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"PubMedで検索を実行し、ヒット数と上位論文の関連性を確認。必要に応じて検索式を調整する。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"感度と特異度のバランス調整"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"系統的レビューでは感度重視（網羅的）、臨床疑問の解決では特異度重視（精度重視）に調整する。"}]}]]}]]}],"$Lf"]}]]}],"\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31"]}]
+9:["$","$L32",null,{"bookId":"research-ai","chapterSlug":"02-01-pubmed-ai"}]
+a:["$","$L33",null,{"bookId":"research-ai","prev":{"slug":"01-03-study-design","title":"研究デザイン選択支援","order":3},"next":{"slug":"02-02-systematic-review","title":"AI支援の系統的レビュー手法","order":5}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L34",null,{"children":["$","$35",null,{"name":"Next.MetadataOutlet","children":"$@36"}]}]
+f:["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"補完検索の実施"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"引用文献追跡、被引用文献検索、関連論文機能で検索を補完する。"}]}]]}]]}]
+10:["$","h2",null,{"id":"ステップ1-pico要素からの検索語展開","children":"ステップ1: PICO要素からの検索語展開"}]
+11:["$","$L37",null,{"title":"PICO要素からのMeSH・検索語展開","children":[["$","p",null,{"children":"以下のPICO要素から、PubMed検索に使用する検索語を展開してください。"}],["$","p",null,{"children":"P (Population): [対象集団]\nI (Intervention): [介入]\nC (Comparison): [比較対照]\nO (Outcome): [アウトカム]"}],["$","p",null,{"children":"各PICO要素について以下を提示してください："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"MeSHターム"}],": 正確なMeSH見出し語。サブヘディングも含める。Explode（上位語に含まれる下位語をすべて含む）の推奨有無。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Entry Terms"}],": MeSHのエントリーターム（同義語として登録されている語）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"フリーテキスト語"}],": MeSHに含まれない重要な関連語、略語、商品名等"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"タイトル/抄録検索の推奨語"}],": [tiab]フィールドで検索すべき語"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"除外すべき語"}],": NOTで除外すべき無関係な同音語等"]}],"\n"]}],["$","p",null,{"children":"最後に、PubMed形式の完成した検索式を提示してください。"}]]}]
+12:["$","h3",null,{"id":"検索語展開の実践例","children":"検索語展開の実践例"}]
+13:["$","p",null,{"children":[["$","strong",null,{"children":"PICO"}],": 高齢者の心房細動（P）に対するDOAC（I）vs ワルファリン（C）の脳卒中予防効果（O）"]}]
+14:["$","p",null,{"children":["$","strong",null,{"children":"P の検索語展開："}]}]
+15:["$","pre",null,{"children":["$","code",null,{"children":"(\"Atrial Fibrillation\"[MeSH Terms] OR \"atrial fibrillation\"[tiab] OR \"AF\"[tiab] OR \"AFib\"[tiab] OR \"auricular fibrillation\"[tiab])\nAND\n(\"Aged\"[MeSH Terms] OR \"Aged, 80 and over\"[MeSH Terms] OR \"elderly\"[tiab] OR \"older adults\"[tiab] OR \"geriatric\"[tiab] OR \"aged\"[tiab])\n"}]}]
+16:["$","p",null,{"children":["$","strong",null,{"children":"I の検索語展開："}]}]
+17:["$","pre",null,{"children":["$","code",null,{"children":"(\"Anticoagulants\"[MeSH Terms] OR \"Factor Xa Inhibitors\"[MeSH Terms] OR \"dabigatran\"[tiab] OR \"rivaroxaban\"[tiab] OR \"apixaban\"[tiab] OR \"edoxaban\"[tiab] OR \"DOAC\"[tiab] OR \"NOAC\"[tiab] OR \"direct oral anticoagulant*\"[tiab])\n"}]}]
+18:["$","h2",null,{"id":"ステップ2-検索式の構築","children":"ステップ2: 検索式の構築"}]
+19:["$","$L37",null,{"title":"PubMed検索式の構築と最適化","children":[["$","p",null,{"children":"以下の検索語を組み合わせて、PubMed検索式を構築してください。"}],["$","p",null,{"children":"P の検索語ブロック:\n[Pの検索語]"}],["$","p",null,{"children":"I の検索語ブロック:\n[Iの検索語]"}],["$","p",null,{"children":"C の検索語ブロック:（必要に応じて）\n[Cの検索語]"}],["$","p",null,{"children":"O の検索語ブロック:（必要に応じて）\n[Oの検索語]"}],["$","p",null,{"children":"検索の目的: [系統的レビュー（感度重視）/ 臨床疑問の解決（特異度重視）]"}],["$","p",null,{"children":"以下を提示してください："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"高感度バージョン"}],": 網羅性を重視した検索式（系統的レビュー用）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"高特異度バージョン"}],": 精度を重視した検索式（臨床疑問解決用）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"バランスバージョン"}],": 感度と特異度のバランスを取った検索式"]}],"\n",["$","li",null,{"children":["$","strong",null,{"children":"PubMed Clinical Queries のフィルター活用法"}]}],"\n",["$","li",null,{"children":["$","strong",null,{"children":"各バージョンの予想ヒット数の大小関係"}]}],"\n"]}]]}]
+1a:["$","h2",null,{"id":"ステップ3-pubmed-best-match-vs-most-recent","children":"ステップ3: PubMed Best Match vs Most Recent"}]
+1b:["$","p",null,{"children":"PubMedのデフォルトのソート順は「Best Match」です。これはAIアルゴリズムに基づいて関連性の高い論文を上位に表示する機能で、2018年に導入されました。"}]
+1c:["$","p",null,{"children":["$","strong",null,{"children":"Best Matchが有効な場合："}]}]
+1d:["$","ul",null,{"children":["\n",["$","li",null,{"children":"探索的検索（何が出てくるか見たい）"}],"\n",["$","li",null,{"children":"臨床疑問の迅速な解決"}],"\n",["$","li",null,{"children":"最も関連性の高い数本の論文を見つけたい"}],"\n"]}]
+1e:["$","p",null,{"children":["$","strong",null,{"children":"Most Recentが有効な場合："}]}]
+1f:["$","ul",null,{"children":["\n",["$","li",null,{"children":"系統的レビュー（全論文を網羅的にスクリーニング必要）"}],"\n",["$","li",null,{"children":"最新論文のキャッチアップ"}],"\n",["$","li",null,{"children":"検索結果の再現性を重視する場合"}],"\n"]}]
+20:["$","$L38",null,{"children":["$","p",null,{"children":"系統的レビューの検索では、Best Matchのソート順に依存してはいけません。検索式でヒットしたすべての論文をスクリーニングする必要があります。Best Matchのアルゴリズムは変更される可能性があり、検索の再現性が保証されません。"}]}]
+21:["$","h2",null,{"id":"ステップ4-検索結果の品質評価","children":"ステップ4: 検索結果の品質評価"}]
+22:["$","p",null,{"children":"検索結果が適切かどうかを評価するため、以下の確認を行います。"}]
+23:["$","h3",null,{"id":"感度チェック見落としがないか","children":"感度チェック（見落としがないか）"}]
+24:["$","p",null,{"children":"事前に知っている重要論文（「ランドマーク研究」）がヒットしているか確認します。"}]
+25:["$","$L37",null,{"title":"検索式の感度チェック","children":[["$","p",null,{"children":"以下の検索テーマについて、必ず検索でヒットすべき「ランドマーク研究」のリストを作成してください。"}],["$","p",null,{"children":"検索テーマ: [あなたのRQ]\n対象期間: [検索の対象期間]"}],["$","p",null,{"children":"以下の基準でランドマーク研究を選定してください："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"当該分野のガイドラインで引用されている研究"}],"\n",["$","li",null,{"children":"被引用数が多い研究"}],"\n",["$","li",null,{"children":"研究デザインの質が高い研究（大規模RCT等）"}],"\n",["$","li",null,{"children":"最近の系統的レビューに含まれている研究"}],"\n"]}],["$","p",null,{"children":"各研究について、PMID、タイトル、主要知見を提示してください。"}],["$","p",null,{"children":"注意：論文の実在を必ずPubMedで確認してください。架空の論文を含めないでください。"}]]}]
+26:["$","h3",null,{"id":"特異度チェックノイズが多すぎないか","children":"特異度チェック（ノイズが多すぎないか）"}]
+27:["$","p",null,{"children":"ヒットした論文の上位20件を確認し、関連性の低い論文の割合（NNR: Number Needed to Read）を評価します。NNRが5以上（5本読んで1本しか関連がない）なら、検索式の特異度を高める必要があります。"}]
+28:["$","h2",null,{"id":"ステップ5-semantic-scholarとの併用","children":"ステップ5: Semantic Scholarとの併用"}]
+29:["$","p",null,{"children":"PubMedのキーワードマッチング検索だけでは、意味的に関連する論文を見落とす可能性があります。Semantic Scholarのセマンティック検索を組み合わせることで、カバレッジを向上させます。"}]
+2a:["$","$L39",null,{"beforeLabel":"PubMed単独の検索","afterLabel":"PubMed + Semantic Scholar の併用","children":[["$","$L3a",null,{"children":["$","p",null,{"children":"MeSHとフリーテキストのキーワードマッチング。Boolean演算子による論理的な組み合わせ。MeSH未付与の最新論文は漏れやすい。概念的に関連するが異なる語を使った論文は見落としやすい。プレプリントは含まない。"}]}],["$","$L3b",null,{"children":["$","p",null,{"children":"キーワードマッチング＋意味的類似性の二重カバレッジ。類似論文の自動推薦で検索の盲点を補完。最新論文もセマンティック検索でカバー。異なる用語を使った関連論文も意味的に発見。プレプリントも検索対象に含められる。"}]}]]}]
+2b:["$","h2",null,{"id":"検索記録のテンプレート","children":"検索記録のテンプレート"}]
+2c:["$","p",null,{"children":"系統的レビューでは、検索の全プロセスを文書化する必要があります。"}]
+2d:["$","$L37",null,{"title":"検索記録の文書化","children":[["$","p",null,{"children":"以下の検索結果を、PRISMA 2020に準拠した検索記録として文書化してください。"}],["$","p",null,{"children":"データベース: PubMed\n検索日: [日付]\n検索式:\n[完成した検索式]"}],["$","p",null,{"children":"ヒット数: [件数]\n適用したフィルター: [言語、出版年等]"}],["$","p",null,{"children":"以下のPRISMAフローダイアグラムの各段階の数値も記録してください："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"データベース検索でのヒット数"}],"\n",["$","li",null,{"children":"その他のソース（ハンドサーチ、引用追跡等）での追加件数"}],"\n",["$","li",null,{"children":"重複除去後の件数"}],"\n",["$","li",null,{"children":"タイトル・抄録スクリーニング後の件数"}],"\n",["$","li",null,{"children":"全文スクリーニング後の件数"}],"\n",["$","li",null,{"children":"最終的に組み入れた件数"}],"\n"]}]]}]
+2e:["$","h2",null,{"id":"pubmed-apiとプログラマティック検索","children":"PubMed APIとプログラマティック検索"}]
+2f:["$","p",null,{"children":["大規模な検索や定期的なモニタリングには、PubMed E-utilities APIが有用です。Pythonの",["$","code",null,{"children":"biopython"}],"ライブラリを使うと、検索の自動化が可能です。"]}]
+30:["$","pre",null,{"children":["$","code",null,{"className":"language-python","children":"from Bio import Entrez\n\nEntrez.email = \"your.email@example.com\"\n\n# 検索の実行\nhandle = Entrez.esearch(db=\"pubmed\", term=\"atrial fibrillation AND DOAC AND elderly\", retmax=100)\nrecord = Entrez.read(handle)\n\n# PMIDリストの取得\npmid_list = record[\"IdList\"]\nprint(f\"ヒット数: {record['Count']}, 取得PMID数: {len(pmid_list)}\")\n"}]}]
+31:["$","$L3c",null,{"children":["$","p",null,{"children":"PubMed検索の質は、検索語の網羅性と検索式の論理構造で決まります。AIを使ってMeSHとフリーテキスト語を体系的に展開し、Semantic Scholarで意味的な補完を行うことで、見落としリスクを大幅に低減できます。系統的レビューでは、検索の全プロセスを文書化することを忘れないでください。"}]}]
+36:null

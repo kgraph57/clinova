@@ -1,0 +1,171 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+5:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+e:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+12:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+13:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+14:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+15:"$Sreact.suspense"
+17:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+18:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+6:T2034,
+# 医療分野でのプロンプト設計
+
+## このレッスンで学ぶこと
+
+このレッスンを完了すると、医療分野に特化したプロンプトを設計できるようになります。医療情報の正確性、専門用語の扱い、診断支援プロンプト、論文執筆プロンプトの設計方法を学びます。
+
+---
+
+## セクション1: 医療情報の正確性
+
+### 正確性の確保
+
+医療分野では、情報の正確性が極めて重要です。
+
+正確性を確保する方法：
+
+正確性を確保する方法として、最新のガイドラインや論文を参照するという最新情報の確認が重要です。また、重要な情報は複数の情報源で確認するという複数の情報源と照合、専門的な判断は医師の知識と経験に基づくという専門知識の活用も重要です。これらの方法により、医療情報の正確性を確保できます。
+
+プロンプトでの配慮：
+「最新の臨床ガイドラインに基づいて、以下の診断基準を確認してください：[診断基準]」
+
+### 不確実性の明示
+
+不確実な情報がある場合は、それを明示する必要があります。
+
+プロンプトでの配慮：
+「以下の情報に基づいて回答してください。不確実な情報がある場合は、その点を明確に示してください：[情報]」
+
+---
+
+## セクション2: 専門用語の扱い
+
+### 専門用語の適切な使用
+
+医療分野では、専門用語を適切に使用することが重要です。
+
+プロンプトでの配慮：
+「医療用語を適切に使用してください。一般的な用語ではなく、医学的に正確な用語を使用してください。」
+
+### 患者向けの表現
+
+患者向けの資料では、専門用語を避ける必要があります。
+
+プロンプトでの配慮：
+「一般の患者が理解しやすい言葉で説明してください。専門用語は最小限にし、必要に応じて説明を追加してください。」
+
+---
+
+## セクション3: 診断支援プロンプト
+
+### 診断支援プロンプトの設計
+
+診断支援プロンプトを設計する際のポイント：
+
+重要な要素：
+
+診断支援プロンプトの重要な要素として、患者情報の提供として年齢、性別、症状、検査結果などの情報を提供することが重要です。また、鑑別診断の要求として可能性の高い順にリストアップすること、根拠の要求として各診断の根拠を要求することも重要です。これらの要素により、効果的な診断支援プロンプトを作成できます。
+
+実践例：
+「あなたは経験豊富な内科専門医です。以下の患者情報に基づいて、鑑別診断をステップバイステップで分析してください。
+
+患者情報：
+- 65歳、男性
+- 主訴：胸痛、発汗、呼吸困難
+- 心電図：ST上昇
+- トロポニン：陽性
+
+鑑別診断を、可能性の高い順に5つ挙げてください。各診断について、根拠となる所見も示してください。」
+
+---
+
+## セクション4: 論文執筆プロンプト
+
+### 論文執筆プロンプトの設計
+
+論文執筆プロンプトを設計する際のポイント：
+
+重要な要素：
+- 論文の種類：症例報告書、研究論文など
+- セクションの指定：Introduction、Methodsなど
+- 形式の指定：長さ、形式、専門用語の使用
+
+実践例：
+「あなたは経験豊富な医学研究者です。以下の症例情報に基づいて、症例報告書のIntroductionセクションを作成してください。
+
+症例情報：
+- 年齢：45歳、女性
+- 主訴：急性腹痛
+- 診断：虫垂炎
+- 新規性：非典型的な症状パターン
+
+Introductionセクションでは、症例の新規性と教育的意義を強調してください。300文字以内で、専門用語を適切に使用してください。」
+
+---
+
+## 重要な洞察：医療分野での特殊性
+
+医療分野では、情報の正確性と安全性が最優先です。プロンプトを設計する際は、この特殊性を考慮する必要があります。
+
+実践的な原則：
+
+医療分野でのプロンプト設計における実践的な原則として、まず正確性の確保として最新情報の確認、複数の情報源との照合が重要です。また、専門用語の適切な使用として用途に応じた専門用語の使用、安全性の確保として不確実な情報の明示、専門知識の活用も重要です。これらの原則により、安全で効果的なプロンプトを作成できます。
+
+---
+
+## まとめ：医療分野でのプロンプト設計を理解する
+
+このレッスンでは、医療分野でのプロンプト設計について学びました。
+
+重要なポイント：
+
+このレッスンで学んだ重要なポイントを振り返ると、まず医療情報の正確性として最新情報の確認、不確実性の明示が重要です。また、専門用語の扱いとして適切な使用、患者向けの表現が重要です。診断支援プロンプトとして患者情報の提供、鑑別診断の要求が重要であり、論文執筆プロンプトとして論文の種類、セクションの指定が重要です。これらのポイントを理解することで、医療分野に特化したプロンプトを作成できます。
+
+### 次のステップ
+
+次のレッスンでは、プロンプトの評価と改善について学びます。プロンプトの効果測定、A/Bテスト、反復的な改善方法を理解します。
+
+---
+
+<Quiz
+  courseId="prompt-engineering-basics"
+  lessonSlug="03-medical-prompt-design"
+  questions={[
+    {
+      question: "医療分野でプロンプトを設計する際に最も優先すべき原則はどれですか？",
+      options: ["回答の文字数を最小限にすること", "情報の正確性と安全性を確保すること", "できるだけ多くの専門用語を使用すること", "AIの回答速度を最大化すること"],
+      correctIndex: 1,
+      explanation: "医療分野では、情報の正確性と安全性が最優先です。最新のガイドラインや論文を参照し、複数の情報源で確認し、不確実な情報がある場合はその点を明示するよう設計することが重要です。"
+    },
+    {
+      question: "患者向けの説明資料を作成するプロンプトで適切な配慮はどれですか？",
+      options: ["専門用語を多用して正確性を高める", "医学的な詳細をすべて省略する", "専門用語は最小限にし、必要に応じて説明を追加するよう指示する", "AIに自由に書かせて後から修正する"],
+      correctIndex: 2,
+      explanation: "患者向けの資料では、一般の患者が理解しやすい言葉で説明し、専門用語は最小限にし、必要に応じて説明を追加するようプロンプトで指示することが重要です。対象に応じた専門用語の使い分けが求められます。"
+    },
+    {
+      question: "診断支援プロンプトに含めるべき重要な要素として、最も適切な組み合わせはどれですか？",
+      options: ["患者の氏名・住所・保険情報", "患者情報の提供・鑑別診断の要求・根拠の要求", "AIへの感謝の言葉・丁寧な言い回し・長い前置き", "過去のAIとの会話履歴・他の患者の情報・個人的な意見"],
+      correctIndex: 1,
+      explanation: "診断支援プロンプトでは、患者情報（年齢、性別、症状、検査結果など）の提供、鑑別診断を可能性の高い順にリストアップする要求、各診断の根拠を示す要求の3つが重要な要素です。"
+    }
+  ]}
+/>
+
+<ActionItem>
+明日、患者説明資料を1つ作成する際に、「専門用語を避けた患者向けプロンプト」と「医療用語を使用した専門家向けプロンプト」の2パターンを試し、対象に応じたプロンプト設計の違いを体験してみましょう。
+</ActionItem>0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"prompt-engineering-basics","lessonSlug":"03-medical-prompt-design"}],["$","$L4",null,{"items":[{"id":"このレッスンで学ぶこと","text":"このレッスンで学ぶこと","level":2},{"id":"セクション1-医療情報の正確性","text":"セクション1: 医療情報の正確性","level":2},{"id":"正確性の確保","text":"正確性の確保","level":3},{"id":"不確実性の明示","text":"不確実性の明示","level":3},{"id":"セクション2-専門用語の扱い","text":"セクション2: 専門用語の扱い","level":2},{"id":"専門用語の適切な使用","text":"専門用語の適切な使用","level":3},{"id":"患者向けの表現","text":"患者向けの表現","level":3},{"id":"セクション3-診断支援プロンプト","text":"セクション3: 診断支援プロンプト","level":2},{"id":"診断支援プロンプトの設計","text":"診断支援プロンプトの設計","level":3},{"id":"セクション4-論文執筆プロンプト","text":"セクション4: 論文執筆プロンプト","level":2},{"id":"論文執筆プロンプトの設計","text":"論文執筆プロンプトの設計","level":3},{"id":"重要な洞察医療分野での特殊性","text":"重要な洞察：医療分野での特殊性","level":2},{"id":"まとめ医療分野でのプロンプト設計を理解する","text":"まとめ：医療分野でのプロンプト設計を理解する","level":2},{"id":"次のステップ","text":"次のステップ","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"course":{"courseId":"prompt-engineering-basics","title":"プロンプトエンジニアリング基礎","description":"AIへの効果的な指示の出し方、基本テクニック、医療分野での実践的なプロンプト設計を学びます","category":"workflow","level":"beginner","lessonCount":5,"estimatedTotalMinutes":98,"order":3,"free":true,"learningOutcomes":["効果的なプロンプトを設計できる","医療文脈に適したプロンプトを作成できる","プロンプトの品質を評価・改善できる"],"prerequisites":["ai-basics"],"targetAudience":["AIツールをもっと上手に使いたい方","臨床業務でAIを活用したい医療者","プロンプト設計の基礎を学びたい方"],"skills":["プロンプト設計","AI活用","医療プロンプト"]},"lesson":{"courseId":"prompt-engineering-basics","slug":"03-medical-prompt-design","title":"医療分野でのプロンプト設計","description":"医療情報の正確性、専門用語の扱い、診断支援プロンプト、論文執筆プロンプトの設計を学びます","order":3,"estimatedMinutes":22,"estimatedReadTime":11,"content":"$6"}}],"$L7","$L8","$L9","$La"]}]],["$Lb","$Lc"],"$Ld"]}],"loading":null,"isPartial":false}
+7:["$","$Le",null,{"items":[{"id":"このレッスンで学ぶこと","text":"このレッスンで学ぶこと","level":2},{"id":"セクション1-医療情報の正確性","text":"セクション1: 医療情報の正確性","level":2},{"id":"正確性の確保","text":"正確性の確保","level":3},{"id":"不確実性の明示","text":"不確実性の明示","level":3},{"id":"セクション2-専門用語の扱い","text":"セクション2: 専門用語の扱い","level":2},{"id":"専門用語の適切な使用","text":"専門用語の適切な使用","level":3},{"id":"患者向けの表現","text":"患者向けの表現","level":3},{"id":"セクション3-診断支援プロンプト","text":"セクション3: 診断支援プロンプト","level":2},{"id":"診断支援プロンプトの設計","text":"診断支援プロンプトの設計","level":3},{"id":"セクション4-論文執筆プロンプト","text":"セクション4: 論文執筆プロンプト","level":2},{"id":"論文執筆プロンプトの設計","text":"論文執筆プロンプトの設計","level":3},{"id":"重要な洞察医療分野での特殊性","text":"重要な洞察：医療分野での特殊性","level":2},{"id":"まとめ医療分野でのプロンプト設計を理解する","text":"まとめ：医療分野でのプロンプト設計を理解する","level":2},{"id":"次のステップ","text":"次のステップ","level":3}]}]
+8:["$","article",null,{"className":"prose","children":[["$","h1",null,{"children":"医療分野でのプロンプト設計"}],"\n",["$","h2",null,{"id":"このレッスンで学ぶこと","children":"このレッスンで学ぶこと"}],"\n",["$","p",null,{"children":"このレッスンを完了すると、医療分野に特化したプロンプトを設計できるようになります。医療情報の正確性、専門用語の扱い、診断支援プロンプト、論文執筆プロンプトの設計方法を学びます。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション1-医療情報の正確性","children":"セクション1: 医療情報の正確性"}],"\n",["$","h3",null,{"id":"正確性の確保","children":"正確性の確保"}],"\n",["$","p",null,{"children":"医療分野では、情報の正確性が極めて重要です。"}],"\n",["$","p",null,{"children":"正確性を確保する方法："}],"\n",["$","p",null,{"children":"正確性を確保する方法として、最新のガイドラインや論文を参照するという最新情報の確認が重要です。また、重要な情報は複数の情報源で確認するという複数の情報源と照合、専門的な判断は医師の知識と経験に基づくという専門知識の活用も重要です。これらの方法により、医療情報の正確性を確保できます。"}],"\n",["$","p",null,{"children":"プロンプトでの配慮：\n「最新の臨床ガイドラインに基づいて、以下の診断基準を確認してください：[診断基準]」"}],"\n",["$","h3",null,{"id":"不確実性の明示","children":"不確実性の明示"}],"\n",["$","p",null,{"children":"不確実な情報がある場合は、それを明示する必要があります。"}],"\n",["$","p",null,{"children":"プロンプトでの配慮：\n「以下の情報に基づいて回答してください。不確実な情報がある場合は、その点を明確に示してください：[情報]」"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション2-専門用語の扱い","children":"セクション2: 専門用語の扱い"}],"\n",["$","h3",null,{"id":"専門用語の適切な使用","children":"専門用語の適切な使用"}],"\n",["$","p",null,{"children":"医療分野では、専門用語を適切に使用することが重要です。"}],"\n",["$","p",null,{"children":"プロンプトでの配慮：\n「医療用語を適切に使用してください。一般的な用語ではなく、医学的に正確な用語を使用してください。」"}],"\n",["$","h3",null,{"id":"患者向けの表現","children":"患者向けの表現"}],"\n",["$","p",null,{"children":"患者向けの資料では、専門用語を避ける必要があります。"}],"\n",["$","p",null,{"children":"プロンプトでの配慮：\n「一般の患者が理解しやすい言葉で説明してください。専門用語は最小限にし、必要に応じて説明を追加してください。」"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション3-診断支援プロンプト","children":"セクション3: 診断支援プロンプト"}],"\n",["$","h3",null,{"id":"診断支援プロンプトの設計","children":"診断支援プロンプトの設計"}],"\n",["$","p",null,{"children":"診断支援プロンプトを設計する際のポイント："}],"\n",["$","p",null,{"children":"重要な要素："}],"\n",["$","p",null,{"children":"診断支援プロンプトの重要な要素として、患者情報の提供として年齢、性別、症状、検査結果などの情報を提供することが重要です。また、鑑別診断の要求として可能性の高い順にリストアップすること、根拠の要求として各診断の根拠を要求することも重要です。これらの要素により、効果的な診断支援プロンプトを作成できます。"}],"\n",["$","p",null,{"children":"実践例：\n「あなたは経験豊富な内科専門医です。以下の患者情報に基づいて、鑑別診断をステップバイステップで分析してください。"}],"\n",["$","p",null,{"children":"患者情報："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"65歳、男性"}],"\n",["$","li",null,{"children":"主訴：胸痛、発汗、呼吸困難"}],"\n",["$","li",null,{"children":"心電図：ST上昇"}],"\n",["$","li",null,{"children":"トロポニン：陽性"}],"\n"]}],"\n",["$","p",null,{"children":"鑑別診断を、可能性の高い順に5つ挙げてください。各診断について、根拠となる所見も示してください。」"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション4-論文執筆プロンプト","children":"セクション4: 論文執筆プロンプト"}],"\n",["$","h3",null,{"id":"論文執筆プロンプトの設計","children":"論文執筆プロンプトの設計"}],"\n",["$","p",null,{"children":"論文執筆プロンプトを設計する際のポイント："}],"\n",["$","p",null,{"children":"重要な要素："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"論文の種類：症例報告書、研究論文など"}],"\n",["$","li",null,{"children":"セクションの指定：Introduction、Methodsなど"}],"\n",["$","li",null,{"children":"形式の指定：長さ、形式、専門用語の使用"}],"\n"]}],"\n",["$","p",null,{"children":"実践例：\n「あなたは経験豊富な医学研究者です。以下の症例情報に基づいて、症例報告書のIntroductionセクションを作成してください。"}],"\n",["$","p",null,{"children":"症例情報："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"年齢：45歳、女性"}],"\n",["$","li",null,{"children":"主訴：急性腹痛"}],"\n",["$","li",null,{"children":"診断：虫垂炎"}],"\n",["$","li",null,{"children":"新規性：非典型的な症状パターン"}],"\n"]}],"\n",["$","p",null,{"children":"Introductionセクションでは、症例の新規性と教育的意義を強調してください。300文字以内で、専門用語を適切に使用してください。」"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"重要な洞察医療分野での特殊性","children":"重要な洞察：医療分野での特殊性"}],"\n",["$","p",null,{"children":"医療分野では、情報の正確性と安全性が最優先です。プロンプトを設計する際は、この特殊性を考慮する必要があります。"}],"\n",["$","p",null,{"children":"実践的な原則："}],"\n",["$","p",null,{"children":"医療分野でのプロンプト設計における実践的な原則として、まず正確性の確保として最新情報の確認、複数の情報源との照合が重要です。また、専門用語の適切な使用として用途に応じた専門用語の使用、安全性の確保として不確実な情報の明示、専門知識の活用も重要です。これらの原則により、安全で効果的なプロンプトを作成できます。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"まとめ医療分野でのプロンプト設計を理解する","children":"まとめ：医療分野でのプロンプト設計を理解する"}],"\n",["$","p",null,{"children":"このレッスンでは、医療分野でのプロンプト設計について学びました。"}],"\n",["$","p",null,{"children":"重要なポイント："}],"\n",["$","p",null,{"children":"このレッスンで学んだ重要なポイントを振り返ると、まず医療情報の正確性として最新情報の確認、不確実性の明示が重要です。また、専門用語の扱いとして適切な使用、患者向けの表現が重要です。診断支援プロンプトとして患者情報の提供、鑑別診断の要求が重要であり、論文執筆プロンプトとして論文の種類、セクションの指定が重要です。これらのポイントを理解することで、医療分野に特化したプロンプトを作成できます。"}],"\n",["$","h3",null,{"id":"次のステップ","children":"次のステップ"}],"\n",["$","p",null,{"children":"次のレッスンでは、プロンプトの評価と改善について学びます。プロンプトの効果測定、A/Bテスト、反復的な改善方法を理解します。"}],"\n","$Lf","\n","$L10","\n","$L11"]}]
+9:["$","$L12",null,{"courseId":"prompt-engineering-basics","lessonSlug":"03-medical-prompt-design"}]
+a:["$","$L13",null,{"courseId":"prompt-engineering-basics","prev":{"slug":"02-basic-techniques","title":"基本的なプロンプトテクニック","order":2},"next":{"slug":"04-evaluation-improvement","title":"プロンプトの評価と改善","order":4}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true}]
+c:["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true}]
+d:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
+f:["$","hr",null,{}]
+10:["$","$L17",null,{"courseId":"prompt-engineering-basics","lessonSlug":"03-medical-prompt-design"}]
+11:["$","$L18",null,{"children":["$","p",null,{"children":"明日、患者説明資料を1つ作成する際に、「専門用語を避けた患者向けプロンプト」と「医療用語を使用した専門家向けプロンプト」の2パターンを試し、対象に応じたプロンプト設計の違いを体験してみましょう。"}]}]
+16:null

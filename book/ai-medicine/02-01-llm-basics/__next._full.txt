@@ -1,0 +1,346 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","ai-medicine","02-01-llm-basics"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","ai-medicine","d"],{"children":[["chapterId","02-01-llm-basics","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T2ed7,
+**AIは「もっともらしい次の単語を統計的に選び続けている」機械である。この本質を理解することが、医療での正しい活用の第一歩となる。**
+
+---
+
+## AIは「理解」していない — この事実から始める
+
+ChatGPTに小児の症例を入力すると、整然とした鑑別診断リストが返ってくる。まるで経験豊富な医師が「考え」、「判断し」、「答えている」かのように見える。
+
+**しかし、ここで立ち止まってほしい。**
+
+AIは病態生理を「理解」していない。疾患のメカニズムを「知って」いるわけでもない。
+
+やっていることは驚くほど単純だ――**「次に来るべき単語を、確率的に選んでいる」。ただそれだけ**なのである。
+
+膨大なテキストデータから学んだ統計パターンに基づいて、一語ずつ「もっともらしい」単語を選び続ける。
+
+**このプロセスに「理解」や「思考」は存在しない。あるのは「もっともらしさ」の確率計算だけである。**
+
+この事実は、AIを医療で使ううえで最も重要な前提である。
+
+---
+
+## 「次の単語予測」を体感する
+
+あなたがカルテに「患児は38.5度の発熱と」まで打ち込んだとする。
+
+次に来る言葉として何を思い浮かべるだろうか。「咳嗽」「嘔吐」「発疹」「機嫌不良」――あなたの脳は、何百もの症例の記憶から「もっともらしい次の言葉」を瞬時に候補として浮かべる。
+
+LLMが行っていることは原理的にこれと同じだが、**決定的な違いが一つある。**
+
+あなたの判断は実際の患児を診察した「身体化された経験」に基づく。一方、**LLMの判断はテキストの統計パターン――「記号の並びの確率」に基づく。**
+
+だからこそ、LLMの出力は「もっともらしい」が「正しい」とは限らない。
+
+### 技術用語を理解する
+
+**トークン**はLLMがテキストを処理する最小単位で、英語では約1単語が1トークンに対応する。しかし日本語では1文字が1〜2トークンを消費するため、同じ内容でも英語の約2倍のコストがかかる。
+
+**パラメータ**はモデル内部の「重み」の数で、GPT-4は推定1.7兆個を持つ。ただし数が多ければ高性能とは限らない。
+
+**自己回帰生成**はLLMが文章を紡ぐプロセスそのもので、1トークンを生成してはそれを入力に加え、次のトークンを生成する繰り返しである。
+
+長文になるほど初期の情報の影響が薄れ、一貫性が崩れるリスクが高まる。退院サマリーの末尾で冒頭の情報と矛盾が生じることがあるのは、この構造の帰結である。
+
+---
+
+## Attention機構 — 臨床推論との類比
+
+2017年、Google研究チームの論文「**Attention Is All You Need**」で提案されたTransformerアーキテクチャと、その中核の**Attention機構**が、現在のすべての主要LLMの基盤となっている。
+
+Attention機構とは「文中のどの言葉がどの言葉と関連するかを動的に計算する仕組み」である。
+
+**臨床推論に重ねると直感的に理解できる。**
+
+「3歳男児、5日間の発熱、両側眼球結膜充血、イチゴ舌、四肢末端の浮腫」という症例提示を聞いたとき、あなたの脳は：
+
+- 「5日間の発熱」と「眼球結膜充血」を結びつけて川崎病を想起
+- 「イチゴ舌」から猩紅熱も鑑別に
+- 「四肢末端の浮腫」で川崎病の確信度が上がる
+- 「3歳」から年齢的に典型的と判断
+
+LLMのAttention機構も、各トークン間の関連度（Attentionスコア）を計算し、関連度の高い情報に「注意」を集中させて出力を生成する。
+
+Transformerはさらに**Multi-Head Attention**を備え、複数の異なる「視点」で同時に文脈を解析する。
+
+これは、カンファレンスで小児循環器医、感染症医、皮膚科医がそれぞれ異なる角度から同じ症例を分析し統合するプロセスに相当する。
+
+### ただし決定的な違い
+
+**臨床医のAttentionは病態生理の理解と身体化された経験に裏打ちされている。**
+
+**LLMのAttentionはテキスト上の統計的相関にすぎない。**
+
+「発熱」と「イチゴ舌」が学習データ中で「川崎病」と頻繁に共起していたから結びつけるのであって、血管炎のメカニズムを「理解」しているわけではない。
+
+---
+
+## 主要モデルの特徴 — 万能の「最強」は存在しない
+
+2025〜2026年時点で、主要モデルはそれぞれ異なる設計思想と強みを持つ。
+
+<Callout type="comparison" title="主要LLMの比較">
+
+| モデル | 特徴 | 強み |
+|--------|------|------|
+| **GPT-4o** | マルチモーダル | テキスト・画像・音声統合処理 |
+| **GPT-o3** | 推論特化 | 複雑な臨床推論 |
+| **Claude** | 長文対応 | 200Kトークン、安全性重視 |
+| **Gemini 2.0** | 超長文対応 | 100万〜200万トークン、大量文献処理 |
+| **DeepSeek-R1** | オープンソース | コスト効率、院内運用可能 |
+| **Llama 3.1** | オープンソース | カスタムモデル構築 |
+
+</Callout>
+
+**重要なのは「単一の最強モデル」が存在しないことである。**
+
+- 日常的な文書作成にはGPT-4oやClaude Sonnetが効率的
+- 複雑な推論にはGPT-o3やClaude Opusが適する
+- 大量文献処理にはGemini
+- データの外部送信が不可な環境ではDeepSeek-R1やLlama
+
+目的に応じた使い分けが不可欠である。
+
+---
+
+## Temperature — 「創造性のダイヤル」を使いこなす
+
+AIの出力を制御するうえで最も実用的なパラメータが**Temperature**である。
+
+次のトークンを選ぶ際の確率分布の鋭さを調整し、0.0から1.0以上の範囲で設定する。
+
+### ダイヤルのメタファー
+
+**Temperature 0.0** - ダイヤルを「確定的」に振り切った状態
+- 最も確率の高いトークンが常に選ばれる
+- 同じ入力に対して何度実行しても同じ出力
+- **用途**: 薬剤量計算、ガイドライン引用
+
+**Temperature 0.5〜0.7** - 適度な多様性
+- バランスの取れた出力
+- **用途**: 患者説明文、教育資料
+
+**Temperature 0.8〜1.0** - 創造的な出力
+- 多様な候補が生成される
+- **用途**: ブレインストーミング、鑑別の網羅性チェック
+
+**1.0超え** - ランダムすぎる
+- 医療での使用は推奨されない
+
+### 実践的アプローチ
+
+まずTemperature 0.0で基本的な鑑別リストを取得し、次に0.7程度で「見落とし」を追加チェックする二段階アプローチが有効である。
+
+Temperature 0.0では教科書的な主要疾患が安定して出力される一方、0.8では出現頻度の低い候補が含まれることがある。
+
+安定性と網羅性の両立を図る実践的な手法である。
+
+---
+
+## コンテキストウィンドウと「Lost in the Middle」
+
+**コンテキストウィンドウ**はLLMが一度に処理できるテキスト量の上限である。
+
+- GPT-4o: 128Kトークン（日本語約6〜8万字）
+- Claude: 200K
+- Gemini 2.0: 100万〜200万トークン
+
+しかし、大量の情報を一括投入すれば最適な回答が得られるとは限らない。
+
+### 「Lost in the Middle」問題
+
+2024年のLiuらの研究で、LLMが長いテキストの**中間部分**に配置された情報を見落とす傾向が実証された。
+
+結果はU字型カーブを描く：
+- 冒頭と末尾の情報: 90〜100%の精度
+- 中間部分: 60〜70%に低下
+
+### 対策
+
+1. **重要な情報は冒頭か末尾に配置する**
+2. **大量のテキストを一括処理せず複数回に分ける**
+
+論文レビューや複数カルテの要約など、長文処理の場面ではこの問題を常に意識すべきである。
+
+<Callout type="warning" title="Lost in the Middle 問題">
+長い文脈の「中間部」に置かれた情報は見落とされやすい。重要な情報はプロンプトの冒頭か末尾に配置すること。
+</Callout>
+
+---
+
+## 知識カットオフとRAG
+
+LLMの「知識」は学習データの収集終了時点で固定される。これが**知識カットオフ**であり、それ以降の情報は持っていない。
+
+厄介なのは、LLMが「知らない」と答える代わりに「もっともらしい回答」を生成してしまう点である。
+
+古い情報を最新と混同したり、存在しない論文を引用したりすることがある。
+
+### RAG（検索拡張生成）
+
+この解決策が**RAG**である。
+
+質問に対してまず外部データベース（PubMed、UpToDateなど）を検索し、取得した最新情報をプロンプトに組み込んでLLMに回答させる。
+
+Perplexityなどの検索統合型AIがこの仕組みを実装している。
+
+---
+
+## ハルシネーション — 「もっともらしい嘘」はバグではなく特性
+
+「次の単語予測」の原理を理解すれば、**ハルシネーション**がバグではなく**構造的特性**であることがわかる。
+
+LLMは「正しさ」ではなく「もっともらしさ」で出力を選ぶ。だから学習データに正解がない質問にも沈黙せず、「もっともらしい回答」を生成する。
+
+### 医療で特に危険なパターン
+
+1. **存在しない論文の引用** - 著者名・雑誌名まで「もっともらしい」
+2. **古いガイドラインの最新との混同**
+3. **用量の微妙な誤り**
+4. **頻度の低い疾患に関する不正確な記述**
+
+### 基本姿勢
+
+だからこそ、AIの出力に対する基本姿勢は一貫している。
+
+**「研修医の下書き」として扱う**こと。
+
+指導医であるあなたが必ず確認し、修正し、承認する。AIの出力はあなたの専門的判断というフィルターを通して初めて臨床的価値を持つ。
+
+---
+
+## まとめ
+
+- **LLMは「次の単語予測」の機械** - 「考えて」いるのではなく、統計パターンから「もっともらしい次のトークン」を選び続けている
+- **Attention機構は臨床推論に似ている** - ただしLLMの「注意」はテキスト上の統計的相関であり、病態生理の理解ではない
+- **万能の「最強モデル」は存在しない** - タスクに応じた使い分けが不可欠
+- **Temperatureとコンテキストウィンドウの理解が重要** - Temperature 0.0は確定的、0.8以上は創造的。長文中間部の「Lost in the Middle」に要注意
+- **ハルシネーションは構造的特性** - AIの出力は「研修医の下書き」として常に検証すべき
+
+<KeyTakeaway>
+- LLMは「思考」していない——統計的に「もっともらしい次のトークン」を選び続けているだけ
+- Attention機構は臨床推論に似ているが、病態生理の理解ではなくテキスト上の統計的相関に過ぎない
+- 万能の最強モデルは存在しない——タスクに応じた使い分けが不可欠
+- Temperatureを使い分けることで、確定的な出力と創造的な出力を制御できる
+- ハルシネーションはバグではなく構造的特性——AIの出力は常に「研修医の下書き」として検証すべき
+</KeyTakeaway>
+
+---
+
+### 参考文献
+
+1. Vaswani, A. et al. (2017). "Attention Is All You Need." *NeurIPS 2017.*
+2. Liu, N. F. et al. (2024). "Lost in the Middle: How Language Models Use Long Contexts." *TACL.*
+3. OpenAI. "GPT-4o System Card."
+4. Anthropic. "Claude Model Card."
+5. DeepSeek. (2025). "DeepSeek-R1."
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-ai-medicine","lessonSlug":"02-01-llm-basics"}],["$","$L1d",null,{"items":[{"id":"aiは理解していない-この事実から始める","text":"AIは「理解」していない — この事実から始める","level":2},{"id":"次の単語予測を体感する","text":"「次の単語予測」を体感する","level":2},{"id":"技術用語を理解する","text":"技術用語を理解する","level":3},{"id":"attention機構-臨床推論との類比","text":"Attention機構 — 臨床推論との類比","level":2},{"id":"ただし決定的な違い","text":"ただし決定的な違い","level":3},{"id":"主要モデルの特徴-万能の最強は存在しない","text":"主要モデルの特徴 — 万能の「最強」は存在しない","level":2},{"id":"temperature-創造性のダイヤルを使いこなす","text":"Temperature — 「創造性のダイヤル」を使いこなす","level":2},{"id":"ダイヤルのメタファー","text":"ダイヤルのメタファー","level":3},{"id":"実践的アプローチ","text":"実践的アプローチ","level":3},{"id":"コンテキストウィンドウとlost-in-the-middle","text":"コンテキストウィンドウと「Lost in the Middle」","level":2},{"id":"lost-in-the-middle問題","text":"「Lost in the Middle」問題","level":3},{"id":"対策","text":"対策","level":3},{"id":"知識カットオフとrag","text":"知識カットオフとRAG","level":2},{"id":"rag検索拡張生成","text":"RAG（検索拡張生成）","level":3},{"id":"ハルシネーション-もっともらしい嘘はバグではなく特性","text":"ハルシネーション — 「もっともらしい嘘」はバグではなく特性","level":2},{"id":"医療で特に危険なパターン","text":"医療で特に危険なパターン","level":3},{"id":"基本姿勢","text":"基本姿勢","level":3},{"id":"まとめ","text":"まとめ","level":2},{"id":"参考文献","text":"参考文献","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"ai-medicine","bookTitle":"AI×医療 — 臨床医のための実践ガイド","chapter":{"slug":"02-01-llm-basics","title":"AIは「考えている」のではなく「続けている」— LLMの本質を10分で理解する","description":"AIは「もっともらしい次の単語を統計的に選び続けている」機械である。この本質を理解することが、医療での正しい活用の第一歩となる。","partId":"part02","partTitle":"AIを理解する","order":4,"partOrder":1,"estimatedMinutes":15,"estimatedReadTime":15,"free":true,"status":"published","tags":["LLM","Transformer","Attention","Temperature","ハルシネーション"],"content":"$1f"},"totalChapters":33}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"ai-medicine","chapterSlug":"02-01-llm-basics"}]
+23:["$","$L27",null,{"bookId":"ai-medicine","prev":{"slug":"01-03-economic-impact","title":"1日66分の革命 — AIがもたらす「時間」という医療資源","order":3},"next":{"slug":"02-02-strengths-weaknesses","title":"医師が知るべきAIの得意と苦手 — 何を任せ、何を任せないか","order":5}}]
+28:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+25:[["$","p",null,{"children":["$","strong",null,{"children":"AIは「もっともらしい次の単語を統計的に選び続けている」機械である。この本質を理解することが、医療での正しい活用の第一歩となる。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"aiは理解していない-この事実から始める","children":"AIは「理解」していない — この事実から始める"}],"\n",["$","p",null,{"children":"ChatGPTに小児の症例を入力すると、整然とした鑑別診断リストが返ってくる。まるで経験豊富な医師が「考え」、「判断し」、「答えている」かのように見える。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"しかし、ここで立ち止まってほしい。"}]}],"\n",["$","p",null,{"children":"AIは病態生理を「理解」していない。疾患のメカニズムを「知って」いるわけでもない。"}],"\n",["$","p",null,{"children":["やっていることは驚くほど単純だ――",["$","strong",null,{"children":"「次に来るべき単語を、確率的に選んでいる」。ただそれだけ"}],"なのである。"]}],"\n",["$","p",null,{"children":"膨大なテキストデータから学んだ統計パターンに基づいて、一語ずつ「もっともらしい」単語を選び続ける。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"このプロセスに「理解」や「思考」は存在しない。あるのは「もっともらしさ」の確率計算だけである。"}]}],"\n",["$","p",null,{"children":"この事実は、AIを医療で使ううえで最も重要な前提である。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"次の単語予測を体感する","children":"「次の単語予測」を体感する"}],"\n",["$","p",null,{"children":"あなたがカルテに「患児は38.5度の発熱と」まで打ち込んだとする。"}],"\n",["$","p",null,{"children":"次に来る言葉として何を思い浮かべるだろうか。「咳嗽」「嘔吐」「発疹」「機嫌不良」――あなたの脳は、何百もの症例の記憶から「もっともらしい次の言葉」を瞬時に候補として浮かべる。"}],"\n",["$","p",null,{"children":["LLMが行っていることは原理的にこれと同じだが、",["$","strong",null,{"children":"決定的な違いが一つある。"}]]}],"\n",["$","p",null,{"children":["あなたの判断は実際の患児を診察した「身体化された経験」に基づく。一方、",["$","strong",null,{"children":"LLMの判断はテキストの統計パターン――「記号の並びの確率」に基づく。"}]]}],"\n",["$","p",null,{"children":"だからこそ、LLMの出力は「もっともらしい」が「正しい」とは限らない。"}],"\n",["$","h3",null,{"id":"技術用語を理解する","children":"技術用語を理解する"}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"トークン"}],"はLLMがテキストを処理する最小単位で、英語では約1単語が1トークンに対応する。しかし日本語では1文字が1〜2トークンを消費するため、同じ内容でも英語の約2倍のコストがかかる。"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"パラメータ"}],"はモデル内部の「重み」の数で、GPT-4は推定1.7兆個を持つ。ただし数が多ければ高性能とは限らない。"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"自己回帰生成"}],"はLLMが文章を紡ぐプロセスそのもので、1トークンを生成してはそれを入力に加え、次のトークンを生成する繰り返しである。"]}],"\n",["$","p",null,{"children":"長文になるほど初期の情報の影響が薄れ、一貫性が崩れるリスクが高まる。退院サマリーの末尾で冒頭の情報と矛盾が生じることがあるのは、この構造の帰結である。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"attention機構-臨床推論との類比","children":"Attention機構 — 臨床推論との類比"}],"\n",["$","p",null,{"children":["2017年、Google研究チームの論文「",["$","strong",null,{"children":"Attention Is All You Need"}],"」で提案されたTransformerアーキテクチャと、その中核の",["$","strong",null,{"children":"Attention機構"}],"が、現在のすべての主要LLMの基盤となっている。"]}],"\n",["$","p",null,{"children":"Attention機構とは「文中のどの言葉がどの言葉と関連するかを動的に計算する仕組み」である。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"臨床推論に重ねると直感的に理解できる。"}]}],"\n",["$","p",null,{"children":"「3歳男児、5日間の発熱、両側眼球結膜充血、イチゴ舌、四肢末端の浮腫」という症例提示を聞いたとき、あなたの脳は："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"「5日間の発熱」と「眼球結膜充血」を結びつけて川崎病を想起"}],"\n",["$","li",null,{"children":"「イチゴ舌」から猩紅熱も鑑別に"}],"\n",["$","li",null,{"children":"「四肢末端の浮腫」で川崎病の確信度が上がる"}],"\n",["$","li",null,{"children":"「3歳」から年齢的に典型的と判断"}],"\n"]}],"\n",["$","p",null,{"children":"LLMのAttention機構も、各トークン間の関連度（Attentionスコア）を計算し、関連度の高い情報に「注意」を集中させて出力を生成する。"}],"\n",["$","p",null,{"children":["Transformerはさらに",["$","strong",null,{"children":"Multi-Head Attention"}],"を備え、複数の異なる「視点」で同時に文脈を解析する。"]}],"\n",["$","p",null,{"children":"これは、カンファレンスで小児循環器医、感染症医、皮膚科医がそれぞれ異なる角度から同じ症例を分析し統合するプロセスに相当する。"}],"\n",["$","h3",null,{"id":"ただし決定的な違い","children":"ただし決定的な違い"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"臨床医のAttentionは病態生理の理解と身体化された経験に裏打ちされている。"}]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"LLMのAttentionはテキスト上の統計的相関にすぎない。"}]}],"\n",["$","p",null,{"children":"「発熱」と「イチゴ舌」が学習データ中で「川崎病」と頻繁に共起していたから結びつけるのであって、血管炎のメカニズムを「理解」しているわけではない。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"主要モデルの特徴-万能の最強は存在しない","children":"主要モデルの特徴 — 万能の「最強」は存在しない"}],"\n",["$","p",null,{"children":"2025〜2026年時点で、主要モデルはそれぞれ異なる設計思想と強みを持つ。"}],"\n",["$","$L28",null,{"type":"comparison","title":"主要LLMの比較","children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"モデル"}],["$","th",null,{"children":"特徴"}],["$","th",null,{"children":"強み"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"GPT-4o"}]}],["$","td",null,{"children":"マルチモーダル"}],["$","td",null,{"children":"テキスト・画像・音声統合処理"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"GPT-o3"}]}],["$","td",null,{"children":"推論特化"}],["$","td",null,{"children":"複雑な臨床推論"}]]}],"$L29","$L2a","$L2b","$L2c"]}]]}]}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","\n","$L51","\n","$L52","\n","$L53","\n","$L54","\n","$L55","\n","$L56","\n","$L57","\n","$L58","\n","$L59","\n","$L5a","\n","$L5b","\n","$L5c","\n","$L5d","\n","$L5e","\n","$L5f","\n","$L60","\n","$L61","\n","$L62","\n","$L63","\n","$L64","\n","$L65","\n","$L66","\n","$L67"]
+68:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+29:["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"Claude"}]}],["$","td",null,{"children":"長文対応"}],["$","td",null,{"children":"200Kトークン、安全性重視"}]]}]
+2a:["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"Gemini 2.0"}]}],["$","td",null,{"children":"超長文対応"}],["$","td",null,{"children":"100万〜200万トークン、大量文献処理"}]]}]
+2b:["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"DeepSeek-R1"}]}],["$","td",null,{"children":"オープンソース"}],["$","td",null,{"children":"コスト効率、院内運用可能"}]]}]
+2c:["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"Llama 3.1"}]}],["$","td",null,{"children":"オープンソース"}],["$","td",null,{"children":"カスタムモデル構築"}]]}]
+2d:["$","p",null,{"children":["$","strong",null,{"children":"重要なのは「単一の最強モデル」が存在しないことである。"}]}]
+2e:["$","ul",null,{"children":["\n",["$","li",null,{"children":"日常的な文書作成にはGPT-4oやClaude Sonnetが効率的"}],"\n",["$","li",null,{"children":"複雑な推論にはGPT-o3やClaude Opusが適する"}],"\n",["$","li",null,{"children":"大量文献処理にはGemini"}],"\n",["$","li",null,{"children":"データの外部送信が不可な環境ではDeepSeek-R1やLlama"}],"\n"]}]
+2f:["$","p",null,{"children":"目的に応じた使い分けが不可欠である。"}]
+30:["$","hr",null,{}]
+31:["$","h2",null,{"id":"temperature-創造性のダイヤルを使いこなす","children":"Temperature — 「創造性のダイヤル」を使いこなす"}]
+32:["$","p",null,{"children":["AIの出力を制御するうえで最も実用的なパラメータが",["$","strong",null,{"children":"Temperature"}],"である。"]}]
+33:["$","p",null,{"children":"次のトークンを選ぶ際の確率分布の鋭さを調整し、0.0から1.0以上の範囲で設定する。"}]
+34:["$","h3",null,{"id":"ダイヤルのメタファー","children":"ダイヤルのメタファー"}]
+35:["$","p",null,{"children":[["$","strong",null,{"children":"Temperature 0.0"}]," - ダイヤルを「確定的」に振り切った状態"]}]
+36:["$","ul",null,{"children":["\n",["$","li",null,{"children":"最も確率の高いトークンが常に選ばれる"}],"\n",["$","li",null,{"children":"同じ入力に対して何度実行しても同じ出力"}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"用途"}],": 薬剤量計算、ガイドライン引用"]}],"\n"]}]
+37:["$","p",null,{"children":[["$","strong",null,{"children":"Temperature 0.5〜0.7"}]," - 適度な多様性"]}]
+38:["$","ul",null,{"children":["\n",["$","li",null,{"children":"バランスの取れた出力"}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"用途"}],": 患者説明文、教育資料"]}],"\n"]}]
+39:["$","p",null,{"children":[["$","strong",null,{"children":"Temperature 0.8〜1.0"}]," - 創造的な出力"]}]
+3a:["$","ul",null,{"children":["\n",["$","li",null,{"children":"多様な候補が生成される"}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"用途"}],": ブレインストーミング、鑑別の網羅性チェック"]}],"\n"]}]
+3b:["$","p",null,{"children":[["$","strong",null,{"children":"1.0超え"}]," - ランダムすぎる"]}]
+3c:["$","ul",null,{"children":["\n",["$","li",null,{"children":"医療での使用は推奨されない"}],"\n"]}]
+3d:["$","h3",null,{"id":"実践的アプローチ","children":"実践的アプローチ"}]
+3e:["$","p",null,{"children":"まずTemperature 0.0で基本的な鑑別リストを取得し、次に0.7程度で「見落とし」を追加チェックする二段階アプローチが有効である。"}]
+3f:["$","p",null,{"children":"Temperature 0.0では教科書的な主要疾患が安定して出力される一方、0.8では出現頻度の低い候補が含まれることがある。"}]
+40:["$","p",null,{"children":"安定性と網羅性の両立を図る実践的な手法である。"}]
+41:["$","hr",null,{}]
+42:["$","h2",null,{"id":"コンテキストウィンドウとlost-in-the-middle","children":"コンテキストウィンドウと「Lost in the Middle」"}]
+43:["$","p",null,{"children":[["$","strong",null,{"children":"コンテキストウィンドウ"}],"はLLMが一度に処理できるテキスト量の上限である。"]}]
+44:["$","ul",null,{"children":["\n",["$","li",null,{"children":"GPT-4o: 128Kトークン（日本語約6〜8万字）"}],"\n",["$","li",null,{"children":"Claude: 200K"}],"\n",["$","li",null,{"children":"Gemini 2.0: 100万〜200万トークン"}],"\n"]}]
+45:["$","p",null,{"children":"しかし、大量の情報を一括投入すれば最適な回答が得られるとは限らない。"}]
+46:["$","h3",null,{"id":"lost-in-the-middle問題","children":"「Lost in the Middle」問題"}]
+47:["$","p",null,{"children":["2024年のLiuらの研究で、LLMが長いテキストの",["$","strong",null,{"children":"中間部分"}],"に配置された情報を見落とす傾向が実証された。"]}]
+48:["$","p",null,{"children":"結果はU字型カーブを描く："}]
+49:["$","ul",null,{"children":["\n",["$","li",null,{"children":"冒頭と末尾の情報: 90〜100%の精度"}],"\n",["$","li",null,{"children":"中間部分: 60〜70%に低下"}],"\n"]}]
+4a:["$","h3",null,{"id":"対策","children":"対策"}]
+4b:["$","ol",null,{"children":["\n",["$","li",null,{"children":["$","strong",null,{"children":"重要な情報は冒頭か末尾に配置する"}]}],"\n",["$","li",null,{"children":["$","strong",null,{"children":"大量のテキストを一括処理せず複数回に分ける"}]}],"\n"]}]
+4c:["$","p",null,{"children":"論文レビューや複数カルテの要約など、長文処理の場面ではこの問題を常に意識すべきである。"}]
+4d:["$","$L28",null,{"type":"warning","title":"Lost in the Middle 問題","children":["$","p",null,{"children":"長い文脈の「中間部」に置かれた情報は見落とされやすい。重要な情報はプロンプトの冒頭か末尾に配置すること。"}]}]
+4e:["$","hr",null,{}]
+4f:["$","h2",null,{"id":"知識カットオフとrag","children":"知識カットオフとRAG"}]
+50:["$","p",null,{"children":["LLMの「知識」は学習データの収集終了時点で固定される。これが",["$","strong",null,{"children":"知識カットオフ"}],"であり、それ以降の情報は持っていない。"]}]
+51:["$","p",null,{"children":"厄介なのは、LLMが「知らない」と答える代わりに「もっともらしい回答」を生成してしまう点である。"}]
+52:["$","p",null,{"children":"古い情報を最新と混同したり、存在しない論文を引用したりすることがある。"}]
+53:["$","h3",null,{"id":"rag検索拡張生成","children":"RAG（検索拡張生成）"}]
+54:["$","p",null,{"children":["この解決策が",["$","strong",null,{"children":"RAG"}],"である。"]}]
+55:["$","p",null,{"children":"質問に対してまず外部データベース（PubMed、UpToDateなど）を検索し、取得した最新情報をプロンプトに組み込んでLLMに回答させる。"}]
+56:["$","p",null,{"children":"Perplexityなどの検索統合型AIがこの仕組みを実装している。"}]
+57:["$","hr",null,{}]
+58:["$","h2",null,{"id":"ハルシネーション-もっともらしい嘘はバグではなく特性","children":"ハルシネーション — 「もっともらしい嘘」はバグではなく特性"}]
+59:["$","p",null,{"children":["「次の単語予測」の原理を理解すれば、",["$","strong",null,{"children":"ハルシネーション"}],"がバグではなく",["$","strong",null,{"children":"構造的特性"}],"であることがわかる。"]}]
+5a:["$","p",null,{"children":"LLMは「正しさ」ではなく「もっともらしさ」で出力を選ぶ。だから学習データに正解がない質問にも沈黙せず、「もっともらしい回答」を生成する。"}]
+5b:["$","h3",null,{"id":"医療で特に危険なパターン","children":"医療で特に危険なパターン"}]
+5c:["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"存在しない論文の引用"}]," - 著者名・雑誌名まで「もっともらしい」"]}],"\n",["$","li",null,{"children":["$","strong",null,{"children":"古いガイドラインの最新との混同"}]}],"\n",["$","li",null,{"children":["$","strong",null,{"children":"用量の微妙な誤り"}]}],"\n",["$","li",null,{"children":["$","strong",null,{"children":"頻度の低い疾患に関する不正確な記述"}]}],"\n"]}]
+5d:["$","h3",null,{"id":"基本姿勢","children":"基本姿勢"}]
+5e:["$","p",null,{"children":"だからこそ、AIの出力に対する基本姿勢は一貫している。"}]
+5f:["$","p",null,{"children":[["$","strong",null,{"children":"「研修医の下書き」として扱う"}],"こと。"]}]
+60:["$","p",null,{"children":"指導医であるあなたが必ず確認し、修正し、承認する。AIの出力はあなたの専門的判断というフィルターを通して初めて臨床的価値を持つ。"}]
+61:["$","hr",null,{}]
+62:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+63:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"LLMは「次の単語予測」の機械"}]," - 「考えて」いるのではなく、統計パターンから「もっともらしい次のトークン」を選び続けている"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Attention機構は臨床推論に似ている"}]," - ただしLLMの「注意」はテキスト上の統計的相関であり、病態生理の理解ではない"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"万能の「最強モデル」は存在しない"}]," - タスクに応じた使い分けが不可欠"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Temperatureとコンテキストウィンドウの理解が重要"}]," - Temperature 0.0は確定的、0.8以上は創造的。長文中間部の「Lost in the Middle」に要注意"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"ハルシネーションは構造的特性"}]," - AIの出力は「研修医の下書き」として常に検証すべき"]}],"\n"]}]
+64:["$","$L68",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"LLMは「思考」していない——統計的に「もっともらしい次のトークン」を選び続けているだけ"}],"\n",["$","li",null,{"children":"Attention機構は臨床推論に似ているが、病態生理の理解ではなくテキスト上の統計的相関に過ぎない"}],"\n",["$","li",null,{"children":"万能の最強モデルは存在しない——タスクに応じた使い分けが不可欠"}],"\n",["$","li",null,{"children":"Temperatureを使い分けることで、確定的な出力と創造的な出力を制御できる"}],"\n",["$","li",null,{"children":"ハルシネーションはバグではなく構造的特性——AIの出力は常に「研修医の下書き」として検証すべき"}],"\n"]}]}]
+65:["$","hr",null,{}]
+66:["$","h3",null,{"id":"参考文献","children":"参考文献"}]
+67:["$","ol",null,{"children":["\n",["$","li",null,{"children":["Vaswani, A. et al. (2017). \"Attention Is All You Need.\" ",["$","em",null,{"children":"NeurIPS 2017."}]]}],"\n",["$","li",null,{"children":["Liu, N. F. et al. (2024). \"Lost in the Middle: How Language Models Use Long Contexts.\" ",["$","em",null,{"children":"TACL."}]]}],"\n",["$","li",null,{"children":"OpenAI. \"GPT-4o System Card.\""}],"\n",["$","li",null,{"children":"Anthropic. \"Claude Model Card.\""}],"\n",["$","li",null,{"children":"DeepSeek. (2025). \"DeepSeek-R1.\""}],"\n"]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+69:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"AIは「考えている」のではなく「続けている」— LLMの本質を10分で理解する | Hoshizu"}],["$","meta","1",{"name":"description","content":"AIは「もっともらしい次の単語を統計的に選び続けている」機械である。この本質を理解することが、医療での正しい活用の第一歩となる。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/ai-medicine/02-01-llm-basics"}],["$","meta","4",{"property":"og:title","content":"AIは「考えている」のではなく「続けている」— LLMの本質を10分で理解する - AI×医療 — 臨床医のための実践ガイド"}],["$","meta","5",{"property":"og:description","content":"AIは「もっともらしい次の単語を統計的に選び続けている」機械である。この本質を理解することが、医療での正しい活用の第一歩となる。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L69","15",{}]]

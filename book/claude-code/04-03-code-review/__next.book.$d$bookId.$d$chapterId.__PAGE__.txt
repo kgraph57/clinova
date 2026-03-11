@@ -1,0 +1,167 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+7:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+30:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+31:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+32:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+33:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+34:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+35:"$Sreact.suspense"
+6:T1018,
+コードを書いたら、すぐにレビューする。この習慣が、AIコーディングの品質を決定的に分ける。
+
+---
+
+## なぜ即時レビューが重要か
+
+AIが書いたコードは「もっともらしい」が、以下のリスクを含む可能性がある。
+
+- セキュリティ脆弱性: SQLインジェクション、XSS、CSRF
+- ロジックエラー: エッジケースの見落とし
+- パフォーマンス問題: N+1クエリ、不要な再レンダリング
+- 保守性の低下: 過度に複雑な実装、命名の不統一
+
+コードを書いてから時間が経つほど、問題の修正コストは上がる。書いた直後にレビューすることで、問題を最小コストで修正できる。
+
+---
+
+## code-reviewer エージェント
+
+```
+> 今の変更をcode-reviewerエージェントでレビューして
+```
+
+code-reviewerは以下の観点でコードを分析する。
+
+### レビュー観点
+
+1. 可読性: 命名、構造、コメントの適切さ
+2. 保守性: 関数の長さ、ファイルの凝集度、結合度
+3. パフォーマンス: 不要な計算、メモリリーク
+4. エラーハンドリング: 例外処理、エッジケース対応
+5. コーディング規約: プロジェクトの規約との整合性
+
+### 重要度レベル
+
+| レベル | 説明 | 対応 |
+|--------|------|------|
+| CRITICAL | セキュリティ脆弱性、データ損失リスク | 即座に修正 |
+| HIGH | 重大なバグ、パフォーマンス問題 | 修正必須 |
+| MEDIUM | 品質改善、リファクタリング推奨 | 可能なら修正 |
+| LOW | スタイル、好みの問題 | 時間があれば |
+
+---
+
+## security-reviewer エージェント
+
+```
+> security-reviewerエージェントでセキュリティチェックを実行して
+```
+
+セキュリティに特化したレビューを行う。
+
+### チェック項目
+
+- OWASP Top 10: インジェクション、認証不備、XSS等
+- 秘密情報の漏洩: ハードコードされたAPIキー、パスワード
+- 入力バリデーション: ユーザー入力の未検証
+- 暗号化: 安全でない暗号アルゴリズムの使用
+- 依存関係: 既知の脆弱性を持つパッケージ
+
+### 医療データの特別な考慮
+
+医療プロジェクトでは追加のセキュリティ要件がある。
+
+- 患者データの暗号化
+- アクセスログの記録
+- セッション管理の適切性
+- データの最小化原則
+
+---
+
+## レビューワークフロー
+
+### 推奨フロー
+
+```
+コード作成 → code-reviewer → 修正 → security-reviewer → 修正 → コミット
+```
+
+### 並列レビュー
+
+時間を節約するため、2つのレビュアーを並列で実行することもできる。
+
+```
+> 以下を並列で実行して:
+> 1. code-reviewerでコード品質をチェック
+> 2. security-reviewerでセキュリティをチェック
+```
+
+---
+
+## PRレビュー
+
+GitHub上のPRをClaude Codeでレビューすることもできる。
+
+```
+> gh pr view 42 の変更内容をレビューして
+```
+
+PRの差分を分析し、コード品質とセキュリティの両面からフィードバックを生成する。
+
+<Callout type="warning" title="AIレビューは人間レビューの代替ではない">
+AIレビューは「第一段階のフィルター」として優秀だが、ビジネスロジックの妥当性や設計判断の適切さは人間が判断すべきだ。特に医療プロジェクトでは、ドメイン知識を持つ人間のレビューが不可欠。
+</Callout>
+
+<KeyTakeaway>
+- コードを書いたら即座にレビューする。時間が経つほど修正コストは上がる
+- code-reviewerは品質・保守性・パフォーマンスを、security-reviewerはセキュリティ脆弱性を検出する
+- CRITICAL/HIGH/MEDIUM/LOWの重要度で問題を分類し、優先順位をつけて修正する
+- 2つのレビュアーの並列実行で効率的なレビューが可能
+- AIレビューは人間レビューの代替ではなく、第一段階のフィルターとして活用する
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"04-03-code-review"}],["$","$L4",null,{"items":[{"id":"なぜ即時レビューが重要か","text":"なぜ即時レビューが重要か","level":2},{"id":"code-reviewer-エージェント","text":"code-reviewer エージェント","level":2},{"id":"レビュー観点","text":"レビュー観点","level":3},{"id":"重要度レベル","text":"重要度レベル","level":3},{"id":"security-reviewer-エージェント","text":"security-reviewer エージェント","level":2},{"id":"チェック項目","text":"チェック項目","level":3},{"id":"医療データの特別な考慮","text":"医療データの特別な考慮","level":3},{"id":"レビューワークフロー","text":"レビューワークフロー","level":2},{"id":"推奨フロー","text":"推奨フロー","level":3},{"id":"並列レビュー","text":"並列レビュー","level":3},{"id":"prレビュー","text":"PRレビュー","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"04-03-code-review","title":"コードレビュー — AIによる品質ゲート","description":"コードを書いたら即レビュー。code-reviewerエージェントとsecurity-reviewerエージェントで、品質とセキュリティの問題を自動検出する。","partId":"part04","partTitle":"開発ワークフロー","order":14,"partOrder":4,"estimatedMinutes":20,"estimatedReadTime":4,"free":true,"status":"published","tags":["コードレビュー","品質","セキュリティ","エージェント","OWASP"],"content":"$6"},"totalChapters":26}],["$","$L7",null,{"items":[{"id":"なぜ即時レビューが重要か","text":"なぜ即時レビューが重要か","level":2},{"id":"code-reviewer-エージェント","text":"code-reviewer エージェント","level":2},{"id":"レビュー観点","text":"レビュー観点","level":3},{"id":"重要度レベル","text":"重要度レベル","level":3},{"id":"security-reviewer-エージェント","text":"security-reviewer エージェント","level":2},{"id":"チェック項目","text":"チェック項目","level":3},{"id":"医療データの特別な考慮","text":"医療データの特別な考慮","level":3},{"id":"レビューワークフロー","text":"レビューワークフロー","level":2},{"id":"推奨フロー","text":"推奨フロー","level":3},{"id":"並列レビュー","text":"並列レビュー","level":3},{"id":"prレビュー","text":"PRレビュー","level":2}]}],["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"コードを書いたら、すぐにレビューする。この習慣が、AIコーディングの品質を決定的に分ける。"}],"\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b"]}],"$L2c","$L2d"]}]],["$L2e"],"$L2f"]}],"loading":null,"isPartial":false}
+8:["$","hr",null,{}]
+9:["$","h2",null,{"id":"なぜ即時レビューが重要か","children":"なぜ即時レビューが重要か"}]
+a:["$","p",null,{"children":"AIが書いたコードは「もっともらしい」が、以下のリスクを含む可能性がある。"}]
+b:["$","ul",null,{"children":["\n",["$","li",null,{"children":"セキュリティ脆弱性: SQLインジェクション、XSS、CSRF"}],"\n",["$","li",null,{"children":"ロジックエラー: エッジケースの見落とし"}],"\n",["$","li",null,{"children":"パフォーマンス問題: N+1クエリ、不要な再レンダリング"}],"\n",["$","li",null,{"children":"保守性の低下: 過度に複雑な実装、命名の不統一"}],"\n"]}]
+c:["$","p",null,{"children":"コードを書いてから時間が経つほど、問題の修正コストは上がる。書いた直後にレビューすることで、問題を最小コストで修正できる。"}]
+d:["$","hr",null,{}]
+e:["$","h2",null,{"id":"code-reviewer-エージェント","children":"code-reviewer エージェント"}]
+f:["$","pre",null,{"children":["$","code",null,{"children":"> 今の変更をcode-reviewerエージェントでレビューして\n"}]}]
+10:["$","p",null,{"children":"code-reviewerは以下の観点でコードを分析する。"}]
+11:["$","h3",null,{"id":"レビュー観点","children":"レビュー観点"}]
+12:["$","ol",null,{"children":["\n",["$","li",null,{"children":"可読性: 命名、構造、コメントの適切さ"}],"\n",["$","li",null,{"children":"保守性: 関数の長さ、ファイルの凝集度、結合度"}],"\n",["$","li",null,{"children":"パフォーマンス: 不要な計算、メモリリーク"}],"\n",["$","li",null,{"children":"エラーハンドリング: 例外処理、エッジケース対応"}],"\n",["$","li",null,{"children":"コーディング規約: プロジェクトの規約との整合性"}],"\n"]}]
+13:["$","h3",null,{"id":"重要度レベル","children":"重要度レベル"}]
+14:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"レベル"}],["$","th",null,{"children":"説明"}],["$","th",null,{"children":"対応"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"CRITICAL"}],["$","td",null,{"children":"セキュリティ脆弱性、データ損失リスク"}],["$","td",null,{"children":"即座に修正"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"HIGH"}],["$","td",null,{"children":"重大なバグ、パフォーマンス問題"}],["$","td",null,{"children":"修正必須"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"MEDIUM"}],["$","td",null,{"children":"品質改善、リファクタリング推奨"}],["$","td",null,{"children":"可能なら修正"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"LOW"}],["$","td",null,{"children":"スタイル、好みの問題"}],["$","td",null,{"children":"時間があれば"}]]}]]}]]}]
+15:["$","hr",null,{}]
+16:["$","h2",null,{"id":"security-reviewer-エージェント","children":"security-reviewer エージェント"}]
+17:["$","pre",null,{"children":["$","code",null,{"children":"> security-reviewerエージェントでセキュリティチェックを実行して\n"}]}]
+18:["$","p",null,{"children":"セキュリティに特化したレビューを行う。"}]
+19:["$","h3",null,{"id":"チェック項目","children":"チェック項目"}]
+1a:["$","ul",null,{"children":["\n",["$","li",null,{"children":"OWASP Top 10: インジェクション、認証不備、XSS等"}],"\n",["$","li",null,{"children":"秘密情報の漏洩: ハードコードされたAPIキー、パスワード"}],"\n",["$","li",null,{"children":"入力バリデーション: ユーザー入力の未検証"}],"\n",["$","li",null,{"children":"暗号化: 安全でない暗号アルゴリズムの使用"}],"\n",["$","li",null,{"children":"依存関係: 既知の脆弱性を持つパッケージ"}],"\n"]}]
+1b:["$","h3",null,{"id":"医療データの特別な考慮","children":"医療データの特別な考慮"}]
+1c:["$","p",null,{"children":"医療プロジェクトでは追加のセキュリティ要件がある。"}]
+1d:["$","ul",null,{"children":["\n",["$","li",null,{"children":"患者データの暗号化"}],"\n",["$","li",null,{"children":"アクセスログの記録"}],"\n",["$","li",null,{"children":"セッション管理の適切性"}],"\n",["$","li",null,{"children":"データの最小化原則"}],"\n"]}]
+1e:["$","hr",null,{}]
+1f:["$","h2",null,{"id":"レビューワークフロー","children":"レビューワークフロー"}]
+20:["$","h3",null,{"id":"推奨フロー","children":"推奨フロー"}]
+21:["$","pre",null,{"children":["$","code",null,{"children":"コード作成 → code-reviewer → 修正 → security-reviewer → 修正 → コミット\n"}]}]
+22:["$","h3",null,{"id":"並列レビュー","children":"並列レビュー"}]
+23:["$","p",null,{"children":"時間を節約するため、2つのレビュアーを並列で実行することもできる。"}]
+24:["$","pre",null,{"children":["$","code",null,{"children":"> 以下を並列で実行して:\n> 1. code-reviewerでコード品質をチェック\n> 2. security-reviewerでセキュリティをチェック\n"}]}]
+25:["$","hr",null,{}]
+26:["$","h2",null,{"id":"prレビュー","children":"PRレビュー"}]
+27:["$","p",null,{"children":"GitHub上のPRをClaude Codeでレビューすることもできる。"}]
+28:["$","pre",null,{"children":["$","code",null,{"children":"> gh pr view 42 の変更内容をレビューして\n"}]}]
+29:["$","p",null,{"children":"PRの差分を分析し、コード品質とセキュリティの両面からフィードバックを生成する。"}]
+2a:["$","$L30",null,{"type":"warning","title":"AIレビューは人間レビューの代替ではない","children":["$","p",null,{"children":"AIレビューは「第一段階のフィルター」として優秀だが、ビジネスロジックの妥当性や設計判断の適切さは人間が判断すべきだ。特に医療プロジェクトでは、ドメイン知識を持つ人間のレビューが不可欠。"}]}]
+2b:["$","$L31",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"コードを書いたら即座にレビューする。時間が経つほど修正コストは上がる"}],"\n",["$","li",null,{"children":"code-reviewerは品質・保守性・パフォーマンスを、security-reviewerはセキュリティ脆弱性を検出する"}],"\n",["$","li",null,{"children":"CRITICAL/HIGH/MEDIUM/LOWの重要度で問題を分類し、優先順位をつけて修正する"}],"\n",["$","li",null,{"children":"2つのレビュアーの並列実行で効率的なレビューが可能"}],"\n",["$","li",null,{"children":"AIレビューは人間レビューの代替ではなく、第一段階のフィルターとして活用する"}],"\n"]}]}]
+2c:["$","$L32",null,{"bookId":"claude-code","chapterSlug":"04-03-code-review"}]
+2d:["$","$L33",null,{"bookId":"claude-code","prev":{"slug":"04-02-tdd","title":"テスト駆動開発 — RED-GREEN-REFACTORをAIと回す","order":13},"next":{"slug":"04-04-plan-mode","title":"Plan Mode — 設計してから実装する","order":15}}]
+2e:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+2f:["$","$L34",null,{"children":["$","$35",null,{"name":"Next.MetadataOutlet","children":"$@36"}]}]
+36:null

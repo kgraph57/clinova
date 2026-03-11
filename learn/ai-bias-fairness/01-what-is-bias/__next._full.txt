@@ -1,0 +1,243 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","learn","ai-bias-fairness","01-what-is-bias"],"q":"","i":false,"f":[[["",{"children":["learn",{"children":[["courseId","ai-bias-fairness","d"],{"children":[["lessonSlug","01-what-is-bias","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+1e:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+1f:T2e7c,
+# AIのバイアスとは何か
+
+## はじめに — 「客観的」なアルゴリズムが生んだ差別
+
+2019年、Science誌に掲載された1本の論文が医療AI業界に激震を走らせました。米国の医療システムで**数百万人の患者**に適用されていたリスク予測アルゴリズム（Optum社製）が、同じ健康状態の黒人患者を白人患者よりも系統的に「低リスク」と判定していたのです。
+
+原因は意外にシンプルでした。アルゴリズムが**「医療費」を健康状態の代理指標**として使用していたこと。歴史的に医療アクセスが制限されてきた黒人患者は、同じ病気でも医療費が低い傾向にありました。その結果、同じリスクスコアの黒人患者は白人患者より**平均26%多くの慢性疾患**を抱えていました。
+
+AIは「数字に基づいて客観的に判断する」と思われがちです。しかし、その数字自体に社会の不公平が刻み込まれている場合、AIは偏見を学習し、**増幅**します。
+
+<ResourceCard
+  type="paper"
+  title="Dissecting racial bias in an algorithm used to manage the health of populations"
+  url="https://www.science.org/doi/10.1126/science.aax2342"
+  authors="Obermeyer Z, Powers B, Vogeli C, Mullainathan S"
+  source="Science"
+  year={2019}
+  description="医療リスク予測AIの人種バイアスを実証した画期的論文。アルゴリズム修正によりバイアスを84%削減"
+/>
+
+---
+
+## バイアスの3つの層
+
+### データバイアス — 偏ったデータからは偏った判断しか生まれない
+
+学習データが現実世界の多様性を正確に反映していない場合に生じるバイアスです。
+
+**サンプリングバイアス**: 学習データが特定の人口集団に偏る。例えば、大学病院のデータだけで学習したAIは、地域のクリニックの患者では性能が低下する可能性がある。
+
+**ラベリングバイアス**: データにラベルを付ける人間の偏見が反映される。例えば、ある人種の患者の痛みを過小評価する傾向が、トレーニングデータのラベルに反映される。
+
+**歴史的バイアス**: 過去の不公平な医療実践がデータに残る。Optumアルゴリズムの「医療費＝健康状態」という前提は、この典型例。
+
+<CaseStudy title="皮膚科AIモデルのダークスキンでの精度低下" year={2022} jurisdiction="米国" tags={["データバイアス", "人種", "画像診断"]}>
+
+**研究**: Stanford大学のDaneshjouらが、多様な肌の色を含む656枚の皮膚画像データセット（DDI: Diverse Dermatology Images）を構築し、既存の皮膚科AIモデルを評価。
+
+**発見**:
+- 既存の皮膚科AIは、ダークスキンでの診断精度が**ROC-AUCで27-36%低下**
+- 公開ベンチマークに、ダークスキンの生検確認済み悪性腫瘍画像が**1枚も含まれていなかった**
+- DDIデータセットでファインチューニングすることで精度差を大幅に縮小できた
+
+**なぜ深刻か**: メラノーマの死亡率は有色人種で高い傾向にあるが、これは部分的に診断の遅れに起因する。AIがこの格差を再生産・拡大するリスクがある。
+
+</CaseStudy>
+
+<ResourceCard
+  type="paper"
+  title="Disparities in dermatology AI performance on a diverse, curated clinical image set"
+  url="https://www.science.org/doi/10.1126/sciadv.abq6147"
+  authors="Daneshjou R et al."
+  source="Science Advances"
+  year={2022}
+  description="多様な肌の色を含むDDIデータセットで皮膚科AIの性能格差を実証"
+/>
+
+### アルゴリズムバイアス — 設計の選択が偏りを生む
+
+AIモデルの設計・最適化過程で生じるバイアスです。
+
+- **特徴選択バイアス**: 人種や性別など倫理的に問題のある特徴を過度に重視（または間接的に反映する代理変数を使用）
+- **最適化バイアス**: 多数派の精度を最大化する結果、少数派の精度が犠牲に。データの95%が白人患者なら、AIは白人患者での精度を最大化するように学習する
+
+<Callout type="insight" title="「人種」を入力から除外すれば解決するのか？">
+
+直感的には、AIの入力から「人種」を削除すれば人種バイアスは解消されるように思えます。しかし実際には、**郵便番号、保険の種類、受診パターン**など、人種と相関する変数（代理変数）を通じて、バイアスは間接的に伝播します。変数を1つ削除するだけでは不十分で、バイアスの構造的な原因に対処する必要があります。
+
+</Callout>
+
+### 評価バイアス — 「全体の精度95%」の罠
+
+AIの性能評価の方法自体に含まれるバイアスです。
+
+全体の精度が95%であっても、特定のサブグループで85%に低下していれば、そのグループの患者は不利益を被ります。**全体の平均値だけを報告する評価方法は、少数派の性能低下を隠蔽**します。
+
+---
+
+## 医療AIで実際に起きた事例
+
+<CaseStudy title="パルスオキシメーター — 医療機器のバイアスがAIに伝播する" year={2020} jurisdiction="米国" tags={["医療機器バイアス", "人種", "低酸素血症"]}>
+
+**背景**: New England Journal of Medicineに掲載された研究で、パルスオキシメーターが黒人患者の血中酸素飽和度を系統的に過大評価していることが判明。
+
+**データ**:
+- パルスオキシメーターで92-96%と表示された患者のうち、実際に88%未満だった割合:
+  - 黒人患者: **11.7%** / 白人患者: **3.6%**（約3倍の差）
+
+**原因**: パルスオキシメーターの較正段階でダークスキンの被験者が十分に含まれていなかった。
+
+**AI開発への教訓**: パルスオキシメーターのデータを入力として使うAIは、この機器バイアスをさらに増幅する。バイアスはデータ→機器→AIと連鎖する。
+
+</CaseStudy>
+
+<ResourceCard
+  type="paper"
+  title="Racial Bias in Pulse Oximetry Measurement"
+  url="https://www.nejm.org/doi/full/10.1056/NEJMc2029240"
+  source="New England Journal of Medicine"
+  year={2020}
+  description="パルスオキシメーターの人種による測定バイアスを実証。FDAが改善を優先課題に指定"
+/>
+
+<Callout type="comparison" title="「データの問題」か「社会の問題」か">
+
+**パルスオキシメーター**: 機器自体が暗い肌で不正確に設計された → その不正確なデータでAIを学習させる → AIがバイアスを引き継ぐ。
+
+**医療費アルゴリズム（Optum）**: 医療費データ自体は正確 → しかし社会的な医療アクセスの格差がデータに反映 → AIが格差を「正常」として学習する。
+
+→ バイアスは単一の原因ではなく、**機器・社会構造・データ・アルゴリズムの複合的な問題**。
+
+</Callout>
+
+---
+
+## バイアスがもたらす影響
+
+### 患者への直接的影響
+
+- **誤診断**: ダークスキンの皮膚がんを見逃す → 治療の遅れ → 予後悪化
+- **不適切なトリアージ**: 黒人患者のリスクを過小評価 → 必要なケアが提供されない
+- **過剰診断**: 特定のグループで偽陽性が高い → 不必要な侵襲的検査
+
+### 医療システムへの影響
+
+- **健康格差の拡大**: AIが既存の格差を再生産・増幅
+- **信頼の喪失**: バイアスが公になれば、医療AIへの信頼が損なわれる
+- **法的リスク**: 差別的なAIの使用は、訴訟リスクや規制措置につながる
+
+<Callout type="question" title="考えてみよう">
+
+Obermeyerらの研究では、アルゴリズムの修正により、「追加ケアが必要」と判定される黒人患者の割合が17.7%から**46.5%**に上昇しました（バイアスの84%削減）。
+
+あなたの施設で使用している予測モデルやAIツールは、どの人口集団で検証されていますか？ ベンダーにサブグループ別の性能データを確認したことはありますか？
+
+</Callout>
+
+---
+
+## まとめ
+
+AIは「客観的」ではありません。Optumアルゴリズムの事例は、一見合理的に見える設計上の選択（医療費を代理指標として使用）が、社会構造の不公平を再生産しうることを示しました。バイアスはデータ・アルゴリズム・評価の各層に存在し、それらが複合的に作用します。
+
+次のレッスンでは、こうしたバイアスをどのように**検出**するかを学びます。
+
+<Quiz
+  courseId="ai-bias-fairness"
+  lessonSlug="01-what-is-bias"
+  questions={[
+    {
+      question: "Optum社の医療リスク予測AIが黒人患者のリスクを過小評価した原因はどれか？",
+      options: ["AIのアルゴリズムに人種差別的なコードが含まれていた", "学習データに黒人患者のデータが含まれていなかった", "「医療費」を健康状態の代理指標として使用し、歴史的な医療アクセス格差が反映された", "AIが意図的に白人患者を優先するように設計されていた"],
+      correctIndex: 2,
+      explanation: "AIは「医療費」を健康状態の代理指標として使用していました。歴史的に医療アクセスが制限されてきた黒人患者は同じ病気でも医療費が低い傾向があり、結果として「低リスク」と判定されました。これは歴史的バイアスの典型例です。"
+    },
+    {
+      question: "皮膚科AIのダークスキンでの精度低下の根本原因はどれか？",
+      options: ["ダークスキンの画像は技術的にAIで処理できない", "公開ベンチマークデータセットにダークスキンの画像が不足していた", "ダークスキンの皮膚疾患は存在しない", "AIは肌の色を認識できない"],
+      correctIndex: 1,
+      explanation: "Daneshjouらの研究で、公開されている皮膚疾患AIベンチマークにダークスキンの生検確認済み悪性腫瘍画像が1枚も含まれていなかったことが判明しました。学習データの偏りが直接的にAIの性能格差を生んでいます。"
+    },
+    {
+      question: "パルスオキシメーターのバイアスがAI開発に与える影響として正しいものはどれか？",
+      options: ["影響はない。AIは機器のバイアスを自動的に補正する", "パルスオキシメーターのデータを入力として使うAIは、機器バイアスをさらに増幅する可能性がある", "パルスオキシメーターは黒人患者に使用しなければ問題ない", "AIが機器バイアスを検出して警告を出す"],
+      correctIndex: 1,
+      explanation: "パルスオキシメーターが黒人患者の酸素飽和度を過大評価するバイアスがあり、そのデータでAIを学習させると、バイアスは機器→データ→AIと連鎖的に増幅されます。入力データの品質がAIの公平性を左右します。"
+    }
+  ]}
+/>
+
+<ActionItem>
+自施設で使用しているAIツール（画像診断支援、予測モデルなど）を1つ選び、そのツールの学習データにどのような患者集団が含まれているかをベンダーに問い合わせてみましょう。特に「サブグループ別の性能データ（人種・性別・年齢層ごとの感度・特異度）」が提供可能かを確認することが、バイアスに向き合う第一歩です。
+</ActionItem>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"ai-bias-fairness","lessonSlug":"01-what-is-bias"}],["$","$L1d",null,{"items":[{"id":"はじめに-客観的なアルゴリズムが生んだ差別","text":"はじめに — 「客観的」なアルゴリズムが生んだ差別","level":2},{"id":"バイアスの3つの層","text":"バイアスの3つの層","level":2},{"id":"データバイアス-偏ったデータからは偏った判断しか生まれない","text":"データバイアス — 偏ったデータからは偏った判断しか生まれない","level":3},{"id":"アルゴリズムバイアス-設計の選択が偏りを生む","text":"アルゴリズムバイアス — 設計の選択が偏りを生む","level":3},{"id":"評価バイアス-全体の精度95の罠","text":"評価バイアス — 「全体の精度95%」の罠","level":3},{"id":"医療aiで実際に起きた事例","text":"医療AIで実際に起きた事例","level":2},{"id":"バイアスがもたらす影響","text":"バイアスがもたらす影響","level":2},{"id":"患者への直接的影響","text":"患者への直接的影響","level":3},{"id":"医療システムへの影響","text":"医療システムへの影響","level":3},{"id":"まとめ","text":"まとめ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"course":{"courseId":"ai-bias-fairness","title":"AIのバイアスと公平性 - 医療における公正性","description":"AIシステムのバイアス、医療格差への影響、公平性の評価、バイアス軽減手法、多様性を考慮したAI開発を学びます","category":"ai-fundamentals","level":"advanced","lessonCount":6,"estimatedTotalMinutes":126,"order":8,"free":false,"learningOutcomes":["AIバイアスの種類と原因を特定できる","バイアス検出手法を実践できる","医療AIの公平性を定量的に評価できる","バイアス緩和のベストプラクティスを適用できる"],"prerequisites":["ai-basics","medical-ai-overview"],"targetAudience":["AIモデルの品質管理を担当する方","多様性・公平性に関心のある医療者","AI倫理をより深く学びたい方"],"skills":["バイアス検出","公平性評価","多様性"],"coverImage":"$undefined"},"lesson":{"courseId":"ai-bias-fairness","slug":"01-what-is-bias","title":"AIのバイアスとは何か","description":"Optumアルゴリズムの人種バイアス事件から始め、データ・アルゴリズム・評価の各バイアスを具体的な医療AI事例で学びます","order":1,"estimatedMinutes":22,"estimatedReadTime":14,"content":"$1f"}}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+26:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+27:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose","children":"$L25"}]
+22:["$","$L26",null,{"courseId":"ai-bias-fairness","lessonSlug":"01-what-is-bias"}]
+23:["$","$L27",null,{"courseId":"ai-bias-fairness","prev":null,"next":{"slug":"02-detecting-bias","title":"バイアスの検出方法","order":2}}]
+28:I[89213,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ResourceCard"]
+29:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Callout"]
+25:[["$","h1",null,{"children":"AIのバイアスとは何か"}],"\n",["$","h2",null,{"id":"はじめに-客観的なアルゴリズムが生んだ差別","children":"はじめに — 「客観的」なアルゴリズムが生んだ差別"}],"\n",["$","p",null,{"children":["2019年、Science誌に掲載された1本の論文が医療AI業界に激震を走らせました。米国の医療システムで",["$","strong",null,{"children":"数百万人の患者"}],"に適用されていたリスク予測アルゴリズム（Optum社製）が、同じ健康状態の黒人患者を白人患者よりも系統的に「低リスク」と判定していたのです。"]}],"\n",["$","p",null,{"children":["原因は意外にシンプルでした。アルゴリズムが**「医療費」を健康状態の代理指標",["$","strong",null,{"children":"として使用していたこと。歴史的に医療アクセスが制限されてきた黒人患者は、同じ病気でも医療費が低い傾向にありました。その結果、同じリスクスコアの黒人患者は白人患者より"}],"平均26%多くの慢性疾患**を抱えていました。"]}],"\n",["$","p",null,{"children":["AIは「数字に基づいて客観的に判断する」と思われがちです。しかし、その数字自体に社会の不公平が刻み込まれている場合、AIは偏見を学習し、",["$","strong",null,{"children":"増幅"}],"します。"]}],"\n",["$","$L28",null,{"type":"paper","title":"Dissecting racial bias in an algorithm used to manage the health of populations","url":"https://www.science.org/doi/10.1126/science.aax2342","authors":"Obermeyer Z, Powers B, Vogeli C, Mullainathan S","source":"Science","description":"医療リスク予測AIの人種バイアスを実証した画期的論文。アルゴリズム修正によりバイアスを84%削減"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"バイアスの3つの層","children":"バイアスの3つの層"}],"\n",["$","h3",null,{"id":"データバイアス-偏ったデータからは偏った判断しか生まれない","children":"データバイアス — 偏ったデータからは偏った判断しか生まれない"}],"\n",["$","p",null,{"children":"学習データが現実世界の多様性を正確に反映していない場合に生じるバイアスです。"}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"サンプリングバイアス"}],": 学習データが特定の人口集団に偏る。例えば、大学病院のデータだけで学習したAIは、地域のクリニックの患者では性能が低下する可能性がある。"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"ラベリングバイアス"}],": データにラベルを付ける人間の偏見が反映される。例えば、ある人種の患者の痛みを過小評価する傾向が、トレーニングデータのラベルに反映される。"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"歴史的バイアス"}],": 過去の不公平な医療実践がデータに残る。Optumアルゴリズムの「医療費＝健康状態」という前提は、この典型例。"]}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-blue-600/50 dark:border-l-blue-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","米国"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"皮膚科AIモデルのダークスキンでの精度低下"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"研究"}],": Stanford大学のDaneshjouらが、多様な肌の色を含む656枚の皮膚画像データセット（DDI: Diverse Dermatology Images）を構築し、既存の皮膚科AIモデルを評価。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"発見"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":["既存の皮膚科AIは、ダークスキンでの診断精度が",["$","strong",null,{"children":"ROC-AUCで27-36%低下"}]]}],"\n",["$","li",null,{"children":["公開ベンチマークに、ダークスキンの生検確認済み悪性腫瘍画像が",["$","strong",null,{"children":"1枚も含まれていなかった"}]]}],"\n",["$","li",null,{"children":"DDIデータセットでファインチューニングすることで精度差を大幅に縮小できた"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"なぜ深刻か"}],": メラノーマの死亡率は有色人種で高い傾向にあるが、これは部分的に診断の遅れに起因する。AIがこの格差を再生産・拡大するリスクがある。"]}]]}]]}],"\n",["$","$L28",null,{"type":"paper","title":"Disparities in dermatology AI performance on a diverse, curated clinical image set","url":"https://www.science.org/doi/10.1126/sciadv.abq6147","authors":"Daneshjou R et al.","source":"Science Advances","description":"多様な肌の色を含むDDIデータセットで皮膚科AIの性能格差を実証"}],"\n",["$","h3",null,{"id":"アルゴリズムバイアス-設計の選択が偏りを生む","children":"アルゴリズムバイアス — 設計の選択が偏りを生む"}],"\n",["$","p",null,{"children":"AIモデルの設計・最適化過程で生じるバイアスです。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"特徴選択バイアス"}],": 人種や性別など倫理的に問題のある特徴を過度に重視（または間接的に反映する代理変数を使用）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"最適化バイアス"}],": 多数派の精度を最大化する結果、少数派の精度が犠牲に。データの95%が白人患者なら、AIは白人患者での精度を最大化するように学習する"]}],"\n"]}],"\n",["$","$L29",null,{"type":"insight","title":"「人種」を入力から除外すれば解決するのか？","children":["$","p",null,{"children":["直感的には、AIの入力から「人種」を削除すれば人種バイアスは解消されるように思えます。しかし実際には、",["$","strong",null,{"children":"郵便番号、保険の種類、受診パターン"}],"など、人種と相関する変数（代理変数）を通じて、バイアスは間接的に伝播します。変数を1つ削除するだけでは不十分で、バイアスの構造的な原因に対処する必要があります。"]}]}],"\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e"]
+3f:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+40:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+2a:["$","h3",null,{"id":"評価バイアス-全体の精度95の罠","children":"評価バイアス — 「全体の精度95%」の罠"}]
+2b:["$","p",null,{"children":"AIの性能評価の方法自体に含まれるバイアスです。"}]
+2c:["$","p",null,{"children":["全体の精度が95%であっても、特定のサブグループで85%に低下していれば、そのグループの患者は不利益を被ります。",["$","strong",null,{"children":"全体の平均値だけを報告する評価方法は、少数派の性能低下を隠蔽"}],"します。"]}]
+2d:["$","hr",null,{}]
+2e:["$","h2",null,{"id":"医療aiで実際に起きた事例","children":"医療AIで実際に起きた事例"}]
+2f:["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-blue-600/50 dark:border-l-blue-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","米国"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"パルスオキシメーター — 医療機器のバイアスがAIに伝播する"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"背景"}],": New England Journal of Medicineに掲載された研究で、パルスオキシメーターが黒人患者の血中酸素飽和度を系統的に過大評価していることが判明。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"データ"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":["パルスオキシメーターで92-96%と表示された患者のうち、実際に88%未満だった割合:","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["黒人患者: ",["$","strong",null,{"children":"11.7%"}]," / 白人患者: ",["$","strong",null,{"children":"3.6%"}],"（約3倍の差）"]}],"\n"]}],"\n"]}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"原因"}],": パルスオキシメーターの較正段階でダークスキンの被験者が十分に含まれていなかった。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"AI開発への教訓"}],": パルスオキシメーターのデータを入力として使うAIは、この機器バイアスをさらに増幅する。バイアスはデータ→機器→AIと連鎖する。"]}]]}]]}]
+30:["$","$L28",null,{"type":"paper","title":"Racial Bias in Pulse Oximetry Measurement","url":"https://www.nejm.org/doi/full/10.1056/NEJMc2029240","source":"New England Journal of Medicine","description":"パルスオキシメーターの人種による測定バイアスを実証。FDAが改善を優先課題に指定"}]
+31:["$","$L29",null,{"type":"comparison","title":"「データの問題」か「社会の問題」か","children":[["$","p",null,{"children":[["$","strong",null,{"children":"パルスオキシメーター"}],": 機器自体が暗い肌で不正確に設計された → その不正確なデータでAIを学習させる → AIがバイアスを引き継ぐ。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"医療費アルゴリズム（Optum）"}],": 医療費データ自体は正確 → しかし社会的な医療アクセスの格差がデータに反映 → AIが格差を「正常」として学習する。"]}],["$","p",null,{"children":["→ バイアスは単一の原因ではなく、",["$","strong",null,{"children":"機器・社会構造・データ・アルゴリズムの複合的な問題"}],"。"]}]]}]
+32:["$","hr",null,{}]
+33:["$","h2",null,{"id":"バイアスがもたらす影響","children":"バイアスがもたらす影響"}]
+34:["$","h3",null,{"id":"患者への直接的影響","children":"患者への直接的影響"}]
+35:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"誤診断"}],": ダークスキンの皮膚がんを見逃す → 治療の遅れ → 予後悪化"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"不適切なトリアージ"}],": 黒人患者のリスクを過小評価 → 必要なケアが提供されない"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"過剰診断"}],": 特定のグループで偽陽性が高い → 不必要な侵襲的検査"]}],"\n"]}]
+36:["$","h3",null,{"id":"医療システムへの影響","children":"医療システムへの影響"}]
+37:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"健康格差の拡大"}],": AIが既存の格差を再生産・増幅"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"信頼の喪失"}],": バイアスが公になれば、医療AIへの信頼が損なわれる"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"法的リスク"}],": 差別的なAIの使用は、訴訟リスクや規制措置につながる"]}],"\n"]}]
+38:["$","$L29",null,{"type":"question","title":"考えてみよう","children":[["$","p",null,{"children":"Obermeyerらの研究では、アルゴリズムの修正により、「追加ケアが必要」と判定される黒人患者の割合が17.7%から**46.5%**に上昇しました（バイアスの84%削減）。"}],["$","p",null,{"children":"あなたの施設で使用している予測モデルやAIツールは、どの人口集団で検証されていますか？ ベンダーにサブグループ別の性能データを確認したことはありますか？"}]]}]
+39:["$","hr",null,{}]
+3a:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+3b:["$","p",null,{"children":"AIは「客観的」ではありません。Optumアルゴリズムの事例は、一見合理的に見える設計上の選択（医療費を代理指標として使用）が、社会構造の不公平を再生産しうることを示しました。バイアスはデータ・アルゴリズム・評価の各層に存在し、それらが複合的に作用します。"}]
+3c:["$","p",null,{"children":["次のレッスンでは、こうしたバイアスをどのように",["$","strong",null,{"children":"検出"}],"するかを学びます。"]}]
+3d:["$","$L3f",null,{"courseId":"ai-bias-fairness","lessonSlug":"01-what-is-bias"}]
+3e:["$","$L40",null,{"children":["$","p",null,{"children":"自施設で使用しているAIツール（画像診断支援、予測モデルなど）を1つ選び、そのツールの学習データにどのような患者集団が含まれているかをベンダーに問い合わせてみましょう。特に「サブグループ別の性能データ（人種・性別・年齢層ごとの感度・特異度）」が提供可能かを確認することが、バイアスに向き合う第一歩です。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+41:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"AIのバイアスとは何か | Hoshizu"}],["$","meta","1",{"name":"description","content":"Optumアルゴリズムの人種バイアス事件から始め、データ・アルゴリズム・評価の各バイアスを具体的な医療AI事例で学びます"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/learn/ai-bias-fairness/01-what-is-bias"}],["$","meta","4",{"property":"og:title","content":"AIのバイアスとは何か - AIのバイアスと公平性 - 医療における公正性"}],["$","meta","5",{"property":"og:description","content":"Optumアルゴリズムの人種バイアス事件から始め、データ・アルゴリズム・評価の各バイアスを具体的な医療AI事例で学びます"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L41","15",{}]]

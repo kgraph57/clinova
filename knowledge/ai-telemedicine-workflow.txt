@@ -1,0 +1,670 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","knowledge","ai-telemedicine-workflow"],"q":"","i":false,"f":[[["",{"children":["knowledge",{"children":[["slug","ai-telemedicine-workflow","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/eb46a9559e436395.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadingProgress"]
+1c:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"TableOfContents"]
+1d:I[12900,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"BookmarkButton"]
+1e:I[71957,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleHeader"]
+1f:T1eaf,
+# AI遠隔医療・オンライン診療ワークフロー
+
+## 遠隔医療の現状
+
+COVID-19パンデミック以降、オンライン診療は日本でも急速に普及しました。2024年の診療報酬改定でオンライン診療の算定要件が緩和され、利用は拡大傾向にあります。
+
+### 世界の動向
+
+| 地域 | システム | 特徴 |
+|---|---|---|
+| **中国** | PingAn Good Doctor | 1日100万件以上のAI問診+医師相談。AIが一次問診→医師が確認・処方 |
+| **米国** | Teladoc + AI | AIトリアージ後に適切な医師にルーティング |
+| **英国** | 旧Babylon Health | AI症状チェッカー+GP（かかりつけ医）ビデオ相談 |
+| **イスラエル** | Sheba BEYOND | AI遠隔モニタリング+仮想病院。退院後の遠隔フォロー |
+| **日本** | CLINICS、curon等 | オンライン診療プラットフォーム+AI問診連携 |
+
+---
+
+## ワークフロー
+
+### Step 1: 診察前準備 — AIトリアージ
+
+オンライン診療では、対面と比べて**得られる情報が限られます**。事前のAIトリアージで情報を最大限に収集します。
+
+#### AI問診の活用（Ubie等と連携）
+
+```
+患者がアプリで症状入力
+  ↓
+AIが追加質問を自動生成
+  ↓
+構造化された問診結果 + 参考病名が医師に提示
+  ↓
+医師はビデオ通話前に情報を把握
+```
+
+#### オンライン診療の適否判断プロンプト
+
+```text
+以下の症状について、オンライン診療で対応可能か
+判断してください。
+
+# 患者情報
+- 年齢/性別: [年齢/性別]
+- 既往歴: [既往歴]
+- AI問診の結果: [AI問診で得られた情報]
+- 主訴: [主訴]
+- バイタルサイン（患者自己測定）: [あれば]
+
+# オンライン診療で対応可能な条件
+1. 身体診察が診断に必須ではない
+2. 緊急性が低い（救急搬送の必要がない）
+3. 画像検査・血液検査が必須ではない
+4. 処方のみで対応可能、または経過観察で可
+
+# オンライン診療が不適切な条件
+1. Red flags（胸痛、呼吸困難、意識障害、片麻痺等）
+2. 身体診察なしでは鑑別できない
+3. 処置が必要（創傷処置、排膿等）
+4. 検査が必須（血液検査、画像検査）
+
+# 出力
+1. オンライン診療の適否判断と理由
+2. 対応可能な場合: ビデオ通話で確認すべきポイント
+3. 不適切な場合: 対面受診を勧める理由と緊急度
+4. 中間的な場合: オンラインでの初期評価後に
+   対面受診を検討する基準
+```
+
+---
+
+### Step 2: ビデオ通話中 — AI補助
+
+#### 画面越しの観察ポイント
+
+オンライン診療では身体診察ができない分、**画面越しの観察**が重要です。
+
+```
+確認すべきこと:
+□ 全体的な印象（元気そうか、辛そうか）
+□ 顔色（蒼白、黄疸、紅潮）
+□ 呼吸の様子（呼吸困難の兆候、会話中の息切れ）
+□ 発疹・腫脹（患部をカメラに映してもらう）
+□ 可動域（四肢の動きを確認）
+□ 咽頭所見（ライトで照らして口を開けてもらう）
+```
+
+#### 患者に自己測定を依頼するプロンプト
+
+```text
+以下の症状のオンライン診療で、患者に自宅で
+確認してもらうべき項目を教えてください。
+
+# 主訴
+[例: 3日前からの咳と発熱]
+
+# 患者が持っている可能性のある機器
+- 体温計: ほぼ全員
+- パルスオキシメーター: 一部
+- 血圧計: 高齢者では多い
+- 体重計: ほぼ全員
+
+# 出力
+1. 患者に自己測定してもらう項目と方法
+2. カメラを使って確認できる所見
+3. 患者への指示の伝え方（わかりやすく）
+4. 測定結果に基づくトリアージ
+   （自宅療養/翌日受診/今日受診/救急受診）
+```
+
+---
+
+### Step 3: 診察後 — AIフォローアップ
+
+#### 処方後の自動フォローアップ設計
+
+```text
+以下のオンライン診療後のフォローアップ計画を作成してください。
+
+# 診察結果
+- 診断: [診断名]
+- 処方: [処方内容]
+- 指導内容: [患者への指導]
+
+# フォローアップ計画
+1. 経過観察期間と再診のタイミング
+2. 症状悪化時の対応基準（患者向け、平易な言葉で）
+   - このくらいなら自宅で様子を見てOK
+   - この症状が出たら再度オンライン受診
+   - この症状が出たら対面で受診
+   - この症状が出たら救急受診/119番
+3. 服薬指導のポイント
+4. 生活指導（安静度、食事、入浴等）
+```
+
+#### 慢性疾患の遠隔モニタリング
+
+```text
+以下の慢性疾患患者のオンラインフォローアップを
+構造化してください。
+
+# 患者情報
+- 診断: [例: 2型糖尿病、高血圧]
+- 現在の処方: [薬剤リスト]
+- 前回受診: [日付]
+- 今回の自己測定データ:
+  - 血圧手帳: [朝晩の血圧値、1-2週間分]
+  - 血糖自己測定: [食前食後の値]
+  - 体重推移: [週1-2回]
+
+# 出力
+1. データの傾向分析（改善/横ばい/悪化）
+2. 処方変更の必要性
+3. 次回までに確認すべき検査（対面受診が必要な場合）
+4. 患者への生活指導のポイント
+5. 次回フォローのタイミング
+```
+
+---
+
+## オンライン診療でAIが特に有用な場面
+
+| 場面 | AIの役割 |
+|---|---|
+| **皮膚疾患** | 患者が撮影した写真のAI解析（参考所見の提示） |
+| **慢性疾患フォロー** | 自己測定データのトレンド分析、異常値の検出 |
+| **メンタルヘルス** | 定期的なスクリーニング（PHQ-9等）の自動実施と推移追跡 |
+| **服薬アドヒアランス** | 服薬記録のAI分析、飲み忘れパターンの検出 |
+| **退院後フォロー** | バイタルデータの遠隔モニタリングと異常値アラート |
+
+---
+
+## オンライン診療の限界とAIでは補えないこと
+
+### 絶対に対面が必要な場面
+
+```
+- 急性腹症（触診なしでは評価不可能）
+- 胸痛（心電図、血液検査が必要）
+- 神経学的異常の精密評価（深部腱反射、小脳徴候等）
+- 耳鏡・眼底検査が必要な場合
+- 処置が必要な場合（創傷、膿瘍、関節穿刺等）
+- 重症度の高い初診患者
+```
+
+### 患者側の課題
+
+- デジタルリテラシーの格差（高齢者はサポートが必要）
+- 通信環境の不安定さ
+- プライバシーの確保（家族がいる環境での相談しにくさ）
+- 自己測定の精度（血圧の測り方、体温計の使い方）
+
+---
+
+## よくある質問
+
+**Q: オンライン診療で見逃しが起きたらどうする？**
+A: オンライン診療では身体所見が取れないため、見逃しのリスクは対面より高くなります。対策として: (1) 安全側に倒す（迷ったら対面受診を推奨）、(2) 再受診の基準を明確に伝える、(3) フォローアップのタイミングを短めに設定する。
+
+**Q: オンライン診療で処方できない薬はある？**
+A: 向精神薬など一部の薬剤はオンライン診療での初回処方に制限があります。厚労省のガイドラインと各施設のルールを確認してください。
+
+---
+
+## 安全に関する注意
+
+- オンライン診療は**対面診療の代替ではなく補完**です
+- **Red flags**がある場合は対面受診または救急受診を指示してください
+- 初診の場合は特に慎重に。**診断の確信度が低い場合は対面受診を推奨**してください
+- 患者のオンライン環境（通信品質、プライバシー）を確認してください
+- 医師法・オンライン診療ガイドラインに準拠した運用を行ってください
+12:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"AI遠隔医療・オンライン診療ワークフロー\",\"description\":\"オンライン診療でAIを活用したトリアージ、診察補助、フォローアップの効率化ワークフロー。\",\"datePublished\":\"2026-02-25\",\"dateModified\":\"2026-02-25\",\"author\":{\"@type\":\"Person\",\"name\":\"Ken Okamoto\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Hoshizu\"}}"}}],["$","$L1b",null,{}],["$","$L1c",null,{"items":[{"id":"遠隔医療の現状","text":"遠隔医療の現状","level":2},{"id":"世界の動向","text":"世界の動向","level":3},{"id":"ワークフロー","text":"ワークフロー","level":2},{"id":"step-1-診察前準備-aiトリアージ","text":"Step 1: 診察前準備 — AIトリアージ","level":3},{"id":"step-2-ビデオ通話中-ai補助","text":"Step 2: ビデオ通話中 — AI補助","level":3},{"id":"step-3-診察後-aiフォローアップ","text":"Step 3: 診察後 — AIフォローアップ","level":3},{"id":"オンライン診療でaiが特に有用な場面","text":"オンライン診療でAIが特に有用な場面","level":2},{"id":"オンライン診療の限界とaiでは補えないこと","text":"オンライン診療の限界とAIでは補えないこと","level":2},{"id":"絶対に対面が必要な場面","text":"絶対に対面が必要な場面","level":3},{"id":"患者側の課題","text":"患者側の課題","level":3},{"id":"よくある質問","text":"よくある質問","level":2},{"id":"安全に関する注意","text":"安全に関する注意","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","div",null,{"className":"mb-4 flex justify-end","children":["$","$L1d",null,{"slug":"ai-telemedicine-workflow","title":"AI遠隔医療・オンライン診療ワークフロー","contentType":"guide","variant":"full"}]}],["$","$L1e",null,{"article":{"slug":"ai-telemedicine-workflow","title":"AI遠隔医療・オンライン診療ワークフロー","description":"オンライン診療でAIを活用したトリアージ、診察補助、フォローアップの効率化ワークフロー。","category":"workflow","contentType":"guide","newsType":"$undefined","difficulty":"beginner","tags":["遠隔医療","オンライン診療","AI","テレメディシン","研修医"],"publishedAt":"2026-02-25","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":10,"content":"$1f","coverImage":null}}],"$L20","$L21","$L22","$L23","$L24"]}],"$L25"]
+26:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"MobileToc"]
+28:I[52429,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadTracker"]
+29:I[51830,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleFooter"]
+2d:I[56788,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"GiscusComments"]
+2e:I[20407,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"FloatingReadBar"]
+20:["$","$L26",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose ","children":"$L27"}]
+22:["$","$L28",null,{"slug":"ai-telemedicine-workflow"}]
+2a:T129c,
+# Ambient AI：診察室の会話が自動でカルテになる時代
+
+## Ambient Clinical Documentationとは
+
+Ambient Clinical Documentation（ACD）は、診察室での医師と患者の会話をAIがリアルタイムで聴き取り、構造化されたカルテ記録に自動変換するテクノロジーです。医師はパソコンに向かってタイプする代わりに、患者と目を合わせて会話するだけでカルテが完成します。
+
+米国では2024〜2025年にかけて爆発的に普及し、2026年時点で大手病院チェーンの過半数が何らかのACD製品を導入しています。
+
+## 主要プレイヤー
+
+| 製品 | 開発元 | 特徴 |
+|------|--------|------|
+| DAX Copilot | Microsoft/Nuance | Epic統合、最大シェア |
+| Abridge | Abridge | 根拠文の表示が強み |
+| Nabla Copilot | Nabla | EU市場に強い |
+| Suki | Suki | 音声コマンド統合 |
+| DeepScribe | DeepScribe | 専門科対応が充実 |
+
+## 何ができるのか
+
+### 基本機能
+
+1. **会話の文字起こし**: 医師と患者の会話をリアルタイムで文字化
+2. **話者分離**: 医師の発言と患者の発言を自動で分離
+3. **SOAP変換**: 会話内容からSubjective、Objective、Assessment、Planを自動生成
+4. **医学用語の正規化**: 口語表現を医学用語に変換（「お腹が痛い」→「腹痛」）
+5. **コード提案**: ICD-10コードや処置コードの自動提案
+
+### 高度な機能
+
+- **検査オーダーの提案**: 会話内容から必要な検査を推測して提案
+- **処方の事前入力**: 会話で言及された薬剤の処方を下書き
+- **患者向けサマリー**: 患者に渡す平易な言葉の診療要約を自動生成
+
+## 米国での導入効果
+
+### 定量的効果
+
+- カルテ記載時間: 平均50%削減
+- 患者との対話時間: 12%増加
+- 時間外カルテ作業（Pajama Time）: 70%削減
+- 医師の満足度: 導入後85%が「業務改善」と回答
+
+### 定性的効果
+
+- 患者との目線の合う時間が増え、信頼関係が改善
+- カルテの網羅性が向上（会話全体が記録されるため漏れが減少）
+- 医師の燃え尽き症候群スコアの改善
+
+## 日本語対応の現状と課題
+
+### 技術的課題
+
+日本語のACD対応は英語に比べて2〜3年遅れています。
+
+- **音声認識精度**: 日本語の医学用語は同音異義語が多い（「こうけつあつ」→高血圧/抗血圧）
+- **敬語処理**: 患者と医師の敬語レベルの違いを適切に処理
+- **方言対応**: 地域ごとの方言への対応
+- **混合言語**: 医療現場での日英混在（「BP」「SpO2」「SOAP」）
+
+### 制度的課題
+
+- 診療録の法的要件との整合性（AI生成カルテの法的有効性）
+- 患者の同意取得の方法（会話が録音・解析されることへの同意）
+- 個人情報保護法との関係（音声データの取り扱い）
+
+### 国内の動き
+
+- 2025年後半から国内スタートアップ数社がβ版を医療機関に提供開始
+- 大手EMRベンダーがACDモジュールの開発を発表
+- 大学病院での臨床研究（精度検証）が複数進行中
+
+## 導入を検討する医療機関へのガイド
+
+### Step 1: ニーズの確認
+
+- カルテ記載に費やしている時間を計測する
+- 最も負担の大きい診療科を特定する（内科、精神科、総合診療が高い傾向）
+- 医師のカルテ記載への不満を調査する
+
+### Step 2: 製品選定のポイント
+
+- 日本語対応の精度（デモで自施設の会話パターンをテスト）
+- 既存EMRとの統合性
+- データの保存場所（国内サーバーか海外か）
+- 導入サポートとトレーニング体制
+
+### Step 3: パイロット導入
+
+- 小規模（1〜2診療科）から開始
+- 3か月間の精度検証期間を設ける
+- 医師と患者のフィードバックを収集
+- カルテの品質を従来方式と比較評価
+
+### Step 4: 運用ルールの策定
+
+- AI生成カルテの確認・修正プロセスの標準化
+- 患者への説明と同意取得のフロー
+- エラー報告と改善の仕組み
+
+## 注意すべきリスク
+
+- **自動生成への過信**: AI生成カルテを確認せずに確定するリスク
+- **プライバシー**: 診察室の会話には機微な情報が含まれる
+- **医師のスキル低下**: カルテ記載能力（臨床推論の整理能力）の退化
+
+Ambient AIは医療の働き方を根本的に変える可能性を持つ技術です。日本での本格普及はこれからですが、早期に情報収集と準備を始めることで、導入時のアドバンテージを得られます。
+2b:T117e,
+# AI文書作成で診療時間を取り戻す
+
+## 文書業務が奪う診療時間
+
+医師の業務時間のうち、文書作成に費やされる時間は平均30〜40%と報告されています。2024年の医師の働き方改革で労働時間の上限規制が始まりましたが、診療の質を落とさずに文書業務を効率化することは、すべての医師にとって喫緊の課題です。
+
+AIを活用した文書作成は、単に「早く書ける」だけでなく、「漏れなく書ける」「一貫性のある文書が書ける」という品質面のメリットもあります。
+
+## AI文書作成の3段階
+
+### レベル1: テンプレート生成（即日導入可能）
+
+最も手軽なのは、テンプレートの自動生成です。
+
+**退院サマリーの例:**
+- 入院日、退院日、主病名、手術名を入力
+- AIが標準的な退院サマリーの骨格を生成
+- 医師が内容を確認・修正
+
+この段階では、AIは「下書き」を作るだけです。医師の確認は必須ですが、白紙から書き始めるよりも大幅に時間を短縮できます。
+
+### レベル2: カルテ情報からの自動要約（導入進行中）
+
+電子カルテの経過記録から、退院サマリーや紹介状を自動要約するシステムが普及し始めています。
+
+**メリット:**
+- 入院経過の記録漏れを防ぐ
+- 時系列の整理が正確
+- 検査結果の変遷を自動でまとめる
+
+**注意点:**
+- カルテの記載が不十分だと、要約も不十分になる
+- 「書いていないこと」はAIにも分からない
+- コピー＆ペーストの連鎖で誤情報が混入するリスク
+
+### レベル3: Ambient Documentation（最先端）
+
+診察室での医師と患者の会話をリアルタイムで文字起こしし、SOAP形式のカルテに自動変換するシステムです。Nuance DAXやAbridge、Nabla Copilotなどが代表的です。
+
+**効果（米国での報告）:**
+- カルテ記載時間が50%以上短縮
+- 患者との対話時間が増加
+- 医師の燃え尽き症候群スコアが改善
+
+日本語対応はまだ発展途上ですが、2026年に入り複数のベンダーが日本市場に参入しています。
+
+## 文書別の活用ポイント
+
+### 紹介状
+
+紹介状で最も重要なのは「なぜ紹介するのか」と「何をしてほしいのか」の明確化です。AIに以下を入力すると、適切な紹介状が生成できます。
+
+- 紹介目的（精査依頼、治療依頼、セカンドオピニオン）
+- これまでの経過と検査結果
+- 紹介先への具体的なリクエスト
+
+### 退院サマリー
+
+退院サマリーは「入院の全体像」を簡潔にまとめる必要があります。AIは時系列整理が得意なので、経過の構造化を任せるのが効果的です。ただし、「なぜその治療方針を選んだか」という臨床判断の部分は医師自身が記載すべきです。
+
+### 診断書・意見書
+
+定型的な部分（病名、治療期間、経過）はAIに任せ、意見・見解の部分は医師が書く、という役割分担が適切です。法的文書であるため、最終確認は特に慎重に行いましょう。
+
+## 品質チェックリスト
+
+AI生成文書を確定する前に、以下を確認してください。
+
+- [ ] 患者氏名・ID・日付は正しいか
+- [ ] 病名・手術名に誤りはないか
+- [ ] 薬剤名・用量は正確か（ハルシネーションの温床）
+- [ ] 検査データは実際の値と一致しているか
+- [ ] アレルギー情報は正しく記載されているか
+- [ ] 「書くべきだが書かれていない」情報はないか
+- [ ] 個人情報保護の観点で問題はないか
+
+## 導入のコツ
+
+1. **小さく始める**: まずは紹介状のテンプレート生成から
+2. **ダブルチェックを習慣化**: AI生成→医師確認のフローを確立
+3. **チーム内で共有**: 良いプロンプトはチームの共有財産にする
+4. **フィードバック**: AIの出力を改善するために、修正点を記録する
+
+AI文書作成は、医師の負担を軽減し、患者との対話時間を増やす有効な手段です。ただし、「AIが書いたから正しい」という思い込みは禁物です。最終的な文書の責任は常に医師にあることを忘れずに活用しましょう。
+2c:T1f2f,
+# AI抗菌薬適正使用（スチュワードシップ）ワークフロー
+
+## なぜ抗菌薬適正使用にAIか
+
+抗菌薬の不適切な使用は**耐性菌の増加**と**医療コストの上昇**に直結します。WHOは薬剤耐性（AMR）を「人類の健康に対する最大の脅威の一つ」と位置づけています。
+
+研修医が抗菌薬処方で直面する課題:
+- 経験的治療（empiric therapy）の選択に自信がない
+- 培養結果が出た後のde-escalation（狭域化）のタイミングが分からない
+- 施設のアンチバイオグラムを活用できていない
+- 腎機能に応じた用量調整の計算が複雑
+
+AIを活用することで、**エビデンスに基づいた抗菌薬選択の支援**と**de-escalationの判断補助**が可能になります。
+
+---
+
+## AIが活用されている領域
+
+### 世界の動向
+
+| システム | 内容 | 状況 |
+|---|---|---|
+| **MedAware** | 処方エラー・薬剤相互作用のAI検出 | イスラエル発、米国の複数病院で導入 |
+| **Antibiotic Guardian AI** | 英国NHS開発の抗菌薬処方支援 | NHS Trustsで試験運用 |
+| **Epic CDS** | 電子カルテ内蔵の抗菌薬推奨アラート | Epic導入施設で利用可能 |
+| **TREAT Steward** | 培養結果に基づく自動de-escalation推奨 | 欧州の複数施設で検証 |
+
+### 日本の状況
+
+- 感染制御チーム（ICT）と抗菌薬適正使用支援チーム（AST）の活動が2018年の診療報酬改定で評価対象に
+- 電子カルテの抗菌薬使用量モニタリングは普及しているが、**AI支援のde-escalation推奨はまだ研究段階**
+- 汎用AI（ChatGPT/Claude）を感染症コンサルトの壁打ちに使う実践が広がり始めている
+
+---
+
+## ワークフロー
+
+### Step 1: 経験的治療（Empiric Therapy）の選択
+
+#### プロンプト
+
+```text
+以下の患者に対する経験的抗菌薬治療を検討してください。
+
+# 患者情報
+- 年齢/性別: [年齢/性別]
+- 体重: [kg]、身長: [cm]
+- 腎機能: eGFR [X] mL/min/1.73m2、Cr [Y] mg/dL
+- 肝機能: AST/ALT [値]
+- アレルギー: [薬剤アレルギーの有無と種類]
+- 免疫状態: [免疫抑制薬の使用、好中球減少の有無]
+
+# 感染症の臨床情報
+- 感染源（推定）: [肺炎、尿路感染、腹腔内感染など]
+- 市中感染 or 院内感染: [発症場所]
+- 入院日数: [X]日目（院内感染の場合）
+- 重症度: [sepsis/septic shock の有無]
+- 抗菌薬投与歴（直近90日）: [あれば記載]
+- 耐性菌リスク因子: [MRSA、ESBL、緑膿菌のリスク]
+
+# 施設のアンチバイオグラム（あれば）
+[主要な菌種の感受性率データ]
+
+# 出力
+1. 推奨する経験的治療レジメン（第1選択、代替案）
+2. 各薬剤の用量・投与間隔（腎機能調整後）
+3. 選択の根拠（ガイドラインと施設のアンチバイオグラムに基づく）
+4. モニタリング項目（TDMが必要な薬剤、腎機能フォロー等）
+5. 培養結果判明後のde-escalation計画
+
+# 重要な注意
+- 推奨は参考情報です。最終判断は感染症専門医/指導医と相談してください
+- 薬剤の用量は必ず添付文書で確認してください
+```
+
+### Step 2: 培養結果の解釈とde-escalation
+
+#### プロンプト
+
+```text
+以下の培養結果に基づき、抗菌薬のde-escalation（狭域化）を検討してください。
+
+# 現在の治療
+- 現在の抗菌薬: [薬剤名、用量、投与日数]
+- 臨床経過: [改善傾向/横ばい/悪化]
+
+# 培養結果
+- 検体: [血液、尿、喀痰、膿等]
+- グラム染色: [結果]
+- 同定菌: [菌名]
+- 感受性結果:
+  [感受性パネルの結果を列挙]
+
+# 質問
+1. 現在の抗菌薬からde-escalation可能か？
+2. 推奨するtargeted therapy（標的治療）は？
+3. 経口スイッチ（IV→PO）は可能か？ 条件は？
+4. 治療期間の目安は？
+5. de-escalationのリスク（カバーが不足する可能性）は？
+
+# 注意
+- 最終判断は感染症科コンサルトまたは指導医と確認してください
+- 複数菌感染の場合はそれぞれのカバーを検討してください
+```
+
+### Step 3: 経口スイッチの判断
+
+#### プロンプト
+
+```text
+以下の患者で、抗菌薬の経口スイッチ（IV→PO）が可能か評価してください。
+
+# 経口スイッチの基準（OPAT/Eron criteria参考）
+□ 臨床的に改善傾向（48-72時間の発熱なし）
+□ 経口摂取が可能
+□ 消化管の吸収障害がない（嘔吐、下痢、イレウスなし）
+□ 経口薬で十分な組織移行性が確保できる感染部位
+□ 起因菌に感受性のある経口薬が存在する
+
+# 患者情報
+[臨床経過、現在のバイタル、消化管の状態]
+
+# 現在の抗菌薬と培養結果
+[現在の点滴抗菌薬と菌名・感受性]
+
+# 出力
+1. 経口スイッチの可否と根拠
+2. 推奨する経口薬（用量、投与期間）
+3. 経口スイッチ後のモニタリング項目
+4. 経口スイッチが不適切な場合、OPAT（外来静注療法）の検討
+```
+
+### Step 4: 治療効果の評価
+
+```text
+以下の抗菌薬治療の効果を評価してください。
+
+# 治療経過
+- 抗菌薬: [薬剤名]
+- 投与開始日: [日付]（投与[X]日目）
+- 臨床経過:
+  - 体温推移: [日ごとの最高体温]
+  - WBC推移: [日ごとの値]
+  - CRP推移: [日ごとの値]
+  - PCT推移: [測定していれば]
+  - 感染源の局所所見: [改善/不変/悪化]
+
+# 評価してほしいこと
+1. 治療効果の判定（有効/判定保留/無効）
+2. 72時間ルール: 効果判定の基準を満たしているか
+3. 治療無効の場合、考えるべき原因
+   - 起因菌のカバー不足
+   - ドレナージ不足（膿瘍、感染デバイス等）
+   - 用量不足（MIC値との関係）
+   - 新たな合併症
+4. 次のアクション（継続/変更/追加検査）
+```
+
+---
+
+## De-escalationのタイミングチャート
+
+```
+培養提出
+  ↓
+24-48時間: グラム染色結果
+  → グラム陽性球菌 → バンコマイシンの適応を再評価
+  → グラム陰性桿菌 → 緑膿菌カバーの必要性を再評価
+  ↓
+48-72時間: 同定・感受性結果
+  → 起因菌に最も狭域な薬剤に変更（de-escalation）
+  → 感受性良好なら経口スイッチを検討
+  ↓
+72時間: 臨床効果判定
+  → 改善: 治療継続、投与期間を決定
+  → 不変: 検査追加（画像、再培養、感染源精査）
+  → 悪化: 抗菌薬変更、外科的介入の検討、上級医相談
+```
+
+---
+
+## よくある抗菌薬の間違いとAIでの予防
+
+| 間違いパターン | AIでの予防方法 |
+|---|---|
+| 培養陰性でも広域抗菌薬を漫然と継続 | 「培養陰性+臨床改善→中止検討」をAIに確認 |
+| 腎機能変化に対する用量未調整 | 腎機能データを入力し用量再計算 |
+| ペニシリンアレルギー申告で全βラクタム回避 | 交差反応のリスク評価をAIで確認（実際の交差反応率は低い） |
+| MRSAカバーの不要な継続 | 鼻腔スワブ陰性+培養MSSA→バンコマイシン中止の根拠確認 |
+| 治療期間の延長しすぎ | 最新ガイドラインの推奨治療期間をAIで確認 |
+
+---
+
+## 安全に関する注意
+
+- AIの抗菌薬推奨は**参考情報**です。処方の最終判断は必ず指導医・感染症専門医と確認してください
+- 薬剤の**用量・禁忌・相互作用は添付文書やUpToDate等で必ず確認**してください
+- 施設の**アンチバイオグラム**はAIよりも自施設のデータが優先されます
+- 重症感染症では**感染症科コンサルト**を積極的に行ってください
+- 患者データを外部AIに入力する場合は**匿名化**と施設のポリシーに準拠してください
+23:["$","$L29",null,{"article":"$12:3:props:children:1:props:article","relatedArticles":[{"slug":"ai-ambient-listening-japan","title":"Ambient AI：診察室の会話が自動でカルテになる時代","description":"米国で急速に普及するAmbient Clinical Documentation。日本語対応の現状と、導入を検討する医療機関へのガイド","category":"workflow","contentType":"article","newsType":"$undefined","difficulty":"intermediate","tags":["Ambient","音声認識","カルテ","SOAP","Nuance","日本語対応"],"publishedAt":"2026-03-03","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":6,"content":"$2a","coverImage":null},{"slug":"ai-documentation-efficiency","title":"AI文書作成で診療時間を取り戻す","description":"紹介状、退院サマリー、診断書。医師の文書業務をAIで効率化する実践テクニックと、品質を保つためのチェックポイント","category":"workflow","contentType":"article","newsType":"$undefined","difficulty":"beginner","tags":["文書作成","退院サマリー","紹介状","業務効率化","働き方改革"],"publishedAt":"2026-02-28","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":6,"content":"$2b","coverImage":null},{"slug":"ai-antibiotic-stewardship","title":"AI抗菌薬適正使用（スチュワードシップ）ワークフロー","description":"培養結果の解釈からde-escalation判断まで、AIを活用して抗菌薬の適正使用を実践するワークフロー。","category":"workflow","contentType":"guide","newsType":"$undefined","difficulty":"intermediate","tags":["抗菌薬","スチュワードシップ","AI","感染症","de-escalation","研修医"],"publishedAt":"2026-02-25","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":10,"content":"$2c","coverImage":null}],"relatedCourses":[{"courseId":"prompt-engineering-basics","title":"プロンプトエンジニアリング基礎","description":"AIへの効果的な指示の出し方、基本テクニック、医療分野での実践的なプロンプト設計を学びます","category":"workflow","level":"beginner","lessonCount":5,"estimatedTotalMinutes":98,"order":3,"free":true,"learningOutcomes":["効果的なプロンプトを設計できる","医療文脈に適したプロンプトを作成できる","プロンプトの品質を評価・改善できる"],"prerequisites":["ai-basics"],"targetAudience":["AIツールをもっと上手に使いたい方","臨床業務でAIを活用したい医療者","プロンプト設計の基礎を学びたい方"],"skills":["プロンプト設計","AI活用","医療プロンプト"],"coverImage":"$undefined"},{"courseId":"ai-implementation-framework","title":"医療AI導入フレームワーク - R.O.A.D.モデル","description":"医療現場へのAI導入を体系的に進めるR.O.A.D.モデル、リスク評価、組織変革、効果測定の方法を学びます","category":"clinical-ai","level":"intermediate","lessonCount":8,"estimatedTotalMinutes":140,"order":15,"free":false,"learningOutcomes":["R.O.A.D.モデルに基づくAI導入計画を策定できる","医療AI導入のリスク評価を実施できる","組織変革マネジメントの手法を理解できる","AI導入の効果測定と改善プロセスを実践できる"],"prerequisites":["ai-basics","medical-ai-overview"],"targetAudience":["医療機関でAI導入を推進する立場の方","医療情報システム担当者","病院経営に関わる方"],"skills":["AI導入計画","リスク評価","組織変革"],"coverImage":"$undefined"}]}]
+24:["$","$L2d",null,{}]
+25:["$","$L2e",null,{"article":"$12:3:props:children:1:props:article","nextArticle":"$23:props:relatedArticles:0"}]
+27:[["$","h1",null,{"children":"AI遠隔医療・オンライン診療ワークフロー"}],"\n",["$","h2",null,{"id":"遠隔医療の現状","children":"遠隔医療の現状"}],"\n",["$","p",null,{"children":"COVID-19パンデミック以降、オンライン診療は日本でも急速に普及しました。2024年の診療報酬改定でオンライン診療の算定要件が緩和され、利用は拡大傾向にあります。"}],"\n",["$","h3",null,{"id":"世界の動向","children":"世界の動向"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"地域"}],["$","th",null,{"children":"システム"}],["$","th",null,{"children":"特徴"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"中国"}]}],["$","td",null,{"children":"PingAn Good Doctor"}],["$","td",null,{"children":"1日100万件以上のAI問診+医師相談。AIが一次問診→医師が確認・処方"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"米国"}]}],["$","td",null,{"children":"Teladoc + AI"}],["$","td",null,{"children":"AIトリアージ後に適切な医師にルーティング"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"英国"}]}],["$","td",null,{"children":"旧Babylon Health"}],["$","td",null,{"children":"AI症状チェッカー+GP（かかりつけ医）ビデオ相談"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"イスラエル"}]}],["$","td",null,{"children":"Sheba BEYOND"}],["$","td",null,{"children":"AI遠隔モニタリング+仮想病院。退院後の遠隔フォロー"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"日本"}]}],["$","td",null,{"children":"CLINICS、curon等"}],["$","td",null,{"children":"オンライン診療プラットフォーム+AI問診連携"}]]}]]}]]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"ワークフロー","children":"ワークフロー"}],"\n",["$","h3",null,{"id":"step-1-診察前準備-aiトリアージ","children":"Step 1: 診察前準備 — AIトリアージ"}],"\n",["$","p",null,{"children":["オンライン診療では、対面と比べて",["$","strong",null,{"children":"得られる情報が限られます"}],"。事前のAIトリアージで情報を最大限に収集します。"]}],"\n",["$","h4",null,{"children":"AI問診の活用（Ubie等と連携）"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"患者がアプリで症状入力\n  ↓\nAIが追加質問を自動生成\n  ↓\n構造化された問診結果 + 参考病名が医師に提示\n  ↓\n医師はビデオ通話前に情報を把握\n"}]}],"\n",["$","h4",null,{"children":"オンライン診療の適否判断プロンプト"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"以下の症状について、オンライン診療で対応可能か\n判断してください。\n\n# 患者情報\n- 年齢/性別: [年齢/性別]\n- 既往歴: [既往歴]\n- AI問診の結果: [AI問診で得られた情報]\n- 主訴: [主訴]\n- バイタルサイン（患者自己測定）: [あれば]\n\n# オンライン診療で対応可能な条件\n1. 身体診察が診断に必須ではない\n2. 緊急性が低い（救急搬送の必要がない）\n3. 画像検査・血液検査が必須ではない\n4. 処方のみで対応可能、または経過観察で可\n\n# オンライン診療が不適切な条件\n1. Red flags（胸痛、呼吸困難、意識障害、片麻痺等）\n2. 身体診察なしでは鑑別できない\n3. 処置が必要（創傷処置、排膿等）\n4. 検査が必須（血液検査、画像検査）\n\n# 出力\n1. オンライン診療の適否判断と理由\n2. 対応可能な場合: ビデオ通話で確認すべきポイント\n3. 不適切な場合: 対面受診を勧める理由と緊急度\n4. 中間的な場合: オンラインでの初期評価後に\n   対面受診を検討する基準\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"id":"step-2-ビデオ通話中-ai補助","children":"Step 2: ビデオ通話中 — AI補助"}],"\n",["$","h4",null,{"children":"画面越しの観察ポイント"}],"\n",["$","p",null,{"children":["オンライン診療では身体診察ができない分、",["$","strong",null,{"children":"画面越しの観察"}],"が重要です。"]}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"確認すべきこと:\n□ 全体的な印象（元気そうか、辛そうか）\n□ 顔色（蒼白、黄疸、紅潮）\n□ 呼吸の様子（呼吸困難の兆候、会話中の息切れ）\n□ 発疹・腫脹（患部をカメラに映してもらう）\n□ 可動域（四肢の動きを確認）\n□ 咽頭所見（ライトで照らして口を開けてもらう）\n"}]}],"\n",["$","h4",null,{"children":"患者に自己測定を依頼するプロンプト"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"以下の症状のオンライン診療で、患者に自宅で\n確認してもらうべき項目を教えてください。\n\n# 主訴\n[例: 3日前からの咳と発熱]\n\n# 患者が持っている可能性のある機器\n- 体温計: ほぼ全員\n- パルスオキシメーター: 一部\n- 血圧計: 高齢者では多い\n- 体重計: ほぼ全員\n\n# 出力\n1. 患者に自己測定してもらう項目と方法\n2. カメラを使って確認できる所見\n3. 患者への指示の伝え方（わかりやすく）\n4. 測定結果に基づくトリアージ\n   （自宅療養/翌日受診/今日受診/救急受診）\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"id":"step-3-診察後-aiフォローアップ","children":"Step 3: 診察後 — AIフォローアップ"}],"\n",["$","h4",null,{"children":"処方後の自動フォローアップ設計"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"以下のオンライン診療後のフォローアップ計画を作成してください。\n\n# 診察結果\n- 診断: [診断名]\n- 処方: [処方内容]\n- 指導内容: [患者への指導]\n\n# フォローアップ計画\n1. 経過観察期間と再診のタイミング\n2. 症状悪化時の対応基準（患者向け、平易な言葉で）\n   - このくらいなら自宅で様子を見てOK\n   - この症状が出たら再度オンライン受診\n   - この症状が出たら対面で受診\n   - この症状が出たら救急受診/119番\n3. 服薬指導のポイント\n4. 生活指導（安静度、食事、入浴等）\n"}]}],"\n",["$","h4",null,{"children":"慢性疾患の遠隔モニタリング"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"以下の慢性疾患患者のオンラインフォローアップを\n構造化してください。\n\n# 患者情報\n- 診断: [例: 2型糖尿病、高血圧]\n- 現在の処方: [薬剤リスト]\n- 前回受診: [日付]\n- 今回の自己測定データ:\n  - 血圧手帳: [朝晩の血圧値、1-2週間分]\n  - 血糖自己測定: [食前食後の値]\n  - 体重推移: [週1-2回]\n\n# 出力\n1. データの傾向分析（改善/横ばい/悪化）\n2. 処方変更の必要性\n3. 次回までに確認すべき検査（対面受診が必要な場合）\n4. 患者への生活指導のポイント\n5. 次回フォローのタイミング\n"}]}],"\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e"]
+2f:["$","hr",null,{}]
+30:["$","h2",null,{"id":"オンライン診療でaiが特に有用な場面","children":"オンライン診療でAIが特に有用な場面"}]
+31:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"場面"}],["$","th",null,{"children":"AIの役割"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"皮膚疾患"}]}],["$","td",null,{"children":"患者が撮影した写真のAI解析（参考所見の提示）"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"慢性疾患フォロー"}]}],["$","td",null,{"children":"自己測定データのトレンド分析、異常値の検出"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"メンタルヘルス"}]}],["$","td",null,{"children":"定期的なスクリーニング（PHQ-9等）の自動実施と推移追跡"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"服薬アドヒアランス"}]}],["$","td",null,{"children":"服薬記録のAI分析、飲み忘れパターンの検出"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","strong",null,{"children":"退院後フォロー"}]}],["$","td",null,{"children":"バイタルデータの遠隔モニタリングと異常値アラート"}]]}]]}]]}]
+32:["$","hr",null,{}]
+33:["$","h2",null,{"id":"オンライン診療の限界とaiでは補えないこと","children":"オンライン診療の限界とAIでは補えないこと"}]
+34:["$","h3",null,{"id":"絶対に対面が必要な場面","children":"絶対に対面が必要な場面"}]
+35:["$","pre",null,{"children":["$","code",null,{"children":"- 急性腹症（触診なしでは評価不可能）\n- 胸痛（心電図、血液検査が必要）\n- 神経学的異常の精密評価（深部腱反射、小脳徴候等）\n- 耳鏡・眼底検査が必要な場合\n- 処置が必要な場合（創傷、膿瘍、関節穿刺等）\n- 重症度の高い初診患者\n"}]}]
+36:["$","h3",null,{"id":"患者側の課題","children":"患者側の課題"}]
+37:["$","ul",null,{"children":["\n",["$","li",null,{"children":"デジタルリテラシーの格差（高齢者はサポートが必要）"}],"\n",["$","li",null,{"children":"通信環境の不安定さ"}],"\n",["$","li",null,{"children":"プライバシーの確保（家族がいる環境での相談しにくさ）"}],"\n",["$","li",null,{"children":"自己測定の精度（血圧の測り方、体温計の使い方）"}],"\n"]}]
+38:["$","hr",null,{}]
+39:["$","h2",null,{"id":"よくある質問","children":"よくある質問"}]
+3a:["$","p",null,{"children":[["$","strong",null,{"children":"Q: オンライン診療で見逃しが起きたらどうする？"}],"\nA: オンライン診療では身体所見が取れないため、見逃しのリスクは対面より高くなります。対策として: (1) 安全側に倒す（迷ったら対面受診を推奨）、(2) 再受診の基準を明確に伝える、(3) フォローアップのタイミングを短めに設定する。"]}]
+3b:["$","p",null,{"children":[["$","strong",null,{"children":"Q: オンライン診療で処方できない薬はある？"}],"\nA: 向精神薬など一部の薬剤はオンライン診療での初回処方に制限があります。厚労省のガイドラインと各施設のルールを確認してください。"]}]
+3c:["$","hr",null,{}]
+3d:["$","h2",null,{"id":"安全に関する注意","children":"安全に関する注意"}]
+3e:["$","ul",null,{"children":["\n",["$","li",null,{"children":["オンライン診療は",["$","strong",null,{"children":"対面診療の代替ではなく補完"}],"です"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Red flags"}],"がある場合は対面受診または救急受診を指示してください"]}],"\n",["$","li",null,{"children":["初診の場合は特に慎重に。",["$","strong",null,{"children":"診断の確信度が低い場合は対面受診を推奨"}],"してください"]}],"\n",["$","li",null,{"children":"患者のオンライン環境（通信品質、プライバシー）を確認してください"}],"\n",["$","li",null,{"children":"医師法・オンライン診療ガイドラインに準拠した運用を行ってください"}],"\n"]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+3f:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"AI遠隔医療・オンライン診療ワークフロー | Hoshizu"}],["$","meta","1",{"name":"description","content":"オンライン診療でAIを活用したトリアージ、診察補助、フォローアップの効率化ワークフロー。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/knowledge/ai-telemedicine-workflow"}],["$","meta","4",{"property":"og:title","content":"AI遠隔医療・オンライン診療ワークフロー"}],["$","meta","5",{"property":"og:description","content":"オンライン診療でAIを活用したトリアージ、診察補助、フォローアップの効率化ワークフロー。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2026-02-25"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","11",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","12",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","13",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico"}],["$","link","15",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L3f","16",{}]]

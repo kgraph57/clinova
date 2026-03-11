@@ -1,0 +1,237 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[76354,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"StatHighlight"]
+f:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+2f:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+30:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+31:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+32:"$Sreact.suspense"
+34:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+35:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+36:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T28c5,
+# ニーズ評価とペインポイント分析
+
+AI導入で最もよくある失敗は、「解決すべき問題」ではなく「利用可能な技術」から出発することです。本章では、医療現場の真のペインポイントを体系的に特定し、AI導入の意思決定を支える「ニーズ評価」の具体的手法を解説します。
+
+## なぜニーズ評価が最重要ステップなのか
+
+<StatHighlight value="3倍" label="ニーズ評価を実施したプロジェクトの成功率は、実施しなかったプロジェクトの約3倍" source="HIMSS Analytics, 2025" />
+
+McKinseyの調査によると、医療AI導入で成功した組織の92%が「構造化されたニーズ評価プロセス」を経ていました。一方、失敗したプロジェクトの78%は「ベンダーのデモを見て導入を決定した」と回答しています。
+
+ニーズ評価は単なる「聞き取り調査」ではありません。以下の3つのレイヤーで構造的に分析する必要があります。
+
+<StepFlow>
+<StepFlowStep number={1} title="表層ニーズの収集">
+現場スタッフが日常的に感じている不満や非効率。「カルテ記載に時間がかかる」「画像の読影待ちが長い」など、表面的な声を幅広く集めます。
+</StepFlowStep>
+<StepFlowStep number={2} title="根本原因の分析">
+表層ニーズの背後にある構造的な問題を特定。「カルテ記載に時間がかかる」の根本原因は、テンプレートの不備か、入力インターフェースの問題か、そもそも情報過多か。
+</StepFlowStep>
+<StepFlowStep number={3} title="AIフィット評価">
+特定された問題が本当にAIで解決可能かを技術的に評価。すべての問題にAIが最適解とは限りません。プロセス改善やシステム設定変更で解決できる問題も多い。
+</StepFlowStep>
+</StepFlow>
+
+## ニーズ評価の5ステップフレームワーク
+
+### ステップ1：現場観察（シャドーイング）
+
+まず、データや聞き取りに先立ち、**実際の業務フローを観察**します。
+
+<Callout title="シャドーイングの実施ガイドライン">
+- **対象部門**：3-5部門を選定（例：外来、病棟、放射線科、薬剤部、医事課）
+- **観察時間**：各部門2-3日間、朝～夕方のフルシフト
+- **観察者**：AI導入担当者 + 外部の目（コンサルタントまたは他部門スタッフ）
+- **記録方法**：タイムスタディ形式で業務内容・所要時間・中断回数を記録
+- **注意点**：観察されることで行動が変わる「ホーソン効果」に留意
+</Callout>
+
+観察時に注目すべきポイント：
+
+| 観察カテゴリ | 具体的な観察ポイント | 記録方法 |
+|-------------|---------------------|---------|
+| 時間消費 | 各タスクの所要時間、待ち時間 | タイムスタディシート |
+| 繰り返し作業 | 同じ情報の複数回入力、定型的な判断 | フリークエンシーカウント |
+| 情報伝達 | 口頭伝達、紙ベースの情報共有 | コミュニケーションマップ |
+| エラー・ヒヤリハット | 確認ミス、見落とし、ダブルチェック | インシデント分類 |
+| スタッフの表情・疲労 | ストレスが高い場面、集中力低下 | 観察メモ |
+
+### ステップ2：インタビューとアンケート
+
+シャドーイングで得た仮説を、インタビューとアンケートで検証します。
+
+**半構造化インタビュー（推奨質問リスト）**
+
+<PromptTemplate title="ニーズ評価インタビュー質問テンプレート">
+**業務の全体像**
+1. 日常業務で最も時間がかかっている作業は何ですか？
+2. 「この作業がなくなれば楽になる」と感じるものは？
+3. 過去1ヶ月で「これはもっと効率化できるはず」と感じた場面は？
+
+**情報とデータ**
+4. 意思決定に必要な情報が手元にないと感じることはありますか？
+5. 同じデータを複数のシステムに入力する作業はありますか？
+6. 「データはあるはずなのに活用できていない」と感じる場面は？
+
+**品質と安全性**
+7. ヒヤリハットや確認ミスが起きやすい場面はどこですか？
+8. ダブルチェックに依存している業務プロセスはありますか？
+9. 見落としのリスクが高い業務は？
+
+**AIへの期待と不安**
+10. AIが業務を助けてくれるとしたら、どの場面で使いたいですか？
+11. AIの利用に対して不安に感じることはありますか？
+12. AI導入で最も懸念されることは？
+</PromptTemplate>
+
+**定量アンケートの設計**
+
+インタビューと並行して、全スタッフ向けの定量アンケートを実施します。
+
+- **対象**：導入候補部門の全スタッフ（回収率目標：70%以上）
+- **形式**：5段階リッカートスケール + 自由記述
+- **所要時間**：10分以内（回収率を確保するため短く）
+- **匿名性**：確保する（率直な回答を促すため）
+
+### ステップ3：データ分析
+
+現場観察とインタビューの定性データに加え、既存の定量データを分析します。
+
+| データソース | 分析項目 | AI適合性の指標 |
+|-------------|---------|---------------|
+| 電子カルテログ | 入力時間、テンプレート使用率 | 高い定型性 = AI適合度高 |
+| インシデントレポート | エラー類型、発生頻度、重症度 | パターン認識可能 = AI適合度高 |
+| 待ち時間データ | 検査待ち、結果報告待ち | ボトルネック特定 |
+| 人件費データ | 時間外勤務、部門別人件費率 | コスト削減ポテンシャル |
+| 患者満足度調査 | 不満項目のトレンド | 患者価値への直接影響 |
+
+### ステップ4：ペインポイントの優先順位付け
+
+収集したデータをもとに、ペインポイントを構造化して優先順位を付けます。
+
+<Callout title="ペインポイント優先順位マトリクス">
+以下の4軸で各ペインポイントをスコアリングします（各1-5点）：
+
+1. **影響度（Impact）**：患者アウトカム・業務効率への影響の大きさ
+2. **頻度（Frequency）**：どれくらいの頻度で発生するか
+3. **緊急度（Urgency）**：放置した場合のリスクの大きさ
+4. **AI適合度（AI Fit）**：AIで解決可能な程度
+
+**総合スコア = Impact × Frequency × Urgency × AI Fit**
+
+スコアが高い順に上位5-10件を「AI導入候補」として選定します。
+</Callout>
+
+**具体例：ある500床病院でのスコアリング結果**
+
+| ペインポイント | Impact | Freq | Urgency | AI Fit | 総合スコア |
+|---------------|--------|------|---------|--------|-----------|
+| 読影レポート作成の遅延 | 5 | 5 | 4 | 5 | 500 |
+| 退院サマリーの記載負担 | 4 | 5 | 3 | 5 | 300 |
+| 薬剤相互作用チェック | 5 | 4 | 5 | 4 | 400 |
+| 病床管理の非効率 | 4 | 4 | 3 | 3 | 144 |
+| 予約スケジュール調整 | 3 | 5 | 2 | 4 | 120 |
+
+### ステップ5：ニーズ評価レポートの作成
+
+<PromptTemplate title="ニーズ評価レポート構成テンプレート">
+**1. エグゼクティブサマリー**（1ページ）
+- 調査の目的と方法
+- 主要な発見事項（トップ3）
+- 推奨するAI導入候補（上位3件）
+
+**2. 調査方法**（1-2ページ）
+- 対象部門と期間
+- シャドーイング実施状況
+- インタビュー・アンケート回収状況
+
+**3. 現状分析**（3-5ページ）
+- 部門別のペインポイント一覧
+- データ分析結果
+- ペインポイント優先順位マトリクス
+
+**4. AI導入候補の詳細分析**（候補ごとに1-2ページ）
+- 問題の詳細記述
+- 現在のプロセスフロー
+- AIによる改善案
+- 期待される効果（定量・定性）
+- 必要なデータとインフラ
+- 想定リスクと対策
+
+**5. 推奨事項と次のステップ**（1ページ）
+- 優先順位付きの推奨事項
+- 次のフェーズ（デジタル成熟度評価）への移行計画
+</PromptTemplate>
+
+## よくある落とし穴と対策
+
+<Warning>
+以下のバイアスに特に注意してください：
+
+1. **声の大きい人バイアス** — 発言力のある医師の意見だけが反映される。アンケートの匿名性確保と、全職種からの均等なサンプリングで対策。
+2. **確証バイアス** — 「AIで解決できるはず」という前提で情報を集めてしまう。AIが適切でないケースも積極的に記録する。
+3. **現状維持バイアス** — 「今のやり方で十分」という声に引きずられる。客観的なデータ（時間、コスト、エラー率）で現状の非効率を可視化する。
+</Warning>
+
+## ケーススタディ：聖路加国際病院のニーズ評価
+
+聖路加国際病院では2023年、全部門を対象としたニーズ評価を3ヶ月かけて実施しました。
+
+- **シャドーイング**：12部門、延べ36日間
+- **インタビュー**：82名（医師28名、看護師32名、技師12名、事務10名）
+- **アンケート**：回収率78%（1,240名中968名）
+
+その結果、当初経営層が想定していた「診断支援AI」ではなく、「文書作成支援AI」が最優先ニーズとして浮上しました。医師の業務時間の約40%がドキュメンテーションに費やされており、直接患者ケアの時間を圧迫していることが定量的に示されたのです。
+
+<KeyTakeaway>
+ニーズ評価の本質は「現場の声を聞くこと」ではなく、「データに基づいて組織の真のペインポイントを構造的に特定すること」である。表層的なニーズと根本原因を区別し、AIフィット評価まで含めた包括的な分析を行うことで、導入後の成功確率は飛躍的に高まる。
+</KeyTakeaway>
+
+## 次章に向けて
+
+ニーズ評価で「何を解決すべきか」が明確になったら、次は「組織にその準備ができているか」を評価します。次章では、デジタル成熟度評価（組織レディネス診断）について解説します。
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-ai-implementation","lessonSlug":"01-01-needs-assessment"}],["$","$L4",null,{"items":[{"id":"なぜニーズ評価が最重要ステップなのか","text":"なぜニーズ評価が最重要ステップなのか","level":2},{"id":"ニーズ評価の5ステップフレームワーク","text":"ニーズ評価の5ステップフレームワーク","level":2},{"id":"ステップ1現場観察シャドーイング","text":"ステップ1：現場観察（シャドーイング）","level":3},{"id":"ステップ2インタビューとアンケート","text":"ステップ2：インタビューとアンケート","level":3},{"id":"ステップ3データ分析","text":"ステップ3：データ分析","level":3},{"id":"ステップ4ペインポイントの優先順位付け","text":"ステップ4：ペインポイントの優先順位付け","level":3},{"id":"ステップ5ニーズ評価レポートの作成","text":"ステップ5：ニーズ評価レポートの作成","level":3},{"id":"よくある落とし穴と対策","text":"よくある落とし穴と対策","level":2},{"id":"ケーススタディ聖路加国際病院のニーズ評価","text":"ケーススタディ：聖路加国際病院のニーズ評価","level":2},{"id":"次章に向けて","text":"次章に向けて","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"ai-implementation","bookTitle":"医療AI導入マネジメント — 病院・部門レベルの戦略ガイド","chapter":{"slug":"01-01-needs-assessment","title":"ニーズ評価とペインポイント分析","description":"医療現場の真のペインポイントを特定し、AI導入の優先順位を決定するための体系的なニーズ評価手法。","partId":"part01","partTitle":"導入前の準備","order":1,"partOrder":1,"estimatedMinutes":20,"estimatedReadTime":12,"free":true,"status":"published","tags":["ニーズ評価","ペインポイント","要件定義","現場分析"],"content":"$6"},"totalChapters":21}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"なぜニーズ評価が最重要ステップなのか","text":"なぜニーズ評価が最重要ステップなのか","level":2},{"id":"ニーズ評価の5ステップフレームワーク","text":"ニーズ評価の5ステップフレームワーク","level":2},{"id":"ステップ1現場観察シャドーイング","text":"ステップ1：現場観察（シャドーイング）","level":3},{"id":"ステップ2インタビューとアンケート","text":"ステップ2：インタビューとアンケート","level":3},{"id":"ステップ3データ分析","text":"ステップ3：データ分析","level":3},{"id":"ステップ4ペインポイントの優先順位付け","text":"ステップ4：ペインポイントの優先順位付け","level":3},{"id":"ステップ5ニーズ評価レポートの作成","text":"ステップ5：ニーズ評価レポートの作成","level":3},{"id":"よくある落とし穴と対策","text":"よくある落とし穴と対策","level":2},{"id":"ケーススタディ聖路加国際病院のニーズ評価","text":"ケーススタディ：聖路加国際病院のニーズ評価","level":2},{"id":"次章に向けて","text":"次章に向けて","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","h1",null,{"children":"ニーズ評価とペインポイント分析"}],"\n",["$","p",null,{"children":"AI導入で最もよくある失敗は、「解決すべき問題」ではなく「利用可能な技術」から出発することです。本章では、医療現場の真のペインポイントを体系的に特定し、AI導入の意思決定を支える「ニーズ評価」の具体的手法を解説します。"}],"\n",["$","h2",null,{"id":"なぜニーズ評価が最重要ステップなのか","children":"なぜニーズ評価が最重要ステップなのか"}],"\n",["$","$Le",null,{"value":"3倍","label":"ニーズ評価を実施したプロジェクトの成功率は、実施しなかったプロジェクトの約3倍","source":"HIMSS Analytics, 2025"}],"\n",["$","p",null,{"children":"McKinseyの調査によると、医療AI導入で成功した組織の92%が「構造化されたニーズ評価プロセス」を経ていました。一方、失敗したプロジェクトの78%は「ベンダーのデモを見て導入を決定した」と回答しています。"}],"\n",["$","p",null,{"children":"ニーズ評価は単なる「聞き取り調査」ではありません。以下の3つのレイヤーで構造的に分析する必要があります。"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"表層ニーズの収集"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"現場スタッフが日常的に感じている不満や非効率。「カルテ記載に時間がかかる」「画像の読影待ちが長い」など、表面的な声を幅広く集めます。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"根本原因の分析"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"表層ニーズの背後にある構造的な問題を特定。「カルテ記載に時間がかかる」の根本原因は、テンプレートの不備か、入力インターフェースの問題か、そもそも情報過多か。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"AIフィット評価"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"特定された問題が本当にAIで解決可能かを技術的に評価。すべての問題にAIが最適解とは限りません。プロセス改善やシステム設定変更で解決できる問題も多い。"}]}]]}]]}]]}]]}],"\n",["$","h2",null,{"id":"ニーズ評価の5ステップフレームワーク","children":"ニーズ評価の5ステップフレームワーク"}],"\n",["$","h3",null,{"id":"ステップ1現場観察シャドーイング","children":"ステップ1：現場観察（シャドーイング）"}],"\n",["$","p",null,{"children":["まず、データや聞き取りに先立ち、",["$","strong",null,{"children":"実際の業務フローを観察"}],"します。"]}],"\n",["$","$Lf",null,{"title":"シャドーイングの実施ガイドライン","children":["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"対象部門"}],"：3-5部門を選定（例：外来、病棟、放射線科、薬剤部、医事課）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"観察時間"}],"：各部門2-3日間、朝～夕方のフルシフト"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"観察者"}],"：AI導入担当者 + 外部の目（コンサルタントまたは他部門スタッフ）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"記録方法"}],"：タイムスタディ形式で業務内容・所要時間・中断回数を記録"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"注意点"}],"：観察されることで行動が変わる「ホーソン効果」に留意"]}],"\n"]}]}],"\n",["$","p",null,{"children":"観察時に注目すべきポイント："}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"観察カテゴリ"}],["$","th",null,{"children":"具体的な観察ポイント"}],["$","th",null,{"children":"記録方法"}]]}]}],["$","tbody",null,{"children":["$L10","$L11","$L12","$L13","$L14"]}]]}],"\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e"]}]
+9:["$","$L2f",null,{"bookId":"ai-implementation","chapterSlug":"01-01-needs-assessment"}]
+a:["$","$L30",null,{"bookId":"ai-implementation","prev":{"slug":"00-00-preface","title":"なぜ医療AI導入の70%は失敗するのか","order":0},"next":{"slug":"01-02-readiness","title":"デジタル成熟度評価（組織レディネス診断）","order":2}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L31",null,{"children":["$","$32",null,{"name":"Next.MetadataOutlet","children":"$@33"}]}]
+10:["$","tr",null,{"children":[["$","td",null,{"children":"時間消費"}],["$","td",null,{"children":"各タスクの所要時間、待ち時間"}],["$","td",null,{"children":"タイムスタディシート"}]]}]
+11:["$","tr",null,{"children":[["$","td",null,{"children":"繰り返し作業"}],["$","td",null,{"children":"同じ情報の複数回入力、定型的な判断"}],["$","td",null,{"children":"フリークエンシーカウント"}]]}]
+12:["$","tr",null,{"children":[["$","td",null,{"children":"情報伝達"}],["$","td",null,{"children":"口頭伝達、紙ベースの情報共有"}],["$","td",null,{"children":"コミュニケーションマップ"}]]}]
+13:["$","tr",null,{"children":[["$","td",null,{"children":"エラー・ヒヤリハット"}],["$","td",null,{"children":"確認ミス、見落とし、ダブルチェック"}],["$","td",null,{"children":"インシデント分類"}]]}]
+14:["$","tr",null,{"children":[["$","td",null,{"children":"スタッフの表情・疲労"}],["$","td",null,{"children":"ストレスが高い場面、集中力低下"}],["$","td",null,{"children":"観察メモ"}]]}]
+15:["$","h3",null,{"id":"ステップ2インタビューとアンケート","children":"ステップ2：インタビューとアンケート"}]
+16:["$","p",null,{"children":"シャドーイングで得た仮説を、インタビューとアンケートで検証します。"}]
+17:["$","p",null,{"children":["$","strong",null,{"children":"半構造化インタビュー（推奨質問リスト）"}]}]
+18:["$","$L34",null,{"title":"ニーズ評価インタビュー質問テンプレート","children":[["$","p",null,{"children":["$","strong",null,{"children":"業務の全体像"}]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"日常業務で最も時間がかかっている作業は何ですか？"}],"\n",["$","li",null,{"children":"「この作業がなくなれば楽になる」と感じるものは？"}],"\n",["$","li",null,{"children":"過去1ヶ月で「これはもっと効率化できるはず」と感じた場面は？"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"情報とデータ"}],"\n4. 意思決定に必要な情報が手元にないと感じることはありますか？\n5. 同じデータを複数のシステムに入力する作業はありますか？\n6. 「データはあるはずなのに活用できていない」と感じる場面は？"]}],["$","p",null,{"children":[["$","strong",null,{"children":"品質と安全性"}],"\n7. ヒヤリハットや確認ミスが起きやすい場面はどこですか？\n8. ダブルチェックに依存している業務プロセスはありますか？\n9. 見落としのリスクが高い業務は？"]}],["$","p",null,{"children":[["$","strong",null,{"children":"AIへの期待と不安"}],"\n10. AIが業務を助けてくれるとしたら、どの場面で使いたいですか？\n11. AIの利用に対して不安に感じることはありますか？\n12. AI導入で最も懸念されることは？"]}]]}]
+19:["$","p",null,{"children":["$","strong",null,{"children":"定量アンケートの設計"}]}]
+1a:["$","p",null,{"children":"インタビューと並行して、全スタッフ向けの定量アンケートを実施します。"}]
+1b:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"対象"}],"：導入候補部門の全スタッフ（回収率目標：70%以上）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"形式"}],"：5段階リッカートスケール + 自由記述"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"所要時間"}],"：10分以内（回収率を確保するため短く）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"匿名性"}],"：確保する（率直な回答を促すため）"]}],"\n"]}]
+1c:["$","h3",null,{"id":"ステップ3データ分析","children":"ステップ3：データ分析"}]
+1d:["$","p",null,{"children":"現場観察とインタビューの定性データに加え、既存の定量データを分析します。"}]
+1e:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"データソース"}],["$","th",null,{"children":"分析項目"}],["$","th",null,{"children":"AI適合性の指標"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"電子カルテログ"}],["$","td",null,{"children":"入力時間、テンプレート使用率"}],["$","td",null,{"children":"高い定型性 = AI適合度高"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"インシデントレポート"}],["$","td",null,{"children":"エラー類型、発生頻度、重症度"}],["$","td",null,{"children":"パターン認識可能 = AI適合度高"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"待ち時間データ"}],["$","td",null,{"children":"検査待ち、結果報告待ち"}],["$","td",null,{"children":"ボトルネック特定"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"人件費データ"}],["$","td",null,{"children":"時間外勤務、部門別人件費率"}],["$","td",null,{"children":"コスト削減ポテンシャル"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"患者満足度調査"}],["$","td",null,{"children":"不満項目のトレンド"}],["$","td",null,{"children":"患者価値への直接影響"}]]}]]}]]}]
+1f:["$","h3",null,{"id":"ステップ4ペインポイントの優先順位付け","children":"ステップ4：ペインポイントの優先順位付け"}]
+20:["$","p",null,{"children":"収集したデータをもとに、ペインポイントを構造化して優先順位を付けます。"}]
+21:["$","$Lf",null,{"title":"ペインポイント優先順位マトリクス","children":[["$","p",null,{"children":"以下の4軸で各ペインポイントをスコアリングします（各1-5点）："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"影響度（Impact）"}],"：患者アウトカム・業務効率への影響の大きさ"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"頻度（Frequency）"}],"：どれくらいの頻度で発生するか"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"緊急度（Urgency）"}],"：放置した場合のリスクの大きさ"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"AI適合度（AI Fit）"}],"：AIで解決可能な程度"]}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"総合スコア = Impact × Frequency × Urgency × AI Fit"}]}],["$","p",null,{"children":"スコアが高い順に上位5-10件を「AI導入候補」として選定します。"}]]}]
+22:["$","p",null,{"children":["$","strong",null,{"children":"具体例：ある500床病院でのスコアリング結果"}]}]
+23:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"ペインポイント"}],["$","th",null,{"children":"Impact"}],["$","th",null,{"children":"Freq"}],["$","th",null,{"children":"Urgency"}],["$","th",null,{"children":"AI Fit"}],["$","th",null,{"children":"総合スコア"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"読影レポート作成の遅延"}],["$","td",null,{"children":"5"}],["$","td",null,{"children":"5"}],["$","td",null,{"children":"4"}],["$","td",null,{"children":"5"}],["$","td",null,{"children":"500"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"退院サマリーの記載負担"}],["$","td",null,{"children":"4"}],["$","td",null,{"children":"5"}],["$","td",null,{"children":"3"}],["$","td",null,{"children":"5"}],["$","td",null,{"children":"300"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"薬剤相互作用チェック"}],["$","td",null,{"children":"5"}],["$","td",null,{"children":"4"}],["$","td",null,{"children":"5"}],["$","td",null,{"children":"4"}],["$","td",null,{"children":"400"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"病床管理の非効率"}],["$","td",null,{"children":"4"}],["$","td",null,{"children":"4"}],["$","td",null,{"children":"3"}],["$","td",null,{"children":"3"}],["$","td",null,{"children":"144"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"予約スケジュール調整"}],["$","td",null,{"children":"3"}],["$","td",null,{"children":"5"}],["$","td",null,{"children":"2"}],["$","td",null,{"children":"4"}],["$","td",null,{"children":"120"}]]}]]}]]}]
+24:["$","h3",null,{"id":"ステップ5ニーズ評価レポートの作成","children":"ステップ5：ニーズ評価レポートの作成"}]
+25:["$","$L34",null,{"title":"ニーズ評価レポート構成テンプレート","children":[["$","p",null,{"children":[["$","strong",null,{"children":"1. エグゼクティブサマリー"}],"（1ページ）"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"調査の目的と方法"}],"\n",["$","li",null,{"children":"主要な発見事項（トップ3）"}],"\n",["$","li",null,{"children":"推奨するAI導入候補（上位3件）"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"2. 調査方法"}],"（1-2ページ）"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"対象部門と期間"}],"\n",["$","li",null,{"children":"シャドーイング実施状況"}],"\n",["$","li",null,{"children":"インタビュー・アンケート回収状況"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"3. 現状分析"}],"（3-5ページ）"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"部門別のペインポイント一覧"}],"\n",["$","li",null,{"children":"データ分析結果"}],"\n",["$","li",null,{"children":"ペインポイント優先順位マトリクス"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"4. AI導入候補の詳細分析"}],"（候補ごとに1-2ページ）"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"問題の詳細記述"}],"\n",["$","li",null,{"children":"現在のプロセスフロー"}],"\n",["$","li",null,{"children":"AIによる改善案"}],"\n",["$","li",null,{"children":"期待される効果（定量・定性）"}],"\n",["$","li",null,{"children":"必要なデータとインフラ"}],"\n",["$","li",null,{"children":"想定リスクと対策"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"5. 推奨事項と次のステップ"}],"（1ページ）"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"優先順位付きの推奨事項"}],"\n",["$","li",null,{"children":"次のフェーズ（デジタル成熟度評価）への移行計画"}],"\n"]}]]}]
+26:["$","h2",null,{"id":"よくある落とし穴と対策","children":"よくある落とし穴と対策"}]
+27:["$","$L35",null,{"children":[["$","p",null,{"children":"以下のバイアスに特に注意してください："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"声の大きい人バイアス"}]," — 発言力のある医師の意見だけが反映される。アンケートの匿名性確保と、全職種からの均等なサンプリングで対策。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"確証バイアス"}]," — 「AIで解決できるはず」という前提で情報を集めてしまう。AIが適切でないケースも積極的に記録する。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"現状維持バイアス"}]," — 「今のやり方で十分」という声に引きずられる。客観的なデータ（時間、コスト、エラー率）で現状の非効率を可視化する。"]}],"\n"]}]]}]
+28:["$","h2",null,{"id":"ケーススタディ聖路加国際病院のニーズ評価","children":"ケーススタディ：聖路加国際病院のニーズ評価"}]
+29:["$","p",null,{"children":"聖路加国際病院では2023年、全部門を対象としたニーズ評価を3ヶ月かけて実施しました。"}]
+2a:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"シャドーイング"}],"：12部門、延べ36日間"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"インタビュー"}],"：82名（医師28名、看護師32名、技師12名、事務10名）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"アンケート"}],"：回収率78%（1,240名中968名）"]}],"\n"]}]
+2b:["$","p",null,{"children":"その結果、当初経営層が想定していた「診断支援AI」ではなく、「文書作成支援AI」が最優先ニーズとして浮上しました。医師の業務時間の約40%がドキュメンテーションに費やされており、直接患者ケアの時間を圧迫していることが定量的に示されたのです。"}]
+2c:["$","$L36",null,{"children":["$","p",null,{"children":"ニーズ評価の本質は「現場の声を聞くこと」ではなく、「データに基づいて組織の真のペインポイントを構造的に特定すること」である。表層的なニーズと根本原因を区別し、AIフィット評価まで含めた包括的な分析を行うことで、導入後の成功確率は飛躍的に高まる。"}]}]
+2d:["$","h2",null,{"id":"次章に向けて","children":"次章に向けて"}]
+2e:["$","p",null,{"children":"ニーズ評価で「何を解決すべきか」が明確になったら、次は「組織にその準備ができているか」を評価します。次章では、デジタル成熟度評価（組織レディネス診断）について解説します。"}]
+33:null

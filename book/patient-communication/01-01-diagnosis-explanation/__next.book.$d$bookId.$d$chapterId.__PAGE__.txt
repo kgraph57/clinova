@@ -1,0 +1,315 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+3b:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+3c:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+3d:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+3e:"$Sreact.suspense"
+40:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+41:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonCard"]
+42:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T344d,
+**「先生、結局わたしはどうなんですか？」この質問が出る時点で、説明は失敗している。**
+
+---
+
+## 診断説明の現状と課題
+
+患者が診断を正しく理解しているか。この問いに対する答えは、多くの医師にとって想像以上に厳しい。
+
+2024年の *Patient Education and Counseling* に掲載された研究では、外来診察後に患者の理解度を評価したところ、以下の結果が得られた。
+
+- **自分の診断名を正確に言えた患者**: 57%
+- **診断の意味を正しく理解していた患者**: 34%
+- **次のステップ（検査・治療）を正確に説明できた患者**: 28%
+
+つまり、**約7割の患者は、自分が何の病気で、何をすべきかを正しく理解していない**のである。
+
+<Callout type="warning" title="理解度ギャップの衝撃">
+医師の89%が「十分に説明した」と感じている一方、患者の34%しか診断の意味を正しく理解していない。この「理解度ギャップ」がアドヒアランス不良と再受診の主因である。
+</Callout>
+
+---
+
+## Calgary-Cambridgeモデル：構造的説明の基盤
+
+効果的な診断説明には、構造が必要である。世界で最も広く使われているコミュニケーションフレームワークが**Calgary-Cambridgeモデル**である。
+
+このモデルでは、医療面接を5つのフェーズに分けている。
+
+<StepFlow>
+<StepFlowStep number={1} title="セッションの開始（Opening）">
+挨拶と自己紹介、患者の名前確認、今日の受診理由の確認。アジェンダセッティング（「今日お話しすることは3つあります」）を行い、面接の見通しを示す。
+</StepFlowStep>
+<StepFlowStep number={2} title="情報収集（Gathering Information）">
+開放型質問から始め、患者の解釈モデル（ICE: Ideas, Concerns, Expectations）を聴取する。「どんな病気だと思いますか？」「一番心配なことは？」「今日はどうなることを期待していますか？」
+</StepFlowStep>
+<StepFlowStep number={3} title="説明と計画（Explanation & Planning）">
+診断結果の説明、治療計画の提示、患者の理解度確認。チャンキング（情報の小分け提示）とチェッキング（理解度確認）を交互に行う。
+</StepFlowStep>
+<StepFlowStep number={4} title="関係構築（Building Relationship）">
+共感の表現、非言語コミュニケーションの活用、信頼関係の強化。面接全体を通じて継続的に行う。
+</StepFlowStep>
+<StepFlowStep number={5} title="セッションの終了（Closing）">
+要約と確認、次回の予定、質問の有無を確認。「他に聞いておきたいことはありますか？」
+</StepFlowStep>
+</StepFlow>
+
+---
+
+## AIを活用した診断説明の実践
+
+### ステップ1：患者プロファイルに基づく説明文の生成
+
+AIに診断説明を生成させる際、最も重要なのは**患者情報の詳細な入力**である。
+
+<PromptTemplate title="診断説明文の生成（基本テンプレート）">
+以下の患者に対する診断結果の説明文を作成してください。
+
+**診断名**: [診断名]
+**患者の基本情報**:
+- 年齢・性別: [例: 52歳女性]
+- 職業: [例: 小学校教諭]
+- ヘルスリテラシー推定レベル: [低/中/高]
+- 既知の医学知識: [例: 以前に高血圧で通院経験あり]
+
+**説明の構成**:
+1. 診断名をわかりやすい言葉で伝える
+2. 身体の中で何が起きているかを比喩で説明する
+3. なぜその診断に至ったかの根拠を簡潔に示す
+4. 今後の見通し（ポジティブな要素を含める）
+5. 次のステップを具体的に示す
+
+**制約条件**:
+- 専門用語は使う場合は必ず平易な言い換えを添える
+- 1文は50字以内
+- 患者が最も不安に感じるポイントに先回りして答える
+- 情報量は5つのチャンクに分ける（一度に全部伝えない）
+</PromptTemplate>
+
+### ステップ2：Before/Afterで見る改善効果
+
+典型的な改善例を見てみよう。
+
+<ComparisonCard
+  before={{
+    title: "従来の説明（Before）",
+    content: "検査の結果、HbA1cが7.2%で、空腹時血糖が148mg/dLでした。2型糖尿病と診断します。まず食事療法と運動療法から始めて、3ヶ月後に再検査して改善がなければメトホルミンの処方を検討します。"
+  }}
+  after={{
+    title: "AI支援による説明（After）",
+    content: "佐藤さん、今日の検査結果についてお話しします。3つのポイントに分けてご説明しますね。\n\n【1つ目】血液検査で、血糖値が少し高い状態が続いていることがわかりました。これは「2型糖尿病」といいます。\n\n【2つ目】糖尿病というと怖いイメージがあるかもしれませんが、佐藤さんの段階は早期です。車のエンジンでたとえると、ガソリン（血糖）をエネルギーに変える仕組みが少し疲れている状態です。壊れているわけではありません。\n\n【3つ目】まずは食事と運動で改善を目指します。具体的な方法は、この後のお話で一緒に決めましょう。3ヶ月後にもう一度検査をして、良くなっているか確認します。\n\nここまでで、何かわからないことはありますか？"
+  }}
+/>
+
+### ステップ3：ICE（Ideas, Concerns, Expectations）の事前予測
+
+AIを使えば、特定の診断に対する患者のICEを事前に予測できる。
+
+<PromptTemplate title="患者ICEの予測プロンプト">
+以下の診断を受ける患者のICE（Ideas=病気への解釈、Concerns=不安・心配、Expectations=期待）を予測してください。
+
+**診断**: 2型糖尿病（新規診断）
+**患者プロファイル**: 52歳女性、小学校教諭、子ども2人
+
+予測すべき項目:
+1. **Ideas**: この患者が「糖尿病」と聞いてイメージしそうなこと（3〜5個）
+2. **Concerns**: 最も不安に感じるであろうこと（優先度順に5個）
+3. **Expectations**: この受診に何を期待しているか（3個）
+4. **見落としがちな懸念**: 患者が口に出しにくいが気にしている可能性があること（3個）
+
+それぞれについて、医師がどう先回りして対応すべきかのアドバイスも添えてください。
+</PromptTemplate>
+
+この予測結果を診察前に確認しておくことで、患者の「聞きたいこと」に先回りした説明が可能になる。
+
+---
+
+## チャンキングとチェッキングの技法
+
+### チャンキング：情報を小分けにする
+
+人間のワーキングメモリは、一度に処理できる情報の量が限られている。認知心理学のミラーの法則では、一度に保持できるチャンク（情報のまとまり）は7±2個とされるが、ストレス下ではさらに少なくなる。
+
+診断を告げられた患者は、強いストレス下にある。**一度に伝える情報は3つまで**を原則とすべきである。
+
+```
+【チャンキングの例】
+「今日は3つのことをお話しします。
+ 1つ目は、検査の結果について。
+ 2つ目は、これから何をするかについて。
+ 3つ目は、次回の受診までに気をつけることです。
+ まず1つ目から始めますね。」
+```
+
+### チェッキング：理解度を確認する
+
+Teach-Back法は、患者の理解度を確認する最も効果的な手法である。
+
+<Callout type="info" title="Teach-Back法の基本">
+「私の説明がわかりやすかったか確認したいのですが、ご家族に今日の話を伝えるとしたら、どう説明しますか？」と問いかける。「わかりましたか？」と聞くのではなく、患者自身の言葉で説明してもらうことで、真の理解度を把握する。
+</Callout>
+
+AIを使ってTeach-Back用の確認質問を事前に準備できる。
+
+<PromptTemplate title="Teach-Back確認質問の生成">
+以下の診断説明に対する、Teach-Back法による理解度確認の質問を5つ作成してください。
+
+**説明した内容**: 2型糖尿病の新規診断。HbA1c 7.2%。まず食事・運動療法を3ヶ月行い、改善なければ薬物療法を開始する。
+
+**質問の条件**:
+- 「わかりましたか？」形式にしない
+- 患者が自分の言葉で説明する形式にする
+- 誘導的にならない
+- 間違えても恥ずかしくない雰囲気の言い回しにする
+- 理解不足が判明した場合の追加説明も併記する
+</PromptTemplate>
+
+---
+
+## 専門用語の「翻訳」技法
+
+医師が無意識に使う専門用語は、患者にとって外国語に等しい。
+
+### 専門用語→平易な日本語の変換例
+
+| 専門用語 | 患者向けの言い換え |
+|----------|-------------------|
+| 予後 | 今後の見通し |
+| 寛解 | 症状が落ち着いている状態 |
+| 浸潤 | がんが周りの組織に広がること |
+| エビデンス | 科学的な証拠・根拠 |
+| アドヒアランス | お薬をきちんと続けること |
+| バイタルサイン | 体温・血圧・脈拍などの基本的な体の数値 |
+| 合併症 | 病気が原因で別の体の不調が起きること |
+
+AIを活用すれば、説明文中の専門用語を自動検出し、平易な言い換えを提案させることができる。
+
+<PromptTemplate title="専門用語の自動検出と翻訳">
+以下の医師向け文章を、ヘルスリテラシーが低い患者（中学生でも理解できるレベル）向けに書き換えてください。
+
+**元の文章**:
+「MRI検査の結果、L4/5椎間板ヘルニアと診断しました。神経根の圧迫が認められますが、馬尾症候群の所見はありません。まず保存療法として、NSAIDsの内服と理学療法を行い、4〜6週間で改善がなければ硬膜外ブロック注射を検討します。」
+
+**書き換えの条件**:
+1. 専門用語は「ひらがな・カタカナのわかりやすい言葉」に置き換える
+2. 身体の部位は「腰の骨の間にあるクッション」のような比喩を使う
+3. 治療の流れを時系列で示す
+4. 患者が最も気にする「痛みがどうなるか」に最初に答える
+5. 元の文章に含まれていた専門用語のリストと対応する平易語を末尾に付記する
+</PromptTemplate>
+
+---
+
+## 診断別の説明テンプレートライブラリ
+
+よくある診断について、AI生成のテンプレートライブラリを構築しておくと、日々の診療で即座に活用できる。
+
+### テンプレートの構成要素
+
+1. **病名の伝え方**: 診断名を告げるセンテンス
+2. **メカニズム説明**: 身体の中で何が起きているかの比喩
+3. **原因・誘因**: なぜこの病気になったかの説明
+4. **治療の見通し**: どう治療するか、どのくらいで良くなるか
+5. **生活への影響**: 仕事や日常生活への影響と対応策
+6. **次のステップ**: 具体的な次の行動
+7. **よくある質問**: この診断でよく聞かれる質問と回答
+
+<PromptTemplate title="診断説明テンプレートの生成">
+以下の疾患について、患者説明テンプレートを作成してください。
+
+**疾患名**: [例: 鉄欠乏性貧血]
+**想定患者**: [例: 30代女性、会社員、ヘルスリテラシー中]
+
+テンプレートの構成:
+1. オープニング（病名を告げる一文）
+2. メカニズム説明（比喩を用いて30秒で説明）
+3. 原因の説明（この患者で考えられる原因）
+4. 治療計画（ステップ形式で提示）
+5. 生活への影響と対応策
+6. よくある質問（Q&A形式で5つ）
+7. 次回受診の指示
+
+**フォーマット**: 医師が診察中に見ながら話せるカンペ形式（箇条書き・短文）
+</PromptTemplate>
+
+---
+
+## 実践チェックリスト
+
+診断説明をAIで準備・実施する際のチェックリストを以下に示す。
+
+- [ ] 患者のヘルスリテラシーレベルを推定したか
+- [ ] ICE（Ideas, Concerns, Expectations）を事前に予測したか
+- [ ] 説明を3つ以内のチャンクに分けたか
+- [ ] 専門用語をすべて平易な言葉に置き換えたか
+- [ ] 比喩やたとえ話を少なくとも1つ用意したか
+- [ ] Teach-Back用の確認質問を準備したか
+- [ ] AI生成文を医学的に確認・修正したか
+- [ ] 患者に「他に質問はありますか？」と聞いたか
+
+<KeyTakeaway
+  points={[
+    "患者の約7割は診断の意味を正しく理解していない。構造的な説明が不可欠",
+    "Calgary-Cambridgeモデルの5フェーズを意識し、特に「説明と計画」を充実させる",
+    "チャンキング（3つまで）とチェッキング（Teach-Back法）を組み合わせる",
+    "AIで患者プロファイルに基づく個別化された説明文を事前に準備する",
+    "専門用語の自動検出と平易語への変換をAIに任せることで、説明の質と効率を両立する"
+  ]}
+/>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-patient-communication","lessonSlug":"01-01-diagnosis-explanation"}],["$","$L4",null,{"items":[{"id":"診断説明の現状と課題","text":"診断説明の現状と課題","level":2},{"id":"calgary-cambridgeモデル構造的説明の基盤","text":"Calgary-Cambridgeモデル：構造的説明の基盤","level":2},{"id":"aiを活用した診断説明の実践","text":"AIを活用した診断説明の実践","level":2},{"id":"ステップ1患者プロファイルに基づく説明文の生成","text":"ステップ1：患者プロファイルに基づく説明文の生成","level":3},{"id":"ステップ2beforeafterで見る改善効果","text":"ステップ2：Before/Afterで見る改善効果","level":3},{"id":"ステップ3iceideas-concerns-expectationsの事前予測","text":"ステップ3：ICE（Ideas, Concerns, Expectations）の事前予測","level":3},{"id":"チャンキングとチェッキングの技法","text":"チャンキングとチェッキングの技法","level":2},{"id":"チャンキング情報を小分けにする","text":"チャンキング：情報を小分けにする","level":3},{"id":"チェッキング理解度を確認する","text":"チェッキング：理解度を確認する","level":3},{"id":"専門用語の翻訳技法","text":"専門用語の「翻訳」技法","level":2},{"id":"専門用語平易な日本語の変換例","text":"専門用語→平易な日本語の変換例","level":3},{"id":"診断別の説明テンプレートライブラリ","text":"診断別の説明テンプレートライブラリ","level":2},{"id":"テンプレートの構成要素","text":"テンプレートの構成要素","level":3},{"id":"実践チェックリスト","text":"実践チェックリスト","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"patient-communication","bookTitle":"AI×患者コミュニケーション術 — 説明・同意・教育・共有の技術","chapter":{"slug":"01-01-diagnosis-explanation","title":"診断結果をわかりやすく伝えるAI活用","description":"Calgary-Cambridgeモデルに基づく診断説明の構造化と、AIを活用した患者理解度の最大化。具体的なプロンプトテンプレートと実例を紹介。","partId":"part01","partTitle":"病状説明の技術","order":1,"partOrder":1,"estimatedMinutes":20,"estimatedReadTime":17,"free":true,"status":"published","tags":["診断説明","Calgary-Cambridge","プロンプト","患者説明","AI活用"],"content":"$6"},"totalChapters":22}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"診断説明の現状と課題","text":"診断説明の現状と課題","level":2},{"id":"calgary-cambridgeモデル構造的説明の基盤","text":"Calgary-Cambridgeモデル：構造的説明の基盤","level":2},{"id":"aiを活用した診断説明の実践","text":"AIを活用した診断説明の実践","level":2},{"id":"ステップ1患者プロファイルに基づく説明文の生成","text":"ステップ1：患者プロファイルに基づく説明文の生成","level":3},{"id":"ステップ2beforeafterで見る改善効果","text":"ステップ2：Before/Afterで見る改善効果","level":3},{"id":"ステップ3iceideas-concerns-expectationsの事前予測","text":"ステップ3：ICE（Ideas, Concerns, Expectations）の事前予測","level":3},{"id":"チャンキングとチェッキングの技法","text":"チャンキングとチェッキングの技法","level":2},{"id":"チャンキング情報を小分けにする","text":"チャンキング：情報を小分けにする","level":3},{"id":"チェッキング理解度を確認する","text":"チェッキング：理解度を確認する","level":3},{"id":"専門用語の翻訳技法","text":"専門用語の「翻訳」技法","level":2},{"id":"専門用語平易な日本語の変換例","text":"専門用語→平易な日本語の変換例","level":3},{"id":"診断別の説明テンプレートライブラリ","text":"診断別の説明テンプレートライブラリ","level":2},{"id":"テンプレートの構成要素","text":"テンプレートの構成要素","level":3},{"id":"実践チェックリスト","text":"実践チェックリスト","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":["$","strong",null,{"children":"「先生、結局わたしはどうなんですか？」この質問が出る時点で、説明は失敗している。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"診断説明の現状と課題","children":"診断説明の現状と課題"}],"\n",["$","p",null,{"children":"患者が診断を正しく理解しているか。この問いに対する答えは、多くの医師にとって想像以上に厳しい。"}],"\n",["$","p",null,{"children":["2024年の ",["$","em",null,{"children":"Patient Education and Counseling"}]," に掲載された研究では、外来診察後に患者の理解度を評価したところ、以下の結果が得られた。"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"自分の診断名を正確に言えた患者"}],": 57%"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"診断の意味を正しく理解していた患者"}],": 34%"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"次のステップ（検査・治療）を正確に説明できた患者"}],": 28%"]}],"\n"]}],"\n",["$","p",null,{"children":["つまり、",["$","strong",null,{"children":"約7割の患者は、自分が何の病気で、何をすべきかを正しく理解していない"}],"のである。"]}],"\n",["$","$Le",null,{"type":"warning","title":"理解度ギャップの衝撃","children":["$","p",null,{"children":"医師の89%が「十分に説明した」と感じている一方、患者の34%しか診断の意味を正しく理解していない。この「理解度ギャップ」がアドヒアランス不良と再受診の主因である。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"calgary-cambridgeモデル構造的説明の基盤","children":"Calgary-Cambridgeモデル：構造的説明の基盤"}],"\n",["$","p",null,{"children":["効果的な診断説明には、構造が必要である。世界で最も広く使われているコミュニケーションフレームワークが",["$","strong",null,{"children":"Calgary-Cambridgeモデル"}],"である。"]}],"\n",["$","p",null,{"children":"このモデルでは、医療面接を5つのフェーズに分けている。"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"セッションの開始（Opening）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"挨拶と自己紹介、患者の名前確認、今日の受診理由の確認。アジェンダセッティング（「今日お話しすることは3つあります」）を行い、面接の見通しを示す。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"情報収集（Gathering Information）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"開放型質問から始め、患者の解釈モデル（ICE: Ideas, Concerns, Expectations）を聴取する。「どんな病気だと思いますか？」「一番心配なことは？」「今日はどうなることを期待していますか？」"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"説明と計画（Explanation & Planning）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"診断結果の説明、治療計画の提示、患者の理解度確認。チャンキング（情報の小分け提示）とチェッキング（理解度確認）を交互に行う。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],"$Lf"]}],"$L10"]}],"$L11"]}]]}],"\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a"]}]
+9:["$","$L3b",null,{"bookId":"patient-communication","chapterSlug":"01-01-diagnosis-explanation"}]
+a:["$","$L3c",null,{"bookId":"patient-communication","prev":{"slug":"00-00-preface","title":"なぜAI時代に患者コミュニケーションが重要になるのか","order":0},"next":{"slug":"01-02-treatment-options","title":"治療選択肢の説明とShared Decision Making","order":2}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L3d",null,{"children":["$","$3e",null,{"name":"Next.MetadataOutlet","children":"$@3f"}]}]
+f:["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]
+10:["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"関係構築（Building Relationship）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"共感の表現、非言語コミュニケーションの活用、信頼関係の強化。面接全体を通じて継続的に行う。"}]}]]}]
+11:["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"セッションの終了（Closing）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"要約と確認、次回の予定、質問の有無を確認。「他に聞いておきたいことはありますか？」"}]}]]}]]}]
+12:["$","hr",null,{}]
+13:["$","h2",null,{"id":"aiを活用した診断説明の実践","children":"AIを活用した診断説明の実践"}]
+14:["$","h3",null,{"id":"ステップ1患者プロファイルに基づく説明文の生成","children":"ステップ1：患者プロファイルに基づく説明文の生成"}]
+15:["$","p",null,{"children":["AIに診断説明を生成させる際、最も重要なのは",["$","strong",null,{"children":"患者情報の詳細な入力"}],"である。"]}]
+16:["$","$L40",null,{"title":"診断説明文の生成（基本テンプレート）","children":[["$","p",null,{"children":"以下の患者に対する診断結果の説明文を作成してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"診断名"}],": [診断名]\n",["$","strong",null,{"children":"患者の基本情報"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"年齢・性別: [例: 52歳女性]"}],"\n",["$","li",null,{"children":"職業: [例: 小学校教諭]"}],"\n",["$","li",null,{"children":"ヘルスリテラシー推定レベル: [低/中/高]"}],"\n",["$","li",null,{"children":"既知の医学知識: [例: 以前に高血圧で通院経験あり]"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"説明の構成"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"診断名をわかりやすい言葉で伝える"}],"\n",["$","li",null,{"children":"身体の中で何が起きているかを比喩で説明する"}],"\n",["$","li",null,{"children":"なぜその診断に至ったかの根拠を簡潔に示す"}],"\n",["$","li",null,{"children":"今後の見通し（ポジティブな要素を含める）"}],"\n",["$","li",null,{"children":"次のステップを具体的に示す"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"制約条件"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"専門用語は使う場合は必ず平易な言い換えを添える"}],"\n",["$","li",null,{"children":"1文は50字以内"}],"\n",["$","li",null,{"children":"患者が最も不安に感じるポイントに先回りして答える"}],"\n",["$","li",null,{"children":"情報量は5つのチャンクに分ける（一度に全部伝えない）"}],"\n"]}]]}]
+17:["$","h3",null,{"id":"ステップ2beforeafterで見る改善効果","children":"ステップ2：Before/Afterで見る改善効果"}]
+18:["$","p",null,{"children":"典型的な改善例を見てみよう。"}]
+19:["$","$L41",null,{}]
+1a:["$","h3",null,{"id":"ステップ3iceideas-concerns-expectationsの事前予測","children":"ステップ3：ICE（Ideas, Concerns, Expectations）の事前予測"}]
+1b:["$","p",null,{"children":"AIを使えば、特定の診断に対する患者のICEを事前に予測できる。"}]
+1c:["$","$L40",null,{"title":"患者ICEの予測プロンプト","children":[["$","p",null,{"children":"以下の診断を受ける患者のICE（Ideas=病気への解釈、Concerns=不安・心配、Expectations=期待）を予測してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"診断"}],": 2型糖尿病（新規診断）\n",["$","strong",null,{"children":"患者プロファイル"}],": 52歳女性、小学校教諭、子ども2人"]}],["$","p",null,{"children":"予測すべき項目:"}],["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Ideas"}],": この患者が「糖尿病」と聞いてイメージしそうなこと（3〜5個）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Concerns"}],": 最も不安に感じるであろうこと（優先度順に5個）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Expectations"}],": この受診に何を期待しているか（3個）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"見落としがちな懸念"}],": 患者が口に出しにくいが気にしている可能性があること（3個）"]}],"\n"]}],["$","p",null,{"children":"それぞれについて、医師がどう先回りして対応すべきかのアドバイスも添えてください。"}]]}]
+1d:["$","p",null,{"children":"この予測結果を診察前に確認しておくことで、患者の「聞きたいこと」に先回りした説明が可能になる。"}]
+1e:["$","hr",null,{}]
+1f:["$","h2",null,{"id":"チャンキングとチェッキングの技法","children":"チャンキングとチェッキングの技法"}]
+20:["$","h3",null,{"id":"チャンキング情報を小分けにする","children":"チャンキング：情報を小分けにする"}]
+21:["$","p",null,{"children":"人間のワーキングメモリは、一度に処理できる情報の量が限られている。認知心理学のミラーの法則では、一度に保持できるチャンク（情報のまとまり）は7±2個とされるが、ストレス下ではさらに少なくなる。"}]
+22:["$","p",null,{"children":["診断を告げられた患者は、強いストレス下にある。",["$","strong",null,{"children":"一度に伝える情報は3つまで"}],"を原則とすべきである。"]}]
+23:["$","pre",null,{"children":["$","code",null,{"children":"【チャンキングの例】\n「今日は3つのことをお話しします。\n 1つ目は、検査の結果について。\n 2つ目は、これから何をするかについて。\n 3つ目は、次回の受診までに気をつけることです。\n まず1つ目から始めますね。」\n"}]}]
+24:["$","h3",null,{"id":"チェッキング理解度を確認する","children":"チェッキング：理解度を確認する"}]
+25:["$","p",null,{"children":"Teach-Back法は、患者の理解度を確認する最も効果的な手法である。"}]
+26:["$","$Le",null,{"type":"info","title":"Teach-Back法の基本","children":["$","p",null,{"children":"「私の説明がわかりやすかったか確認したいのですが、ご家族に今日の話を伝えるとしたら、どう説明しますか？」と問いかける。「わかりましたか？」と聞くのではなく、患者自身の言葉で説明してもらうことで、真の理解度を把握する。"}]}]
+27:["$","p",null,{"children":"AIを使ってTeach-Back用の確認質問を事前に準備できる。"}]
+28:["$","$L40",null,{"title":"Teach-Back確認質問の生成","children":[["$","p",null,{"children":"以下の診断説明に対する、Teach-Back法による理解度確認の質問を5つ作成してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"説明した内容"}],": 2型糖尿病の新規診断。HbA1c 7.2%。まず食事・運動療法を3ヶ月行い、改善なければ薬物療法を開始する。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"質問の条件"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"「わかりましたか？」形式にしない"}],"\n",["$","li",null,{"children":"患者が自分の言葉で説明する形式にする"}],"\n",["$","li",null,{"children":"誘導的にならない"}],"\n",["$","li",null,{"children":"間違えても恥ずかしくない雰囲気の言い回しにする"}],"\n",["$","li",null,{"children":"理解不足が判明した場合の追加説明も併記する"}],"\n"]}]]}]
+29:["$","hr",null,{}]
+2a:["$","h2",null,{"id":"専門用語の翻訳技法","children":"専門用語の「翻訳」技法"}]
+2b:["$","p",null,{"children":"医師が無意識に使う専門用語は、患者にとって外国語に等しい。"}]
+2c:["$","h3",null,{"id":"専門用語平易な日本語の変換例","children":"専門用語→平易な日本語の変換例"}]
+2d:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"専門用語"}],["$","th",null,{"children":"患者向けの言い換え"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"予後"}],["$","td",null,{"children":"今後の見通し"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"寛解"}],["$","td",null,{"children":"症状が落ち着いている状態"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"浸潤"}],["$","td",null,{"children":"がんが周りの組織に広がること"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"エビデンス"}],["$","td",null,{"children":"科学的な証拠・根拠"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"アドヒアランス"}],["$","td",null,{"children":"お薬をきちんと続けること"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"バイタルサイン"}],["$","td",null,{"children":"体温・血圧・脈拍などの基本的な体の数値"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"合併症"}],["$","td",null,{"children":"病気が原因で別の体の不調が起きること"}]]}]]}]]}]
+2e:["$","p",null,{"children":"AIを活用すれば、説明文中の専門用語を自動検出し、平易な言い換えを提案させることができる。"}]
+2f:["$","$L40",null,{"title":"専門用語の自動検出と翻訳","children":[["$","p",null,{"children":"以下の医師向け文章を、ヘルスリテラシーが低い患者（中学生でも理解できるレベル）向けに書き換えてください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"元の文章"}],":\n「MRI検査の結果、L4/5椎間板ヘルニアと診断しました。神経根の圧迫が認められますが、馬尾症候群の所見はありません。まず保存療法として、NSAIDsの内服と理学療法を行い、4〜6週間で改善がなければ硬膜外ブロック注射を検討します。」"]}],["$","p",null,{"children":[["$","strong",null,{"children":"書き換えの条件"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"専門用語は「ひらがな・カタカナのわかりやすい言葉」に置き換える"}],"\n",["$","li",null,{"children":"身体の部位は「腰の骨の間にあるクッション」のような比喩を使う"}],"\n",["$","li",null,{"children":"治療の流れを時系列で示す"}],"\n",["$","li",null,{"children":"患者が最も気にする「痛みがどうなるか」に最初に答える"}],"\n",["$","li",null,{"children":"元の文章に含まれていた専門用語のリストと対応する平易語を末尾に付記する"}],"\n"]}]]}]
+30:["$","hr",null,{}]
+31:["$","h2",null,{"id":"診断別の説明テンプレートライブラリ","children":"診断別の説明テンプレートライブラリ"}]
+32:["$","p",null,{"children":"よくある診断について、AI生成のテンプレートライブラリを構築しておくと、日々の診療で即座に活用できる。"}]
+33:["$","h3",null,{"id":"テンプレートの構成要素","children":"テンプレートの構成要素"}]
+34:["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"病名の伝え方"}],": 診断名を告げるセンテンス"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"メカニズム説明"}],": 身体の中で何が起きているかの比喩"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"原因・誘因"}],": なぜこの病気になったかの説明"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"治療の見通し"}],": どう治療するか、どのくらいで良くなるか"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"生活への影響"}],": 仕事や日常生活への影響と対応策"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"次のステップ"}],": 具体的な次の行動"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"よくある質問"}],": この診断でよく聞かれる質問と回答"]}],"\n"]}]
+35:["$","$L40",null,{"title":"診断説明テンプレートの生成","children":[["$","p",null,{"children":"以下の疾患について、患者説明テンプレートを作成してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"疾患名"}],": [例: 鉄欠乏性貧血]\n",["$","strong",null,{"children":"想定患者"}],": [例: 30代女性、会社員、ヘルスリテラシー中]"]}],["$","p",null,{"children":"テンプレートの構成:"}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"オープニング（病名を告げる一文）"}],"\n",["$","li",null,{"children":"メカニズム説明（比喩を用いて30秒で説明）"}],"\n",["$","li",null,{"children":"原因の説明（この患者で考えられる原因）"}],"\n",["$","li",null,{"children":"治療計画（ステップ形式で提示）"}],"\n",["$","li",null,{"children":"生活への影響と対応策"}],"\n",["$","li",null,{"children":"よくある質問（Q&A形式で5つ）"}],"\n",["$","li",null,{"children":"次回受診の指示"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"フォーマット"}],": 医師が診察中に見ながら話せるカンペ形式（箇条書き・短文）"]}]]}]
+36:["$","hr",null,{}]
+37:["$","h2",null,{"id":"実践チェックリスト","children":"実践チェックリスト"}]
+38:["$","p",null,{"children":"診断説明をAIで準備・実施する際のチェックリストを以下に示す。"}]
+39:["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","患者のヘルスリテラシーレベルを推定したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","ICE（Ideas, Concerns, Expectations）を事前に予測したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","説明を3つ以内のチャンクに分けたか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","専門用語をすべて平易な言葉に置き換えたか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","比喩やたとえ話を少なくとも1つ用意したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","Teach-Back用の確認質問を準備したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AI生成文を医学的に確認・修正したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","患者に「他に質問はありますか？」と聞いたか"]}],"\n"]}]
+3a:["$","$L42",null,{}]
+3f:null

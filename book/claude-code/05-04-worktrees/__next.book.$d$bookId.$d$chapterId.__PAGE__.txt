@@ -1,0 +1,127 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+7:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+27:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+28:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+29:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+2a:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+2b:"$Sreact.suspense"
+6:Td9a,
+複数のエージェントが同じファイルを触ったらどうなるか。答えは「カオス」。Worktreeは、このカオスを秩序に変える仕組みだ。
+
+---
+
+## Git Worktreeとは
+
+Git worktreeは、一つのリポジトリから複数の作業ディレクトリを作り出すGitの機能である。
+
+通常、Gitリポジトリは一つの作業ディレクトリしか持てない。ブランチを切り替えるには `git checkout` が必要で、作業中のファイルに影響が出る。
+
+Worktreeを使えば、同じリポジトリの異なるブランチを、異なるディレクトリで同時に開ける。
+
+```
+my-project/                  # メインの作業ディレクトリ（mainブランチ）
+.claude/worktrees/
+├── feature-auth/            # feature-auth ブランチの独立コピー
+└── fix-bug-42/              # fix-bug-42 ブランチの独立コピー
+```
+
+---
+
+## Claude CodeでのWorktree活用
+
+### EnterWorktree
+
+Claude Codeに「worktreeで作業したい」と伝えると、`.claude/worktrees/` 内に新しいworktreeを作成し、作業ディレクトリを移す。
+
+### Agent での Worktree 分離
+
+エージェント起動時に `isolation: "worktree"` を指定すると、エージェントは独立したworktreeで作業する。
+
+- メインの作業ディレクトリに影響を与えない
+- 他のエージェントの作業と競合しない
+- 変更が気に入らなければ、worktreeごと削除できる
+
+---
+
+## Worktreeのライフサイクル
+
+```
+作成 → 作業 → レビュー → マージ or 破棄 → クリーンアップ
+```
+
+1. 作成: 新しいブランチとworktreeが同時に作成される
+2. 作業: worktree内で通常通りファイル操作、テスト、コミットが可能
+3. レビュー: worktreeブランチとメインブランチの差分を確認
+4. マージ or 破棄: 良ければマージ、不要ならworktreeごと削除
+5. クリーンアップ: 変更なしなら自動削除。変更ありならパスとブランチ名を返却
+
+---
+
+## 実践パターン
+
+### パターン1: 実験的な変更
+
+「この変更がうまくいくかわからない」場合にworktreeで試す。失敗しても、worktreeを削除すればメインのコードは無傷。
+
+### パターン2: 並列エージェント開発
+
+2つのエージェントに異なる機能を同時に実装させる。それぞれ独立したworktreeで作業するため、ファイルの競合が発生しない。
+
+### パターン3: 安全なリファクタリング
+
+大規模なリファクタリングをworktreeで行い、テストが全て通ることを確認してからマージする。
+
+---
+
+## いつWorktreeを使うか
+
+| 場面 | Worktree | 通常ブランチ |
+|------|----------|------------|
+| マルチエージェント並列作業 | 推奨 | 競合リスク |
+| 実験的な大きな変更 | 推奨 | 元に戻すのが面倒 |
+| 小さなバグ修正 | 不要 | 十分 |
+| 単一エージェントの作業 | 不要 | 十分 |
+
+<KeyTakeaway>
+- Git worktreeは一つのリポジトリから複数の独立した作業ディレクトリを作る機能
+- isolation: "worktree" でエージェントに独立した作業空間を与えられる
+- 作成 → 作業 → レビュー → マージ/破棄 → クリーンアップのライフサイクル
+- マルチエージェント並列開発と実験的変更に特に効果的
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"05-04-worktrees"}],["$","$L4",null,{"items":[{"id":"git-worktreeとは","text":"Git Worktreeとは","level":2},{"id":"claude-codeでのworktree活用","text":"Claude CodeでのWorktree活用","level":2},{"id":"enterworktree","text":"EnterWorktree","level":3},{"id":"agent-での-worktree-分離","text":"Agent での Worktree 分離","level":3},{"id":"worktreeのライフサイクル","text":"Worktreeのライフサイクル","level":2},{"id":"実践パターン","text":"実践パターン","level":2},{"id":"パターン1-実験的な変更","text":"パターン1: 実験的な変更","level":3},{"id":"パターン2-並列エージェント開発","text":"パターン2: 並列エージェント開発","level":3},{"id":"パターン3-安全なリファクタリング","text":"パターン3: 安全なリファクタリング","level":3},{"id":"いつworktreeを使うか","text":"いつWorktreeを使うか","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"05-04-worktrees","title":"Worktrees — 並行開発の技法","description":"Git worktreeを使ってエージェントに独立した作業空間を与える。競合を避けながら複数の変更を同時に進める方法を扱う。","partId":"part05","partTitle":"高度なテクニック","order":19,"partOrder":5,"estimatedMinutes":15,"estimatedReadTime":4,"free":true,"status":"published","tags":["Worktree","Git","並行開発","分離","ブランチ"],"content":"$6"},"totalChapters":26}],["$","$L7",null,{"items":[{"id":"git-worktreeとは","text":"Git Worktreeとは","level":2},{"id":"claude-codeでのworktree活用","text":"Claude CodeでのWorktree活用","level":2},{"id":"enterworktree","text":"EnterWorktree","level":3},{"id":"agent-での-worktree-分離","text":"Agent での Worktree 分離","level":3},{"id":"worktreeのライフサイクル","text":"Worktreeのライフサイクル","level":2},{"id":"実践パターン","text":"実践パターン","level":2},{"id":"パターン1-実験的な変更","text":"パターン1: 実験的な変更","level":3},{"id":"パターン2-並列エージェント開発","text":"パターン2: 並列エージェント開発","level":3},{"id":"パターン3-安全なリファクタリング","text":"パターン3: 安全なリファクタリング","level":3},{"id":"いつworktreeを使うか","text":"いつWorktreeを使うか","level":2}]}],["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"複数のエージェントが同じファイルを触ったらどうなるか。答えは「カオス」。Worktreeは、このカオスを秩序に変える仕組みだ。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"git-worktreeとは","children":"Git Worktreeとは"}],"\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22"]}],"$L23","$L24"]}]],["$L25"],"$L26"]}],"loading":null,"isPartial":false}
+8:["$","p",null,{"children":"Git worktreeは、一つのリポジトリから複数の作業ディレクトリを作り出すGitの機能である。"}]
+9:["$","p",null,{"children":["通常、Gitリポジトリは一つの作業ディレクトリしか持てない。ブランチを切り替えるには ",["$","code",null,{"children":"git checkout"}]," が必要で、作業中のファイルに影響が出る。"]}]
+a:["$","p",null,{"children":"Worktreeを使えば、同じリポジトリの異なるブランチを、異なるディレクトリで同時に開ける。"}]
+b:["$","pre",null,{"children":["$","code",null,{"children":"my-project/                  # メインの作業ディレクトリ（mainブランチ）\n.claude/worktrees/\n├── feature-auth/            # feature-auth ブランチの独立コピー\n└── fix-bug-42/              # fix-bug-42 ブランチの独立コピー\n"}]}]
+c:["$","hr",null,{}]
+d:["$","h2",null,{"id":"claude-codeでのworktree活用","children":"Claude CodeでのWorktree活用"}]
+e:["$","h3",null,{"id":"enterworktree","children":"EnterWorktree"}]
+f:["$","p",null,{"children":["Claude Codeに「worktreeで作業したい」と伝えると、",["$","code",null,{"children":".claude/worktrees/"}]," 内に新しいworktreeを作成し、作業ディレクトリを移す。"]}]
+10:["$","h3",null,{"id":"agent-での-worktree-分離","children":"Agent での Worktree 分離"}]
+11:["$","p",null,{"children":["エージェント起動時に ",["$","code",null,{"children":"isolation: \"worktree\""}]," を指定すると、エージェントは独立したworktreeで作業する。"]}]
+12:["$","ul",null,{"children":["\n",["$","li",null,{"children":"メインの作業ディレクトリに影響を与えない"}],"\n",["$","li",null,{"children":"他のエージェントの作業と競合しない"}],"\n",["$","li",null,{"children":"変更が気に入らなければ、worktreeごと削除できる"}],"\n"]}]
+13:["$","hr",null,{}]
+14:["$","h2",null,{"id":"worktreeのライフサイクル","children":"Worktreeのライフサイクル"}]
+15:["$","pre",null,{"children":["$","code",null,{"children":"作成 → 作業 → レビュー → マージ or 破棄 → クリーンアップ\n"}]}]
+16:["$","ol",null,{"children":["\n",["$","li",null,{"children":"作成: 新しいブランチとworktreeが同時に作成される"}],"\n",["$","li",null,{"children":"作業: worktree内で通常通りファイル操作、テスト、コミットが可能"}],"\n",["$","li",null,{"children":"レビュー: worktreeブランチとメインブランチの差分を確認"}],"\n",["$","li",null,{"children":"マージ or 破棄: 良ければマージ、不要ならworktreeごと削除"}],"\n",["$","li",null,{"children":"クリーンアップ: 変更なしなら自動削除。変更ありならパスとブランチ名を返却"}],"\n"]}]
+17:["$","hr",null,{}]
+18:["$","h2",null,{"id":"実践パターン","children":"実践パターン"}]
+19:["$","h3",null,{"id":"パターン1-実験的な変更","children":"パターン1: 実験的な変更"}]
+1a:["$","p",null,{"children":"「この変更がうまくいくかわからない」場合にworktreeで試す。失敗しても、worktreeを削除すればメインのコードは無傷。"}]
+1b:["$","h3",null,{"id":"パターン2-並列エージェント開発","children":"パターン2: 並列エージェント開発"}]
+1c:["$","p",null,{"children":"2つのエージェントに異なる機能を同時に実装させる。それぞれ独立したworktreeで作業するため、ファイルの競合が発生しない。"}]
+1d:["$","h3",null,{"id":"パターン3-安全なリファクタリング","children":"パターン3: 安全なリファクタリング"}]
+1e:["$","p",null,{"children":"大規模なリファクタリングをworktreeで行い、テストが全て通ることを確認してからマージする。"}]
+1f:["$","hr",null,{}]
+20:["$","h2",null,{"id":"いつworktreeを使うか","children":"いつWorktreeを使うか"}]
+21:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"場面"}],["$","th",null,{"children":"Worktree"}],["$","th",null,{"children":"通常ブランチ"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"マルチエージェント並列作業"}],["$","td",null,{"children":"推奨"}],["$","td",null,{"children":"競合リスク"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"実験的な大きな変更"}],["$","td",null,{"children":"推奨"}],["$","td",null,{"children":"元に戻すのが面倒"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"小さなバグ修正"}],["$","td",null,{"children":"不要"}],["$","td",null,{"children":"十分"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"単一エージェントの作業"}],["$","td",null,{"children":"不要"}],["$","td",null,{"children":"十分"}]]}]]}]]}]
+22:["$","$L27",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"Git worktreeは一つのリポジトリから複数の独立した作業ディレクトリを作る機能"}],"\n",["$","li",null,{"children":"isolation: \"worktree\" でエージェントに独立した作業空間を与えられる"}],"\n",["$","li",null,{"children":"作成 → 作業 → レビュー → マージ/破棄 → クリーンアップのライフサイクル"}],"\n",["$","li",null,{"children":"マルチエージェント並列開発と実験的変更に特に効果的"}],"\n"]}]}]
+23:["$","$L28",null,{"bookId":"claude-code","chapterSlug":"05-04-worktrees"}]
+24:["$","$L29",null,{"bookId":"claude-code","prev":{"slug":"05-03-multi-agent","title":"マルチエージェント — チームで開発する","order":18},"next":{"slug":"06-01-web-app","title":"Webアプリを作る — Next.js × Claude Code","order":20}}]
+25:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+26:["$","$L2a",null,{"children":["$","$2b",null,{"name":"Next.MetadataOutlet","children":"$@2c"}]}]
+2c:null

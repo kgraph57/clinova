@@ -1,0 +1,541 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","knowledge","doc-discharge-summary"],"q":"","i":false,"f":[[["",{"children":["knowledge",{"children":[["slug","doc-discharge-summary","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/eb46a9559e436395.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadingProgress"]
+1c:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"TableOfContents"]
+1d:I[12900,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"BookmarkButton"]
+1e:I[71957,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleHeader"]
+20:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"MobileToc"]
+22:I[52429,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadTracker"]
+23:I[51830,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleFooter"]
+1f:T1015,
+# 退院サマリー作成支援
+
+## 概要
+
+退院サマリーの作成は研修医の日常業務で大きな時間を占めます。入院中の経過メモや検査結果を入力し、電子カルテ用の退院サマリーの下書きを効率的に生成するプロンプトです。
+
+## プロンプトテンプレート
+
+```text
+以下の情報をもとに、退院サマリーを作成してください。
+
+# 患者基本情報
+- 患者ID: [匿名化ID]
+- 年齢/性別: [年齢/性別]
+- 入院日: [入院日]
+- 退院日: [退院日]
+- 入院経路: [予定入院 / 救急搬送 / 外来からの緊急入院]
+
+# 入院時情報
+- 主訴: [主訴]
+- 現病歴: [現病歴の要約]
+- 既往歴: [既往歴リスト]
+- 入院時バイタル: [BP, HR, SpO2, BT]
+- 入院時検査所見: [主要な異常値]
+
+# 入院後経過（時系列メモ）
+[入院中の経過を日付順に記載。検査結果、治療内容、経過の変化を含む]
+
+# 退院時情報
+- 退院時診断名: [主病名 + 副病名]
+- 退院時処方: [処方内容]
+- 退院時バイタル/検査値: [退院時の状態]
+- ADL: [退院時のADL]
+
+# 出力形式
+以下のセクションで退院サマリーを作成してください:
+
+## 1. 入院時主訴・現病歴（200字以内）
+## 2. 入院時所見（箇条書き）
+## 3. 入院後経過（時系列、500字以内）
+  - 治療内容と経過を簡潔に
+  - 主要な検査結果の推移
+  - 合併症や問題点があれば記載
+## 4. 退院時診断
+## 5. 退院時処方
+## 6. 退院後方針
+  - 外来フォローの予定（時期、目的）
+  - 注意すべき症状（再受診の基準）
+  - 生活指導事項
+```
+
+## 使用例
+
+### 入力例
+
+```text
+# 患者基本情報
+- 年齢/性別: 72歳男性
+- 入院日: 2026-02-10
+- 退院日: 2026-02-20
+- 入院経路: 救急搬送
+
+# 入院時情報
+- 主訴: 発熱、咳嗽、呼吸困難
+- 現病歴: 3日前から38度台の発熱と湿性咳嗽。本日SpO2 88%で救急搬送
+- 既往歴: COPD、2型糖尿病、高血圧
+- 入院時バイタル: BP 142/88, HR 102, SpO2 88%(room air), BT 39.1
+- 入院時検査: WBC 16,800, CRP 22.4, PCT 3.8, BUN 28, Cr 1.2
+
+# 入院後経過
+2/10: 胸部CT右下葉浸潤影。市中肺炎の診断でCTRX 2g/日+AZM 500mg開始。O2 3L開始
+2/12: 解熱傾向。SpO2 95%(O2 2L)。喀痰培養で肺炎球菌検出
+2/14: CRP 8.2まで改善。O2離脱。CTRX→AMPC/CVA 1500mg/日に変更
+2/17: CRP 1.8。ADL自立。退院方針
+2/20: 退院。CRP 0.6
+
+# 退院時情報
+- 退院時診断: 市中肺炎（肺炎球菌性）、COPD急性増悪
+- 退院時処方: AMPC/CVA 750mg 1日2回（残り5日分）、既存処方継続
+- ADL: 自立（入院前と同等）
+```
+
+### 期待される出力のポイント
+
+- 入院後経過は時系列で簡潔に（抗菌薬変更の理由、酸素離脱の経過）
+- 退院後方針に肺炎球菌ワクチン接種の推奨を含める
+- COPD急性増悪の再発予防（吸入薬のアドヒアランス確認）
+- 再受診基準（発熱再燃、呼吸困難増悪）の明記
+
+## よくある失敗と対策
+
+- **個人情報をそのまま入力する**: 患者名、カルテ番号などは必ず匿名化してから入力
+- **経過メモが断片的すぎる**: 日付+主要イベント（治療変更、検査結果、症状変化）を最低限含める
+- **退院時処方を省略する**: 処方内容は退院サマリーの必須項目
+- **生成されたサマリーを無確認で提出する**: 必ず医学的正確性と記載漏れを確認すること
+
+## 活用のポイント
+
+- カルテのコピー&ペーストで入力できるよう、「入院後経過」は日付+メモ形式でOK
+- 長期入院の場合は「主要イベントのみ抜粋」と指示すると、適切な長さにまとまる
+- 研修病院によってフォーマットが異なる場合、「自施設のテンプレートに合わせて」と形式を追加指定する
+- 複数の診断がある場合は、各診断ごとに経過を分けて記載するよう指示すると読みやすくなる
+24:T129c,
+# Ambient AI：診察室の会話が自動でカルテになる時代
+
+## Ambient Clinical Documentationとは
+
+Ambient Clinical Documentation（ACD）は、診察室での医師と患者の会話をAIがリアルタイムで聴き取り、構造化されたカルテ記録に自動変換するテクノロジーです。医師はパソコンに向かってタイプする代わりに、患者と目を合わせて会話するだけでカルテが完成します。
+
+米国では2024〜2025年にかけて爆発的に普及し、2026年時点で大手病院チェーンの過半数が何らかのACD製品を導入しています。
+
+## 主要プレイヤー
+
+| 製品 | 開発元 | 特徴 |
+|------|--------|------|
+| DAX Copilot | Microsoft/Nuance | Epic統合、最大シェア |
+| Abridge | Abridge | 根拠文の表示が強み |
+| Nabla Copilot | Nabla | EU市場に強い |
+| Suki | Suki | 音声コマンド統合 |
+| DeepScribe | DeepScribe | 専門科対応が充実 |
+
+## 何ができるのか
+
+### 基本機能
+
+1. **会話の文字起こし**: 医師と患者の会話をリアルタイムで文字化
+2. **話者分離**: 医師の発言と患者の発言を自動で分離
+3. **SOAP変換**: 会話内容からSubjective、Objective、Assessment、Planを自動生成
+4. **医学用語の正規化**: 口語表現を医学用語に変換（「お腹が痛い」→「腹痛」）
+5. **コード提案**: ICD-10コードや処置コードの自動提案
+
+### 高度な機能
+
+- **検査オーダーの提案**: 会話内容から必要な検査を推測して提案
+- **処方の事前入力**: 会話で言及された薬剤の処方を下書き
+- **患者向けサマリー**: 患者に渡す平易な言葉の診療要約を自動生成
+
+## 米国での導入効果
+
+### 定量的効果
+
+- カルテ記載時間: 平均50%削減
+- 患者との対話時間: 12%増加
+- 時間外カルテ作業（Pajama Time）: 70%削減
+- 医師の満足度: 導入後85%が「業務改善」と回答
+
+### 定性的効果
+
+- 患者との目線の合う時間が増え、信頼関係が改善
+- カルテの網羅性が向上（会話全体が記録されるため漏れが減少）
+- 医師の燃え尽き症候群スコアの改善
+
+## 日本語対応の現状と課題
+
+### 技術的課題
+
+日本語のACD対応は英語に比べて2〜3年遅れています。
+
+- **音声認識精度**: 日本語の医学用語は同音異義語が多い（「こうけつあつ」→高血圧/抗血圧）
+- **敬語処理**: 患者と医師の敬語レベルの違いを適切に処理
+- **方言対応**: 地域ごとの方言への対応
+- **混合言語**: 医療現場での日英混在（「BP」「SpO2」「SOAP」）
+
+### 制度的課題
+
+- 診療録の法的要件との整合性（AI生成カルテの法的有効性）
+- 患者の同意取得の方法（会話が録音・解析されることへの同意）
+- 個人情報保護法との関係（音声データの取り扱い）
+
+### 国内の動き
+
+- 2025年後半から国内スタートアップ数社がβ版を医療機関に提供開始
+- 大手EMRベンダーがACDモジュールの開発を発表
+- 大学病院での臨床研究（精度検証）が複数進行中
+
+## 導入を検討する医療機関へのガイド
+
+### Step 1: ニーズの確認
+
+- カルテ記載に費やしている時間を計測する
+- 最も負担の大きい診療科を特定する（内科、精神科、総合診療が高い傾向）
+- 医師のカルテ記載への不満を調査する
+
+### Step 2: 製品選定のポイント
+
+- 日本語対応の精度（デモで自施設の会話パターンをテスト）
+- 既存EMRとの統合性
+- データの保存場所（国内サーバーか海外か）
+- 導入サポートとトレーニング体制
+
+### Step 3: パイロット導入
+
+- 小規模（1〜2診療科）から開始
+- 3か月間の精度検証期間を設ける
+- 医師と患者のフィードバックを収集
+- カルテの品質を従来方式と比較評価
+
+### Step 4: 運用ルールの策定
+
+- AI生成カルテの確認・修正プロセスの標準化
+- 患者への説明と同意取得のフロー
+- エラー報告と改善の仕組み
+
+## 注意すべきリスク
+
+- **自動生成への過信**: AI生成カルテを確認せずに確定するリスク
+- **プライバシー**: 診察室の会話には機微な情報が含まれる
+- **医師のスキル低下**: カルテ記載能力（臨床推論の整理能力）の退化
+
+Ambient AIは医療の働き方を根本的に変える可能性を持つ技術です。日本での本格普及はこれからですが、早期に情報収集と準備を始めることで、導入時のアドバンテージを得られます。
+25:T117e,
+# AI文書作成で診療時間を取り戻す
+
+## 文書業務が奪う診療時間
+
+医師の業務時間のうち、文書作成に費やされる時間は平均30〜40%と報告されています。2024年の医師の働き方改革で労働時間の上限規制が始まりましたが、診療の質を落とさずに文書業務を効率化することは、すべての医師にとって喫緊の課題です。
+
+AIを活用した文書作成は、単に「早く書ける」だけでなく、「漏れなく書ける」「一貫性のある文書が書ける」という品質面のメリットもあります。
+
+## AI文書作成の3段階
+
+### レベル1: テンプレート生成（即日導入可能）
+
+最も手軽なのは、テンプレートの自動生成です。
+
+**退院サマリーの例:**
+- 入院日、退院日、主病名、手術名を入力
+- AIが標準的な退院サマリーの骨格を生成
+- 医師が内容を確認・修正
+
+この段階では、AIは「下書き」を作るだけです。医師の確認は必須ですが、白紙から書き始めるよりも大幅に時間を短縮できます。
+
+### レベル2: カルテ情報からの自動要約（導入進行中）
+
+電子カルテの経過記録から、退院サマリーや紹介状を自動要約するシステムが普及し始めています。
+
+**メリット:**
+- 入院経過の記録漏れを防ぐ
+- 時系列の整理が正確
+- 検査結果の変遷を自動でまとめる
+
+**注意点:**
+- カルテの記載が不十分だと、要約も不十分になる
+- 「書いていないこと」はAIにも分からない
+- コピー＆ペーストの連鎖で誤情報が混入するリスク
+
+### レベル3: Ambient Documentation（最先端）
+
+診察室での医師と患者の会話をリアルタイムで文字起こしし、SOAP形式のカルテに自動変換するシステムです。Nuance DAXやAbridge、Nabla Copilotなどが代表的です。
+
+**効果（米国での報告）:**
+- カルテ記載時間が50%以上短縮
+- 患者との対話時間が増加
+- 医師の燃え尽き症候群スコアが改善
+
+日本語対応はまだ発展途上ですが、2026年に入り複数のベンダーが日本市場に参入しています。
+
+## 文書別の活用ポイント
+
+### 紹介状
+
+紹介状で最も重要なのは「なぜ紹介するのか」と「何をしてほしいのか」の明確化です。AIに以下を入力すると、適切な紹介状が生成できます。
+
+- 紹介目的（精査依頼、治療依頼、セカンドオピニオン）
+- これまでの経過と検査結果
+- 紹介先への具体的なリクエスト
+
+### 退院サマリー
+
+退院サマリーは「入院の全体像」を簡潔にまとめる必要があります。AIは時系列整理が得意なので、経過の構造化を任せるのが効果的です。ただし、「なぜその治療方針を選んだか」という臨床判断の部分は医師自身が記載すべきです。
+
+### 診断書・意見書
+
+定型的な部分（病名、治療期間、経過）はAIに任せ、意見・見解の部分は医師が書く、という役割分担が適切です。法的文書であるため、最終確認は特に慎重に行いましょう。
+
+## 品質チェックリスト
+
+AI生成文書を確定する前に、以下を確認してください。
+
+- [ ] 患者氏名・ID・日付は正しいか
+- [ ] 病名・手術名に誤りはないか
+- [ ] 薬剤名・用量は正確か（ハルシネーションの温床）
+- [ ] 検査データは実際の値と一致しているか
+- [ ] アレルギー情報は正しく記載されているか
+- [ ] 「書くべきだが書かれていない」情報はないか
+- [ ] 個人情報保護の観点で問題はないか
+
+## 導入のコツ
+
+1. **小さく始める**: まずは紹介状のテンプレート生成から
+2. **ダブルチェックを習慣化**: AI生成→医師確認のフローを確立
+3. **チーム内で共有**: 良いプロンプトはチームの共有財産にする
+4. **フィードバック**: AIの出力を改善するために、修正点を記録する
+
+AI文書作成は、医師の負担を軽減し、患者との対話時間を増やす有効な手段です。ただし、「AIが書いたから正しい」という思い込みは禁物です。最終的な文書の責任は常に医師にあることを忘れずに活用しましょう。
+26:T1f2f,
+# AI抗菌薬適正使用（スチュワードシップ）ワークフロー
+
+## なぜ抗菌薬適正使用にAIか
+
+抗菌薬の不適切な使用は**耐性菌の増加**と**医療コストの上昇**に直結します。WHOは薬剤耐性（AMR）を「人類の健康に対する最大の脅威の一つ」と位置づけています。
+
+研修医が抗菌薬処方で直面する課題:
+- 経験的治療（empiric therapy）の選択に自信がない
+- 培養結果が出た後のde-escalation（狭域化）のタイミングが分からない
+- 施設のアンチバイオグラムを活用できていない
+- 腎機能に応じた用量調整の計算が複雑
+
+AIを活用することで、**エビデンスに基づいた抗菌薬選択の支援**と**de-escalationの判断補助**が可能になります。
+
+---
+
+## AIが活用されている領域
+
+### 世界の動向
+
+| システム | 内容 | 状況 |
+|---|---|---|
+| **MedAware** | 処方エラー・薬剤相互作用のAI検出 | イスラエル発、米国の複数病院で導入 |
+| **Antibiotic Guardian AI** | 英国NHS開発の抗菌薬処方支援 | NHS Trustsで試験運用 |
+| **Epic CDS** | 電子カルテ内蔵の抗菌薬推奨アラート | Epic導入施設で利用可能 |
+| **TREAT Steward** | 培養結果に基づく自動de-escalation推奨 | 欧州の複数施設で検証 |
+
+### 日本の状況
+
+- 感染制御チーム（ICT）と抗菌薬適正使用支援チーム（AST）の活動が2018年の診療報酬改定で評価対象に
+- 電子カルテの抗菌薬使用量モニタリングは普及しているが、**AI支援のde-escalation推奨はまだ研究段階**
+- 汎用AI（ChatGPT/Claude）を感染症コンサルトの壁打ちに使う実践が広がり始めている
+
+---
+
+## ワークフロー
+
+### Step 1: 経験的治療（Empiric Therapy）の選択
+
+#### プロンプト
+
+```text
+以下の患者に対する経験的抗菌薬治療を検討してください。
+
+# 患者情報
+- 年齢/性別: [年齢/性別]
+- 体重: [kg]、身長: [cm]
+- 腎機能: eGFR [X] mL/min/1.73m2、Cr [Y] mg/dL
+- 肝機能: AST/ALT [値]
+- アレルギー: [薬剤アレルギーの有無と種類]
+- 免疫状態: [免疫抑制薬の使用、好中球減少の有無]
+
+# 感染症の臨床情報
+- 感染源（推定）: [肺炎、尿路感染、腹腔内感染など]
+- 市中感染 or 院内感染: [発症場所]
+- 入院日数: [X]日目（院内感染の場合）
+- 重症度: [sepsis/septic shock の有無]
+- 抗菌薬投与歴（直近90日）: [あれば記載]
+- 耐性菌リスク因子: [MRSA、ESBL、緑膿菌のリスク]
+
+# 施設のアンチバイオグラム（あれば）
+[主要な菌種の感受性率データ]
+
+# 出力
+1. 推奨する経験的治療レジメン（第1選択、代替案）
+2. 各薬剤の用量・投与間隔（腎機能調整後）
+3. 選択の根拠（ガイドラインと施設のアンチバイオグラムに基づく）
+4. モニタリング項目（TDMが必要な薬剤、腎機能フォロー等）
+5. 培養結果判明後のde-escalation計画
+
+# 重要な注意
+- 推奨は参考情報です。最終判断は感染症専門医/指導医と相談してください
+- 薬剤の用量は必ず添付文書で確認してください
+```
+
+### Step 2: 培養結果の解釈とde-escalation
+
+#### プロンプト
+
+```text
+以下の培養結果に基づき、抗菌薬のde-escalation（狭域化）を検討してください。
+
+# 現在の治療
+- 現在の抗菌薬: [薬剤名、用量、投与日数]
+- 臨床経過: [改善傾向/横ばい/悪化]
+
+# 培養結果
+- 検体: [血液、尿、喀痰、膿等]
+- グラム染色: [結果]
+- 同定菌: [菌名]
+- 感受性結果:
+  [感受性パネルの結果を列挙]
+
+# 質問
+1. 現在の抗菌薬からde-escalation可能か？
+2. 推奨するtargeted therapy（標的治療）は？
+3. 経口スイッチ（IV→PO）は可能か？ 条件は？
+4. 治療期間の目安は？
+5. de-escalationのリスク（カバーが不足する可能性）は？
+
+# 注意
+- 最終判断は感染症科コンサルトまたは指導医と確認してください
+- 複数菌感染の場合はそれぞれのカバーを検討してください
+```
+
+### Step 3: 経口スイッチの判断
+
+#### プロンプト
+
+```text
+以下の患者で、抗菌薬の経口スイッチ（IV→PO）が可能か評価してください。
+
+# 経口スイッチの基準（OPAT/Eron criteria参考）
+□ 臨床的に改善傾向（48-72時間の発熱なし）
+□ 経口摂取が可能
+□ 消化管の吸収障害がない（嘔吐、下痢、イレウスなし）
+□ 経口薬で十分な組織移行性が確保できる感染部位
+□ 起因菌に感受性のある経口薬が存在する
+
+# 患者情報
+[臨床経過、現在のバイタル、消化管の状態]
+
+# 現在の抗菌薬と培養結果
+[現在の点滴抗菌薬と菌名・感受性]
+
+# 出力
+1. 経口スイッチの可否と根拠
+2. 推奨する経口薬（用量、投与期間）
+3. 経口スイッチ後のモニタリング項目
+4. 経口スイッチが不適切な場合、OPAT（外来静注療法）の検討
+```
+
+### Step 4: 治療効果の評価
+
+```text
+以下の抗菌薬治療の効果を評価してください。
+
+# 治療経過
+- 抗菌薬: [薬剤名]
+- 投与開始日: [日付]（投与[X]日目）
+- 臨床経過:
+  - 体温推移: [日ごとの最高体温]
+  - WBC推移: [日ごとの値]
+  - CRP推移: [日ごとの値]
+  - PCT推移: [測定していれば]
+  - 感染源の局所所見: [改善/不変/悪化]
+
+# 評価してほしいこと
+1. 治療効果の判定（有効/判定保留/無効）
+2. 72時間ルール: 効果判定の基準を満たしているか
+3. 治療無効の場合、考えるべき原因
+   - 起因菌のカバー不足
+   - ドレナージ不足（膿瘍、感染デバイス等）
+   - 用量不足（MIC値との関係）
+   - 新たな合併症
+4. 次のアクション（継続/変更/追加検査）
+```
+
+---
+
+## De-escalationのタイミングチャート
+
+```
+培養提出
+  ↓
+24-48時間: グラム染色結果
+  → グラム陽性球菌 → バンコマイシンの適応を再評価
+  → グラム陰性桿菌 → 緑膿菌カバーの必要性を再評価
+  ↓
+48-72時間: 同定・感受性結果
+  → 起因菌に最も狭域な薬剤に変更（de-escalation）
+  → 感受性良好なら経口スイッチを検討
+  ↓
+72時間: 臨床効果判定
+  → 改善: 治療継続、投与期間を決定
+  → 不変: 検査追加（画像、再培養、感染源精査）
+  → 悪化: 抗菌薬変更、外科的介入の検討、上級医相談
+```
+
+---
+
+## よくある抗菌薬の間違いとAIでの予防
+
+| 間違いパターン | AIでの予防方法 |
+|---|---|
+| 培養陰性でも広域抗菌薬を漫然と継続 | 「培養陰性+臨床改善→中止検討」をAIに確認 |
+| 腎機能変化に対する用量未調整 | 腎機能データを入力し用量再計算 |
+| ペニシリンアレルギー申告で全βラクタム回避 | 交差反応のリスク評価をAIで確認（実際の交差反応率は低い） |
+| MRSAカバーの不要な継続 | 鼻腔スワブ陰性+培養MSSA→バンコマイシン中止の根拠確認 |
+| 治療期間の延長しすぎ | 最新ガイドラインの推奨治療期間をAIで確認 |
+
+---
+
+## 安全に関する注意
+
+- AIの抗菌薬推奨は**参考情報**です。処方の最終判断は必ず指導医・感染症専門医と確認してください
+- 薬剤の**用量・禁忌・相互作用は添付文書やUpToDate等で必ず確認**してください
+- 施設の**アンチバイオグラム**はAIよりも自施設のデータが優先されます
+- 重症感染症では**感染症科コンサルト**を積極的に行ってください
+- 患者データを外部AIに入力する場合は**匿名化**と施設のポリシーに準拠してください
+12:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"退院サマリー作成支援\",\"description\":\"入院経過を要約し、退院サマリーの「入院後経過」欄を作成します。\",\"datePublished\":\"2026-02-14\",\"dateModified\":\"2026-02-14\",\"author\":{\"@type\":\"Person\",\"name\":\"Ken Okamoto\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Hoshizu\"}}"}}],["$","$L1b",null,{}],["$","$L1c",null,{"items":[{"id":"概要","text":"概要","level":2},{"id":"プロンプトテンプレート","text":"プロンプトテンプレート","level":2},{"id":"使用例","text":"使用例","level":2},{"id":"入力例","text":"入力例","level":3},{"id":"期待される出力のポイント","text":"期待される出力のポイント","level":3},{"id":"よくある失敗と対策","text":"よくある失敗と対策","level":2},{"id":"活用のポイント","text":"活用のポイント","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","div",null,{"className":"mb-4 flex justify-end","children":["$","$L1d",null,{"slug":"doc-discharge-summary","title":"退院サマリー作成支援","contentType":"prompt","variant":"full"}]}],["$","$L1e",null,{"article":{"slug":"doc-discharge-summary","title":"退院サマリー作成支援","description":"入院経過を要約し、退院サマリーの「入院後経過」欄を作成します。","category":"workflow","contentType":"prompt","newsType":"$undefined","difficulty":"intermediate","tags":["医療記録","文書作成","業務効率化","退院サマリー"],"publishedAt":"2026-02-14","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":6,"content":"$1f","coverImage":null}}],["$","$L20",null,{"items":"$12:2:props:items"}],["$","article",null,{"className":"prose ","children":"$L21"}],["$","$L22",null,{"slug":"doc-discharge-summary"}],["$","$L23",null,{"article":"$12:3:props:children:1:props:article","relatedArticles":[{"slug":"ai-ambient-listening-japan","title":"Ambient AI：診察室の会話が自動でカルテになる時代","description":"米国で急速に普及するAmbient Clinical Documentation。日本語対応の現状と、導入を検討する医療機関へのガイド","category":"workflow","contentType":"article","newsType":"$undefined","difficulty":"intermediate","tags":["Ambient","音声認識","カルテ","SOAP","Nuance","日本語対応"],"publishedAt":"2026-03-03","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":6,"content":"$24","coverImage":null},{"slug":"ai-documentation-efficiency","title":"AI文書作成で診療時間を取り戻す","description":"紹介状、退院サマリー、診断書。医師の文書業務をAIで効率化する実践テクニックと、品質を保つためのチェックポイント","category":"workflow","contentType":"article","newsType":"$undefined","difficulty":"beginner","tags":["文書作成","退院サマリー","紹介状","業務効率化","働き方改革"],"publishedAt":"2026-02-28","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":6,"content":"$25","coverImage":null},{"slug":"ai-antibiotic-stewardship","title":"AI抗菌薬適正使用（スチュワードシップ）ワークフロー","description":"培養結果の解釈からde-escalation判断まで、AIを活用して抗菌薬の適正使用を実践するワークフロー。","category":"workflow","contentType":"guide","newsType":"$undefined","difficulty":"intermediate","tags":["抗菌薬","スチュワードシップ","AI","感染症","de-escalation","研修医"],"publishedAt":"2026-02-25","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":10,"content":"$26","coverImage":null}],"relatedCourses":[{"courseId":"prompt-engineering-basics","title":"プロンプトエンジニアリング基礎","description":"AIへの効果的な指示の出し方、基本テクニック、医療分野での実践的なプロンプト設計を学びます","category":"workflow","level":"beginner","lessonCount":5,"estimatedTotalMinutes":98,"order":3,"free":true,"learningOutcomes":["効果的なプロンプトを設計できる","医療文脈に適したプロンプトを作成できる","プロンプトの品質を評価・改善できる"],"prerequisites":["ai-basics"],"targetAudience":["AIツールをもっと上手に使いたい方","臨床業務でAIを活用したい医療者","プロンプト設計の基礎を学びたい方"],"skills":["プロンプト設計","AI活用","医療プロンプト"],"coverImage":"$undefined"},{"courseId":"ai-implementation-framework","title":"医療AI導入フレームワーク - R.O.A.D.モデル","description":"医療現場へのAI導入を体系的に進めるR.O.A.D.モデル、リスク評価、組織変革、効果測定の方法を学びます","category":"clinical-ai","level":"intermediate","lessonCount":8,"estimatedTotalMinutes":140,"order":15,"free":false,"learningOutcomes":["R.O.A.D.モデルに基づくAI導入計画を策定できる","医療AI導入のリスク評価を実施できる","組織変革マネジメントの手法を理解できる","AI導入の効果測定と改善プロセスを実践できる"],"prerequisites":["ai-basics","medical-ai-overview"],"targetAudience":["医療機関でAI導入を推進する立場の方","医療情報システム担当者","病院経営に関わる方"],"skills":["AI導入計画","リスク評価","組織変革"],"coverImage":"$undefined"}]}],"$L27"]}],"$L28"]
+29:I[56788,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"GiscusComments"]
+2a:I[20407,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"FloatingReadBar"]
+27:["$","$L29",null,{}]
+28:["$","$L2a",null,{"article":"$12:3:props:children:1:props:article","nextArticle":"$12:3:props:children:5:props:relatedArticles:0"}]
+21:[["$","h1",null,{"children":"退院サマリー作成支援"}],"\n",["$","h2",null,{"id":"概要","children":"概要"}],"\n",["$","p",null,{"children":"退院サマリーの作成は研修医の日常業務で大きな時間を占めます。入院中の経過メモや検査結果を入力し、電子カルテ用の退院サマリーの下書きを効率的に生成するプロンプトです。"}],"\n",["$","h2",null,{"id":"プロンプトテンプレート","children":"プロンプトテンプレート"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"以下の情報をもとに、退院サマリーを作成してください。\n\n# 患者基本情報\n- 患者ID: [匿名化ID]\n- 年齢/性別: [年齢/性別]\n- 入院日: [入院日]\n- 退院日: [退院日]\n- 入院経路: [予定入院 / 救急搬送 / 外来からの緊急入院]\n\n# 入院時情報\n- 主訴: [主訴]\n- 現病歴: [現病歴の要約]\n- 既往歴: [既往歴リスト]\n- 入院時バイタル: [BP, HR, SpO2, BT]\n- 入院時検査所見: [主要な異常値]\n\n# 入院後経過（時系列メモ）\n[入院中の経過を日付順に記載。検査結果、治療内容、経過の変化を含む]\n\n# 退院時情報\n- 退院時診断名: [主病名 + 副病名]\n- 退院時処方: [処方内容]\n- 退院時バイタル/検査値: [退院時の状態]\n- ADL: [退院時のADL]\n\n# 出力形式\n以下のセクションで退院サマリーを作成してください:\n\n## 1. 入院時主訴・現病歴（200字以内）\n## 2. 入院時所見（箇条書き）\n## 3. 入院後経過（時系列、500字以内）\n  - 治療内容と経過を簡潔に\n  - 主要な検査結果の推移\n  - 合併症や問題点があれば記載\n## 4. 退院時診断\n## 5. 退院時処方\n## 6. 退院後方針\n  - 外来フォローの予定（時期、目的）\n  - 注意すべき症状（再受診の基準）\n  - 生活指導事項\n"}]}],"\n",["$","h2",null,{"id":"使用例","children":"使用例"}],"\n",["$","h3",null,{"id":"入力例","children":"入力例"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"# 患者基本情報\n- 年齢/性別: 72歳男性\n- 入院日: 2026-02-10\n- 退院日: 2026-02-20\n- 入院経路: 救急搬送\n\n# 入院時情報\n- 主訴: 発熱、咳嗽、呼吸困難\n- 現病歴: 3日前から38度台の発熱と湿性咳嗽。本日SpO2 88%で救急搬送\n- 既往歴: COPD、2型糖尿病、高血圧\n- 入院時バイタル: BP 142/88, HR 102, SpO2 88%(room air), BT 39.1\n- 入院時検査: WBC 16,800, CRP 22.4, PCT 3.8, BUN 28, Cr 1.2\n\n# 入院後経過\n2/10: 胸部CT右下葉浸潤影。市中肺炎の診断でCTRX 2g/日+AZM 500mg開始。O2 3L開始\n2/12: 解熱傾向。SpO2 95%(O2 2L)。喀痰培養で肺炎球菌検出\n2/14: CRP 8.2まで改善。O2離脱。CTRX→AMPC/CVA 1500mg/日に変更\n2/17: CRP 1.8。ADL自立。退院方針\n2/20: 退院。CRP 0.6\n\n# 退院時情報\n- 退院時診断: 市中肺炎（肺炎球菌性）、COPD急性増悪\n- 退院時処方: AMPC/CVA 750mg 1日2回（残り5日分）、既存処方継続\n- ADL: 自立（入院前と同等）\n"}]}],"\n",["$","h3",null,{"id":"期待される出力のポイント","children":"期待される出力のポイント"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"入院後経過は時系列で簡潔に（抗菌薬変更の理由、酸素離脱の経過）"}],"\n",["$","li",null,{"children":"退院後方針に肺炎球菌ワクチン接種の推奨を含める"}],"\n",["$","li",null,{"children":"COPD急性増悪の再発予防（吸入薬のアドヒアランス確認）"}],"\n",["$","li",null,{"children":"再受診基準（発熱再燃、呼吸困難増悪）の明記"}],"\n"]}],"\n",["$","h2",null,{"id":"よくある失敗と対策","children":"よくある失敗と対策"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"個人情報をそのまま入力する"}],": 患者名、カルテ番号などは必ず匿名化してから入力"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"経過メモが断片的すぎる"}],": 日付+主要イベント（治療変更、検査結果、症状変化）を最低限含める"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"退院時処方を省略する"}],": 処方内容は退院サマリーの必須項目"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"生成されたサマリーを無確認で提出する"}],": 必ず医学的正確性と記載漏れを確認すること"]}],"\n"]}],"\n",["$","h2",null,{"id":"活用のポイント","children":"活用のポイント"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"カルテのコピー&ペーストで入力できるよう、「入院後経過」は日付+メモ形式でOK"}],"\n",["$","li",null,{"children":"長期入院の場合は「主要イベントのみ抜粋」と指示すると、適切な長さにまとまる"}],"\n",["$","li",null,{"children":"研修病院によってフォーマットが異なる場合、「自施設のテンプレートに合わせて」と形式を追加指定する"}],"\n",["$","li",null,{"children":"複数の診断がある場合は、各診断ごとに経過を分けて記載するよう指示すると読みやすくなる"}],"\n"]}]]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2b:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"退院サマリー作成支援 | Hoshizu"}],["$","meta","1",{"name":"description","content":"入院経過を要約し、退院サマリーの「入院後経過」欄を作成します。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/knowledge/doc-discharge-summary"}],["$","meta","4",{"property":"og:title","content":"退院サマリー作成支援"}],["$","meta","5",{"property":"og:description","content":"入院経過を要約し、退院サマリーの「入院後経過」欄を作成します。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2026-02-14"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","11",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","12",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","13",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico"}],["$","link","15",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L2b","16",{}]]

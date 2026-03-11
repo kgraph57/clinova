@@ -1,0 +1,206 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","claude-code","05-01-prompt-engineering"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","claude-code","d"],{"children":[["chapterId","05-01-prompt-engineering","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T134c,
+Claude Codeへの指示は、チャットAIへの質問とは根本的に異なる。「何を作るか」だけでなく「どう作るか」「何を変えないか」まで伝える技術が、プロンプトエンジニアリングだ。
+
+---
+
+## コーディングプロンプトの4原則
+
+### 1. 具体性 — What, Where, How
+
+```
+# 曖昧な指示
+> ログイン機能を作って
+
+# 具体的な指示
+> Firebase Authenticationを使ったメールログイン機能を作って。
+> - コンポーネント: src/components/auth/LoginForm.tsx
+> - 認証コンテキスト: src/contexts/AuthContext.tsx
+> - ログイン後のリダイレクト先: /dashboard
+> - エラー表示: Toastで表示（sonnerを使用）
+```
+
+場所（Where）を指定することで、既存のプロジェクト構造と整合性のある実装が得られる。
+
+### 2. 文脈提供 — 既存パターンの参照
+
+```
+> src/components/Header.tsx と同じスタイルでFooterコンポーネントを作って
+```
+
+```
+> lib/content.ts の getArticleBySlug と同じパターンで、
+> getBookBySlug 関数を lib/book.ts に作って
+```
+
+既存のコードを参照させることで、プロジェクト全体の一貫性を保てる。
+
+### 3. 制約条件 — やらないことを明示する
+
+```
+> データベーススキーマは変更しないで
+> 既存のAPIのレスポンス形式は維持して
+> テストカバレッジを下げないで
+```
+
+AIは「良かれと思って」余計な変更をすることがある。やらないことを明示することで、スコープを制御する。
+
+### 4. 段階的指示 — 大きなタスクを分割する
+
+```
+# 一度にすべてを頼まない
+> まずデータモデルの型定義を作って
+（レビュー後）
+> 次にCRUD操作のAPIルートを作って
+（レビュー後）
+> 最後にフロントエンドのフォームを作って
+```
+
+各段階でレビューを挟むことで、方向修正のコストを最小化する。
+
+---
+
+## タスク別プロンプトパターン
+
+### バグ修正
+
+```
+> 以下のバグを修正して:
+> - 症状: ログイン後にダッシュボードが表示されない
+> - 再現手順: メールでログイン → 画面が白いまま
+> - 期待動作: /dashboard にリダイレクトされる
+> - 関連ファイル: src/app/login/page.tsx, src/contexts/AuthContext.tsx
+```
+
+### 新機能追加
+
+```
+> 以下の仕様で新機能を追加して:
+> - 機能: 記事のブックマーク
+> - 保存先: localStorage
+> - UI: 各記事にハートアイコン、クリックでトグル
+> - 一覧: /bookmarks ページで一覧表示
+> - 既存パターン: src/components/article/ の他のコンポーネントを参考に
+```
+
+### リファクタリング
+
+```
+> src/lib/content.ts をリファクタリングして:
+> - 800行を超えているので分割したい
+> - 記事関連 → lib/articles.ts
+> - コース関連 → lib/courses.ts
+> - 共通ユーティリティ → lib/content-utils.ts
+> - 外部からのimportパスも更新して
+> - テストが引き続き通ることを確認して
+```
+
+---
+
+## CLAUDE.mdを「永続的プロンプト」として活用する
+
+CLAUDE.mdに書いたルールは、すべての対話で自動的に適用される。
+
+つまり、CLAUDE.mdは「毎回言わなくても適用されるプロンプト」である。
+
+```markdown
+# CLAUDE.md
+
+## Coding Standards
+- Always use immutable patterns (never mutate objects)
+- Functions must be under 50 lines
+- Always validate user input with Zod
+- No console.log in production code
+```
+
+これを一度書いておけば、毎回「イミュータブルにして」「Zodでバリデーションして」と言う必要がなくなる。
+
+---
+
+## アンチパターン
+
+### 曖昧すぎる指示
+
+```
+# NG
+> アプリをもっとよくして
+> パフォーマンスを改善して
+> セキュリティを強化して
+```
+
+「もっとよく」の定義がないと、AIは「もっともらしい」が的外れな改善を行う。
+
+### 過度に複雑な一括指示
+
+```
+# NG
+> ログイン機能と、ダッシュボードと、設定画面と、
+> プロフィール編集と、通知機能を全部作って
+```
+
+一度に多くを頼むと、どれも中途半端になる。
+
+### 「よしなにやって」
+
+```
+# NG
+> いい感じにリファクタリングして
+```
+
+「いい感じ」の基準が不明。具体的な改善目標を示す。
+
+<KeyTakeaway>
+- コーディングプロンプトの4原則: 具体性、文脈提供、制約条件、段階的指示
+- 既存のコードパターンを参照させることでプロジェクトの一貫性を保つ
+- 「やらないこと」を明示してスコープを制御する
+- CLAUDE.mdを永続的プロンプトとして活用し、繰り返しの指示を省略する
+- 大きなタスクは分割し、各段階でレビューを挟む
+</KeyTakeaway>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-claude-code","lessonSlug":"05-01-prompt-engineering"}],["$","$L1d",null,{"items":[{"id":"コーディングプロンプトの4原則","text":"コーディングプロンプトの4原則","level":2},{"id":"1-具体性-what-where-how","text":"1. 具体性 — What, Where, How","level":3},{"id":"2-文脈提供-既存パターンの参照","text":"2. 文脈提供 — 既存パターンの参照","level":3},{"id":"3-制約条件-やらないことを明示する","text":"3. 制約条件 — やらないことを明示する","level":3},{"id":"4-段階的指示-大きなタスクを分割する","text":"4. 段階的指示 — 大きなタスクを分割する","level":3},{"id":"タスク別プロンプトパターン","text":"タスク別プロンプトパターン","level":2},{"id":"バグ修正","text":"バグ修正","level":3},{"id":"新機能追加","text":"新機能追加","level":3},{"id":"リファクタリング","text":"リファクタリング","level":3},{"id":"claudemdを永続的プロンプトとして活用する","text":"CLAUDE.mdを「永続的プロンプト」として活用する","level":2},{"id":"アンチパターン","text":"アンチパターン","level":2},{"id":"曖昧すぎる指示","text":"曖昧すぎる指示","level":3},{"id":"過度に複雑な一括指示","text":"過度に複雑な一括指示","level":3},{"id":"よしなにやって","text":"「よしなにやって」","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"05-01-prompt-engineering","title":"プロンプトエンジニアリング — コーディング特化の指示術","description":"Claude Codeに的確な指示を出すためのプロンプト設計。具体性、文脈提供、制約条件の伝え方。コーディングに特化したテクニックを扱う。","partId":"part05","partTitle":"高度なテクニック","order":16,"partOrder":5,"estimatedMinutes":25,"estimatedReadTime":5,"free":true,"status":"published","tags":["プロンプト","指示","コーディング","テクニック","設計"],"content":"$1f"},"totalChapters":26}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"claude-code","chapterSlug":"05-01-prompt-engineering"}]
+23:["$","$L27",null,{"bookId":"claude-code","prev":{"slug":"04-04-plan-mode","title":"Plan Mode — 設計してから実装する","order":15},"next":{"slug":"05-02-context-management","title":"コンテキスト管理 — 窓の向こうの知識をつなぐ","order":17}}]
+28:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+25:[["$","p",null,{"children":"Claude Codeへの指示は、チャットAIへの質問とは根本的に異なる。「何を作るか」だけでなく「どう作るか」「何を変えないか」まで伝える技術が、プロンプトエンジニアリングだ。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"コーディングプロンプトの4原則","children":"コーディングプロンプトの4原則"}],"\n",["$","h3",null,{"id":"1-具体性-what-where-how","children":"1. 具体性 — What, Where, How"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# 曖昧な指示\n> ログイン機能を作って\n\n# 具体的な指示\n> Firebase Authenticationを使ったメールログイン機能を作って。\n> - コンポーネント: src/components/auth/LoginForm.tsx\n> - 認証コンテキスト: src/contexts/AuthContext.tsx\n> - ログイン後のリダイレクト先: /dashboard\n> - エラー表示: Toastで表示（sonnerを使用）\n"}]}],"\n",["$","p",null,{"children":"場所（Where）を指定することで、既存のプロジェクト構造と整合性のある実装が得られる。"}],"\n",["$","h3",null,{"id":"2-文脈提供-既存パターンの参照","children":"2. 文脈提供 — 既存パターンの参照"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> src/components/Header.tsx と同じスタイルでFooterコンポーネントを作って\n"}]}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> lib/content.ts の getArticleBySlug と同じパターンで、\n> getBookBySlug 関数を lib/book.ts に作って\n"}]}],"\n",["$","p",null,{"children":"既存のコードを参照させることで、プロジェクト全体の一貫性を保てる。"}],"\n",["$","h3",null,{"id":"3-制約条件-やらないことを明示する","children":"3. 制約条件 — やらないことを明示する"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> データベーススキーマは変更しないで\n> 既存のAPIのレスポンス形式は維持して\n> テストカバレッジを下げないで\n"}]}],"\n",["$","p",null,{"children":"AIは「良かれと思って」余計な変更をすることがある。やらないことを明示することで、スコープを制御する。"}],"\n",["$","h3",null,{"id":"4-段階的指示-大きなタスクを分割する","children":"4. 段階的指示 — 大きなタスクを分割する"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# 一度にすべてを頼まない\n> まずデータモデルの型定義を作って\n（レビュー後）\n> 次にCRUD操作のAPIルートを作って\n（レビュー後）\n> 最後にフロントエンドのフォームを作って\n"}]}],"\n",["$","p",null,{"children":"各段階でレビューを挟むことで、方向修正のコストを最小化する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"タスク別プロンプトパターン","children":"タスク別プロンプトパターン"}],"\n",["$","h3",null,{"id":"バグ修正","children":"バグ修正"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> 以下のバグを修正して:\n> - 症状: ログイン後にダッシュボードが表示されない\n> - 再現手順: メールでログイン → 画面が白いまま\n> - 期待動作: /dashboard にリダイレクトされる\n> - 関連ファイル: src/app/login/page.tsx, src/contexts/AuthContext.tsx\n"}]}],"\n",["$","h3",null,{"id":"新機能追加","children":"新機能追加"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> 以下の仕様で新機能を追加して:\n> - 機能: 記事のブックマーク\n> - 保存先: localStorage\n> - UI: 各記事にハートアイコン、クリックでトグル\n> - 一覧: /bookmarks ページで一覧表示\n> - 既存パターン: src/components/article/ の他のコンポーネントを参考に\n"}]}],"\n",["$","h3",null,{"id":"リファクタリング","children":"リファクタリング"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> src/lib/content.ts をリファクタリングして:\n> - 800行を超えているので分割したい\n> - 記事関連 → lib/articles.ts\n> - コース関連 → lib/courses.ts\n> - 共通ユーティリティ → lib/content-utils.ts\n> - 外部からのimportパスも更新して\n> - テストが引き続き通ることを確認して\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"claudemdを永続的プロンプトとして活用する","children":"CLAUDE.mdを「永続的プロンプト」として活用する"}],"\n",["$","p",null,{"children":"CLAUDE.mdに書いたルールは、すべての対話で自動的に適用される。"}],"\n",["$","p",null,{"children":"つまり、CLAUDE.mdは「毎回言わなくても適用されるプロンプト」である。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"# CLAUDE.md\n\n## Coding Standards\n- Always use immutable patterns (never mutate objects)\n- Functions must be under 50 lines\n- Always validate user input with Zod\n- No console.log in production code\n"}]}],"\n",["$","p",null,{"children":"これを一度書いておけば、毎回「イミュータブルにして」「Zodでバリデーションして」と言う必要がなくなる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"アンチパターン","children":"アンチパターン"}],"\n",["$","h3",null,{"id":"曖昧すぎる指示","children":"曖昧すぎる指示"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# NG\n> アプリをもっとよくして\n> パフォーマンスを改善して\n> セキュリティを強化して\n"}]}],"\n",["$","p",null,{"children":"「もっとよく」の定義がないと、AIは「もっともらしい」が的外れな改善を行う。"}],"\n",["$","h3",null,{"id":"過度に複雑な一括指示","children":"過度に複雑な一括指示"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# NG\n> ログイン機能と、ダッシュボードと、設定画面と、\n> プロフィール編集と、通知機能を全部作って\n"}]}],"\n",["$","p",null,{"children":"一度に多くを頼むと、どれも中途半端になる。"}],"\n",["$","h3",null,{"id":"よしなにやって","children":"「よしなにやって」"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# NG\n> いい感じにリファクタリングして\n"}]}],"\n",["$","p",null,{"children":"「いい感じ」の基準が不明。具体的な改善目標を示す。"}],"\n",["$","$L28",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"コーディングプロンプトの4原則: 具体性、文脈提供、制約条件、段階的指示"}],"\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n"]}]}]]
+29:["$","li",null,{"children":"既存のコードパターンを参照させることでプロジェクトの一貫性を保つ"}]
+2a:["$","li",null,{"children":"「やらないこと」を明示してスコープを制御する"}]
+2b:["$","li",null,{"children":"CLAUDE.mdを永続的プロンプトとして活用し、繰り返しの指示を省略する"}]
+2c:["$","li",null,{"children":"大きなタスクは分割し、各段階でレビューを挟む"}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2d:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"プロンプトエンジニアリング — コーディング特化の指示術 | Hoshizu"}],["$","meta","1",{"name":"description","content":"Claude Codeに的確な指示を出すためのプロンプト設計。具体性、文脈提供、制約条件の伝え方。コーディングに特化したテクニックを扱う。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/claude-code/05-01-prompt-engineering"}],["$","meta","4",{"property":"og:title","content":"プロンプトエンジニアリング — コーディング特化の指示術 - Claude Code完全ガイド — AIコーディングの新しい形"}],["$","meta","5",{"property":"og:description","content":"Claude Codeに的確な指示を出すためのプロンプト設計。具体性、文脈提供、制約条件の伝え方。コーディングに特化したテクニックを扱う。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L2d","15",{}]]

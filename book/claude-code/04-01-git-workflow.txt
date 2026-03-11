@@ -1,0 +1,177 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","claude-code","04-01-git-workflow"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","claude-code","d"],{"children":[["chapterId","04-01-git-workflow","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+20:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+22:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+23:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+1f:Tfde,
+Gitの操作は開発の根幹だ。Claude Codeは、状態確認からコミット、PR作成まで、Gitワークフロー全体を一貫して支援する。
+
+---
+
+## Claude CodeのGit哲学
+
+Claude Codeには、Gitに関する明確な安全哲学がある。
+
+1. 新規コミットを優先: `--amend` よりも新しいコミットを作る
+2. Hooksをスキップしない: `--no-verify` は使わない
+3. force pushしない: `--force` は原則禁止
+4. 破壊的操作を避ける: `reset --hard`、`checkout .` は慎重に
+
+この哲学は「取り消しの効かない操作を避ける」という原則に基づいている。
+
+---
+
+## コミットワークフロー
+
+### ステップ1: 状態確認
+
+```
+> 今の変更状況を教えて
+```
+
+Claude Codeは `git status` と `git diff` を実行し、変更内容を分析する。
+
+### ステップ2: コミットメッセージの自動生成
+
+```
+> この変更をコミットして
+```
+
+Claude Codeは以下の手順を踏む。
+
+1. `git status` で未追跡ファイルを確認
+2. `git diff` でステージ済み・未ステージの変更を確認
+3. `git log` で最近のコミットメッセージのスタイルを確認
+4. 変更内容を分析し、Conventional Commits形式でメッセージを生成
+
+### Conventional Commits
+
+```
+<type>: <description>
+
+<optional body>
+```
+
+| タイプ | 説明 |
+|--------|------|
+| `feat` | 新機能 |
+| `fix` | バグ修正 |
+| `refactor` | リファクタリング |
+| `docs` | ドキュメント |
+| `test` | テスト |
+| `chore` | 雑務 |
+| `perf` | パフォーマンス改善 |
+
+---
+
+## PR作成ワークフロー
+
+```
+> PRを作成して
+```
+
+Claude Codeは以下の手順でPRを作成する。
+
+1. 現在のブランチとmainブランチの差分を分析
+2. すべてのコミット履歴を確認（最新だけでなく全コミット）
+3. PRタイトルとサマリーを自動生成
+4. `gh pr create` でPRを作成
+
+### PRの構成
+
+```markdown
+## Summary
+- 変更の概要を箇条書きで
+
+## Test plan
+- [ ] テスト項目1
+- [ ] テスト項目2
+```
+
+<Callout type="info" title="/commit スキルの活用">
+`/commit` スラッシュコマンドを使うと、コミットワークフロー全体が自動化される。手動で指示するよりも、一貫したプロセスが保証される。
+</Callout>
+
+---
+
+## ブランチ戦略
+
+```
+> feature/add-bmi-calculator ブランチを作成して作業を始めて
+```
+
+Claude Codeはブランチの作成、チェックアウト、作業後のpush（`-u` フラグ付き）まで一貫して行える。
+
+---
+
+## マージコンフリクトの解決
+
+コンフリクトが発生した場合もClaude Codeが支援する。
+
+```
+> マージコンフリクトを解決して
+```
+
+Claude Codeは両方の変更を読み取り、意図を分析した上で、最適な解決策を提案する。ただし、コンフリクトの解決は慎重を要するため、提案内容は必ず人間が確認すべきだ。
+
+---
+
+## Git安全プロトコル
+
+Claude Codeに組み込まれたGit安全ルール。
+
+| ルール | 理由 |
+|--------|------|
+| `git push --force` を使わない | リモートの変更を上書きするリスク |
+| `git reset --hard` は慎重に | コミットされていない変更が失われる |
+| `--no-verify` を使わない | pre-commitフックは品質の最後の砦 |
+| 機密ファイルをコミットしない | `.env`、認証情報のチェック |
+| `git add -A` より個別追加 | 不要なファイルの混入防止 |
+
+<KeyTakeaway>
+- Claude CodeはGit操作全体（status確認、diff分析、コミット、PR作成）を一貫して支援する
+- Conventional Commits形式でコミットメッセージを自動生成する
+- force push禁止、hooks スキップ禁止など、安全なGit操作の哲学が組み込まれている
+- PR作成時は全コミット履歴を分析し、包括的なサマリーを生成する
+- /commit スキルで一連のワークフローを自動化できる
+</KeyTakeaway>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-claude-code","lessonSlug":"04-01-git-workflow"}],["$","$L1d",null,{"items":[{"id":"claude-codeのgit哲学","text":"Claude CodeのGit哲学","level":2},{"id":"コミットワークフロー","text":"コミットワークフロー","level":2},{"id":"ステップ1-状態確認","text":"ステップ1: 状態確認","level":3},{"id":"ステップ2-コミットメッセージの自動生成","text":"ステップ2: コミットメッセージの自動生成","level":3},{"id":"conventional-commits","text":"Conventional Commits","level":3},{"id":"pr作成ワークフロー","text":"PR作成ワークフロー","level":2},{"id":"prの構成","text":"PRの構成","level":3},{"id":"ブランチ戦略","text":"ブランチ戦略","level":2},{"id":"マージコンフリクトの解決","text":"マージコンフリクトの解決","level":2},{"id":"git安全プロトコル","text":"Git安全プロトコル","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"04-01-git-workflow","title":"Git連携 — コミットからPRまでをAIと共に","description":"Claude Codeによるgit status確認、差分分析、コミットメッセージ生成、PR作成。日常のGitワークフローがどう変わるかを扱う。","partId":"part04","partTitle":"開発ワークフロー","order":12,"partOrder":4,"estimatedMinutes":20,"estimatedReadTime":5,"free":true,"status":"published","tags":["Git","コミット","PR","GitHub","ワークフロー"],"content":"$1f"},"totalChapters":26}],["$","$L20",null,{"items":"$12:2:props:items"}],["$","article",null,{"className":"prose book-prose","children":"$L21"}],["$","$L22",null,{"bookId":"claude-code","chapterSlug":"04-01-git-workflow"}],["$","$L23",null,{"bookId":"claude-code","prev":{"slug":"03-04-mcp","title":"MCP Servers — 外部世界とつながる","order":11},"next":{"slug":"04-02-tdd","title":"テスト駆動開発 — RED-GREEN-REFACTORをAIと回す","order":13}}]]}]]
+24:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+21:[["$","p",null,{"children":"Gitの操作は開発の根幹だ。Claude Codeは、状態確認からコミット、PR作成まで、Gitワークフロー全体を一貫して支援する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"claude-codeのgit哲学","children":"Claude CodeのGit哲学"}],"\n",["$","p",null,{"children":"Claude Codeには、Gitに関する明確な安全哲学がある。"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":["新規コミットを優先: ",["$","code",null,{"children":"--amend"}]," よりも新しいコミットを作る"]}],"\n",["$","li",null,{"children":["Hooksをスキップしない: ",["$","code",null,{"children":"--no-verify"}]," は使わない"]}],"\n",["$","li",null,{"children":["force pushしない: ",["$","code",null,{"children":"--force"}]," は原則禁止"]}],"\n",["$","li",null,{"children":["破壊的操作を避ける: ",["$","code",null,{"children":"reset --hard"}],"、",["$","code",null,{"children":"checkout ."}]," は慎重に"]}],"\n"]}],"\n",["$","p",null,{"children":"この哲学は「取り消しの効かない操作を避ける」という原則に基づいている。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"コミットワークフロー","children":"コミットワークフロー"}],"\n",["$","h3",null,{"id":"ステップ1-状態確認","children":"ステップ1: 状態確認"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> 今の変更状況を教えて\n"}]}],"\n",["$","p",null,{"children":["Claude Codeは ",["$","code",null,{"children":"git status"}]," と ",["$","code",null,{"children":"git diff"}]," を実行し、変更内容を分析する。"]}],"\n",["$","h3",null,{"id":"ステップ2-コミットメッセージの自動生成","children":"ステップ2: コミットメッセージの自動生成"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> この変更をコミットして\n"}]}],"\n",["$","p",null,{"children":"Claude Codeは以下の手順を踏む。"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"git status"}]," で未追跡ファイルを確認"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"git diff"}]," でステージ済み・未ステージの変更を確認"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"git log"}]," で最近のコミットメッセージのスタイルを確認"]}],"\n",["$","li",null,{"children":"変更内容を分析し、Conventional Commits形式でメッセージを生成"}],"\n"]}],"\n",["$","h3",null,{"id":"conventional-commits","children":"Conventional Commits"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"<type>: <description>\n\n<optional body>\n"}]}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"タイプ"}],["$","th",null,{"children":"説明"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"feat"}]}],["$","td",null,{"children":"新機能"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"fix"}]}],["$","td",null,{"children":"バグ修正"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"refactor"}]}],["$","td",null,{"children":"リファクタリング"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"docs"}]}],["$","td",null,{"children":"ドキュメント"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"test"}]}],["$","td",null,{"children":"テスト"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"chore"}]}],["$","td",null,{"children":"雑務"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"perf"}]}],["$","td",null,{"children":"パフォーマンス改善"}]]}]]}]]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"pr作成ワークフロー","children":"PR作成ワークフロー"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> PRを作成して\n"}]}],"\n",["$","p",null,{"children":"Claude Codeは以下の手順でPRを作成する。"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"現在のブランチとmainブランチの差分を分析"}],"\n",["$","li",null,{"children":"すべてのコミット履歴を確認（最新だけでなく全コミット）"}],"\n",["$","li",null,{"children":"PRタイトルとサマリーを自動生成"}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"gh pr create"}]," でPRを作成"]}],"\n"]}],"\n",["$","h3",null,{"id":"prの構成","children":"PRの構成"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"## Summary\n- 変更の概要を箇条書きで\n\n## Test plan\n- [ ] テスト項目1\n- [ ] テスト項目2\n"}]}],"\n",["$","$L24",null,{"type":"info","title":"/commit スキルの活用","children":["$","p",null,{"children":[["$","code",null,{"children":"/commit"}]," スラッシュコマンドを使うと、コミットワークフロー全体が自動化される。手動で指示するよりも、一貫したプロセスが保証される。"]}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"ブランチ戦略","children":"ブランチ戦略"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> feature/add-bmi-calculator ブランチを作成して作業を始めて\n"}]}],"\n",["$","p",null,{"children":["Claude Codeはブランチの作成、チェックアウト、作業後のpush（",["$","code",null,{"children":"-u"}]," フラグ付き）まで一貫して行える。"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"マージコンフリクトの解決","children":"マージコンフリクトの解決"}],"\n",["$","p",null,{"children":"コンフリクトが発生した場合もClaude Codeが支援する。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> マージコンフリクトを解決して\n"}]}],"\n",["$","p",null,{"children":"Claude Codeは両方の変更を読み取り、意図を分析した上で、最適な解決策を提案する。ただし、コンフリクトの解決は慎重を要するため、提案内容は必ず人間が確認すべきだ。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"git安全プロトコル","children":"Git安全プロトコル"}],"\n",["$","p",null,{"children":"Claude Codeに組み込まれたGit安全ルール。"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":"$L25"}],"$L26"]}],"\n","$L27"]
+28:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+25:["$","tr",null,{"children":[["$","th",null,{"children":"ルール"}],["$","th",null,{"children":"理由"}]]}]
+26:["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":[["$","code",null,{"children":"git push --force"}]," を使わない"]}],["$","td",null,{"children":"リモートの変更を上書きするリスク"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":[["$","code",null,{"children":"git reset --hard"}]," は慎重に"]}],["$","td",null,{"children":"コミットされていない変更が失われる"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":[["$","code",null,{"children":"--no-verify"}]," を使わない"]}],["$","td",null,{"children":"pre-commitフックは品質の最後の砦"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"機密ファイルをコミットしない"}],["$","td",null,{"children":[["$","code",null,{"children":".env"}],"、認証情報のチェック"]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":[["$","code",null,{"children":"git add -A"}]," より個別追加"]}],["$","td",null,{"children":"不要なファイルの混入防止"}]]}]]}]
+27:["$","$L28",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"Claude CodeはGit操作全体（status確認、diff分析、コミット、PR作成）を一貫して支援する"}],"\n",["$","li",null,{"children":"Conventional Commits形式でコミットメッセージを自動生成する"}],"\n",["$","li",null,{"children":"force push禁止、hooks スキップ禁止など、安全なGit操作の哲学が組み込まれている"}],"\n",["$","li",null,{"children":"PR作成時は全コミット履歴を分析し、包括的なサマリーを生成する"}],"\n",["$","li",null,{"children":"/commit スキルで一連のワークフローを自動化できる"}],"\n"]}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+29:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"Git連携 — コミットからPRまでをAIと共に | Hoshizu"}],["$","meta","1",{"name":"description","content":"Claude Codeによるgit status確認、差分分析、コミットメッセージ生成、PR作成。日常のGitワークフローがどう変わるかを扱う。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/claude-code/04-01-git-workflow"}],["$","meta","4",{"property":"og:title","content":"Git連携 — コミットからPRまでをAIと共に - Claude Code完全ガイド — AIコーディングの新しい形"}],["$","meta","5",{"property":"og:description","content":"Claude Codeによるgit status確認、差分分析、コミットメッセージ生成、PR作成。日常のGitワークフローがどう変わるかを扱う。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L29","15",{}]]

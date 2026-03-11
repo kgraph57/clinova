@@ -1,0 +1,427 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","knowledge","diagnosis-lab-interpretation"],"q":"","i":false,"f":[[["",{"children":["knowledge",{"children":[["slug","diagnosis-lab-interpretation","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/eb46a9559e436395.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadingProgress"]
+1c:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"TableOfContents"]
+1d:I[12900,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"BookmarkButton"]
+1e:I[71957,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleHeader"]
+20:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"MobileToc"]
+22:I[52429,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadTracker"]
+23:I[51830,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleFooter"]
+1f:T11d1,
+# 検査結果インタープリター
+
+## 概要
+
+このプロンプトは、異常な検査結果に対して病態生理学的メカニズムの解説と、考えられる鑑別疾患の一覧を体系的に生成します。単一の異常値だけでなく、複数の異常値の組み合わせから推測される病態パターンを提示し、追加で確認すべき検査項目も提案します。日常診療で遭遇する「なぜこの値が異常なのか」という疑問に対し、臨床推論の出発点を提供するツールです。
+
+## 安全に関する重要な注意事項
+
+検査結果の解釈は、必ず患者の臨床所見・病歴・身体所見と合わせて総合的に行ってください。AIの出力はあくまで参考情報であり、最終的な判断は担当医が行うものです。検査値の基準範囲は施設や測定法によって異なる場合があります。緊急性の高い異常値（パニック値）を認めた場合は、AIへの相談よりも先に臨床対応を優先してください。
+
+## プロンプトテンプレート
+
+```text
+以下の検査結果の異常値について、考えられる病態生理学的メカニズムと、鑑別すべき疾患を挙げてください。
+
+# 検査結果
+[検査結果を入力]
+
+# 患者背景
+[患者背景を入力]
+
+# 出力形式
+1. 各異常値の病態生理学的解釈
+2. 複数の異常値の組み合わせから推測される病態
+3. 鑑別疾患リスト（可能性の高い順）
+4. 追加で確認すべき検査項目
+
+注意：この出力は参考情報です。検査結果の最終解釈は、臨床所見と合わせて医師が行ってください。
+```
+
+## 使い方
+
+1. **検査結果を入力**: 異常値を含む検査データを記載します。基準範囲からの逸脱が明確になるよう、数値と単位を正確に入力してください。
+2. **患者背景を入力**: 年齢、性別、既往歴、服薬歴、主訴など、検査値の解釈に影響する臨床情報を記載します。
+3. **AIの出力を確認**: 病態生理学的メカニズム、鑑別疾患、追加検査の提案を確認します。
+4. **臨床所見と照合**: AIの解釈を身体所見や画像所見と照らし合わせ、妥当性を検証してください。
+
+## 使用例
+
+以下は実際の入力例です。
+
+```text
+# 検査結果
+- Na 125 mEq/L（基準値 136-145）
+- K 5.8 mEq/L（基準値 3.5-5.0）
+- Cre 2.1 mg/dL（基準値 0.6-1.1）
+- BUN 45 mg/dL（基準値 8-20）
+- eGFR 28 mL/min/1.73m²
+
+# 患者背景
+70歳男性、高血圧でARB内服中。2日前から食欲低下と全身倦怠感あり。
+尿量がここ数日やや減少している。
+```
+
+この入力に対し、AIは以下のような解釈を提示します。
+
+### 各異常値の病態生理学的解釈
+
+- **低Na血症（125 mEq/L）**: 腎機能低下による自由水排泄障害、または有効循環血漿量の低下に伴うADH分泌亢進が考えられる
+- **高K血症（5.8 mEq/L）**: 腎からのK排泄低下が主因。ARB内服によるRAA系抑制が増悪因子
+- **Cre/BUN上昇**: 腎前性（脱水・循環血液量低下）または腎性の急性腎障害を示唆。BUN/Cre比が約21で、腎前性要素の関与も示唆される
+
+### 鑑別疾患リスト
+
+1. 急性腎障害（腎前性） — 脱水・食欲低下による循環血液量低下
+2. 急性腎障害（腎性） — ARBによる輸出細動脈拡張 + 脱水の複合
+3. 慢性腎臓病の急性増悪
+4. 副腎不全 — 低Na・高K・倦怠感のパターン
+
+### 追加検査
+
+尿中Na・尿浸透圧・尿中Cre（腎前性 vs 腎性の鑑別）、コルチゾール（副腎不全の除外）、腎エコー（慢性変化の有無）、心エコー（心不全の評価）が提案されます。
+
+## 活用のポイント
+
+- 検査値は数値と単位を正確に記載してください。基準範囲も併記すると、AIの解釈精度が向上します。
+- 服薬歴は検査値に大きく影響するため、必ず記載してください（特にARB、ACE阻害薬、利尿薬、NSAIDs等）。
+- 経時的な検査値の変化がある場合は、複数時点のデータを入力すると、急性 vs 慢性の判断に役立ちます。
+- 特に電解質異常や腎機能障害では、水分バランス（摂取量・尿量）の情報が鑑別に重要です。
+- AIの出力を鵜呑みにせず、臨床所見と矛盾がないかを必ず確認してください。
+24:T115b,
+# LLMの臨床推論能力はどこまで来たか
+
+## テストの点数と臨床能力のギャップ
+
+2023年、GPT-4がUSMLE全ステップで合格ラインを超えたというニュースは医療界に衝撃を与えました。2026年現在、主要LLMのUSMLE正答率は90%前後に達しています。しかし、テストの成績が高いことと、実臨床で信頼できる推論ができることは同義ではありません。
+
+## ベンチマーク成績の推移
+
+| モデル | USMLE Step 1 | USMLE Step 2 CK | MedQA | 日本医師国家試験 |
+|--------|-------------|-----------------|-------|----------------|
+| GPT-4 (2023) | 86% | 85% | 86% | 78% |
+| Claude 3 Opus (2024) | 88% | 87% | 88% | 80% |
+| GPT-4o (2024) | 90% | 89% | 90% | 82% |
+| Claude 4.5 Sonnet (2025) | 93% | 92% | 93% | 87% |
+| Gemini 2 Ultra (2025) | 91% | 90% | 91% | 84% |
+
+数字は印象的ですが、注意点があります。これらのテストは「選択肢から正解を選ぶ」形式であり、実臨床の「情報を自ら収集し、不確実性の中で判断する」プロセスとは本質的に異なります。
+
+## LLMが得意な推論タスク
+
+### 鑑別診断の網羅性
+
+LLMの最大の強みは「思いつかない疾患を提示してくれる」ことです。特に：
+
+- **稀な疾患の想起**: 医師が経験したことのない疾患も学習データから提示
+- **複数の専門領域にまたがるケース**: 内科＋精神科＋皮膚科のような横断的鑑別
+- **非典型例の認識**: 「高齢者の心筋梗塞は胸痛がないことがある」のようなパターン
+
+### 情報の構造化
+
+散在する臨床情報を体系的に整理する能力は高いです。
+
+- 病歴の時系列整理
+- Problem Listの作成と優先順位付け
+- 検査結果の網羅的解釈
+
+## LLMが苦手な推論タスク
+
+### 文脈に依存した判断
+
+「この患者は3回目の入院で、前回の治療で副作用が出た」のような、個別の文脈に基づく判断はLLMの弱点です。与えられた情報は処理できますが、「何を聞くべきか」「何が欠けているか」を自ら判断する能力は限定的です。
+
+### 確率の直感的理解
+
+有病率を考慮したベイズ推論はLLMの苦手領域です。「健診で偶然見つかった検査異常」と「救急外来で症状のある患者の同じ検査異常」では解釈が全く異なりますが、LLMはこの文脈の違いを適切に反映しないことがあります。
+
+### 身体所見の解釈
+
+「触診で肝臓が硬い」「聴診で収縮期雑音がLevine III/VI」のような、身体所見の微妙なニュアンスを画像や数値データなしに解釈することは困難です。
+
+## 拡張思考モードの臨床的意義
+
+Claude 3.7以降の「拡張思考（Extended Thinking）」やGPT-4oの推論モードは、段階的な思考プロセスを可視化します。これにより：
+
+- 推論の根拠が追跡可能
+- 「なぜその鑑別が上位なのか」が明確
+- 誤りの発見が容易
+
+単に答えを出すだけでなく、思考プロセスを提示することで、医師がAIの推論を検証しやすくなります。
+
+## 実臨床での活用ポイント
+
+### 効果的な使い方
+
+1. **セカンドオピニオン的活用**: 自分の鑑別リストとAIの鑑別リストを比較し、見落としがないか確認
+2. **稀な疾患のスクリーニング**: 非典型的な症状パターンでAIに鑑別を聞く
+3. **文献知識の補完**: 自分の専門外の領域で、最新のエビデンスを確認
+
+### やってはいけない使い方
+
+1. **AIの出力をそのまま採用**: 臨床的文脈を無視した鑑別は危険
+2. **稀な疾患への過度の注目**: AIは稀な疾患も平等に列挙するが、実際の確率は低い
+3. **身体所見なしの診断**: AIに画面上の情報だけで最終診断を求めない
+
+## まとめ
+
+LLMの臨床推論能力は着実に向上していますが、現時点では「優秀な研修医」に近い立ち位置です。知識は豊富で、構造化は得意、しかし経験に基づく直感や文脈判断は医師に及びません。AIを「置き換え」ではなく「拡張」として位置づけ、医師の臨床判断を強化するツールとして活用することが、現段階での最適解です。
+25:Tb81,
+# 小児発熱アセスメント
+
+## 概要
+
+小児の発熱は年齢によってリスクが大きく異なります。特に生後3か月未満の発熱は重症細菌感染症（SBI）のリスクが高く、迅速な評価が必要です。このプロンプトは、年齢別のリスク層別化と推奨される検査・対応を体系的に整理します。
+
+## 安全に関する重要な注意事項
+
+このプロンプトは臨床判断の補助ツールです。特に乳児の発熱は急速に重症化する可能性があるため、AIの出力に頼らず、必ず対面での診察と臨床判断に基づいて対応してください。
+
+## プロンプトテンプレート
+
+```text
+あなたは小児救急に精通した小児科専門医です。以下の発熱小児患者について、年齢に応じたリスク評価と推奨対応を提示してください。
+
+# 患者情報
+- 年齢: {{年齢}}（例: 生後2か月、3歳）
+- 体温: {{体温}}°C（測定方法: {{腋窩/直腸/鼓膜}}）
+- 発熱期間: {{期間}}
+- 随伴症状: {{症状}}（例: 咳嗽、嘔吐、不機嫌、哺乳不良）
+- 外観（General Appearance）: {{良好/ぐったり/不機嫌/傾眠}}
+- バイタルサイン: 心拍数{{HR}}/分、呼吸数{{RR}}/分、SpO2{{SpO2}}%
+- 既往歴: {{既往歴}}
+- 予防接種歴: {{接種状況}}
+- 周囲の感染状況: {{保育園での流行など}}
+
+# 評価してほしいこと
+1. **年齢別リスク分類**: Rochester/Philadelphia/Boston基準等に基づく低リスク/高リスクの判定
+2. **鑑別診断**: 年齢・症状に応じた鑑別（Critical/Common/季節性）
+3. **推奨検査**: 血液検査、尿検査、髄液検査の必要性判断
+4. **初期対応**: 解熱薬の用量（体重ベース）、輸液の要否、入院/帰宅の判断基準
+5. **保護者への説明**: 再受診の目安（Red Flags）
+
+# 出力形式
+- 年齢別のバイタルサイン正常値との比較を含めてください
+- 体重ベースの薬用量は必ず計算式を示してください
+- 注意：出力は診断の補助であり、最終判断は必ず診察医が行ってください
+```
+
+## 使い方
+
+1. 患者の年齢と体温を正確に入力（特に月齢は重要）
+2. General Appearanceは客観的に記載
+3. 予防接種歴は判断に大きく影響するため正確に
+4. 保育園等での流行情報があれば追加
+
+## 活用のポイント
+
+- **生後28日未満**: SBIリスクが最も高い。このプロンプトの出力にかかわらず、フルセプシスワークアップが推奨される
+- **生後29日〜3か月**: Rochester基準等でリスク層別化
+- **3か月〜36か月**: 予防接種歴が鑑別に大きく影響
+- **36か月以上**: 成人に近い評価が可能だが、バイタルの正常値は異なる
+
+## 関連コンテンツ
+
+- 鑑別診断ジェネレーター
+- 臨床緊急プロトコル
+26:T246e,
+# マスター診断推論エンジン
+
+## なぜ「鑑別を5つ挙げて」では不十分なのか
+
+「症状から鑑別診断を挙げてください」というプロンプトは、2026年のAIには不要だ。Claudeは言われなくても鑑別を出す。
+
+問題は、そのリストが**正しい確率で重み付けされているか**にある。
+
+臨床推論の本質は確率の更新だ。患者を見た瞬間から、検査結果が届くたびに、病歴の新しい断片が加わるたびに、各診断の事後確率は変化していく。この更新プロセスを意識せずに行うと、**アンカリング（最初の印象への固執）** と **確証バイアス（自分の仮説を支持する情報の優先）** が生まれる。
+
+研究によれば、診断エラーの65-75%は認知バイアスが関与している。このプロンプトは、その構造的弱点を補うために設計されている。
+
+---
+
+## このプロンプトが解決する5つの問題
+
+1. **事前確率なき鑑別** — 「珍しい疾患を思いついた順に並べる」のではなく、疫学的頻度を起点にする
+2. **キー所見の重みづけ不足** — すべての所見を同等に扱うのではなく、LR+(尤度比)の高い所見を優先する
+3. **反証を求めない** — 自分の仮説を否定する所見を積極的に探さない
+4. **早期クロージャ** — 最初に「これだ」と思った診断を深追いし、見直しをしない
+5. **見落としパターン** — VINDICATE等のフレームワークを使わず、思いついた疾患だけを考える
+
+---
+
+## プロンプト（コピーして使用）
+
+```text
+あなたは臨床疫学と診断推論に精通した内科専門医です。
+以下の患者情報を分析し、構造化された診断推論プロセスを示してください。
+
+【患者情報】
+年齢・性別：[例: 58歳 男性]
+主訴：[例: 2週間続く発熱・体重減少・夜間盗汗]
+現病歴：[時系列で。発症様式、増悪・寛解因子、関連症状を含む]
+既往歴：[疾患名、罹患期間]
+内服薬：[薬剤名、用量]
+生活歴：[喫煙・飲酒・職業・渡航歴・動物接触歴など]
+身体所見：[バイタル含め陽性所見・陰性所見両方]
+検査結果：[利用可能なもの]
+
+---
+
+【STEP 1: 疫学的事前確率の設定】
+この患者プロフィール（年齢・性別・既往歴・生活歴）から、
+提示された主症状を説明しうる疾患カテゴリを頻度順に挙げ、
+各カテゴリの事前確率を概算（高/中/低/稀）で示してください。
+疾患名ではなく「感染症」「悪性腫瘍」「自己免疫疾患」等のカテゴリレベルで。
+
+【STEP 2: VINDICATE分析】
+以下のカテゴリ別に、この症例で考慮すべき具体的疾患を列挙してください：
+V - Vascular（血管性）
+I - Infectious（感染性）
+N - Neoplastic（腫瘍性）
+D - Degenerative / Drug（変性・薬剤性）
+I - Idiopathic / Iatrogenic（特発性・医原性）
+C - Congenital（先天性）
+A - Autoimmune（自己免疫性）
+T - Trauma / Toxic（外傷・中毒性）
+E - Endocrine / Metabolic（内分泌・代謝性）
+
+【STEP 3: 上位3診断の精緻化】
+事前確率とVINDICATE分析を踏まえた上位3つの診断仮説について：
+
+各診断について以下を回答してください：
+a) この診断を最も強く支持している所見（LR+が高い所見）
+b) この診断を否定する所見（現時点で存在する矛盾点）
+c) この診断を確定・除外するために最優先すべき検査1つとその理由
+d) もしこの診断なら、今後48時間で何が起こりうるか
+
+【STEP 4: 認知バイアスチェック】
+現在の推論に以下のバイアスが入り込んでいないか批判的に検討してください：
+- アンカリング：最初の印象に引っ張られていないか
+- 利用可能性ヒューリスティック：最近見た症例に引きずられていないか
+- 確証バイアス：リーディング診断を支持する情報だけを集めていないか
+- 早期クロージャ：代替診断の検討を早々に打ち切っていないか
+- 見逃しやすいパターン：この主訴で「よく見落とされる」診断は何か
+
+【STEP 5: 診断的タイムアウト】
+現時点でのリーディング診断に対し、意図的に「悪魔の代弁者」として反論してください：
+「なぜリーディング診断が間違っている可能性があるか」を3点挙げ、
+それぞれを確認するための具体的アクションを示してください。
+
+【STEP 6: アクションプラン】
+以下を含む具体的な次のステップを提示してください：
+a) 即日実施すべき検査（優先順位付き）
+b) 経験的治療の開始タイミングと判断基準
+c) 専門科コンサルトの適応と緊急性
+d) 診断が確定しない場合の再評価タイムライン
+
+⚠️ 注意：このツールは診断の補助であり、最終判断は必ず臨床医が行ってください。
+```
+
+---
+
+## 使い方のポイント
+
+### いつ使うか
+
+| シチュエーション | 効果 |
+|---|---|
+| 不明熱・原因不明の体重減少 | 見落としを構造的に防ぐ |
+| 診断がついているが「何かおかしい」と感じる時 | アンカリング・確証バイアスの検出 |
+| カンファレンス・抄読会の準備 | 推論プロセスの言語化 |
+| 珍しい主訴の初診患者 | 利用可能性バイアスの補正 |
+| ニアミス・インシデントの振り返り | 見落としのパターン分析 |
+
+### 入力のコツ
+
+**陰性所見を必ず入れる。** 「○○がない」という情報は鑑別の絞り込みに極めて重要。多くの臨床医は陽性所見だけを入力してしまい、AIも陽性所見偏重の推論をする。
+
+**時系列を入れる。** 「2週間前から発熱、1週間前から体重減少が加速」のように、症状の出現順と変化速度を記載することで、病態の進行パターンが推論に反映される。
+
+**「除外できていない情報」も入れる。** 「腹部エコー未施行」「尿培養未提出」のような「まだわかっていないこと」の記載が、STEP 6のアクションプランを具体化する。
+
+---
+
+## 活用例：58歳男性・2週間続く発熱
+
+**入力例**
+
+```
+年齢・性別：58歳 男性
+主訴：2週間続く発熱（38.5-39.2℃）、5kg体重減少、夜間盗汗
+現病歴：2週間前から38-39℃台の発熱が持続。夜間に特に著明な発汗あり。
+食欲不振を伴い体重が2週間で5kg減少。咳嗽・下痢・排尿症状なし。
+特に感染機会の自覚なし。渡航歴なし（直近1年）。
+既往歴：2型糖尿病（5年）、高血圧
+内服薬：メトホルミン500mg、カンデサルタン8mg
+生活歴：喫煙40pack-year（現在も20本/日）、飲酒機会飲酒、
+建設業（石綿露出歴あり、20-30年前）
+身体所見：体温38.8℃、BP128/78、HR92整、SpO2 97%（室内気）
+頸部：右鎖骨上リンパ節1.5cm触知（可動性あり、無痛性）
+胸部：清、副雑音なし
+腹部：脾臓を左肋弓下2cm触知、肝臓は腫大なし
+皮膚：発疹なし
+検査：WBC 8200（好中球65%、リンパ球20%）、Hb 10.8（MCV 82）、
+Plt 420000、CRP 6.8、LDH 380、フェリチン 820、
+尿酸 8.2、ALP 168
+```
+
+**このケースでSTEP 1の出力例**
+
+AI は以下のような疫学的分析をする：
+- **悪性腫瘍（高）**：58歳男性・喫煙歴・石綿露出・無痛性リンパ節腫脹・体重減少・LDH↑・貧血
+- **リンパ腫（高）**：夜間盗汗（Bsymptom）・無痛性リンパ節腫脹・脾腫・LDH↑・フェリチン↑
+- **感染症（中）**：発熱2週間持続。ただし好中球優位でなく、明確な感染巣なし
+- **自己免疫疾患（低-中）**：フェリチン↑、関節症状なし、皮疹なし
+
+**STEP 4で検出されるバイアス例**
+
+> 「発熱・夜間盗汗・体重減少を見て即座にリンパ腫を考えた場合、利用可能性ヒューリスティックが働いている可能性。肺癌（喫煙歴・石綿露出）や胃癌の転移性リンパ節腫脹も同等以上の確率で考慮すべき。また感染性心内膜炎は心臓所見がないと除外しやすいが、心エコーなしで除外するのは早計」
+
+---
+
+## 注意点
+
+このプロンプトの出力は**臨床推論の「叩き台」** であり、確定診断ではない。
+
+特に注意が必要なケース：
+- **救急・緊急性が高い症例**：このプロセスは時間がかかる。緊急度を先に評価せよ
+- **AIの知識カットオフ以降の新興感染症**：AIが知らないアウトブレイクがある可能性
+- **地域特異的な疾患頻度**：AIは世界平均の疫学で推論するため、地域流行情報は医師が補う
+- **患者の「語り」のニュアンス**：症状の質感・患者の表情・家族の反応はテキストに落ちない
+
+最終的な診断・治療方針の責任は、常に担当医にある。
+12:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"検査結果インタープリター\",\"description\":\"異常な検査結果の病態生理学的メカニズムと鑑別疾患を提示する検査値解釈プロンプト\",\"datePublished\":\"2026-02-14\",\"dateModified\":\"2026-02-14\",\"author\":{\"@type\":\"Person\",\"name\":\"Ken Okamoto\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Hoshizu\"}}"}}],["$","$L1b",null,{}],["$","$L1c",null,{"items":[{"id":"概要","text":"概要","level":2},{"id":"安全に関する重要な注意事項","text":"安全に関する重要な注意事項","level":2},{"id":"プロンプトテンプレート","text":"プロンプトテンプレート","level":2},{"id":"使い方","text":"使い方","level":2},{"id":"使用例","text":"使用例","level":2},{"id":"各異常値の病態生理学的解釈","text":"各異常値の病態生理学的解釈","level":3},{"id":"鑑別疾患リスト","text":"鑑別疾患リスト","level":3},{"id":"追加検査","text":"追加検査","level":3},{"id":"活用のポイント","text":"活用のポイント","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","div",null,{"className":"mb-4 flex justify-end","children":["$","$L1d",null,{"slug":"diagnosis-lab-interpretation","title":"検査結果インタープリター","contentType":"prompt","variant":"full"}]}],["$","$L1e",null,{"article":{"slug":"diagnosis-lab-interpretation","title":"検査結果インタープリター","description":"異常な検査結果の病態生理学的メカニズムと鑑別疾患を提示する検査値解釈プロンプト","category":"diagnosis","contentType":"prompt","newsType":"$undefined","difficulty":"intermediate","tags":["検査値解釈","病態生理","鑑別診断","臨床検査","診断支援"],"publishedAt":"2026-02-14","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"high","estimatedReadTime":7,"content":"$1f","coverImage":null}}],["$","$L20",null,{"items":"$12:2:props:items"}],["$","article",null,{"className":"prose ","children":"$L21"}],["$","$L22",null,{"slug":"diagnosis-lab-interpretation"}],["$","$L23",null,{"article":"$12:3:props:children:1:props:article","relatedArticles":[{"slug":"llm-clinical-reasoning","title":"LLMの臨床推論能力はどこまで来たか","description":"GPT-4、Claude、Geminiなど大規模言語モデルの医学知識テスト成績と、実臨床での推論能力の現状を検証する","category":"diagnosis","contentType":"article","newsType":"$undefined","difficulty":"intermediate","tags":["LLM","臨床推論","USMLE","鑑別診断","ベンチマーク","GPT-4","Claude"],"publishedAt":"2026-03-02","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":7,"content":"$24","coverImage":null},{"slug":"pediatric-fever-assessment","title":"小児発熱アセスメント","description":"小児の発熱患者に対する年齢別の重症度評価と、必要な検査・対応を体系的に整理する診断支援プロンプト","category":"diagnosis","contentType":"prompt","newsType":"$undefined","difficulty":"advanced","tags":["小児科","発熱","トリアージ","重症感染症","乳児"],"publishedAt":"2026-03-01","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"high","estimatedReadTime":4,"content":"$25","coverImage":null},{"slug":"clinical-master-reasoning","title":"マスター診断推論エンジン","description":"確証バイアスとアンカリングを構造的に防ぎながら、ベイズ推論で鑑別診断を精緻化する。主治医レベルの臨床推論を再現するフレームワーク","category":"diagnosis","contentType":"prompt","newsType":"$undefined","difficulty":"advanced","tags":["臨床推論","鑑別診断","ベイズ推論","認知バイアス","診断エラー防止"],"publishedAt":"2026-02-24","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"high","estimatedReadTime":12,"content":"$26","coverImage":null}],"relatedCourses":[{"courseId":"medical-ai-overview","title":"医療AIの全体像 - 応用領域と可能性","description":"医療分野におけるAIの活用領域、現状の課題、今後の展望を包括的に理解します","category":"clinical","level":"intermediate","lessonCount":7,"estimatedTotalMinutes":122,"order":4,"free":false,"learningOutcomes":["医療AIの主要応用分野を説明できる","画像診断AIの原理と限界を理解できる","臨床意思決定支援システムを評価できる","AI導入の課題と対策を提案できる"],"prerequisites":["ai-basics"],"targetAudience":["臨床でAI活用を検討している医師","医療AI製品の導入を担当する方","医療AIの全体像を把握したい方"],"skills":["医療AI応用","画像解析","臨床意思決定支援"],"coverImage":"$undefined"},{"courseId":"diagnostic-support","title":"診断支援と臨床判断","description":"AIによる診断支援の実践、鑑別診断の効率化、臨床意思決定支援システムの活用法を学びます","category":"clinical-ai","level":"advanced","lessonCount":4,"estimatedTotalMinutes":72,"order":12,"free":false,"learningOutcomes":["AIを活用した鑑別診断の方法を実践できる","臨床意思決定支援システムの仕組みを理解できる","AI診断支援の限界とリスクを正しく認識できる","エビデンスに基づくAI活用の判断ができる"],"prerequisites":["medical-ai-overview","llm-in-medicine"],"targetAudience":["臨床でAI診断支援を活用したい医師","医療AIの実践的な活用法を知りたい方"],"skills":["AI診断支援","臨床意思決定","鑑別診断"],"coverImage":"$undefined"},{"courseId":"medical-imaging-ai-basics","title":"医療画像AIの基礎 - X線・CT・MRI解析","description":"医療画像AIの基本技術、CNN・U-Netの仕組み、X線・CT・MRI画像解析の実践と臨床応用を学びます","category":"clinical-ai","level":"intermediate","lessonCount":7,"estimatedTotalMinutes":126,"order":14,"free":false,"learningOutcomes":["医療画像AIの基本的な仕組みを説明できる","CNN・U-Netなどの主要アーキテクチャを理解できる","X線・CT・MRI画像解析AIの臨床応用を把握できる","医療画像AIの評価方法と限界を理解できる"],"prerequisites":["ai-basics","machine-learning-fundamentals"],"targetAudience":["画像診断に関わる放射線科医・各科医師","医療画像AIの導入を検討している方","AIの画像認識技術に興味がある方"],"skills":["医療画像AI","CNN基礎","画像診断支援"],"coverImage":"$undefined"}]}],"$L27"]}],"$L28"]
+29:I[56788,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"GiscusComments"]
+2a:I[20407,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"FloatingReadBar"]
+27:["$","$L29",null,{}]
+28:["$","$L2a",null,{"article":"$12:3:props:children:1:props:article","nextArticle":"$12:3:props:children:5:props:relatedArticles:0"}]
+21:[["$","h1",null,{"children":"検査結果インタープリター"}],"\n",["$","h2",null,{"id":"概要","children":"概要"}],"\n",["$","p",null,{"children":"このプロンプトは、異常な検査結果に対して病態生理学的メカニズムの解説と、考えられる鑑別疾患の一覧を体系的に生成します。単一の異常値だけでなく、複数の異常値の組み合わせから推測される病態パターンを提示し、追加で確認すべき検査項目も提案します。日常診療で遭遇する「なぜこの値が異常なのか」という疑問に対し、臨床推論の出発点を提供するツールです。"}],"\n",["$","h2",null,{"id":"安全に関する重要な注意事項","children":"安全に関する重要な注意事項"}],"\n",["$","p",null,{"children":"検査結果の解釈は、必ず患者の臨床所見・病歴・身体所見と合わせて総合的に行ってください。AIの出力はあくまで参考情報であり、最終的な判断は担当医が行うものです。検査値の基準範囲は施設や測定法によって異なる場合があります。緊急性の高い異常値（パニック値）を認めた場合は、AIへの相談よりも先に臨床対応を優先してください。"}],"\n",["$","h2",null,{"id":"プロンプトテンプレート","children":"プロンプトテンプレート"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"以下の検査結果の異常値について、考えられる病態生理学的メカニズムと、鑑別すべき疾患を挙げてください。\n\n# 検査結果\n[検査結果を入力]\n\n# 患者背景\n[患者背景を入力]\n\n# 出力形式\n1. 各異常値の病態生理学的解釈\n2. 複数の異常値の組み合わせから推測される病態\n3. 鑑別疾患リスト（可能性の高い順）\n4. 追加で確認すべき検査項目\n\n注意：この出力は参考情報です。検査結果の最終解釈は、臨床所見と合わせて医師が行ってください。\n"}]}],"\n",["$","h2",null,{"id":"使い方","children":"使い方"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"検査結果を入力"}],": 異常値を含む検査データを記載します。基準範囲からの逸脱が明確になるよう、数値と単位を正確に入力してください。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"患者背景を入力"}],": 年齢、性別、既往歴、服薬歴、主訴など、検査値の解釈に影響する臨床情報を記載します。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"AIの出力を確認"}],": 病態生理学的メカニズム、鑑別疾患、追加検査の提案を確認します。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"臨床所見と照合"}],": AIの解釈を身体所見や画像所見と照らし合わせ、妥当性を検証してください。"]}],"\n"]}],"\n",["$","h2",null,{"id":"使用例","children":"使用例"}],"\n",["$","p",null,{"children":"以下は実際の入力例です。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"# 検査結果\n- Na 125 mEq/L（基準値 136-145）\n- K 5.8 mEq/L（基準値 3.5-5.0）\n- Cre 2.1 mg/dL（基準値 0.6-1.1）\n- BUN 45 mg/dL（基準値 8-20）\n- eGFR 28 mL/min/1.73m²\n\n# 患者背景\n70歳男性、高血圧でARB内服中。2日前から食欲低下と全身倦怠感あり。\n尿量がここ数日やや減少している。\n"}]}],"\n",["$","p",null,{"children":"この入力に対し、AIは以下のような解釈を提示します。"}],"\n",["$","h3",null,{"id":"各異常値の病態生理学的解釈","children":"各異常値の病態生理学的解釈"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"低Na血症（125 mEq/L）"}],": 腎機能低下による自由水排泄障害、または有効循環血漿量の低下に伴うADH分泌亢進が考えられる"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"高K血症（5.8 mEq/L）"}],": 腎からのK排泄低下が主因。ARB内服によるRAA系抑制が増悪因子"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Cre/BUN上昇"}],": 腎前性（脱水・循環血液量低下）または腎性の急性腎障害を示唆。BUN/Cre比が約21で、腎前性要素の関与も示唆される"]}],"\n"]}],"\n",["$","h3",null,{"id":"鑑別疾患リスト","children":"鑑別疾患リスト"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"急性腎障害（腎前性） — 脱水・食欲低下による循環血液量低下"}],"\n",["$","li",null,{"children":"急性腎障害（腎性） — ARBによる輸出細動脈拡張 + 脱水の複合"}],"\n",["$","li",null,{"children":"慢性腎臓病の急性増悪"}],"\n",["$","li",null,{"children":"副腎不全 — 低Na・高K・倦怠感のパターン"}],"\n"]}],"\n",["$","h3",null,{"id":"追加検査","children":"追加検査"}],"\n",["$","p",null,{"children":"尿中Na・尿浸透圧・尿中Cre（腎前性 vs 腎性の鑑別）、コルチゾール（副腎不全の除外）、腎エコー（慢性変化の有無）、心エコー（心不全の評価）が提案されます。"}],"\n",["$","h2",null,{"id":"活用のポイント","children":"活用のポイント"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"検査値は数値と単位を正確に記載してください。基準範囲も併記すると、AIの解釈精度が向上します。"}],"\n",["$","li",null,{"children":"服薬歴は検査値に大きく影響するため、必ず記載してください（特にARB、ACE阻害薬、利尿薬、NSAIDs等）。"}],"\n",["$","li",null,{"children":"経時的な検査値の変化がある場合は、複数時点のデータを入力すると、急性 vs 慢性の判断に役立ちます。"}],"\n",["$","li",null,{"children":"特に電解質異常や腎機能障害では、水分バランス（摂取量・尿量）の情報が鑑別に重要です。"}],"\n",["$","li",null,{"children":"AIの出力を鵜呑みにせず、臨床所見と矛盾がないかを必ず確認してください。"}],"\n"]}]]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2b:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"検査結果インタープリター | Hoshizu"}],["$","meta","1",{"name":"description","content":"異常な検査結果の病態生理学的メカニズムと鑑別疾患を提示する検査値解釈プロンプト"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/knowledge/diagnosis-lab-interpretation"}],["$","meta","4",{"property":"og:title","content":"検査結果インタープリター"}],["$","meta","5",{"property":"og:description","content":"異常な検査結果の病態生理学的メカニズムと鑑別疾患を提示する検査値解釈プロンプト"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2026-02-14"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","11",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","12",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","13",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico"}],["$","link","15",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L2b","16",{}]]

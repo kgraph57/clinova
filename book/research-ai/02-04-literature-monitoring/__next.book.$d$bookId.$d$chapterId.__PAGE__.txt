@@ -1,0 +1,224 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+f:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+2b:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+2c:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+2d:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+2e:"$Sreact.suspense"
+30:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonCard"]
+31:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+32:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T20c6,
+# AI文献モニタリング（最新論文の自動追跡）
+
+## 「昨日出た論文」を見逃さない
+
+医学研究の世界では、新しいエビデンスが日々蓄積されています。あなたが今取り組んでいる研究テーマについて、昨日出版された論文が結論を覆す可能性すらあります。特に以下の状況では、最新文献のモニタリングが不可欠です。
+
+- 進行中の研究プロジェクト（先行研究の更新を追跡）
+- 系統的レビューの更新（新規エビデンスの検出）
+- 投稿中の論文（査読中に出た関連論文への対応）
+- 専門分野の知識アップデート（臨床医としてのCPD）
+
+<Callout>
+論文投稿後の査読期間（通常2-6か月）に出版された関連論文は、査読者から「この論文を議論に含めるべき」と指摘されることがあります。投稿前だけでなく、投稿後も文献モニタリングを継続することが重要です。
+</Callout>
+
+## 文献モニタリングの3層構造
+
+効果的な文献モニタリングは、3つの層を組み合わせて構築します。
+
+### 第1層: データベースアラート
+
+<StepFlow>
+  <StepFlowStep number={1} title="PubMed My NCBIアラート設定">
+    PubMedで検索式を保存し、新着論文がヒットするたびにメール通知を受け取る。週次通知が推奨。日次は情報量が多すぎる場合がある。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="Embaseアラート設定">
+    PubMedに含まれない論文（特に欧州系、薬学系）をカバーするため、Embaseでもアラートを設定する。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="Cochrane Library アラート">
+    関心領域のCochrane Reviewの更新通知を設定する。新しい系統的レビューの公開を見逃さない。
+  </StepFlowStep>
+</StepFlow>
+
+### PubMedアラートの最適化
+
+<PromptTemplate title="PubMedアラート用検索式の設計">
+以下の研究テーマについて、PubMedのMy NCBIアラートに設定するための最適化された検索式を作成してください。
+
+研究テーマ: [あなたの研究テーマ]
+関心のあるサブトピック: [具体的なサブトピック]
+
+以下の要件を満たしてください：
+1. **感度を重視**: 重要な論文を見落とさないよう、やや広めの検索式
+2. **ノイズの制御**: 1週間あたりの通知数が10-30件程度になるよう調整
+3. **MeSHとフリーテキストの併用**: 新着論文はMeSH未付与のことがあるため、フリーテキスト語を含める
+4. **研究デザインフィルター**: 必要に応じてRCT、系統的レビュー等に限定
+
+検索式とともに、フィルター設定と推奨通知頻度も提案してください。
+</PromptTemplate>
+
+### 第2層: AI文献推薦
+
+#### Semantic Scholar Research Feeds
+
+Semantic Scholarの Research Feeds は、あなたの研究関心に基づいて関連論文を自動推薦する機能です。
+
+**設定方法：**
+1. Semantic Scholar にアカウント作成
+2. 自分の既発表論文を登録（著者ページ作成）
+3. 関心のあるトピック・論文をフォロー
+4. 週次ダイジェストメールを受信
+
+**利点：**
+- キーワードベースではなく、意味的な関連性で推薦
+- 引用ネットワークを考慮した推薦
+- 新しい研究トレンドの早期検出
+
+#### Google Scholar アラート
+
+Google Scholar のアラート機能も有用です。特にプレプリントや学位論文など、PubMedに含まれない文献をカバーできます。
+
+- 「キーワードアラート」: 特定のキーワードを含む新着論文を通知
+- 「引用アラート」: 特定の論文が引用されたときに通知（自分の論文や重要先行研究）
+- 「著者フォロー」: 特定の研究者の新着論文を通知
+
+### 第3層: RSSとカスタム統合
+
+#### ジャーナルRSSフィード
+
+主要ジャーナルのRSSフィードを購読すると、目次（Table of Contents）が自動配信されます。
+
+**循環器領域の例：**
+- Circulation
+- JACC (Journal of the American College of Cardiology)
+- European Heart Journal
+- Heart Rhythm
+
+**総合医学の例：**
+- NEJM (New England Journal of Medicine)
+- The Lancet
+- BMJ
+- JAMA
+
+RSSリーダー（Feedly、Inoreader等）でこれらを集約管理し、毎週の新着論文をチェックします。
+
+## AIによるアラートのフィルタリング
+
+アラートやRSSフィードから届く論文の数は、すぐに管理不能な量になります。AIを使って優先順位付けとフィルタリングを行います。
+
+<PromptTemplate title="新着論文の優先順位付け">
+以下は今週のPubMedアラートで通知された新着論文のリストです。私の研究テーマに基づいて、優先順位を付けてください。
+
+私の研究テーマ: [PICO形式のRQ]
+現在の研究段階: [文献検索 / データ収集 / 解析 / 執筆]
+
+新着論文リスト:
+[タイトルとアブストラクトのリストを貼り付け]
+
+以下の基準で3段階に分類してください：
+
+**A（今すぐ読むべき）**:
+- 私のRQに直接関連する新しいエビデンス
+- 私のRQに影響を与える可能性のある大規模RCTやメタアナリシス
+- 方法論に関する重要な新知見
+
+**B（今週中に読むべき）**:
+- 関連するがRQに直接的な影響は限定的
+- 背景知識として有用
+- Discussion で引用する可能性がある
+
+**C（保存のみ）**:
+- テーマは関連するが、現在の研究には直接関係しない
+- 将来のプロジェクトで参考になる可能性
+
+各論文について、分類理由を1文で説明してください。
+</PromptTemplate>
+
+## 文献モニタリングの週次ルーティン
+
+効果的な文献モニタリングは、ルーティン化することが重要です。
+
+<StepFlow>
+  <StepFlowStep number={1} title="月曜日：アラート確認（15分）">
+    PubMed、Semantic Scholar、Google Scholarのアラートを確認。上記のプロンプトで優先順位付け。Aランクの論文をZoteroに保存。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="水曜日：Aランク論文の精読（30分）">
+    Aランクの論文を精読。Zoteroでアノテーション。自分の研究への影響を評価。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="金曜日：週次レビュー（15分）">
+    今週の新着論文を振り返り。研究計画に変更が必要かを判断。重要な知見をリサーチノートに記録。
+  </StepFlowStep>
+</StepFlow>
+
+<ComparisonCard
+  before={{
+    title: "場当たり的な文献追跡",
+    items: [
+      "思い出したときにPubMedを検索",
+      "同僚から教えてもらった論文だけ読む",
+      "学会で引用された論文をメモ",
+      "投稿直前にまとめて最新文献を検索",
+      "重要な論文の見落としが頻発"
+    ]
+  }}
+  after={{
+    title: "体系的な文献モニタリング",
+    items: [
+      "データベースアラートで自動通知",
+      "AI推薦で関連論文を網羅的にカバー",
+      "RSSフィードで主要ジャーナルの目次を追跡",
+      "週次ルーティンで確実に処理",
+      "見落としリスクを最小化"
+    ]
+  }}
+/>
+
+<Warning>
+文献モニタリングは「読む量を増やす」ことが目的ではありません。限られた時間で「最も重要な論文を見逃さない」ことが目的です。アラートを増やしすぎると「アラート疲れ」に陥り、すべてを無視するようになります。1週間の通知総数が50件を超えるようであれば、検索式の特異度を高めるかフィルターを追加してください。
+</Warning>
+
+<KeyTakeaway>
+文献モニタリングは、データベースアラート、AI推薦、RSSフィードの3層構造で構築します。AIによる優先順位付けとフィルタリングを組み合わせ、週に1時間程度の投資で最新エビデンスをカバーできる体制を作りましょう。一度設定すれば、研究プロジェクトの全期間にわたって自動的に機能します。
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-research-ai","lessonSlug":"02-04-literature-monitoring"}],["$","$L4",null,{"items":[{"id":"昨日出た論文を見逃さない","text":"「昨日出た論文」を見逃さない","level":2},{"id":"文献モニタリングの3層構造","text":"文献モニタリングの3層構造","level":2},{"id":"第1層-データベースアラート","text":"第1層: データベースアラート","level":3},{"id":"pubmedアラートの最適化","text":"PubMedアラートの最適化","level":3},{"id":"第2層-ai文献推薦","text":"第2層: AI文献推薦","level":3},{"id":"第3層-rssとカスタム統合","text":"第3層: RSSとカスタム統合","level":3},{"id":"aiによるアラートのフィルタリング","text":"AIによるアラートのフィルタリング","level":2},{"id":"文献モニタリングの週次ルーティン","text":"文献モニタリングの週次ルーティン","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"research-ai","bookTitle":"AI時代の医学論文術 — 検索・読解・執筆の新常識","chapter":{"slug":"02-04-literature-monitoring","title":"AI文献モニタリング（最新論文の自動追跡）","description":"PubMedアラート、Semantic Scholar Feeds、RSSを活用し、関心領域の最新論文を自動追跡するシステム構築法。","partId":"part02","partTitle":"文献検索の革新","order":7,"partOrder":2,"estimatedMinutes":18,"estimatedReadTime":10,"free":true,"status":"published","tags":["文献モニタリング","PubMedアラート","Semantic Scholar","RSS","自動追跡"],"content":"$6"},"totalChapters":27}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"昨日出た論文を見逃さない","text":"「昨日出た論文」を見逃さない","level":2},{"id":"文献モニタリングの3層構造","text":"文献モニタリングの3層構造","level":2},{"id":"第1層-データベースアラート","text":"第1層: データベースアラート","level":3},{"id":"pubmedアラートの最適化","text":"PubMedアラートの最適化","level":3},{"id":"第2層-ai文献推薦","text":"第2層: AI文献推薦","level":3},{"id":"第3層-rssとカスタム統合","text":"第3層: RSSとカスタム統合","level":3},{"id":"aiによるアラートのフィルタリング","text":"AIによるアラートのフィルタリング","level":2},{"id":"文献モニタリングの週次ルーティン","text":"文献モニタリングの週次ルーティン","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","h1",null,{"children":"AI文献モニタリング（最新論文の自動追跡）"}],"\n",["$","h2",null,{"id":"昨日出た論文を見逃さない","children":"「昨日出た論文」を見逃さない"}],"\n",["$","p",null,{"children":"医学研究の世界では、新しいエビデンスが日々蓄積されています。あなたが今取り組んでいる研究テーマについて、昨日出版された論文が結論を覆す可能性すらあります。特に以下の状況では、最新文献のモニタリングが不可欠です。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"進行中の研究プロジェクト（先行研究の更新を追跡）"}],"\n",["$","li",null,{"children":"系統的レビューの更新（新規エビデンスの検出）"}],"\n",["$","li",null,{"children":"投稿中の論文（査読中に出た関連論文への対応）"}],"\n",["$","li",null,{"children":"専門分野の知識アップデート（臨床医としてのCPD）"}],"\n"]}],"\n",["$","$Le",null,{"children":["$","p",null,{"children":"論文投稿後の査読期間（通常2-6か月）に出版された関連論文は、査読者から「この論文を議論に含めるべき」と指摘されることがあります。投稿前だけでなく、投稿後も文献モニタリングを継続することが重要です。"}]}],"\n",["$","h2",null,{"id":"文献モニタリングの3層構造","children":"文献モニタリングの3層構造"}],"\n",["$","p",null,{"children":"効果的な文献モニタリングは、3つの層を組み合わせて構築します。"}],"\n",["$","h3",null,{"id":"第1層-データベースアラート","children":"第1層: データベースアラート"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"PubMed My NCBIアラート設定"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"PubMedで検索式を保存し、新着論文がヒットするたびにメール通知を受け取る。週次通知が推奨。日次は情報量が多すぎる場合がある。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"Embaseアラート設定"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"PubMedに含まれない論文（特に欧州系、薬学系）をカバーするため、Embaseでもアラートを設定する。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"Cochrane Library アラート"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"関心領域のCochrane Reviewの更新通知を設定する。新しい系統的レビューの公開を見逃さない。"}]}]]}]]}]]}]]}],"\n",["$","h3",null,{"id":"pubmedアラートの最適化","children":"PubMedアラートの最適化"}],"\n",["$","$Lf",null,{"title":"PubMedアラート用検索式の設計","children":[["$","p",null,{"children":"以下の研究テーマについて、PubMedのMy NCBIアラートに設定するための最適化された検索式を作成してください。"}],["$","p",null,{"children":"研究テーマ: [あなたの研究テーマ]\n関心のあるサブトピック: [具体的なサブトピック]"}],["$","p",null,{"children":"以下の要件を満たしてください："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"感度を重視"}],": 重要な論文を見落とさないよう、やや広めの検索式"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"ノイズの制御"}],": 1週間あたりの通知数が10-30件程度になるよう調整"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"MeSHとフリーテキストの併用"}],": 新着論文はMeSH未付与のことがあるため、フリーテキスト語を含める"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"研究デザインフィルター"}],": 必要に応じてRCT、系統的レビュー等に限定"]}],"\n"]}],["$","p",null,{"children":"検索式とともに、フィルター設定と推奨通知頻度も提案してください。"}]]}],"\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a"]}]
+9:["$","$L2b",null,{"bookId":"research-ai","chapterSlug":"02-04-literature-monitoring"}]
+a:["$","$L2c",null,{"bookId":"research-ai","prev":{"slug":"02-03-reference-management","title":"文献管理とAI整理術","order":6},"next":{"slug":"02-05-cross-language","title":"多言語文献検索（英語・日本語・中国語）","order":8}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L2d",null,{"children":["$","$2e",null,{"name":"Next.MetadataOutlet","children":"$@2f"}]}]
+10:["$","h3",null,{"id":"第2層-ai文献推薦","children":"第2層: AI文献推薦"}]
+11:["$","h4",null,{"children":"Semantic Scholar Research Feeds"}]
+12:["$","p",null,{"children":"Semantic Scholarの Research Feeds は、あなたの研究関心に基づいて関連論文を自動推薦する機能です。"}]
+13:["$","p",null,{"children":["$","strong",null,{"children":"設定方法："}]}]
+14:["$","ol",null,{"children":["\n",["$","li",null,{"children":"Semantic Scholar にアカウント作成"}],"\n",["$","li",null,{"children":"自分の既発表論文を登録（著者ページ作成）"}],"\n",["$","li",null,{"children":"関心のあるトピック・論文をフォロー"}],"\n",["$","li",null,{"children":"週次ダイジェストメールを受信"}],"\n"]}]
+15:["$","p",null,{"children":["$","strong",null,{"children":"利点："}]}]
+16:["$","ul",null,{"children":["\n",["$","li",null,{"children":"キーワードベースではなく、意味的な関連性で推薦"}],"\n",["$","li",null,{"children":"引用ネットワークを考慮した推薦"}],"\n",["$","li",null,{"children":"新しい研究トレンドの早期検出"}],"\n"]}]
+17:["$","h4",null,{"children":"Google Scholar アラート"}]
+18:["$","p",null,{"children":"Google Scholar のアラート機能も有用です。特にプレプリントや学位論文など、PubMedに含まれない文献をカバーできます。"}]
+19:["$","ul",null,{"children":["\n",["$","li",null,{"children":"「キーワードアラート」: 特定のキーワードを含む新着論文を通知"}],"\n",["$","li",null,{"children":"「引用アラート」: 特定の論文が引用されたときに通知（自分の論文や重要先行研究）"}],"\n",["$","li",null,{"children":"「著者フォロー」: 特定の研究者の新着論文を通知"}],"\n"]}]
+1a:["$","h3",null,{"id":"第3層-rssとカスタム統合","children":"第3層: RSSとカスタム統合"}]
+1b:["$","h4",null,{"children":"ジャーナルRSSフィード"}]
+1c:["$","p",null,{"children":"主要ジャーナルのRSSフィードを購読すると、目次（Table of Contents）が自動配信されます。"}]
+1d:["$","p",null,{"children":["$","strong",null,{"children":"循環器領域の例："}]}]
+1e:["$","ul",null,{"children":["\n",["$","li",null,{"children":"Circulation"}],"\n",["$","li",null,{"children":"JACC (Journal of the American College of Cardiology)"}],"\n",["$","li",null,{"children":"European Heart Journal"}],"\n",["$","li",null,{"children":"Heart Rhythm"}],"\n"]}]
+1f:["$","p",null,{"children":["$","strong",null,{"children":"総合医学の例："}]}]
+20:["$","ul",null,{"children":["\n",["$","li",null,{"children":"NEJM (New England Journal of Medicine)"}],"\n",["$","li",null,{"children":"The Lancet"}],"\n",["$","li",null,{"children":"BMJ"}],"\n",["$","li",null,{"children":"JAMA"}],"\n"]}]
+21:["$","p",null,{"children":"RSSリーダー（Feedly、Inoreader等）でこれらを集約管理し、毎週の新着論文をチェックします。"}]
+22:["$","h2",null,{"id":"aiによるアラートのフィルタリング","children":"AIによるアラートのフィルタリング"}]
+23:["$","p",null,{"children":"アラートやRSSフィードから届く論文の数は、すぐに管理不能な量になります。AIを使って優先順位付けとフィルタリングを行います。"}]
+24:["$","$Lf",null,{"title":"新着論文の優先順位付け","children":[["$","p",null,{"children":"以下は今週のPubMedアラートで通知された新着論文のリストです。私の研究テーマに基づいて、優先順位を付けてください。"}],["$","p",null,{"children":"私の研究テーマ: [PICO形式のRQ]\n現在の研究段階: [文献検索 / データ収集 / 解析 / 執筆]"}],["$","p",null,{"children":"新着論文リスト:\n[タイトルとアブストラクトのリストを貼り付け]"}],["$","p",null,{"children":"以下の基準で3段階に分類してください："}],["$","p",null,{"children":[["$","strong",null,{"children":"A（今すぐ読むべき）"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"私のRQに直接関連する新しいエビデンス"}],"\n",["$","li",null,{"children":"私のRQに影響を与える可能性のある大規模RCTやメタアナリシス"}],"\n",["$","li",null,{"children":"方法論に関する重要な新知見"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"B（今週中に読むべき）"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"関連するがRQに直接的な影響は限定的"}],"\n",["$","li",null,{"children":"背景知識として有用"}],"\n",["$","li",null,{"children":"Discussion で引用する可能性がある"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"C（保存のみ）"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"テーマは関連するが、現在の研究には直接関係しない"}],"\n",["$","li",null,{"children":"将来のプロジェクトで参考になる可能性"}],"\n"]}],["$","p",null,{"children":"各論文について、分類理由を1文で説明してください。"}]]}]
+25:["$","h2",null,{"id":"文献モニタリングの週次ルーティン","children":"文献モニタリングの週次ルーティン"}]
+26:["$","p",null,{"children":"効果的な文献モニタリングは、ルーティン化することが重要です。"}]
+27:["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"月曜日：アラート確認（15分）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"PubMed、Semantic Scholar、Google Scholarのアラートを確認。上記のプロンプトで優先順位付け。Aランクの論文をZoteroに保存。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"水曜日：Aランク論文の精読（30分）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"Aランクの論文を精読。Zoteroでアノテーション。自分の研究への影響を評価。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"金曜日：週次レビュー（15分）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"今週の新着論文を振り返り。研究計画に変更が必要かを判断。重要な知見をリサーチノートに記録。"}]}]]}]]}]]}]]}]
+28:["$","$L30",null,{}]
+29:["$","$L31",null,{"children":["$","p",null,{"children":"文献モニタリングは「読む量を増やす」ことが目的ではありません。限られた時間で「最も重要な論文を見逃さない」ことが目的です。アラートを増やしすぎると「アラート疲れ」に陥り、すべてを無視するようになります。1週間の通知総数が50件を超えるようであれば、検索式の特異度を高めるかフィルターを追加してください。"}]}]
+2a:["$","$L32",null,{"children":["$","p",null,{"children":"文献モニタリングは、データベースアラート、AI推薦、RSSフィードの3層構造で構築します。AIによる優先順位付けとフィルタリングを組み合わせ、週に1時間程度の投資で最新エビデンスをカバーできる体制を作りましょう。一度設定すれば、研究プロジェクトの全期間にわたって自動的に機能します。"}]}]
+2f:null

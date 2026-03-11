@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hoshizu - 医療AI ナレッジポータル</title>
+    <link>https://kgraph57.github.io/hoshizu</link>
+    <description>医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式フィード。</description>
+    <language>ja</language>
+    <lastBuildDate>Wed, 11 Mar 2026 00:10:33 GMT</lastBuildDate>
+    <atom:link href="https://kgraph57.github.io/hoshizu/feed.xml" rel="self" type="application/rss+xml"/>
+    <managingEditor>Hoshizu / Ken Okamoto</managingEditor>
+    <ttl>1440</ttl>
+    <item>
+      <title>Weekly Medical AI Newsletter #5 (2026/3/3)</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/2026-03-03</link>
+      <description>Claude Opus 4.5の医療応用評価、日本初のAmbient Documentation臨床試験開始、WHO医療AI倫理ガイドライン改訂、Google Health AIの新展開 ほか</description>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/2026-03-03</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>Ambient AI：診察室の会話が自動でカルテになる時代</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-ambient-listening-japan</link>
+      <description>米国で急速に普及するAmbient Clinical Documentation。日本語対応の現状と、導入を検討する医療機関へのガイド</description>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-ambient-listening-japan</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>LLMの臨床推論能力はどこまで来たか</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/llm-clinical-reasoning</link>
+      <description>GPT-4、Claude、Geminiなど大規模言語モデルの医学知識テスト成績と、実臨床での推論能力の現状を検証する</description>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/llm-clinical-reasoning</guid>
+      <category>diagnosis</category>
+    </item>
+    <item>
+      <title>放射線画像診断AIの現在地と未来</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-radiology-revolution</link>
+      <description>胸部X線からCTまで、画像診断AIが臨床現場をどう変えているか。FDA承認済み製品の実力と、放射線科医との協働モデルを解説</description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-radiology-revolution</guid>
+      <category>clinical</category>
+    </item>
+    <item>
+      <title>小児発熱アセスメント</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/pediatric-fever-assessment</link>
+      <description>小児の発熱患者に対する年齢別の重症度評価と、必要な検査・対応を体系的に整理する診断支援プロンプト</description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/pediatric-fever-assessment</guid>
+      <category>diagnosis</category>
+    </item>
+    <item>
+      <title>AI文書作成で診療時間を取り戻す</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-documentation-efficiency</link>
+      <description>紹介状、退院サマリー、診断書。医師の文書業務をAIで効率化する実践テクニックと、品質を保つためのチェックポイント</description>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-documentation-efficiency</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>栄養アセスメント・プランニング</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/nutrition-assessment-plan</link>
+      <description>入院患者の栄養状態を評価し、個別化された栄養管理計画を作成する臨床栄養プロンプト</description>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/nutrition-assessment-plan</guid>
+      <category>clinical</category>
+    </item>
+    <item>
+      <title>医学教育とAI：研修医トレーニングが変わる</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-medical-education</link>
+      <description>症例シミュレーション、フィードバック生成、OSCEの練習相手。AIが医学教育に与えるインパクトと、効果的な活用法</description>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-medical-education</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>AIによる薬物相互作用チェックの最前線</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-drug-interaction</link>
+      <description>ポリファーマシー患者のリスク管理にAIをどう活用するか。従来のデータベース検索を超えた新しいアプローチ</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-drug-interaction</guid>
+      <category>clinical</category>
+    </item>
+    <item>
+      <title>AI抗菌薬適正使用（スチュワードシップ）ワークフロー</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-antibiotic-stewardship</link>
+      <description>培養結果の解釈からde-escalation判断まで、AIを活用して抗菌薬の適正使用を実践するワークフロー。</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-antibiotic-stewardship</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>AI退院支援ワークフロー</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-discharge-workflow</link>
+      <description>退院サマリーの下書き生成から退院調整・患者説明まで、AIで退院プロセスを効率化するワークフロー。</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-discharge-workflow</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>AI ICU・重症患者管理ワークフロー</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-icu-critical-care</link>
+      <description>人工呼吸器設定の最適化、鎮静管理、栄養管理など、ICUでAIを活用した重症患者管理の実践ガイド。</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-icu-critical-care</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>AIで加速する医学自己学習ガイド</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-medical-education</link>
+      <description>Google AMIE式の模擬患者、症例ベースド学習、弱点分析など、AIを活用した効率的な医学学習法。</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-medical-education</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>AI薬剤安全・相互作用チェックワークフロー</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-medication-safety</link>
+      <description>処方時の薬剤相互作用チェック、腎機能に応じた用量調整、ポリファーマシー対策をAIで効率化するワークフロー。</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-medication-safety</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>AI遠隔医療・オンライン診療ワークフロー</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-telemedicine-workflow</link>
+      <description>オンライン診療でAIを活用したトリアージ、診察補助、フォローアップの効率化ワークフロー。</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-telemedicine-workflow</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>AI腫瘍カンファレンス・臨床試験マッチングガイド</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-tumor-board-trial-matching</link>
+      <description>腫瘍カンファレンス（Tumor Board）の準備をAIで効率化し、患者に適した臨床試験を迅速に検索するワークフロー。</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-tumor-board-trial-matching</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>インフォームドコンセント文書生成</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/informed-consent-generator</link>
+      <description>手術・検査・治療の説明文書を患者に分かりやすい言葉で作成するプロンプト</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/informed-consent-generator</guid>
+      <category>clinical</category>
+    </item>
+    <item>
+      <title>Weekly Medical AI Newsletter #4 (2026/2/24)</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/2026-02-24</link>
+      <description>Claude 3.7 Sonnet拡張思考の臨床推論への応用、FDAのAI心電図解析承認、GPTZero論文ハルシネーション検出、国内初のAI内視鏡システム保険収載 ほか</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/2026-02-24</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>2026年 医師のためのAIツール完全比較 — 場面別・用途別の使い分けガイド</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-tools-comparison-2026</link>
+      <description>ChatGPT・Claude・NotebookLM・Perplexity・OpenEvidence。それぞれ何が得意で何が苦手か。2026年最新の医師向けAIツール比較と具体的な使い分け指針</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-tools-comparison-2026</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>2026年、こんな使い方をしている — AI活用医師のリアルな1日</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-workflow-role-model-2026</link>
+      <description>「AIで何が変わったか」ではなく「AIとどう働いているか」。小児科医・研究者・外科医のロールモデルを通じて、2026年の医師のAI活用の全体像を見る</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-workflow-role-model-2026</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>医療AIと法的責任 - 2026年版 医師・病院が知るべき規制フレームワーク</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/medical-ai-legal-framework</link>
+      <description>AIを使った診療で何かが起きたとき、誰が責任を取るのか。薬機法・個人情報保護法・PMDAガイドラインから実践的なコンプライアンス対策まで解説します</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/medical-ai-legal-framework</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>AIアンビエント記録の活用ガイド</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-ambient-documentation</link>
+      <description>Dax Copilot・Abridge等のAIスクライブを安全かつ効果的に使うための実践ワークフロー。</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-ambient-documentation</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>AI臨床推論ツールの活用と限界</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-clinical-reasoning-tools</link>
+      <description>ChatGPT・Claude・Gemini等のLLMを臨床推論の壁打ち相手として安全に使うための実践ガイド。活用法と落とし穴を解説。</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-clinical-reasoning-tools</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>AI画像診断アラートへの対応ワークフロー</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-radiology-collaboration</link>
+      <description>Viz.ai・Aidoc等のAI画像トリアージツールのアラートを受けた時の適切な対応手順と臨床判断のフレームワーク。</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-radiology-collaboration</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>研修医のためのAI安全ガイド</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-safety-for-residents</link>
+      <description>医療現場でAIを安全に使うための必須知識。個人情報保護、ハルシネーション対策、倫理的配慮を具体例で解説</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-safety-for-residents</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>AI敗血症早期警告アラートへの対応ガイド</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-sepsis-early-warning</link>
+      <description>TREWS・COMPOSER等のAI早期警告システムからのアラートを適切に評価し、敗血症の早期治療につなげるワークフロー。</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-sepsis-early-warning</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>AI問診トリアージから診察へのワークフロー</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-triage-to-consultation</link>
+      <description>Ubie等のAI問診システムの結果を診察に活かすためのワークフロー。AI問診の長所と限界を理解し、効率的な診察につなげる。</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-triage-to-consultation</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>Claudeで医療計算ツール・患者説明資料を5分で自作する</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/claude-artifacts-medical-tools</link>
+      <description>プログラミング不要。eGFR計算機、CURB-65、Wells Scoreを自分で作ってURLで共有。Claude Artifactsで医師が「ツールを買う」から「ツールを作る」時代へ</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/claude-artifacts-medical-tools</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>カンファレンス準備ワークフロー</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/conference-prep-workflow</link>
+      <description>朝カンファの5分プレゼンを15分で準備する、AIを活用した実践的ワークフロー</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/conference-prep-workflow</guid>
+      <category>clinical</category>
+    </item>
+    <item>
+      <title>初めての症例報告（AIで効率的に書く）</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/first-case-report</link>
+      <description>症例報告を書いたことがない研修医が、AIを活用して効率的に初めての論文を完成させるためのステップバイステップガイド</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/first-case-report</guid>
+      <category>research</category>
+    </item>
+    <item>
+      <title>世界の医療AI最前線マップ 2026</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/global-medical-ai-landscape-2026</link>
+      <description>米国・欧州・アジアで実臨床に導入されている医療AIの全体像。何がどこまで来ているかを把握するためのリファレンスガイド。</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/global-medical-ai-landscape-2026</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>抄読会エクスプレス（15分で1本読む）</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/journal-club-express</link>
+      <description>AIを活用して論文を15分で読み解き、抄読会で的確にプレゼンするための実践ガイド</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/journal-club-express</guid>
+      <category>research</category>
+    </item>
+    <item>
+      <title>朝の回診準備ワークフロー</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/morning-rounds-prep</link>
+      <description>夜間の検査結果・イベントをAIで整理し、指導医へのプレゼンを15分で仕上げる実践ワークフロー。</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/morning-rounds-prep</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>NotebookLMで「自分専用AIエキスパート」を作る — 医師向け完全ガイド</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/notebooklm-clinical-workflow</link>
+      <description>ガイドラインと論文をアップロードするだけ。プログラミング不要で、引用ページ付きで答えてくれる専門知識ベースを構築する。2026年最新ワークフロー</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/notebooklm-clinical-workflow</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>当直AIツールキット</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/on-call-ai-toolkit</link>
+      <description>当直前・当直中・当直明けの全フェーズでAIを活用し、安全かつ効率的に乗り切るための実践ガイド</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/on-call-ai-toolkit</guid>
+      <category>clinical</category>
+    </item>
+    <item>
+      <title>AIを活用したQIプロジェクト実践ガイド</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/qi-project-ai</link>
+      <description>PDSAサイクルに沿ったQuality Improvementプロジェクトの全ステップをAIで加速する実践ガイド。</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/qi-project-ai</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>AI活用の構造化申し送り（I-PASS）</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/structured-handoff</link>
+      <description>当直交代時の申し送りをI-PASSフレームワーク+AIで構造化し、情報の抜け漏れを防ぐワークフロー。</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/structured-handoff</guid>
+      <category>workflow</category>
+    </item>
+    <item>
+      <title>マスター診断推論エンジン</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/clinical-master-reasoning</link>
+      <description>確証バイアスとアンカリングを構造的に防ぎながら、ベイズ推論で鑑別診断を精緻化する。主治医レベルの臨床推論を再現するフレームワーク</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/clinical-master-reasoning</guid>
+      <category>diagnosis</category>
+    </item>
+    <item>
+      <title>包括的薬剤安全審査プロンプト</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/medication-safety-comprehensive</link>
+      <description>薬物相互作用・腎肝機能調整・高警戒薬・QTc延長・薬食相互作用を8レベルで体系的にチェック。薬剤師の専門的視点をAIで再現する</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/medication-safety-comprehensive</guid>
+      <category>clinical</category>
+    </item>
+    <item>
+      <title>急変予測・患者安全病棟チェックプロンプト</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/patient-safety-ward-check</link>
+      <description>NEWS2スコアリング・24時間最悪シナリオ・反証チェックを統合。「何か変だ」という直感を構造化し、急変を見逃さないフレームワーク</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/patient-safety-ward-check</guid>
+      <category>clinical</category>
+    </item>
+    <item>
+      <title>臨床スコア計算と解釈の自動化</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/clinical-score-calculator</link>
+      <description>WELLS、CURB-65、NEWS2などのスコアをAIで即時計算・解釈</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/clinical-score-calculator</guid>
+      <category>diagnosis</category>
+    </item>
+    <item>
+      <title>診断的タイムアウト — 早期クロージャを防ぐ</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/diagnostic-timeout</link>
+      <description>確証バイアスと早期クロージャを防ぐための診断的タイムアウト手法</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/diagnostic-timeout</guid>
+      <category>diagnosis</category>
+    </item>
+    <item>
+      <title>検査値パターンをAIに読ませる</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/lab-pattern-recognition</link>
+      <description>複数の検査値の組み合わせパターンを一括解析する</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/lab-pattern-recognition</guid>
+      <category>diagnosis</category>
+    </item>
+    <item>
+      <title>希少疾患の鑑別を広げる</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/rare-disease-diagnosis</link>
+      <description>見落としがちな希少疾患をAIで網羅的にリストアップする方法</description>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/rare-disease-diagnosis</guid>
+      <category>diagnosis</category>
+    </item>
+    <item>
+      <title>Weekly Medical AI Newsletter #3 (2026/2/23)</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/2026-02-23</link>
+      <description>NEJM AI発・Ambient AI scribeのRCT結果、BMJ論説「医療AIの責任の所在」、放射線VLMのハルシネーション検出、PMDA生成AIシンポジウム参加登録開始 ほか</description>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/2026-02-23</guid>
+      <category>ai-fundamentals</category>
+    </item>
+    <item>
+      <title>AI臨床試験マッチング：患者と治験をつなぐ</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-clinical-trial-matching</link>
+      <description>適格な患者の90%が臨床試験を知らない現状を、AIが変える。自然言語処理による治験マッチングの仕組みと可能性</description>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-clinical-trial-matching</guid>
+      <category>research</category>
+    </item>
+    <item>
+      <title>症例プレゼンテーション構築</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/case-presentation-builder</link>
+      <description>研修医・専攻医の症例プレゼンテーションを構造化し、指導医にも伝わる論理的なプレゼンに仕上げるプロンプト</description>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/case-presentation-builder</guid>
+      <category>clinical</category>
+    </item>
+    <item>
+      <title>メンタルヘルスとAI：スクリーニングから介入まで</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-mental-health-screening</link>
+      <description>うつ病スクリーニング、自殺リスク評価、デジタル治療。精神医療におけるAI活用の現状と倫理的課題</description>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-mental-health-screening</guid>
+      <category>clinical</category>
+    </item>
+    <item>
+      <title>救急初期評価テンプレート</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/er-rapid-assessment</link>
+      <description>救急外来での初期評価を漏れなく行うためのABCDE＋SAMPLE形式の構造化プロンプト</description>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/er-rapid-assessment</guid>
+      <category>diagnosis</category>
+    </item>
+    <item>
+      <title>敗血症早期発見AI：ゴールデンアワーを逃さない</title>
+      <link>https://kgraph57.github.io/hoshizu/knowledge/ai-sepsis-detection</link>
+      <description>院内死亡の主要原因である敗血症を、バイタルサインと検査データからAIが早期検出。EPIC Sepsis Modelの教訓と次世代アプローチ</description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://kgraph57.github.io/hoshizu/knowledge/ai-sepsis-detection</guid>
+      <category>clinical</category>
+    </item>
+  </channel>
+</rss>

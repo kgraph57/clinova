@@ -1,0 +1,712 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","knowledge","incident-report-creation"],"q":"","i":false,"f":[[["",{"children":["knowledge",{"children":[["slug","incident-report-creation","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/eb46a9559e436395.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadingProgress"]
+1c:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"TableOfContents"]
+1d:I[12900,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"BookmarkButton"]
+1e:I[71957,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleHeader"]
+1f:T3878,
+# 医療AIワークフローガイド：インシデントレポート作成支援
+
+## イントロダクション
+
+医療現場におけるインシデントレポートは、医療の質と安全性を向上させるための重要なツールです。しかし、多忙な業務の中で、客観的かつ構造化されたレポートを作成することは、多くの医療従事者にとって負担となっています。本ガイドでは、生成AIをインシデントレポート作成プロセスに統合し、効率的かつ質の高いレポート作成を実現するためのワークフローを提案します。
+
+AIは、インシデントの概要整理、時系列での出来事の再構築、客観的な分析、そして改善策の提案といった各段階で、医療従事者の思考を補助し、言語化をサポートします。本ガイドを通じて、AIを単なる文章作成ツールとしてではなく、インシデント分析と再発防止策立案のパートナーとして活用する方法を習得し、患者安全の向上に繋げてください。
+
+![インシデントレポート ワークフロー](/images/guides/incident-report-creation/incident_report_workflow.png)
+
+---
+
+## 基本編：インシデントの概要を構造化する
+
+インシデントレポート作成の第一歩は、発生した事象を客観的かつ簡潔にまとめることです。この基本編では、AIを用いてインシデントの概要を構造化し、レポートの骨子を作成する2つのステップを紹介します。
+
+### ステップ1：インシデントの概要を5W1Hで整理する
+
+まず、インシデントに関する情報を5W1H（いつ、どこで、誰が、何を、なぜ、どのように）のフレームワークに沿ってAIに提示し、状況を客観的に整理させます。
+
+プロンプト例：
+
+```
+あなたは医療安全管理の専門家です。以下のインシデント情報について、5W1Hの観点から客観的に整理し、インシデントの概要を作成してください。
+
+# インシデント情報
+- 発生日時：2023年10月26日 午後3時頃
+- 発生場所：第3病棟 305号室
+- 関係者：田中一郎様（患者、80歳男性、認知症あり）、新人看護師A、看護師B
+- 状況：患者がベッドから転落。訪室した看護師Bが発見。新人看護師Aは、患者のナースコール対応後、ベッドのサイドレールを上げ忘れていた。
+```
+
+AIの出力例：
+
+> ### インシデント概要（5W1H）
+> 
+> - When（いつ）: 2023年10月26日 午後3時頃
+> - Where（どこで）: 第3病棟 305号室
+> - Who（誰が）: 田中一郎様（80歳男性、認知症あり）が、ベッドから転落した。
+> - What（何を）: 新人看護師Aが、ナースコール対応後にベッドのサイドレールを上げ忘れたことが、インシデントの直接的な原因と考えられる。
+> - Why（なぜ）: 新人看護師Aの確認不足、およびナースコール対応後の多重業務による注意散漫の可能性が考えられる。
+> - How（どのように）: 患者がベッド上で体動した際に、サイドレールが上がっていなかったため、ベッドから転落した。
+
+まとめ：
+
+このステップでは、断片的な情報を構造化することで、インシデントの全体像を客観的に把握することができます。AIは情報を整理し、レポート作成の土台となる客観的な事実を抽出するのに役立ちます。
+
+### ステップ2：インシデントの時系列を整理する
+
+次に、インシデント発生前後の出来事を時系列に沿って整理し、インシデントに至るまでの経緯を明確にします。
+
+プロンプト例：
+
+```
+ステップ1で整理した情報と以下の追加情報に基づき、インシデント発生前後の出来事を時系列で整理してください。
+
+# 追加情報
+- 午後2時50分：新人看護師Aが田中様のナースコールに対応。排泄介助を行う。
+- 午後2時55分：新人看護師Aが介助を終え、退室。この際、サイドレールを上げ忘れる。
+- 午後3時05分：看護師Bが訪室し、ベッド横で倒れている田中様を発見。
+- 午後3時06分：看護師Bがナースステーションに応援を要請。医師Cに報告。
+- 午後3時10分：医師Cが到着し、診察を開始。
+```
+
+AIの出力例：
+
+> ### インシデントの時系列
+> 
+> | 時刻 | 出来事 |
+> | :--- | :--- |
+> | 14:50 | 新人看護師Aが患者のナースコールに対応し、排泄介助を実施。 |
+> | 14:55 | 新人看護師Aが介助を終え退室。サイドレールを上げ忘れる。 |
+> | 15:05 | 看護師Bが訪室し、患者がベッドから転落しているのを発見。 |
+> | 15:06 | 看護師Bが応援を要請し、医師Cへ報告。 |
+> | 15:10 | 医師Cが到着し、患者の診察を開始。 |
+
+まとめ：
+
+時系列を明確にすることで、インシデントの発生機序や、対応の迅速性を客観的に評価する材料となります。AIを用いることで、複数の情報源からの出来事を正確に時間軸上に配置し、分析の精度を高めることができます。
+
+---
+
+## 実践編：インシデントの分析と評価を行う
+
+この実践編では、AIを活用してインシデントの根本原因を分析し、再発防止策の方向性を探ります。客観的なデータと分析フレームワークを用いることが重要です。
+
+### ステップ1：インシデントの直接原因と背景要因を分析する
+
+インシデントの表面的な原因だけでなく、その背景にある組織的・環境的要因を分析します。ここでは、RCA（根本原因分析）の考え方を応用します。
+
+プロンプト例：
+
+```
+あなたは医療安全の専門家です。基本編で作成したインシデント概要と時系列に基づき、この転落インシデントの直接原因と背景要因を分析してください。特に、人的要因、環境・設備要因、管理・組織的要因の観点から考察してください。
+```
+
+AIの出力例：
+
+> ### インシデントの要因分析
+> 
+> 1. 直接原因
+> - 新人看護師Aが、患者対応後にベッドのサイドレールを上げ忘れたこと。
+> 
+> 2. 背景要因
+> - 人的要因
+> - 新人看護師Aの経験不足と、確認行動の習慣化が不十分であった可能性。
+> - ナースコール対応という緊急性の高い業務に追われ、注意が散漫になった可能性。
+> - 環境・設備要因
+> - 当該時間帯の病棟が多忙であり、他のスタッフによるフォローが困難な状況であった可能性。
+> - ベッド周りの環境が、サイドレールの操作を忘れやすい構造になっていた可能性はないか。
+> - 管理・組織的要因
+> - 新人看護師への教育・指導体制において、サイドレールの確認手順に関する徹底が不足していた可能性。
+> - 業務量が多く、ヒューマンエラーを誘発しやすい勤務環境であった可能性。
+> - インシデント発生を未然に防ぐための、多重チェックの仕組みが機能していなかった可能性。
+
+まとめ：
+
+AIに多角的な視点から要因を分析させることで、個人の責任追及に終始せず、システム全体の問題としてインシデントを捉え直すことができます。これにより、より本質的な再発防止策の立案に繋がります。
+
+### ステップ2：インシデントの重大性を評価する
+
+インシデントが患者に与えた影響や、医療プロセスへの影響度を客観的に評価します。これにより、対策の優先順位を決定する際の判断材料とします。
+
+プロンプト例：
+
+```
+このインシデントの重大性について、以下の評価軸に基づいて評価してください。
+
+# 評価軸
+- 患者への影響（傷害の程度、精神的苦痛など）
+- 医療プロセスへの影響（治療の遅延、追加的な処置の発生など）
+- 組織への影響（信頼の失墜、経済的損失など）
+
+# 追加情報
+- 患者は診察の結果、右大腿骨頸部骨折と診断された。
+- 緊急手術が必要となり、入院期間が延長された。
+```
+
+AIの出力例：
+
+> ### インシデントの重大性評価
+> 
+> - 患者への影響: 極めて重大
+> - 右大腿骨頸部骨折という重篤な傷害が発生した。
+> - 高齢であり、手術・長期臥床による身体機能の低下、合併症のリスクが非常に高い。
+> - 認知症の進行や、精神的な苦痛も大きいと推測される。
+> - 医療プロセスへの影響: 重大
+> - 緊急手術が必要となり、予定外の医療資源（手術室、スタッフ）の投入が発生した。
+> - 入院期間の延長により、病床管理計画に影響が出た。
+> - 組織への影響: 中程度
+> - 患者・家族からの信頼を損なう可能性がある。
+> - 医療過誤として訴訟に発展するリスクも否定できない。
+
+まとめ：
+
+AIを用いてインシデントの重大性を客観的に評価することで、感情的な判断を排し、組織として取り組むべき課題の優先順位を明確にすることができます。
+
+---
+
+## 応用編：再発防止策の立案と共有
+
+この応用編では、AIと共に具体的な再発防止策を立案し、それを組織全体で共有・徹底するための方法を探ります。
+
+### ステップ1：具体的な再発防止策を立案する
+
+分析した根本原因に基づき、具体的かつ実行可能な再発防止策を複数提案させます。「いつ、誰が、何を、どのように」行うのかを明確にすることが重要です。
+
+プロンプト例：
+
+```
+実践編での分析と評価に基づき、このインシデントの再発を防止するための具体的な対策を、短期的な対策と中長期的な対策に分けて立案してください。対策は、具体的で実行可能なものにしてください。
+```
+
+AIの出力例：
+
+> ### 再発防止策の提案
+> 
+> A. 短期的な対策（即時実施）
+> 1.  指差し確認の徹底: 全看護スタッフに対し、患者対応後の退室時に「サイドレールよし！」と指差し声出し確認を義務付ける。（実施者：全看護スタッフ、期限：即日）
+> 2.  ヒヤリハット報告の再周知: サイドレールの上げ忘れに関するヒヤリハット事例を全スタッフで共有し、注意喚起を促す。（実施者：看護師長、期限：今週中）
+> 
+> B. 中長期的な対策
+> 1.  新人教育プログラムの見直し: 新人看護師の教育プログラムに、サイドレール確認を含む安全手順のシミュレーション研修を導入する。（実施者：教育委員会、期限：3ヶ月以内）
+> 2.  ダブルチェック体制の導入: 特にハイリスク患者（認知症、せん妄など）に対しては、2名体制での最終確認をルール化する。（実施者：看護部、期限：1ヶ月以内）
+> 3.  センサーマットの導入検討: 離床センサーマットの導入を検討し、転落リスクの高い患者への物理的な安全対策を強化する。（実施者：医療安全管理室、機器選定委員会、期限：6ヶ月以内）
+
+まとめ：
+
+AIに複数の選択肢を提案させることで、多角的な視点から最適な再発防止策を検討することができます。対策の具体性と実行可能性を高めることが、形骸化を防ぐ鍵となります。
+
+### ステップ2：インシデントレポートの最終化と共有
+
+最後に、これまでのステップで作成した内容を統合し、公式なインシデントレポートとして完成させます。AIに最終的な推敲を依頼し、客観的で分かりやすい文章に仕上げます。
+
+プロンプト例：
+
+```
+これまでの内容（インシデント概要、時系列、要因分析、重大性評価、再発防止策）をすべて統合し、院内向けの公式なインシデントレポートとして清書してください。客観的かつ専門的なトーンで、事実と分析、対策が明確に伝わるように構成してください。
+```
+
+AIの出力例：
+
+> インシデントレポート
+> 
+> 1. 発生日時: 2023年10月26日 午後3時頃
+> 2. 発生場所: 第3病棟 305号室
+> 3. 関係者: 患者（80歳男性）、新人看護師A、看護師B
+> 
+> 4. インシデント概要
+> 患者がベッドから転落し、右大腿骨頸部骨折を受傷した。新人看護師Aが患者対応後にサイドレールを上げ忘れたことが直接の原因である。
+> 
+> 5. 経緯
+> （時系列データを記載）
+> 
+> 6. 要因分析
+> - 直接原因: サイドレールの確認不足。
+> - 背景要因: 新人看護師の経験不足、多忙な業務環境による注意散漫、確認行動の習慣化不足、新人教育体制の課題、ダブルチェック体制の不備が複合的に関与したと考えられる。
+> 
+> 7. 重大性評価
+> 患者に重篤な傷害（右大腿骨頸部骨折）を及ぼし、緊急手術と入院期間の延長を要したことから、極めて重大なインシデントと評価する。
+> 
+> 8. 再発防止策
+> - 短期的対策: 指差し声出し確認の徹底、ヒヤリハット事例の共有。
+> - 中長期的対策: 新人教育プログラムの見直し、ハイリスク患者へのダブルチェック体制導入、離床センサーマットの導入検討。
+> 
+> 9. 特記事項
+> 本事例を教訓とし、組織全体で安全文化の再醸成に取り組む必要がある。
+
+まとめ：
+
+AIによる最終的な推敲を経ることで、感情的な表現や主観的な憶測を排除し、事実に基づいた客観的で質の高いレポートを完成させることができます。完成したレポートは、院内の安全管理委員会や関連部署で共有し、組織的な学習と改善に繋げることが重要です。
+12:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"インシデントレポート作成支援\",\"description\":\"正確で建設的なインシデントレポートの作成\",\"datePublished\":\"2026-02-14\",\"dateModified\":\"2026-02-14\",\"author\":{\"@type\":\"Person\",\"name\":\"Ken Okamoto\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Hoshizu\"}}"}}],["$","$L1b",null,{}],["$","$L1c",null,{"items":[{"id":"イントロダクション","text":"イントロダクション","level":2},{"id":"基本編インシデントの概要を構造化する","text":"基本編：インシデントの概要を構造化する","level":2},{"id":"ステップ1インシデントの概要を5w1hで整理する","text":"ステップ1：インシデントの概要を5W1Hで整理する","level":3},{"id":"ステップ2インシデントの時系列を整理する","text":"ステップ2：インシデントの時系列を整理する","level":3},{"id":"実践編インシデントの分析と評価を行う","text":"実践編：インシデントの分析と評価を行う","level":2},{"id":"ステップ1インシデントの直接原因と背景要因を分析する","text":"ステップ1：インシデントの直接原因と背景要因を分析する","level":3},{"id":"ステップ2インシデントの重大性を評価する","text":"ステップ2：インシデントの重大性を評価する","level":3},{"id":"応用編再発防止策の立案と共有","text":"応用編：再発防止策の立案と共有","level":2},{"id":"ステップ1具体的な再発防止策を立案する","text":"ステップ1：具体的な再発防止策を立案する","level":3},{"id":"ステップ2インシデントレポートの最終化と共有","text":"ステップ2：インシデントレポートの最終化と共有","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","div",null,{"className":"mb-4 flex justify-end","children":["$","$L1d",null,{"slug":"incident-report-creation","title":"インシデントレポート作成支援","contentType":"guide","variant":"full"}]}],["$","$L1e",null,{"article":{"slug":"incident-report-creation","title":"インシデントレポート作成支援","description":"正確で建設的なインシデントレポートの作成","category":"workflow","contentType":"guide","newsType":"$undefined","difficulty":"intermediate","tags":["インシデント","医療安全"],"publishedAt":"2026-02-14","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":19,"content":"$1f","coverImage":null}}],"$L20","$L21","$L22","$L23","$L24"]}],"$L25"]
+26:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"MobileToc"]
+28:I[52429,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadTracker"]
+29:I[51830,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleFooter"]
+2d:I[56788,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"GiscusComments"]
+2e:I[20407,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"FloatingReadBar"]
+20:["$","$L26",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose ","children":"$L27"}]
+22:["$","$L28",null,{"slug":"incident-report-creation"}]
+2a:T129c,
+# Ambient AI：診察室の会話が自動でカルテになる時代
+
+## Ambient Clinical Documentationとは
+
+Ambient Clinical Documentation（ACD）は、診察室での医師と患者の会話をAIがリアルタイムで聴き取り、構造化されたカルテ記録に自動変換するテクノロジーです。医師はパソコンに向かってタイプする代わりに、患者と目を合わせて会話するだけでカルテが完成します。
+
+米国では2024〜2025年にかけて爆発的に普及し、2026年時点で大手病院チェーンの過半数が何らかのACD製品を導入しています。
+
+## 主要プレイヤー
+
+| 製品 | 開発元 | 特徴 |
+|------|--------|------|
+| DAX Copilot | Microsoft/Nuance | Epic統合、最大シェア |
+| Abridge | Abridge | 根拠文の表示が強み |
+| Nabla Copilot | Nabla | EU市場に強い |
+| Suki | Suki | 音声コマンド統合 |
+| DeepScribe | DeepScribe | 専門科対応が充実 |
+
+## 何ができるのか
+
+### 基本機能
+
+1. **会話の文字起こし**: 医師と患者の会話をリアルタイムで文字化
+2. **話者分離**: 医師の発言と患者の発言を自動で分離
+3. **SOAP変換**: 会話内容からSubjective、Objective、Assessment、Planを自動生成
+4. **医学用語の正規化**: 口語表現を医学用語に変換（「お腹が痛い」→「腹痛」）
+5. **コード提案**: ICD-10コードや処置コードの自動提案
+
+### 高度な機能
+
+- **検査オーダーの提案**: 会話内容から必要な検査を推測して提案
+- **処方の事前入力**: 会話で言及された薬剤の処方を下書き
+- **患者向けサマリー**: 患者に渡す平易な言葉の診療要約を自動生成
+
+## 米国での導入効果
+
+### 定量的効果
+
+- カルテ記載時間: 平均50%削減
+- 患者との対話時間: 12%増加
+- 時間外カルテ作業（Pajama Time）: 70%削減
+- 医師の満足度: 導入後85%が「業務改善」と回答
+
+### 定性的効果
+
+- 患者との目線の合う時間が増え、信頼関係が改善
+- カルテの網羅性が向上（会話全体が記録されるため漏れが減少）
+- 医師の燃え尽き症候群スコアの改善
+
+## 日本語対応の現状と課題
+
+### 技術的課題
+
+日本語のACD対応は英語に比べて2〜3年遅れています。
+
+- **音声認識精度**: 日本語の医学用語は同音異義語が多い（「こうけつあつ」→高血圧/抗血圧）
+- **敬語処理**: 患者と医師の敬語レベルの違いを適切に処理
+- **方言対応**: 地域ごとの方言への対応
+- **混合言語**: 医療現場での日英混在（「BP」「SpO2」「SOAP」）
+
+### 制度的課題
+
+- 診療録の法的要件との整合性（AI生成カルテの法的有効性）
+- 患者の同意取得の方法（会話が録音・解析されることへの同意）
+- 個人情報保護法との関係（音声データの取り扱い）
+
+### 国内の動き
+
+- 2025年後半から国内スタートアップ数社がβ版を医療機関に提供開始
+- 大手EMRベンダーがACDモジュールの開発を発表
+- 大学病院での臨床研究（精度検証）が複数進行中
+
+## 導入を検討する医療機関へのガイド
+
+### Step 1: ニーズの確認
+
+- カルテ記載に費やしている時間を計測する
+- 最も負担の大きい診療科を特定する（内科、精神科、総合診療が高い傾向）
+- 医師のカルテ記載への不満を調査する
+
+### Step 2: 製品選定のポイント
+
+- 日本語対応の精度（デモで自施設の会話パターンをテスト）
+- 既存EMRとの統合性
+- データの保存場所（国内サーバーか海外か）
+- 導入サポートとトレーニング体制
+
+### Step 3: パイロット導入
+
+- 小規模（1〜2診療科）から開始
+- 3か月間の精度検証期間を設ける
+- 医師と患者のフィードバックを収集
+- カルテの品質を従来方式と比較評価
+
+### Step 4: 運用ルールの策定
+
+- AI生成カルテの確認・修正プロセスの標準化
+- 患者への説明と同意取得のフロー
+- エラー報告と改善の仕組み
+
+## 注意すべきリスク
+
+- **自動生成への過信**: AI生成カルテを確認せずに確定するリスク
+- **プライバシー**: 診察室の会話には機微な情報が含まれる
+- **医師のスキル低下**: カルテ記載能力（臨床推論の整理能力）の退化
+
+Ambient AIは医療の働き方を根本的に変える可能性を持つ技術です。日本での本格普及はこれからですが、早期に情報収集と準備を始めることで、導入時のアドバンテージを得られます。
+2b:T117e,
+# AI文書作成で診療時間を取り戻す
+
+## 文書業務が奪う診療時間
+
+医師の業務時間のうち、文書作成に費やされる時間は平均30〜40%と報告されています。2024年の医師の働き方改革で労働時間の上限規制が始まりましたが、診療の質を落とさずに文書業務を効率化することは、すべての医師にとって喫緊の課題です。
+
+AIを活用した文書作成は、単に「早く書ける」だけでなく、「漏れなく書ける」「一貫性のある文書が書ける」という品質面のメリットもあります。
+
+## AI文書作成の3段階
+
+### レベル1: テンプレート生成（即日導入可能）
+
+最も手軽なのは、テンプレートの自動生成です。
+
+**退院サマリーの例:**
+- 入院日、退院日、主病名、手術名を入力
+- AIが標準的な退院サマリーの骨格を生成
+- 医師が内容を確認・修正
+
+この段階では、AIは「下書き」を作るだけです。医師の確認は必須ですが、白紙から書き始めるよりも大幅に時間を短縮できます。
+
+### レベル2: カルテ情報からの自動要約（導入進行中）
+
+電子カルテの経過記録から、退院サマリーや紹介状を自動要約するシステムが普及し始めています。
+
+**メリット:**
+- 入院経過の記録漏れを防ぐ
+- 時系列の整理が正確
+- 検査結果の変遷を自動でまとめる
+
+**注意点:**
+- カルテの記載が不十分だと、要約も不十分になる
+- 「書いていないこと」はAIにも分からない
+- コピー＆ペーストの連鎖で誤情報が混入するリスク
+
+### レベル3: Ambient Documentation（最先端）
+
+診察室での医師と患者の会話をリアルタイムで文字起こしし、SOAP形式のカルテに自動変換するシステムです。Nuance DAXやAbridge、Nabla Copilotなどが代表的です。
+
+**効果（米国での報告）:**
+- カルテ記載時間が50%以上短縮
+- 患者との対話時間が増加
+- 医師の燃え尽き症候群スコアが改善
+
+日本語対応はまだ発展途上ですが、2026年に入り複数のベンダーが日本市場に参入しています。
+
+## 文書別の活用ポイント
+
+### 紹介状
+
+紹介状で最も重要なのは「なぜ紹介するのか」と「何をしてほしいのか」の明確化です。AIに以下を入力すると、適切な紹介状が生成できます。
+
+- 紹介目的（精査依頼、治療依頼、セカンドオピニオン）
+- これまでの経過と検査結果
+- 紹介先への具体的なリクエスト
+
+### 退院サマリー
+
+退院サマリーは「入院の全体像」を簡潔にまとめる必要があります。AIは時系列整理が得意なので、経過の構造化を任せるのが効果的です。ただし、「なぜその治療方針を選んだか」という臨床判断の部分は医師自身が記載すべきです。
+
+### 診断書・意見書
+
+定型的な部分（病名、治療期間、経過）はAIに任せ、意見・見解の部分は医師が書く、という役割分担が適切です。法的文書であるため、最終確認は特に慎重に行いましょう。
+
+## 品質チェックリスト
+
+AI生成文書を確定する前に、以下を確認してください。
+
+- [ ] 患者氏名・ID・日付は正しいか
+- [ ] 病名・手術名に誤りはないか
+- [ ] 薬剤名・用量は正確か（ハルシネーションの温床）
+- [ ] 検査データは実際の値と一致しているか
+- [ ] アレルギー情報は正しく記載されているか
+- [ ] 「書くべきだが書かれていない」情報はないか
+- [ ] 個人情報保護の観点で問題はないか
+
+## 導入のコツ
+
+1. **小さく始める**: まずは紹介状のテンプレート生成から
+2. **ダブルチェックを習慣化**: AI生成→医師確認のフローを確立
+3. **チーム内で共有**: 良いプロンプトはチームの共有財産にする
+4. **フィードバック**: AIの出力を改善するために、修正点を記録する
+
+AI文書作成は、医師の負担を軽減し、患者との対話時間を増やす有効な手段です。ただし、「AIが書いたから正しい」という思い込みは禁物です。最終的な文書の責任は常に医師にあることを忘れずに活用しましょう。
+2c:T1f2f,
+# AI抗菌薬適正使用（スチュワードシップ）ワークフロー
+
+## なぜ抗菌薬適正使用にAIか
+
+抗菌薬の不適切な使用は**耐性菌の増加**と**医療コストの上昇**に直結します。WHOは薬剤耐性（AMR）を「人類の健康に対する最大の脅威の一つ」と位置づけています。
+
+研修医が抗菌薬処方で直面する課題:
+- 経験的治療（empiric therapy）の選択に自信がない
+- 培養結果が出た後のde-escalation（狭域化）のタイミングが分からない
+- 施設のアンチバイオグラムを活用できていない
+- 腎機能に応じた用量調整の計算が複雑
+
+AIを活用することで、**エビデンスに基づいた抗菌薬選択の支援**と**de-escalationの判断補助**が可能になります。
+
+---
+
+## AIが活用されている領域
+
+### 世界の動向
+
+| システム | 内容 | 状況 |
+|---|---|---|
+| **MedAware** | 処方エラー・薬剤相互作用のAI検出 | イスラエル発、米国の複数病院で導入 |
+| **Antibiotic Guardian AI** | 英国NHS開発の抗菌薬処方支援 | NHS Trustsで試験運用 |
+| **Epic CDS** | 電子カルテ内蔵の抗菌薬推奨アラート | Epic導入施設で利用可能 |
+| **TREAT Steward** | 培養結果に基づく自動de-escalation推奨 | 欧州の複数施設で検証 |
+
+### 日本の状況
+
+- 感染制御チーム（ICT）と抗菌薬適正使用支援チーム（AST）の活動が2018年の診療報酬改定で評価対象に
+- 電子カルテの抗菌薬使用量モニタリングは普及しているが、**AI支援のde-escalation推奨はまだ研究段階**
+- 汎用AI（ChatGPT/Claude）を感染症コンサルトの壁打ちに使う実践が広がり始めている
+
+---
+
+## ワークフロー
+
+### Step 1: 経験的治療（Empiric Therapy）の選択
+
+#### プロンプト
+
+```text
+以下の患者に対する経験的抗菌薬治療を検討してください。
+
+# 患者情報
+- 年齢/性別: [年齢/性別]
+- 体重: [kg]、身長: [cm]
+- 腎機能: eGFR [X] mL/min/1.73m2、Cr [Y] mg/dL
+- 肝機能: AST/ALT [値]
+- アレルギー: [薬剤アレルギーの有無と種類]
+- 免疫状態: [免疫抑制薬の使用、好中球減少の有無]
+
+# 感染症の臨床情報
+- 感染源（推定）: [肺炎、尿路感染、腹腔内感染など]
+- 市中感染 or 院内感染: [発症場所]
+- 入院日数: [X]日目（院内感染の場合）
+- 重症度: [sepsis/septic shock の有無]
+- 抗菌薬投与歴（直近90日）: [あれば記載]
+- 耐性菌リスク因子: [MRSA、ESBL、緑膿菌のリスク]
+
+# 施設のアンチバイオグラム（あれば）
+[主要な菌種の感受性率データ]
+
+# 出力
+1. 推奨する経験的治療レジメン（第1選択、代替案）
+2. 各薬剤の用量・投与間隔（腎機能調整後）
+3. 選択の根拠（ガイドラインと施設のアンチバイオグラムに基づく）
+4. モニタリング項目（TDMが必要な薬剤、腎機能フォロー等）
+5. 培養結果判明後のde-escalation計画
+
+# 重要な注意
+- 推奨は参考情報です。最終判断は感染症専門医/指導医と相談してください
+- 薬剤の用量は必ず添付文書で確認してください
+```
+
+### Step 2: 培養結果の解釈とde-escalation
+
+#### プロンプト
+
+```text
+以下の培養結果に基づき、抗菌薬のde-escalation（狭域化）を検討してください。
+
+# 現在の治療
+- 現在の抗菌薬: [薬剤名、用量、投与日数]
+- 臨床経過: [改善傾向/横ばい/悪化]
+
+# 培養結果
+- 検体: [血液、尿、喀痰、膿等]
+- グラム染色: [結果]
+- 同定菌: [菌名]
+- 感受性結果:
+  [感受性パネルの結果を列挙]
+
+# 質問
+1. 現在の抗菌薬からde-escalation可能か？
+2. 推奨するtargeted therapy（標的治療）は？
+3. 経口スイッチ（IV→PO）は可能か？ 条件は？
+4. 治療期間の目安は？
+5. de-escalationのリスク（カバーが不足する可能性）は？
+
+# 注意
+- 最終判断は感染症科コンサルトまたは指導医と確認してください
+- 複数菌感染の場合はそれぞれのカバーを検討してください
+```
+
+### Step 3: 経口スイッチの判断
+
+#### プロンプト
+
+```text
+以下の患者で、抗菌薬の経口スイッチ（IV→PO）が可能か評価してください。
+
+# 経口スイッチの基準（OPAT/Eron criteria参考）
+□ 臨床的に改善傾向（48-72時間の発熱なし）
+□ 経口摂取が可能
+□ 消化管の吸収障害がない（嘔吐、下痢、イレウスなし）
+□ 経口薬で十分な組織移行性が確保できる感染部位
+□ 起因菌に感受性のある経口薬が存在する
+
+# 患者情報
+[臨床経過、現在のバイタル、消化管の状態]
+
+# 現在の抗菌薬と培養結果
+[現在の点滴抗菌薬と菌名・感受性]
+
+# 出力
+1. 経口スイッチの可否と根拠
+2. 推奨する経口薬（用量、投与期間）
+3. 経口スイッチ後のモニタリング項目
+4. 経口スイッチが不適切な場合、OPAT（外来静注療法）の検討
+```
+
+### Step 4: 治療効果の評価
+
+```text
+以下の抗菌薬治療の効果を評価してください。
+
+# 治療経過
+- 抗菌薬: [薬剤名]
+- 投与開始日: [日付]（投与[X]日目）
+- 臨床経過:
+  - 体温推移: [日ごとの最高体温]
+  - WBC推移: [日ごとの値]
+  - CRP推移: [日ごとの値]
+  - PCT推移: [測定していれば]
+  - 感染源の局所所見: [改善/不変/悪化]
+
+# 評価してほしいこと
+1. 治療効果の判定（有効/判定保留/無効）
+2. 72時間ルール: 効果判定の基準を満たしているか
+3. 治療無効の場合、考えるべき原因
+   - 起因菌のカバー不足
+   - ドレナージ不足（膿瘍、感染デバイス等）
+   - 用量不足（MIC値との関係）
+   - 新たな合併症
+4. 次のアクション（継続/変更/追加検査）
+```
+
+---
+
+## De-escalationのタイミングチャート
+
+```
+培養提出
+  ↓
+24-48時間: グラム染色結果
+  → グラム陽性球菌 → バンコマイシンの適応を再評価
+  → グラム陰性桿菌 → 緑膿菌カバーの必要性を再評価
+  ↓
+48-72時間: 同定・感受性結果
+  → 起因菌に最も狭域な薬剤に変更（de-escalation）
+  → 感受性良好なら経口スイッチを検討
+  ↓
+72時間: 臨床効果判定
+  → 改善: 治療継続、投与期間を決定
+  → 不変: 検査追加（画像、再培養、感染源精査）
+  → 悪化: 抗菌薬変更、外科的介入の検討、上級医相談
+```
+
+---
+
+## よくある抗菌薬の間違いとAIでの予防
+
+| 間違いパターン | AIでの予防方法 |
+|---|---|
+| 培養陰性でも広域抗菌薬を漫然と継続 | 「培養陰性+臨床改善→中止検討」をAIに確認 |
+| 腎機能変化に対する用量未調整 | 腎機能データを入力し用量再計算 |
+| ペニシリンアレルギー申告で全βラクタム回避 | 交差反応のリスク評価をAIで確認（実際の交差反応率は低い） |
+| MRSAカバーの不要な継続 | 鼻腔スワブ陰性+培養MSSA→バンコマイシン中止の根拠確認 |
+| 治療期間の延長しすぎ | 最新ガイドラインの推奨治療期間をAIで確認 |
+
+---
+
+## 安全に関する注意
+
+- AIの抗菌薬推奨は**参考情報**です。処方の最終判断は必ず指導医・感染症専門医と確認してください
+- 薬剤の**用量・禁忌・相互作用は添付文書やUpToDate等で必ず確認**してください
+- 施設の**アンチバイオグラム**はAIよりも自施設のデータが優先されます
+- 重症感染症では**感染症科コンサルト**を積極的に行ってください
+- 患者データを外部AIに入力する場合は**匿名化**と施設のポリシーに準拠してください
+23:["$","$L29",null,{"article":"$12:3:props:children:1:props:article","relatedArticles":[{"slug":"ai-ambient-listening-japan","title":"Ambient AI：診察室の会話が自動でカルテになる時代","description":"米国で急速に普及するAmbient Clinical Documentation。日本語対応の現状と、導入を検討する医療機関へのガイド","category":"workflow","contentType":"article","newsType":"$undefined","difficulty":"intermediate","tags":["Ambient","音声認識","カルテ","SOAP","Nuance","日本語対応"],"publishedAt":"2026-03-03","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":6,"content":"$2a","coverImage":null},{"slug":"ai-documentation-efficiency","title":"AI文書作成で診療時間を取り戻す","description":"紹介状、退院サマリー、診断書。医師の文書業務をAIで効率化する実践テクニックと、品質を保つためのチェックポイント","category":"workflow","contentType":"article","newsType":"$undefined","difficulty":"beginner","tags":["文書作成","退院サマリー","紹介状","業務効率化","働き方改革"],"publishedAt":"2026-02-28","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":6,"content":"$2b","coverImage":null},{"slug":"ai-antibiotic-stewardship","title":"AI抗菌薬適正使用（スチュワードシップ）ワークフロー","description":"培養結果の解釈からde-escalation判断まで、AIを活用して抗菌薬の適正使用を実践するワークフロー。","category":"workflow","contentType":"guide","newsType":"$undefined","difficulty":"intermediate","tags":["抗菌薬","スチュワードシップ","AI","感染症","de-escalation","研修医"],"publishedAt":"2026-02-25","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":10,"content":"$2c","coverImage":null}],"relatedCourses":[{"courseId":"prompt-engineering-basics","title":"プロンプトエンジニアリング基礎","description":"AIへの効果的な指示の出し方、基本テクニック、医療分野での実践的なプロンプト設計を学びます","category":"workflow","level":"beginner","lessonCount":5,"estimatedTotalMinutes":98,"order":3,"free":true,"learningOutcomes":["効果的なプロンプトを設計できる","医療文脈に適したプロンプトを作成できる","プロンプトの品質を評価・改善できる"],"prerequisites":["ai-basics"],"targetAudience":["AIツールをもっと上手に使いたい方","臨床業務でAIを活用したい医療者","プロンプト設計の基礎を学びたい方"],"skills":["プロンプト設計","AI活用","医療プロンプト"],"coverImage":"$undefined"},{"courseId":"ai-implementation-framework","title":"医療AI導入フレームワーク - R.O.A.D.モデル","description":"医療現場へのAI導入を体系的に進めるR.O.A.D.モデル、リスク評価、組織変革、効果測定の方法を学びます","category":"clinical-ai","level":"intermediate","lessonCount":8,"estimatedTotalMinutes":140,"order":15,"free":false,"learningOutcomes":["R.O.A.D.モデルに基づくAI導入計画を策定できる","医療AI導入のリスク評価を実施できる","組織変革マネジメントの手法を理解できる","AI導入の効果測定と改善プロセスを実践できる"],"prerequisites":["ai-basics","medical-ai-overview"],"targetAudience":["医療機関でAI導入を推進する立場の方","医療情報システム担当者","病院経営に関わる方"],"skills":["AI導入計画","リスク評価","組織変革"],"coverImage":"$undefined"}]}]
+24:["$","$L2d",null,{}]
+25:["$","$L2e",null,{"article":"$12:3:props:children:1:props:article","nextArticle":"$23:props:relatedArticles:0"}]
+27:[["$","h1",null,{"children":"医療AIワークフローガイド：インシデントレポート作成支援"}],"\n",["$","h2",null,{"id":"イントロダクション","children":"イントロダクション"}],"\n",["$","p",null,{"children":"医療現場におけるインシデントレポートは、医療の質と安全性を向上させるための重要なツールです。しかし、多忙な業務の中で、客観的かつ構造化されたレポートを作成することは、多くの医療従事者にとって負担となっています。本ガイドでは、生成AIをインシデントレポート作成プロセスに統合し、効率的かつ質の高いレポート作成を実現するためのワークフローを提案します。"}],"\n",["$","p",null,{"children":"AIは、インシデントの概要整理、時系列での出来事の再構築、客観的な分析、そして改善策の提案といった各段階で、医療従事者の思考を補助し、言語化をサポートします。本ガイドを通じて、AIを単なる文章作成ツールとしてではなく、インシデント分析と再発防止策立案のパートナーとして活用する方法を習得し、患者安全の向上に繋げてください。"}],"\n",["$","p",null,{"children":["$","img",null,{"src":"/hoshizu/images/guides/incident-report-creation/incident_report_workflow.png","alt":"インシデントレポート ワークフロー","className":"w-full h-auto rounded-lg shadow-md my-8","loading":"lazy"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"基本編インシデントの概要を構造化する","children":"基本編：インシデントの概要を構造化する"}],"\n",["$","p",null,{"children":"インシデントレポート作成の第一歩は、発生した事象を客観的かつ簡潔にまとめることです。この基本編では、AIを用いてインシデントの概要を構造化し、レポートの骨子を作成する2つのステップを紹介します。"}],"\n",["$","h3",null,{"id":"ステップ1インシデントの概要を5w1hで整理する","children":"ステップ1：インシデントの概要を5W1Hで整理する"}],"\n",["$","p",null,{"children":"まず、インシデントに関する情報を5W1H（いつ、どこで、誰が、何を、なぜ、どのように）のフレームワークに沿ってAIに提示し、状況を客観的に整理させます。"}],"\n",["$","p",null,{"children":"プロンプト例："}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"あなたは医療安全管理の専門家です。以下のインシデント情報について、5W1Hの観点から客観的に整理し、インシデントの概要を作成してください。\n\n# インシデント情報\n- 発生日時：2023年10月26日 午後3時頃\n- 発生場所：第3病棟 305号室\n- 関係者：田中一郎様（患者、80歳男性、認知症あり）、新人看護師A、看護師B\n- 状況：患者がベッドから転落。訪室した看護師Bが発見。新人看護師Aは、患者のナースコール対応後、ベッドのサイドレールを上げ忘れていた。\n"}]}],"\n",["$","p",null,{"children":"AIの出力例："}],"\n",["$","blockquote",null,{"children":["\n",["$","h3",null,{"id":"インシデント概要5w1h","children":"インシデント概要（5W1H）"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"When（いつ）: 2023年10月26日 午後3時頃"}],"\n",["$","li",null,{"children":"Where（どこで）: 第3病棟 305号室"}],"\n",["$","li",null,{"children":"Who（誰が）: 田中一郎様（80歳男性、認知症あり）が、ベッドから転落した。"}],"\n",["$","li",null,{"children":"What（何を）: 新人看護師Aが、ナースコール対応後にベッドのサイドレールを上げ忘れたことが、インシデントの直接的な原因と考えられる。"}],"\n",["$","li",null,{"children":"Why（なぜ）: 新人看護師Aの確認不足、およびナースコール対応後の多重業務による注意散漫の可能性が考えられる。"}],"\n",["$","li",null,{"children":"How（どのように）: 患者がベッド上で体動した際に、サイドレールが上がっていなかったため、ベッドから転落した。"}],"\n"]}],"\n"]}],"\n",["$","p",null,{"children":"まとめ："}],"\n",["$","p",null,{"children":"このステップでは、断片的な情報を構造化することで、インシデントの全体像を客観的に把握することができます。AIは情報を整理し、レポート作成の土台となる客観的な事実を抽出するのに役立ちます。"}],"\n",["$","h3",null,{"id":"ステップ2インシデントの時系列を整理する","children":"ステップ2：インシデントの時系列を整理する"}],"\n",["$","p",null,{"children":"次に、インシデント発生前後の出来事を時系列に沿って整理し、インシデントに至るまでの経緯を明確にします。"}],"\n",["$","p",null,{"children":"プロンプト例："}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"ステップ1で整理した情報と以下の追加情報に基づき、インシデント発生前後の出来事を時系列で整理してください。\n\n# 追加情報\n- 午後2時50分：新人看護師Aが田中様のナースコールに対応。排泄介助を行う。\n- 午後2時55分：新人看護師Aが介助を終え、退室。この際、サイドレールを上げ忘れる。\n- 午後3時05分：看護師Bが訪室し、ベッド横で倒れている田中様を発見。\n- 午後3時06分：看護師Bがナースステーションに応援を要請。医師Cに報告。\n- 午後3時10分：医師Cが到着し、診察を開始。\n"}]}],"\n",["$","p",null,{"children":"AIの出力例："}],"\n",["$","blockquote",null,{"children":["\n",["$","h3",null,{"id":"インシデントの時系列","children":"インシデントの時系列"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"時刻"}],["$","th",null,{"style":{"textAlign":"left"},"children":"出来事"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"14:50"}],["$","td",null,{"style":{"textAlign":"left"},"children":"新人看護師Aが患者のナースコールに対応し、排泄介助を実施。"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"14:55"}],["$","td",null,{"style":{"textAlign":"left"},"children":"新人看護師Aが介助を終え退室。サイドレールを上げ忘れる。"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"15:05"}],["$","td",null,{"style":{"textAlign":"left"},"children":"看護師Bが訪室し、患者がベッドから転落しているのを発見。"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"15:06"}],["$","td",null,{"style":{"textAlign":"left"},"children":"看護師Bが応援を要請し、医師Cへ報告。"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"15:10"}],["$","td",null,{"style":{"textAlign":"left"},"children":"医師Cが到着し、患者の診察を開始。"}]]}]]}]]}],"\n"]}],"\n",["$","p",null,{"children":"まとめ："}],"\n",["$","p",null,{"children":"時系列を明確にすることで、インシデントの発生機序や、対応の迅速性を客観的に評価する材料となります。AIを用いることで、複数の情報源からの出来事を正確に時間軸上に配置し、分析の精度を高めることができます。"}],"\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","\n","$L51","\n","$L52","\n","$L53","\n","$L54"]
+2f:["$","hr",null,{}]
+30:["$","h2",null,{"id":"実践編インシデントの分析と評価を行う","children":"実践編：インシデントの分析と評価を行う"}]
+31:["$","p",null,{"children":"この実践編では、AIを活用してインシデントの根本原因を分析し、再発防止策の方向性を探ります。客観的なデータと分析フレームワークを用いることが重要です。"}]
+32:["$","h3",null,{"id":"ステップ1インシデントの直接原因と背景要因を分析する","children":"ステップ1：インシデントの直接原因と背景要因を分析する"}]
+33:["$","p",null,{"children":"インシデントの表面的な原因だけでなく、その背景にある組織的・環境的要因を分析します。ここでは、RCA（根本原因分析）の考え方を応用します。"}]
+34:["$","p",null,{"children":"プロンプト例："}]
+35:["$","pre",null,{"children":["$","code",null,{"children":"あなたは医療安全の専門家です。基本編で作成したインシデント概要と時系列に基づき、この転落インシデントの直接原因と背景要因を分析してください。特に、人的要因、環境・設備要因、管理・組織的要因の観点から考察してください。\n"}]}]
+36:["$","p",null,{"children":"AIの出力例："}]
+37:["$","blockquote",null,{"children":["\n",["$","h3",null,{"id":"インシデントの要因分析","children":"インシデントの要因分析"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"直接原因"}],"\n"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"新人看護師Aが、患者対応後にベッドのサイドレールを上げ忘れたこと。"}],"\n"]}],"\n"]}],"\n",["$","ol",null,{"start":"2","children":["\n",["$","li",null,{"children":"背景要因"}],"\n"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"人的要因"}],"\n",["$","li",null,{"children":"新人看護師Aの経験不足と、確認行動の習慣化が不十分であった可能性。"}],"\n",["$","li",null,{"children":"ナースコール対応という緊急性の高い業務に追われ、注意が散漫になった可能性。"}],"\n",["$","li",null,{"children":"環境・設備要因"}],"\n",["$","li",null,{"children":"当該時間帯の病棟が多忙であり、他のスタッフによるフォローが困難な状況であった可能性。"}],"\n",["$","li",null,{"children":"ベッド周りの環境が、サイドレールの操作を忘れやすい構造になっていた可能性はないか。"}],"\n",["$","li",null,{"children":"管理・組織的要因"}],"\n",["$","li",null,{"children":"新人看護師への教育・指導体制において、サイドレールの確認手順に関する徹底が不足していた可能性。"}],"\n",["$","li",null,{"children":"業務量が多く、ヒューマンエラーを誘発しやすい勤務環境であった可能性。"}],"\n",["$","li",null,{"children":"インシデント発生を未然に防ぐための、多重チェックの仕組みが機能していなかった可能性。"}],"\n"]}],"\n"]}]
+38:["$","p",null,{"children":"まとめ："}]
+39:["$","p",null,{"children":"AIに多角的な視点から要因を分析させることで、個人の責任追及に終始せず、システム全体の問題としてインシデントを捉え直すことができます。これにより、より本質的な再発防止策の立案に繋がります。"}]
+3a:["$","h3",null,{"id":"ステップ2インシデントの重大性を評価する","children":"ステップ2：インシデントの重大性を評価する"}]
+3b:["$","p",null,{"children":"インシデントが患者に与えた影響や、医療プロセスへの影響度を客観的に評価します。これにより、対策の優先順位を決定する際の判断材料とします。"}]
+3c:["$","p",null,{"children":"プロンプト例："}]
+3d:["$","pre",null,{"children":["$","code",null,{"children":"このインシデントの重大性について、以下の評価軸に基づいて評価してください。\n\n# 評価軸\n- 患者への影響（傷害の程度、精神的苦痛など）\n- 医療プロセスへの影響（治療の遅延、追加的な処置の発生など）\n- 組織への影響（信頼の失墜、経済的損失など）\n\n# 追加情報\n- 患者は診察の結果、右大腿骨頸部骨折と診断された。\n- 緊急手術が必要となり、入院期間が延長された。\n"}]}]
+3e:["$","p",null,{"children":"AIの出力例："}]
+3f:["$","blockquote",null,{"children":["\n",["$","h3",null,{"id":"インシデントの重大性評価","children":"インシデントの重大性評価"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"患者への影響: 極めて重大"}],"\n",["$","li",null,{"children":"右大腿骨頸部骨折という重篤な傷害が発生した。"}],"\n",["$","li",null,{"children":"高齢であり、手術・長期臥床による身体機能の低下、合併症のリスクが非常に高い。"}],"\n",["$","li",null,{"children":"認知症の進行や、精神的な苦痛も大きいと推測される。"}],"\n",["$","li",null,{"children":"医療プロセスへの影響: 重大"}],"\n",["$","li",null,{"children":"緊急手術が必要となり、予定外の医療資源（手術室、スタッフ）の投入が発生した。"}],"\n",["$","li",null,{"children":"入院期間の延長により、病床管理計画に影響が出た。"}],"\n",["$","li",null,{"children":"組織への影響: 中程度"}],"\n",["$","li",null,{"children":"患者・家族からの信頼を損なう可能性がある。"}],"\n",["$","li",null,{"children":"医療過誤として訴訟に発展するリスクも否定できない。"}],"\n"]}],"\n"]}]
+40:["$","p",null,{"children":"まとめ："}]
+41:["$","p",null,{"children":"AIを用いてインシデントの重大性を客観的に評価することで、感情的な判断を排し、組織として取り組むべき課題の優先順位を明確にすることができます。"}]
+42:["$","hr",null,{}]
+43:["$","h2",null,{"id":"応用編再発防止策の立案と共有","children":"応用編：再発防止策の立案と共有"}]
+44:["$","p",null,{"children":"この応用編では、AIと共に具体的な再発防止策を立案し、それを組織全体で共有・徹底するための方法を探ります。"}]
+45:["$","h3",null,{"id":"ステップ1具体的な再発防止策を立案する","children":"ステップ1：具体的な再発防止策を立案する"}]
+46:["$","p",null,{"children":"分析した根本原因に基づき、具体的かつ実行可能な再発防止策を複数提案させます。「いつ、誰が、何を、どのように」行うのかを明確にすることが重要です。"}]
+47:["$","p",null,{"children":"プロンプト例："}]
+48:["$","pre",null,{"children":["$","code",null,{"children":"実践編での分析と評価に基づき、このインシデントの再発を防止するための具体的な対策を、短期的な対策と中長期的な対策に分けて立案してください。対策は、具体的で実行可能なものにしてください。\n"}]}]
+49:["$","p",null,{"children":"AIの出力例："}]
+4a:["$","blockquote",null,{"children":["\n",["$","h3",null,{"id":"再発防止策の提案","children":"再発防止策の提案"}],"\n",["$","p",null,{"children":"A. 短期的な対策（即時実施）"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"指差し確認の徹底: 全看護スタッフに対し、患者対応後の退室時に「サイドレールよし！」と指差し声出し確認を義務付ける。（実施者：全看護スタッフ、期限：即日）"}],"\n",["$","li",null,{"children":"ヒヤリハット報告の再周知: サイドレールの上げ忘れに関するヒヤリハット事例を全スタッフで共有し、注意喚起を促す。（実施者：看護師長、期限：今週中）"}],"\n"]}],"\n",["$","p",null,{"children":"B. 中長期的な対策"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"新人教育プログラムの見直し: 新人看護師の教育プログラムに、サイドレール確認を含む安全手順のシミュレーション研修を導入する。（実施者：教育委員会、期限：3ヶ月以内）"}],"\n",["$","li",null,{"children":"ダブルチェック体制の導入: 特にハイリスク患者（認知症、せん妄など）に対しては、2名体制での最終確認をルール化する。（実施者：看護部、期限：1ヶ月以内）"}],"\n",["$","li",null,{"children":"センサーマットの導入検討: 離床センサーマットの導入を検討し、転落リスクの高い患者への物理的な安全対策を強化する。（実施者：医療安全管理室、機器選定委員会、期限：6ヶ月以内）"}],"\n"]}],"\n"]}]
+4b:["$","p",null,{"children":"まとめ："}]
+4c:["$","p",null,{"children":"AIに複数の選択肢を提案させることで、多角的な視点から最適な再発防止策を検討することができます。対策の具体性と実行可能性を高めることが、形骸化を防ぐ鍵となります。"}]
+4d:["$","h3",null,{"id":"ステップ2インシデントレポートの最終化と共有","children":"ステップ2：インシデントレポートの最終化と共有"}]
+4e:["$","p",null,{"children":"最後に、これまでのステップで作成した内容を統合し、公式なインシデントレポートとして完成させます。AIに最終的な推敲を依頼し、客観的で分かりやすい文章に仕上げます。"}]
+4f:["$","p",null,{"children":"プロンプト例："}]
+50:["$","pre",null,{"children":["$","code",null,{"children":"これまでの内容（インシデント概要、時系列、要因分析、重大性評価、再発防止策）をすべて統合し、院内向けの公式なインシデントレポートとして清書してください。客観的かつ専門的なトーンで、事実と分析、対策が明確に伝わるように構成してください。\n"}]}]
+51:["$","p",null,{"children":"AIの出力例："}]
+52:["$","blockquote",null,{"children":["\n",["$","p",null,{"children":"インシデントレポート"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"発生日時: 2023年10月26日 午後3時頃"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"発生場所: 第3病棟 305号室"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"関係者: 患者（80歳男性）、新人看護師A、看護師B"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"インシデント概要\n患者がベッドから転落し、右大腿骨頸部骨折を受傷した。新人看護師Aが患者対応後にサイドレールを上げ忘れたことが直接の原因である。"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"経緯\n（時系列データを記載）"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"要因分析"}],"\n"]}],"\n"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"直接原因: サイドレールの確認不足。"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"背景要因: 新人看護師の経験不足、多忙な業務環境による注意散漫、確認行動の習慣化不足、新人教育体制の課題、ダブルチェック体制の不備が複合的に関与したと考えられる。"}],"\n"]}],"\n"]}],"\n",["$","ol",null,{"start":"7","children":["\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"重大性評価\n患者に重篤な傷害（右大腿骨頸部骨折）を及ぼし、緊急手術と入院期間の延長を要したことから、極めて重大なインシデントと評価する。"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"再発防止策"}],"\n"]}],"\n"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"短期的対策: 指差し声出し確認の徹底、ヒヤリハット事例の共有。"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"中長期的対策: 新人教育プログラムの見直し、ハイリスク患者へのダブルチェック体制導入、離床センサーマットの導入検討。"}],"\n"]}],"\n"]}],"\n",["$","ol",null,{"start":"9","children":["\n",["$","li",null,{"children":"特記事項\n本事例を教訓とし、組織全体で安全文化の再醸成に取り組む必要がある。"}],"\n"]}],"\n"]}]
+53:["$","p",null,{"children":"まとめ："}]
+54:["$","p",null,{"children":"AIによる最終的な推敲を経ることで、感情的な表現や主観的な憶測を排除し、事実に基づいた客観的で質の高いレポートを完成させることができます。完成したレポートは、院内の安全管理委員会や関連部署で共有し、組織的な学習と改善に繋げることが重要です。"}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+55:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"インシデントレポート作成支援 | Hoshizu"}],["$","meta","1",{"name":"description","content":"正確で建設的なインシデントレポートの作成"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/knowledge/incident-report-creation"}],["$","meta","4",{"property":"og:title","content":"インシデントレポート作成支援"}],["$","meta","5",{"property":"og:description","content":"正確で建設的なインシデントレポートの作成"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2026-02-14"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","11",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","12",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","13",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico"}],["$","link","15",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L55","16",{}]]

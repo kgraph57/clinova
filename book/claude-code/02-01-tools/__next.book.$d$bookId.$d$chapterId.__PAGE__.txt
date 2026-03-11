@@ -1,0 +1,245 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+31:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+32:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+33:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+34:"$Sreact.suspense"
+36:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T1f76,
+Claude Codeの能力は「ツール」によって定義される。ツールを理解することは、Claude Codeの可能性と限界を理解することだ。
+
+---
+
+## ツールとは何か
+
+Claude Codeが「ファイルを読む」「コマンドを実行する」といった操作を行うとき、内部ではツールと呼ばれる機能を呼び出している。
+
+人間に例えるなら、ツールは「手足」に相当する。脳（AI）がどれだけ優秀でも、手足がなければ物理的な作業はできない。Claude Codeのツールは、AIの思考を現実世界の操作に変換するインターフェースである。
+
+---
+
+## ファイル操作系ツール
+
+### Read — ファイルを読む
+
+最も基本的なツール。ファイルの内容を読み取る。
+
+対応形式:
+- テキストファイル（.ts, .tsx, .py, .md, .json, .yaml 等）
+- 画像ファイル（.png, .jpg 等）— Claude Codeはマルチモーダルであり、画像の内容を理解できる
+- PDFファイル — ページ範囲の指定が可能
+- Jupyter Notebook（.ipynb）— セルと出力を統合して読み取る
+
+```
+> このファイルの100行目から150行目を見せて
+```
+
+`offset` と `limit` パラメータで、大きなファイルの一部だけを読み取ることもできる。
+
+### Write — ファイルを作成する
+
+新規ファイルの作成、または既存ファイルの完全書き換えに使う。
+
+```
+> src/utils/helpers.ts を新規作成して
+```
+
+<Callout type="warning" title="Write vs Edit">
+既存ファイルの一部を変更したい場合は、WriteではなくEditを使う。Writeはファイル全体を置き換えるため、意図しない変更が起きるリスクがある。Claude Codeはこの使い分けを自動的に行うが、指示を出す際にも意識しておくとよい。
+</Callout>
+
+### Edit — ファイルを編集する
+
+既存ファイルの特定箇所を差分ベースで編集する。Claude Codeの最も頻繁に使われるツールの一つ。
+
+仕組み: 変更したい文字列（`old_string`）を指定し、新しい文字列（`new_string`）に置き換える。ファイル全体を書き換えるのではなく、該当箇所だけを精密に編集する。
+
+```
+> この関数の戻り値の型を number から { value: number; unit: string } に変更して
+```
+
+`replace_all` オプションを使えば、ファイル内のすべての一致箇所を一括で変更できる。変数名のリネームなどに便利。
+
+---
+
+## 検索系ツール
+
+### Grep — コード内容を検索する
+
+ripgrepベースの高速コンテンツ検索。正規表現が使える。
+
+出力モード:
+- `files_with_matches`: マッチしたファイルパスの一覧（デフォルト）
+- `content`: マッチした行の内容（前後のコンテキスト付き）
+- `count`: マッチ数のカウント
+
+```
+> プロジェクト内で "useState" を使っている箇所をすべて探して
+```
+
+ファイルタイプや`glob`パターンでフィルタリングも可能。TypeScriptファイルだけを検索する、特定のディレクトリだけを検索する、といった絞り込みができる。
+
+### Glob — ファイルを探す
+
+ファイル名のパターンマッチ。`/*.tsx` のようなglob記法でファイルを検索する。
+
+```
+> src/components/ 配下のすべての .tsx ファイルを探して
+```
+
+`find` コマンドに相当するが、Globツールの方が高速で、結果は更新日時順にソートされる。
+
+<Callout type="info" title="Grep vs Glob の使い分け">
+Grep: ファイルの「中身」を検索したいとき（例：特定の関数が使われている場所）。Glob: ファイルの「名前」で探したいとき（例：特定のディレクトリのTypeScriptファイル一覧）。
+</Callout>
+
+---
+
+## コマンド実行系ツール
+
+### Bash — シェルコマンドを実行する
+
+任意のシェルコマンドを実行する。最も強力で、最も注意が必要なツール。
+
+主な用途:
+- テスト実行（`npm test`、`pytest`）
+- ビルド（`npm run build`）
+- Git操作（`git status`、`git commit`）
+- パッケージインストール（`npm install`）
+- その他のCLIツール
+
+制約:
+- デフォルトで2分のタイムアウト（最大10分まで延長可能）
+- バックグラウンド実行が可能（`run_in_background` パラメータ）
+- インタラクティブなコマンド（ユーザー入力が必要なもの）は非対応
+
+```
+> テストを実行して
+```
+
+Claude Codeは可能な限りBashよりも専用ツールを優先する。ファイルの読み取りには `cat` ではなく `Read` を、検索には `grep` ではなく `Grep` を使う。これにより、ユーザーがAIの行動を把握しやすくなる。
+
+---
+
+## Web系ツール
+
+### WebFetch — Webページを取得する
+
+URLを指定してWebページのコンテンツを取得し、分析する。HTMLはMarkdownに変換される。
+
+```
+> この API ドキュメント（URL）の内容を確認して
+```
+
+制約:
+- 認証が必要なサイトには対応していない（Google Docs、Jira等）
+- HTTPSにアップグレードされる
+- 15分のキャッシュが有効
+
+### WebSearch — Web検索する
+
+最新情報をWeb検索で取得する。ドキュメントの最新版やライブラリの更新情報を調べるのに便利。
+
+```
+> Next.js 16の最新のApp Routerの使い方を調べて
+```
+
+---
+
+## 高度なツール
+
+### Agent — サブエージェントを起動する
+
+複雑なタスクを別のエージェントに委任する。メインの会話のコンテキストを保護しつつ、専門的な調査や分析を行える。
+
+エージェントの種類:
+- `Explore`: コードベースの探索に特化（読み取り専用）
+- `Plan`: 実装計画の設計（読み取り専用）
+- `general-purpose`: 全ツールが使える汎用エージェント
+- その他、カスタムエージェント
+
+```
+> セキュリティレビューをsecurity-reviewerエージェントに依頼して
+```
+
+### TodoWrite — タスクを管理する
+
+複雑な作業の進捗を管理する構造化タスクリスト。マルチステップの作業でClaude Codeが「今どこにいるか」を追跡する。
+
+---
+
+## ツールの優先順位
+
+Claude Codeは以下の原則でツールを選択する。
+
+1. 専用ツールを優先: `cat` より `Read`、`grep` より `Grep`、`sed` より `Edit`
+2. 最小権限の原則: ファイルの一部編集には `Write`（全書き換え）ではなく `Edit`（部分編集）
+3. 並列実行: 独立した複数のツール呼び出しは同時に行う
+
+この設計により、AIの行動が人間にとって予測可能で検証しやすいものになっている。
+
+---
+
+## 医療文脈での活用例
+
+| ユースケース | 使用ツール | 説明 |
+|-------------|-----------|------|
+| 患者データCSVの分析 | Read → Bash | CSVを読み取り、Pythonスクリプトで統計分析 |
+| 論文PDFのレビュー | Read | PDFを読み取り、内容を要約・批評 |
+| 医療計算アプリの開発 | Write + Edit + Bash | TypeScript関数の作成、テスト実行 |
+| 既存コードのリファクタリング | Grep → Edit | 問題箇所の検索、差分ベースの修正 |
+| APIドキュメントの確認 | WebFetch | 外部APIの仕様を取得して分析 |
+
+<KeyTakeaway>
+- Claude Codeのツールは「ファイル操作」「検索」「コマンド実行」「Web」「高度」の5カテゴリに分類される
+- Readはテキスト・画像・PDF・Jupyterに対応し、Editは差分ベースの精密な編集を行う
+- GrepはコンテンツClaude Codeは専用ツールをBashよりも優先し、AIの行動を予測可能にしている
+- 各ツールはパーミッションシステムで制御され、人間の承認なしに実行されることはない
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"02-01-tools"}],["$","$L4",null,{"items":[{"id":"ツールとは何か","text":"ツールとは何か","level":2},{"id":"ファイル操作系ツール","text":"ファイル操作系ツール","level":2},{"id":"read-ファイルを読む","text":"Read — ファイルを読む","level":3},{"id":"write-ファイルを作成する","text":"Write — ファイルを作成する","level":3},{"id":"edit-ファイルを編集する","text":"Edit — ファイルを編集する","level":3},{"id":"検索系ツール","text":"検索系ツール","level":2},{"id":"grep-コード内容を検索する","text":"Grep — コード内容を検索する","level":3},{"id":"glob-ファイルを探す","text":"Glob — ファイルを探す","level":3},{"id":"コマンド実行系ツール","text":"コマンド実行系ツール","level":2},{"id":"bash-シェルコマンドを実行する","text":"Bash — シェルコマンドを実行する","level":3},{"id":"web系ツール","text":"Web系ツール","level":2},{"id":"webfetch-webページを取得する","text":"WebFetch — Webページを取得する","level":3},{"id":"websearch-web検索する","text":"WebSearch — Web検索する","level":3},{"id":"高度なツール","text":"高度なツール","level":2},{"id":"agent-サブエージェントを起動する","text":"Agent — サブエージェントを起動する","level":3},{"id":"todowrite-タスクを管理する","text":"TodoWrite — タスクを管理する","level":3},{"id":"ツールの優先順位","text":"ツールの優先順位","level":2},{"id":"医療文脈での活用例","text":"医療文脈での活用例","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"02-01-tools","title":"ツールシステム — Claude Codeの「手足」を理解する","description":"Read、Write、Edit、Bash、Grep、Glob。Claude Codeが使える全ツールの役割と使い分けを扱う。","partId":"part02","partTitle":"コア概念","order":4,"partOrder":2,"estimatedMinutes":20,"estimatedReadTime":9,"free":true,"status":"published","tags":["ツール","Read","Write","Edit","Bash","Grep","Glob"],"content":"$6"},"totalChapters":26}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"ツールとは何か","text":"ツールとは何か","level":2},{"id":"ファイル操作系ツール","text":"ファイル操作系ツール","level":2},{"id":"read-ファイルを読む","text":"Read — ファイルを読む","level":3},{"id":"write-ファイルを作成する","text":"Write — ファイルを作成する","level":3},{"id":"edit-ファイルを編集する","text":"Edit — ファイルを編集する","level":3},{"id":"検索系ツール","text":"検索系ツール","level":2},{"id":"grep-コード内容を検索する","text":"Grep — コード内容を検索する","level":3},{"id":"glob-ファイルを探す","text":"Glob — ファイルを探す","level":3},{"id":"コマンド実行系ツール","text":"コマンド実行系ツール","level":2},{"id":"bash-シェルコマンドを実行する","text":"Bash — シェルコマンドを実行する","level":3},{"id":"web系ツール","text":"Web系ツール","level":2},{"id":"webfetch-webページを取得する","text":"WebFetch — Webページを取得する","level":3},{"id":"websearch-web検索する","text":"WebSearch — Web検索する","level":3},{"id":"高度なツール","text":"高度なツール","level":2},{"id":"agent-サブエージェントを起動する","text":"Agent — サブエージェントを起動する","level":3},{"id":"todowrite-タスクを管理する","text":"TodoWrite — タスクを管理する","level":3},{"id":"ツールの優先順位","text":"ツールの優先順位","level":2},{"id":"医療文脈での活用例","text":"医療文脈での活用例","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"Claude Codeの能力は「ツール」によって定義される。ツールを理解することは、Claude Codeの可能性と限界を理解することだ。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"ツールとは何か","children":"ツールとは何か"}],"\n",["$","p",null,{"children":"Claude Codeが「ファイルを読む」「コマンドを実行する」といった操作を行うとき、内部ではツールと呼ばれる機能を呼び出している。"}],"\n",["$","p",null,{"children":"人間に例えるなら、ツールは「手足」に相当する。脳（AI）がどれだけ優秀でも、手足がなければ物理的な作業はできない。Claude Codeのツールは、AIの思考を現実世界の操作に変換するインターフェースである。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"ファイル操作系ツール","children":"ファイル操作系ツール"}],"\n",["$","h3",null,{"id":"read-ファイルを読む","children":"Read — ファイルを読む"}],"\n",["$","p",null,{"children":"最も基本的なツール。ファイルの内容を読み取る。"}],"\n",["$","p",null,{"children":"対応形式:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"テキストファイル（.ts, .tsx, .py, .md, .json, .yaml 等）"}],"\n",["$","li",null,{"children":"画像ファイル（.png, .jpg 等）— Claude Codeはマルチモーダルであり、画像の内容を理解できる"}],"\n",["$","li",null,{"children":"PDFファイル — ページ範囲の指定が可能"}],"\n",["$","li",null,{"children":"Jupyter Notebook（.ipynb）— セルと出力を統合して読み取る"}],"\n"]}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> このファイルの100行目から150行目を見せて\n"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"offset"}]," と ",["$","code",null,{"children":"limit"}]," パラメータで、大きなファイルの一部だけを読み取ることもできる。"]}],"\n",["$","h3",null,{"id":"write-ファイルを作成する","children":"Write — ファイルを作成する"}],"\n",["$","p",null,{"children":"新規ファイルの作成、または既存ファイルの完全書き換えに使う。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> src/utils/helpers.ts を新規作成して\n"}]}],"\n",["$","$Le",null,{"type":"warning","title":"Write vs Edit","children":["$","p",null,{"children":"既存ファイルの一部を変更したい場合は、WriteではなくEditを使う。Writeはファイル全体を置き換えるため、意図しない変更が起きるリスクがある。Claude Codeはこの使い分けを自動的に行うが、指示を出す際にも意識しておくとよい。"}]}],"\n",["$","h3",null,{"id":"edit-ファイルを編集する","children":"Edit — ファイルを編集する"}],"\n",["$","p",null,{"children":"既存ファイルの特定箇所を差分ベースで編集する。Claude Codeの最も頻繁に使われるツールの一つ。"}],"\n",["$","p",null,{"children":["仕組み: 変更したい文字列（",["$","code",null,{"children":"old_string"}],"）を指定し、新しい文字列（",["$","code",null,{"children":"new_string"}],"）に置き換える。ファイル全体を書き換えるのではなく、該当箇所だけを精密に編集する。"]}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> この関数の戻り値の型を number から { value: number; unit: string } に変更して\n"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"replace_all"}]," オプションを使えば、ファイル内のすべての一致箇所を一括で変更できる。変数名のリネームなどに便利。"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"検索系ツール","children":"検索系ツール"}],"\n",["$","h3",null,{"id":"grep-コード内容を検索する","children":"Grep — コード内容を検索する"}],"\n",["$","p",null,{"children":"ripgrepベースの高速コンテンツ検索。正規表現が使える。"}],"\n",["$","p",null,{"children":"出力モード:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"files_with_matches"}],": マッチしたファイルパスの一覧（デフォルト）"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"content"}],": マッチした行の内容（前後のコンテキスト付き）"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"count"}],": マッチ数のカウント"]}],"\n"]}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> プロジェクト内で \"useState\" を使っている箇所をすべて探して\n"}]}],"\n",["$","p",null,{"children":["ファイルタイプや",["$","code",null,{"children":"glob"}],"パターンでフィルタリングも可能。TypeScriptファイルだけを検索する、特定のディレクトリだけを検索する、といった絞り込みができる。"]}],"\n",["$","h3",null,{"id":"glob-ファイルを探す","children":"Glob — ファイルを探す"}],"\n",["$","p",null,{"children":["ファイル名のパターンマッチ。",["$","code",null,{"children":"/*.tsx"}]," のようなglob記法でファイルを検索する。"]}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> src/components/ 配下のすべての .tsx ファイルを探して\n"}]}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"find"}]," コマンドに相当するが、Globツールの方が高速で、結果は更新日時順にソートされる。"]}],"\n",["$","$Le",null,{"type":"info","title":"Grep vs Glob の使い分け","children":["$","p",null,{"children":"Grep: ファイルの「中身」を検索したいとき（例：特定の関数が使われている場所）。Glob: ファイルの「名前」で探したいとき（例：特定のディレクトリのTypeScriptファイル一覧）。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"コマンド実行系ツール","children":"コマンド実行系ツール"}],"\n",["$","h3",null,{"id":"bash-シェルコマンドを実行する","children":"Bash — シェルコマンドを実行する"}],"\n",["$","p",null,{"children":"任意のシェルコマンドを実行する。最も強力で、最も注意が必要なツール。"}],"\n",["$","p",null,{"children":"主な用途:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["テスト実行（",["$","code",null,{"children":"npm test"}],"、",["$","code",null,{"children":"pytest"}],"）"]}],"\n",["$","li",null,{"children":["ビルド（",["$","code",null,{"children":"npm run build"}],"）"]}],"\n",["$","li",null,{"children":["Git操作（",["$","code",null,{"children":"git status"}],"、",["$","code",null,{"children":"git commit"}],"）"]}],"\n",["$","li",null,{"children":["パッケージインストール（","$Lf","）"]}],"\n","$L10","\n"]}],"\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30"]}]
+9:["$","$L31",null,{"bookId":"claude-code","chapterSlug":"02-01-tools"}]
+a:["$","$L32",null,{"bookId":"claude-code","prev":{"slug":"01-03-first-conversation","title":"最初の対話 — Claude Codeと話してみよう","order":3},"next":{"slug":"02-02-claude-md","title":"CLAUDE.md — プロジェクトの「取扱説明書」","order":5}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L33",null,{"children":["$","$34",null,{"name":"Next.MetadataOutlet","children":"$@35"}]}]
+f:["$","code",null,{"children":"npm install"}]
+10:["$","li",null,{"children":"その他のCLIツール"}]
+11:["$","p",null,{"children":"制約:"}]
+12:["$","ul",null,{"children":["\n",["$","li",null,{"children":"デフォルトで2分のタイムアウト（最大10分まで延長可能）"}],"\n",["$","li",null,{"children":["バックグラウンド実行が可能（",["$","code",null,{"children":"run_in_background"}]," パラメータ）"]}],"\n",["$","li",null,{"children":"インタラクティブなコマンド（ユーザー入力が必要なもの）は非対応"}],"\n"]}]
+13:["$","pre",null,{"children":["$","code",null,{"children":"> テストを実行して\n"}]}]
+14:["$","p",null,{"children":["Claude Codeは可能な限りBashよりも専用ツールを優先する。ファイルの読み取りには ",["$","code",null,{"children":"cat"}]," ではなく ",["$","code",null,{"children":"Read"}]," を、検索には ",["$","code",null,{"children":"grep"}]," ではなく ",["$","code",null,{"children":"Grep"}]," を使う。これにより、ユーザーがAIの行動を把握しやすくなる。"]}]
+15:["$","hr",null,{}]
+16:["$","h2",null,{"id":"web系ツール","children":"Web系ツール"}]
+17:["$","h3",null,{"id":"webfetch-webページを取得する","children":"WebFetch — Webページを取得する"}]
+18:["$","p",null,{"children":"URLを指定してWebページのコンテンツを取得し、分析する。HTMLはMarkdownに変換される。"}]
+19:["$","pre",null,{"children":["$","code",null,{"children":"> この API ドキュメント（URL）の内容を確認して\n"}]}]
+1a:["$","p",null,{"children":"制約:"}]
+1b:["$","ul",null,{"children":["\n",["$","li",null,{"children":"認証が必要なサイトには対応していない（Google Docs、Jira等）"}],"\n",["$","li",null,{"children":"HTTPSにアップグレードされる"}],"\n",["$","li",null,{"children":"15分のキャッシュが有効"}],"\n"]}]
+1c:["$","h3",null,{"id":"websearch-web検索する","children":"WebSearch — Web検索する"}]
+1d:["$","p",null,{"children":"最新情報をWeb検索で取得する。ドキュメントの最新版やライブラリの更新情報を調べるのに便利。"}]
+1e:["$","pre",null,{"children":["$","code",null,{"children":"> Next.js 16の最新のApp Routerの使い方を調べて\n"}]}]
+1f:["$","hr",null,{}]
+20:["$","h2",null,{"id":"高度なツール","children":"高度なツール"}]
+21:["$","h3",null,{"id":"agent-サブエージェントを起動する","children":"Agent — サブエージェントを起動する"}]
+22:["$","p",null,{"children":"複雑なタスクを別のエージェントに委任する。メインの会話のコンテキストを保護しつつ、専門的な調査や分析を行える。"}]
+23:["$","p",null,{"children":"エージェントの種類:"}]
+24:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"Explore"}],": コードベースの探索に特化（読み取り専用）"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"Plan"}],": 実装計画の設計（読み取り専用）"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"general-purpose"}],": 全ツールが使える汎用エージェント"]}],"\n",["$","li",null,{"children":"その他、カスタムエージェント"}],"\n"]}]
+25:["$","pre",null,{"children":["$","code",null,{"children":"> セキュリティレビューをsecurity-reviewerエージェントに依頼して\n"}]}]
+26:["$","h3",null,{"id":"todowrite-タスクを管理する","children":"TodoWrite — タスクを管理する"}]
+27:["$","p",null,{"children":"複雑な作業の進捗を管理する構造化タスクリスト。マルチステップの作業でClaude Codeが「今どこにいるか」を追跡する。"}]
+28:["$","hr",null,{}]
+29:["$","h2",null,{"id":"ツールの優先順位","children":"ツールの優先順位"}]
+2a:["$","p",null,{"children":"Claude Codeは以下の原則でツールを選択する。"}]
+2b:["$","ol",null,{"children":["\n",["$","li",null,{"children":["専用ツールを優先: ",["$","code",null,{"children":"cat"}]," より ",["$","code",null,{"children":"Read"}],"、",["$","code",null,{"children":"grep"}]," より ",["$","code",null,{"children":"Grep"}],"、",["$","code",null,{"children":"sed"}]," より ",["$","code",null,{"children":"Edit"}]]}],"\n",["$","li",null,{"children":["最小権限の原則: ファイルの一部編集には ",["$","code",null,{"children":"Write"}],"（全書き換え）ではなく ",["$","code",null,{"children":"Edit"}],"（部分編集）"]}],"\n",["$","li",null,{"children":"並列実行: 独立した複数のツール呼び出しは同時に行う"}],"\n"]}]
+2c:["$","p",null,{"children":"この設計により、AIの行動が人間にとって予測可能で検証しやすいものになっている。"}]
+2d:["$","hr",null,{}]
+2e:["$","h2",null,{"id":"医療文脈での活用例","children":"医療文脈での活用例"}]
+2f:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"ユースケース"}],["$","th",null,{"children":"使用ツール"}],["$","th",null,{"children":"説明"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"患者データCSVの分析"}],["$","td",null,{"children":"Read → Bash"}],["$","td",null,{"children":"CSVを読み取り、Pythonスクリプトで統計分析"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"論文PDFのレビュー"}],["$","td",null,{"children":"Read"}],["$","td",null,{"children":"PDFを読み取り、内容を要約・批評"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"医療計算アプリの開発"}],["$","td",null,{"children":"Write + Edit + Bash"}],["$","td",null,{"children":"TypeScript関数の作成、テスト実行"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"既存コードのリファクタリング"}],["$","td",null,{"children":"Grep → Edit"}],["$","td",null,{"children":"問題箇所の検索、差分ベースの修正"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"APIドキュメントの確認"}],["$","td",null,{"children":"WebFetch"}],["$","td",null,{"children":"外部APIの仕様を取得して分析"}]]}]]}]]}]
+30:["$","$L36",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"Claude Codeのツールは「ファイル操作」「検索」「コマンド実行」「Web」「高度」の5カテゴリに分類される"}],"\n",["$","li",null,{"children":"Readはテキスト・画像・PDF・Jupyterに対応し、Editは差分ベースの精密な編集を行う"}],"\n",["$","li",null,{"children":"GrepはコンテンツClaude Codeは専用ツールをBashよりも優先し、AIの行動を予測可能にしている"}],"\n",["$","li",null,{"children":"各ツールはパーミッションシステムで制御され、人間の承認なしに実行されることはない"}],"\n"]}]}]
+35:null

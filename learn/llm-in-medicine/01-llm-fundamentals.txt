@@ -1,0 +1,169 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","learn","llm-in-medicine","01-llm-fundamentals"],"q":"","i":false,"f":[[["",{"children":["learn",{"children":[["courseId","llm-in-medicine","d"],{"children":[["lessonSlug","01-llm-fundamentals","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+1e:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+1f:T20e2,
+## はじめに
+
+人工知能（AI）の進化は目覚ましく、特に大規模言語モデル（Large Language Models, LLMs）は社会に大きな変革をもたらしています。本コース「医療におけるLLM実践」の最初のレッスンでは、LLMの基本的な仕組みと、それが医療分野にどのようなインパクトを与えるのかを概観します。
+
+## 大規模言語モデル（LLM）とは何か
+
+LLMは、膨大な量のテキストデータを学習することで、人間のように自然な文章を生成したり、質問に答えたり、文章を要約したりする能力を持つAIモデルです。その根幹をなす技術が、2017年にGoogleから発表された**Transformer**モデルです。
+
+### Transformerと自己注意機構
+
+Transformerモデルの最大の特徴は、**自己注意機構（Self-Attention Mechanism）**にあります。これは、文章中の単語間の関連性を学習し、文脈を深く理解するための仕組みです。
+
+例えば、「彼は患者に薬を処方した」という文において、「彼」が「医師」を指し、「薬」が「患者」に関連していることを、モデルは自己注意機構によって理解します。
+
+<Callout type="insight" title="なぜTransformerが革命的だったのか">
+Transformerは、再帰的な処理を必要とせず、並列計算を可能にすることで、従来モデルよりも高速かつ大規模なデータでの学習を実現しました。これにより、数十億から数兆パラメータを持つLLMの構築が可能になったのです。
+</Callout>
+
+### 主要なLLMの比較
+
+現在、世界中の企業がLLMの開発にしのぎを削っています。代表的なモデルには以下のようなものがあります。
+
+| モデル名 | 開発元 | 特徴 |
+|:---|:---|:---|
+| GPTシリーズ | OpenAI | 高い汎用性と対話能力。GPT-4はマルチモーダル入力に対応。 |
+| Claudeシリーズ | Anthropic | 安全性と倫理性を重視した設計。長文の読解・生成に強み。 |
+| Geminiシリーズ | Google | テキスト、画像、音声などを統合的に扱うマルチモーダル性能。 |
+| Llamaシリーズ | Meta | オープンソースとして公開されており、研究開発が活発。 |
+
+<Callout type="comparison" title="モデル選択のポイント">
+医療分野での活用を考える際、データプライバシーを重視するならオンプレミス運用可能なLlamaシリーズ、長文の診療録処理ならClaudeシリーズ、マルチモーダル（画像＋テキスト）な活用ならGeminiシリーズなど、目的に応じた使い分けが重要です。
+</Callout>
+
+## 医療におけるLLMの歴史と進化
+
+医療分野における言語モデルの応用は、LLMの登場以前から試みられてきました。初期のモデルは電子カルテからの情報抽出など限定的なタスクに用いられていましたが、LLMの登場により応用範囲は飛躍的に拡大しました。
+
+近年では、医療専門のLLMも開発されています。GoogleのMed-PaLM 2は、米国の医師国家試験（USMLE）で「エキスパート」レベルの成績を収めるなど、高い専門性を示しています。このような医療特化型モデルは、一般的なLLMよりも高い精度と信頼性が期待されています。
+
+## 医療分野へのインパクト
+
+LLMは、医療の様々な側面に革命をもたらす可能性を秘めています。
+
+### 診断と治療
+
+LLMは、患者の症状や検査結果を分析し、鑑別診断のリストを提示したり、最新の診療ガイドラインに基づいた治療選択肢を提案したりすることで、医師の意思決定を支援します。診断の精度向上や、より個別化された治療（Personalized Medicine）の実現が期待されます。
+
+### 研究開発
+
+膨大な医学論文や臨床試験データをLLMが解析することで、新たな治療法の発見や創薬プロセスの加速に貢献します。研究者はLLMとの対話を通じて、仮説の検証や新たな研究アイデアの着想を得られるようになります。
+
+### 医療教育
+
+医学生や研修医は、LLMを対話型の学習ツールとして活用できます。複雑な症例について質問したり、模擬患者との対話シミュレーションを行ったりすることで、臨床能力を効果的に向上させることが可能です。
+
+### 管理業務の効率化
+
+診療録の作成、紹介状の執筆、保険請求業務など、医療現場における煩雑な事務作業をLLMが自動化・効率化することで、医療従事者はより多くの時間を患者ケアに充てることができます。
+
+<Callout type="warning" title="技術への過信は禁物">
+LLMは強力なツールですが、医療の最終判断は常に医療従事者が行います。LLMの回答には誤り（ハルシネーション）が含まれる可能性があり、技術的な理解だけでなく倫理的な課題への配慮も不可欠です。
+</Callout>
+
+## まとめ
+
+本レッスンでは、LLMの基本的な概念と、医療分野にもたらす広範なインパクトについて学びました。LLMは単なる文章生成ツールではなく、医療の質、効率、アクセス性を向上させるための強力なパートナーとなり得ます。
+
+次のレッスンでは、LLMを効果的に使いこなすための鍵となるプロンプトエンジニアリングについて、医療現場の具体例を交えながら詳しく学んでいきます。
+
+### 参考文献
+
+- Vaswani, A., Shazeer, N., Parmar, N., et al. (2017). Attention is all you need. *Advances in Neural Information Processing Systems*, 5998-6008.
+- Singhal, K., Azizi, S., Tu, T., et al. (2023). Large language models encode clinical knowledge. *Nature*, 620(7972), 172-180.
+
+---
+
+<Quiz courseId="llm-in-medicine" lessonSlug="llm-fundamentals" questions={[
+  {
+    question: "Transformerモデルの最大の特徴である自己注意機構（Self-Attention Mechanism）の主な役割は何ですか？",
+    options: [
+      "画像データを効率的に処理する",
+      "文章中の単語間の関連性を学習し文脈を理解する",
+      "音声データをテキストに変換する",
+      "データベースから情報を検索する"
+    ],
+    correctIndex: 1,
+    explanation: "自己注意機構は、文章中の各単語が他のすべての単語とどの程度関連しているかを計算し、文脈を深く理解するための仕組みです。これにより、Transformerは長い文章でも文脈を正確に把握できます。"
+  },
+  {
+    question: "Med-PaLM 2について正しい記述はどれですか？",
+    options: [
+      "Metaが開発したオープンソースの医療AIモデル",
+      "テキストのみを扱う汎用的な言語モデル",
+      "米国医師国家試験でエキスパートレベルの成績を収めた医療特化型LLM",
+      "患者の画像診断のみを行う専用AIシステム"
+    ],
+    correctIndex: 2,
+    explanation: "Med-PaLM 2はGoogleが開発した医療特化型LLMで、USMLE（米国医師国家試験）でエキスパートレベルの成績を達成し、高い医学知識を持つことが示されています。"
+  },
+  {
+    question: "LLMが医療の管理業務効率化にもたらす最も直接的な効果は何ですか？",
+    options: [
+      "患者数を増やせる",
+      "医療費を患者に転嫁できる",
+      "事務作業の自動化により医療従事者が患者ケアに集中できる",
+      "医療従事者の数を削減できる"
+    ],
+    correctIndex: 2,
+    explanation: "LLMによる診療録作成や紹介状執筆などの自動化は、医療従事者を煩雑な事務作業から解放し、患者ケアという本来の業務に集中できる時間を生み出します。"
+  }
+]} />
+
+<ActionItem>
+自分の専門領域で、LLMが最もインパクトを与えそうなタスクを3つリストアップしてみましょう。それぞれについて「現在の課題」と「LLMによる改善の可能性」を簡潔に整理し、同僚と共有してみてください。
+</ActionItem>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"llm-in-medicine","lessonSlug":"01-llm-fundamentals"}],["$","$L1d",null,{"items":[{"id":"はじめに","text":"はじめに","level":2},{"id":"大規模言語モデルllmとは何か","text":"大規模言語モデル（LLM）とは何か","level":2},{"id":"transformerと自己注意機構","text":"Transformerと自己注意機構","level":3},{"id":"主要なllmの比較","text":"主要なLLMの比較","level":3},{"id":"医療におけるllmの歴史と進化","text":"医療におけるLLMの歴史と進化","level":2},{"id":"医療分野へのインパクト","text":"医療分野へのインパクト","level":2},{"id":"診断と治療","text":"診断と治療","level":3},{"id":"研究開発","text":"研究開発","level":3},{"id":"医療教育","text":"医療教育","level":3},{"id":"管理業務の効率化","text":"管理業務の効率化","level":3},{"id":"まとめ","text":"まとめ","level":2},{"id":"参考文献","text":"参考文献","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"course":{"courseId":"llm-in-medicine","title":"医療におけるLLM実践 - 大規模言語モデルの医療応用","description":"LLMの医療応用、臨床現場での活用法、診断支援、文書作成支援、研究支援における実践的な知識を学びます","category":"clinical-ai","level":"intermediate","lessonCount":10,"estimatedTotalMinutes":180,"order":11,"free":false,"learningOutcomes":["LLMの医療応用の現状と可能性を説明できる","臨床現場でLLMを安全に活用する方法を理解できる","LLMを使った診断支援・文書作成の実践方法を習得できる","LLM活用のリスクと限界を正しく認識できる"],"prerequisites":["ai-basics","generative-ai-basics"],"targetAudience":["LLMを臨床で活用したい医療従事者","医療AIの実践的な活用法を知りたい方","生成AIの基礎を学んだ方"],"skills":["LLM活用","医療文書作成","臨床意思決定支援"],"coverImage":"$undefined"},"lesson":{"courseId":"llm-in-medicine","slug":"01-llm-fundamentals","title":"LLMの基礎と医療へのインパクト","description":"大規模言語モデルの仕組みと、医療分野に与える変革の可能性を理解する","order":1,"estimatedMinutes":18,"estimatedReadTime":11,"content":"$1f"}}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+26:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+27:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose","children":"$L25"}]
+22:["$","$L26",null,{"courseId":"llm-in-medicine","lessonSlug":"01-llm-fundamentals"}]
+23:["$","$L27",null,{"courseId":"llm-in-medicine","prev":null,"next":{"slug":"02-prompt-engineering","title":"医療におけるプロンプトエンジニアリング","order":2}}]
+28:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Callout"]
+25:[["$","h2",null,{"id":"はじめに","children":"はじめに"}],"\n",["$","p",null,{"children":"人工知能（AI）の進化は目覚ましく、特に大規模言語モデル（Large Language Models, LLMs）は社会に大きな変革をもたらしています。本コース「医療におけるLLM実践」の最初のレッスンでは、LLMの基本的な仕組みと、それが医療分野にどのようなインパクトを与えるのかを概観します。"}],"\n",["$","h2",null,{"id":"大規模言語モデルllmとは何か","children":"大規模言語モデル（LLM）とは何か"}],"\n",["$","p",null,{"children":["LLMは、膨大な量のテキストデータを学習することで、人間のように自然な文章を生成したり、質問に答えたり、文章を要約したりする能力を持つAIモデルです。その根幹をなす技術が、2017年にGoogleから発表された",["$","strong",null,{"children":"Transformer"}],"モデルです。"]}],"\n",["$","h3",null,{"id":"transformerと自己注意機構","children":"Transformerと自己注意機構"}],"\n",["$","p",null,{"children":"Transformerモデルの最大の特徴は、**自己注意機構（Self-Attention Mechanism）**にあります。これは、文章中の単語間の関連性を学習し、文脈を深く理解するための仕組みです。"}],"\n",["$","p",null,{"children":"例えば、「彼は患者に薬を処方した」という文において、「彼」が「医師」を指し、「薬」が「患者」に関連していることを、モデルは自己注意機構によって理解します。"}],"\n",["$","$L28",null,{"type":"insight","title":"なぜTransformerが革命的だったのか","children":["$","p",null,{"children":"Transformerは、再帰的な処理を必要とせず、並列計算を可能にすることで、従来モデルよりも高速かつ大規模なデータでの学習を実現しました。これにより、数十億から数兆パラメータを持つLLMの構築が可能になったのです。"}]}],"\n",["$","h3",null,{"id":"主要なllmの比較","children":"主要なLLMの比較"}],"\n",["$","p",null,{"children":"現在、世界中の企業がLLMの開発にしのぎを削っています。代表的なモデルには以下のようなものがあります。"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"モデル名"}],["$","th",null,{"style":{"textAlign":"left"},"children":"開発元"}],["$","th",null,{"style":{"textAlign":"left"},"children":"特徴"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"GPTシリーズ"}],["$","td",null,{"style":{"textAlign":"left"},"children":"OpenAI"}],["$","td",null,{"style":{"textAlign":"left"},"children":"高い汎用性と対話能力。GPT-4はマルチモーダル入力に対応。"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"Claudeシリーズ"}],["$","td",null,{"style":{"textAlign":"left"},"children":"Anthropic"}],["$","td",null,{"style":{"textAlign":"left"},"children":"安全性と倫理性を重視した設計。長文の読解・生成に強み。"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"Geminiシリーズ"}],["$","td",null,{"style":{"textAlign":"left"},"children":"Google"}],["$","td",null,{"style":{"textAlign":"left"},"children":"テキスト、画像、音声などを統合的に扱うマルチモーダル性能。"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"Llamaシリーズ"}],["$","td",null,{"style":{"textAlign":"left"},"children":"Meta"}],["$","td",null,{"style":{"textAlign":"left"},"children":"オープンソースとして公開されており、研究開発が活発。"}]]}]]}]]}],"\n",["$","$L28",null,{"type":"comparison","title":"モデル選択のポイント","children":["$","p",null,{"children":"医療分野での活用を考える際、データプライバシーを重視するならオンプレミス運用可能なLlamaシリーズ、長文の診療録処理ならClaudeシリーズ、マルチモーダル（画像＋テキスト）な活用ならGeminiシリーズなど、目的に応じた使い分けが重要です。"}]}],"\n",["$","h2",null,{"id":"医療におけるllmの歴史と進化","children":"医療におけるLLMの歴史と進化"}],"\n",["$","p",null,{"children":"医療分野における言語モデルの応用は、LLMの登場以前から試みられてきました。初期のモデルは電子カルテからの情報抽出など限定的なタスクに用いられていましたが、LLMの登場により応用範囲は飛躍的に拡大しました。"}],"\n",["$","p",null,{"children":"近年では、医療専門のLLMも開発されています。GoogleのMed-PaLM 2は、米国の医師国家試験（USMLE）で「エキスパート」レベルの成績を収めるなど、高い専門性を示しています。このような医療特化型モデルは、一般的なLLMよりも高い精度と信頼性が期待されています。"}],"\n",["$","h2",null,{"id":"医療分野へのインパクト","children":"医療分野へのインパクト"}],"\n",["$","p",null,{"children":"LLMは、医療の様々な側面に革命をもたらす可能性を秘めています。"}],"\n",["$","h3",null,{"id":"診断と治療","children":"診断と治療"}],"\n",["$","p",null,{"children":"LLMは、患者の症状や検査結果を分析し、鑑別診断のリストを提示したり、最新の診療ガイドラインに基づいた治療選択肢を提案したりすることで、医師の意思決定を支援します。診断の精度向上や、より個別化された治療（Personalized Medicine）の実現が期待されます。"}],"\n",["$","h3",null,{"id":"研究開発","children":"研究開発"}],"\n",["$","p",null,{"children":"膨大な医学論文や臨床試験データをLLMが解析することで、新たな治療法の発見や創薬プロセスの加速に貢献します。研究者はLLMとの対話を通じて、仮説の検証や新たな研究アイデアの着想を得られるようになります。"}],"\n",["$","h3",null,{"id":"医療教育","children":"医療教育"}],"\n",["$","p",null,{"children":"医学生や研修医は、LLMを対話型の学習ツールとして活用できます。複雑な症例について質問したり、模擬患者との対話シミュレーションを行ったりすることで、臨床能力を効果的に向上させることが可能です。"}],"\n",["$","h3",null,{"id":"管理業務の効率化","children":"管理業務の効率化"}],"\n",["$","p",null,{"children":"診療録の作成、紹介状の執筆、保険請求業務など、医療現場における煩雑な事務作業をLLMが自動化・効率化することで、医療従事者はより多くの時間を患者ケアに充てることができます。"}],"\n",["$","$L28",null,{"type":"warning","title":"技術への過信は禁物","children":["$","p",null,{"children":"LLMは強力なツールですが、医療の最終判断は常に医療従事者が行います。LLMの回答には誤り（ハルシネーション）が含まれる可能性があり、技術的な理解だけでなく倫理的な課題への配慮も不可欠です。"}]}],"\n",["$","h2",null,{"id":"まとめ","children":"まとめ"}],"\n",["$","p",null,{"children":"本レッスンでは、LLMの基本的な概念と、医療分野にもたらす広範なインパクトについて学びました。LLMは単なる文章生成ツールではなく、医療の質、効率、アクセス性を向上させるための強力なパートナーとなり得ます。"}],"\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e"]
+2f:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+30:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+29:["$","p",null,{"children":"次のレッスンでは、LLMを効果的に使いこなすための鍵となるプロンプトエンジニアリングについて、医療現場の具体例を交えながら詳しく学んでいきます。"}]
+2a:["$","h3",null,{"id":"参考文献","children":"参考文献"}]
+2b:["$","ul",null,{"children":["\n",["$","li",null,{"children":["Vaswani, A., Shazeer, N., Parmar, N., et al. (2017). Attention is all you need. ",["$","em",null,{"children":"Advances in Neural Information Processing Systems"}],", 5998-6008."]}],"\n",["$","li",null,{"children":["Singhal, K., Azizi, S., Tu, T., et al. (2023). Large language models encode clinical knowledge. ",["$","em",null,{"children":"Nature"}],", 620(7972), 172-180."]}],"\n"]}]
+2c:["$","hr",null,{}]
+2d:["$","$L2f",null,{"courseId":"llm-in-medicine","lessonSlug":"llm-fundamentals"}]
+2e:["$","$L30",null,{"children":["$","p",null,{"children":"自分の専門領域で、LLMが最もインパクトを与えそうなタスクを3つリストアップしてみましょう。それぞれについて「現在の課題」と「LLMによる改善の可能性」を簡潔に整理し、同僚と共有してみてください。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+31:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"LLMの基礎と医療へのインパクト | Hoshizu"}],["$","meta","1",{"name":"description","content":"大規模言語モデルの仕組みと、医療分野に与える変革の可能性を理解する"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/learn/llm-in-medicine/01-llm-fundamentals"}],["$","meta","4",{"property":"og:title","content":"LLMの基礎と医療へのインパクト - 医療におけるLLM実践 - 大規模言語モデルの医療応用"}],["$","meta","5",{"property":"og:description","content":"大規模言語モデルの仕組みと、医療分野に与える変革の可能性を理解する"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L31","15",{}]]

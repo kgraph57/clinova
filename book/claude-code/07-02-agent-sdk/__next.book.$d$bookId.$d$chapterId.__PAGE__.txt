@@ -1,0 +1,178 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+13:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+14:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+15:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+18:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T1133,
+Claude Codeは「使う」ものだが、Agent SDKは「作る」ためのものだ。自分だけのAIエージェントを構築し、特定のワークフローを自動化する。
+
+---
+
+## Agent SDKとは
+
+Claude Agent SDKは、カスタムAIエージェントをプログラマティックに構築するためのフレームワークだ。
+
+Claude Codeとの違い:
+
+| | Claude Code | Agent SDK |
+|---|------------|-----------|
+| 用途 | 対話的な開発支援 | カスタムエージェント構築 |
+| 操作 | ターミナルで対話 | コードで定義 |
+| ツール | 組み込みツール群 | 自分で定義 |
+| デプロイ | ローカル実行 | サーバー/CI/CD統合 |
+
+---
+
+## 基本構成
+
+### エージェントの定義
+
+```typescript
+import { Agent } from 'claude_agent_sdk'
+
+const medicalReviewer = new Agent({
+  name: 'medical-reviewer',
+  model: 'claude-sonnet-4-6',
+  instructions: `
+    あなたは医療コンテンツレビューの専門家です。
+    提供されたコンテンツの医学的正確性を評価し、
+    エビデンスレベルを判定してください。
+  `,
+  tools: [checkPubMed, evaluateEvidence, generateReport]
+})
+```
+
+### ツールの定義
+
+```typescript
+const checkPubMed = {
+  name: 'check_pubmed',
+  description: 'PubMedで関連文献を検索する',
+  parameters: {
+    type: 'object',
+    properties: {
+      query: { type: 'string', description: '検索クエリ' },
+      max_results: { type: 'number', default: 5 }
+    }
+  },
+  execute: async ({ query, max_results }) => {
+    // PubMed API呼び出し
+    const results = await searchPubMed(query, max_results)
+    return JSON.stringify(results)
+  }
+}
+```
+
+---
+
+## ガードレール
+
+エージェントの安全性を担保する仕組み。
+
+### 入力ガードレール
+
+```typescript
+const inputGuard = {
+  name: 'phi-detector',
+  description: '個人健康情報の検出',
+  check: async (input) => {
+    if (containsPHI(input)) {
+      return {
+        block: true,
+        reason: '個人健康情報が含まれています'
+      }
+    }
+    return { block: false }
+  }
+}
+```
+
+### 出力ガードレール
+
+```typescript
+const outputGuard = {
+  name: 'medical-disclaimer',
+  description: '医療免責事項の付加',
+  transform: async (output) => {
+    return output + '\n\n※ この情報は参考目的です。診断・治療は医師にご相談ください。'
+  }
+}
+```
+
+---
+
+## マルチエージェント構成
+
+複数のエージェントを連携させるパターン。
+
+### パイプライン型
+
+```
+文献検索エージェント → 批判的吟味エージェント → レポート生成エージェント
+```
+
+各エージェントが前段の出力を入力として受け取り、処理を進める。
+
+### オーケストレーター型
+
+```
+        ┌→ 文献検索エージェント ──┐
+管理者 ─┤                        ├→ 管理者 → レポート
+        └→ 統計解析エージェント ──┘
+```
+
+管理者エージェントがタスクを分配し、結果を統合する。
+
+---
+
+## ユースケース
+
+### 1. 自動コードレビューBot
+
+PRが作成されるたびに、Agent SDKで構築したレビューBotが自動的にコードをチェック。GitHub Webhookと連携。
+
+### 2. 医療文書プロセッサー
+
+紹介状や退院サマリーのドラフトを、テンプレートと患者情報から自動生成。
+
+### 3. 研究アシスタント
+
+文献検索→批判的吟味→エビデンステーブル作成を自動化するパイプライン。
+
+---
+
+## デプロイ
+
+Agent SDKで構築したエージェントは、様々な環境にデプロイできる。
+
+- ローカル: 開発・テスト用
+- サーバー: REST API として常時稼働
+- CI/CD: GitHub Actions 等から呼び出し
+- Webhook: イベント駆動で自動実行
+
+<KeyTakeaway>
+- Agent SDKはカスタムAIエージェントをプログラマティックに構築するフレームワーク
+- ツール定義でエージェントの能力を拡張し、ガードレールで安全性を担保する
+- パイプライン型・オーケストレーター型のマルチエージェント構成が可能
+- コードレビューBot、医療文書プロセッサー、研究アシスタント等のユースケース
+- ローカル、サーバー、CI/CD、Webhook等にデプロイ可能
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"07-02-agent-sdk"}],["$","$L4",null,{"items":[{"id":"agent-sdkとは","text":"Agent SDKとは","level":2},{"id":"基本構成","text":"基本構成","level":2},{"id":"エージェントの定義","text":"エージェントの定義","level":3},{"id":"ツールの定義","text":"ツールの定義","level":3},{"id":"ガードレール","text":"ガードレール","level":2},{"id":"入力ガードレール","text":"入力ガードレール","level":3},{"id":"出力ガードレール","text":"出力ガードレール","level":3},{"id":"マルチエージェント構成","text":"マルチエージェント構成","level":2},{"id":"パイプライン型","text":"パイプライン型","level":3},{"id":"オーケストレーター型","text":"オーケストレーター型","level":3},{"id":"ユースケース","text":"ユースケース","level":2},{"id":"1-自動コードレビューbot","text":"1. 自動コードレビューBot","level":3},{"id":"2-医療文書プロセッサー","text":"2. 医療文書プロセッサー","level":3},{"id":"3-研究アシスタント","text":"3. 研究アシスタント","level":3},{"id":"デプロイ","text":"デプロイ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"07-02-agent-sdk","title":"Agent SDK — カスタムエージェントを構築する","description":"Claude Agent SDKを使って、独自のAIエージェントを構築する。ツール定義、ガードレール、マルチエージェント構成の実装方法を扱う。","partId":"part07","partTitle":"エコシステム","order":24,"partOrder":7,"estimatedMinutes":25,"estimatedReadTime":4,"free":true,"status":"published","tags":["Agent SDK","エージェント","構築","ツール","カスタム"],"content":"$6"},"totalChapters":26}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"agent-sdkとは","text":"Agent SDKとは","level":2},{"id":"基本構成","text":"基本構成","level":2},{"id":"エージェントの定義","text":"エージェントの定義","level":3},{"id":"ツールの定義","text":"ツールの定義","level":3},{"id":"ガードレール","text":"ガードレール","level":2},{"id":"入力ガードレール","text":"入力ガードレール","level":3},{"id":"出力ガードレール","text":"出力ガードレール","level":3},{"id":"マルチエージェント構成","text":"マルチエージェント構成","level":2},{"id":"パイプライン型","text":"パイプライン型","level":3},{"id":"オーケストレーター型","text":"オーケストレーター型","level":3},{"id":"ユースケース","text":"ユースケース","level":2},{"id":"1-自動コードレビューbot","text":"1. 自動コードレビューBot","level":3},{"id":"2-医療文書プロセッサー","text":"2. 医療文書プロセッサー","level":3},{"id":"3-研究アシスタント","text":"3. 研究アシスタント","level":3},{"id":"デプロイ","text":"デプロイ","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"Claude Codeは「使う」ものだが、Agent SDKは「作る」ためのものだ。自分だけのAIエージェントを構築し、特定のワークフローを自動化する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"agent-sdkとは","children":"Agent SDKとは"}],"\n",["$","p",null,{"children":"Claude Agent SDKは、カスタムAIエージェントをプログラマティックに構築するためのフレームワークだ。"}],"\n",["$","p",null,{"children":"Claude Codeとの違い:"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{}],["$","th",null,{"children":"Claude Code"}],["$","th",null,{"children":"Agent SDK"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"用途"}],["$","td",null,{"children":"対話的な開発支援"}],["$","td",null,{"children":"カスタムエージェント構築"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"操作"}],["$","td",null,{"children":"ターミナルで対話"}],["$","td",null,{"children":"コードで定義"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"ツール"}],["$","td",null,{"children":"組み込みツール群"}],["$","td",null,{"children":"自分で定義"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"デプロイ"}],["$","td",null,{"children":"ローカル実行"}],["$","td",null,{"children":"サーバー/CI/CD統合"}]]}]]}]]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"基本構成","children":"基本構成"}],"\n",["$","h3",null,{"id":"エージェントの定義","children":"エージェントの定義"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-typescript","children":"import { Agent } from 'claude_agent_sdk'\n\nconst medicalReviewer = new Agent({\n  name: 'medical-reviewer',\n  model: 'claude-sonnet-4-6',\n  instructions: `\n    あなたは医療コンテンツレビューの専門家です。\n    提供されたコンテンツの医学的正確性を評価し、\n    エビデンスレベルを判定してください。\n  `,\n  tools: [checkPubMed, evaluateEvidence, generateReport]\n})\n"}]}],"\n",["$","h3",null,{"id":"ツールの定義","children":"ツールの定義"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-typescript","children":"const checkPubMed = {\n  name: 'check_pubmed',\n  description: 'PubMedで関連文献を検索する',\n  parameters: {\n    type: 'object',\n    properties: {\n      query: { type: 'string', description: '検索クエリ' },\n      max_results: { type: 'number', default: 5 }\n    }\n  },\n  execute: async ({ query, max_results }) => {\n    // PubMed API呼び出し\n    const results = await searchPubMed(query, max_results)\n    return JSON.stringify(results)\n  }\n}\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"ガードレール","children":"ガードレール"}],"\n",["$","p",null,{"children":"エージェントの安全性を担保する仕組み。"}],"\n",["$","h3",null,{"id":"入力ガードレール","children":"入力ガードレール"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-typescript","children":"const inputGuard = {\n  name: 'phi-detector',\n  description: '個人健康情報の検出',\n  check: async (input) => {\n    if (containsPHI(input)) {\n      return {\n        block: true,\n        reason: '個人健康情報が含まれています'\n      }\n    }\n    return { block: false }\n  }\n}\n"}]}],"\n",["$","h3",null,{"id":"出力ガードレール","children":"出力ガードレール"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-typescript","children":"const outputGuard = {\n  name: 'medical-disclaimer',\n  description: '医療免責事項の付加',\n  transform: async (output) => {\n    return output + '\\n\\n※ この情報は参考目的です。診断・治療は医師にご相談ください。'\n  }\n}\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"マルチエージェント構成","children":"マルチエージェント構成"}],"\n",["$","p",null,{"children":"複数のエージェントを連携させるパターン。"}],"\n",["$","h3",null,{"id":"パイプライン型","children":"パイプライン型"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"文献検索エージェント → 批判的吟味エージェント → レポート生成エージェント\n"}]}],"\n",["$","p",null,{"children":"各エージェントが前段の出力を入力として受け取り、処理を進める。"}],"\n",["$","h3",null,{"id":"オーケストレーター型","children":"オーケストレーター型"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"        ┌→ 文献検索エージェント ──┐\n管理者 ─┤                        ├→ 管理者 → レポート\n        └→ 統計解析エージェント ──┘\n"}]}],"\n",["$","p",null,{"children":"管理者エージェントがタスクを分配し、結果を統合する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"ユースケース","children":"ユースケース"}],"\n",["$","h3",null,{"id":"1-自動コードレビューbot","children":"1. 自動コードレビューBot"}],"\n",["$","p",null,{"children":"PRが作成されるたびに、Agent SDKで構築したレビューBotが自動的にコードをチェック。GitHub Webhookと連携。"}],"\n",["$","h3",null,{"id":"2-医療文書プロセッサー","children":"2. 医療文書プロセッサー"}],"\n",["$","p",null,{"children":"紹介状や退院サマリーのドラフトを、テンプレートと患者情報から自動生成。"}],"\n",["$","h3",null,{"id":"3-研究アシスタント","children":"3. 研究アシスタント"}],"\n",["$","p",null,{"children":"文献検索→批判的吟味→エビデンステーブル作成を自動化するパイプライン。"}],"\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12"]}]
+9:["$","$L13",null,{"bookId":"claude-code","chapterSlug":"07-02-agent-sdk"}]
+a:["$","$L14",null,{"bookId":"claude-code","prev":{"slug":"07-01-claude-api","title":"Claude API — プログラマティックなAIアクセス","order":23},"next":{"slug":"07-03-community","title":"コミュニティとリソース — 学び続けるために","order":25}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
+e:["$","hr",null,{}]
+f:["$","h2",null,{"id":"デプロイ","children":"デプロイ"}]
+10:["$","p",null,{"children":"Agent SDKで構築したエージェントは、様々な環境にデプロイできる。"}]
+11:["$","ul",null,{"children":["\n",["$","li",null,{"children":"ローカル: 開発・テスト用"}],"\n",["$","li",null,{"children":"サーバー: REST API として常時稼働"}],"\n",["$","li",null,{"children":"CI/CD: GitHub Actions 等から呼び出し"}],"\n",["$","li",null,{"children":"Webhook: イベント駆動で自動実行"}],"\n"]}]
+12:["$","$L18",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"Agent SDKはカスタムAIエージェントをプログラマティックに構築するフレームワーク"}],"\n",["$","li",null,{"children":"ツール定義でエージェントの能力を拡張し、ガードレールで安全性を担保する"}],"\n",["$","li",null,{"children":"パイプライン型・オーケストレーター型のマルチエージェント構成が可能"}],"\n",["$","li",null,{"children":"コードレビューBot、医療文書プロセッサー、研究アシスタント等のユースケース"}],"\n",["$","li",null,{"children":"ローカル、サーバー、CI/CD、Webhook等にデプロイ可能"}],"\n"]}]}]
+17:null

@@ -1,0 +1,177 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+f:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+10:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+11:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+14:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T134c,
+Claude Codeへの指示は、チャットAIへの質問とは根本的に異なる。「何を作るか」だけでなく「どう作るか」「何を変えないか」まで伝える技術が、プロンプトエンジニアリングだ。
+
+---
+
+## コーディングプロンプトの4原則
+
+### 1. 具体性 — What, Where, How
+
+```
+# 曖昧な指示
+> ログイン機能を作って
+
+# 具体的な指示
+> Firebase Authenticationを使ったメールログイン機能を作って。
+> - コンポーネント: src/components/auth/LoginForm.tsx
+> - 認証コンテキスト: src/contexts/AuthContext.tsx
+> - ログイン後のリダイレクト先: /dashboard
+> - エラー表示: Toastで表示（sonnerを使用）
+```
+
+場所（Where）を指定することで、既存のプロジェクト構造と整合性のある実装が得られる。
+
+### 2. 文脈提供 — 既存パターンの参照
+
+```
+> src/components/Header.tsx と同じスタイルでFooterコンポーネントを作って
+```
+
+```
+> lib/content.ts の getArticleBySlug と同じパターンで、
+> getBookBySlug 関数を lib/book.ts に作って
+```
+
+既存のコードを参照させることで、プロジェクト全体の一貫性を保てる。
+
+### 3. 制約条件 — やらないことを明示する
+
+```
+> データベーススキーマは変更しないで
+> 既存のAPIのレスポンス形式は維持して
+> テストカバレッジを下げないで
+```
+
+AIは「良かれと思って」余計な変更をすることがある。やらないことを明示することで、スコープを制御する。
+
+### 4. 段階的指示 — 大きなタスクを分割する
+
+```
+# 一度にすべてを頼まない
+> まずデータモデルの型定義を作って
+（レビュー後）
+> 次にCRUD操作のAPIルートを作って
+（レビュー後）
+> 最後にフロントエンドのフォームを作って
+```
+
+各段階でレビューを挟むことで、方向修正のコストを最小化する。
+
+---
+
+## タスク別プロンプトパターン
+
+### バグ修正
+
+```
+> 以下のバグを修正して:
+> - 症状: ログイン後にダッシュボードが表示されない
+> - 再現手順: メールでログイン → 画面が白いまま
+> - 期待動作: /dashboard にリダイレクトされる
+> - 関連ファイル: src/app/login/page.tsx, src/contexts/AuthContext.tsx
+```
+
+### 新機能追加
+
+```
+> 以下の仕様で新機能を追加して:
+> - 機能: 記事のブックマーク
+> - 保存先: localStorage
+> - UI: 各記事にハートアイコン、クリックでトグル
+> - 一覧: /bookmarks ページで一覧表示
+> - 既存パターン: src/components/article/ の他のコンポーネントを参考に
+```
+
+### リファクタリング
+
+```
+> src/lib/content.ts をリファクタリングして:
+> - 800行を超えているので分割したい
+> - 記事関連 → lib/articles.ts
+> - コース関連 → lib/courses.ts
+> - 共通ユーティリティ → lib/content-utils.ts
+> - 外部からのimportパスも更新して
+> - テストが引き続き通ることを確認して
+```
+
+---
+
+## CLAUDE.mdを「永続的プロンプト」として活用する
+
+CLAUDE.mdに書いたルールは、すべての対話で自動的に適用される。
+
+つまり、CLAUDE.mdは「毎回言わなくても適用されるプロンプト」である。
+
+```markdown
+# CLAUDE.md
+
+## Coding Standards
+- Always use immutable patterns (never mutate objects)
+- Functions must be under 50 lines
+- Always validate user input with Zod
+- No console.log in production code
+```
+
+これを一度書いておけば、毎回「イミュータブルにして」「Zodでバリデーションして」と言う必要がなくなる。
+
+---
+
+## アンチパターン
+
+### 曖昧すぎる指示
+
+```
+# NG
+> アプリをもっとよくして
+> パフォーマンスを改善して
+> セキュリティを強化して
+```
+
+「もっとよく」の定義がないと、AIは「もっともらしい」が的外れな改善を行う。
+
+### 過度に複雑な一括指示
+
+```
+# NG
+> ログイン機能と、ダッシュボードと、設定画面と、
+> プロフィール編集と、通知機能を全部作って
+```
+
+一度に多くを頼むと、どれも中途半端になる。
+
+### 「よしなにやって」
+
+```
+# NG
+> いい感じにリファクタリングして
+```
+
+「いい感じ」の基準が不明。具体的な改善目標を示す。
+
+<KeyTakeaway>
+- コーディングプロンプトの4原則: 具体性、文脈提供、制約条件、段階的指示
+- 既存のコードパターンを参照させることでプロジェクトの一貫性を保つ
+- 「やらないこと」を明示してスコープを制御する
+- CLAUDE.mdを永続的プロンプトとして活用し、繰り返しの指示を省略する
+- 大きなタスクは分割し、各段階でレビューを挟む
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"05-01-prompt-engineering"}],["$","$L4",null,{"items":[{"id":"コーディングプロンプトの4原則","text":"コーディングプロンプトの4原則","level":2},{"id":"1-具体性-what-where-how","text":"1. 具体性 — What, Where, How","level":3},{"id":"2-文脈提供-既存パターンの参照","text":"2. 文脈提供 — 既存パターンの参照","level":3},{"id":"3-制約条件-やらないことを明示する","text":"3. 制約条件 — やらないことを明示する","level":3},{"id":"4-段階的指示-大きなタスクを分割する","text":"4. 段階的指示 — 大きなタスクを分割する","level":3},{"id":"タスク別プロンプトパターン","text":"タスク別プロンプトパターン","level":2},{"id":"バグ修正","text":"バグ修正","level":3},{"id":"新機能追加","text":"新機能追加","level":3},{"id":"リファクタリング","text":"リファクタリング","level":3},{"id":"claudemdを永続的プロンプトとして活用する","text":"CLAUDE.mdを「永続的プロンプト」として活用する","level":2},{"id":"アンチパターン","text":"アンチパターン","level":2},{"id":"曖昧すぎる指示","text":"曖昧すぎる指示","level":3},{"id":"過度に複雑な一括指示","text":"過度に複雑な一括指示","level":3},{"id":"よしなにやって","text":"「よしなにやって」","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"05-01-prompt-engineering","title":"プロンプトエンジニアリング — コーディング特化の指示術","description":"Claude Codeに的確な指示を出すためのプロンプト設計。具体性、文脈提供、制約条件の伝え方。コーディングに特化したテクニックを扱う。","partId":"part05","partTitle":"高度なテクニック","order":16,"partOrder":5,"estimatedMinutes":25,"estimatedReadTime":5,"free":true,"status":"published","tags":["プロンプト","指示","コーディング","テクニック","設計"],"content":"$6"},"totalChapters":26}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"コーディングプロンプトの4原則","text":"コーディングプロンプトの4原則","level":2},{"id":"1-具体性-what-where-how","text":"1. 具体性 — What, Where, How","level":3},{"id":"2-文脈提供-既存パターンの参照","text":"2. 文脈提供 — 既存パターンの参照","level":3},{"id":"3-制約条件-やらないことを明示する","text":"3. 制約条件 — やらないことを明示する","level":3},{"id":"4-段階的指示-大きなタスクを分割する","text":"4. 段階的指示 — 大きなタスクを分割する","level":3},{"id":"タスク別プロンプトパターン","text":"タスク別プロンプトパターン","level":2},{"id":"バグ修正","text":"バグ修正","level":3},{"id":"新機能追加","text":"新機能追加","level":3},{"id":"リファクタリング","text":"リファクタリング","level":3},{"id":"claudemdを永続的プロンプトとして活用する","text":"CLAUDE.mdを「永続的プロンプト」として活用する","level":2},{"id":"アンチパターン","text":"アンチパターン","level":2},{"id":"曖昧すぎる指示","text":"曖昧すぎる指示","level":3},{"id":"過度に複雑な一括指示","text":"過度に複雑な一括指示","level":3},{"id":"よしなにやって","text":"「よしなにやって」","level":3}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"Claude Codeへの指示は、チャットAIへの質問とは根本的に異なる。「何を作るか」だけでなく「どう作るか」「何を変えないか」まで伝える技術が、プロンプトエンジニアリングだ。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"コーディングプロンプトの4原則","children":"コーディングプロンプトの4原則"}],"\n",["$","h3",null,{"id":"1-具体性-what-where-how","children":"1. 具体性 — What, Where, How"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# 曖昧な指示\n> ログイン機能を作って\n\n# 具体的な指示\n> Firebase Authenticationを使ったメールログイン機能を作って。\n> - コンポーネント: src/components/auth/LoginForm.tsx\n> - 認証コンテキスト: src/contexts/AuthContext.tsx\n> - ログイン後のリダイレクト先: /dashboard\n> - エラー表示: Toastで表示（sonnerを使用）\n"}]}],"\n",["$","p",null,{"children":"場所（Where）を指定することで、既存のプロジェクト構造と整合性のある実装が得られる。"}],"\n",["$","h3",null,{"id":"2-文脈提供-既存パターンの参照","children":"2. 文脈提供 — 既存パターンの参照"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> src/components/Header.tsx と同じスタイルでFooterコンポーネントを作って\n"}]}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> lib/content.ts の getArticleBySlug と同じパターンで、\n> getBookBySlug 関数を lib/book.ts に作って\n"}]}],"\n",["$","p",null,{"children":"既存のコードを参照させることで、プロジェクト全体の一貫性を保てる。"}],"\n",["$","h3",null,{"id":"3-制約条件-やらないことを明示する","children":"3. 制約条件 — やらないことを明示する"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> データベーススキーマは変更しないで\n> 既存のAPIのレスポンス形式は維持して\n> テストカバレッジを下げないで\n"}]}],"\n",["$","p",null,{"children":"AIは「良かれと思って」余計な変更をすることがある。やらないことを明示することで、スコープを制御する。"}],"\n",["$","h3",null,{"id":"4-段階的指示-大きなタスクを分割する","children":"4. 段階的指示 — 大きなタスクを分割する"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# 一度にすべてを頼まない\n> まずデータモデルの型定義を作って\n（レビュー後）\n> 次にCRUD操作のAPIルートを作って\n（レビュー後）\n> 最後にフロントエンドのフォームを作って\n"}]}],"\n",["$","p",null,{"children":"各段階でレビューを挟むことで、方向修正のコストを最小化する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"タスク別プロンプトパターン","children":"タスク別プロンプトパターン"}],"\n",["$","h3",null,{"id":"バグ修正","children":"バグ修正"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> 以下のバグを修正して:\n> - 症状: ログイン後にダッシュボードが表示されない\n> - 再現手順: メールでログイン → 画面が白いまま\n> - 期待動作: /dashboard にリダイレクトされる\n> - 関連ファイル: src/app/login/page.tsx, src/contexts/AuthContext.tsx\n"}]}],"\n",["$","h3",null,{"id":"新機能追加","children":"新機能追加"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> 以下の仕様で新機能を追加して:\n> - 機能: 記事のブックマーク\n> - 保存先: localStorage\n> - UI: 各記事にハートアイコン、クリックでトグル\n> - 一覧: /bookmarks ページで一覧表示\n> - 既存パターン: src/components/article/ の他のコンポーネントを参考に\n"}]}],"\n",["$","h3",null,{"id":"リファクタリング","children":"リファクタリング"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> src/lib/content.ts をリファクタリングして:\n> - 800行を超えているので分割したい\n> - 記事関連 → lib/articles.ts\n> - コース関連 → lib/courses.ts\n> - 共通ユーティリティ → lib/content-utils.ts\n> - 外部からのimportパスも更新して\n> - テストが引き続き通ることを確認して\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"claudemdを永続的プロンプトとして活用する","children":"CLAUDE.mdを「永続的プロンプト」として活用する"}],"\n",["$","p",null,{"children":"CLAUDE.mdに書いたルールは、すべての対話で自動的に適用される。"}],"\n",["$","p",null,{"children":"つまり、CLAUDE.mdは「毎回言わなくても適用されるプロンプト」である。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"# CLAUDE.md\n\n## Coding Standards\n- Always use immutable patterns (never mutate objects)\n- Functions must be under 50 lines\n- Always validate user input with Zod\n- No console.log in production code\n"}]}],"\n",["$","p",null,{"children":"これを一度書いておけば、毎回「イミュータブルにして」「Zodでバリデーションして」と言う必要がなくなる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"アンチパターン","children":"アンチパターン"}],"\n",["$","h3",null,{"id":"曖昧すぎる指示","children":"曖昧すぎる指示"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# NG\n> アプリをもっとよくして\n> パフォーマンスを改善して\n> セキュリティを強化して\n"}]}],"\n",["$","p",null,{"children":"「もっとよく」の定義がないと、AIは「もっともらしい」が的外れな改善を行う。"}],"\n",["$","h3",null,{"id":"過度に複雑な一括指示","children":"過度に複雑な一括指示"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# NG\n> ログイン機能と、ダッシュボードと、設定画面と、\n> プロフィール編集と、通知機能を全部作って\n"}]}],"\n",["$","p",null,{"children":"一度に多くを頼むと、どれも中途半端になる。"}],"\n",["$","h3",null,{"id":"よしなにやって","children":"「よしなにやって」"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# NG\n> いい感じにリファクタリングして\n"}]}],"\n",["$","p",null,{"children":"「いい感じ」の基準が不明。具体的な改善目標を示す。"}],"\n","$Le"]}]
+9:["$","$Lf",null,{"bookId":"claude-code","chapterSlug":"05-01-prompt-engineering"}]
+a:["$","$L10",null,{"bookId":"claude-code","prev":{"slug":"04-04-plan-mode","title":"Plan Mode — 設計してから実装する","order":15},"next":{"slug":"05-02-context-management","title":"コンテキスト管理 — 窓の向こうの知識をつなぐ","order":17}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+e:["$","$L14",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"コーディングプロンプトの4原則: 具体性、文脈提供、制約条件、段階的指示"}],"\n",["$","li",null,{"children":"既存のコードパターンを参照させることでプロジェクトの一貫性を保つ"}],"\n",["$","li",null,{"children":"「やらないこと」を明示してスコープを制御する"}],"\n",["$","li",null,{"children":"CLAUDE.mdを永続的プロンプトとして活用し、繰り返しの指示を省略する"}],"\n",["$","li",null,{"children":"大きなタスクは分割し、各段階でレビューを挟む"}],"\n"]}]}]
+13:null

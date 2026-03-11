@@ -1,0 +1,340 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+4f:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+50:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+51:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+52:"$Sreact.suspense"
+54:I[76354,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"StatHighlight"]
+55:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonCard"]
+56:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+57:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T33ab,
+**1979年に提唱された医療倫理4原則は、AI時代にも有効な羅針盤であり続ける。ただし、その「読み替え」が必要である。**
+
+---
+
+## 医療倫理4原則とは何か
+
+トム・L・ビーチャムとジェームズ・F・チルドレスが1979年の著書 *Principles of Biomedical Ethics* で提唱した4原則は、現代の医療倫理の基盤となっている。
+
+1. **自律尊重（Respect for Autonomy）**：患者の自己決定権を尊重する
+2. **善行（Beneficence）**：患者の利益のために行動する
+3. **無危害（Non-maleficence）**：患者に害を与えない
+4. **正義（Justice）**：医療資源を公正に分配する
+
+この4原則は、1949年のニュルンベルク綱領、1964年のヘルシンキ宣言、1979年のベルモントレポートを経て確立された、人類の痛みの歴史から生まれた知恵である。
+
+<Callout type="info" title="なぜ4原則が今なお有効なのか">
+4原則は特定の倫理学派（功利主義、義務論、徳倫理学など）に依存せず、異なる文化・宗教的背景を持つ人々が共通して受け入れうる「共通の道徳」（common morality）に基づいている。この「原則主義」（principlism）の柔軟性こそが、AI時代にも有効である理由である。
+</Callout>
+
+---
+
+## 第1原則：自律尊重 ― AIは患者の自律を拡張するか、侵害するか
+
+### 従来の読み方
+
+自律尊重の原則は、患者がインフォームドコンセントに基づき、自らの医療について自由に意思決定する権利を保障する。日本では医療法第1条の4第2項が「医師は適切な説明を行い、医療を受ける者の理解を得るよう努めなければならない」と規定している。
+
+### AI時代の新たな課題
+
+**課題1：情報の非対称性の変容**
+
+従来の情報の非対称性は「医師＞患者」であった。AI時代には新たな非対称性が生まれる。
+
+- 医師がAIの判断根拠を理解できない場合（ブラックボックス問題）
+- 患者がAI支援の診断であることを知らされない場合
+- AIの限界や誤りのリスクについて患者に説明されない場合
+
+**課題2：ナッジとAI推奨の境界**
+
+AIの治療推奨は、患者の意思決定に対する「ナッジ」（nudge）として機能しうる。AIが「この治療法を推奨します」と表示した場合、患者はその推奨に引きずられやすい。これは自律的意思決定を損なう可能性がある。
+
+**課題3：デジタルリテラシーの格差**
+
+高齢者やデジタルデバイドの影響を受ける患者は、AI支援の医療について十分に理解できない可能性がある。「AIが判断しました」という説明は、理解を得るための説明とは言えない。
+
+<StepFlow>
+<StepFlowStep number={1} title="AI利用の開示">
+患者に対し、診断・治療の意思決定にAIを利用していることを開示する。
+</StepFlowStep>
+<StepFlowStep number={2} title="AIの限界の説明">
+AIには誤りがありうること、最終判断は医師が行うことを説明する。
+</StepFlowStep>
+<StepFlowStep number={3} title="選択肢の提示">
+AI推奨以外の選択肢も含めて患者に提示し、自律的選択を支援する。
+</StepFlowStep>
+<StepFlowStep number={4} title="理解の確認">
+患者がAI支援の意味と限界を理解しているか確認する（Teach-back法）。
+</StepFlowStep>
+</StepFlow>
+
+---
+
+## 第2原則：善行 ― AIの「善」はどう定義されるか
+
+### 従来の読み方
+
+善行の原則は、医療者が患者の最善の利益のために積極的に行動することを求める。単に害を避けるだけでなく、積極的に利益をもたらす義務である。
+
+### AI時代の新たな課題
+
+**課題1：「最善の利益」の定義問題**
+
+AIが推奨する「最善の治療」は、多くの場合、統計的に最も成功率が高い治療である。しかし、患者にとっての「最善」は、生存率だけで決まるものではない。
+
+- QOL（生活の質）の重視
+- 患者の価値観や人生計画
+- 家族への影響
+- 経済的負担
+
+AIは統計的最適解を出力するが、患者の「物語」（ナラティブ）を理解することはできない。
+
+**課題2：過剰診断（Overdiagnosis）のリスク**
+
+AIの高感度な検出能力は、臨床的に重要でない所見まで拾い上げる可能性がある。甲状腺微小がんのスクリーニングで過剰診断が問題になったように、AIによる過剰検出は患者に不要な検査・治療・不安をもたらしうる。
+
+**課題3：エビデンスの遅延（Evidence Lag）**
+
+AIのトレーニングデータは過去のデータに基づいており、最新のエビデンスが反映されていない可能性がある。2025年に発表された新しい治療ガイドラインが、AIの推奨に反映されるまでにはタイムラグが生じる。
+
+<Callout type="warning" title="善行原則の逆転リスク">
+AIの「善意」は、過剰診断、過剰検査、不要な介入として患者に害をもたらしうる。善行と無危害のバランスは、AI時代にはいっそう慎重な判断を要する。
+</Callout>
+
+---
+
+## 第3原則：無危害 ― AIが「害を与えない」ための条件
+
+### 従来の読み方
+
+無危害の原則（*primum non nocere* ― まず害をなすなかれ）は、医療における最も基本的な原則である。ヒポクラテスの時代から、医療者は患者に害を与えないことを第一に考えてきた。
+
+### AI時代の新たな課題
+
+**課題1：既知のリスクと未知のリスク**
+
+従来の医療行為のリスクは、過去の臨床経験とエビデンスに基づいて予測可能であった。しかしAIのリスクには、未知の失敗モード（failure mode）が存在する。
+
+- 学習データの分布から外れた入力（out-of-distribution）による予測不能な誤り
+- 敵対的攻撃（adversarial attack）による意図的な誤誘導
+- モデルの経年劣化（model drift）による精度低下
+
+**課題2：間接的な害**
+
+AIが直接的に患者を傷つけなくても、以下の間接的な害が生じうる。
+
+- AIへの過度の依存による医師のスキル低下（deskilling）
+- AI推奨の盲目的受容による臨床推論の放棄
+- AIの存在による患者-医師関係の希薄化
+
+**課題3：害の認識と報告の困難**
+
+AI由来の害は、認識が困難な場合がある。AIが10,000件中9,999件を正しく判断しても、1件の見逃しが致命的な結果をもたらしうる。そしてその1件がAI由来であることに気づかない可能性がある。
+
+<StatHighlight value="primum non nocere" label="まず害をなすなかれ" source="ヒポクラテス" />
+
+---
+
+## 第4原則：正義 ― AIは医療格差を縮小するか、拡大するか
+
+### 従来の読み方
+
+正義の原則は、医療資源の公正な分配を求める。すべての患者が、人種、性別、経済状態、社会的地位にかかわらず、公平に医療を受ける権利を有する。
+
+### AI時代の新たな課題
+
+**課題1：アルゴリズムバイアス**
+
+AIの学習データに内在するバイアスは、既存の医療格差を増幅する。
+
+- **人種バイアス**：米国の皮膚科AIが、黒人の皮膚病変の検出精度が白人より有意に低かった事例（Adamson & Smith, 2018, *JAMA Dermatology*）
+- **性別バイアス**：心疾患の症状記述が男性中心のデータで学習されたAIが、女性の非典型的症状を見落とすリスク
+- **地域バイアス**：都市部の大規模病院のデータで学習されたAIが、地方の小規模病院では精度が低下する現象
+
+**課題2：デジタルデバイド**
+
+AIの恩恵を受けられる患者と受けられない患者の格差。
+
+- 高齢者やデジタルスキルの低い患者
+- 僻地・離島など、AI対応のインフラが整備されていない地域
+- 経済的にAI搭載デバイスにアクセスできない患者
+
+**課題3：「効率性」と「公正性」の対立**
+
+AIによるトリアージや資源配分は、効率性を最大化する方向に最適化される傾向がある。しかし、効率的な配分が必ずしも公正な配分とは限らない。
+
+<ComparisonCard
+  title="正義の原則：AI導入前と後"
+  left={{
+    title: "AI導入前",
+    items: [
+      "医師の暗黙のバイアスが存在",
+      "バイアスは個人レベル",
+      "介入は比較的容易",
+      "影響範囲は限定的"
+    ]
+  }}
+  right={{
+    title: "AI導入後",
+    items: [
+      "アルゴリズムバイアスが体系化",
+      "バイアスはシステムレベル",
+      "介入にはアルゴリズム修正が必要",
+      "影響範囲は大規模・広範"
+    ]
+  }}
+/>
+
+---
+
+## 4原則の相互衝突とAI
+
+4原則は常に調和するわけではない。AI時代には、原則間の衝突がより顕著になる場面がある。
+
+### 事例：AIによる遺伝性疾患リスクの予測
+
+AIが患者の遺伝子データから高精度の発症リスク予測を行えるとする。
+
+- **善行**は、リスクを患者に伝えて予防介入を行うことを支持する
+- **自律尊重**は、「知る権利」と同時に「知らないでいる権利」も含む
+- **無危害**は、不確実な予測が患者に不安を与えるリスクを考慮する
+- **正義**は、遺伝情報に基づく保険差別のリスクを懸念する
+
+このような衝突を解決する普遍的な公式は存在しない。重要なのは、各原則を検討し、衝突を認識した上で、**状況に応じた判断を行うプロセス**を確立することである。
+
+---
+
+## 4原則のAI時代チェックリスト
+
+<PromptTemplate title="医療AI倫理4原則チェックリスト">
+**自律尊重チェック：**
+- [ ] AIの利用を患者に開示しているか
+- [ ] AIの限界とリスクを説明しているか
+- [ ] AI推奨以外の選択肢も提示しているか
+- [ ] 患者の理解を確認しているか（Teach-back法）
+- [ ] 拒否する権利を保障しているか
+
+**善行チェック：**
+- [ ] AIの推奨が患者個人の「最善の利益」に合致しているか
+- [ ] 過剰診断・過剰検査のリスクを考慮しているか
+- [ ] AIのエビデンスが最新かどうか確認しているか
+- [ ] 統計的最適解と患者の価値観のすり合わせを行っているか
+
+**無危害チェック：**
+- [ ] AIの既知のリスクと限界を把握しているか
+- [ ] AIへの過度の依存を避けているか
+- [ ] AI出力の検証プロセスが確立されているか
+- [ ] AI由来の害を認識・報告する仕組みがあるか
+
+**正義チェック：**
+- [ ] AIにバイアスがないか定期的に検証しているか
+- [ ] デジタルデバイドへの対応策があるか
+- [ ] AI非対応の患者にも同等のケアを提供しているか
+- [ ] 効率性と公正性のバランスを検討しているか
+</PromptTemplate>
+
+---
+
+## ケーススタディ：救急外来でのAIトリアージ
+
+ある救急外来が、AIトリアージシステムを導入した。このシステムは、来院時のバイタルサイン、主訴、病歴からトリアージレベル（緊急度）を自動判定する。
+
+**発生した問題：**
+
+AIトリアージが、30歳女性の胸痛を「緊急度：低」と判定した。AIの学習データでは、30代女性の胸痛は心疾患である確率が統計的に低いためであった。しかし、この患者は実際には急性冠症候群であり、トリアージの遅延により治療開始が30分遅れた。
+
+**4原則からの分析：**
+
+- **自律尊重**：患者はAIトリアージの存在を知らされていなかった
+- **善行**：統計的最適化が個別の患者の利益と衝突した
+- **無危害**：AIの判断が直接的な害（治療遅延）をもたらした
+- **正義**：性別・年齢によるバイアスが公正なケアを妨げた
+
+この事例は、4原則すべてにおいて問題があったことを示している。
+
+<KeyTakeaway>
+- ビーチャム＆チルドレスの4原則は、AI時代にも有効だが「読み替え」が必要
+- 自律尊重：AIの利用開示、限界の説明、AI推奨以外の選択肢提示が求められる
+- 善行：統計的最適解と患者個人の「最善の利益」は必ずしも一致しない
+- 無危害：AIの未知の失敗モード、間接的な害（deskilling等）、害の認識困難という新たな課題がある
+- 正義：アルゴリズムバイアスは既存の医療格差をシステムレベルで増幅するリスクがある
+- 4原則間の衝突はAI時代に先鋭化する。普遍的解法はなく、判断プロセスの確立が重要
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-medical-ethics-law","lessonSlug":"01-01-four-principles"}],["$","$L4",null,{"items":[{"id":"医療倫理4原則とは何か","text":"医療倫理4原則とは何か","level":2},{"id":"第1原則自律尊重-aiは患者の自律を拡張するか侵害するか","text":"第1原則：自律尊重 ― AIは患者の自律を拡張するか、侵害するか","level":2},{"id":"従来の読み方","text":"従来の読み方","level":3},{"id":"ai時代の新たな課題","text":"AI時代の新たな課題","level":3},{"id":"第2原則善行-aiの善はどう定義されるか","text":"第2原則：善行 ― AIの「善」はどう定義されるか","level":2},{"id":"従来の読み方","text":"従来の読み方","level":3},{"id":"ai時代の新たな課題","text":"AI時代の新たな課題","level":3},{"id":"第3原則無危害-aiが害を与えないための条件","text":"第3原則：無危害 ― AIが「害を与えない」ための条件","level":2},{"id":"従来の読み方","text":"従来の読み方","level":3},{"id":"ai時代の新たな課題","text":"AI時代の新たな課題","level":3},{"id":"第4原則正義-aiは医療格差を縮小するか拡大するか","text":"第4原則：正義 ― AIは医療格差を縮小するか、拡大するか","level":2},{"id":"従来の読み方","text":"従来の読み方","level":3},{"id":"ai時代の新たな課題","text":"AI時代の新たな課題","level":3},{"id":"4原則の相互衝突とai","text":"4原則の相互衝突とAI","level":2},{"id":"事例aiによる遺伝性疾患リスクの予測","text":"事例：AIによる遺伝性疾患リスクの予測","level":3},{"id":"4原則のai時代チェックリスト","text":"4原則のAI時代チェックリスト","level":2},{"id":"ケーススタディ救急外来でのaiトリアージ","text":"ケーススタディ：救急外来でのAIトリアージ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"medical-ethics-law","bookTitle":"医療AI倫理・法律ガイドブック — 安全で責任あるAI活用のために","chapter":{"slug":"01-01-four-principles","title":"医療倫理4原則のAI時代への読み替え（自律尊重・善行・無危害・正義）","description":"ビーチャム＆チルドレスの医療倫理4原則を、AI時代の医療にどう適用するか。各原則の具体的な課題と対応を解説する。","partId":"part01","partTitle":"医療倫理の基盤","order":1,"partOrder":1,"estimatedMinutes":25,"estimatedReadTime":17,"free":true,"status":"published","tags":["医療倫理","4原則","自律尊重","善行","無危害","正義","ビーチャム","チルドレス"],"content":"$6"},"totalChapters":23}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"医療倫理4原則とは何か","text":"医療倫理4原則とは何か","level":2},{"id":"第1原則自律尊重-aiは患者の自律を拡張するか侵害するか","text":"第1原則：自律尊重 ― AIは患者の自律を拡張するか、侵害するか","level":2},{"id":"従来の読み方","text":"従来の読み方","level":3},{"id":"ai時代の新たな課題","text":"AI時代の新たな課題","level":3},{"id":"第2原則善行-aiの善はどう定義されるか","text":"第2原則：善行 ― AIの「善」はどう定義されるか","level":2},{"id":"従来の読み方","text":"従来の読み方","level":3},{"id":"ai時代の新たな課題","text":"AI時代の新たな課題","level":3},{"id":"第3原則無危害-aiが害を与えないための条件","text":"第3原則：無危害 ― AIが「害を与えない」ための条件","level":2},{"id":"従来の読み方","text":"従来の読み方","level":3},{"id":"ai時代の新たな課題","text":"AI時代の新たな課題","level":3},{"id":"第4原則正義-aiは医療格差を縮小するか拡大するか","text":"第4原則：正義 ― AIは医療格差を縮小するか、拡大するか","level":2},{"id":"従来の読み方","text":"従来の読み方","level":3},{"id":"ai時代の新たな課題","text":"AI時代の新たな課題","level":3},{"id":"4原則の相互衝突とai","text":"4原則の相互衝突とAI","level":2},{"id":"事例aiによる遺伝性疾患リスクの予測","text":"事例：AIによる遺伝性疾患リスクの予測","level":3},{"id":"4原則のai時代チェックリスト","text":"4原則のAI時代チェックリスト","level":2},{"id":"ケーススタディ救急外来でのaiトリアージ","text":"ケーススタディ：救急外来でのAIトリアージ","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":["$","strong",null,{"children":"1979年に提唱された医療倫理4原則は、AI時代にも有効な羅針盤であり続ける。ただし、その「読み替え」が必要である。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"医療倫理4原則とは何か","children":"医療倫理4原則とは何か"}],"\n",["$","p",null,{"children":["トム・L・ビーチャムとジェームズ・F・チルドレスが1979年の著書 ",["$","em",null,{"children":"Principles of Biomedical Ethics"}]," で提唱した4原則は、現代の医療倫理の基盤となっている。"]}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"自律尊重（Respect for Autonomy）"}],"：患者の自己決定権を尊重する"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"善行（Beneficence）"}],"：患者の利益のために行動する"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"無危害（Non-maleficence）"}],"：患者に害を与えない"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"正義（Justice）"}],"：医療資源を公正に分配する"]}],"\n"]}],"\n",["$","p",null,{"children":"この4原則は、1949年のニュルンベルク綱領、1964年のヘルシンキ宣言、1979年のベルモントレポートを経て確立された、人類の痛みの歴史から生まれた知恵である。"}],"\n",["$","$Le",null,{"type":"info","title":"なぜ4原則が今なお有効なのか","children":["$","p",null,{"children":"4原則は特定の倫理学派（功利主義、義務論、徳倫理学など）に依存せず、異なる文化・宗教的背景を持つ人々が共通して受け入れうる「共通の道徳」（common morality）に基づいている。この「原則主義」（principlism）の柔軟性こそが、AI時代にも有効である理由である。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"第1原則自律尊重-aiは患者の自律を拡張するか侵害するか","children":"第1原則：自律尊重 ― AIは患者の自律を拡張するか、侵害するか"}],"\n",["$","h3",null,{"id":"従来の読み方","children":"従来の読み方"}],"\n",["$","p",null,{"children":"自律尊重の原則は、患者がインフォームドコンセントに基づき、自らの医療について自由に意思決定する権利を保障する。日本では医療法第1条の4第2項が「医師は適切な説明を行い、医療を受ける者の理解を得るよう努めなければならない」と規定している。"}],"\n",["$","h3",null,{"id":"ai時代の新たな課題","children":"AI時代の新たな課題"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"課題1：情報の非対称性の変容"}]}],"\n",["$","p",null,{"children":"従来の情報の非対称性は「医師＞患者」であった。AI時代には新たな非対称性が生まれる。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"医師がAIの判断根拠を理解できない場合（ブラックボックス問題）"}],"\n",["$","li",null,{"children":"患者がAI支援の診断であることを知らされない場合"}],"\n",["$","li",null,{"children":"AIの限界や誤りのリスクについて患者に説明されない場合"}],"\n"]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"課題2：ナッジとAI推奨の境界"}]}],"\n",["$","p",null,{"children":"AIの治療推奨は、患者の意思決定に対する「ナッジ」（nudge）として機能しうる。AIが「この治療法を推奨します」と表示した場合、患者はその推奨に引きずられやすい。これは自律的意思決定を損なう可能性がある。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"課題3：デジタルリテラシーの格差"}]}],"\n",["$","p",null,{"children":"高齢者やデジタルデバイドの影響を受ける患者は、AI支援の医療について十分に理解できない可能性がある。「AIが判断しました」という説明は、理解を得るための説明とは言えない。"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"AI利用の開示"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"患者に対し、診断・治療の意思決定にAIを利用していることを開示する。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"AIの限界の説明"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"AIには誤りがありうること、最終判断は医師が行うことを説明する。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],"$Lf"]}],"$L10"]}],"$L11"]}]]}],"\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e"]}]
+9:["$","$L4f",null,{"bookId":"medical-ethics-law","chapterSlug":"01-01-four-principles"}]
+a:["$","$L50",null,{"bookId":"medical-ethics-law","prev":{"slug":"00-00-preface","title":"なぜ医療AIに倫理と法律が不可欠なのか — JAMA RCT事件からの教訓","order":0},"next":{"slug":"01-02-informed-consent","title":"AI時代のインフォームドコンセント","order":2}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L51",null,{"children":["$","$52",null,{"name":"Next.MetadataOutlet","children":"$@53"}]}]
+f:["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]
+10:["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"選択肢の提示"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"AI推奨以外の選択肢も含めて患者に提示し、自律的選択を支援する。"}]}]]}]
+11:["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"理解の確認"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"患者がAI支援の意味と限界を理解しているか確認する（Teach-back法）。"}]}]]}]]}]
+12:["$","hr",null,{}]
+13:["$","h2",null,{"id":"第2原則善行-aiの善はどう定義されるか","children":"第2原則：善行 ― AIの「善」はどう定義されるか"}]
+14:["$","h3",null,{"id":"従来の読み方","children":"従来の読み方"}]
+15:["$","p",null,{"children":"善行の原則は、医療者が患者の最善の利益のために積極的に行動することを求める。単に害を避けるだけでなく、積極的に利益をもたらす義務である。"}]
+16:["$","h3",null,{"id":"ai時代の新たな課題","children":"AI時代の新たな課題"}]
+17:["$","p",null,{"children":["$","strong",null,{"children":"課題1：「最善の利益」の定義問題"}]}]
+18:["$","p",null,{"children":"AIが推奨する「最善の治療」は、多くの場合、統計的に最も成功率が高い治療である。しかし、患者にとっての「最善」は、生存率だけで決まるものではない。"}]
+19:["$","ul",null,{"children":["\n",["$","li",null,{"children":"QOL（生活の質）の重視"}],"\n",["$","li",null,{"children":"患者の価値観や人生計画"}],"\n",["$","li",null,{"children":"家族への影響"}],"\n",["$","li",null,{"children":"経済的負担"}],"\n"]}]
+1a:["$","p",null,{"children":"AIは統計的最適解を出力するが、患者の「物語」（ナラティブ）を理解することはできない。"}]
+1b:["$","p",null,{"children":["$","strong",null,{"children":"課題2：過剰診断（Overdiagnosis）のリスク"}]}]
+1c:["$","p",null,{"children":"AIの高感度な検出能力は、臨床的に重要でない所見まで拾い上げる可能性がある。甲状腺微小がんのスクリーニングで過剰診断が問題になったように、AIによる過剰検出は患者に不要な検査・治療・不安をもたらしうる。"}]
+1d:["$","p",null,{"children":["$","strong",null,{"children":"課題3：エビデンスの遅延（Evidence Lag）"}]}]
+1e:["$","p",null,{"children":"AIのトレーニングデータは過去のデータに基づいており、最新のエビデンスが反映されていない可能性がある。2025年に発表された新しい治療ガイドラインが、AIの推奨に反映されるまでにはタイムラグが生じる。"}]
+1f:["$","$Le",null,{"type":"warning","title":"善行原則の逆転リスク","children":["$","p",null,{"children":"AIの「善意」は、過剰診断、過剰検査、不要な介入として患者に害をもたらしうる。善行と無危害のバランスは、AI時代にはいっそう慎重な判断を要する。"}]}]
+20:["$","hr",null,{}]
+21:["$","h2",null,{"id":"第3原則無危害-aiが害を与えないための条件","children":"第3原則：無危害 ― AIが「害を与えない」ための条件"}]
+22:["$","h3",null,{"id":"従来の読み方","children":"従来の読み方"}]
+23:["$","p",null,{"children":["無危害の原則（",["$","em",null,{"children":"primum non nocere"}]," ― まず害をなすなかれ）は、医療における最も基本的な原則である。ヒポクラテスの時代から、医療者は患者に害を与えないことを第一に考えてきた。"]}]
+24:["$","h3",null,{"id":"ai時代の新たな課題","children":"AI時代の新たな課題"}]
+25:["$","p",null,{"children":["$","strong",null,{"children":"課題1：既知のリスクと未知のリスク"}]}]
+26:["$","p",null,{"children":"従来の医療行為のリスクは、過去の臨床経験とエビデンスに基づいて予測可能であった。しかしAIのリスクには、未知の失敗モード（failure mode）が存在する。"}]
+27:["$","ul",null,{"children":["\n",["$","li",null,{"children":"学習データの分布から外れた入力（out-of-distribution）による予測不能な誤り"}],"\n",["$","li",null,{"children":"敵対的攻撃（adversarial attack）による意図的な誤誘導"}],"\n",["$","li",null,{"children":"モデルの経年劣化（model drift）による精度低下"}],"\n"]}]
+28:["$","p",null,{"children":["$","strong",null,{"children":"課題2：間接的な害"}]}]
+29:["$","p",null,{"children":"AIが直接的に患者を傷つけなくても、以下の間接的な害が生じうる。"}]
+2a:["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIへの過度の依存による医師のスキル低下（deskilling）"}],"\n",["$","li",null,{"children":"AI推奨の盲目的受容による臨床推論の放棄"}],"\n",["$","li",null,{"children":"AIの存在による患者-医師関係の希薄化"}],"\n"]}]
+2b:["$","p",null,{"children":["$","strong",null,{"children":"課題3：害の認識と報告の困難"}]}]
+2c:["$","p",null,{"children":"AI由来の害は、認識が困難な場合がある。AIが10,000件中9,999件を正しく判断しても、1件の見逃しが致命的な結果をもたらしうる。そしてその1件がAI由来であることに気づかない可能性がある。"}]
+2d:["$","$L54",null,{"value":"primum non nocere","label":"まず害をなすなかれ","source":"ヒポクラテス"}]
+2e:["$","hr",null,{}]
+2f:["$","h2",null,{"id":"第4原則正義-aiは医療格差を縮小するか拡大するか","children":"第4原則：正義 ― AIは医療格差を縮小するか、拡大するか"}]
+30:["$","h3",null,{"id":"従来の読み方","children":"従来の読み方"}]
+31:["$","p",null,{"children":"正義の原則は、医療資源の公正な分配を求める。すべての患者が、人種、性別、経済状態、社会的地位にかかわらず、公平に医療を受ける権利を有する。"}]
+32:["$","h3",null,{"id":"ai時代の新たな課題","children":"AI時代の新たな課題"}]
+33:["$","p",null,{"children":["$","strong",null,{"children":"課題1：アルゴリズムバイアス"}]}]
+34:["$","p",null,{"children":"AIの学習データに内在するバイアスは、既存の医療格差を増幅する。"}]
+35:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"人種バイアス"}],"：米国の皮膚科AIが、黒人の皮膚病変の検出精度が白人より有意に低かった事例（Adamson & Smith, 2018, ",["$","em",null,{"children":"JAMA Dermatology"}],"）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"性別バイアス"}],"：心疾患の症状記述が男性中心のデータで学習されたAIが、女性の非典型的症状を見落とすリスク"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"地域バイアス"}],"：都市部の大規模病院のデータで学習されたAIが、地方の小規模病院では精度が低下する現象"]}],"\n"]}]
+36:["$","p",null,{"children":["$","strong",null,{"children":"課題2：デジタルデバイド"}]}]
+37:["$","p",null,{"children":"AIの恩恵を受けられる患者と受けられない患者の格差。"}]
+38:["$","ul",null,{"children":["\n",["$","li",null,{"children":"高齢者やデジタルスキルの低い患者"}],"\n",["$","li",null,{"children":"僻地・離島など、AI対応のインフラが整備されていない地域"}],"\n",["$","li",null,{"children":"経済的にAI搭載デバイスにアクセスできない患者"}],"\n"]}]
+39:["$","p",null,{"children":["$","strong",null,{"children":"課題3：「効率性」と「公正性」の対立"}]}]
+3a:["$","p",null,{"children":"AIによるトリアージや資源配分は、効率性を最大化する方向に最適化される傾向がある。しかし、効率的な配分が必ずしも公正な配分とは限らない。"}]
+3b:["$","$L55",null,{"title":"正義の原則：AI導入前と後"}]
+3c:["$","hr",null,{}]
+3d:["$","h2",null,{"id":"4原則の相互衝突とai","children":"4原則の相互衝突とAI"}]
+3e:["$","p",null,{"children":"4原則は常に調和するわけではない。AI時代には、原則間の衝突がより顕著になる場面がある。"}]
+3f:["$","h3",null,{"id":"事例aiによる遺伝性疾患リスクの予測","children":"事例：AIによる遺伝性疾患リスクの予測"}]
+40:["$","p",null,{"children":"AIが患者の遺伝子データから高精度の発症リスク予測を行えるとする。"}]
+41:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"善行"}],"は、リスクを患者に伝えて予防介入を行うことを支持する"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"自律尊重"}],"は、「知る権利」と同時に「知らないでいる権利」も含む"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"無危害"}],"は、不確実な予測が患者に不安を与えるリスクを考慮する"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"正義"}],"は、遺伝情報に基づく保険差別のリスクを懸念する"]}],"\n"]}]
+42:["$","p",null,{"children":["このような衝突を解決する普遍的な公式は存在しない。重要なのは、各原則を検討し、衝突を認識した上で、",["$","strong",null,{"children":"状況に応じた判断を行うプロセス"}],"を確立することである。"]}]
+43:["$","hr",null,{}]
+44:["$","h2",null,{"id":"4原則のai時代チェックリスト","children":"4原則のAI時代チェックリスト"}]
+45:["$","$L56",null,{"title":"医療AI倫理4原則チェックリスト","children":[["$","p",null,{"children":["$","strong",null,{"children":"自律尊重チェック："}]}],["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AIの利用を患者に開示しているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AIの限界とリスクを説明しているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AI推奨以外の選択肢も提示しているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","患者の理解を確認しているか（Teach-back法）"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","拒否する権利を保障しているか"]}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"善行チェック："}]}],["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AIの推奨が患者個人の「最善の利益」に合致しているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","過剰診断・過剰検査のリスクを考慮しているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AIのエビデンスが最新かどうか確認しているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","統計的最適解と患者の価値観のすり合わせを行っているか"]}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"無危害チェック："}]}],["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AIの既知のリスクと限界を把握しているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AIへの過度の依存を避けているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AI出力の検証プロセスが確立されているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AI由来の害を認識・報告する仕組みがあるか"]}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"正義チェック："}]}],["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AIにバイアスがないか定期的に検証しているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","デジタルデバイドへの対応策があるか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AI非対応の患者にも同等のケアを提供しているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","効率性と公正性のバランスを検討しているか"]}],"\n"]}]]}]
+46:["$","hr",null,{}]
+47:["$","h2",null,{"id":"ケーススタディ救急外来でのaiトリアージ","children":"ケーススタディ：救急外来でのAIトリアージ"}]
+48:["$","p",null,{"children":"ある救急外来が、AIトリアージシステムを導入した。このシステムは、来院時のバイタルサイン、主訴、病歴からトリアージレベル（緊急度）を自動判定する。"}]
+49:["$","p",null,{"children":["$","strong",null,{"children":"発生した問題："}]}]
+4a:["$","p",null,{"children":"AIトリアージが、30歳女性の胸痛を「緊急度：低」と判定した。AIの学習データでは、30代女性の胸痛は心疾患である確率が統計的に低いためであった。しかし、この患者は実際には急性冠症候群であり、トリアージの遅延により治療開始が30分遅れた。"}]
+4b:["$","p",null,{"children":["$","strong",null,{"children":"4原則からの分析："}]}]
+4c:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"自律尊重"}],"：患者はAIトリアージの存在を知らされていなかった"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"善行"}],"：統計的最適化が個別の患者の利益と衝突した"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"無危害"}],"：AIの判断が直接的な害（治療遅延）をもたらした"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"正義"}],"：性別・年齢によるバイアスが公正なケアを妨げた"]}],"\n"]}]
+4d:["$","p",null,{"children":"この事例は、4原則すべてにおいて問題があったことを示している。"}]
+4e:["$","$L57",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"ビーチャム＆チルドレスの4原則は、AI時代にも有効だが「読み替え」が必要"}],"\n",["$","li",null,{"children":"自律尊重：AIの利用開示、限界の説明、AI推奨以外の選択肢提示が求められる"}],"\n",["$","li",null,{"children":"善行：統計的最適解と患者個人の「最善の利益」は必ずしも一致しない"}],"\n",["$","li",null,{"children":"無危害：AIの未知の失敗モード、間接的な害（deskilling等）、害の認識困難という新たな課題がある"}],"\n",["$","li",null,{"children":"正義：アルゴリズムバイアスは既存の医療格差をシステムレベルで増幅するリスクがある"}],"\n",["$","li",null,{"children":"4原則間の衝突はAI時代に先鋭化する。普遍的解法はなく、判断プロセスの確立が重要"}],"\n"]}]}]
+53:null

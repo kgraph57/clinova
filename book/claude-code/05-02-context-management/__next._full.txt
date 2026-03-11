@@ -1,0 +1,176 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","claude-code","05-02-context-management"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","claude-code","d"],{"children":[["chapterId","05-02-context-management","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T1460,
+Claude Codeの「記憶」には限りがある。コンテキストウィンドウという制約を理解し、戦略的に管理することで、大規模プロジェクトでも効果的に作業できる。
+
+---
+
+## コンテキストウィンドウとは
+
+Claude Codeが一度に「覚えていられる」情報量には上限がある。これがコンテキストウィンドウだ。
+
+会話が長くなるほど、または大きなファイルを多数読み込むほど、コンテキストウィンドウは消費される。上限に近づくと、Claude Codeは自動的に古い情報を圧縮（auto-compaction）する。
+
+問題は、この自動圧縮のタイミングが必ずしも最適ではないことだ。重要な情報が圧縮で失われ、同じ質問に対する回答が変わったり、以前の合意が忘れられたりする可能性がある。
+
+---
+
+## /compact — 戦略的な圧縮
+
+```
+> /compact
+```
+
+自動圧縮を待つのではなく、適切なタイミングで手動圧縮する。
+
+### /compact を使うべきタイミング
+
+1. タスクの区切り目: 一つの機能が完成したとき
+2. 方針転換の前: 別のアプローチに切り替えるとき
+3. 応答の質が下がったとき: 同じことを繰り返す、文脈を忘れる兆候
+4. 大きなファイルを読んだ後: 必要な情報を抽出したらコンテキストを整理
+
+/compact は重要な情報（決定事項、現在の作業状態）を保持しつつ、不要な詳細を圧縮する。
+
+---
+
+## メモリファイル — セッションを超えた記憶
+
+Claude Codeのメモリファイルは `~/.claude/projects/*/memory/` に保存される。
+
+```
+~/.claude/projects/-Users-kenokamoto-Desktop-project/memory/
+├── MEMORY.md          # メインのメモリファイル（常に読み込まれる）
+├── debugging.md       # デバッグに関するメモ
+└── architecture.md    # アーキテクチャの決定事項
+```
+
+### MEMORY.md
+
+セッション開始時に自動的に読み込まれる。200行まで。
+
+書くべき内容:
+- プロジェクトの重要な決定事項
+- よく使うパターンや規約
+- ユーザーの好みやワークフロー
+- 以前のセッションで解決した問題と解決策
+
+書くべきでない内容:
+- 一時的な作業状態
+- 未検証の推測
+- CLAUDE.mdと重複する情報
+
+### 補助メモリファイル
+
+MEMORY.mdが大きくなりすぎる場合は、トピック別のファイルに分割する。これらはMEMORY.mdからリンクし、必要なときに参照させる。
+
+---
+
+## 大規模コードベースでの戦略
+
+### 戦略1: 必要なファイルだけを読む
+
+```
+# NG: すべてを読み込む
+> プロジェクトの全ファイルを読んで
+
+# OK: 必要なファイルだけを指定
+> src/lib/book.ts と src/components/book/BookHero.tsx を読んで
+```
+
+### 戦略2: Explore エージェントに委任する
+
+広範な調査が必要な場合は、Exploreエージェントに委任する。サブエージェントのコンテキストはメインとは別なので、メインのコンテキストを消費しない。
+
+```
+> Exploreエージェントで、このプロジェクトの認証パターンを調査して
+```
+
+### 戦略3: タスクを分割する
+
+大きなリファクタリングを一度にやろうとせず、ファイル単位やモジュール単位で分割する。
+
+```
+# セッション1: lib/content.ts のリファクタリング
+# セッション2: lib/book.ts のリファクタリング
+# セッション3: 統合テスト
+```
+
+### 戦略4: CLAUDE.mdを活用する
+
+毎回説明する情報はCLAUDE.mdに書いておく。コンテキストの無駄遣いを防ぐ。
+
+---
+
+## 「最後の20%問題」
+
+コンテキストウィンドウの残り20%に入ると、Claude Codeの応答品質が低下しやすい。
+
+この状態で避けるべき作業:
+- 大規模なリファクタリング
+- 複数ファイルにまたがる新機能実装
+- 複雑なデバッグ
+
+この状態でも安全な作業:
+- 単一ファイルの小さな修正
+- 独立したユーティリティ関数の作成
+- ドキュメントの更新
+
+コンテキストが残り少ないと感じたら、`/compact` するか、新しいセッションを開始する。
+
+<Callout type="info" title="コンテキストのコストを意識する">
+大きなファイルを読み込むとコンテキストを大量に消費する。1000行のファイルを10個読むよりも、必要な部分だけを読む方が効率的。Readツールのoffsetとlimitパラメータを活用しよう。
+</Callout>
+
+<KeyTakeaway>
+- コンテキストウィンドウには上限があり、超えると自動圧縮が発生する
+- /compact でタスクの区切り目に戦略的に圧縮し、重要な情報を保持する
+- メモリファイル（MEMORY.md）でセッション間の知識を永続化する
+- 大規模コードベースでは必要なファイルだけを読み、サブエージェントを活用する
+- コンテキスト残り20%では複雑な作業を避け、/compact か新セッションを検討する
+</KeyTakeaway>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-claude-code","lessonSlug":"05-02-context-management"}],["$","$L1d",null,{"items":[{"id":"コンテキストウィンドウとは","text":"コンテキストウィンドウとは","level":2},{"id":"compact-戦略的な圧縮","text":"/compact — 戦略的な圧縮","level":2},{"id":"compact-を使うべきタイミング","text":"/compact を使うべきタイミング","level":3},{"id":"メモリファイル-セッションを超えた記憶","text":"メモリファイル — セッションを超えた記憶","level":2},{"id":"memorymd","text":"MEMORY.md","level":3},{"id":"補助メモリファイル","text":"補助メモリファイル","level":3},{"id":"大規模コードベースでの戦略","text":"大規模コードベースでの戦略","level":2},{"id":"戦略1-必要なファイルだけを読む","text":"戦略1: 必要なファイルだけを読む","level":3},{"id":"戦略2-explore-エージェントに委任する","text":"戦略2: Explore エージェントに委任する","level":3},{"id":"戦略3-タスクを分割する","text":"戦略3: タスクを分割する","level":3},{"id":"戦略4-claudemdを活用する","text":"戦略4: CLAUDE.mdを活用する","level":3},{"id":"最後の20問題","text":"「最後の20%問題」","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"05-02-context-management","title":"コンテキスト管理 — 窓の向こうの知識をつなぐ","description":"コンテキストウィンドウの限界と対策。/compact、メモリファイル、戦略的なファイル読み込みで、大規模プロジェクトでも効果的に作業する。","partId":"part05","partTitle":"高度なテクニック","order":17,"partOrder":5,"estimatedMinutes":20,"estimatedReadTime":6,"free":true,"status":"published","tags":["コンテキスト","メモリ","compact","大規模","最適化"],"content":"$1f"},"totalChapters":26}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"claude-code","chapterSlug":"05-02-context-management"}]
+23:["$","$L27",null,{"bookId":"claude-code","prev":{"slug":"05-01-prompt-engineering","title":"プロンプトエンジニアリング — コーディング特化の指示術","order":16},"next":{"slug":"05-03-multi-agent","title":"マルチエージェント — チームで開発する","order":18}}]
+28:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+25:[["$","p",null,{"children":"Claude Codeの「記憶」には限りがある。コンテキストウィンドウという制約を理解し、戦略的に管理することで、大規模プロジェクトでも効果的に作業できる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"コンテキストウィンドウとは","children":"コンテキストウィンドウとは"}],"\n",["$","p",null,{"children":"Claude Codeが一度に「覚えていられる」情報量には上限がある。これがコンテキストウィンドウだ。"}],"\n",["$","p",null,{"children":"会話が長くなるほど、または大きなファイルを多数読み込むほど、コンテキストウィンドウは消費される。上限に近づくと、Claude Codeは自動的に古い情報を圧縮（auto-compaction）する。"}],"\n",["$","p",null,{"children":"問題は、この自動圧縮のタイミングが必ずしも最適ではないことだ。重要な情報が圧縮で失われ、同じ質問に対する回答が変わったり、以前の合意が忘れられたりする可能性がある。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"compact-戦略的な圧縮","children":"/compact — 戦略的な圧縮"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> /compact\n"}]}],"\n",["$","p",null,{"children":"自動圧縮を待つのではなく、適切なタイミングで手動圧縮する。"}],"\n",["$","h3",null,{"id":"compact-を使うべきタイミング","children":"/compact を使うべきタイミング"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"タスクの区切り目: 一つの機能が完成したとき"}],"\n",["$","li",null,{"children":"方針転換の前: 別のアプローチに切り替えるとき"}],"\n",["$","li",null,{"children":"応答の質が下がったとき: 同じことを繰り返す、文脈を忘れる兆候"}],"\n",["$","li",null,{"children":"大きなファイルを読んだ後: 必要な情報を抽出したらコンテキストを整理"}],"\n"]}],"\n",["$","p",null,{"children":"/compact は重要な情報（決定事項、現在の作業状態）を保持しつつ、不要な詳細を圧縮する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"メモリファイル-セッションを超えた記憶","children":"メモリファイル — セッションを超えた記憶"}],"\n",["$","p",null,{"children":["Claude Codeのメモリファイルは ",["$","code",null,{"children":"~/.claude/projects/*/memory/"}]," に保存される。"]}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"~/.claude/projects/-Users-kenokamoto-Desktop-project/memory/\n├── MEMORY.md          # メインのメモリファイル（常に読み込まれる）\n├── debugging.md       # デバッグに関するメモ\n└── architecture.md    # アーキテクチャの決定事項\n"}]}],"\n",["$","h3",null,{"id":"memorymd","children":"MEMORY.md"}],"\n",["$","p",null,{"children":"セッション開始時に自動的に読み込まれる。200行まで。"}],"\n",["$","p",null,{"children":"書くべき内容:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"プロジェクトの重要な決定事項"}],"\n",["$","li",null,{"children":"よく使うパターンや規約"}],"\n",["$","li",null,{"children":"ユーザーの好みやワークフロー"}],"\n",["$","li",null,{"children":"以前のセッションで解決した問題と解決策"}],"\n"]}],"\n",["$","p",null,{"children":"書くべきでない内容:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"一時的な作業状態"}],"\n",["$","li",null,{"children":"未検証の推測"}],"\n",["$","li",null,{"children":"CLAUDE.mdと重複する情報"}],"\n"]}],"\n",["$","h3",null,{"id":"補助メモリファイル","children":"補助メモリファイル"}],"\n",["$","p",null,{"children":"MEMORY.mdが大きくなりすぎる場合は、トピック別のファイルに分割する。これらはMEMORY.mdからリンクし、必要なときに参照させる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"大規模コードベースでの戦略","children":"大規模コードベースでの戦略"}],"\n",["$","h3",null,{"id":"戦略1-必要なファイルだけを読む","children":"戦略1: 必要なファイルだけを読む"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# NG: すべてを読み込む\n> プロジェクトの全ファイルを読んで\n\n# OK: 必要なファイルだけを指定\n> src/lib/book.ts と src/components/book/BookHero.tsx を読んで\n"}]}],"\n",["$","h3",null,{"id":"戦略2-explore-エージェントに委任する","children":"戦略2: Explore エージェントに委任する"}],"\n",["$","p",null,{"children":"広範な調査が必要な場合は、Exploreエージェントに委任する。サブエージェントのコンテキストはメインとは別なので、メインのコンテキストを消費しない。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> Exploreエージェントで、このプロジェクトの認証パターンを調査して\n"}]}],"\n",["$","h3",null,{"id":"戦略3-タスクを分割する","children":"戦略3: タスクを分割する"}],"\n",["$","p",null,{"children":"大きなリファクタリングを一度にやろうとせず、ファイル単位やモジュール単位で分割する。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"# セッション1: lib/content.ts のリファクタリング\n# セッション2: lib/book.ts のリファクタリング\n# セッション3: 統合テスト\n"}]}],"\n",["$","h3",null,{"id":"戦略4-claudemdを活用する","children":"戦略4: CLAUDE.mdを活用する"}],"\n",["$","p",null,{"children":"毎回説明する情報はCLAUDE.mdに書いておく。コンテキストの無駄遣いを防ぐ。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"最後の20問題","children":"「最後の20%問題」"}],"\n",["$","p",null,{"children":"コンテキストウィンドウの残り20%に入ると、Claude Codeの応答品質が低下しやすい。"}],"\n",["$","p",null,{"children":"この状態で避けるべき作業:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"大規模なリファクタリング"}],"\n",["$","li",null,{"children":"複数ファイルにまたがる新機能実装"}],"\n",["$","li",null,{"children":"複雑なデバッグ"}],"\n"]}],"\n",["$","p",null,{"children":"この状態でも安全な作業:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"単一ファイルの小さな修正"}],"\n",["$","li",null,{"children":"独立したユーティリティ関数の作成"}],"\n",["$","li",null,{"children":"ドキュメントの更新"}],"\n"]}],"\n",["$","p",null,{"children":["コンテキストが残り少ないと感じたら、",["$","code",null,{"children":"/compact"}]," するか、新しいセッションを開始する。"]}],"\n",["$","$L28",null,{"type":"info","title":"コンテキストのコストを意識する","children":["$","p",null,{"children":"大きなファイルを読み込むとコンテキストを大量に消費する。1000行のファイルを10個読むよりも、必要な部分だけを読む方が効率的。Readツールのoffsetとlimitパラメータを活用しよう。"}]}],"\n","$L29"]
+2a:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+29:["$","$L2a",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"コンテキストウィンドウには上限があり、超えると自動圧縮が発生する"}],"\n",["$","li",null,{"children":"/compact でタスクの区切り目に戦略的に圧縮し、重要な情報を保持する"}],"\n",["$","li",null,{"children":"メモリファイル（MEMORY.md）でセッション間の知識を永続化する"}],"\n",["$","li",null,{"children":"大規模コードベースでは必要なファイルだけを読み、サブエージェントを活用する"}],"\n",["$","li",null,{"children":"コンテキスト残り20%では複雑な作業を避け、/compact か新セッションを検討する"}],"\n"]}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2b:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"コンテキスト管理 — 窓の向こうの知識をつなぐ | Hoshizu"}],["$","meta","1",{"name":"description","content":"コンテキストウィンドウの限界と対策。/compact、メモリファイル、戦略的なファイル読み込みで、大規模プロジェクトでも効果的に作業する。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/claude-code/05-02-context-management"}],["$","meta","4",{"property":"og:title","content":"コンテキスト管理 — 窓の向こうの知識をつなぐ - Claude Code完全ガイド — AIコーディングの新しい形"}],["$","meta","5",{"property":"og:description","content":"コンテキストウィンドウの限界と対策。/compact、メモリファイル、戦略的なファイル読み込みで、大規模プロジェクトでも効果的に作業する。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L2b","15",{}]]

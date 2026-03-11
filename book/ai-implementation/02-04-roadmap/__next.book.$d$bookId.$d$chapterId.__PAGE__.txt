@@ -1,0 +1,374 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[76354,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"StatHighlight"]
+f:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+3e:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+3f:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+40:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+41:"$Sreact.suspense"
+43:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+44:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+45:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T3da1,
+# 導入ロードマップの策定（3ヶ月・6ヶ月・12ヶ月）
+
+ニーズ評価、組織レディネス診断、ユースケース選定、ベンダー選定、予算策定が完了しました。いよいよ具体的な「いつ、誰が、何をするか」を定めるロードマップの策定です。本章では、3ヶ月・6ヶ月・12ヶ月の3段階で構成するロードマップ設計の方法論を解説します。
+
+## なぜロードマップが必要か
+
+<StatHighlight value="60%" label="ロードマップなしにAI導入を開始したプロジェクトのうち、スケジュール遅延が発生した割合" source="HIMSS Analytics, 2025" />
+
+「計画なくして実行なし」は当然ですが、医療AI導入プロジェクトでは特にロードマップの重要性が高まります。理由は3つあります。
+
+<Callout title="ロードマップが不可欠な3つの理由">
+1. **多職種の同時進行** — IT部門のシステム構築、現場のトレーニング、経営層への報告が並行して進む。全員が同じタイムラインを共有する必要がある。
+2. **段階的投資の判断基準** — 経営層は各フェーズの成果を見て次の投資を判断する。フェーズごとのGo/No-Go基準が明確でなければ意思決定が遅延する。
+3. **外部ベンダーとの協業** — ベンダーのリソース確保、機器調達、規制対応にはリードタイムがある。逆算してスケジュールを組む必要がある。
+</Callout>
+
+## 3段階ロードマップの全体像
+
+医療AI導入のロードマップは、以下の3フェーズで構成します。
+
+<StepFlow>
+<StepFlowStep number={1} title="Phase 1：基盤構築（0-3ヶ月）">
+環境整備、チーム組成、データ準備、パイロット設計。「走り出す前の準備」を徹底的に行うフェーズ。ここを手抜きすると後のフェーズで大きな手戻りが発生する。
+</StepFlowStep>
+<StepFlowStep number={2} title="Phase 2：パイロット実施（3-6ヶ月）">
+限定的な環境でのAI運用、効果測定、フィードバック収集。「小さく始めて学ぶ」フェーズ。ここでの学習が全体展開の成否を決める。
+</StepFlowStep>
+<StepFlowStep number={3} title="Phase 3：スケールアップ（6-12ヶ月）">
+パイロットの成果をもとに、対象範囲を拡大。「学びを活かして広げる」フェーズ。ガバナンス構築と組織定着を並行して進める。
+</StepFlowStep>
+</StepFlow>
+
+## Phase 1：基盤構築（0-3ヶ月）の詳細
+
+### 月別マイルストーン
+
+| 月 | 主要タスク | 担当 | 成果物 |
+|----|----------|------|--------|
+| 1ヶ月目 | プロジェクトチーム発足、キックオフ | PM、経営層 | プロジェクト憲章、チーム体制図 |
+| 1ヶ月目 | ベンダーとの契約締結 | 事務、法務 | 契約書、SLA |
+| 1-2ヶ月目 | IT環境整備（ネットワーク、セキュリティ） | IT部門 | 環境構築完了報告書 |
+| 2ヶ月目 | データ準備・クレンジング | IT、臨床 | データ品質レポート |
+| 2-3ヶ月目 | パイロット設計 | PM、臨床 | パイロット計画書 |
+| 3ヶ月目 | スタッフトレーニング（パイロット参加者） | ベンダー、PM | トレーニング完了証 |
+
+### プロジェクト憲章テンプレート
+
+<PromptTemplate title="AI導入プロジェクト憲章テンプレート">
+**1. プロジェクト名：** [例：放射線科AI画像診断支援導入プロジェクト]
+
+**2. プロジェクトスポンサー：** [例：副病院長（医療情報担当）]
+
+**3. プロジェクトマネージャー：** [氏名・所属]
+
+**4. 背景と目的：**
+- 現状の課題：[ニーズ評価の結果から]
+- 目指す姿：[AI導入後の理想状態]
+- 期待する効果：[定量的な目標値]
+
+**5. スコープ：**
+- 対象部門：[例：放射線科]
+- 対象業務：[例：胸部X線読影]
+- 対象期間：[例：2026年4月-2027年3月（12ヶ月）]
+- 除外事項：[スコープ外のもの]
+
+**6. 主要マイルストーン：**
+| マイルストーン | 予定日 | Go/No-Go基準 |
+|-------------|--------|-------------|
+| Phase 1完了 | [日付] | [基準] |
+| Phase 2完了 | [日付] | [基準] |
+| Phase 3完了 | [日付] | [基準] |
+
+**7. 体制：**
+| 役割 | 氏名 | 所属 | 工数（%） |
+|------|------|------|----------|
+| スポンサー | | | 5% |
+| PM | | | 50% |
+| 臨床リード | | | 20% |
+| ITリード | | | 30% |
+| ベンダーPM | | | 100% |
+
+**8. 予算：**
+- Phase 1：[金額]
+- Phase 2：[金額]
+- Phase 3：[金額]
+- 予備費（10%）：[金額]
+
+**9. リスクと対策：**
+| リスク | 影響度 | 発生確率 | 対策 |
+|--------|-------|---------|------|
+| | | | |
+
+**10. 承認：**
+- 承認者：[氏名]
+- 承認日：[日付]
+</PromptTemplate>
+
+### チーム構成のベストプラクティス
+
+<Callout title="医療AI導入プロジェクトの理想的なチーム構成">
+**コアチーム（常時参画）**
+- **プロジェクトマネージャー（PM）**：全体統括。医療とITの両方を理解する人材が理想。
+- **臨床リード**：対象診療科の医師。現場での推進役（AIチャンピオン）。
+- **ITリード**：システム構築・データ連携の責任者。
+- **ベンダーPM**：ベンダー側のプロジェクト責任者。
+
+**拡大チーム（定期参画）**
+- **経営スポンサー**：予算・組織的支援の確保。月1回のステアリングコミッティ。
+- **看護リード**：看護業務への影響評価とトレーニング支援。
+- **品質管理**：安全性・品質指標のモニタリング。
+- **事務リード**：契約管理、外部資金管理。
+</Callout>
+
+## Phase 2：パイロット実施（3-6ヶ月）の詳細
+
+### 月別マイルストーン
+
+| 月 | 主要タスク | 担当 | 成果物 |
+|----|----------|------|--------|
+| 4ヶ月目 | パイロット開始、初期データ収集 | 臨床、IT | 運用開始報告 |
+| 4ヶ月目 | 週次モニタリング開始 | PM | 週次レポート |
+| 5ヶ月目 | 中間評価、課題特定 | PM、臨床 | 中間評価レポート |
+| 5ヶ月目 | 改善施策の実行 | IT、ベンダー | 改善実施報告 |
+| 6ヶ月目 | パイロット最終評価 | PM、全チーム | 最終評価レポート |
+| 6ヶ月目 | スケールアップ計画策定 | PM、経営 | Phase 3計画書 |
+
+### Go/No-Go判定フレームワーク
+
+Phase 2完了時に、Phase 3（スケールアップ）への移行可否を判定します。
+
+<PromptTemplate title="Go/No-Go判定チェックリスト">
+**必須基準（すべてGreenであること）**
+- [ ] 患者安全に関するインシデントがゼロ
+- [ ] AIの性能指標がベンダー公表値の90%以上
+- [ ] ユーザー利用率が80%以上（パイロット参加者中）
+- [ ] データセキュリティに関する問題がゼロ
+
+**主要基準（4つ以上Greenであること）**
+- [ ] 業務効率化の定量的効果が目標の70%以上を達成
+- [ ] ユーザー満足度スコアが5段階中3.5以上
+- [ ] 既存システムとの連携が安定稼働
+- [ ] ベンダーのサポート体制に問題なし
+- [ ] スケールアップに必要な予算が確保済み
+- [ ] 次のフェーズのチャンピオン（推進者）が特定済み
+
+**判定基準：**
+- **Go（進行）**：必須基準すべてGreen + 主要基準4つ以上Green
+- **Conditional Go（条件付き進行）**：必須基準すべてGreen + 主要基準3つGreen → 改善計画を策定して進行
+- **No-Go（中止/延期）**：必須基準に1つでもRed → 改善後に再評価
+</PromptTemplate>
+
+## Phase 3：スケールアップ（6-12ヶ月）の詳細
+
+### 月別マイルストーン
+
+| 月 | 主要タスク | 担当 | 成果物 |
+|----|----------|------|--------|
+| 7ヶ月目 | スケールアップ計画の承認 | 経営、PM | 承認済み計画書 |
+| 7-8ヶ月目 | 追加部門のトレーニング | PM、チャンピオン | トレーニング完了報告 |
+| 8ヶ月目 | 第2部門への展開開始 | IT、臨床 | 展開報告 |
+| 9ヶ月目 | 第2部門の安定稼働確認 | PM | 安定稼働報告 |
+| 10ヶ月目 | 第3部門への展開 | IT、臨床 | 展開報告 |
+| 10-11ヶ月目 | ガバナンスフレームワーク策定 | PM、経営 | AI利用ポリシー |
+| 12ヶ月目 | 年間評価・次年度計画策定 | 全チーム | 年間報告書 |
+
+### スケールアップ戦略の3パターン
+
+| パターン | 説明 | 適する状況 | リスク |
+|---------|------|----------|--------|
+| 波状展開 | 1部門ずつ順番に展開 | リソースが限られている | 展開に時間がかかる |
+| 並行展開 | 複数部門に同時展開 | 十分なリソースがある | 問題発生時の対応が分散 |
+| ハブ&スポーク | パイロット部門が他部門を支援 | チャンピオンが強い | パイロット部門の負担増 |
+
+<Warning>
+最も安全なのは「波状展開」です。特に最初のAI導入プロジェクトでは、一度に多くの部門に展開する誘惑に負けず、段階的に進めてください。パイロットの成功は「理想的な条件」で達成されたものであり、異なる部門では新たな課題が発生する可能性が高いです。
+</Warning>
+
+## ガントチャートによる可視化
+
+全12ヶ月のタスクをガントチャート形式で整理します。
+
+```
+月：      1   2   3   4   5   6   7   8   9  10  11  12
+Phase 1  ████████████
+Phase 2              ████████████
+Phase 3                          ████████████████████████
+
+詳細タスク：
+環境整備  ████████
+データ準備     ████████
+トレーニング      ██████        ████        ████
+パイロット           ████████████
+効果測定               ██████████████
+スケールアップ                     ████████████████████
+ガバナンス                              ██████████████
+年間評価                                         ████
+```
+
+## コミュニケーション計画
+
+ロードマップの実行には、適切なコミュニケーション計画が不可欠です。
+
+| 対象 | 頻度 | 形式 | 内容 | 担当 |
+|------|------|------|------|------|
+| 経営層 | 月1回 | ステアリングコミッティ | 進捗、課題、予算執行状況 | PM |
+| コアチーム | 週1回 | 定例ミーティング | 詳細進捗、課題対応 | PM |
+| 現場スタッフ | 月1回 | ニュースレター | プロジェクト進捗、成果共有 | PM |
+| ベンダー | 週1回 | 定例ミーティング | 技術課題、スケジュール確認 | ITリード |
+| 全職員 | 四半期 | 全体説明会 | プロジェクト概要、成果発表 | スポンサー |
+
+<PromptTemplate title="月次ステアリングコミッティ報告テンプレート">
+**プロジェクト名：** [名称]
+**報告日：** [日付]
+**報告者：** [PM氏名]
+
+**1. 全体ステータス：** ○Green / △Yellow / ×Red
+
+**2. 前月の成果：**
+- [成果1]
+- [成果2]
+- [成果3]
+
+**3. 主要KPI：**
+| KPI | 目標値 | 実績値 | 達成率 |
+|-----|-------|-------|-------|
+| | | | |
+
+**4. 課題とリスク：**
+| 課題 | 影響度 | 対策 | 期限 | 担当 |
+|------|-------|------|------|------|
+| | | | | |
+
+**5. 予算執行状況：**
+- 計画：[金額]
+- 実績：[金額]
+- 差異：[金額と理由]
+
+**6. 来月の計画：**
+- [計画1]
+- [計画2]
+- [計画3]
+
+**7. 意思決定事項：**
+- [経営層に決定を求める事項]
+</PromptTemplate>
+
+## リスク管理計画
+
+### 医療AI導入における主要リスク
+
+| リスク | 発生確率 | 影響度 | 対策 | トリガー |
+|--------|---------|--------|------|---------|
+| ベンダーの遅延 | 中 | 高 | 契約にペナルティ条項、バッファ期間 | 2週間以上の遅延 |
+| データ品質の問題 | 高 | 高 | 事前のデータプロファイリング、クレンジング計画 | エラー率10%超 |
+| 現場の抵抗 | 高 | 中 | チェンジマネジメント、チャンピオン制度 | 利用率50%未満 |
+| セキュリティインシデント | 低 | 極高 | ペネトレーションテスト、インシデント対応計画 | 1件でも発生 |
+| 予算超過 | 中 | 中 | 10%の予備費、段階的投資 | 計画の120%超 |
+| キーパーソンの離脱 | 低 | 高 | クロストレーニング、ドキュメント化 | PM or チャンピオン離脱 |
+
+### リスク対応のエスカレーションルール
+
+<StepFlow>
+<StepFlowStep number={1} title="レベル1（PM対応）">
+軽微な遅延（1週間以内）、予算差異（5%以内）。PMの権限で対応し、週次報告で共有。
+</StepFlowStep>
+<StepFlowStep number={2} title="レベル2（スポンサー相談）">
+2週間以上の遅延、予算差異5-15%、スコープ変更の必要性。スポンサーに即日報告し対策を協議。
+</StepFlowStep>
+<StepFlowStep number={3} title="レベル3（ステアリングコミッティ）">
+プロジェクト継続の可否に関わる問題。患者安全に関する懸念、重大なセキュリティインシデント。緊急ステアリングコミッティを招集。
+</StepFlowStep>
+</StepFlow>
+
+## ケーススタディ：名古屋大学医学部附属病院のロードマップ
+
+名古屋大学医学部附属病院では、2024年に内視鏡AI診断支援システムの導入にあたり、以下のロードマップを策定しました。
+
+**Phase 1（2024年4月-6月）：基盤構築**
+- 5名のコアチームを編成（消化器内科2名、IT部門2名、品質管理1名）
+- ベンダー2社とPOC契約を締結
+- AMED研究費（3,000万円/3年）の内定を獲得
+
+**Phase 2（2024年7月-12月）：パイロット**
+- 消化器内科の内視鏡室2室でパイロット実施
+- 3ヶ月目の中間評価でGo判定
+- 大腸ポリープ検出率が12%向上という定量的成果
+
+**Phase 3（2025年1月-6月）：スケールアップ**
+- 全4室の内視鏡室に展開
+- 他施設（連携3病院）への横展開を計画
+- 学会発表4件、論文投稿1件
+
+**成功のポイント：**
+- Phase 1で十分な準備期間を確保し、データ品質の問題を事前に解決
+- Go/No-Go判定を厳格に実施し、「条件付きGo」として2つの改善施策を実行してからPhase 3に移行
+- 月次のステアリングコミッティで経営層の関与を維持
+
+<KeyTakeaway>
+ロードマップは「3ヶ月・6ヶ月・12ヶ月」の3フェーズで構成し、各フェーズにGo/No-Go判定を設ける。Phase 1（基盤構築）を手抜きしないことが最大の成功要因。コミュニケーション計画とリスク管理計画をロードマップに含め、プロジェクトの透明性と制御可能性を確保する。ロードマップは「計画書」ではなく「生きたドキュメント」として定期的に更新する。
+</KeyTakeaway>
+
+## 次章に向けて
+
+ロードマップが策定できたら、Phase 2の核心であるパイロットプロジェクトの設計に入ります。次章では、パイロットの範囲設定、参加者選定、成功基準の設計など、パイロットを成功させるための詳細な設計手法を解説します。
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-ai-implementation","lessonSlug":"02-04-roadmap"}],["$","$L4",null,{"items":[{"id":"なぜロードマップが必要か","text":"なぜロードマップが必要か","level":2},{"id":"3段階ロードマップの全体像","text":"3段階ロードマップの全体像","level":2},{"id":"phase-1基盤構築0-3ヶ月の詳細","text":"Phase 1：基盤構築（0-3ヶ月）の詳細","level":2},{"id":"月別マイルストーン","text":"月別マイルストーン","level":3},{"id":"プロジェクト憲章テンプレート","text":"プロジェクト憲章テンプレート","level":3},{"id":"チーム構成のベストプラクティス","text":"チーム構成のベストプラクティス","level":3},{"id":"phase-2パイロット実施3-6ヶ月の詳細","text":"Phase 2：パイロット実施（3-6ヶ月）の詳細","level":2},{"id":"月別マイルストーン","text":"月別マイルストーン","level":3},{"id":"gono-go判定フレームワーク","text":"Go/No-Go判定フレームワーク","level":3},{"id":"phase-3スケールアップ6-12ヶ月の詳細","text":"Phase 3：スケールアップ（6-12ヶ月）の詳細","level":2},{"id":"月別マイルストーン","text":"月別マイルストーン","level":3},{"id":"スケールアップ戦略の3パターン","text":"スケールアップ戦略の3パターン","level":3},{"id":"ガントチャートによる可視化","text":"ガントチャートによる可視化","level":2},{"id":"コミュニケーション計画","text":"コミュニケーション計画","level":2},{"id":"リスク管理計画","text":"リスク管理計画","level":2},{"id":"医療ai導入における主要リスク","text":"医療AI導入における主要リスク","level":3},{"id":"リスク対応のエスカレーションルール","text":"リスク対応のエスカレーションルール","level":3},{"id":"ケーススタディ名古屋大学医学部附属病院のロードマップ","text":"ケーススタディ：名古屋大学医学部附属病院のロードマップ","level":2},{"id":"次章に向けて","text":"次章に向けて","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"ai-implementation","bookTitle":"医療AI導入マネジメント — 病院・部門レベルの戦略ガイド","chapter":{"slug":"02-04-roadmap","title":"導入ロードマップの策定（3ヶ月・6ヶ月・12ヶ月）","description":"医療AI導入の具体的なロードマップを3ヶ月・6ヶ月・12ヶ月のフェーズで策定する方法論。マイルストーン設計からリスク管理まで。","partId":"part02","partTitle":"戦略設計","order":8,"partOrder":4,"estimatedMinutes":20,"estimatedReadTime":15,"free":true,"status":"published","tags":["ロードマップ","プロジェクト計画","マイルストーン","フェーズ設計"],"content":"$6"},"totalChapters":21}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"なぜロードマップが必要か","text":"なぜロードマップが必要か","level":2},{"id":"3段階ロードマップの全体像","text":"3段階ロードマップの全体像","level":2},{"id":"phase-1基盤構築0-3ヶ月の詳細","text":"Phase 1：基盤構築（0-3ヶ月）の詳細","level":2},{"id":"月別マイルストーン","text":"月別マイルストーン","level":3},{"id":"プロジェクト憲章テンプレート","text":"プロジェクト憲章テンプレート","level":3},{"id":"チーム構成のベストプラクティス","text":"チーム構成のベストプラクティス","level":3},{"id":"phase-2パイロット実施3-6ヶ月の詳細","text":"Phase 2：パイロット実施（3-6ヶ月）の詳細","level":2},{"id":"月別マイルストーン","text":"月別マイルストーン","level":3},{"id":"gono-go判定フレームワーク","text":"Go/No-Go判定フレームワーク","level":3},{"id":"phase-3スケールアップ6-12ヶ月の詳細","text":"Phase 3：スケールアップ（6-12ヶ月）の詳細","level":2},{"id":"月別マイルストーン","text":"月別マイルストーン","level":3},{"id":"スケールアップ戦略の3パターン","text":"スケールアップ戦略の3パターン","level":3},{"id":"ガントチャートによる可視化","text":"ガントチャートによる可視化","level":2},{"id":"コミュニケーション計画","text":"コミュニケーション計画","level":2},{"id":"リスク管理計画","text":"リスク管理計画","level":2},{"id":"医療ai導入における主要リスク","text":"医療AI導入における主要リスク","level":3},{"id":"リスク対応のエスカレーションルール","text":"リスク対応のエスカレーションルール","level":3},{"id":"ケーススタディ名古屋大学医学部附属病院のロードマップ","text":"ケーススタディ：名古屋大学医学部附属病院のロードマップ","level":2},{"id":"次章に向けて","text":"次章に向けて","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","h1",null,{"children":"導入ロードマップの策定（3ヶ月・6ヶ月・12ヶ月）"}],"\n",["$","p",null,{"children":"ニーズ評価、組織レディネス診断、ユースケース選定、ベンダー選定、予算策定が完了しました。いよいよ具体的な「いつ、誰が、何をするか」を定めるロードマップの策定です。本章では、3ヶ月・6ヶ月・12ヶ月の3段階で構成するロードマップ設計の方法論を解説します。"}],"\n",["$","h2",null,{"id":"なぜロードマップが必要か","children":"なぜロードマップが必要か"}],"\n",["$","$Le",null,{"value":"60%","label":"ロードマップなしにAI導入を開始したプロジェクトのうち、スケジュール遅延が発生した割合","source":"HIMSS Analytics, 2025"}],"\n",["$","p",null,{"children":"「計画なくして実行なし」は当然ですが、医療AI導入プロジェクトでは特にロードマップの重要性が高まります。理由は3つあります。"}],"\n",["$","$Lf",null,{"title":"ロードマップが不可欠な3つの理由","children":["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"多職種の同時進行"}]," — IT部門のシステム構築、現場のトレーニング、経営層への報告が並行して進む。全員が同じタイムラインを共有する必要がある。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"段階的投資の判断基準"}]," — 経営層は各フェーズの成果を見て次の投資を判断する。フェーズごとのGo/No-Go基準が明確でなければ意思決定が遅延する。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"外部ベンダーとの協業"}]," — ベンダーのリソース確保、機器調達、規制対応にはリードタイムがある。逆算してスケジュールを組む必要がある。"]}],"\n"]}]}],"\n",["$","h2",null,{"id":"3段階ロードマップの全体像","children":"3段階ロードマップの全体像"}],"\n",["$","p",null,{"children":"医療AI導入のロードマップは、以下の3フェーズで構成します。"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"Phase 1：基盤構築（0-3ヶ月）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"環境整備、チーム組成、データ準備、パイロット設計。「走り出す前の準備」を徹底的に行うフェーズ。ここを手抜きすると後のフェーズで大きな手戻りが発生する。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"Phase 2：パイロット実施（3-6ヶ月）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"限定的な環境でのAI運用、効果測定、フィードバック収集。「小さく始めて学ぶ」フェーズ。ここでの学習が全体展開の成否を決める。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"Phase 3：スケールアップ（6-12ヶ月）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"パイロットの成果をもとに、対象範囲を拡大。「学びを活かして広げる」フェーズ。ガバナンス構築と組織定着を並行して進める。"}]}]]}]]}]]}]]}],"\n",["$","h2",null,{"id":"phase-1基盤構築0-3ヶ月の詳細","children":"Phase 1：基盤構築（0-3ヶ月）の詳細"}],"\n",["$","h3",null,{"id":"月別マイルストーン","children":"月別マイルストーン"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"月"}],["$","th",null,{"children":"主要タスク"}],["$","th",null,{"children":"担当"}],["$","th",null,{"children":"成果物"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1ヶ月目"}],["$","td",null,{"children":"プロジェクトチーム発足、キックオフ"}],["$","td",null,{"children":"PM、経営層"}],["$","td",null,{"children":"プロジェクト憲章、チーム体制図"}]]}],"$L10","$L11","$L12","$L13","$L14"]}]]}],"\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d"]}]
+9:["$","$L3e",null,{"bookId":"ai-implementation","chapterSlug":"02-04-roadmap"}]
+a:["$","$L3f",null,{"bookId":"ai-implementation","prev":{"slug":"02-03-budget-roi","title":"予算策定とROI算出モデル","order":6},"next":{"slug":"03-01-pilot-design","title":"パイロットプロジェクトの設計","order":9}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L40",null,{"children":["$","$41",null,{"name":"Next.MetadataOutlet","children":"$@42"}]}]
+10:["$","tr",null,{"children":[["$","td",null,{"children":"1ヶ月目"}],["$","td",null,{"children":"ベンダーとの契約締結"}],["$","td",null,{"children":"事務、法務"}],["$","td",null,{"children":"契約書、SLA"}]]}]
+11:["$","tr",null,{"children":[["$","td",null,{"children":"1-2ヶ月目"}],["$","td",null,{"children":"IT環境整備（ネットワーク、セキュリティ）"}],["$","td",null,{"children":"IT部門"}],["$","td",null,{"children":"環境構築完了報告書"}]]}]
+12:["$","tr",null,{"children":[["$","td",null,{"children":"2ヶ月目"}],["$","td",null,{"children":"データ準備・クレンジング"}],["$","td",null,{"children":"IT、臨床"}],["$","td",null,{"children":"データ品質レポート"}]]}]
+13:["$","tr",null,{"children":[["$","td",null,{"children":"2-3ヶ月目"}],["$","td",null,{"children":"パイロット設計"}],["$","td",null,{"children":"PM、臨床"}],["$","td",null,{"children":"パイロット計画書"}]]}]
+14:["$","tr",null,{"children":[["$","td",null,{"children":"3ヶ月目"}],["$","td",null,{"children":"スタッフトレーニング（パイロット参加者）"}],["$","td",null,{"children":"ベンダー、PM"}],["$","td",null,{"children":"トレーニング完了証"}]]}]
+15:["$","h3",null,{"id":"プロジェクト憲章テンプレート","children":"プロジェクト憲章テンプレート"}]
+16:["$","$L43",null,{"title":"AI導入プロジェクト憲章テンプレート","children":[["$","p",null,{"children":[["$","strong",null,{"children":"1. プロジェクト名："}]," [例：放射線科AI画像診断支援導入プロジェクト]"]}],["$","p",null,{"children":[["$","strong",null,{"children":"2. プロジェクトスポンサー："}]," [例：副病院長（医療情報担当）]"]}],["$","p",null,{"children":[["$","strong",null,{"children":"3. プロジェクトマネージャー："}]," [氏名・所属]"]}],["$","p",null,{"children":["$","strong",null,{"children":"4. 背景と目的："}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"現状の課題：[ニーズ評価の結果から]"}],"\n",["$","li",null,{"children":"目指す姿：[AI導入後の理想状態]"}],"\n",["$","li",null,{"children":"期待する効果：[定量的な目標値]"}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"5. スコープ："}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"対象部門：[例：放射線科]"}],"\n",["$","li",null,{"children":"対象業務：[例：胸部X線読影]"}],"\n",["$","li",null,{"children":"対象期間：[例：2026年4月-2027年3月（12ヶ月）]"}],"\n",["$","li",null,{"children":"除外事項：[スコープ外のもの]"}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"6. 主要マイルストーン："}]}],["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"マイルストーン"}],["$","th",null,{"children":"予定日"}],["$","th",null,{"children":"Go/No-Go基準"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Phase 1完了"}],["$","td",null,{"children":"[日付]"}],["$","td",null,{"children":"[基準]"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Phase 2完了"}],["$","td",null,{"children":"[日付]"}],["$","td",null,{"children":"[基準]"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Phase 3完了"}],["$","td",null,{"children":"[日付]"}],["$","td",null,{"children":"[基準]"}]]}]]}]]}],["$","p",null,{"children":["$","strong",null,{"children":"7. 体制："}]}],["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"役割"}],["$","th",null,{"children":"氏名"}],["$","th",null,{"children":"所属"}],["$","th",null,{"children":"工数（%）"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"スポンサー"}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{"children":"5%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"PM"}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{"children":"50%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"臨床リード"}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{"children":"20%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"ITリード"}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{"children":"30%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"ベンダーPM"}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{"children":"100%"}]]}]]}]]}],["$","p",null,{"children":["$","strong",null,{"children":"8. 予算："}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"Phase 1：[金額]"}],"\n",["$","li",null,{"children":"Phase 2：[金額]"}],"\n",["$","li",null,{"children":"Phase 3：[金額]"}],"\n",["$","li",null,{"children":"予備費（10%）：[金額]"}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"9. リスクと対策："}]}],["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"リスク"}],["$","th",null,{"children":"影響度"}],["$","th",null,{"children":"発生確率"}],["$","th",null,{"children":"対策"}]]}]}],["$","tbody",null,{"children":["$","tr",null,{"children":[["$","td",null,{}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{}]]}]}]]}],["$","p",null,{"children":["$","strong",null,{"children":"10. 承認："}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"承認者：[氏名]"}],"\n",["$","li",null,{"children":"承認日：[日付]"}],"\n"]}]]}]
+17:["$","h3",null,{"id":"チーム構成のベストプラクティス","children":"チーム構成のベストプラクティス"}]
+18:["$","$Lf",null,{"title":"医療AI導入プロジェクトの理想的なチーム構成","children":[["$","p",null,{"children":["$","strong",null,{"children":"コアチーム（常時参画）"}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"プロジェクトマネージャー（PM）"}],"：全体統括。医療とITの両方を理解する人材が理想。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"臨床リード"}],"：対象診療科の医師。現場での推進役（AIチャンピオン）。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"ITリード"}],"：システム構築・データ連携の責任者。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"ベンダーPM"}],"：ベンダー側のプロジェクト責任者。"]}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"拡大チーム（定期参画）"}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"経営スポンサー"}],"：予算・組織的支援の確保。月1回のステアリングコミッティ。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"看護リード"}],"：看護業務への影響評価とトレーニング支援。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"品質管理"}],"：安全性・品質指標のモニタリング。"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"事務リード"}],"：契約管理、外部資金管理。"]}],"\n"]}]]}]
+19:["$","h2",null,{"id":"phase-2パイロット実施3-6ヶ月の詳細","children":"Phase 2：パイロット実施（3-6ヶ月）の詳細"}]
+1a:["$","h3",null,{"id":"月別マイルストーン","children":"月別マイルストーン"}]
+1b:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"月"}],["$","th",null,{"children":"主要タスク"}],["$","th",null,{"children":"担当"}],["$","th",null,{"children":"成果物"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"4ヶ月目"}],["$","td",null,{"children":"パイロット開始、初期データ収集"}],["$","td",null,{"children":"臨床、IT"}],["$","td",null,{"children":"運用開始報告"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"4ヶ月目"}],["$","td",null,{"children":"週次モニタリング開始"}],["$","td",null,{"children":"PM"}],["$","td",null,{"children":"週次レポート"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"5ヶ月目"}],["$","td",null,{"children":"中間評価、課題特定"}],["$","td",null,{"children":"PM、臨床"}],["$","td",null,{"children":"中間評価レポート"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"5ヶ月目"}],["$","td",null,{"children":"改善施策の実行"}],["$","td",null,{"children":"IT、ベンダー"}],["$","td",null,{"children":"改善実施報告"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"6ヶ月目"}],["$","td",null,{"children":"パイロット最終評価"}],["$","td",null,{"children":"PM、全チーム"}],["$","td",null,{"children":"最終評価レポート"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"6ヶ月目"}],["$","td",null,{"children":"スケールアップ計画策定"}],["$","td",null,{"children":"PM、経営"}],["$","td",null,{"children":"Phase 3計画書"}]]}]]}]]}]
+1c:["$","h3",null,{"id":"gono-go判定フレームワーク","children":"Go/No-Go判定フレームワーク"}]
+1d:["$","p",null,{"children":"Phase 2完了時に、Phase 3（スケールアップ）への移行可否を判定します。"}]
+1e:["$","$L43",null,{"title":"Go/No-Go判定チェックリスト","children":[["$","p",null,{"children":["$","strong",null,{"children":"必須基準（すべてGreenであること）"}]}],["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","患者安全に関するインシデントがゼロ"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","AIの性能指標がベンダー公表値の90%以上"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","ユーザー利用率が80%以上（パイロット参加者中）"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","データセキュリティに関する問題がゼロ"]}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"主要基準（4つ以上Greenであること）"}]}],["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","業務効率化の定量的効果が目標の70%以上を達成"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","ユーザー満足度スコアが5段階中3.5以上"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","既存システムとの連携が安定稼働"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","ベンダーのサポート体制に問題なし"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","スケールアップに必要な予算が確保済み"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","次のフェーズのチャンピオン（推進者）が特定済み"]}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"判定基準："}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Go（進行）"}],"：必須基準すべてGreen + 主要基準4つ以上Green"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Conditional Go（条件付き進行）"}],"：必須基準すべてGreen + 主要基準3つGreen → 改善計画を策定して進行"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"No-Go（中止/延期）"}],"：必須基準に1つでもRed → 改善後に再評価"]}],"\n"]}]]}]
+1f:["$","h2",null,{"id":"phase-3スケールアップ6-12ヶ月の詳細","children":"Phase 3：スケールアップ（6-12ヶ月）の詳細"}]
+20:["$","h3",null,{"id":"月別マイルストーン","children":"月別マイルストーン"}]
+21:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"月"}],["$","th",null,{"children":"主要タスク"}],["$","th",null,{"children":"担当"}],["$","th",null,{"children":"成果物"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"7ヶ月目"}],["$","td",null,{"children":"スケールアップ計画の承認"}],["$","td",null,{"children":"経営、PM"}],["$","td",null,{"children":"承認済み計画書"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"7-8ヶ月目"}],["$","td",null,{"children":"追加部門のトレーニング"}],["$","td",null,{"children":"PM、チャンピオン"}],["$","td",null,{"children":"トレーニング完了報告"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"8ヶ月目"}],["$","td",null,{"children":"第2部門への展開開始"}],["$","td",null,{"children":"IT、臨床"}],["$","td",null,{"children":"展開報告"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"9ヶ月目"}],["$","td",null,{"children":"第2部門の安定稼働確認"}],["$","td",null,{"children":"PM"}],["$","td",null,{"children":"安定稼働報告"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"10ヶ月目"}],["$","td",null,{"children":"第3部門への展開"}],["$","td",null,{"children":"IT、臨床"}],["$","td",null,{"children":"展開報告"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"10-11ヶ月目"}],["$","td",null,{"children":"ガバナンスフレームワーク策定"}],["$","td",null,{"children":"PM、経営"}],["$","td",null,{"children":"AI利用ポリシー"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"12ヶ月目"}],["$","td",null,{"children":"年間評価・次年度計画策定"}],["$","td",null,{"children":"全チーム"}],["$","td",null,{"children":"年間報告書"}]]}]]}]]}]
+22:["$","h3",null,{"id":"スケールアップ戦略の3パターン","children":"スケールアップ戦略の3パターン"}]
+23:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"パターン"}],["$","th",null,{"children":"説明"}],["$","th",null,{"children":"適する状況"}],["$","th",null,{"children":"リスク"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"波状展開"}],["$","td",null,{"children":"1部門ずつ順番に展開"}],["$","td",null,{"children":"リソースが限られている"}],["$","td",null,{"children":"展開に時間がかかる"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"並行展開"}],["$","td",null,{"children":"複数部門に同時展開"}],["$","td",null,{"children":"十分なリソースがある"}],["$","td",null,{"children":"問題発生時の対応が分散"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"ハブ&スポーク"}],["$","td",null,{"children":"パイロット部門が他部門を支援"}],["$","td",null,{"children":"チャンピオンが強い"}],["$","td",null,{"children":"パイロット部門の負担増"}]]}]]}]]}]
+24:["$","$L44",null,{"children":["$","p",null,{"children":"最も安全なのは「波状展開」です。特に最初のAI導入プロジェクトでは、一度に多くの部門に展開する誘惑に負けず、段階的に進めてください。パイロットの成功は「理想的な条件」で達成されたものであり、異なる部門では新たな課題が発生する可能性が高いです。"}]}]
+25:["$","h2",null,{"id":"ガントチャートによる可視化","children":"ガントチャートによる可視化"}]
+26:["$","p",null,{"children":"全12ヶ月のタスクをガントチャート形式で整理します。"}]
+27:["$","pre",null,{"children":["$","code",null,{"children":"月：      1   2   3   4   5   6   7   8   9  10  11  12\nPhase 1  ████████████\nPhase 2              ████████████\nPhase 3                          ████████████████████████\n\n詳細タスク：\n環境整備  ████████\nデータ準備     ████████\nトレーニング      ██████        ████        ████\nパイロット           ████████████\n効果測定               ██████████████\nスケールアップ                     ████████████████████\nガバナンス                              ██████████████\n年間評価                                         ████\n"}]}]
+28:["$","h2",null,{"id":"コミュニケーション計画","children":"コミュニケーション計画"}]
+29:["$","p",null,{"children":"ロードマップの実行には、適切なコミュニケーション計画が不可欠です。"}]
+2a:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"対象"}],["$","th",null,{"children":"頻度"}],["$","th",null,{"children":"形式"}],["$","th",null,{"children":"内容"}],["$","th",null,{"children":"担当"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"経営層"}],["$","td",null,{"children":"月1回"}],["$","td",null,{"children":"ステアリングコミッティ"}],["$","td",null,{"children":"進捗、課題、予算執行状況"}],["$","td",null,{"children":"PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"コアチーム"}],["$","td",null,{"children":"週1回"}],["$","td",null,{"children":"定例ミーティング"}],["$","td",null,{"children":"詳細進捗、課題対応"}],["$","td",null,{"children":"PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"現場スタッフ"}],["$","td",null,{"children":"月1回"}],["$","td",null,{"children":"ニュースレター"}],["$","td",null,{"children":"プロジェクト進捗、成果共有"}],["$","td",null,{"children":"PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"ベンダー"}],["$","td",null,{"children":"週1回"}],["$","td",null,{"children":"定例ミーティング"}],["$","td",null,{"children":"技術課題、スケジュール確認"}],["$","td",null,{"children":"ITリード"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"全職員"}],["$","td",null,{"children":"四半期"}],["$","td",null,{"children":"全体説明会"}],["$","td",null,{"children":"プロジェクト概要、成果発表"}],["$","td",null,{"children":"スポンサー"}]]}]]}]]}]
+2b:["$","$L43",null,{"title":"月次ステアリングコミッティ報告テンプレート","children":[["$","p",null,{"children":[["$","strong",null,{"children":"プロジェクト名："}]," [名称]\n",["$","strong",null,{"children":"報告日："}]," [日付]\n",["$","strong",null,{"children":"報告者："}]," [PM氏名]"]}],["$","p",null,{"children":[["$","strong",null,{"children":"1. 全体ステータス："}]," ○Green / △Yellow / ×Red"]}],["$","p",null,{"children":["$","strong",null,{"children":"2. 前月の成果："}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"[成果1]"}],"\n",["$","li",null,{"children":"[成果2]"}],"\n",["$","li",null,{"children":"[成果3]"}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"3. 主要KPI："}]}],["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"KPI"}],["$","th",null,{"children":"目標値"}],["$","th",null,{"children":"実績値"}],["$","th",null,{"children":"達成率"}]]}]}],["$","tbody",null,{"children":["$","tr",null,{"children":[["$","td",null,{}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{}]]}]}]]}],["$","p",null,{"children":["$","strong",null,{"children":"4. 課題とリスク："}]}],["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"課題"}],["$","th",null,{"children":"影響度"}],["$","th",null,{"children":"対策"}],["$","th",null,{"children":"期限"}],["$","th",null,{"children":"担当"}]]}]}],["$","tbody",null,{"children":["$","tr",null,{"children":[["$","td",null,{}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{}]]}]}]]}],["$","p",null,{"children":["$","strong",null,{"children":"5. 予算執行状況："}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"計画：[金額]"}],"\n",["$","li",null,{"children":"実績：[金額]"}],"\n",["$","li",null,{"children":"差異：[金額と理由]"}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"6. 来月の計画："}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"[計画1]"}],"\n",["$","li",null,{"children":"[計画2]"}],"\n",["$","li",null,{"children":"[計画3]"}],"\n"]}],["$","p",null,{"children":["$","strong",null,{"children":"7. 意思決定事項："}]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"[経営層に決定を求める事項]"}],"\n"]}]]}]
+2c:["$","h2",null,{"id":"リスク管理計画","children":"リスク管理計画"}]
+2d:["$","h3",null,{"id":"医療ai導入における主要リスク","children":"医療AI導入における主要リスク"}]
+2e:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"リスク"}],["$","th",null,{"children":"発生確率"}],["$","th",null,{"children":"影響度"}],["$","th",null,{"children":"対策"}],["$","th",null,{"children":"トリガー"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"ベンダーの遅延"}],["$","td",null,{"children":"中"}],["$","td",null,{"children":"高"}],["$","td",null,{"children":"契約にペナルティ条項、バッファ期間"}],["$","td",null,{"children":"2週間以上の遅延"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"データ品質の問題"}],["$","td",null,{"children":"高"}],["$","td",null,{"children":"高"}],["$","td",null,{"children":"事前のデータプロファイリング、クレンジング計画"}],["$","td",null,{"children":"エラー率10%超"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"現場の抵抗"}],["$","td",null,{"children":"高"}],["$","td",null,{"children":"中"}],["$","td",null,{"children":"チェンジマネジメント、チャンピオン制度"}],["$","td",null,{"children":"利用率50%未満"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"セキュリティインシデント"}],["$","td",null,{"children":"低"}],["$","td",null,{"children":"極高"}],["$","td",null,{"children":"ペネトレーションテスト、インシデント対応計画"}],["$","td",null,{"children":"1件でも発生"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"予算超過"}],["$","td",null,{"children":"中"}],["$","td",null,{"children":"中"}],["$","td",null,{"children":"10%の予備費、段階的投資"}],["$","td",null,{"children":"計画の120%超"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"キーパーソンの離脱"}],["$","td",null,{"children":"低"}],["$","td",null,{"children":"高"}],["$","td",null,{"children":"クロストレーニング、ドキュメント化"}],["$","td",null,{"children":"PM or チャンピオン離脱"}]]}]]}]]}]
+2f:["$","h3",null,{"id":"リスク対応のエスカレーションルール","children":"リスク対応のエスカレーションルール"}]
+30:["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"レベル1（PM対応）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"軽微な遅延（1週間以内）、予算差異（5%以内）。PMの権限で対応し、週次報告で共有。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"レベル2（スポンサー相談）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"2週間以上の遅延、予算差異5-15%、スコープ変更の必要性。スポンサーに即日報告し対策を協議。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"レベル3（ステアリングコミッティ）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"プロジェクト継続の可否に関わる問題。患者安全に関する懸念、重大なセキュリティインシデント。緊急ステアリングコミッティを招集。"}]}]]}]]}]]}]]}]
+31:["$","h2",null,{"id":"ケーススタディ名古屋大学医学部附属病院のロードマップ","children":"ケーススタディ：名古屋大学医学部附属病院のロードマップ"}]
+32:["$","p",null,{"children":"名古屋大学医学部附属病院では、2024年に内視鏡AI診断支援システムの導入にあたり、以下のロードマップを策定しました。"}]
+33:["$","p",null,{"children":["$","strong",null,{"children":"Phase 1（2024年4月-6月）：基盤構築"}]}]
+34:["$","ul",null,{"children":["\n",["$","li",null,{"children":"5名のコアチームを編成（消化器内科2名、IT部門2名、品質管理1名）"}],"\n",["$","li",null,{"children":"ベンダー2社とPOC契約を締結"}],"\n",["$","li",null,{"children":"AMED研究費（3,000万円/3年）の内定を獲得"}],"\n"]}]
+35:["$","p",null,{"children":["$","strong",null,{"children":"Phase 2（2024年7月-12月）：パイロット"}]}]
+36:["$","ul",null,{"children":["\n",["$","li",null,{"children":"消化器内科の内視鏡室2室でパイロット実施"}],"\n",["$","li",null,{"children":"3ヶ月目の中間評価でGo判定"}],"\n",["$","li",null,{"children":"大腸ポリープ検出率が12%向上という定量的成果"}],"\n"]}]
+37:["$","p",null,{"children":["$","strong",null,{"children":"Phase 3（2025年1月-6月）：スケールアップ"}]}]
+38:["$","ul",null,{"children":["\n",["$","li",null,{"children":"全4室の内視鏡室に展開"}],"\n",["$","li",null,{"children":"他施設（連携3病院）への横展開を計画"}],"\n",["$","li",null,{"children":"学会発表4件、論文投稿1件"}],"\n"]}]
+39:["$","p",null,{"children":["$","strong",null,{"children":"成功のポイント："}]}]
+3a:["$","ul",null,{"children":["\n",["$","li",null,{"children":"Phase 1で十分な準備期間を確保し、データ品質の問題を事前に解決"}],"\n",["$","li",null,{"children":"Go/No-Go判定を厳格に実施し、「条件付きGo」として2つの改善施策を実行してからPhase 3に移行"}],"\n",["$","li",null,{"children":"月次のステアリングコミッティで経営層の関与を維持"}],"\n"]}]
+3b:["$","$L45",null,{"children":["$","p",null,{"children":"ロードマップは「3ヶ月・6ヶ月・12ヶ月」の3フェーズで構成し、各フェーズにGo/No-Go判定を設ける。Phase 1（基盤構築）を手抜きしないことが最大の成功要因。コミュニケーション計画とリスク管理計画をロードマップに含め、プロジェクトの透明性と制御可能性を確保する。ロードマップは「計画書」ではなく「生きたドキュメント」として定期的に更新する。"}]}]
+3c:["$","h2",null,{"id":"次章に向けて","children":"次章に向けて"}]
+3d:["$","p",null,{"children":"ロードマップが策定できたら、Phase 2の核心であるパイロットプロジェクトの設計に入ります。次章では、パイロットの範囲設定、参加者選定、成功基準の設計など、パイロットを成功させるための詳細な設計手法を解説します。"}]
+42:null

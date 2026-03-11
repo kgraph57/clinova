@@ -1,0 +1,309 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+36:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+37:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+38:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+39:"$Sreact.suspense"
+3b:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+3c:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonCard"]
+3d:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+3e:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T30c8,
+**「あと何年生きられますか？」この質問に完璧な答えは存在しない。しかし、より良い伝え方は学べる。**
+
+---
+
+## 予後説明が難しい理由
+
+予後（prognosis）の説明は、医療コミュニケーションの中で最も難易度が高いタスクの一つである。その理由は3つある。
+
+### 理由1：本質的な不確実性
+
+医学的予後は確率であり、個人の運命を決定論的に予測することはできない。「5年生存率60%」という統計は集団データであり、目の前の患者がその60%に入るか40%に入るかは誰にもわからない。
+
+### 理由2：医師自身の心理的負担
+
+悪い予後を伝えることは、医師にとっても心理的に大きな負担である。2023年の *Journal of Clinical Oncology* の調査では、腫瘍内科医の67%が予後の告知に強いストレスを感じていると回答し、43%が「患者の反応が怖い」と認めている。
+
+### 理由3：患者の受け止め方の多様性
+
+同じ予後情報でも、患者によって受け止め方は全く異なる。ある患者は冷静に数字を聞きたがり、別の患者は数字を聞くこと自体を拒否する。
+
+<Callout type="info" title="予後説明の3つの壁">
+1. 不確実性の壁：統計的確率は個人の運命を予測しない
+2. 心理的な壁：医師も患者も感情的に困難
+3. 多様性の壁：患者ごとに求める情報量と伝え方が異なる
+</Callout>
+
+---
+
+## 予後説明のフレームワーク：ADAPT
+
+予後説明に特化したフレームワークとして、**ADAPT**モデルを紹介する。
+
+<StepFlow>
+<StepFlowStep number={1} title="A: Ask（確認する）">
+患者がどの程度の情報を求めているかを確認する。「病気の見通しについて、詳しくお話ししてもよろしいですか？」「数字で聞きたいですか、それとも大まかな説明がよいですか？」
+</StepFlowStep>
+<StepFlowStep number={2} title="D: Deliver（伝える）">
+患者が求めるレベルに合わせて情報を提供する。統計的な数字、時間の範囲（「月単位」「年単位」）、生活機能の見通しなど、患者のニーズに応じた形式を選ぶ。
+</StepFlowStep>
+<StepFlowStep number={3} title="A: Acknowledge（受け止める）">
+患者の感情的反応を受け止める。沈黙を恐れず、患者のペースに合わせる。「ショックを受けるのは当然のことです」と感情を正当化する。
+</StepFlowStep>
+<StepFlowStep number={4} title="P: Plan（計画する）">
+今後の治療計画と生活の見通しを具体的に示す。「できること」に焦点を当てる。「3ヶ月後の再評価で治療方針を見直します」など、具体的なマイルストーンを提示する。
+</StepFlowStep>
+<StepFlowStep number={5} title="T: Together（一緒に）">
+患者を一人にしないことを明確に伝える。「何があっても、私たちのチームが一緒に対応します」「次回は〇月〇日に必ずお会いしましょう」と、継続的な関わりを約束する。
+</StepFlowStep>
+</StepFlow>
+
+---
+
+## AIによる予後説明の準備
+
+### 患者の情報ニーズの事前予測
+
+<PromptTemplate title="予後説明の情報ニーズ予測">
+以下の患者が予後説明を受ける場面で、求める情報のパターンと推奨される伝え方を提案してください。
+
+**疾患**: 膵臓がん ステージIII（局所進行、切除不能）
+**患者プロファイル**:
+- 68歳男性、元会社経営者
+- 妻と二人暮らし、息子夫婦が近くに在住
+- 性格: 合理的、情報を求めるタイプ
+- 趣味: ゴルフ、孫との時間
+
+**予測すべき項目**:
+1. この患者が最初に聞きたいであろう質問（5つ、優先度順）
+2. 統計データをどの程度まで伝えるべきか
+3. 避けるべき表現・言い回し
+4. 希望を維持できる要素（誇張なく）
+5. 家族への説明で留意すべき点
+6. 質問されたが即答が難しい場合の対応
+</PromptTemplate>
+
+### 不確実性の伝え方テンプレート
+
+不確実性の伝え方は、予後説明の最も難しい部分である。AIを使って複数の表現パターンを準備しておく。
+
+<PromptTemplate title="不確実性の表現パターン生成">
+以下の予後データについて、患者への伝え方を3つのスタイルで作成してください。
+
+**予後データ**: 局所進行膵臓がん、化学療法併用時の生存期間中央値12ヶ月、5年生存率3%
+
+**スタイル1: 数字中心型**（統計を求める患者向け）
+- 生存期間中央値の意味を正確に説明する
+- 「半数は○ヶ月以上」と「半数は○ヶ月以内」の両方を伝える
+- 外れ値（長期生存例）の存在にも触れる
+
+**スタイル2: 時間枠型**（大まかな見通しを求める患者向け）
+- 「月単位」「年単位」などの時間枠で伝える
+- 治療による改善の可能性を含める
+- 具体的な数字は避ける
+
+**スタイル3: 機能中心型**（生活の質を重視する患者向け）
+- 「いつまで○○ができるか」という視点で伝える
+- 症状コントロールの見通し
+- 生活の質を維持するための具体策
+
+それぞれのスタイルで、以下の要素を必ず含めてください:
+- 希望を完全に奪わない表現
+- 「わからない」と正直に言える部分
+- 次のステップの提示
+</PromptTemplate>
+
+---
+
+## 希望とリアリズムのバランス
+
+予後説明における最大のジレンマは、**希望を維持しながら現実を伝える**ことである。
+
+### 「希望の再定義」アプローチ
+
+がんの根治が困難な場合でも、希望の対象を再定義することで、患者の心理的支えを維持できる。
+
+| 段階 | 希望の内容 | 例 |
+|------|-----------|-----|
+| 治癒の希望 | 完全に治ること | 「がんが消える治療を探したい」 |
+| 治療効果の希望 | 治療が効くこと | 「抗がん剤が効いて小さくなってほしい」 |
+| 時間の希望 | できるだけ長く | 「孫の入学式まで生きたい」 |
+| 質の希望 | 良い時間を過ごす | 「痛みなく家で過ごしたい」 |
+| 関係性の希望 | 大切な人との時間 | 「家族と穏やかに過ごしたい」 |
+
+<Callout type="info" title="希望は治癒だけではない">
+「治る」希望が難しくなった時、医師は患者と一緒に新しい希望を見つける手助けができる。「何を大切にしたいですか？」という問いかけが、希望の再定義の出発点となる。
+</Callout>
+
+### AIを使った希望の要素の抽出
+
+<PromptTemplate title="希望の要素を含む予後説明の作成">
+以下の状況で、希望を維持しつつ現実を伝える予後説明の会話例を作成してください。
+
+**状況**: 大腸がんステージIVの60歳女性（肝転移あり）。化学療法開始前の説明。
+
+**会話例に含める要素**:
+1. 正直な現状認識（根治は困難であること）
+2. 治療の目的（延命＋症状コントロール）の明確化
+3. 希望を維持できる要素:
+   - 新薬の開発が進んでいること
+   - 症状コントロールの技術が進歩していること
+   - 個人差が大きいこと
+4. 患者にとっての「大切なこと」を聴く質問
+5. 具体的な次のステップ
+6. 「一緒に戦う」メッセージ
+
+**注意**: 嘘や過度な楽観は絶対に避ける。同時に、絶望を与える表現も避ける。
+</PromptTemplate>
+
+---
+
+## 予後説明で避けるべき表現と推奨表現
+
+<ComparisonCard
+  before={{
+    title: "避けるべき表現",
+    content: "・「もう手の施しようがありません」\n・「あと○ヶ月です」（断定的な期間）\n・「覚悟してください」\n・「何もできることはありません」\n・「奇跡が起きない限り…」"
+  }}
+  after={{
+    title: "推奨される表現",
+    content: "・「治療の目標を、がんを治すことから、できるだけ良い時間を過ごすことに切り替えましょう」\n・「時間の範囲としては月単位〜年単位と考えています。ただし個人差が大きいです」\n・「状況は厳しいですが、症状を和らげる方法はたくさんあります」\n・「何があっても、私たちが一緒に最善を尽くします」\n・「今の時点でできることを一緒に考えましょう」"
+  }}
+/>
+
+---
+
+## 家族への予後説明
+
+日本では、患者本人よりも先に家族に予後を説明する慣習が根強い。しかし、これは患者の自己決定権との間に倫理的な緊張を生む。
+
+### AIを活用した家族面談の準備
+
+<PromptTemplate title="家族面談用の説明準備">
+以下の状況での家族面談を準備してください。
+
+**状況**:
+- 患者: 75歳男性、肺がんステージIV
+- 家族: 妻（73歳）、長男（48歳）、長女（45歳）
+- 患者本人にはまだ予後を詳しく説明していない
+- 家族が「本人には言わないでほしい」と希望している
+
+**準備する内容**:
+1. 家族への医学的説明（予後を含む）
+2. 「本人に伝えるべき理由」の説明ロジック
+   - 本人の知る権利
+   - 残された時間の使い方を選ぶ権利
+   - 告知しないことのリスク（信頼関係の崩壊）
+3. 家族の不安への対応
+4. 段階的な告知のプラン提案
+5. 全員が同席できる場の設定提案
+
+**注意**: 家族の気持ちを否定せず、共感を示しながらも、患者の権利を守る方向に導く。
+</PromptTemplate>
+
+<Warning title="「言わないで」という家族の希望への対応">
+家族の「本人には言わないで」という希望は、愛情からくるものである。しかし、患者自身の知る権利と自己決定権を尊重することが医療倫理の原則である。家族の気持ちに寄り添いつつ、段階的に情報を共有していく方針を一緒に考えることが重要。
+</Warning>
+
+---
+
+## 予後に関する記録とフォローアップ
+
+予後の説明は一回で終わるものではない。患者の理解と受容は時間とともに変化する。
+
+### 説明内容の記録テンプレート
+
+AIを使って、予後説明の内容を体系的にカルテに記録する。
+
+<PromptTemplate title="予後説明カルテ記録テンプレート">
+以下の予後説明の内容を、カルテ記載用にまとめてください。
+
+**記録項目**:
+1. 説明日時、場所、同席者
+2. 患者の情報ニーズの確認結果（数字を求めたか、大まかな説明を求めたか）
+3. 伝えた予後情報の内容
+4. 患者の反応・理解度
+5. 質問とそれへの回答
+6. 今後の方針（治療計画、次回面談予定）
+7. サポート体制（緩和ケア紹介、心理士紹介の有無）
+
+**フォーマット**: SOAP形式で、客観的に記載
+</PromptTemplate>
+
+---
+
+## 実践チェックリスト
+
+予後説明の前後で確認すべき項目。
+
+- [ ] 患者が予後情報を求めているか、ADAPTの「A（Ask）」で確認したか
+- [ ] 患者が求める情報レベル（数字/時間枠/機能）を把握したか
+- [ ] 家族の意向と患者の意向を確認し、調整したか
+- [ ] 希望を維持できる要素を少なくとも1つ準備したか
+- [ ] 沈黙を許容する心の準備ができているか
+- [ ] フォローアップ面談の日程を設定したか
+- [ ] 緩和ケアチームや心理士への紹介を検討したか
+- [ ] 説明内容をカルテに記録したか
+
+<KeyTakeaway
+  points={[
+    "予後説明の難しさは「不確実性」「心理的負担」「患者の多様性」の3つに起因する",
+    "ADAPTフレームワーク（Ask-Deliver-Acknowledge-Plan-Together）で構造的に対応する",
+    "AIで患者の情報ニーズを予測し、複数の説明スタイルを事前に準備する",
+    "希望とリアリズムのバランスには「希望の再定義」アプローチが有効",
+    "予後説明は一回で終わらない。継続的なフォローアップと記録が不可欠"
+  ]}
+/>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-patient-communication","lessonSlug":"01-03-prognosis"}],["$","$L4",null,{"items":[{"id":"予後説明が難しい理由","text":"予後説明が難しい理由","level":2},{"id":"理由1本質的な不確実性","text":"理由1：本質的な不確実性","level":3},{"id":"理由2医師自身の心理的負担","text":"理由2：医師自身の心理的負担","level":3},{"id":"理由3患者の受け止め方の多様性","text":"理由3：患者の受け止め方の多様性","level":3},{"id":"予後説明のフレームワークadapt","text":"予後説明のフレームワーク：ADAPT","level":2},{"id":"aiによる予後説明の準備","text":"AIによる予後説明の準備","level":2},{"id":"患者の情報ニーズの事前予測","text":"患者の情報ニーズの事前予測","level":3},{"id":"不確実性の伝え方テンプレート","text":"不確実性の伝え方テンプレート","level":3},{"id":"希望とリアリズムのバランス","text":"希望とリアリズムのバランス","level":2},{"id":"希望の再定義アプローチ","text":"「希望の再定義」アプローチ","level":3},{"id":"aiを使った希望の要素の抽出","text":"AIを使った希望の要素の抽出","level":3},{"id":"予後説明で避けるべき表現と推奨表現","text":"予後説明で避けるべき表現と推奨表現","level":2},{"id":"家族への予後説明","text":"家族への予後説明","level":2},{"id":"aiを活用した家族面談の準備","text":"AIを活用した家族面談の準備","level":3},{"id":"予後に関する記録とフォローアップ","text":"予後に関する記録とフォローアップ","level":2},{"id":"説明内容の記録テンプレート","text":"説明内容の記録テンプレート","level":3},{"id":"実践チェックリスト","text":"実践チェックリスト","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"patient-communication","bookTitle":"AI×患者コミュニケーション術 — 説明・同意・教育・共有の技術","chapter":{"slug":"01-03-prognosis","title":"予後説明の難しさとAIによるサポート","description":"最も難しいコミュニケーションの一つである予後説明。不確実性の伝え方、希望とリアリズムのバランス、AIによる説明支援を解説。","partId":"part01","partTitle":"病状説明の技術","order":3,"partOrder":1,"estimatedMinutes":20,"estimatedReadTime":17,"free":true,"status":"published","tags":["予後説明","不確実性","がん告知","コミュニケーション","希望"],"content":"$6"},"totalChapters":22}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"予後説明が難しい理由","text":"予後説明が難しい理由","level":2},{"id":"理由1本質的な不確実性","text":"理由1：本質的な不確実性","level":3},{"id":"理由2医師自身の心理的負担","text":"理由2：医師自身の心理的負担","level":3},{"id":"理由3患者の受け止め方の多様性","text":"理由3：患者の受け止め方の多様性","level":3},{"id":"予後説明のフレームワークadapt","text":"予後説明のフレームワーク：ADAPT","level":2},{"id":"aiによる予後説明の準備","text":"AIによる予後説明の準備","level":2},{"id":"患者の情報ニーズの事前予測","text":"患者の情報ニーズの事前予測","level":3},{"id":"不確実性の伝え方テンプレート","text":"不確実性の伝え方テンプレート","level":3},{"id":"希望とリアリズムのバランス","text":"希望とリアリズムのバランス","level":2},{"id":"希望の再定義アプローチ","text":"「希望の再定義」アプローチ","level":3},{"id":"aiを使った希望の要素の抽出","text":"AIを使った希望の要素の抽出","level":3},{"id":"予後説明で避けるべき表現と推奨表現","text":"予後説明で避けるべき表現と推奨表現","level":2},{"id":"家族への予後説明","text":"家族への予後説明","level":2},{"id":"aiを活用した家族面談の準備","text":"AIを活用した家族面談の準備","level":3},{"id":"予後に関する記録とフォローアップ","text":"予後に関する記録とフォローアップ","level":2},{"id":"説明内容の記録テンプレート","text":"説明内容の記録テンプレート","level":3},{"id":"実践チェックリスト","text":"実践チェックリスト","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":["$","strong",null,{"children":"「あと何年生きられますか？」この質問に完璧な答えは存在しない。しかし、より良い伝え方は学べる。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"予後説明が難しい理由","children":"予後説明が難しい理由"}],"\n",["$","p",null,{"children":"予後（prognosis）の説明は、医療コミュニケーションの中で最も難易度が高いタスクの一つである。その理由は3つある。"}],"\n",["$","h3",null,{"id":"理由1本質的な不確実性","children":"理由1：本質的な不確実性"}],"\n",["$","p",null,{"children":"医学的予後は確率であり、個人の運命を決定論的に予測することはできない。「5年生存率60%」という統計は集団データであり、目の前の患者がその60%に入るか40%に入るかは誰にもわからない。"}],"\n",["$","h3",null,{"id":"理由2医師自身の心理的負担","children":"理由2：医師自身の心理的負担"}],"\n",["$","p",null,{"children":["悪い予後を伝えることは、医師にとっても心理的に大きな負担である。2023年の ",["$","em",null,{"children":"Journal of Clinical Oncology"}]," の調査では、腫瘍内科医の67%が予後の告知に強いストレスを感じていると回答し、43%が「患者の反応が怖い」と認めている。"]}],"\n",["$","h3",null,{"id":"理由3患者の受け止め方の多様性","children":"理由3：患者の受け止め方の多様性"}],"\n",["$","p",null,{"children":"同じ予後情報でも、患者によって受け止め方は全く異なる。ある患者は冷静に数字を聞きたがり、別の患者は数字を聞くこと自体を拒否する。"}],"\n",["$","$Le",null,{"type":"info","title":"予後説明の3つの壁","children":["$","ol",null,{"children":["\n",["$","li",null,{"children":"不確実性の壁：統計的確率は個人の運命を予測しない"}],"\n",["$","li",null,{"children":"心理的な壁：医師も患者も感情的に困難"}],"\n",["$","li",null,{"children":"多様性の壁：患者ごとに求める情報量と伝え方が異なる"}],"\n"]}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"予後説明のフレームワークadapt","children":"予後説明のフレームワーク：ADAPT"}],"\n",["$","p",null,{"children":["予後説明に特化したフレームワークとして、",["$","strong",null,{"children":"ADAPT"}],"モデルを紹介する。"]}],"\n",["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"A: Ask（確認する）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"患者がどの程度の情報を求めているかを確認する。「病気の見通しについて、詳しくお話ししてもよろしいですか？」「数字で聞きたいですか、それとも大まかな説明がよいですか？」"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"D: Deliver（伝える）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"患者が求めるレベルに合わせて情報を提供する。統計的な数字、時間の範囲（「月単位」「年単位」）、生活機能の見通しなど、患者のニーズに応じた形式を選ぶ。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"A: Acknowledge（受け止める）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"患者の感情的反応を受け止める。沈黙を恐れず、患者のペースに合わせる。「ショックを受けるのは当然のことです」と感情を正当化する。"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],"$Lf"]}],"$L10"]}],"$L11"]}]]}],"\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35"]}]
+9:["$","$L36",null,{"bookId":"patient-communication","chapterSlug":"01-03-prognosis"}]
+a:["$","$L37",null,{"bookId":"patient-communication","prev":{"slug":"01-02-treatment-options","title":"治療選択肢の説明とShared Decision Making","order":2},"next":{"slug":"02-01-consent-documents","title":"AI支援による同意書作成の効率化","order":4}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L38",null,{"children":["$","$39",null,{"name":"Next.MetadataOutlet","children":"$@3a"}]}]
+f:["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]
+10:["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"P: Plan（計画する）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"今後の治療計画と生活の見通しを具体的に示す。「できること」に焦点を当てる。「3ヶ月後の再評価で治療方針を見直します」など、具体的なマイルストーンを提示する。"}]}]]}]
+11:["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"T: Together（一緒に）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"患者を一人にしないことを明確に伝える。「何があっても、私たちのチームが一緒に対応します」「次回は〇月〇日に必ずお会いしましょう」と、継続的な関わりを約束する。"}]}]]}]]}]
+12:["$","hr",null,{}]
+13:["$","h2",null,{"id":"aiによる予後説明の準備","children":"AIによる予後説明の準備"}]
+14:["$","h3",null,{"id":"患者の情報ニーズの事前予測","children":"患者の情報ニーズの事前予測"}]
+15:["$","$L3b",null,{"title":"予後説明の情報ニーズ予測","children":[["$","p",null,{"children":"以下の患者が予後説明を受ける場面で、求める情報のパターンと推奨される伝え方を提案してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"疾患"}],": 膵臓がん ステージIII（局所進行、切除不能）\n",["$","strong",null,{"children":"患者プロファイル"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"68歳男性、元会社経営者"}],"\n",["$","li",null,{"children":"妻と二人暮らし、息子夫婦が近くに在住"}],"\n",["$","li",null,{"children":"性格: 合理的、情報を求めるタイプ"}],"\n",["$","li",null,{"children":"趣味: ゴルフ、孫との時間"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"予測すべき項目"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"この患者が最初に聞きたいであろう質問（5つ、優先度順）"}],"\n",["$","li",null,{"children":"統計データをどの程度まで伝えるべきか"}],"\n",["$","li",null,{"children":"避けるべき表現・言い回し"}],"\n",["$","li",null,{"children":"希望を維持できる要素（誇張なく）"}],"\n",["$","li",null,{"children":"家族への説明で留意すべき点"}],"\n",["$","li",null,{"children":"質問されたが即答が難しい場合の対応"}],"\n"]}]]}]
+16:["$","h3",null,{"id":"不確実性の伝え方テンプレート","children":"不確実性の伝え方テンプレート"}]
+17:["$","p",null,{"children":"不確実性の伝え方は、予後説明の最も難しい部分である。AIを使って複数の表現パターンを準備しておく。"}]
+18:["$","$L3b",null,{"title":"不確実性の表現パターン生成","children":[["$","p",null,{"children":"以下の予後データについて、患者への伝え方を3つのスタイルで作成してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"予後データ"}],": 局所進行膵臓がん、化学療法併用時の生存期間中央値12ヶ月、5年生存率3%"]}],["$","p",null,{"children":[["$","strong",null,{"children":"スタイル1: 数字中心型"}],"（統計を求める患者向け）"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"生存期間中央値の意味を正確に説明する"}],"\n",["$","li",null,{"children":"「半数は○ヶ月以上」と「半数は○ヶ月以内」の両方を伝える"}],"\n",["$","li",null,{"children":"外れ値（長期生存例）の存在にも触れる"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"スタイル2: 時間枠型"}],"（大まかな見通しを求める患者向け）"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"「月単位」「年単位」などの時間枠で伝える"}],"\n",["$","li",null,{"children":"治療による改善の可能性を含める"}],"\n",["$","li",null,{"children":"具体的な数字は避ける"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"スタイル3: 機能中心型"}],"（生活の質を重視する患者向け）"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"「いつまで○○ができるか」という視点で伝える"}],"\n",["$","li",null,{"children":"症状コントロールの見通し"}],"\n",["$","li",null,{"children":"生活の質を維持するための具体策"}],"\n"]}],["$","p",null,{"children":"それぞれのスタイルで、以下の要素を必ず含めてください:"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"希望を完全に奪わない表現"}],"\n",["$","li",null,{"children":"「わからない」と正直に言える部分"}],"\n",["$","li",null,{"children":"次のステップの提示"}],"\n"]}]]}]
+19:["$","hr",null,{}]
+1a:["$","h2",null,{"id":"希望とリアリズムのバランス","children":"希望とリアリズムのバランス"}]
+1b:["$","p",null,{"children":["予後説明における最大のジレンマは、",["$","strong",null,{"children":"希望を維持しながら現実を伝える"}],"ことである。"]}]
+1c:["$","h3",null,{"id":"希望の再定義アプローチ","children":"「希望の再定義」アプローチ"}]
+1d:["$","p",null,{"children":"がんの根治が困難な場合でも、希望の対象を再定義することで、患者の心理的支えを維持できる。"}]
+1e:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"段階"}],["$","th",null,{"children":"希望の内容"}],["$","th",null,{"children":"例"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"治癒の希望"}],["$","td",null,{"children":"完全に治ること"}],["$","td",null,{"children":"「がんが消える治療を探したい」"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"治療効果の希望"}],["$","td",null,{"children":"治療が効くこと"}],["$","td",null,{"children":"「抗がん剤が効いて小さくなってほしい」"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"時間の希望"}],["$","td",null,{"children":"できるだけ長く"}],["$","td",null,{"children":"「孫の入学式まで生きたい」"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"質の希望"}],["$","td",null,{"children":"良い時間を過ごす"}],["$","td",null,{"children":"「痛みなく家で過ごしたい」"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"関係性の希望"}],["$","td",null,{"children":"大切な人との時間"}],["$","td",null,{"children":"「家族と穏やかに過ごしたい」"}]]}]]}]]}]
+1f:["$","$Le",null,{"type":"info","title":"希望は治癒だけではない","children":["$","p",null,{"children":"「治る」希望が難しくなった時、医師は患者と一緒に新しい希望を見つける手助けができる。「何を大切にしたいですか？」という問いかけが、希望の再定義の出発点となる。"}]}]
+20:["$","h3",null,{"id":"aiを使った希望の要素の抽出","children":"AIを使った希望の要素の抽出"}]
+21:["$","$L3b",null,{"title":"希望の要素を含む予後説明の作成","children":[["$","p",null,{"children":"以下の状況で、希望を維持しつつ現実を伝える予後説明の会話例を作成してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"状況"}],": 大腸がんステージIVの60歳女性（肝転移あり）。化学療法開始前の説明。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"会話例に含める要素"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"正直な現状認識（根治は困難であること）"}],"\n",["$","li",null,{"children":"治療の目的（延命＋症状コントロール）の明確化"}],"\n",["$","li",null,{"children":["希望を維持できる要素:","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"新薬の開発が進んでいること"}],"\n",["$","li",null,{"children":"症状コントロールの技術が進歩していること"}],"\n",["$","li",null,{"children":"個人差が大きいこと"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":"患者にとっての「大切なこと」を聴く質問"}],"\n",["$","li",null,{"children":"具体的な次のステップ"}],"\n",["$","li",null,{"children":"「一緒に戦う」メッセージ"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"注意"}],": 嘘や過度な楽観は絶対に避ける。同時に、絶望を与える表現も避ける。"]}]]}]
+22:["$","hr",null,{}]
+23:["$","h2",null,{"id":"予後説明で避けるべき表現と推奨表現","children":"予後説明で避けるべき表現と推奨表現"}]
+24:["$","$L3c",null,{}]
+25:["$","hr",null,{}]
+26:["$","h2",null,{"id":"家族への予後説明","children":"家族への予後説明"}]
+27:["$","p",null,{"children":"日本では、患者本人よりも先に家族に予後を説明する慣習が根強い。しかし、これは患者の自己決定権との間に倫理的な緊張を生む。"}]
+28:["$","h3",null,{"id":"aiを活用した家族面談の準備","children":"AIを活用した家族面談の準備"}]
+29:["$","$L3b",null,{"title":"家族面談用の説明準備","children":[["$","p",null,{"children":"以下の状況での家族面談を準備してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"状況"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"患者: 75歳男性、肺がんステージIV"}],"\n",["$","li",null,{"children":"家族: 妻（73歳）、長男（48歳）、長女（45歳）"}],"\n",["$","li",null,{"children":"患者本人にはまだ予後を詳しく説明していない"}],"\n",["$","li",null,{"children":"家族が「本人には言わないでほしい」と希望している"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"準備する内容"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"家族への医学的説明（予後を含む）"}],"\n",["$","li",null,{"children":["「本人に伝えるべき理由」の説明ロジック","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"本人の知る権利"}],"\n",["$","li",null,{"children":"残された時間の使い方を選ぶ権利"}],"\n",["$","li",null,{"children":"告知しないことのリスク（信頼関係の崩壊）"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":"家族の不安への対応"}],"\n",["$","li",null,{"children":"段階的な告知のプラン提案"}],"\n",["$","li",null,{"children":"全員が同席できる場の設定提案"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"注意"}],": 家族の気持ちを否定せず、共感を示しながらも、患者の権利を守る方向に導く。"]}]]}]
+2a:["$","$L3d",null,{"title":"「言わないで」という家族の希望への対応","children":["$","p",null,{"children":"家族の「本人には言わないで」という希望は、愛情からくるものである。しかし、患者自身の知る権利と自己決定権を尊重することが医療倫理の原則である。家族の気持ちに寄り添いつつ、段階的に情報を共有していく方針を一緒に考えることが重要。"}]}]
+2b:["$","hr",null,{}]
+2c:["$","h2",null,{"id":"予後に関する記録とフォローアップ","children":"予後に関する記録とフォローアップ"}]
+2d:["$","p",null,{"children":"予後の説明は一回で終わるものではない。患者の理解と受容は時間とともに変化する。"}]
+2e:["$","h3",null,{"id":"説明内容の記録テンプレート","children":"説明内容の記録テンプレート"}]
+2f:["$","p",null,{"children":"AIを使って、予後説明の内容を体系的にカルテに記録する。"}]
+30:["$","$L3b",null,{"title":"予後説明カルテ記録テンプレート","children":[["$","p",null,{"children":"以下の予後説明の内容を、カルテ記載用にまとめてください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"記録項目"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"説明日時、場所、同席者"}],"\n",["$","li",null,{"children":"患者の情報ニーズの確認結果（数字を求めたか、大まかな説明を求めたか）"}],"\n",["$","li",null,{"children":"伝えた予後情報の内容"}],"\n",["$","li",null,{"children":"患者の反応・理解度"}],"\n",["$","li",null,{"children":"質問とそれへの回答"}],"\n",["$","li",null,{"children":"今後の方針（治療計画、次回面談予定）"}],"\n",["$","li",null,{"children":"サポート体制（緩和ケア紹介、心理士紹介の有無）"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"フォーマット"}],": SOAP形式で、客観的に記載"]}]]}]
+31:["$","hr",null,{}]
+32:["$","h2",null,{"id":"実践チェックリスト","children":"実践チェックリスト"}]
+33:["$","p",null,{"children":"予後説明の前後で確認すべき項目。"}]
+34:["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","患者が予後情報を求めているか、ADAPTの「A（Ask）」で確認したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","患者が求める情報レベル（数字/時間枠/機能）を把握したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","家族の意向と患者の意向を確認し、調整したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","希望を維持できる要素を少なくとも1つ準備したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","沈黙を許容する心の準備ができているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","フォローアップ面談の日程を設定したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","緩和ケアチームや心理士への紹介を検討したか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","説明内容をカルテに記録したか"]}],"\n"]}]
+35:["$","$L3e",null,{}]
+3a:null

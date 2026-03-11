@@ -1,0 +1,193 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","learn","ai-basics","01-ai-definition"],"q":"","i":false,"f":[[["",{"children":["learn",{"children":[["courseId","ai-basics","d"],{"children":[["lessonSlug","01-ai-definition","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+1e:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+1f:T21e3,
+# AIとは何か
+
+## はじめに — AIがノーベル賞を受賞した日
+
+2024年、ノーベル化学賞がGoogle DeepMindの**AlphaFold2**の開発者に授与されました。AlphaFold2は、タンパク質の立体構造を予測するAIで、50年間未解決だった「タンパク質フォールディング問題」を事実上解決しました。2億以上のタンパク質の構造予測が公開され、創薬研究を根本から加速しています。
+
+しかし、AlphaFold2は「タンパク質とは何か」を理解しているわけではありません。膨大なアミノ酸配列と構造のデータから**パターン**を学習し、新しい配列に対して構造を予測しているのです。
+
+この「パターン学習」こそが、現在のAIの本質です。
+
+<ResourceCard
+  type="paper"
+  title="Highly accurate protein structure prediction with AlphaFold"
+  url="https://www.nature.com/articles/s41586-021-03819-2"
+  authors="Jumper J, Evans R, Pritzel A et al."
+  source="Nature"
+  year={2021}
+  description="AlphaFold2の論文。タンパク質構造予測でCASP14を圧倒的精度で制覇"
+/>
+
+---
+
+## AIの定義 — 「模倣」と「再現」の決定的な違い
+
+AI（Artificial Intelligence）は、「人間の知能をコンピュータで**模倣**する技術」です。重要なのは「模倣」という言葉です。
+
+<Callout type="comparison" title="「模倣」と「再現」の違い">
+
+**模倣（Imitation）**: 外側から見た振る舞いが同じ。内部の仕組みは異なっていてよい。AlphaFold2はタンパク質の構造を「予測」できるが、生化学を「理解」しているわけではない。
+
+**再現（Reproduction）**: 内部の仕組みまで同じ。人間の脳のニューロンの動きを完全に再現する。現在の技術では実現していない。
+
+→ 現在のAIは全て「模倣」の段階。結果として正しい答えを出すが、なぜその答えなのかを人間と同じように「理解」しているわけではない。
+
+</Callout>
+
+---
+
+## チューリングテスト — 知能の「判定方法」
+
+<CaseStudy title="アラン・チューリング — 「機械は考えることができるか？」" year={1950} jurisdiction="国際" tags={["チューリングテスト", "AI哲学", "知能の定義"]}>
+
+**背景**: 1950年、イギリスの数学者アラン・チューリングは論文「Computing Machinery and Intelligence」を発表。「機械は考えることができるか？」という問いを投げかけた。
+
+**テストの内容**: 人間の審査員が、テキストで相手と会話する。相手が人間かコンピュータか分からない状態で対話し、コンピュータだと見破れなければ、そのコンピュータは「知能がある」と判定する。
+
+**革新性**: 知能の**「定義」**ではなく**「判定方法」**を提案した点。「知能とは何か」という哲学的な問いを回避し、「この機械は知能を持っているように振る舞えるか」という実践的な問いに置き換えた。
+
+**現代的意義**: ChatGPTやClaudeは、多くの場面でチューリングテストに「合格」する水準の対話能力を持つ。しかし、それは「知能がある」ことを意味するのか？　この問いは今も未解決。
+
+</CaseStudy>
+
+---
+
+## 強いAI vs 弱いAI
+
+### 弱いAI（Narrow AI）
+
+特定のタスクに特化したAI。現在実用化されている**全て**のAIがこれに該当します。
+
+| 分野 | AIの例 | できること |
+|:---|:---|:---|
+| 画像認識 | 胸部X線AI（EIRL等） | 肺炎・結核・動脈瘤の検出 |
+| 自然言語処理 | ChatGPT / Claude | テキスト生成・要約・翻訳 |
+| ゲーム | AlphaGo（2016年） | 囲碁で世界チャンピオンに勝利 |
+| タンパク質 | AlphaFold2 | 立体構造の予測 |
+
+### 強いAI（AGI: Artificial General Intelligence）
+
+人間と同等の汎用的な知能を持つAI。**現在は実現していません**。
+
+<Callout type="insight" title="AGI — 期待と現実">
+
+ChatGPTやClaudeは非常に多くのタスクをこなせますが、「汎用的な知能」とは言えません。テキストから肺炎の診断基準を説明できても、実際の聴診器を使った診察はできない。数学の問題は解けても、目の前のコップを持ち上げることはできない。
+
+→ 医療現場では、AIは**特定のタスクの補助ツール**として位置づけ、最終判断は医師が行う。この原則はAGIが実現するまで変わりません。
+
+</Callout>
+
+---
+
+## AIの三つの核心能力
+
+現在のAIの能力は、大きく3つに分類できます:
+
+1. **学習**: データからパターンを発見する（10万枚のX線画像から異常パターンを学習）
+2. **推論**: 学習したパターンを新しいデータに適用する（新しいX線画像の異常を検出）
+3. **生成**: 学習したパターンに基づいて新しいデータを作る（診断書のドラフト作成）
+
+これらの能力は、医師の「経験に基づく診断」に表面的には似ていますが、本質は異なります。医師は病態生理を**理解**して診断しますが、AIはデータの**パターン**から判定しています。
+
+---
+
+## まとめ
+
+AIは「人間の知能の模倣」であり、「再現」ではありません。チューリングテストが示すように、「知能があるように見える」ことと「知能がある」ことは別の問題です。現在のAIは全て「弱いAI」（特定タスク特化）であり、医療現場では補助ツールとして位置づけ、最終判断は医師が行うという原則が重要です。
+
+次のレッスンでは、AIが1950年代から現在までどのように発展してきたかの**歴史**を学びます。
+
+<Quiz
+  courseId="ai-basics"
+  lessonSlug="01-ai-definition"
+  questions={[
+    {
+      question: "現在のAIの本質として最も正確な記述はどれか？",
+      options: ["人間の知能を完全に再現した技術", "人間の知能をコンピュータで模倣する技術で、パターン学習が核心", "人間より優れた知能を持つ技術", "ルールに基づいて論理的に推論する技術のみ"],
+      correctIndex: 1,
+      explanation: "現在のAIは人間の知能の「模倣」であり「再現」ではありません。データからパターンを学習し、そのパターンに基づいて予測・判定・生成を行います。AlphaFold2が構造を予測できてもタンパク質を「理解」しているわけではないように、外側の結果は似ていても内部の仕組みは異なります。"
+    },
+    {
+      question: "チューリングテスト（1950年）の革新的な点はどれか？",
+      options: ["知能の哲学的定義を確立した", "知能の「定義」ではなく「判定方法」を提案した", "コンピュータが人間より知的であることを証明した", "AIの開発方法を具体的に示した"],
+      correctIndex: 1,
+      explanation: "チューリングテストの革新性は、「知能とは何か」という哲学的問いを回避し、「この機械は知能を持っているように振る舞えるか」という実践的な判定方法を提案した点にあります。"
+    },
+    {
+      question: "「強いAI」と「弱いAI」の違いとして正しいものはどれか？",
+      options: ["強いAIは計算速度が速く、弱いAIは遅い", "強いAIは汎用的な知能を持ち、弱いAIは特定タスクに特化している", "強いAIは既に実現しており、弱いAIは開発中", "強いAIは画像認識専用で、弱いAIはテキスト処理専用"],
+      correctIndex: 1,
+      explanation: "強いAI（AGI）は人間と同等の汎用的知能を持つAIで、現在は未実現。弱いAI（Narrow AI）は特定タスクに特化したAIで、現在の全てのAI（ChatGPT、AlphaFold2等）がこれに該当します。"
+    }
+  ]}
+/>
+
+<ActionItem>
+明日の業務で使っているAIツール（ChatGPT、Claude、画像診断AI等）について、「これはデータのパターンを学習した結果であり、医学を理解しているわけではない」という視点で出力を批判的に確認してみましょう。どの部分がパターン学習の恩恵で、どの部分に人間の判断が不可欠かを区別することが、AI活用の第一歩です。
+</ActionItem>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"ai-basics","lessonSlug":"01-ai-definition"}],["$","$L1d",null,{"items":[{"id":"はじめに-aiがノーベル賞を受賞した日","text":"はじめに — AIがノーベル賞を受賞した日","level":2},{"id":"aiの定義-模倣と再現の決定的な違い","text":"AIの定義 — 「模倣」と「再現」の決定的な違い","level":2},{"id":"チューリングテスト-知能の判定方法","text":"チューリングテスト — 知能の「判定方法」","level":2},{"id":"強いai-vs-弱いai","text":"強いAI vs 弱いAI","level":2},{"id":"弱いainarrow-ai","text":"弱いAI（Narrow AI）","level":3},{"id":"強いaiagi-artificial-general-intelligence","text":"強いAI（AGI: Artificial General Intelligence）","level":3},{"id":"aiの三つの核心能力","text":"AIの三つの核心能力","level":2},{"id":"まとめ","text":"まとめ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"course":{"courseId":"ai-basics","title":"AIとは何か - 基礎から理解する人工知能","description":"AIの定義、知能の本質、機械学習の基礎、AIの種類と分類を体系的に学びます","category":"ai-fundamentals","level":"beginner","lessonCount":8,"estimatedTotalMinutes":128,"order":1,"free":true,"learningOutcomes":["AIの定義と種類を正確に説明できる","機械学習の基本的な仕組みを理解できる","AIの現在の能力と限界を区別できる","AIの社会的影響を多角的に評価できる"],"prerequisites":[],"targetAudience":["AIについて初めて学ぶ方","医療分野でAIの基礎知識を得たい方","AI関連のニュースを正しく理解したい方"],"skills":["AI基礎知識","機械学習概論","AI分類"],"coverImage":"$undefined"},"lesson":{"courseId":"ai-basics","slug":"01-ai-definition","title":"AIの定義と知能の本質","description":"AlphaFold2のタンパク質構造予測を起点に、AIの本質、チューリングテスト、強いAI/弱いAIの区別を理解します","order":1,"estimatedMinutes":15,"estimatedReadTime":11,"content":"$1f"}}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+26:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+27:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose","children":"$L25"}]
+22:["$","$L26",null,{"courseId":"ai-basics","lessonSlug":"01-ai-definition"}]
+23:["$","$L27",null,{"courseId":"ai-basics","prev":null,"next":{"slug":"02-ai-history","title":"AIの歴史と発展の軌跡","order":2}}]
+28:I[89213,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ResourceCard"]
+29:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Callout"]
+25:[["$","h1",null,{"children":"AIとは何か"}],"\n",["$","h2",null,{"id":"はじめに-aiがノーベル賞を受賞した日","children":"はじめに — AIがノーベル賞を受賞した日"}],"\n",["$","p",null,{"children":["2024年、ノーベル化学賞がGoogle DeepMindの",["$","strong",null,{"children":"AlphaFold2"}],"の開発者に授与されました。AlphaFold2は、タンパク質の立体構造を予測するAIで、50年間未解決だった「タンパク質フォールディング問題」を事実上解決しました。2億以上のタンパク質の構造予測が公開され、創薬研究を根本から加速しています。"]}],"\n",["$","p",null,{"children":["しかし、AlphaFold2は「タンパク質とは何か」を理解しているわけではありません。膨大なアミノ酸配列と構造のデータから",["$","strong",null,{"children":"パターン"}],"を学習し、新しい配列に対して構造を予測しているのです。"]}],"\n",["$","p",null,{"children":"この「パターン学習」こそが、現在のAIの本質です。"}],"\n",["$","$L28",null,{"type":"paper","title":"Highly accurate protein structure prediction with AlphaFold","url":"https://www.nature.com/articles/s41586-021-03819-2","authors":"Jumper J, Evans R, Pritzel A et al.","source":"Nature","description":"AlphaFold2の論文。タンパク質構造予測でCASP14を圧倒的精度で制覇"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"aiの定義-模倣と再現の決定的な違い","children":"AIの定義 — 「模倣」と「再現」の決定的な違い"}],"\n",["$","p",null,{"children":["AI（Artificial Intelligence）は、「人間の知能をコンピュータで",["$","strong",null,{"children":"模倣"}],"する技術」です。重要なのは「模倣」という言葉です。"]}],"\n",["$","$L29",null,{"type":"comparison","title":"「模倣」と「再現」の違い","children":[["$","p",null,{"children":[["$","strong",null,{"children":"模倣（Imitation）"}],": 外側から見た振る舞いが同じ。内部の仕組みは異なっていてよい。AlphaFold2はタンパク質の構造を「予測」できるが、生化学を「理解」しているわけではない。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"再現（Reproduction）"}],": 内部の仕組みまで同じ。人間の脳のニューロンの動きを完全に再現する。現在の技術では実現していない。"]}],["$","p",null,{"children":"→ 現在のAIは全て「模倣」の段階。結果として正しい答えを出すが、なぜその答えなのかを人間と同じように「理解」しているわけではない。"}]]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"チューリングテスト-知能の判定方法","children":"チューリングテスト — 知能の「判定方法」"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-amber-600/50 dark:border-l-amber-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","国際"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"アラン・チューリング — 「機械は考えることができるか？」"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"背景"}],": 1950年、イギリスの数学者アラン・チューリングは論文「Computing Machinery and Intelligence」を発表。「機械は考えることができるか？」という問いを投げかけた。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"テストの内容"}],": 人間の審査員が、テキストで相手と会話する。相手が人間かコンピュータか分からない状態で対話し、コンピュータだと見破れなければ、そのコンピュータは「知能がある」と判定する。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"革新性"}],": 知能の**「定義」",["$","strong",null,{"children":"ではなく"}],"「判定方法」**を提案した点。「知能とは何か」という哲学的な問いを回避し、「この機械は知能を持っているように振る舞えるか」という実践的な問いに置き換えた。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"現代的意義"}],": ChatGPTやClaudeは、多くの場面でチューリングテストに「合格」する水準の対話能力を持つ。しかし、それは「知能がある」ことを意味するのか？　この問いは今も未解決。"]}]]}]]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"強いai-vs-弱いai","children":"強いAI vs 弱いAI"}],"\n",["$","h3",null,{"id":"弱いainarrow-ai","children":"弱いAI（Narrow AI）"}],"\n",["$","p",null,{"children":["特定のタスクに特化したAI。現在実用化されている",["$","strong",null,{"children":"全て"}],"のAIがこれに該当します。"]}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"分野"}],["$","th",null,{"style":{"textAlign":"left"},"children":"AIの例"}],["$","th",null,{"style":{"textAlign":"left"},"children":"できること"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"画像認識"}],["$","td",null,{"style":{"textAlign":"left"},"children":"胸部X線AI（EIRL等）"}],["$","td",null,{"style":{"textAlign":"left"},"children":"肺炎・結核・動脈瘤の検出"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"自然言語処理"}],["$","td",null,{"style":{"textAlign":"left"},"children":"ChatGPT / Claude"}],["$","td",null,{"style":{"textAlign":"left"},"children":"テキスト生成・要約・翻訳"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"ゲーム"}],["$","td",null,{"style":{"textAlign":"left"},"children":"AlphaGo（2016年）"}],["$","td",null,{"style":{"textAlign":"left"},"children":"囲碁で世界チャンピオンに勝利"}]]}],["$","tr",null,{"children":["$L2a","$L2b","$L2c"]}]]}]]}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a"]
+3b:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+3c:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+2a:["$","td",null,{"style":{"textAlign":"left"},"children":"タンパク質"}]
+2b:["$","td",null,{"style":{"textAlign":"left"},"children":"AlphaFold2"}]
+2c:["$","td",null,{"style":{"textAlign":"left"},"children":"立体構造の予測"}]
+2d:["$","h3",null,{"id":"強いaiagi-artificial-general-intelligence","children":"強いAI（AGI: Artificial General Intelligence）"}]
+2e:["$","p",null,{"children":["人間と同等の汎用的な知能を持つAI。",["$","strong",null,{"children":"現在は実現していません"}],"。"]}]
+2f:["$","$L29",null,{"type":"insight","title":"AGI — 期待と現実","children":[["$","p",null,{"children":"ChatGPTやClaudeは非常に多くのタスクをこなせますが、「汎用的な知能」とは言えません。テキストから肺炎の診断基準を説明できても、実際の聴診器を使った診察はできない。数学の問題は解けても、目の前のコップを持ち上げることはできない。"}],["$","p",null,{"children":["→ 医療現場では、AIは",["$","strong",null,{"children":"特定のタスクの補助ツール"}],"として位置づけ、最終判断は医師が行う。この原則はAGIが実現するまで変わりません。"]}]]}]
+30:["$","hr",null,{}]
+31:["$","h2",null,{"id":"aiの三つの核心能力","children":"AIの三つの核心能力"}]
+32:["$","p",null,{"children":"現在のAIの能力は、大きく3つに分類できます:"}]
+33:["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"学習"}],": データからパターンを発見する（10万枚のX線画像から異常パターンを学習）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"推論"}],": 学習したパターンを新しいデータに適用する（新しいX線画像の異常を検出）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"生成"}],": 学習したパターンに基づいて新しいデータを作る（診断書のドラフト作成）"]}],"\n"]}]
+34:["$","p",null,{"children":["これらの能力は、医師の「経験に基づく診断」に表面的には似ていますが、本質は異なります。医師は病態生理を",["$","strong",null,{"children":"理解"}],"して診断しますが、AIはデータの",["$","strong",null,{"children":"パターン"}],"から判定しています。"]}]
+35:["$","hr",null,{}]
+36:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+37:["$","p",null,{"children":"AIは「人間の知能の模倣」であり、「再現」ではありません。チューリングテストが示すように、「知能があるように見える」ことと「知能がある」ことは別の問題です。現在のAIは全て「弱いAI」（特定タスク特化）であり、医療現場では補助ツールとして位置づけ、最終判断は医師が行うという原則が重要です。"}]
+38:["$","p",null,{"children":["次のレッスンでは、AIが1950年代から現在までどのように発展してきたかの",["$","strong",null,{"children":"歴史"}],"を学びます。"]}]
+39:["$","$L3b",null,{"courseId":"ai-basics","lessonSlug":"01-ai-definition"}]
+3a:["$","$L3c",null,{"children":["$","p",null,{"children":"明日の業務で使っているAIツール（ChatGPT、Claude、画像診断AI等）について、「これはデータのパターンを学習した結果であり、医学を理解しているわけではない」という視点で出力を批判的に確認してみましょう。どの部分がパターン学習の恩恵で、どの部分に人間の判断が不可欠かを区別することが、AI活用の第一歩です。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+3d:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"AIの定義と知能の本質 | Hoshizu"}],["$","meta","1",{"name":"description","content":"AlphaFold2のタンパク質構造予測を起点に、AIの本質、チューリングテスト、強いAI/弱いAIの区別を理解します"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/learn/ai-basics/01-ai-definition"}],["$","meta","4",{"property":"og:title","content":"AIの定義と知能の本質 - AIとは何か - 基礎から理解する人工知能"}],["$","meta","5",{"property":"og:description","content":"AlphaFold2のタンパク質構造予測を起点に、AIの本質、チューリングテスト、強いAI/弱いAIの区別を理解します"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L3d","15",{}]]

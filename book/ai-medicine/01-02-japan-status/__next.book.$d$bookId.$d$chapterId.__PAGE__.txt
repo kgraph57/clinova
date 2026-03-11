@@ -1,0 +1,316 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[76354,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"StatHighlight"]
+53:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+54:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+55:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+56:"$Sreact.suspense"
+58:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+59:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T37a2,
+**世界はAI医療の時代に入った。しかし日本では、診療所の45%が電子カルテすら持たない。**
+
+---
+
+## CNNが驚いた光景 — 「なぜFAXから抜け出せないのか」
+
+CNNは[「Japan used to be a tech giant. Why is it stuck with fax machines?（日本はかつてテクノロジー大国だった。なぜFAXから抜け出せないのか）」](https://www.cnn.com/2025/08/09/asia/japan-digital-technology-fax-intl-hnk-dst)という見出しの記事を配信した。
+
+ウォークマンや新幹線で世界の技術革新を牽引した国が、2020年代に入ってもFAXを医療と行政の現場で使い続けている。**海外メディアの視点から見れば、それは「先進国としてあり得ない」光景**であった。
+
+記事が特に注目したのは、COVID-19パンデミック下での感染症報告体制である。感染者数の集計にFAXが使われ、送信ミスや集計の遅れが発生したことは、国内でも報じられた。しかし海外から見れば、それは**「先進国としてあり得ない」光景**だったのだ。
+
+FAXは象徴にすぎない。日本の医療ITの課題はより深く、構造的である。
+
+数字で見ていこう。
+
+---
+
+## 数字が語るレガシーの深さ
+
+[令和5年（2023年）の医療施設調査](https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/23/)によれば、日本の診療所における電子カルテの普及率は**55.0%**である。
+
+| 施設区分 | 電子カルテ普及率 |
+|---------|----------------|
+| 大病院（400床以上） | 93.7% |
+| 一般病院 | 65.6% |
+| 診療所 | **55.0%** |
+
+<StatHighlight value="55%" label="診療所の電子カルテ普及率">日本の医療最前線を担う開業医の約半数が、いまだに紙カルテで運用している（令和5年医療施設調査）</StatHighlight>
+
+つまり、日本の医療の最前線を担う開業医の約半数は、いまだに紙カルテで運用しているのだ。
+
+**さらに深刻なのは、紙カルテで運用している施設の50%以上が「電子カルテの導入は不可能」と回答していることである。**
+
+コストの問題、スタッフの高齢化、移行作業の負担——理由はさまざまであるが、「できない」と答えている施設が半数を超えるという事実は、単なる普及の遅れではなく、**構造的な行き詰まり**を示唆している。
+
+思い出してほしい。日本政府が[「e-Japan戦略」](https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h27/html/nc111240.html)を掲げ、ITによる社会変革を宣言したのは**2001年のこと**である。
+
+あれから20年以上が経過した。にもかかわらず、診療所の電子カルテ普及率が55%にとどまっているという事実は、この国の医療ITの歩みがいかに遅々としたものであったかを如実に物語っている。
+
+---
+
+## PHSとFAXが現役 — 2001年からの20年間で何が変わったのか
+
+一般消費者向けのPHSサービスはすでに終了しているが、[電波環境協議会の調査](https://www.emcc-info.net/medical_emc/document.html)によれば**病院内の通信手段としては8割以上の施設でいまなお現役**である。
+
+院内の電波環境やコストの問題から、スマートフォンへの置き換えが進んでいない。FAXも同様だ。
+
+電子カルテで作成した紹介状を印刷してFAXで送信し、受け取った側が再度手入力する——こうした光景は、都心の大病院でも当たり前に存在している。
+
+思い出してほしい。日本政府が「e-Japan戦略」を掲げたのは**2001年のこと**である。あれから20年以上が経過した。診療所の電子カルテ普及率が55%にとどまっているという事実は、この国の医療ITの歩みがいかに遅々としたものであったかを物語っている。
+
+---
+
+## 電子処方箋の「ねじれ」
+
+[電子処方箋](https://www.mhlw.go.jp/stf/denshishohousen.html)の普及状況にも、興味深い非対称性がある。
+
+| 立場 | 電子処方箋対応率 |
+|------|----------------|
+| 薬局側 | **86.5%** |
+| 病院側 | **17.3%** |
+
+処方箋を「受け取る」側の準備はほぼ整っているのに、「発行する」側が追いついていないという、ちぐはぐな状況が生じているのである。
+
+---
+
+## 教育のギャップ — 学生は使っている、大学は教えていない
+
+レガシー問題は臨床現場だけにとどまらない。教育においても、深刻な「ねじれ」が生じている。
+
+千葉大学が実施し、[JMIR Medical Education誌に2025年に発表された調査](https://mededu.jmir.org/2025/1/e77552)は、その実態を鮮明に映し出している。
+
+**医学部1年生の84.7%がすでにAIの使用経験を持っていた**のである。
+
+ChatGPTをはじめとする生成AIツールを、レポート作成や学習の補助に「自己流で」使っている学生が大多数を占めていた。
+
+**問題は、その使い方が体系的に教育されていないことである。**
+
+適切なプロンプトの書き方、AIの出力の検証方法、ハルシネーション（AIが事実と異なる情報をもっともらしく生成する現象）への対処——こうした本質的なリテラシーが教えられないまま、学生たちは「なんとなく便利だから」という理由でAIを使い続けている。
+
+前回の記事で紹介したように、米国ではすでに医学部の77%がAIカリキュラムを導入し、スタンフォード大学は全学生にAI教育を必修化した。
+
+**翻って日本では、学生の8割以上がAIを使っているにもかかわらず、大学がそれを正式にカリキュラムに組み込んでいるケースはまだ限られている。**
+
+学生が先に走り、教育機関が後を追うという構図が生まれているのだ。
+
+---
+
+## 世界との「二重のギャップ」
+
+ここにあるのは、**二重のギャップ**である。
+
+### ギャップ1: 臨床現場のデジタル基盤
+
+- 米国: 病院勤務医の72%がAI使用、AI音声記録100%導入
+- 日本: 診療所の45%が電子カルテすら未導入
+
+### ギャップ2: 教育におけるAIリテラシー
+
+- 米国: 医学部77%がAIカリキュラム導入、AMAが義務化採択
+- 日本: 学生84.7%がAI使用経験あるが、体系的教育は限定的
+
+**この二つが重なり合うことで、日本の医療は世界の潮流から二重に取り残されるリスクを抱えている。**
+
+<Callout type="warning" title="二重のギャップ">
+日本は臨床現場のデジタル基盤（診療所の45%が電子カルテ未導入）と教育のAIリテラシー（体系的カリキュラムの不在）の両面で世界に後れを取っている。この二重構造がAI時代への移行を困難にしている。
+</Callout>
+
+---
+
+## 三つの見えない壁 — なぜ日本では進まないのか
+
+数字を見れば明白だ。e-Japan戦略から20年以上が経過し、米国の医師の72%がAIを使い、医学部の77%がカリキュラムを導入している。
+
+**では、なぜ日本だけが取り残されているのか。**
+
+その答えは、三つの「見えない壁」にある。
+
+### 壁1: 完璧主義という病
+
+日本の医療現場では「100%でないなら使わない」という文化が根強い。
+
+電子カルテ導入率55%。しかし紙カルテ施設の50%以上が「導入は不可能」と回答している。
+
+AIも同様だ。「85%の精度」と聞けば、「15%間違える可能性があるなら使えない」と判断される。
+
+しかし、人間の診断精度は100%ではない。むしろ、疲労、経験不足、知識の偏りにより、85%を下回ることすらある。
+
+**この完璧主義が、日本の医療を20年遅らせた。**
+
+### 壁2: 責任の所在への恐怖
+
+「AIの判断を採用して間違えたら誰が責任を取るのか」
+
+この問いが、すべての議論を止める。
+
+しかし、考えてみてほしい。紙カルテで読み間違えた場合、FAXが届かなかった場合、PHSで聞き間違えた場合——責任は誰が取っているのか。
+
+**責任の問題は、アナログでもデジタルでも変わらない。変わるのは、エラーの頻度と検証可能性である。**
+
+デジタル化された情報はログが残り、検証可能で、改善できる。アナログの情報はログが残らず、検証不可能で、同じミスが繰り返される。
+
+「責任が不明確だから使えない」という議論は、実は「変化したくない」という抵抗の言い換えにすぎない。
+
+### 壁3: 「現場を知らない」という呪文
+
+経営層がAI導入を提案すると、現場から返ってくる魔法の言葉がある。
+
+「現場を知らない人には分からない」
+
+この呪文を唱えれば、すべての変革提案を拒否できる。
+
+しかし、その「現場」とは何を指しているのか。
+
+**多くの場合、それは「変化を拒む既得権益」の別名にすぎない。**
+
+AtlantiCareの医師100名は「現場」でAIを使い、1日66分を取り戻した。Kaiser Permanenteの数千人の医師は「現場」でAIを使い、患者との対面時間を増やした。
+
+彼らは「現場を知らない」のだろうか。
+
+違う。彼らは「現場を変える」ことを選んだのだ。
+
+---
+
+## なぜ「このまま」ではいけないのか
+
+「紙カルテでも患者を診られる」「PHSでも連絡はとれる」「FAXでも情報は届く」——こうした反論は、現場の実感として理解できるものである。
+
+確かに、現在のやり方でも日々の診療は「回って」いる。
+
+**では、なぜ変わらなければならないのか。**
+
+### 理由1: 2025年問題
+
+[団塊の世代がすべて75歳以上となる2025年](https://www.mhlw.go.jp/shingi/2006/09/dl/s0927-8e.pdf)以降、医療・介護の需要は急激に増大する。一方で、労働人口は減少の一途をたどる。
+
+限られた人的資源で増大する需要に対応するためには、業務の効率化が不可避であり、その基盤となるのがデジタル化にほかならない。
+
+**紙カルテを探して18分走り回る時間は、AIが下書きしたカルテを確認する時間に置き換えられるべき**なのだ。
+
+### 理由2: 医療の質と安全性
+
+PHSの聞き間違い、FAXの送信漏れ、手書きの読み間違い——アナログな情報伝達は、常にヒューマンエラーのリスクを内包している。
+
+デジタル化は、こうしたエラーを構造的に減らすための基盤である。
+
+### 理由3: AIの恩恵を受けるための前提条件
+
+前回の記事で見た世界の潮流——AIによる診断支援、文書の自動作成、リスク予測——これらはすべて、**デジタルデータが存在することを前提としている。**
+
+紙カルテのままでは、AIに学習させるデータが存在しない。FAXで送られた紹介状は、自然言語処理で解析することができない。
+
+つまり、**デジタル化の遅れは、単に「不便」なのではなく、医療の未来への参加資格そのものを失うことを意味している**のである。
+
+---
+
+## まとめ
+
+- **日本の診療所の電子カルテ普及率は55.0%** — 紙カルテ施設の半数以上が「導入不可能」と回答
+- **PHS・FAX・紙処方箋が依然として現役** — 2001年のe-Japan戦略から20年以上経過してなお、「当たり前のIT化」が完了していない
+- **学生84.7%がAI使用経験ありも、体系的教育は限定的** — 学生が先行し、教育機関が後追いする構図
+- **世界との二重のギャップ** — 臨床現場のデジタル基盤と、教育のAIリテラシーの両面で遅れ
+- **デジタル化は「未来への参加資格」** — AIの恩恵を受けるための前提条件
+
+**日本の医療は、1990年代のデジタル基盤の上に、2025年以降の医療需要という重荷を載せようとしている。その構造は持続可能ではない。**
+
+<KeyTakeaway>
+- 日本の診療所の電子カルテ普及率は55%にとどまり、紙カルテ施設の半数以上が「導入不可能」と回答している
+- PHS・FAX・紙処方箋が現役であり、e-Japan戦略（2001年）から20年以上経ても基本的IT化が未完了
+- 医学部1年生の84.7%がAI使用経験を持つが、大学の体系的AIカリキュラムはほぼ存在しない
+- 完璧主義・責任所在への恐怖・「現場を知らない」という抵抗が、変革を阻む三つの見えない壁となっている
+- デジタル化の遅れは単なる不便ではなく、AI時代の医療への「参加資格」を失うリスクである
+</KeyTakeaway>
+
+---
+
+### 参考文献
+
+1. 厚生労働省. (2023). [『令和5年医療施設調査』](https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/23/).
+2. Yeung, J. "Japan used to be a tech giant. Why is it stuck with fax machines?" [*CNN*](https://www.cnn.com/2025/08/09/asia/japan-digital-technology-fax-intl-hnk-dst).
+3. Tajima, H. et al. (2025). ["Perceptions and Intentions to Use Generative AI Among First-Year Medical Students in Japan."](https://mededu.jmir.org/2025/1/e77552) *JMIR Medical Education.*
+4. 厚生労働省. [電子処方箋についてのページ](https://www.mhlw.go.jp/stf/denshishohousen.html).
+5. 電波環境協議会. [医療機関における電波利用に関する調査](https://www.emcc-info.net/medical_emc/document.html).
+6. 総務省. [e-Japan戦略 — 情報通信白書](https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h27/html/nc111240.html).
+7. 厚生労働省. (2006). [今後の高齢化の進展 〜2025年の超高齢社会像〜](https://www.mhlw.go.jp/shingi/2006/09/dl/s0927-8e.pdf).
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-ai-medicine","lessonSlug":"01-02-japan-status"}],["$","$L4",null,{"items":[{"id":"cnnが驚いた光景-なぜfaxから抜け出せないのか","text":"CNNが驚いた光景 — 「なぜFAXから抜け出せないのか」","level":2},{"id":"数字が語るレガシーの深さ","text":"数字が語るレガシーの深さ","level":2},{"id":"phsとfaxが現役-2001年からの20年間で何が変わったのか","text":"PHSとFAXが現役 — 2001年からの20年間で何が変わったのか","level":2},{"id":"電子処方箋のねじれ","text":"電子処方箋の「ねじれ」","level":2},{"id":"教育のギャップ-学生は使っている大学は教えていない","text":"教育のギャップ — 学生は使っている、大学は教えていない","level":2},{"id":"世界との二重のギャップ","text":"世界との「二重のギャップ」","level":2},{"id":"ギャップ1-臨床現場のデジタル基盤","text":"ギャップ1: 臨床現場のデジタル基盤","level":3},{"id":"ギャップ2-教育におけるaiリテラシー","text":"ギャップ2: 教育におけるAIリテラシー","level":3},{"id":"三つの見えない壁-なぜ日本では進まないのか","text":"三つの見えない壁 — なぜ日本では進まないのか","level":2},{"id":"壁1-完璧主義という病","text":"壁1: 完璧主義という病","level":3},{"id":"壁2-責任の所在への恐怖","text":"壁2: 責任の所在への恐怖","level":3},{"id":"壁3-現場を知らないという呪文","text":"壁3: 「現場を知らない」という呪文","level":3},{"id":"なぜこのままではいけないのか","text":"なぜ「このまま」ではいけないのか","level":2},{"id":"理由1-2025年問題","text":"理由1: 2025年問題","level":3},{"id":"理由2-医療の質と安全性","text":"理由2: 医療の質と安全性","level":3},{"id":"理由3-aiの恩恵を受けるための前提条件","text":"理由3: AIの恩恵を受けるための前提条件","level":3},{"id":"まとめ","text":"まとめ","level":2},{"id":"参考文献","text":"参考文献","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"ai-medicine","bookTitle":"AI×医療 — 臨床医のための実践ガイド","chapter":{"slug":"01-02-japan-status","title":"FAXが残る国のAI事情 — デジタル化の「境界」に残る課題","description":"世界はAI医療の時代に入った。しかし日本では、診療所の45%が電子カルテすら持たない。","partId":"part01","partTitle":"なぜ今、医師がAIを学ぶのか","order":2,"partOrder":2,"estimatedMinutes":15,"estimatedReadTime":19,"free":true,"status":"published","tags":["日本","電子カルテ","デジタル化","医学教育","レガシー"],"content":"$6"},"totalChapters":33}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"cnnが驚いた光景-なぜfaxから抜け出せないのか","text":"CNNが驚いた光景 — 「なぜFAXから抜け出せないのか」","level":2},{"id":"数字が語るレガシーの深さ","text":"数字が語るレガシーの深さ","level":2},{"id":"phsとfaxが現役-2001年からの20年間で何が変わったのか","text":"PHSとFAXが現役 — 2001年からの20年間で何が変わったのか","level":2},{"id":"電子処方箋のねじれ","text":"電子処方箋の「ねじれ」","level":2},{"id":"教育のギャップ-学生は使っている大学は教えていない","text":"教育のギャップ — 学生は使っている、大学は教えていない","level":2},{"id":"世界との二重のギャップ","text":"世界との「二重のギャップ」","level":2},{"id":"ギャップ1-臨床現場のデジタル基盤","text":"ギャップ1: 臨床現場のデジタル基盤","level":3},{"id":"ギャップ2-教育におけるaiリテラシー","text":"ギャップ2: 教育におけるAIリテラシー","level":3},{"id":"三つの見えない壁-なぜ日本では進まないのか","text":"三つの見えない壁 — なぜ日本では進まないのか","level":2},{"id":"壁1-完璧主義という病","text":"壁1: 完璧主義という病","level":3},{"id":"壁2-責任の所在への恐怖","text":"壁2: 責任の所在への恐怖","level":3},{"id":"壁3-現場を知らないという呪文","text":"壁3: 「現場を知らない」という呪文","level":3},{"id":"なぜこのままではいけないのか","text":"なぜ「このまま」ではいけないのか","level":2},{"id":"理由1-2025年問題","text":"理由1: 2025年問題","level":3},{"id":"理由2-医療の質と安全性","text":"理由2: 医療の質と安全性","level":3},{"id":"理由3-aiの恩恵を受けるための前提条件","text":"理由3: AIの恩恵を受けるための前提条件","level":3},{"id":"まとめ","text":"まとめ","level":2},{"id":"参考文献","text":"参考文献","level":3}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":["$","strong",null,{"children":"世界はAI医療の時代に入った。しかし日本では、診療所の45%が電子カルテすら持たない。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"cnnが驚いた光景-なぜfaxから抜け出せないのか","children":"CNNが驚いた光景 — 「なぜFAXから抜け出せないのか」"}],"\n",["$","p",null,{"children":["CNNは",["$","a",null,{"href":"https://www.cnn.com/2025/08/09/asia/japan-digital-technology-fax-intl-hnk-dst","children":"「Japan used to be a tech giant. Why is it stuck with fax machines?（日本はかつてテクノロジー大国だった。なぜFAXから抜け出せないのか）」"}],"という見出しの記事を配信した。"]}],"\n",["$","p",null,{"children":["ウォークマンや新幹線で世界の技術革新を牽引した国が、2020年代に入ってもFAXを医療と行政の現場で使い続けている。",["$","strong",null,{"children":"海外メディアの視点から見れば、それは「先進国としてあり得ない」光景"}],"であった。"]}],"\n",["$","p",null,{"children":"記事が特に注目したのは、COVID-19パンデミック下での感染症報告体制である。感染者数の集計にFAXが使われ、送信ミスや集計の遅れが発生したことは、国内でも報じられた。しかし海外から見れば、それは**「先進国としてあり得ない」光景**だったのだ。"}],"\n",["$","p",null,{"children":"FAXは象徴にすぎない。日本の医療ITの課題はより深く、構造的である。"}],"\n",["$","p",null,{"children":"数字で見ていこう。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"数字が語るレガシーの深さ","children":"数字が語るレガシーの深さ"}],"\n",["$","p",null,{"children":[["$","a",null,{"href":"https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/23/","children":"令和5年（2023年）の医療施設調査"}],"によれば、日本の診療所における電子カルテの普及率は**55.0%**である。"]}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"施設区分"}],["$","th",null,{"children":"電子カルテ普及率"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"大病院（400床以上）"}],["$","td",null,{"children":"93.7%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"一般病院"}],["$","td",null,{"children":"65.6%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"診療所"}],["$","td",null,{"children":["$","strong",null,{"children":"55.0%"}]}]]}]]}]]}],"\n",["$","$Le",null,{"value":"55%","label":"診療所の電子カルテ普及率","children":"日本の医療最前線を担う開業医の約半数が、いまだに紙カルテで運用している（令和5年医療施設調査）"}],"\n",["$","p",null,{"children":"つまり、日本の医療の最前線を担う開業医の約半数は、いまだに紙カルテで運用しているのだ。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"さらに深刻なのは、紙カルテで運用している施設の50%以上が「電子カルテの導入は不可能」と回答していることである。"}]}],"\n",["$","p",null,{"children":["コストの問題、スタッフの高齢化、移行作業の負担——理由はさまざまであるが、「できない」と答えている施設が半数を超えるという事実は、単なる普及の遅れではなく、",["$","strong",null,{"children":"構造的な行き詰まり"}],"を示唆している。"]}],"\n",["$","p",null,{"children":["思い出してほしい。日本政府が",["$","a",null,{"href":"https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h27/html/nc111240.html","children":"「e-Japan戦略」"}],"を掲げ、ITによる社会変革を宣言したのは",["$","strong",null,{"children":"2001年のこと"}],"である。"]}],"\n",["$","p",null,{"children":"あれから20年以上が経過した。にもかかわらず、診療所の電子カルテ普及率が55%にとどまっているという事実は、この国の医療ITの歩みがいかに遅々としたものであったかを如実に物語っている。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"phsとfaxが現役-2001年からの20年間で何が変わったのか","children":"PHSとFAXが現役 — 2001年からの20年間で何が変わったのか"}],"\n",["$","p",null,{"children":["一般消費者向けのPHSサービスはすでに終了しているが、",["$","a",null,{"href":"https://www.emcc-info.net/medical_emc/document.html","children":"電波環境協議会の調査"}],"によれば",["$","strong",null,{"children":"病院内の通信手段としては8割以上の施設でいまなお現役"}],"である。"]}],"\n",["$","p",null,{"children":"院内の電波環境やコストの問題から、スマートフォンへの置き換えが進んでいない。FAXも同様だ。"}],"\n",["$","p",null,{"children":"電子カルテで作成した紹介状を印刷してFAXで送信し、受け取った側が再度手入力する——こうした光景は、都心の大病院でも当たり前に存在している。"}],"\n",["$","p",null,{"children":["思い出してほしい。日本政府が「e-Japan戦略」を掲げたのは",["$","strong",null,{"children":"2001年のこと"}],"である。あれから20年以上が経過した。診療所の電子カルテ普及率が55%にとどまっているという事実は、この国の医療ITの歩みがいかに遅々としたものであったかを物語っている。"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"電子処方箋のねじれ","children":"電子処方箋の「ねじれ」"}],"\n",["$","p",null,{"children":[["$","a",null,{"href":"https://www.mhlw.go.jp/stf/denshishohousen.html","children":"電子処方箋"}],"の普及状況にも、興味深い非対称性がある。"]}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"立場"}],["$","th",null,{"children":"電子処方箋対応率"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"薬局側"}],["$","td",null,{"children":["$","strong",null,{"children":"86.5%"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"病院側"}],["$","td",null,{"children":["$","strong",null,{"children":"17.3%"}]}]]}]]}]]}],"\n",["$","p",null,{"children":"処方箋を「受け取る」側の準備はほぼ整っているのに、「発行する」側が追いついていないという、ちぐはぐな状況が生じているのである。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"教育のギャップ-学生は使っている大学は教えていない","children":"教育のギャップ — 学生は使っている、大学は教えていない"}],"\n",["$","p",null,{"children":"レガシー問題は臨床現場だけにとどまらない。教育においても、深刻な「ねじれ」が生じている。"}],"\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","\n","$L51","\n","$L52"]}]
+9:["$","$L53",null,{"bookId":"ai-medicine","chapterSlug":"01-02-japan-status"}]
+a:["$","$L54",null,{"bookId":"ai-medicine","prev":{"slug":"01-01-world-trends","title":"72%の医師がすでにAIを使っている — 世界の潮流2026","order":1},"next":{"slug":"01-03-economic-impact","title":"1日66分の革命 — AIがもたらす「時間」という医療資源","order":3}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L55",null,{"children":["$","$56",null,{"name":"Next.MetadataOutlet","children":"$@57"}]}]
+f:["$","p",null,{"children":["千葉大学が実施し、",["$","a",null,{"href":"https://mededu.jmir.org/2025/1/e77552","children":"JMIR Medical Education誌に2025年に発表された調査"}],"は、その実態を鮮明に映し出している。"]}]
+10:["$","p",null,{"children":[["$","strong",null,{"children":"医学部1年生の84.7%がすでにAIの使用経験を持っていた"}],"のである。"]}]
+11:["$","p",null,{"children":"ChatGPTをはじめとする生成AIツールを、レポート作成や学習の補助に「自己流で」使っている学生が大多数を占めていた。"}]
+12:["$","p",null,{"children":["$","strong",null,{"children":"問題は、その使い方が体系的に教育されていないことである。"}]}]
+13:["$","p",null,{"children":"適切なプロンプトの書き方、AIの出力の検証方法、ハルシネーション（AIが事実と異なる情報をもっともらしく生成する現象）への対処——こうした本質的なリテラシーが教えられないまま、学生たちは「なんとなく便利だから」という理由でAIを使い続けている。"}]
+14:["$","p",null,{"children":"前回の記事で紹介したように、米国ではすでに医学部の77%がAIカリキュラムを導入し、スタンフォード大学は全学生にAI教育を必修化した。"}]
+15:["$","p",null,{"children":["$","strong",null,{"children":"翻って日本では、学生の8割以上がAIを使っているにもかかわらず、大学がそれを正式にカリキュラムに組み込んでいるケースはまだ限られている。"}]}]
+16:["$","p",null,{"children":"学生が先に走り、教育機関が後を追うという構図が生まれているのだ。"}]
+17:["$","hr",null,{}]
+18:["$","h2",null,{"id":"世界との二重のギャップ","children":"世界との「二重のギャップ」"}]
+19:["$","p",null,{"children":["ここにあるのは、",["$","strong",null,{"children":"二重のギャップ"}],"である。"]}]
+1a:["$","h3",null,{"id":"ギャップ1-臨床現場のデジタル基盤","children":"ギャップ1: 臨床現場のデジタル基盤"}]
+1b:["$","ul",null,{"children":["\n",["$","li",null,{"children":"米国: 病院勤務医の72%がAI使用、AI音声記録100%導入"}],"\n",["$","li",null,{"children":"日本: 診療所の45%が電子カルテすら未導入"}],"\n"]}]
+1c:["$","h3",null,{"id":"ギャップ2-教育におけるaiリテラシー","children":"ギャップ2: 教育におけるAIリテラシー"}]
+1d:["$","ul",null,{"children":["\n",["$","li",null,{"children":"米国: 医学部77%がAIカリキュラム導入、AMAが義務化採択"}],"\n",["$","li",null,{"children":"日本: 学生84.7%がAI使用経験あるが、体系的教育は限定的"}],"\n"]}]
+1e:["$","p",null,{"children":["$","strong",null,{"children":"この二つが重なり合うことで、日本の医療は世界の潮流から二重に取り残されるリスクを抱えている。"}]}]
+1f:["$","$L58",null,{"type":"warning","title":"二重のギャップ","children":["$","p",null,{"children":"日本は臨床現場のデジタル基盤（診療所の45%が電子カルテ未導入）と教育のAIリテラシー（体系的カリキュラムの不在）の両面で世界に後れを取っている。この二重構造がAI時代への移行を困難にしている。"}]}]
+20:["$","hr",null,{}]
+21:["$","h2",null,{"id":"三つの見えない壁-なぜ日本では進まないのか","children":"三つの見えない壁 — なぜ日本では進まないのか"}]
+22:["$","p",null,{"children":"数字を見れば明白だ。e-Japan戦略から20年以上が経過し、米国の医師の72%がAIを使い、医学部の77%がカリキュラムを導入している。"}]
+23:["$","p",null,{"children":["$","strong",null,{"children":"では、なぜ日本だけが取り残されているのか。"}]}]
+24:["$","p",null,{"children":"その答えは、三つの「見えない壁」にある。"}]
+25:["$","h3",null,{"id":"壁1-完璧主義という病","children":"壁1: 完璧主義という病"}]
+26:["$","p",null,{"children":"日本の医療現場では「100%でないなら使わない」という文化が根強い。"}]
+27:["$","p",null,{"children":"電子カルテ導入率55%。しかし紙カルテ施設の50%以上が「導入は不可能」と回答している。"}]
+28:["$","p",null,{"children":"AIも同様だ。「85%の精度」と聞けば、「15%間違える可能性があるなら使えない」と判断される。"}]
+29:["$","p",null,{"children":"しかし、人間の診断精度は100%ではない。むしろ、疲労、経験不足、知識の偏りにより、85%を下回ることすらある。"}]
+2a:["$","p",null,{"children":["$","strong",null,{"children":"この完璧主義が、日本の医療を20年遅らせた。"}]}]
+2b:["$","h3",null,{"id":"壁2-責任の所在への恐怖","children":"壁2: 責任の所在への恐怖"}]
+2c:["$","p",null,{"children":"「AIの判断を採用して間違えたら誰が責任を取るのか」"}]
+2d:["$","p",null,{"children":"この問いが、すべての議論を止める。"}]
+2e:["$","p",null,{"children":"しかし、考えてみてほしい。紙カルテで読み間違えた場合、FAXが届かなかった場合、PHSで聞き間違えた場合——責任は誰が取っているのか。"}]
+2f:["$","p",null,{"children":["$","strong",null,{"children":"責任の問題は、アナログでもデジタルでも変わらない。変わるのは、エラーの頻度と検証可能性である。"}]}]
+30:["$","p",null,{"children":"デジタル化された情報はログが残り、検証可能で、改善できる。アナログの情報はログが残らず、検証不可能で、同じミスが繰り返される。"}]
+31:["$","p",null,{"children":"「責任が不明確だから使えない」という議論は、実は「変化したくない」という抵抗の言い換えにすぎない。"}]
+32:["$","h3",null,{"id":"壁3-現場を知らないという呪文","children":"壁3: 「現場を知らない」という呪文"}]
+33:["$","p",null,{"children":"経営層がAI導入を提案すると、現場から返ってくる魔法の言葉がある。"}]
+34:["$","p",null,{"children":"「現場を知らない人には分からない」"}]
+35:["$","p",null,{"children":"この呪文を唱えれば、すべての変革提案を拒否できる。"}]
+36:["$","p",null,{"children":"しかし、その「現場」とは何を指しているのか。"}]
+37:["$","p",null,{"children":["$","strong",null,{"children":"多くの場合、それは「変化を拒む既得権益」の別名にすぎない。"}]}]
+38:["$","p",null,{"children":"AtlantiCareの医師100名は「現場」でAIを使い、1日66分を取り戻した。Kaiser Permanenteの数千人の医師は「現場」でAIを使い、患者との対面時間を増やした。"}]
+39:["$","p",null,{"children":"彼らは「現場を知らない」のだろうか。"}]
+3a:["$","p",null,{"children":"違う。彼らは「現場を変える」ことを選んだのだ。"}]
+3b:["$","hr",null,{}]
+3c:["$","h2",null,{"id":"なぜこのままではいけないのか","children":"なぜ「このまま」ではいけないのか"}]
+3d:["$","p",null,{"children":"「紙カルテでも患者を診られる」「PHSでも連絡はとれる」「FAXでも情報は届く」——こうした反論は、現場の実感として理解できるものである。"}]
+3e:["$","p",null,{"children":"確かに、現在のやり方でも日々の診療は「回って」いる。"}]
+3f:["$","p",null,{"children":["$","strong",null,{"children":"では、なぜ変わらなければならないのか。"}]}]
+40:["$","h3",null,{"id":"理由1-2025年問題","children":"理由1: 2025年問題"}]
+41:["$","p",null,{"children":[["$","a",null,{"href":"https://www.mhlw.go.jp/shingi/2006/09/dl/s0927-8e.pdf","children":"団塊の世代がすべて75歳以上となる2025年"}],"以降、医療・介護の需要は急激に増大する。一方で、労働人口は減少の一途をたどる。"]}]
+42:["$","p",null,{"children":"限られた人的資源で増大する需要に対応するためには、業務の効率化が不可避であり、その基盤となるのがデジタル化にほかならない。"}]
+43:["$","p",null,{"children":[["$","strong",null,{"children":"紙カルテを探して18分走り回る時間は、AIが下書きしたカルテを確認する時間に置き換えられるべき"}],"なのだ。"]}]
+44:["$","h3",null,{"id":"理由2-医療の質と安全性","children":"理由2: 医療の質と安全性"}]
+45:["$","p",null,{"children":"PHSの聞き間違い、FAXの送信漏れ、手書きの読み間違い——アナログな情報伝達は、常にヒューマンエラーのリスクを内包している。"}]
+46:["$","p",null,{"children":"デジタル化は、こうしたエラーを構造的に減らすための基盤である。"}]
+47:["$","h3",null,{"id":"理由3-aiの恩恵を受けるための前提条件","children":"理由3: AIの恩恵を受けるための前提条件"}]
+48:["$","p",null,{"children":["前回の記事で見た世界の潮流——AIによる診断支援、文書の自動作成、リスク予測——これらはすべて、",["$","strong",null,{"children":"デジタルデータが存在することを前提としている。"}]]}]
+49:["$","p",null,{"children":"紙カルテのままでは、AIに学習させるデータが存在しない。FAXで送られた紹介状は、自然言語処理で解析することができない。"}]
+4a:["$","p",null,{"children":["つまり、",["$","strong",null,{"children":"デジタル化の遅れは、単に「不便」なのではなく、医療の未来への参加資格そのものを失うことを意味している"}],"のである。"]}]
+4b:["$","hr",null,{}]
+4c:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+4d:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"日本の診療所の電子カルテ普及率は55.0%"}]," — 紙カルテ施設の半数以上が「導入不可能」と回答"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"PHS・FAX・紙処方箋が依然として現役"}]," — 2001年のe-Japan戦略から20年以上経過してなお、「当たり前のIT化」が完了していない"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"学生84.7%がAI使用経験ありも、体系的教育は限定的"}]," — 学生が先行し、教育機関が後追いする構図"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"世界との二重のギャップ"}]," — 臨床現場のデジタル基盤と、教育のAIリテラシーの両面で遅れ"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"デジタル化は「未来への参加資格」"}]," — AIの恩恵を受けるための前提条件"]}],"\n"]}]
+4e:["$","p",null,{"children":["$","strong",null,{"children":"日本の医療は、1990年代のデジタル基盤の上に、2025年以降の医療需要という重荷を載せようとしている。その構造は持続可能ではない。"}]}]
+4f:["$","$L59",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"日本の診療所の電子カルテ普及率は55%にとどまり、紙カルテ施設の半数以上が「導入不可能」と回答している"}],"\n",["$","li",null,{"children":"PHS・FAX・紙処方箋が現役であり、e-Japan戦略（2001年）から20年以上経ても基本的IT化が未完了"}],"\n",["$","li",null,{"children":"医学部1年生の84.7%がAI使用経験を持つが、大学の体系的AIカリキュラムはほぼ存在しない"}],"\n",["$","li",null,{"children":"完璧主義・責任所在への恐怖・「現場を知らない」という抵抗が、変革を阻む三つの見えない壁となっている"}],"\n",["$","li",null,{"children":"デジタル化の遅れは単なる不便ではなく、AI時代の医療への「参加資格」を失うリスクである"}],"\n"]}]}]
+50:["$","hr",null,{}]
+51:["$","h3",null,{"id":"参考文献","children":"参考文献"}]
+52:["$","ol",null,{"children":["\n",["$","li",null,{"children":["厚生労働省. (2023). ",["$","a",null,{"href":"https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/23/","children":"『令和5年医療施設調査』"}],"."]}],"\n",["$","li",null,{"children":["Yeung, J. \"Japan used to be a tech giant. Why is it stuck with fax machines?\" ",["$","a",null,{"href":"https://www.cnn.com/2025/08/09/asia/japan-digital-technology-fax-intl-hnk-dst","children":["$","em",null,{"children":"CNN"}]}],"."]}],"\n",["$","li",null,{"children":["Tajima, H. et al. (2025). ",["$","a",null,{"href":"https://mededu.jmir.org/2025/1/e77552","children":"\"Perceptions and Intentions to Use Generative AI Among First-Year Medical Students in Japan.\""}]," ",["$","em",null,{"children":"JMIR Medical Education."}]]}],"\n",["$","li",null,{"children":["厚生労働省. ",["$","a",null,{"href":"https://www.mhlw.go.jp/stf/denshishohousen.html","children":"電子処方箋についてのページ"}],"."]}],"\n",["$","li",null,{"children":["電波環境協議会. ",["$","a",null,{"href":"https://www.emcc-info.net/medical_emc/document.html","children":"医療機関における電波利用に関する調査"}],"."]}],"\n",["$","li",null,{"children":["総務省. ",["$","a",null,{"href":"https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h27/html/nc111240.html","children":"e-Japan戦略 — 情報通信白書"}],"."]}],"\n",["$","li",null,{"children":["厚生労働省. (2006). ",["$","a",null,{"href":"https://www.mhlw.go.jp/shingi/2006/09/dl/s0927-8e.pdf","children":"今後の高齢化の進展 〜2025年の超高齢社会像〜"}],"."]}],"\n"]}]
+57:null

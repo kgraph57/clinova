@@ -1,0 +1,208 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+5:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+e:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+f:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Callout"]
+23:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+24:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+25:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+26:"$Sreact.suspense"
+28:I[89213,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ResourceCard"]
+29:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+2a:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+6:T2831,
+# AIの社会的影響と倫理
+
+## はじめに — IBM Watson Health「失敗」の教訓
+
+2013年、IBMはWatson Healthプロジェクトを発表し、「AIが医療を変革する」と宣言しました。MD Anderson Cancer Centerとの提携（6,200万ドル投資）を含む大型プロジェクトで、がん治療の推奨を行うAIシステムの開発を目指しました。
+
+しかし2017年、MD Andersonとの契約は打ち切られ、Watson Healthは期待された成果を出せませんでした。2022年、IBMはWatson Health事業をFrancisco Partnersに売却。投資額に見合う成果は得られなかったと評価されています。
+
+<CaseStudy title="IBM Watson for Oncology — 「AIが医療を変える」は早すぎたか" year={2017} jurisdiction="米国" tags={["IBM Watson", "がん治療", "AI失敗事例"]}>
+
+**経緯**: Watson for Oncologyは、医学論文やガイドラインを学習し、がん患者に対する治療推奨を行うAIとして開発された。
+
+**問題点**:
+- **データの質**: 主にMemorial Sloan Kettering Cancer Center（MSK）の医師の意見に基づいて訓練。限定された専門家の判断パターンを学習しただけで、エビデンスに基づく推論はできていなかった
+- **精度の課題**: 一部の研究では、MSKの医師との一致率が高い一方、他の施設のガイドラインとの一致率が低い報告も
+- **過度なマーケティング**: 技術の成熟度に見合わない期待を市場に与えた
+
+**教訓**: AIの能力を過大評価し、実証なく導入を進めることのリスク。「AIが診断する」のではなく「AIが医師を支援する」という適切な期待値の設定が不可欠。
+
+</CaseStudy>
+
+---
+
+## AIと医療格差 — 恩恵は公平に届くか
+
+### デジタル・ディバイドの拡大
+
+<Callout type="question" title="考えてみよう — AIは医療格差を縮めるか、広げるか？">
+
+**格差を縮める可能性**:
+- 遠隔地でもAI画像診断で都市部と同等のスクリーニングが可能に
+- 専門医がいない地域での診断支援（皮膚科AI、眼底検査AIなど）
+- 言語の壁を越えた医療情報の提供（多言語翻訳AI）
+
+**格差を広げるリスク**:
+- AI導入には高額な投資が必要 → 大病院と中小病院の格差拡大
+- AI活用のリテラシー格差 → 若手医師とベテラン医師の分断
+- 訓練データの偏り → 特定の集団に最適化されたAIが他の集団で低性能
+
+→ AIは「中立的なツール」ではない。導入の仕方によって、格差の是正にも拡大にもなりうる。意識的な設計と政策が必要。
+
+</Callout>
+
+### 医療従事者の雇用への影響
+
+| 影響の種類 | 具体例 | 見通し |
+|:---|:---|:---|
+| 業務の変容 | 放射線科医の読影 → AIがスクリーニング、医師が最終判断 | 既に進行中 |
+| 効率化による余力 | 文書作成の自動化 → 患者対応に時間を振り向ける | 短期的に実現 |
+| 新たな専門性 | AI医療機器の管理・評価ができる医師の需要増 | 中期的に顕在化 |
+| 職種の再定義 | 「AIトレーナー」「AI品質管理者」等の新職種 | 長期的に出現 |
+
+<Callout type="insight" title="「AIに代替される」のではなく「AIと共に変わる」">
+
+2016年、AIの先駆者Geoffrey Hintonは「放射線科の訓練をやめるべき」と発言し、物議を醸しました。しかし、2024年時点で放射線科医の需要は減るどころか増加しています。AIは放射線科医を代替するのではなく、業務の質を変えています。
+
+→ 歴史的に、新技術（電子カルテ、内視鏡、MRI）は医師の仕事を「なくす」のではなく「変える」ものでした。AIも同様に、医師の役割を再定義する技術です。
+
+</Callout>
+
+---
+
+## 自動化バイアスと医療安全
+
+<CaseStudy title="自動化バイアス — AIを信頼しすぎる人間の心理" year={2020} jurisdiction="国際" tags={["自動化バイアス", "医療安全", "ヒューマンファクター"]}>
+
+**定義**: 自動化バイアス（Automation Bias）とは、人間が自動化システムの判断を過度に信頼し、自らの判断力を十分に発揮しない心理的傾向。
+
+**航空業界の先例**: 自動操縦システムへの過度な依存が複数の航空事故の要因となった。2009年のエールフランス447便事故では、自動操縦解除後にパイロットが適切に対応できなかった。
+
+**医療での懸念**:
+- AIが「異常なし」と判定 → 医師が画像を十分確認せず見逃し
+- AIが「異常あり」と判定 → 不要な精査を実施
+- AIへの依存が続くと、医師自身の読影スキルが低下する可能性
+
+**対策**:
+- AIの判定を確認する手順の標準化
+- AI非使用での読影スキル維持訓練
+- AIの限界（偽陰性率・偽陽性率）の明示
+
+</CaseStudy>
+
+---
+
+## 患者の自律性とインフォームド・コンセント
+
+### AI使用の説明義務
+
+<Callout type="comparison" title="AI使用に関するインフォームド・コンセント — 現在の考え方">
+
+**最低限の説明事項**:
+- 診断・治療過程でAIが使用されていること
+- AIの役割（支援ツールであり、最終判断は医師が行うこと）
+- AIの限界（誤判定の可能性があること）
+
+**患者の権利**:
+- AIの使用について説明を受ける権利
+- AIの使用を拒否する権利（ただし、AI不使用が標準医療を下回る場合の対応は未整理）
+
+**現状の課題**:
+- AIの使用に関する説明の法的義務は明確に規定されていない
+- どの程度の詳細さで説明すべきかの基準がない
+- 患者がAIの使用を拒否した場合の代替手段の確保
+
+</Callout>
+
+---
+
+## 責任あるAI活用の5原則
+
+<ResourceCard
+  type="guideline"
+  title="Ethics and governance of artificial intelligence for health"
+  url="https://www.who.int/publications/i/item/9789240029200"
+  source="WHO"
+  year={2021}
+  description="WHOが発表した医療AI倫理ガイドライン。6つの基本原則を提示"
+/>
+
+WHO（2021年）の医療AI倫理ガイドラインを踏まえ、医療現場での実践的な5原則を整理します。
+
+| 原則 | 内容 | 実践例 |
+|:---|:---|:---|
+| 透明性 | AIの使用を患者・関係者に開示 | AI使用の説明と同意取得 |
+| 公平性 | 全ての患者集団に公平な性能 | 検証データの多様性を確認 |
+| 安全性 | AIの誤判定リスクを最小化 | 定期的な性能モニタリング |
+| 説明責任 | 最終判断の責任は医師にある | AI判定の確認プロセスの標準化 |
+| プライバシー | 患者データの適切な管理 | 個人情報保護法・3省2ガイドラインの遵守 |
+
+---
+
+## まとめ
+
+AIの社会的影響は、IBM Watson Healthの「失敗」が示すように、過度な期待と現実のギャップから始まります。AIは医療格差を縮める可能性と広げるリスクの両方を持ち、自動化バイアスという新たな医療安全上の課題も生みます。患者の自律性の尊重、責任あるAI活用の原則の実践が、AIと医療の健全な関係を築く鍵です。
+
+次のレッスンでは、このコースのまとめと**AI学習の次のステップ**を学びます。
+
+<Quiz
+  courseId="ai-basics"
+  lessonSlug="07-ai-social-impact"
+  questions={[
+    {
+      question: "IBM Watson for Oncologyの事例が示す最も重要な教訓はどれか？",
+      options: ["AIはがん治療には使えない", "AIの能力を過大評価せず、実証に基づく導入と適切な期待値の設定が不可欠", "AI開発への投資は全て無駄である", "AIは大企業だけが開発すべきである"],
+      correctIndex: 1,
+      explanation: "Watson for Oncologyは、限られた専門家の判断パターンを学習しただけでエビデンスに基づく推論はできておらず、技術の成熟度に見合わない期待を与えました。AIの能力を正確に評価し、実証に基づいて段階的に導入することの重要性を示しています。"
+    },
+    {
+      question: "自動化バイアス（Automation Bias）が医療現場で最も問題となる場面はどれか？",
+      options: ["AIが導入されていない施設", "AIが「異常なし」と判定したため医師が十分な確認を怠り、見逃しが発生する場面", "AIの計算速度が遅い場合", "AIが全ての症例で「異常あり」と判定する場合"],
+      correctIndex: 1,
+      explanation: "自動化バイアスにより、AIが「異常なし」と判定すると医師がその判定を過信し、自らの確認を怠るリスクがあります。航空業界でも自動操縦への過度な依存が事故要因となった先例があり、AIの判定を必ず確認する手順の標準化が重要です。"
+    },
+    {
+      question: "AIと医療格差の関係について最も正確な記述はどれか？",
+      options: ["AIは必ず医療格差を解消する", "AIは必ず医療格差を拡大する", "AIは導入の仕方によって格差の是正にも拡大にもなりうる", "AIは医療格差に影響を与えない"],
+      correctIndex: 2,
+      explanation: "AIは遠隔地での診断支援など格差縮小の可能性がある一方、導入コスト、リテラシー格差、訓練データの偏りにより格差を拡大するリスクもあります。「中立的なツール」ではなく、意識的な設計と政策によって方向性が決まります。"
+    }
+  ]}
+/>
+
+<ActionItem>
+自施設でAIを導入する場合に備え、「患者へのAI使用説明テンプレート」を作成してみましょう。「どのようなAIを使用するか」「AIの役割と限界」「最終判断は医師が行うこと」「拒否する権利があること」の4点を含む30秒の説明スクリプトを準備しておくことが、責任あるAI活用の第一歩です。
+</ActionItem>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"ai-basics","lessonSlug":"07-ai-social-impact"}],["$","$L4",null,{"items":[{"id":"はじめに-ibm-watson-health失敗の教訓","text":"はじめに — IBM Watson Health「失敗」の教訓","level":2},{"id":"aiと医療格差-恩恵は公平に届くか","text":"AIと医療格差 — 恩恵は公平に届くか","level":2},{"id":"デジタルディバイドの拡大","text":"デジタル・ディバイドの拡大","level":3},{"id":"医療従事者の雇用への影響","text":"医療従事者の雇用への影響","level":3},{"id":"自動化バイアスと医療安全","text":"自動化バイアスと医療安全","level":2},{"id":"患者の自律性とインフォームドコンセント","text":"患者の自律性とインフォームド・コンセント","level":2},{"id":"ai使用の説明義務","text":"AI使用の説明義務","level":3},{"id":"責任あるai活用の5原則","text":"責任あるAI活用の5原則","level":2},{"id":"まとめ","text":"まとめ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"course":{"courseId":"ai-basics","title":"AIとは何か - 基礎から理解する人工知能","description":"AIの定義、知能の本質、機械学習の基礎、AIの種類と分類を体系的に学びます","category":"ai-fundamentals","level":"beginner","lessonCount":8,"estimatedTotalMinutes":128,"order":1,"free":true,"learningOutcomes":["AIの定義と種類を正確に説明できる","機械学習の基本的な仕組みを理解できる","AIの現在の能力と限界を区別できる","AIの社会的影響を多角的に評価できる"],"prerequisites":[],"targetAudience":["AIについて初めて学ぶ方","医療分野でAIの基礎知識を得たい方","AI関連のニュースを正しく理解したい方"],"skills":["AI基礎知識","機械学習概論","AI分類"]},"lesson":{"courseId":"ai-basics","slug":"07-ai-social-impact","title":"AIの社会的影響と倫理","description":"IBM Watson Healthの教訓、医療格差、自動化バイアス、責任あるAI活用の原則を具体事例で学びます","order":7,"estimatedMinutes":15,"estimatedReadTime":13,"content":"$6"}}],"$L7","$L8","$L9","$La"]}]],["$Lb","$Lc"],"$Ld"]}],"loading":null,"isPartial":false}
+7:["$","$Le",null,{"items":[{"id":"はじめに-ibm-watson-health失敗の教訓","text":"はじめに — IBM Watson Health「失敗」の教訓","level":2},{"id":"aiと医療格差-恩恵は公平に届くか","text":"AIと医療格差 — 恩恵は公平に届くか","level":2},{"id":"デジタルディバイドの拡大","text":"デジタル・ディバイドの拡大","level":3},{"id":"医療従事者の雇用への影響","text":"医療従事者の雇用への影響","level":3},{"id":"自動化バイアスと医療安全","text":"自動化バイアスと医療安全","level":2},{"id":"患者の自律性とインフォームドコンセント","text":"患者の自律性とインフォームド・コンセント","level":2},{"id":"ai使用の説明義務","text":"AI使用の説明義務","level":3},{"id":"責任あるai活用の5原則","text":"責任あるAI活用の5原則","level":2},{"id":"まとめ","text":"まとめ","level":2}]}]
+8:["$","article",null,{"className":"prose","children":[["$","h1",null,{"children":"AIの社会的影響と倫理"}],"\n",["$","h2",null,{"id":"はじめに-ibm-watson-health失敗の教訓","children":"はじめに — IBM Watson Health「失敗」の教訓"}],"\n",["$","p",null,{"children":"2013年、IBMはWatson Healthプロジェクトを発表し、「AIが医療を変革する」と宣言しました。MD Anderson Cancer Centerとの提携（6,200万ドル投資）を含む大型プロジェクトで、がん治療の推奨を行うAIシステムの開発を目指しました。"}],"\n",["$","p",null,{"children":"しかし2017年、MD Andersonとの契約は打ち切られ、Watson Healthは期待された成果を出せませんでした。2022年、IBMはWatson Health事業をFrancisco Partnersに売却。投資額に見合う成果は得られなかったと評価されています。"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-blue-600/50 dark:border-l-blue-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","米国"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"IBM Watson for Oncology — 「AIが医療を変える」は早すぎたか"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"経緯"}],": Watson for Oncologyは、医学論文やガイドラインを学習し、がん患者に対する治療推奨を行うAIとして開発された。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"問題点"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"データの質"}],": 主にMemorial Sloan Kettering Cancer Center（MSK）の医師の意見に基づいて訓練。限定された専門家の判断パターンを学習しただけで、エビデンスに基づく推論はできていなかった"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"精度の課題"}],": 一部の研究では、MSKの医師との一致率が高い一方、他の施設のガイドラインとの一致率が低い報告も"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"過度なマーケティング"}],": 技術の成熟度に見合わない期待を市場に与えた"]}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"教訓"}],": AIの能力を過大評価し、実証なく導入を進めることのリスク。「AIが診断する」のではなく「AIが医師を支援する」という適切な期待値の設定が不可欠。"]}]]}]]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"aiと医療格差-恩恵は公平に届くか","children":"AIと医療格差 — 恩恵は公平に届くか"}],"\n",["$","h3",null,{"id":"デジタルディバイドの拡大","children":"デジタル・ディバイドの拡大"}],"\n",["$","$Lf",null,{"type":"question","title":"考えてみよう — AIは医療格差を縮めるか、広げるか？","children":[["$","p",null,{"children":[["$","strong",null,{"children":"格差を縮める可能性"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"遠隔地でもAI画像診断で都市部と同等のスクリーニングが可能に"}],"\n",["$","li",null,{"children":"専門医がいない地域での診断支援（皮膚科AI、眼底検査AIなど）"}],"\n",["$","li",null,{"children":"言語の壁を越えた医療情報の提供（多言語翻訳AI）"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"格差を広げるリスク"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"AI導入には高額な投資が必要 → 大病院と中小病院の格差拡大"}],"\n",["$","li",null,{"children":"AI活用のリテラシー格差 → 若手医師とベテラン医師の分断"}],"\n",["$","li",null,{"children":"訓練データの偏り → 特定の集団に最適化されたAIが他の集団で低性能"}],"\n"]}],["$","p",null,{"children":"→ AIは「中立的なツール」ではない。導入の仕方によって、格差の是正にも拡大にもなりうる。意識的な設計と政策が必要。"}]]}],"\n",["$","h3",null,{"id":"医療従事者の雇用への影響","children":"医療従事者の雇用への影響"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"影響の種類"}],["$","th",null,{"style":{"textAlign":"left"},"children":"具体例"}],["$","th",null,{"style":{"textAlign":"left"},"children":"見通し"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"業務の変容"}],["$","td",null,{"style":{"textAlign":"left"},"children":"放射線科医の読影 → AIがスクリーニング、医師が最終判断"}],["$","td",null,{"style":{"textAlign":"left"},"children":"既に進行中"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"効率化による余力"}],["$","td",null,{"style":{"textAlign":"left"},"children":"文書作成の自動化 → 患者対応に時間を振り向ける"}],["$","td",null,{"style":{"textAlign":"left"},"children":"短期的に実現"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"新たな専門性"}],["$","td",null,{"style":{"textAlign":"left"},"children":"AI医療機器の管理・評価ができる医師の需要増"}],["$","td",null,{"style":{"textAlign":"left"},"children":"中期的に顕在化"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"職種の再定義"}],["$","td",null,{"style":{"textAlign":"left"},"children":"「AIトレーナー」「AI品質管理者」等の新職種"}],["$","td",null,{"style":{"textAlign":"left"},"children":"長期的に出現"}]]}]]}]]}],"\n",["$","$Lf",null,{"type":"insight","title":"「AIに代替される」のではなく「AIと共に変わる」","children":[["$","p",null,{"children":"2016年、AIの先駆者Geoffrey Hintonは「放射線科の訓練をやめるべき」と発言し、物議を醸しました。しかし、2024年時点で放射線科医の需要は減るどころか増加しています。AIは放射線科医を代替するのではなく、業務の質を変えています。"}],"$L10"]}],"\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22"]}]
+9:["$","$L23",null,{"courseId":"ai-basics","lessonSlug":"07-ai-social-impact"}]
+a:["$","$L24",null,{"courseId":"ai-basics","prev":{"slug":"06-ai-current-state","title":"AIの現状と医療分野での展望","order":6},"next":{"slug":"08-next-steps","title":"AI学習の次のステップ","order":8}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true}]
+c:["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true}]
+d:["$","$L25",null,{"children":["$","$26",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
+10:["$","p",null,{"children":"→ 歴史的に、新技術（電子カルテ、内視鏡、MRI）は医師の仕事を「なくす」のではなく「変える」ものでした。AIも同様に、医師の役割を再定義する技術です。"}]
+11:["$","hr",null,{}]
+12:["$","h2",null,{"id":"自動化バイアスと医療安全","children":"自動化バイアスと医療安全"}]
+13:["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-amber-600/50 dark:border-l-amber-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","国際"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"自動化バイアス — AIを信頼しすぎる人間の心理"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"定義"}],": 自動化バイアス（Automation Bias）とは、人間が自動化システムの判断を過度に信頼し、自らの判断力を十分に発揮しない心理的傾向。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"航空業界の先例"}],": 自動操縦システムへの過度な依存が複数の航空事故の要因となった。2009年のエールフランス447便事故では、自動操縦解除後にパイロットが適切に対応できなかった。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"医療での懸念"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIが「異常なし」と判定 → 医師が画像を十分確認せず見逃し"}],"\n",["$","li",null,{"children":"AIが「異常あり」と判定 → 不要な精査を実施"}],"\n",["$","li",null,{"children":"AIへの依存が続くと、医師自身の読影スキルが低下する可能性"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"対策"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIの判定を確認する手順の標準化"}],"\n",["$","li",null,{"children":"AI非使用での読影スキル維持訓練"}],"\n",["$","li",null,{"children":"AIの限界（偽陰性率・偽陽性率）の明示"}],"\n"]}]]}]]}]
+14:["$","hr",null,{}]
+15:["$","h2",null,{"id":"患者の自律性とインフォームドコンセント","children":"患者の自律性とインフォームド・コンセント"}]
+16:["$","h3",null,{"id":"ai使用の説明義務","children":"AI使用の説明義務"}]
+17:["$","$Lf",null,{"type":"comparison","title":"AI使用に関するインフォームド・コンセント — 現在の考え方","children":[["$","p",null,{"children":[["$","strong",null,{"children":"最低限の説明事項"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"診断・治療過程でAIが使用されていること"}],"\n",["$","li",null,{"children":"AIの役割（支援ツールであり、最終判断は医師が行うこと）"}],"\n",["$","li",null,{"children":"AIの限界（誤判定の可能性があること）"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"患者の権利"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIの使用について説明を受ける権利"}],"\n",["$","li",null,{"children":"AIの使用を拒否する権利（ただし、AI不使用が標準医療を下回る場合の対応は未整理）"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"現状の課題"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIの使用に関する説明の法的義務は明確に規定されていない"}],"\n",["$","li",null,{"children":"どの程度の詳細さで説明すべきかの基準がない"}],"\n",["$","li",null,{"children":"患者がAIの使用を拒否した場合の代替手段の確保"}],"\n"]}]]}]
+18:["$","hr",null,{}]
+19:["$","h2",null,{"id":"責任あるai活用の5原則","children":"責任あるAI活用の5原則"}]
+1a:["$","$L28",null,{"type":"guideline","title":"Ethics and governance of artificial intelligence for health","url":"https://www.who.int/publications/i/item/9789240029200","source":"WHO","description":"WHOが発表した医療AI倫理ガイドライン。6つの基本原則を提示"}]
+1b:["$","p",null,{"children":"WHO（2021年）の医療AI倫理ガイドラインを踏まえ、医療現場での実践的な5原則を整理します。"}]
+1c:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"原則"}],["$","th",null,{"style":{"textAlign":"left"},"children":"内容"}],["$","th",null,{"style":{"textAlign":"left"},"children":"実践例"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"透明性"}],["$","td",null,{"style":{"textAlign":"left"},"children":"AIの使用を患者・関係者に開示"}],["$","td",null,{"style":{"textAlign":"left"},"children":"AI使用の説明と同意取得"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"公平性"}],["$","td",null,{"style":{"textAlign":"left"},"children":"全ての患者集団に公平な性能"}],["$","td",null,{"style":{"textAlign":"left"},"children":"検証データの多様性を確認"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"安全性"}],["$","td",null,{"style":{"textAlign":"left"},"children":"AIの誤判定リスクを最小化"}],["$","td",null,{"style":{"textAlign":"left"},"children":"定期的な性能モニタリング"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"説明責任"}],["$","td",null,{"style":{"textAlign":"left"},"children":"最終判断の責任は医師にある"}],["$","td",null,{"style":{"textAlign":"left"},"children":"AI判定の確認プロセスの標準化"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"プライバシー"}],["$","td",null,{"style":{"textAlign":"left"},"children":"患者データの適切な管理"}],["$","td",null,{"style":{"textAlign":"left"},"children":"個人情報保護法・3省2ガイドラインの遵守"}]]}]]}]]}]
+1d:["$","hr",null,{}]
+1e:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+1f:["$","p",null,{"children":"AIの社会的影響は、IBM Watson Healthの「失敗」が示すように、過度な期待と現実のギャップから始まります。AIは医療格差を縮める可能性と広げるリスクの両方を持ち、自動化バイアスという新たな医療安全上の課題も生みます。患者の自律性の尊重、責任あるAI活用の原則の実践が、AIと医療の健全な関係を築く鍵です。"}]
+20:["$","p",null,{"children":["次のレッスンでは、このコースのまとめと",["$","strong",null,{"children":"AI学習の次のステップ"}],"を学びます。"]}]
+21:["$","$L29",null,{"courseId":"ai-basics","lessonSlug":"07-ai-social-impact"}]
+22:["$","$L2a",null,{"children":["$","p",null,{"children":"自施設でAIを導入する場合に備え、「患者へのAI使用説明テンプレート」を作成してみましょう。「どのようなAIを使用するか」「AIの役割と限界」「最終判断は医師が行うこと」「拒否する権利があること」の4点を含む30秒の説明スクリプトを準備しておくことが、責任あるAI活用の第一歩です。"}]}]
+27:null

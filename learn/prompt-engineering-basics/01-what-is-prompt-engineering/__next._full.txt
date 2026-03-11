@@ -1,0 +1,217 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","learn","prompt-engineering-basics","01-what-is-prompt-engineering"],"q":"","i":false,"f":[[["",{"children":["learn",{"children":[["courseId","prompt-engineering-basics","d"],{"children":[["lessonSlug","01-what-is-prompt-engineering","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+1e:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+1f:T2674,
+# プロンプトエンジニアリングとは
+
+## このレッスンで学ぶこと
+
+このレッスンを完了すると、プロンプトエンジニアリングの定義と重要性を理解し、良いプロンプトと悪いプロンプトの違いを把握できるようになります。医療現場での実践的な意義を学びます。
+
+---
+
+## セクション1: プロンプトエンジニアリングの定義
+
+### プロンプトエンジニアリングとは
+
+プロンプトエンジニアリングは、AIからより良い回答を得るために、プロンプトを設計・最適化する技術です。
+
+プロンプトエンジニアリングの目的：
+
+プロンプトエンジニアリングの目的として、より正確で有用な回答を得るという回答の質の向上があります。また、出力を意図した形式や内容にするという出力の制御、より少ない試行で目的を達成するという効率の向上もあります。これらの目的を達成することで、AIをより効果的に活用できます。
+
+### 医療現場での重要性
+
+医療現場では、プロンプトの質が、AIの回答の質を大きく左右します。
+
+重要性：
+
+医療現場での重要性として、正確な情報を得るために重要という正確性があります。また、効率的に情報を得るために重要という効率性、安全にAIを活用するために重要という安全性もあります。これらの重要性を理解することで、適切なプロンプトエンジニアリングが可能になります。
+
+---
+
+## セクション2: 良いプロンプトと悪いプロンプト
+
+### 悪いプロンプトの例
+
+悪いプロンプトの特徴：
+
+悪いプロンプトの特徴として、「診断書について教えて」というように抽象的であることが挙げられます。また、「症例報告書を作成して」というように情報不足であること、「説明資料を作成して」というように制約条件の不足も問題です。
+
+問題点：
+
+これらの悪いプロンプトの問題点として、AIが何を求めているか分からないという問題があります。また、期待と異なる回答が得られる、複数回の試行が必要になるなどの問題もあります。これらの問題により、効率的なAI活用が困難になります。
+
+### 良いプロンプトの例
+
+良いプロンプトの特徴：
+
+良いプロンプトの特徴として、「急性気管支炎の診断書の書き方を、具体的な例を含めて教えてください」というように具体的であることが挙げられます。また、「以下の症例情報に基づいて、症例報告書のIntroductionセクションを作成してください：[症例情報]」というように情報が十分であること、「急性心筋梗塞について、一般の患者が理解しやすい言葉で説明資料を作成してください。専門用語は最小限にし、300文字以内で、箇条書き形式で作成してください。」というように制約条件が明確であることも重要です。
+
+---
+
+## セクション3: プロンプトの要素
+
+### プロンプトの基本要素
+
+効果的なプロンプトには、以下の要素が含まれます：
+
+要素1：役割の設定：
+
+効果的なプロンプトには、まず役割の設定が必要です。例えば「あなたは経験豊富な内科医です」というように、AIにどのような役割を担わせるかを明確にします。
+
+要素2：タスクの明確化：
+
+次に、タスクの明確化が必要です。例えば「診断書の主訴セクションを作成してください」というように、何をしてほしいかを具体的に示します。
+
+要素3：コンテキストの提供：
+
+さらに、コンテキストの提供も重要です。例えば「患者は65歳男性で、胸痛を訴えています」というように、必要な背景情報を提供します。
+
+要素4：制約条件の指定：
+
+制約条件の指定も必要です。例えば「医療用語を使用し、50文字以内で記述してください」というように、出力の制約を明確にします。
+
+要素5：出力形式の指定：
+
+最後に、出力形式の指定も重要です。例えば「箇条書き形式で作成してください」というように、希望する出力形式を指定します。
+
+---
+
+## セクション4: 医療現場での実践例
+
+### 診断書作成のプロンプト
+
+良いプロンプトの例：
+「あなたは経験豊富な内科医です。以下の患者情報に基づいて、診断書のドラフトを作成してください。
+
+患者情報：
+- 年齢：65歳、男性
+- 主訴：胸痛、発汗、呼吸困難
+- 現病歴：3時間前から症状出現
+- 検査結果：心電図でST上昇、トロポニン陽性
+- 診断名：急性心筋梗塞
+
+診断書には、主訴、現病歴、診断名を含めてください。医療用語を適切に使用し、簡潔に記述してください。」
+
+### 症例報告書作成のプロンプト
+
+良いプロンプトの例：
+「あなたは経験豊富な内科医です。以下の症例情報に基づいて、症例報告書のIntroductionセクションを作成してください。
+
+症例情報：
+- 年齢：45歳、女性
+- 主訴：急性腹痛
+- 診断：虫垂炎
+- 新規性：非典型的な症状パターン
+
+Introductionセクションでは、症例の新規性と教育的意義を強調してください。300文字以内で、専門用語を適切に使用してください。」
+
+---
+
+## 重要な洞察：プロンプトの反復改善
+
+プロンプトは、一度で完璧に書く必要はありません。回答を見て、必要に応じて改善できます。
+
+改善のプロセス：
+
+プロンプトの改善プロセスは、まず最初のプロンプトで質問することから始まります。次に、回答を確認し、不足している情報や改善点を特定します。最後に、プロンプトを改善して再質問することで、より良い回答が得られるようになります。この反復的な改善プロセスにより、プロンプトの質を向上させることができます。
+
+---
+
+## まとめ：プロンプトエンジニアリングを理解する
+
+このレッスンでは、プロンプトエンジニアリングの基礎について学びました。
+
+重要なポイント：
+
+このレッスンで学んだ重要なポイントを振り返ると、まずプロンプトエンジニアリングの定義として、AIからより良い回答を得るための技術があります。良いプロンプトと悪いプロンプトの違いは、具体的で、情報が十分で、制約条件が明確であるかどうかです。プロンプトの要素として、役割、タスク、コンテキスト、制約条件、出力形式が重要です。医療現場での実践として、診断書、症例報告書でのプロンプト例を学びました。
+
+### 次のステップ
+
+次のレッスンでは、基本的なプロンプトテクニックについて学びます。明確な指示、コンテキストの提供、例示などの基本テクニックを理解します。
+
+---
+
+<Quiz
+  courseId="prompt-engineering-basics"
+  lessonSlug="01-what-is-prompt-engineering"
+  questions={[
+    {
+      question: "プロンプトエンジニアリングの主な目的として、最も適切なものはどれですか？",
+      options: ["AIを自律的に動作させること", "AIからより正確で有用な回答を得るためにプロンプトを設計・最適化すること", "AIの学習データを増やすこと", "AIのハードウェア性能を向上させること"],
+      correctIndex: 1,
+      explanation: "プロンプトエンジニアリングは、AIからより良い回答を得るためにプロンプトを設計・最適化する技術です。回答の質の向上、出力の制御、効率の向上が主な目的です。"
+    },
+    {
+      question: "効果的なプロンプトの基本要素として含まれないものはどれですか？",
+      options: ["役割の設定", "タスクの明確化", "AIモデルの選択指定", "コンテキストの提供"],
+      correctIndex: 2,
+      explanation: "効果的なプロンプトの基本要素は、役割の設定、タスクの明確化、コンテキストの提供、制約条件の指定、出力形式の指定の5つです。AIモデルの選択指定はプロンプトの要素ではありません。"
+    },
+    {
+      question: "「診断書について教えて」というプロンプトの問題点として最も適切なものはどれですか？",
+      options: ["文字数が多すぎる", "専門用語を使いすぎている", "抽象的で具体性がなく、AIが何を求めているか判断しにくい", "役割の設定が不適切である"],
+      correctIndex: 2,
+      explanation: "このプロンプトは抽象的で情報不足のため、AIが何を求めているか分からず、期待と異なる回答が得られたり、複数回の試行が必要になったりします。具体的な内容、制約条件、出力形式を指定することが重要です。"
+    }
+  ]}
+/>
+
+<ActionItem>
+明日の業務で、AIに質問する際に「役割の設定」「タスクの明確化」「コンテキストの提供」「制約条件」「出力形式」の5つの要素を意識してプロンプトを1つ作成してみましょう。例えば、診断書や患者説明資料の作成など、日常業務の1つをテーマにしてください。
+</ActionItem>12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"prompt-engineering-basics","lessonSlug":"01-what-is-prompt-engineering"}],["$","$L1d",null,{"items":[{"id":"このレッスンで学ぶこと","text":"このレッスンで学ぶこと","level":2},{"id":"セクション1-プロンプトエンジニアリングの定義","text":"セクション1: プロンプトエンジニアリングの定義","level":2},{"id":"プロンプトエンジニアリングとは","text":"プロンプトエンジニアリングとは","level":3},{"id":"医療現場での重要性","text":"医療現場での重要性","level":3},{"id":"セクション2-良いプロンプトと悪いプロンプト","text":"セクション2: 良いプロンプトと悪いプロンプト","level":2},{"id":"悪いプロンプトの例","text":"悪いプロンプトの例","level":3},{"id":"良いプロンプトの例","text":"良いプロンプトの例","level":3},{"id":"セクション3-プロンプトの要素","text":"セクション3: プロンプトの要素","level":2},{"id":"プロンプトの基本要素","text":"プロンプトの基本要素","level":3},{"id":"セクション4-医療現場での実践例","text":"セクション4: 医療現場での実践例","level":2},{"id":"診断書作成のプロンプト","text":"診断書作成のプロンプト","level":3},{"id":"症例報告書作成のプロンプト","text":"症例報告書作成のプロンプト","level":3},{"id":"重要な洞察プロンプトの反復改善","text":"重要な洞察：プロンプトの反復改善","level":2},{"id":"まとめプロンプトエンジニアリングを理解する","text":"まとめ：プロンプトエンジニアリングを理解する","level":2},{"id":"次のステップ","text":"次のステップ","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"course":{"courseId":"prompt-engineering-basics","title":"プロンプトエンジニアリング基礎","description":"AIへの効果的な指示の出し方、基本テクニック、医療分野での実践的なプロンプト設計を学びます","category":"workflow","level":"beginner","lessonCount":5,"estimatedTotalMinutes":98,"order":3,"free":true,"learningOutcomes":["効果的なプロンプトを設計できる","医療文脈に適したプロンプトを作成できる","プロンプトの品質を評価・改善できる"],"prerequisites":["ai-basics"],"targetAudience":["AIツールをもっと上手に使いたい方","臨床業務でAIを活用したい医療者","プロンプト設計の基礎を学びたい方"],"skills":["プロンプト設計","AI活用","医療プロンプト"],"coverImage":"$undefined"},"lesson":{"courseId":"prompt-engineering-basics","slug":"01-what-is-prompt-engineering","title":"プロンプトエンジニアリングとは","description":"プロンプトエンジニアリングの定義、重要性、良いプロンプトと悪いプロンプトの違いを理解します","order":1,"estimatedMinutes":18,"estimatedReadTime":12,"content":"$1f"}}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+26:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+27:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose","children":"$L25"}]
+22:["$","$L26",null,{"courseId":"prompt-engineering-basics","lessonSlug":"01-what-is-prompt-engineering"}]
+23:["$","$L27",null,{"courseId":"prompt-engineering-basics","prev":null,"next":{"slug":"02-basic-techniques","title":"基本的なプロンプトテクニック","order":2}}]
+25:[["$","h1",null,{"children":"プロンプトエンジニアリングとは"}],"\n",["$","h2",null,{"id":"このレッスンで学ぶこと","children":"このレッスンで学ぶこと"}],"\n",["$","p",null,{"children":"このレッスンを完了すると、プロンプトエンジニアリングの定義と重要性を理解し、良いプロンプトと悪いプロンプトの違いを把握できるようになります。医療現場での実践的な意義を学びます。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション1-プロンプトエンジニアリングの定義","children":"セクション1: プロンプトエンジニアリングの定義"}],"\n",["$","h3",null,{"id":"プロンプトエンジニアリングとは","children":"プロンプトエンジニアリングとは"}],"\n",["$","p",null,{"children":"プロンプトエンジニアリングは、AIからより良い回答を得るために、プロンプトを設計・最適化する技術です。"}],"\n",["$","p",null,{"children":"プロンプトエンジニアリングの目的："}],"\n",["$","p",null,{"children":"プロンプトエンジニアリングの目的として、より正確で有用な回答を得るという回答の質の向上があります。また、出力を意図した形式や内容にするという出力の制御、より少ない試行で目的を達成するという効率の向上もあります。これらの目的を達成することで、AIをより効果的に活用できます。"}],"\n",["$","h3",null,{"id":"医療現場での重要性","children":"医療現場での重要性"}],"\n",["$","p",null,{"children":"医療現場では、プロンプトの質が、AIの回答の質を大きく左右します。"}],"\n",["$","p",null,{"children":"重要性："}],"\n",["$","p",null,{"children":"医療現場での重要性として、正確な情報を得るために重要という正確性があります。また、効率的に情報を得るために重要という効率性、安全にAIを活用するために重要という安全性もあります。これらの重要性を理解することで、適切なプロンプトエンジニアリングが可能になります。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション2-良いプロンプトと悪いプロンプト","children":"セクション2: 良いプロンプトと悪いプロンプト"}],"\n",["$","h3",null,{"id":"悪いプロンプトの例","children":"悪いプロンプトの例"}],"\n",["$","p",null,{"children":"悪いプロンプトの特徴："}],"\n",["$","p",null,{"children":"悪いプロンプトの特徴として、「診断書について教えて」というように抽象的であることが挙げられます。また、「症例報告書を作成して」というように情報不足であること、「説明資料を作成して」というように制約条件の不足も問題です。"}],"\n",["$","p",null,{"children":"問題点："}],"\n",["$","p",null,{"children":"これらの悪いプロンプトの問題点として、AIが何を求めているか分からないという問題があります。また、期待と異なる回答が得られる、複数回の試行が必要になるなどの問題もあります。これらの問題により、効率的なAI活用が困難になります。"}],"\n",["$","h3",null,{"id":"良いプロンプトの例","children":"良いプロンプトの例"}],"\n",["$","p",null,{"children":"良いプロンプトの特徴："}],"\n",["$","p",null,{"children":"良いプロンプトの特徴として、「急性気管支炎の診断書の書き方を、具体的な例を含めて教えてください」というように具体的であることが挙げられます。また、「以下の症例情報に基づいて、症例報告書のIntroductionセクションを作成してください：[症例情報]」というように情報が十分であること、「急性心筋梗塞について、一般の患者が理解しやすい言葉で説明資料を作成してください。専門用語は最小限にし、300文字以内で、箇条書き形式で作成してください。」というように制約条件が明確であることも重要です。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション3-プロンプトの要素","children":"セクション3: プロンプトの要素"}],"\n",["$","h3",null,{"id":"プロンプトの基本要素","children":"プロンプトの基本要素"}],"\n",["$","p",null,{"children":"効果的なプロンプトには、以下の要素が含まれます："}],"\n",["$","p",null,{"children":"要素1：役割の設定："}],"\n",["$","p",null,{"children":"効果的なプロンプトには、まず役割の設定が必要です。例えば「あなたは経験豊富な内科医です」というように、AIにどのような役割を担わせるかを明確にします。"}],"\n",["$","p",null,{"children":"要素2：タスクの明確化："}],"\n",["$","p",null,{"children":"次に、タスクの明確化が必要です。例えば「診断書の主訴セクションを作成してください」というように、何をしてほしいかを具体的に示します。"}],"\n",["$","p",null,{"children":"要素3：コンテキストの提供："}],"\n",["$","p",null,{"children":"さらに、コンテキストの提供も重要です。例えば「患者は65歳男性で、胸痛を訴えています」というように、必要な背景情報を提供します。"}],"\n",["$","p",null,{"children":"要素4：制約条件の指定："}],"\n",["$","p",null,{"children":"制約条件の指定も必要です。例えば「医療用語を使用し、50文字以内で記述してください」というように、出力の制約を明確にします。"}],"\n",["$","p",null,{"children":"要素5：出力形式の指定："}],"\n",["$","p",null,{"children":"最後に、出力形式の指定も重要です。例えば「箇条書き形式で作成してください」というように、希望する出力形式を指定します。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション4-医療現場での実践例","children":"セクション4: 医療現場での実践例"}],"\n",["$","h3",null,{"id":"診断書作成のプロンプト","children":"診断書作成のプロンプト"}],"\n",["$","p",null,{"children":"良いプロンプトの例：\n「あなたは経験豊富な内科医です。以下の患者情報に基づいて、診断書のドラフトを作成してください。"}],"\n",["$","p",null,{"children":"患者情報："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"年齢：65歳、男性"}],"\n",["$","li",null,{"children":"主訴：胸痛、発汗、呼吸困難"}],"\n",["$","li",null,{"children":"現病歴：3時間前から症状出現"}],"\n",["$","li",null,{"children":"検査結果：心電図でST上昇、トロポニン陽性"}],"\n",["$","li",null,{"children":"診断名：急性心筋梗塞"}],"\n"]}],"\n",["$","p",null,{"children":"診断書には、主訴、現病歴、診断名を含めてください。医療用語を適切に使用し、簡潔に記述してください。」"}],"\n",["$","h3",null,{"id":"症例報告書作成のプロンプト","children":"症例報告書作成のプロンプト"}],"\n",["$","p",null,{"children":"良いプロンプトの例：\n「あなたは経験豊富な内科医です。以下の症例情報に基づいて、症例報告書のIntroductionセクションを作成してください。"}],"\n",["$","p",null,{"children":"症例情報："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"年齢：45歳、女性"}],"\n",["$","li",null,{"children":"主訴：急性腹痛"}],"\n",["$","li",null,{"children":"診断：虫垂炎"}],"\n",["$","li",null,{"children":"新規性：非典型的な症状パターン"}],"\n"]}],"\n",["$","p",null,{"children":"Introductionセクションでは、症例の新規性と教育的意義を強調してください。300文字以内で、専門用語を適切に使用してください。」"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"重要な洞察プロンプトの反復改善","children":"重要な洞察：プロンプトの反復改善"}],"\n",["$","p",null,{"children":"プロンプトは、一度で完璧に書く必要はありません。回答を見て、必要に応じて改善できます。"}],"\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33"]
+34:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+35:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+28:["$","p",null,{"children":"改善のプロセス："}]
+29:["$","p",null,{"children":"プロンプトの改善プロセスは、まず最初のプロンプトで質問することから始まります。次に、回答を確認し、不足している情報や改善点を特定します。最後に、プロンプトを改善して再質問することで、より良い回答が得られるようになります。この反復的な改善プロセスにより、プロンプトの質を向上させることができます。"}]
+2a:["$","hr",null,{}]
+2b:["$","h2",null,{"id":"まとめプロンプトエンジニアリングを理解する","children":"まとめ：プロンプトエンジニアリングを理解する"}]
+2c:["$","p",null,{"children":"このレッスンでは、プロンプトエンジニアリングの基礎について学びました。"}]
+2d:["$","p",null,{"children":"重要なポイント："}]
+2e:["$","p",null,{"children":"このレッスンで学んだ重要なポイントを振り返ると、まずプロンプトエンジニアリングの定義として、AIからより良い回答を得るための技術があります。良いプロンプトと悪いプロンプトの違いは、具体的で、情報が十分で、制約条件が明確であるかどうかです。プロンプトの要素として、役割、タスク、コンテキスト、制約条件、出力形式が重要です。医療現場での実践として、診断書、症例報告書でのプロンプト例を学びました。"}]
+2f:["$","h3",null,{"id":"次のステップ","children":"次のステップ"}]
+30:["$","p",null,{"children":"次のレッスンでは、基本的なプロンプトテクニックについて学びます。明確な指示、コンテキストの提供、例示などの基本テクニックを理解します。"}]
+31:["$","hr",null,{}]
+32:["$","$L34",null,{"courseId":"prompt-engineering-basics","lessonSlug":"01-what-is-prompt-engineering"}]
+33:["$","$L35",null,{"children":["$","p",null,{"children":"明日の業務で、AIに質問する際に「役割の設定」「タスクの明確化」「コンテキストの提供」「制約条件」「出力形式」の5つの要素を意識してプロンプトを1つ作成してみましょう。例えば、診断書や患者説明資料の作成など、日常業務の1つをテーマにしてください。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+36:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"プロンプトエンジニアリングとは | Hoshizu"}],["$","meta","1",{"name":"description","content":"プロンプトエンジニアリングの定義、重要性、良いプロンプトと悪いプロンプトの違いを理解します"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/learn/prompt-engineering-basics/01-what-is-prompt-engineering"}],["$","meta","4",{"property":"og:title","content":"プロンプトエンジニアリングとは - プロンプトエンジニアリング基礎"}],["$","meta","5",{"property":"og:description","content":"プロンプトエンジニアリングの定義、重要性、良いプロンプトと悪いプロンプトの違いを理解します"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L36","15",{}]]

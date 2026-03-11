@@ -1,0 +1,136 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+7:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+d:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+e:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+f:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+10:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+11:"$Sreact.suspense"
+6:T10f3,
+「コードを書く前に設計する」。当たり前のことだが、AIの速さに流されると忘れがちだ。Plan Modeは、この「設計ファースト」を仕組みで担保する。
+
+---
+
+## Plan Modeとは何か
+
+Plan Modeは、Claude Codeの特殊な動作モードである。
+
+通常モード: Claude Codeはファイルの読み書き、コマンド実行、あらゆる操作が可能。
+
+Plan Mode: Claude Codeは読み取り系のツールしか使えない。Glob、Grep、Readでコードベースを探索し、実装計画を立てる。ファイルの編集やコマンドの実行はできない。
+
+この制約が重要だ。計画段階で「うっかり実装を始めてしまう」ことを防ぎ、設計と実装を明確に分離する。
+
+---
+
+## いつPlan Modeを使うか
+
+### 使うべき場面
+
+- 新機能の実装: 認証システム、ダッシュボード、API設計
+- 複数の実装方法がある: Redis vs メモリキャッシュ、WebSocket vs SSE
+- 多ファイルにまたがる変更: リファクタリング、アーキテクチャ変更
+- 要件が不明確: 探索してから方針を決めたい
+
+### 使わなくてよい場面
+
+- タイポの修正
+- 1ファイルの小さな変更
+- 明確な指示がすでにある単純タスク
+
+---
+
+## Plan Modeのフロー
+
+### 1. Plan Modeに入る
+
+```
+> 認証機能を追加したい。まず計画を立てて。
+```
+
+Claude Codeは自動的に（または `/plan` スキルで明示的に）Plan Modeに入る。
+
+### 2. コードベースの探索
+
+Plan Mode内で、Claude Codeは以下を行う。
+
+- Globでファイル構造を把握
+- Grepで既存の認証コードを検索
+- Readで関連ファイルを読み取り
+- 既存のパターンとアーキテクチャを分析
+
+### 3. 実装計画の作成
+
+探索結果に基づいて、ステップバイステップの実装計画を作成する。
+
+```markdown
+## 実装計画: 認証機能の追加
+
+### Phase 1: 認証基盤
+1. Firebase Auth のセットアップ（lib/firebase.ts）
+2. AuthContext の作成（contexts/AuthContext.tsx）
+3. useAuth フックの作成（hooks/useAuth.ts）
+
+### Phase 2: UI
+4. LoginForm コンポーネント（components/auth/LoginForm.tsx）
+5. SignupForm コンポーネント（components/auth/SignupForm.tsx）
+6. AuthGuard コンポーネント（components/auth/AuthGuard.tsx）
+
+### Phase 3: テスト
+7. 各コンポーネントのユニットテスト
+8. 認証フローの統合テスト
+
+### リスク
+- Firebase の設定が既存の環境変数と競合する可能性
+- SSR非対応（静的エクスポートのため問題なし）
+```
+
+### 4. ユーザー承認
+
+計画が完成したら、Claude Codeはユーザーに承認を求める。
+
+- 承認: Plan Modeを抜け、計画に沿って実装を開始
+- 修正: フィードバックを反映して計画を修正
+- 却下: 計画を破棄して別のアプローチを検討
+
+---
+
+## Plan Modeと AskUserQuestion
+
+Plan Mode中に不明点がある場合、Claude Codeは `AskUserQuestion` ツールで質問を投げることができる。
+
+```
+認証方式はどちらを希望しますか？
+1. Firebase Authentication（推奨）— セットアップが簡単
+2. NextAuth.js — より柔軟だが設定が複雑
+3. カスタム実装 — 完全な制御が可能
+```
+
+このように、Plan Modeは双方向の設計プロセスを可能にする。
+
+---
+
+## 実践のコツ
+
+1. 大きなタスクほどPlan Modeを使う: 「3ファイル以上に変更が及ぶ」が一つの目安
+2. 計画は具体的に: ファイルパス、関数名、データフローまで含める
+3. リスクを明示する: 既存コードへの影響、依存関係の変更
+4. 段階的に実装する: 計画のPhaseごとにコミットし、確認を挟む
+
+<KeyTakeaway>
+- Plan Modeは読み取り専用モードで、設計と実装を明確に分離する
+- 新機能追加、複数アプローチの選択、多ファイル変更の際に使うべき
+- コードベース探索 → 計画作成 → ユーザー承認 → 実装開始のフローで進む
+- AskUserQuestionで不明点を確認しながら双方向の設計プロセスを実現
+- 3ファイル以上の変更が予想されるタスクではPlan Modeの活用を推奨
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"04-04-plan-mode"}],["$","$L4",null,{"items":[{"id":"plan-modeとは何か","text":"Plan Modeとは何か","level":2},{"id":"いつplan-modeを使うか","text":"いつPlan Modeを使うか","level":2},{"id":"使うべき場面","text":"使うべき場面","level":3},{"id":"使わなくてよい場面","text":"使わなくてよい場面","level":3},{"id":"plan-modeのフロー","text":"Plan Modeのフロー","level":2},{"id":"1-plan-modeに入る","text":"1. Plan Modeに入る","level":3},{"id":"2-コードベースの探索","text":"2. コードベースの探索","level":3},{"id":"3-実装計画の作成","text":"3. 実装計画の作成","level":3},{"id":"4-ユーザー承認","text":"4. ユーザー承認","level":3},{"id":"plan-modeと-askuserquestion","text":"Plan Modeと AskUserQuestion","level":2},{"id":"実践のコツ","text":"実践のコツ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"04-04-plan-mode","title":"Plan Mode — 設計してから実装する","description":"複雑なタスクは設計から始める。Plan Modeでコードベースを探索し、実装計画を立て、ユーザー承認を得てから実装に移る。","partId":"part04","partTitle":"開発ワークフロー","order":15,"partOrder":4,"estimatedMinutes":15,"estimatedReadTime":5,"free":true,"status":"published","tags":["Plan Mode","設計","アーキテクチャ","承認","ワークフロー"],"content":"$6"},"totalChapters":26}],["$","$L7",null,{"items":[{"id":"plan-modeとは何か","text":"Plan Modeとは何か","level":2},{"id":"いつplan-modeを使うか","text":"いつPlan Modeを使うか","level":2},{"id":"使うべき場面","text":"使うべき場面","level":3},{"id":"使わなくてよい場面","text":"使わなくてよい場面","level":3},{"id":"plan-modeのフロー","text":"Plan Modeのフロー","level":2},{"id":"1-plan-modeに入る","text":"1. Plan Modeに入る","level":3},{"id":"2-コードベースの探索","text":"2. コードベースの探索","level":3},{"id":"3-実装計画の作成","text":"3. 実装計画の作成","level":3},{"id":"4-ユーザー承認","text":"4. ユーザー承認","level":3},{"id":"plan-modeと-askuserquestion","text":"Plan Modeと AskUserQuestion","level":2},{"id":"実践のコツ","text":"実践のコツ","level":2}]}],"$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"「コードを書く前に設計する」。当たり前のことだが、AIの速さに流されると忘れがちだ。Plan Modeは、この「設計ファースト」を仕組みで担保する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"plan-modeとは何か","children":"Plan Modeとは何か"}],"\n",["$","p",null,{"children":"Plan Modeは、Claude Codeの特殊な動作モードである。"}],"\n",["$","p",null,{"children":"通常モード: Claude Codeはファイルの読み書き、コマンド実行、あらゆる操作が可能。"}],"\n",["$","p",null,{"children":"Plan Mode: Claude Codeは読み取り系のツールしか使えない。Glob、Grep、Readでコードベースを探索し、実装計画を立てる。ファイルの編集やコマンドの実行はできない。"}],"\n",["$","p",null,{"children":"この制約が重要だ。計画段階で「うっかり実装を始めてしまう」ことを防ぎ、設計と実装を明確に分離する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"いつplan-modeを使うか","children":"いつPlan Modeを使うか"}],"\n",["$","h3",null,{"id":"使うべき場面","children":"使うべき場面"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"新機能の実装: 認証システム、ダッシュボード、API設計"}],"\n",["$","li",null,{"children":"複数の実装方法がある: Redis vs メモリキャッシュ、WebSocket vs SSE"}],"\n",["$","li",null,{"children":"多ファイルにまたがる変更: リファクタリング、アーキテクチャ変更"}],"\n",["$","li",null,{"children":"要件が不明確: 探索してから方針を決めたい"}],"\n"]}],"\n",["$","h3",null,{"id":"使わなくてよい場面","children":"使わなくてよい場面"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"タイポの修正"}],"\n",["$","li",null,{"children":"1ファイルの小さな変更"}],"\n",["$","li",null,{"children":"明確な指示がすでにある単純タスク"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"plan-modeのフロー","children":"Plan Modeのフロー"}],"\n",["$","h3",null,{"id":"1-plan-modeに入る","children":"1. Plan Modeに入る"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> 認証機能を追加したい。まず計画を立てて。\n"}]}],"\n",["$","p",null,{"children":["Claude Codeは自動的に（または ",["$","code",null,{"children":"/plan"}]," スキルで明示的に）Plan Modeに入る。"]}],"\n",["$","h3",null,{"id":"2-コードベースの探索","children":"2. コードベースの探索"}],"\n",["$","p",null,{"children":"Plan Mode内で、Claude Codeは以下を行う。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"Globでファイル構造を把握"}],"\n",["$","li",null,{"children":"Grepで既存の認証コードを検索"}],"\n",["$","li",null,{"children":"Readで関連ファイルを読み取り"}],"\n",["$","li",null,{"children":"既存のパターンとアーキテクチャを分析"}],"\n"]}],"\n",["$","h3",null,{"id":"3-実装計画の作成","children":"3. 実装計画の作成"}],"\n",["$","p",null,{"children":"探索結果に基づいて、ステップバイステップの実装計画を作成する。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"## 実装計画: 認証機能の追加\n\n### Phase 1: 認証基盤\n1. Firebase Auth のセットアップ（lib/firebase.ts）\n2. AuthContext の作成（contexts/AuthContext.tsx）\n3. useAuth フックの作成（hooks/useAuth.ts）\n\n### Phase 2: UI\n4. LoginForm コンポーネント（components/auth/LoginForm.tsx）\n5. SignupForm コンポーネント（components/auth/SignupForm.tsx）\n6. AuthGuard コンポーネント（components/auth/AuthGuard.tsx）\n\n### Phase 3: テスト\n7. 各コンポーネントのユニットテスト\n8. 認証フローの統合テスト\n\n### リスク\n- Firebase の設定が既存の環境変数と競合する可能性\n- SSR非対応（静的エクスポートのため問題なし）\n"}]}],"\n",["$","h3",null,{"id":"4-ユーザー承認","children":"4. ユーザー承認"}],"\n",["$","p",null,{"children":"計画が完成したら、Claude Codeはユーザーに承認を求める。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"承認: Plan Modeを抜け、計画に沿って実装を開始"}],"\n",["$","li",null,{"children":"修正: フィードバックを反映して計画を修正"}],"\n",["$","li",null,{"children":"却下: 計画を破棄して別のアプローチを検討"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"plan-modeと-askuserquestion","children":"Plan Modeと AskUserQuestion"}],"\n",["$","p",null,{"children":["Plan Mode中に不明点がある場合、Claude Codeは ",["$","code",null,{"children":"AskUserQuestion"}]," ツールで質問を投げることができる。"]}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"認証方式はどちらを希望しますか？\n1. Firebase Authentication（推奨）— セットアップが簡単\n2. NextAuth.js — より柔軟だが設定が複雑\n3. カスタム実装 — 完全な制御が可能\n"}]}],"\n",["$","p",null,{"children":"このように、Plan Modeは双方向の設計プロセスを可能にする。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"実践のコツ","children":"実践のコツ"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"大きなタスクほどPlan Modeを使う: 「3ファイル以上に変更が及ぶ」が一つの目安"}],"\n",["$","li",null,{"children":"計画は具体的に: ファイルパス、関数名、データフローまで含める"}],"\n",["$","li",null,{"children":"リスクを明示する: 既存コードへの影響、依存関係の変更"}],"\n",["$","li",null,{"children":"段階的に実装する: 計画のPhaseごとにコミットし、確認を挟む"}],"\n"]}],"\n",["$","$Ld",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"Plan Modeは読み取り専用モードで、設計と実装を明確に分離する"}],"\n",["$","li",null,{"children":"新機能追加、複数アプローチの選択、多ファイル変更の際に使うべき"}],"\n",["$","li",null,{"children":"コードベース探索 → 計画作成 → ユーザー承認 → 実装開始のフローで進む"}],"\n",["$","li",null,{"children":"AskUserQuestionで不明点を確認しながら双方向の設計プロセスを実現"}],"\n",["$","li",null,{"children":"3ファイル以上の変更が予想されるタスクではPlan Modeの活用を推奨"}],"\n"]}]}]]}]
+9:["$","$Le",null,{"bookId":"claude-code","chapterSlug":"04-04-plan-mode"}]
+a:["$","$Lf",null,{"bookId":"claude-code","prev":{"slug":"04-03-code-review","title":"コードレビュー — AIによる品質ゲート","order":14},"next":{"slug":"05-01-prompt-engineering","title":"プロンプトエンジニアリング — コーディング特化の指示術","order":16}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]
+12:null

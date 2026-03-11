@@ -1,0 +1,493 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+78:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+79:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+7a:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7b:"$Sreact.suspense"
+7d:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+7e:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+7f:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T384e,
+**「明日から始める」と決めた人の90%は、明日になると始めない。今、この瞬間に始めた人だけが、変わっている。**
+
+---
+
+## この記事を読み終わったら、すぐにやること
+
+読むだけでは何も変わらない。**この記事を読み終わったら、今すぐ以下をやる**：
+
+1. ChatGPT（無料版）またはClaude（無料版）を開設する（5分）
+2. 最初の質問を3つ投げる（5分）
+3. 出力をスクリーンショットで保存する（1分）
+
+**合計11分。今日、これをやるかやらないかで、あなたの未来が決まる。**
+
+---
+
+## Day 1: アカウント開設（5分）
+
+### 選択肢A: ChatGPT（OpenAI）
+
+**メリット**:
+- 医学論文を含む学習データが豊富
+- プラグイン（有料版）でPubMed連携可能
+- 日本語対応が安定
+
+**デメリット**:
+- 無料版はGPT-4oではなくGPT-4o-miniに制限される場合がある
+- コンテキストウィンドウがClaudeより短い
+
+**開設手順**:
+1. https://chat.openai.com/ にアクセス
+2. 「Sign up」をクリック
+3. メールアドレスまたはGoogleアカウントで登録
+4. 認証メールをクリック
+5. 完了（所要時間3分）
+
+### 選択肢B: Claude（Anthropic）
+
+**メリット**:
+- 長文の文脈理解に優れる（コンテキストウィンドウ200K tokens）
+- 医療文書の構造化が得意
+- ハルシネーションが比較的少ない
+
+**デメリット**:
+- 日本語の医学用語で稀にぎこちない表現
+- プラグイン機能が限定的
+
+**開設手順**:
+1. https://claude.ai/ にアクセス
+2. 「Try Claude」をクリック
+3. メールアドレスで登録
+4. 認証コードを入力
+5. 完了（所要時間3分）
+
+### どちらを選ぶべきか
+
+**結論: 両方開設して、使い分ける**
+
+- **ChatGPT**: 鑑別診断、文献検索、一般的な医学知識の質問
+- **Claude**: 長文のカルテ要約、退院サマリー、複雑な症例の構造化
+
+本シリーズでは両方の例を示す。どちらか一方だけでも訓練は完遂できるが、両方使えると適材適所で効率が上がる。
+
+---
+
+## Day 2-5: 最初の対話（1日10分×4日）
+
+### Day 2: 最も簡単な質問から始める
+
+**目的**: AIが「もっともらしい答え」を返すことを体感する
+
+**質問例1（一般知識）**:
+<PromptTemplate>
+小児の発熱で最も頻度の高い原因疾患を5つ教えてください。
+</PromptTemplate>
+
+**期待される出力**:
+1. 上気道感染症（ウイルス性）
+2. 急性中耳炎
+3. 急性胃腸炎
+4. 尿路感染症
+5. 突発性発疹
+
+**観察ポイント**:
+- 回答は「もっともらしい」か？
+- 年齢別の違いに言及しているか？
+- 頻度の順序は妥当か？
+
+**やってはいけないこと**: この時点で出力を「正しい」と判断すること
+
+**やるべきこと**: 「この答えは本当に正しいのか？」と疑問を持つ訓練
+
+### Day 3: 少し具体的に質問する
+
+**目的**: プロンプトの書き方で出力が変わることを体感する
+
+**質問例2（条件を追加）**:
+<PromptTemplate>
+6ヶ月の乳児が39度の発熱を呈しています。
+身体所見では特記すべき異常を認めません。
+この時点での鑑別診断を、頻度順に5つ挙げてください。
+</PromptTemplate>
+
+**Day 2との違い**:
+- 年齢を具体化（6ヶ月）
+- 体温を具体化（39度）
+- 身体所見の情報を追加
+- 「頻度順」を明示
+
+**期待される変化**:
+- 突発性発疹が上位に来る可能性
+- 尿路感染症の言及
+- 「6ヶ月」という年齢に応じた鑑別
+
+**観察ポイント**:
+- Day 2の回答と比較して、どう変わったか
+- より具体的な条件を与えると、回答が絞り込まれるか
+
+### Day 4: 検証可能な質問をする
+
+**目的**: AIの出力を検証する習慣をつける
+
+**質問例3（ガイドライン参照）**:
+```
+日本小児科学会が推奨する、乳児の尿路感染症のスクリーニング基準を教えてください。
+可能であれば、ガイドラインの発行年と該当箇所を示してください。
+```
+
+**重要**: この質問の答えは、あなたが検証できる
+
+**検証手順**:
+1. AIの回答をメモする
+2. 実際の日本小児科学会のガイドラインを確認する
+3. 一致しているか、乳ているか、ハルシネーションか判断する
+
+**本稿の最重要スキル**: **検証する習慣**
+
+### Day 5: 比較する
+
+**目的**: 同じ質問でも出力が変わることを確認する
+
+**やること**:
+Day 2-4で使った質問を、もう一度同じAIに聞く（新しいチャット画面で）
+
+**観察ポイント**:
+- 全く同じ回答が返ってくるか？（返ってこない）
+- 内容は一貫しているか？（大筋は一貫、細部は変わる）
+- どの部分が変わり、どの部分が変わらないか？
+
+**これが意味すること**:
+AIは「次の単語の確率」で生成している。だから、同じ質問でも微妙に違う答えが返る。つまり、**AIに「正解」が格納されているわけではない**。
+
+<Callout type="insight" title="同じ質問でも答えが変わる理由">AIは確率的に次の単語を生成するため、同じ質問でも毎回微妙に異なる回答を返します。これはバグではなく、AIの本質的な仕組みです。大筋は一貫していても細部が変わることを理解しておくことが、AIを正しく使う第一歩です。</Callout>
+
+---
+
+## 実践課題（診療で試す）
+
+### 課題1: 外来で実際に遭遇した症例をAIに聞く
+
+**目的**: 実際の診療とAIを結びつける
+
+**やり方**:
+1. 外来で診た患者（1名）の主訴・現病歴・身体所見をメモ
+2. AIに「この患者の鑑別診断を5つ教えてください」と質問
+3. 自分が考えた鑑別診断と比較
+4. AIが挙げなかった鑑別、自分が考えなかった鑑別をリストアップ
+
+**振り返りシート**:
+| 項目 | 自分 | AI | 一致 | 相違 |
+|------|------|-----|------|------|
+| 鑑別1 |  |  |  |  |
+| 鑑別2 |  |  |  |  |
+| 鑑別3 |  |  |  |  |
+
+### 課題2: AIの出力を同僚に見せてみる
+
+**目的**: AIの出力を客観的に評価する訓練
+
+**やり方**:
+1. 課題1でAIが出した鑑別診断を印刷
+2. 同僚（または上司）に「この鑑別診断、どう思いますか？」と聞く
+3. AIが出したものだと明かす前に、反応を観察
+4. 「実はAIです」と明かした後の反応を観察
+
+**これで分かること**:
+- AIの出力は「専門家が見ても妥当」に見える
+- しかし「妥当に見える」と「正しい」は別物
+- **人間の目での検証が不可欠**
+
+### 課題3: ハルシネーション候補を探す
+
+**目的**: 疑い深くなる訓練
+
+**やり方**:
+AIに以下の質問をする：
+```
+川崎病の診断基準について、最新のAHA（米国心臓協会）ガイドラインを参照して教えてください。
+発行年と、主な変更点も含めて説明してください。
+```
+
+**検証**:
+1. AIが回答した「発行年」をメモ
+2. 実際のAHAガイドラインの発行年を調べる（Google検索）
+3. 一致しているか確認
+
+**もしハルシネーションが見つかったら**:
+おめでとう。あなたは最も重要なスキル「疑う力」を獲得した。
+
+**もし一致していたら**:
+別の質問で試す。「日本小児循環器学会の川崎病ガイドライン」「欧州のガイドライン」など。
+
+**重要**: ハルシネーションを見つけることが目的ではない。**常に検証する習慣**をつけることが目的。
+
+---
+
+## 到達目標チェックリスト
+
+本稿の内容を実践した後、以下を自己評価する（各項目Yes/No）
+
+### 技術面
+- ChatGPTまたはClaudeのアカウントを開設した
+- 最低5つの質問を投げた
+- 同じ質問で出力が変わることを確認した
+- 実際の診療で1症例以上試した
+
+### 理解面
+- AIは「次の単語予測」機械であることを説明できる
+- AIの出力は「もっともらしい」が「正しいとは限らない」と理解している
+- プロンプトの書き方で出力が変わることを体感した
+
+### 習慣面
+- 毎日10分の学習時間を確保できた（週5日以上）
+- AIの出力を検証する手順を実践した
+- 疑問点を記録した（メモ、スクリーンショット、振り返りシートなど）
+
+### 態度面
+- AIの出力を盲信しなかった
+- ハルシネーションの可能性を常に考えた
+- 「よく分からない」を認める勇気を持てた
+
+**10項目中8項目以上でYes**: 順調。次の記事（Ch.3-2）へ進む
+**6-7項目**: やや遅れ。もう2-3日復習してからCh.3-2へ
+**5項目以下**: 立ち止まる。本稿の内容をもう一度繰り返す
+
+---
+
+## よくある質問と回答
+
+### Q1: 無料版で十分ですか？有料版（ChatGPT Plus / Claude Pro）が必要ですか？
+
+**A**: Ch.3の基礎編は無料版で十分です。
+
+有料版のメリットが出るのはCh.4以降：
+- 長文の論文要約（Claude Pro）
+- プラグインでのPubMed連携（ChatGPT Plus）
+- 応答速度の向上
+
+ただし、**無料版でも訓練プログラムは完遂できます。** 有料版は「あれば便利」であって「必須」ではありません。
+
+### Q2: ChatGPTとClaude、どちらが医療に向いていますか？
+
+**A**: タスク次第です。
+
+| タスク | 推奨 | 理由 |
+|--------|------|------|
+| 鑑別診断 | ChatGPT | 医学知識の網羅性 |
+| カルテ要約 | Claude | 長文理解と構造化 |
+| 文献検索 | ChatGPT | プラグイン対応 |
+| 退院サマリー | Claude | 文脈保持能力 |
+
+両方試して、自分に合う方を選ぶのがベスト。
+
+<Warning level="high">AIに患者の個人情報（氏名、生年月日、カルテ番号など）を入力することは絶対に避けてください。「60代男性」「6ヶ月の乳児」など一般化した表現のみ使用しましょう。稀少疾患や特異的な所見で個人が特定される可能性がある場合も注意が必要です。</Warning>
+
+### Q3: AIに個人情報（患者情報）を入力しても大丈夫ですか？
+
+**A**: **絶対にダメです。**
+
+**基本ルール**:
+- 氏名、生年月日、カルテ番号などの個人情報は入力しない
+- 「60代男性」「6ヶ月の乳児」など、一般化した表現のみ
+- 稀少疾患や特異的な所見で個人が特定される可能性がある場合も注意
+
+**Ch.5で詳しく学びますが、今の段階では「個人情報は絶対に入力しない」を徹底してください。**
+
+### Q4: AIが間違った答えを返したらどうすればいいですか？
+
+**A**: それが正常です。
+
+AIは必ず間違えます。問題は「間違えること」ではなく、「間違いに気づかないこと」です。
+
+**間違いを見つけたら**:
+1. スクリーンショットを保存
+2. 何が間違っていたかをメモ
+3. なぜ間違いに気づけたかを振り返る（ガイドラインを確認した、上司に聞いた、など）
+
+**これが「訓練」です。** 間違いを見つけることは、成功体験です。
+
+### Q5: 1日10分では足りないように感じます。もっとやってもいいですか？
+
+**A**: **ダメです。10分を死守してください。**
+
+理由：
+- 10分を超えると、翌日以降の継続率が下がる
+- 「もっとやりたい」と思うくらいで止めるのが、習慣化の秘訣
+- 物足りなさが、明日への動機になる
+
+**例外**: 実際の診療での活用（課題1-3）は10分の外でOK。ただし、「学習としての10分」は死守する。
+
+---
+
+## 本稿のゴール：疑い深くなる
+
+本稿で身につけるべき最も重要なスキルは、**疑い深くなること**です。
+
+AIの出力を見て、こう反応できるようになる：
+- 「本当かな？」
+- 「ソースは？」
+- 「他の情報源と一致しているかな？」
+- 「ハルシネーションの可能性は？」
+
+**この疑い深さが、訓練なきAI使用と訓練されたAI使用の最大の違いです。**
+
+序章で見たJAMAのRCT——訓練なしにAIを使った医師は、AIなしの医師よりも診断精度が低かった。
+
+その理由は、**疑わずに信じたから**です。
+
+あなたは、89%の危険地帯に入らない。1%の側に立つ。
+
+そのための第一歩が、本稿の実践である。
+
+---
+
+## まとめ
+
+- **今すぐ始める** — ChatGPTまたはClaudeを開設（5分）
+- **最初の質問3つ** — 簡単な質問から、段階的に具体化
+- **検証する習慣** — AIの出力を盲信しない。常にソースを確認
+- **実践課題3つ** — 外来症例、同僚に見せる、ハルシネーション探し
+- **チェックリスト** — 10項目中8項目でYesなら次へ
+
+**本稿のゴール**: AIは便利だが完璧ではない。疑い深くなること。
+
+**あなたは、グループAとグループBのどちらに属するのか。**
+
+この記事を読み終わったら、今すぐChatGPTまたはClaudeを開設してください。
+
+**今、始めた人だけが、変わっている。**
+
+<KeyTakeaway>
+- ChatGPTとClaudeの両方を開設し、タスクに応じて使い分けることで効率が上がる
+- プロンプトの書き方（年齢・体温・所見の具体化）によってAIの出力は大きく変わる
+- AIの出力は「もっともらしい」が「正しい」とは限らない――常に検証する習慣をつける
+- 同じ質問でも毎回異なる回答が返る仕組みを理解し、AIに「正解」が格納されているわけではないと認識する
+- 患者情報は絶対にAIに入力せず、一般化した表現のみを使用する
+</KeyTakeaway>
+
+---
+
+### 参考文献
+
+1. OpenAI. (2025). "ChatGPT User Guide."
+2. Anthropic. (2025). "Claude User Guide."
+3. Patel, S. B. &amp; Lam, K. (2023). "ChatGPT: The Future of Discharge Summaries?" *The Lancet Digital Health.*
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-ai-medicine","lessonSlug":"03-01-dialogue-basics"}],["$","$L4",null,{"items":[{"id":"この記事を読み終わったらすぐにやること","text":"この記事を読み終わったら、すぐにやること","level":2},{"id":"day-1-アカウント開設5分","text":"Day 1: アカウント開設（5分）","level":2},{"id":"選択肢a-chatgptopenai","text":"選択肢A: ChatGPT（OpenAI）","level":3},{"id":"選択肢b-claudeanthropic","text":"選択肢B: Claude（Anthropic）","level":3},{"id":"どちらを選ぶべきか","text":"どちらを選ぶべきか","level":3},{"id":"day-2-5-最初の対話1日10分4日","text":"Day 2-5: 最初の対話（1日10分×4日）","level":2},{"id":"day-2-最も簡単な質問から始める","text":"Day 2: 最も簡単な質問から始める","level":3},{"id":"day-3-少し具体的に質問する","text":"Day 3: 少し具体的に質問する","level":3},{"id":"day-4-検証可能な質問をする","text":"Day 4: 検証可能な質問をする","level":3},{"id":"day-5-比較する","text":"Day 5: 比較する","level":3},{"id":"実践課題診療で試す","text":"実践課題（診療で試す）","level":2},{"id":"課題1-外来で実際に遭遇した症例をaiに聞く","text":"課題1: 外来で実際に遭遇した症例をAIに聞く","level":3},{"id":"課題2-aiの出力を同僚に見せてみる","text":"課題2: AIの出力を同僚に見せてみる","level":3},{"id":"課題3-ハルシネーション候補を探す","text":"課題3: ハルシネーション候補を探す","level":3},{"id":"到達目標チェックリスト","text":"到達目標チェックリスト","level":2},{"id":"技術面","text":"技術面","level":3},{"id":"理解面","text":"理解面","level":3},{"id":"習慣面","text":"習慣面","level":3},{"id":"態度面","text":"態度面","level":3},{"id":"よくある質問と回答","text":"よくある質問と回答","level":2},{"id":"q1-無料版で十分ですか有料版chatgpt-plus-claude-proが必要ですか","text":"Q1: 無料版で十分ですか？有料版（ChatGPT Plus / Claude Pro）が必要ですか？","level":3},{"id":"q2-chatgptとclaudeどちらが医療に向いていますか","text":"Q2: ChatGPTとClaude、どちらが医療に向いていますか？","level":3},{"id":"q3-aiに個人情報患者情報を入力しても大丈夫ですか","text":"Q3: AIに個人情報（患者情報）を入力しても大丈夫ですか？","level":3},{"id":"q4-aiが間違った答えを返したらどうすればいいですか","text":"Q4: AIが間違った答えを返したらどうすればいいですか？","level":3},{"id":"q5-1日10分では足りないように感じますもっとやってもいいですか","text":"Q5: 1日10分では足りないように感じます。もっとやってもいいですか？","level":3},{"id":"本稿のゴール疑い深くなる","text":"本稿のゴール：疑い深くなる","level":2},{"id":"まとめ","text":"まとめ","level":2},{"id":"参考文献","text":"参考文献","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"ai-medicine","bookTitle":"AI×医療 — 臨床医のための実践ガイド","chapter":{"slug":"03-01-dialogue-basics","title":"AIとの対話の基本 — はじめの一歩","description":"ChatGPTまたはClaudeを開設し、最初の質問を投げ、出力を観察する。この最初の一歩が、すべての基盤となる。","partId":"part03","partTitle":"AIを使いこなす","order":9,"partOrder":1,"estimatedMinutes":12,"estimatedReadTime":19,"free":true,"status":"published","tags":["AI入門","ChatGPT","Claude","対話","実践"],"content":"$6"},"totalChapters":33}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"この記事を読み終わったらすぐにやること","text":"この記事を読み終わったら、すぐにやること","level":2},{"id":"day-1-アカウント開設5分","text":"Day 1: アカウント開設（5分）","level":2},{"id":"選択肢a-chatgptopenai","text":"選択肢A: ChatGPT（OpenAI）","level":3},{"id":"選択肢b-claudeanthropic","text":"選択肢B: Claude（Anthropic）","level":3},{"id":"どちらを選ぶべきか","text":"どちらを選ぶべきか","level":3},{"id":"day-2-5-最初の対話1日10分4日","text":"Day 2-5: 最初の対話（1日10分×4日）","level":2},{"id":"day-2-最も簡単な質問から始める","text":"Day 2: 最も簡単な質問から始める","level":3},{"id":"day-3-少し具体的に質問する","text":"Day 3: 少し具体的に質問する","level":3},{"id":"day-4-検証可能な質問をする","text":"Day 4: 検証可能な質問をする","level":3},{"id":"day-5-比較する","text":"Day 5: 比較する","level":3},{"id":"実践課題診療で試す","text":"実践課題（診療で試す）","level":2},{"id":"課題1-外来で実際に遭遇した症例をaiに聞く","text":"課題1: 外来で実際に遭遇した症例をAIに聞く","level":3},{"id":"課題2-aiの出力を同僚に見せてみる","text":"課題2: AIの出力を同僚に見せてみる","level":3},{"id":"課題3-ハルシネーション候補を探す","text":"課題3: ハルシネーション候補を探す","level":3},{"id":"到達目標チェックリスト","text":"到達目標チェックリスト","level":2},{"id":"技術面","text":"技術面","level":3},{"id":"理解面","text":"理解面","level":3},{"id":"習慣面","text":"習慣面","level":3},{"id":"態度面","text":"態度面","level":3},{"id":"よくある質問と回答","text":"よくある質問と回答","level":2},{"id":"q1-無料版で十分ですか有料版chatgpt-plus-claude-proが必要ですか","text":"Q1: 無料版で十分ですか？有料版（ChatGPT Plus / Claude Pro）が必要ですか？","level":3},{"id":"q2-chatgptとclaudeどちらが医療に向いていますか","text":"Q2: ChatGPTとClaude、どちらが医療に向いていますか？","level":3},{"id":"q3-aiに個人情報患者情報を入力しても大丈夫ですか","text":"Q3: AIに個人情報（患者情報）を入力しても大丈夫ですか？","level":3},{"id":"q4-aiが間違った答えを返したらどうすればいいですか","text":"Q4: AIが間違った答えを返したらどうすればいいですか？","level":3},{"id":"q5-1日10分では足りないように感じますもっとやってもいいですか","text":"Q5: 1日10分では足りないように感じます。もっとやってもいいですか？","level":3},{"id":"本稿のゴール疑い深くなる","text":"本稿のゴール：疑い深くなる","level":2},{"id":"まとめ","text":"まとめ","level":2},{"id":"参考文献","text":"参考文献","level":3}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":["$","strong",null,{"children":"「明日から始める」と決めた人の90%は、明日になると始めない。今、この瞬間に始めた人だけが、変わっている。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"この記事を読み終わったらすぐにやること","children":"この記事を読み終わったら、すぐにやること"}],"\n",["$","p",null,{"children":["読むだけでは何も変わらない。",["$","strong",null,{"children":"この記事を読み終わったら、今すぐ以下をやる"}],"："]}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"ChatGPT（無料版）またはClaude（無料版）を開設する（5分）"}],"\n",["$","li",null,{"children":"最初の質問を3つ投げる（5分）"}],"\n",["$","li",null,{"children":"出力をスクリーンショットで保存する（1分）"}],"\n"]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"合計11分。今日、これをやるかやらないかで、あなたの未来が決まる。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"day-1-アカウント開設5分","children":"Day 1: アカウント開設（5分）"}],"\n",["$","h3",null,{"id":"選択肢a-chatgptopenai","children":"選択肢A: ChatGPT（OpenAI）"}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"メリット"}],":"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"医学論文を含む学習データが豊富"}],"\n",["$","li",null,{"children":"プラグイン（有料版）でPubMed連携可能"}],"\n",["$","li",null,{"children":"日本語対応が安定"}],"\n"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"デメリット"}],":"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"無料版はGPT-4oではなくGPT-4o-miniに制限される場合がある"}],"\n",["$","li",null,{"children":"コンテキストウィンドウがClaudeより短い"}],"\n"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"開設手順"}],":"]}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","a",null,{"href":"https://chat.openai.com/","children":"https://chat.openai.com/"}]," にアクセス"]}],"\n",["$","li",null,{"children":"「Sign up」をクリック"}],"\n",["$","li",null,{"children":"メールアドレスまたはGoogleアカウントで登録"}],"\n",["$","li",null,{"children":"認証メールをクリック"}],"\n",["$","li",null,{"children":"完了（所要時間3分）"}],"\n"]}],"\n",["$","h3",null,{"id":"選択肢b-claudeanthropic","children":"選択肢B: Claude（Anthropic）"}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"メリット"}],":"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"長文の文脈理解に優れる（コンテキストウィンドウ200K tokens）"}],"\n",["$","li",null,{"children":"医療文書の構造化が得意"}],"\n",["$","li",null,{"children":"ハルシネーションが比較的少ない"}],"\n"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"デメリット"}],":"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"日本語の医学用語で稀にぎこちない表現"}],"\n",["$","li",null,{"children":"プラグイン機能が限定的"}],"\n"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"開設手順"}],":"]}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","a",null,{"href":"https://claude.ai/","children":"https://claude.ai/"}]," にアクセス"]}],"\n",["$","li",null,{"children":"「Try Claude」をクリック"}],"\n",["$","li",null,{"children":"メールアドレスで登録"}],"\n",["$","li",null,{"children":"認証コードを入力"}],"\n",["$","li",null,{"children":"完了（所要時間3分）"}],"\n"]}],"\n",["$","h3",null,{"id":"どちらを選ぶべきか","children":"どちらを選ぶべきか"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"結論: 両方開設して、使い分ける"}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"ChatGPT"}],": 鑑別診断、文献検索、一般的な医学知識の質問"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Claude"}],": 長文のカルテ要約、退院サマリー、複雑な症例の構造化"]}],"\n"]}],"\n",["$","p",null,{"children":"本シリーズでは両方の例を示す。どちらか一方だけでも訓練は完遂できるが、両方使えると適材適所で効率が上がる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"day-2-5-最初の対話1日10分4日","children":"Day 2-5: 最初の対話（1日10分×4日）"}],"\n",["$","h3",null,{"id":"day-2-最も簡単な質問から始める","children":"Day 2: 最も簡単な質問から始める"}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"目的"}],": AIが「もっともらしい答え」を返すことを体感する"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"質問例1（一般知識）"}],":"]}],"\n",["$","$Le",null,{"children":["$","p",null,{"children":"小児の発熱で最も頻度の高い原因疾患を5つ教えてください。"}]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"期待される出力"}],":"]}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"上気道感染症（ウイルス性）"}],"\n",["$","li",null,{"children":"急性中耳炎"}],"\n",["$","li",null,{"children":"急性胃腸炎"}],"\n",["$","li",null,{"children":"尿路感染症"}],"\n",["$","li",null,{"children":"突発性発疹"}],"\n"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"観察ポイント"}],":"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"回答は「もっともらしい」か？"}],"\n",["$","li",null,{"children":"年齢別の違いに言及しているか？"}],"\n",["$","li",null,{"children":"頻度の順序は妥当か？"}],"\n"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"やってはいけないこと"}],": この時点で出力を「正しい」と判断すること"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"やるべきこと"}],": 「この答えは本当に正しいのか？」と疑問を持つ訓練"]}],"\n",["$","h3",null,{"id":"day-3-少し具体的に質問する","children":"Day 3: 少し具体的に質問する"}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"目的"}],": プロンプトの書き方で出力が変わることを体感する"]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"質問例2（条件を追加）"}],":"]}],"\n",["$","$Le",null,{"children":["$","p",null,{"children":"6ヶ月の乳児が39度の発熱を呈しています。\n身体所見では特記すべき異常を認めません。\nこの時点での鑑別診断を、頻度順に5つ挙げてください。"}]}],"\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","\n","$L51","\n","$L52","\n","$L53","\n","$L54","\n","$L55","\n","$L56","\n","$L57","\n","$L58","\n","$L59","\n","$L5a","\n","$L5b","\n","$L5c","\n","$L5d","\n","$L5e","\n","$L5f","\n","$L60","\n","$L61","\n","$L62","\n","$L63","\n","$L64","\n","$L65","\n","$L66","\n","$L67","\n","$L68","\n","$L69","\n","$L6a","\n","$L6b","\n","$L6c","\n","$L6d","\n","$L6e","\n","$L6f","\n","$L70","\n","$L71","\n","$L72","\n","$L73","\n","$L74","\n","$L75","\n","$L76","\n","$L77"]}]
+9:["$","$L78",null,{"bookId":"ai-medicine","chapterSlug":"03-01-dialogue-basics"}]
+a:["$","$L79",null,{"bookId":"ai-medicine","prev":{"slug":"02-05-means-ends","title":"手段と目的を見誤らないために","order":8},"next":{"slug":"03-02-prompt-patterns","title":"プロンプトの型 — R-T-C-F-Cフレームワーク","order":10}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L7a",null,{"children":["$","$7b",null,{"name":"Next.MetadataOutlet","children":"$@7c"}]}]
+f:["$","p",null,{"children":[["$","strong",null,{"children":"Day 2との違い"}],":"]}]
+10:["$","ul",null,{"children":["\n",["$","li",null,{"children":"年齢を具体化（6ヶ月）"}],"\n",["$","li",null,{"children":"体温を具体化（39度）"}],"\n",["$","li",null,{"children":"身体所見の情報を追加"}],"\n",["$","li",null,{"children":"「頻度順」を明示"}],"\n"]}]
+11:["$","p",null,{"children":[["$","strong",null,{"children":"期待される変化"}],":"]}]
+12:["$","ul",null,{"children":["\n",["$","li",null,{"children":"突発性発疹が上位に来る可能性"}],"\n",["$","li",null,{"children":"尿路感染症の言及"}],"\n",["$","li",null,{"children":"「6ヶ月」という年齢に応じた鑑別"}],"\n"]}]
+13:["$","p",null,{"children":[["$","strong",null,{"children":"観察ポイント"}],":"]}]
+14:["$","ul",null,{"children":["\n",["$","li",null,{"children":"Day 2の回答と比較して、どう変わったか"}],"\n",["$","li",null,{"children":"より具体的な条件を与えると、回答が絞り込まれるか"}],"\n"]}]
+15:["$","h3",null,{"id":"day-4-検証可能な質問をする","children":"Day 4: 検証可能な質問をする"}]
+16:["$","p",null,{"children":[["$","strong",null,{"children":"目的"}],": AIの出力を検証する習慣をつける"]}]
+17:["$","p",null,{"children":[["$","strong",null,{"children":"質問例3（ガイドライン参照）"}],":"]}]
+18:["$","pre",null,{"children":["$","code",null,{"children":"日本小児科学会が推奨する、乳児の尿路感染症のスクリーニング基準を教えてください。\n可能であれば、ガイドラインの発行年と該当箇所を示してください。\n"}]}]
+19:["$","p",null,{"children":[["$","strong",null,{"children":"重要"}],": この質問の答えは、あなたが検証できる"]}]
+1a:["$","p",null,{"children":[["$","strong",null,{"children":"検証手順"}],":"]}]
+1b:["$","ol",null,{"children":["\n",["$","li",null,{"children":"AIの回答をメモする"}],"\n",["$","li",null,{"children":"実際の日本小児科学会のガイドラインを確認する"}],"\n",["$","li",null,{"children":"一致しているか、乳ているか、ハルシネーションか判断する"}],"\n"]}]
+1c:["$","p",null,{"children":[["$","strong",null,{"children":"本稿の最重要スキル"}],": ",["$","strong",null,{"children":"検証する習慣"}]]}]
+1d:["$","h3",null,{"id":"day-5-比較する","children":"Day 5: 比較する"}]
+1e:["$","p",null,{"children":[["$","strong",null,{"children":"目的"}],": 同じ質問でも出力が変わることを確認する"]}]
+1f:["$","p",null,{"children":[["$","strong",null,{"children":"やること"}],":\nDay 2-4で使った質問を、もう一度同じAIに聞く（新しいチャット画面で）"]}]
+20:["$","p",null,{"children":[["$","strong",null,{"children":"観察ポイント"}],":"]}]
+21:["$","ul",null,{"children":["\n",["$","li",null,{"children":"全く同じ回答が返ってくるか？（返ってこない）"}],"\n",["$","li",null,{"children":"内容は一貫しているか？（大筋は一貫、細部は変わる）"}],"\n",["$","li",null,{"children":"どの部分が変わり、どの部分が変わらないか？"}],"\n"]}]
+22:["$","p",null,{"children":[["$","strong",null,{"children":"これが意味すること"}],":\nAIは「次の単語の確率」で生成している。だから、同じ質問でも微妙に違う答えが返る。つまり、",["$","strong",null,{"children":"AIに「正解」が格納されているわけではない"}],"。"]}]
+23:["$","$L7d",null,{"type":"insight","title":"同じ質問でも答えが変わる理由","children":"AIは確率的に次の単語を生成するため、同じ質問でも毎回微妙に異なる回答を返します。これはバグではなく、AIの本質的な仕組みです。大筋は一貫していても細部が変わることを理解しておくことが、AIを正しく使う第一歩です。"}]
+24:["$","hr",null,{}]
+25:["$","h2",null,{"id":"実践課題診療で試す","children":"実践課題（診療で試す）"}]
+26:["$","h3",null,{"id":"課題1-外来で実際に遭遇した症例をaiに聞く","children":"課題1: 外来で実際に遭遇した症例をAIに聞く"}]
+27:["$","p",null,{"children":[["$","strong",null,{"children":"目的"}],": 実際の診療とAIを結びつける"]}]
+28:["$","p",null,{"children":[["$","strong",null,{"children":"やり方"}],":"]}]
+29:["$","ol",null,{"children":["\n",["$","li",null,{"children":"外来で診た患者（1名）の主訴・現病歴・身体所見をメモ"}],"\n",["$","li",null,{"children":"AIに「この患者の鑑別診断を5つ教えてください」と質問"}],"\n",["$","li",null,{"children":"自分が考えた鑑別診断と比較"}],"\n",["$","li",null,{"children":"AIが挙げなかった鑑別、自分が考えなかった鑑別をリストアップ"}],"\n"]}]
+2a:["$","p",null,{"children":[["$","strong",null,{"children":"振り返りシート"}],":"]}]
+2b:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"項目"}],["$","th",null,{"children":"自分"}],["$","th",null,{"children":"AI"}],["$","th",null,{"children":"一致"}],["$","th",null,{"children":"相違"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"鑑別1"}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"鑑別2"}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"鑑別3"}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{}],["$","td",null,{}]]}]]}]]}]
+2c:["$","h3",null,{"id":"課題2-aiの出力を同僚に見せてみる","children":"課題2: AIの出力を同僚に見せてみる"}]
+2d:["$","p",null,{"children":[["$","strong",null,{"children":"目的"}],": AIの出力を客観的に評価する訓練"]}]
+2e:["$","p",null,{"children":[["$","strong",null,{"children":"やり方"}],":"]}]
+2f:["$","ol",null,{"children":["\n",["$","li",null,{"children":"課題1でAIが出した鑑別診断を印刷"}],"\n",["$","li",null,{"children":"同僚（または上司）に「この鑑別診断、どう思いますか？」と聞く"}],"\n",["$","li",null,{"children":"AIが出したものだと明かす前に、反応を観察"}],"\n",["$","li",null,{"children":"「実はAIです」と明かした後の反応を観察"}],"\n"]}]
+30:["$","p",null,{"children":[["$","strong",null,{"children":"これで分かること"}],":"]}]
+31:["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIの出力は「専門家が見ても妥当」に見える"}],"\n",["$","li",null,{"children":"しかし「妥当に見える」と「正しい」は別物"}],"\n",["$","li",null,{"children":["$","strong",null,{"children":"人間の目での検証が不可欠"}]}],"\n"]}]
+32:["$","h3",null,{"id":"課題3-ハルシネーション候補を探す","children":"課題3: ハルシネーション候補を探す"}]
+33:["$","p",null,{"children":[["$","strong",null,{"children":"目的"}],": 疑い深くなる訓練"]}]
+34:["$","p",null,{"children":[["$","strong",null,{"children":"やり方"}],":\nAIに以下の質問をする："]}]
+35:["$","pre",null,{"children":["$","code",null,{"children":"川崎病の診断基準について、最新のAHA（米国心臓協会）ガイドラインを参照して教えてください。\n発行年と、主な変更点も含めて説明してください。\n"}]}]
+36:["$","p",null,{"children":[["$","strong",null,{"children":"検証"}],":"]}]
+37:["$","ol",null,{"children":["\n",["$","li",null,{"children":"AIが回答した「発行年」をメモ"}],"\n",["$","li",null,{"children":"実際のAHAガイドラインの発行年を調べる（Google検索）"}],"\n",["$","li",null,{"children":"一致しているか確認"}],"\n"]}]
+38:["$","p",null,{"children":[["$","strong",null,{"children":"もしハルシネーションが見つかったら"}],":\nおめでとう。あなたは最も重要なスキル「疑う力」を獲得した。"]}]
+39:["$","p",null,{"children":[["$","strong",null,{"children":"もし一致していたら"}],":\n別の質問で試す。「日本小児循環器学会の川崎病ガイドライン」「欧州のガイドライン」など。"]}]
+3a:["$","p",null,{"children":[["$","strong",null,{"children":"重要"}],": ハルシネーションを見つけることが目的ではない。",["$","strong",null,{"children":"常に検証する習慣"}],"をつけることが目的。"]}]
+3b:["$","hr",null,{}]
+3c:["$","h2",null,{"id":"到達目標チェックリスト","children":"到達目標チェックリスト"}]
+3d:["$","p",null,{"children":"本稿の内容を実践した後、以下を自己評価する（各項目Yes/No）"}]
+3e:["$","h3",null,{"id":"技術面","children":"技術面"}]
+3f:["$","ul",null,{"children":["\n",["$","li",null,{"children":"ChatGPTまたはClaudeのアカウントを開設した"}],"\n",["$","li",null,{"children":"最低5つの質問を投げた"}],"\n",["$","li",null,{"children":"同じ質問で出力が変わることを確認した"}],"\n",["$","li",null,{"children":"実際の診療で1症例以上試した"}],"\n"]}]
+40:["$","h3",null,{"id":"理解面","children":"理解面"}]
+41:["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIは「次の単語予測」機械であることを説明できる"}],"\n",["$","li",null,{"children":"AIの出力は「もっともらしい」が「正しいとは限らない」と理解している"}],"\n",["$","li",null,{"children":"プロンプトの書き方で出力が変わることを体感した"}],"\n"]}]
+42:["$","h3",null,{"id":"習慣面","children":"習慣面"}]
+43:["$","ul",null,{"children":["\n",["$","li",null,{"children":"毎日10分の学習時間を確保できた（週5日以上）"}],"\n",["$","li",null,{"children":"AIの出力を検証する手順を実践した"}],"\n",["$","li",null,{"children":"疑問点を記録した（メモ、スクリーンショット、振り返りシートなど）"}],"\n"]}]
+44:["$","h3",null,{"id":"態度面","children":"態度面"}]
+45:["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIの出力を盲信しなかった"}],"\n",["$","li",null,{"children":"ハルシネーションの可能性を常に考えた"}],"\n",["$","li",null,{"children":"「よく分からない」を認める勇気を持てた"}],"\n"]}]
+46:["$","p",null,{"children":[["$","strong",null,{"children":"10項目中8項目以上でYes"}],": 順調。次の記事（Ch.3-2）へ進む\n",["$","strong",null,{"children":"6-7項目"}],": やや遅れ。もう2-3日復習してからCh.3-2へ\n",["$","strong",null,{"children":"5項目以下"}],": 立ち止まる。本稿の内容をもう一度繰り返す"]}]
+47:["$","hr",null,{}]
+48:["$","h2",null,{"id":"よくある質問と回答","children":"よくある質問と回答"}]
+49:["$","h3",null,{"id":"q1-無料版で十分ですか有料版chatgpt-plus-claude-proが必要ですか","children":"Q1: 無料版で十分ですか？有料版（ChatGPT Plus / Claude Pro）が必要ですか？"}]
+4a:["$","p",null,{"children":[["$","strong",null,{"children":"A"}],": Ch.3の基礎編は無料版で十分です。"]}]
+4b:["$","p",null,{"children":"有料版のメリットが出るのはCh.4以降："}]
+4c:["$","ul",null,{"children":["\n",["$","li",null,{"children":"長文の論文要約（Claude Pro）"}],"\n",["$","li",null,{"children":"プラグインでのPubMed連携（ChatGPT Plus）"}],"\n",["$","li",null,{"children":"応答速度の向上"}],"\n"]}]
+4d:["$","p",null,{"children":["ただし、",["$","strong",null,{"children":"無料版でも訓練プログラムは完遂できます。"}]," 有料版は「あれば便利」であって「必須」ではありません。"]}]
+4e:["$","h3",null,{"id":"q2-chatgptとclaudeどちらが医療に向いていますか","children":"Q2: ChatGPTとClaude、どちらが医療に向いていますか？"}]
+4f:["$","p",null,{"children":[["$","strong",null,{"children":"A"}],": タスク次第です。"]}]
+50:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"タスク"}],["$","th",null,{"children":"推奨"}],["$","th",null,{"children":"理由"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"鑑別診断"}],["$","td",null,{"children":"ChatGPT"}],["$","td",null,{"children":"医学知識の網羅性"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"カルテ要約"}],["$","td",null,{"children":"Claude"}],["$","td",null,{"children":"長文理解と構造化"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"文献検索"}],["$","td",null,{"children":"ChatGPT"}],["$","td",null,{"children":"プラグイン対応"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"退院サマリー"}],["$","td",null,{"children":"Claude"}],["$","td",null,{"children":"文脈保持能力"}]]}]]}]]}]
+51:["$","p",null,{"children":"両方試して、自分に合う方を選ぶのがベスト。"}]
+52:["$","$L7e",null,{"level":"high","children":"AIに患者の個人情報（氏名、生年月日、カルテ番号など）を入力することは絶対に避けてください。「60代男性」「6ヶ月の乳児」など一般化した表現のみ使用しましょう。稀少疾患や特異的な所見で個人が特定される可能性がある場合も注意が必要です。"}]
+53:["$","h3",null,{"id":"q3-aiに個人情報患者情報を入力しても大丈夫ですか","children":"Q3: AIに個人情報（患者情報）を入力しても大丈夫ですか？"}]
+54:["$","p",null,{"children":[["$","strong",null,{"children":"A"}],": ",["$","strong",null,{"children":"絶対にダメです。"}]]}]
+55:["$","p",null,{"children":[["$","strong",null,{"children":"基本ルール"}],":"]}]
+56:["$","ul",null,{"children":["\n",["$","li",null,{"children":"氏名、生年月日、カルテ番号などの個人情報は入力しない"}],"\n",["$","li",null,{"children":"「60代男性」「6ヶ月の乳児」など、一般化した表現のみ"}],"\n",["$","li",null,{"children":"稀少疾患や特異的な所見で個人が特定される可能性がある場合も注意"}],"\n"]}]
+57:["$","p",null,{"children":["$","strong",null,{"children":"Ch.5で詳しく学びますが、今の段階では「個人情報は絶対に入力しない」を徹底してください。"}]}]
+58:["$","h3",null,{"id":"q4-aiが間違った答えを返したらどうすればいいですか","children":"Q4: AIが間違った答えを返したらどうすればいいですか？"}]
+59:["$","p",null,{"children":[["$","strong",null,{"children":"A"}],": それが正常です。"]}]
+5a:["$","p",null,{"children":"AIは必ず間違えます。問題は「間違えること」ではなく、「間違いに気づかないこと」です。"}]
+5b:["$","p",null,{"children":[["$","strong",null,{"children":"間違いを見つけたら"}],":"]}]
+5c:["$","ol",null,{"children":["\n",["$","li",null,{"children":"スクリーンショットを保存"}],"\n",["$","li",null,{"children":"何が間違っていたかをメモ"}],"\n",["$","li",null,{"children":"なぜ間違いに気づけたかを振り返る（ガイドラインを確認した、上司に聞いた、など）"}],"\n"]}]
+5d:["$","p",null,{"children":[["$","strong",null,{"children":"これが「訓練」です。"}]," 間違いを見つけることは、成功体験です。"]}]
+5e:["$","h3",null,{"id":"q5-1日10分では足りないように感じますもっとやってもいいですか","children":"Q5: 1日10分では足りないように感じます。もっとやってもいいですか？"}]
+5f:["$","p",null,{"children":[["$","strong",null,{"children":"A"}],": ",["$","strong",null,{"children":"ダメです。10分を死守してください。"}]]}]
+60:["$","p",null,{"children":"理由："}]
+61:["$","ul",null,{"children":["\n",["$","li",null,{"children":"10分を超えると、翌日以降の継続率が下がる"}],"\n",["$","li",null,{"children":"「もっとやりたい」と思うくらいで止めるのが、習慣化の秘訣"}],"\n",["$","li",null,{"children":"物足りなさが、明日への動機になる"}],"\n"]}]
+62:["$","p",null,{"children":[["$","strong",null,{"children":"例外"}],": 実際の診療での活用（課題1-3）は10分の外でOK。ただし、「学習としての10分」は死守する。"]}]
+63:["$","hr",null,{}]
+64:["$","h2",null,{"id":"本稿のゴール疑い深くなる","children":"本稿のゴール：疑い深くなる"}]
+65:["$","p",null,{"children":["本稿で身につけるべき最も重要なスキルは、",["$","strong",null,{"children":"疑い深くなること"}],"です。"]}]
+66:["$","p",null,{"children":"AIの出力を見て、こう反応できるようになる："}]
+67:["$","ul",null,{"children":["\n",["$","li",null,{"children":"「本当かな？」"}],"\n",["$","li",null,{"children":"「ソースは？」"}],"\n",["$","li",null,{"children":"「他の情報源と一致しているかな？」"}],"\n",["$","li",null,{"children":"「ハルシネーションの可能性は？」"}],"\n"]}]
+68:["$","p",null,{"children":["$","strong",null,{"children":"この疑い深さが、訓練なきAI使用と訓練されたAI使用の最大の違いです。"}]}]
+69:["$","p",null,{"children":"序章で見たJAMAのRCT——訓練なしにAIを使った医師は、AIなしの医師よりも診断精度が低かった。"}]
+6a:["$","p",null,{"children":["その理由は、",["$","strong",null,{"children":"疑わずに信じたから"}],"です。"]}]
+6b:["$","p",null,{"children":"あなたは、89%の危険地帯に入らない。1%の側に立つ。"}]
+6c:["$","p",null,{"children":"そのための第一歩が、本稿の実践である。"}]
+6d:["$","hr",null,{}]
+6e:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+6f:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"今すぐ始める"}]," — ChatGPTまたはClaudeを開設（5分）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"最初の質問3つ"}]," — 簡単な質問から、段階的に具体化"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"検証する習慣"}]," — AIの出力を盲信しない。常にソースを確認"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"実践課題3つ"}]," — 外来症例、同僚に見せる、ハルシネーション探し"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"チェックリスト"}]," — 10項目中8項目でYesなら次へ"]}],"\n"]}]
+70:["$","p",null,{"children":[["$","strong",null,{"children":"本稿のゴール"}],": AIは便利だが完璧ではない。疑い深くなること。"]}]
+71:["$","p",null,{"children":["$","strong",null,{"children":"あなたは、グループAとグループBのどちらに属するのか。"}]}]
+72:["$","p",null,{"children":"この記事を読み終わったら、今すぐChatGPTまたはClaudeを開設してください。"}]
+73:["$","p",null,{"children":["$","strong",null,{"children":"今、始めた人だけが、変わっている。"}]}]
+74:["$","$L7f",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"ChatGPTとClaudeの両方を開設し、タスクに応じて使い分けることで効率が上がる"}],"\n",["$","li",null,{"children":"プロンプトの書き方（年齢・体温・所見の具体化）によってAIの出力は大きく変わる"}],"\n",["$","li",null,{"children":"AIの出力は「もっともらしい」が「正しい」とは限らない――常に検証する習慣をつける"}],"\n",["$","li",null,{"children":"同じ質問でも毎回異なる回答が返る仕組みを理解し、AIに「正解」が格納されているわけではないと認識する"}],"\n",["$","li",null,{"children":"患者情報は絶対にAIに入力せず、一般化した表現のみを使用する"}],"\n"]}]}]
+75:["$","hr",null,{}]
+76:["$","h3",null,{"id":"参考文献","children":"参考文献"}]
+77:["$","ol",null,{"children":["\n",["$","li",null,{"children":"OpenAI. (2025). \"ChatGPT User Guide.\""}],"\n",["$","li",null,{"children":"Anthropic. (2025). \"Claude User Guide.\""}],"\n",["$","li",null,{"children":["Patel, S. B. & Lam, K. (2023). \"ChatGPT: The Future of Discharge Summaries?\" ",["$","em",null,{"children":"The Lancet Digital Health."}]]}],"\n"]}]
+7c:null

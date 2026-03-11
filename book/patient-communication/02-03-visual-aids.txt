@@ -1,0 +1,374 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","patient-communication","02-03-visual-aids"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","patient-communication","d"],{"children":[["chapterId","02-03-visual-aids","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T2e5d,
+**「百聞は一見にしかず」は医療説明においても真理である。テキストだけの説明を、視覚情報が劇的に変える。**
+
+---
+
+## なぜ視覚的説明が効果的なのか
+
+人間の脳は、テキスト情報よりも視覚情報を圧倒的に速く処理する。MITの研究によると、脳が画像を処理するのに必要な時間はわずか13ミリ秒である。
+
+医療説明における視覚資料の効果を示すエビデンスは豊富だ。
+
+- **理解度**: テキスト＋視覚資料の組み合わせは、テキストのみと比較して理解度が**89%向上**（2023年 *Medical Education*）
+- **記憶保持**: 3日後の情報保持率は、テキストのみ10%に対し、テキスト＋画像は**65%**（Medina, 2014）
+- **アドヒアランス**: 視覚的な服薬指導を受けた患者の服薬遵守率は**43%向上**（2024年 *BMC Health Services Research*）
+- **満足度**: 図解付きの説明を受けた患者の満足度は**2.3倍高い**
+
+<Callout type="info" title="ピクチャー・スーペリオリティ効果">
+心理学で「画像優位性効果（Picture Superiority Effect）」と呼ばれる現象がある。人間は文字情報よりも画像情報を圧倒的に記憶しやすい。医療説明では、この認知特性を積極的に活用すべきである。
+</Callout>
+
+---
+
+## AIで作成できる視覚資料の種類
+
+### 1. テキストベースの視覚資料
+
+LLM（テキスト生成AI）だけで作成できる視覚資料。専用のデザインツールがなくても即座に利用可能。
+
+| 種類 | 用途 | 例 |
+|------|------|-----|
+| ASCII図解 | 簡易的な解剖図、フロー図 | テキストベースの臓器配置図 |
+| 表形式の比較 | 治療選択肢の比較 | Option Grid |
+| タイムライン | 治療スケジュール | 術前→手術→回復の流れ |
+| チェックリスト | 退院時の確認事項 | 服薬・受診スケジュール |
+| アイコンアレイ | リスクの視覚化 | ●○での確率表示 |
+
+### 2. 画像生成AIによる視覚資料
+
+DALL-E、Midjourney、Stable Diffusionなどの画像生成AIを活用した資料。
+
+| 種類 | 用途 | 注意点 |
+|------|------|--------|
+| 解剖図イラスト | 手術部位の説明 | 医学的正確性の確認が必須 |
+| 手術手順図 | 手術の流れの説明 | 簡略化しすぎないこと |
+| 生活指導イラスト | 運動・食事の指導 | 文化的配慮が必要 |
+| 薬のイメージ図 | 薬の作用機序 | 過度な単純化を避ける |
+
+### 3. データビジュアライゼーション
+
+コードベースのツール（Mermaid、SVG、HTML）で生成するグラフや図。
+
+---
+
+## テキストAIでの視覚資料作成
+
+### 手術説明用のフロー図
+
+<PromptTemplate title="手術説明フロー図のテキスト生成">
+以下の手術の流れを、患者向けのテキストフロー図として作成してください。
+
+**手術**: 人工膝関節置換術（TKA）
+
+**フローの構成**:
+```
+入院前準備 → 入院日 → 手術当日 → 術後1日目 → 術後1週間 → 退院 → 外来フォロー
+```
+
+**各ステップに含める情報**:
+- その日に何が起きるか（2行以内）
+- 患者がすべきこと（1行）
+- 所要時間の目安
+- 痛みの程度の目安（★の数で表現）
+
+**デザインの指定**:
+- 矢印（→）でステップをつなぐ
+- 各ステップを枠で囲む
+- 「痛み」「動き」「生活」の3項目をアイコン的に表示
+- A4横置きで印刷できるレイアウト
+</PromptTemplate>
+
+### 解剖説明のためのテキスト図解
+
+<PromptTemplate title="テキストベースの解剖説明図">
+以下の疾患を説明するための、テキストベースの簡易解剖図を作成してください。
+
+**疾患**: 腰椎椎間板ヘルニア（L4/5）
+
+**図に含める要素**:
+1. 腰椎（L1〜S1）の側面図をASCIIアートで描く
+2. 椎間板の位置を示す
+3. L4/5のヘルニアの位置を★で示す
+4. 神経根の走行を示す
+5. 各部位に日本語のラベルをつける
+
+**図の下に添える説明文**:
+- 正常な状態と異常な状態の比較
+- 「クッション（椎間板）が飛び出して、神経を押している」という比喩
+- 痛みやしびれが出る場所の説明
+</PromptTemplate>
+
+---
+
+## 画像生成AIの活用
+
+### プロンプトエンジニアリング for 医療イラスト
+
+画像生成AIで医療イラストを作成する際のプロンプト構成要素。
+
+<PromptTemplate title="医療イラスト生成プロンプト（画像AI用）">
+**目的**: 患者説明用の[疾患/手術]のイラスト
+
+**スタイル指定**:
+- Clean, simple medical illustration style
+- Flat design with soft colors
+- No photorealistic elements
+- Educational and non-threatening tone
+- Japanese text labels
+
+**コンテンツ指定**:
+- [描くべき解剖構造の指定]
+- [正常と異常の比較を並べる]
+- [矢印やラベルで重要ポイントを示す]
+
+**サイズ・フォーマット**:
+- A4サイズで印刷に適した解像度
+- 白背景
+- カラーパレット: 青系（安心感）＋赤系（注意喚起）
+
+**除外事項**:
+- リアルすぎる臓器の描写を避ける
+- 血液や出血の描写を避ける
+- 恐怖を与えるイメージを避ける
+</PromptTemplate>
+
+<Warning title="画像生成AIの医学的正確性">
+画像生成AIは、解剖学的に不正確なイラストを生成することがある。特に、臓器の位置関係、血管の走行、神経の分布などは、医師が必ず確認・修正すること。AI生成画像は「ラフスケッチ」として扱い、最終版は医学イラストレーターと協力して完成させることを推奨する。
+</Warning>
+
+---
+
+## インフォグラフィックの設計
+
+### 治療比較のインフォグラフィック
+
+<PromptTemplate title="治療比較インフォグラフィックの設計指示書">
+以下の治療選択肢を比較するインフォグラフィックの設計指示書を作成してください。
+
+**疾患**: 早期胃がん
+**治療選択肢**:
+1. 内視鏡的切除（ESD）
+2. 腹腔鏡下胃切除
+3. 開腹胃切除
+
+**インフォグラフィックに含める要素**:
+
+1. **タイトルエリア**
+   - 「あなたの治療の選択肢」
+   - 簡潔な疾患説明（20字）
+
+2. **3列の比較セクション**
+   各列に以下の情報を含める:
+   - 治療のイメージイラスト（説明テキスト）
+   - 入院期間（ベッドアイコン＋日数）
+   - 手術時間（時計アイコン＋時間）
+   - 傷の大きさ（スケールバーで比較）
+   - 回復期間（カレンダーアイコン＋期間）
+   - 合併症リスク（アイコンアレイ）
+
+3. **共通セクション**
+   - 「どの治療を選ぶかは、あなたの希望と先生の判断で一緒に決めます」
+   - 質問リスト「先生に聞いてみましょう」
+
+4. **フッター**
+   - 病院名、担当科、相談窓口の連絡先
+
+**デザイン仕様**:
+- A3サイズ、横置き
+- カラーパレット: 青（#3B82F6）、緑（#10B981）、オレンジ（#F59E0B）
+- フォントサイズ: 最小14pt
+- アクセシビリティ: 色覚異常に配慮した配色
+</PromptTemplate>
+
+---
+
+## リスク視覚化の実践
+
+### アイコンアレイの活用
+
+リスクの視覚化で最も効果的なのがアイコンアレイである。
+
+<PromptTemplate title="アイコンアレイの生成">
+以下のリスクデータをアイコンアレイ（人型アイコン100人分の図）で視覚化してください。
+
+**データ**:
+- 手術を受けた場合の合併症リスク: 8%
+- 手術を受けない場合の症状悪化リスク: 35%
+
+**出力形式**:
+1. 2つのアイコンアレイを並べて比較する
+2. 左: 「手術を受けた場合」（100人中92人が回復、8人に合併症）
+3. 右: 「手術を受けない場合」（100人中65人は変わらず、35人は悪化）
+4. それぞれのアイコンに色を付ける
+   - 良い結果: 緑のアイコン
+   - 悪い結果: 赤のアイコン
+5. 下に一文の要約を添える
+
+**テキスト版（端末で表示可能なバージョン）**:
+○ = 問題なし  ● = 合併症あり
+</PromptTemplate>
+
+---
+
+## 視覚資料のアクセシビリティ
+
+### ユニバーサルデザインの原則
+
+患者向け視覚資料は、以下のアクセシビリティ基準を満たす必要がある。
+
+1. **色覚異常への配慮**: 赤緑の区別に頼らず、形状や模様でも区別できるようにする
+2. **フォントサイズ**: 本文14pt以上、見出し18pt以上
+3. **コントラスト比**: テキストと背景のコントラスト比4.5:1以上
+4. **余白**: 情報を詰め込みすぎず、十分な余白を確保する
+5. **言語**: 漢字にふりがな、専門用語に括弧書きの説明
+
+<PromptTemplate title="アクセシビリティチェックプロンプト">
+以下の患者説明資料のデザイン指示書を、アクセシビリティの観点でレビューしてください。
+
+**チェック項目**:
+1. 色覚異常（P型・D型・T型）のシミュレーション
+2. フォントサイズの適切さ
+3. コントラスト比の確認
+4. 情報密度の評価
+5. 高齢者（老眼）への配慮
+6. 外国人（日本語が不得意）への配慮
+7. 認知機能低下がある患者への配慮
+
+問題が見つかった場合は、具体的な改善案を提示してください。
+</PromptTemplate>
+
+---
+
+## 動画コンテンツの活用
+
+### 手術説明動画のスクリプト作成
+
+短い説明動画（2〜3分）は、患者の理解を大きく助ける。
+
+<PromptTemplate title="手術説明動画のスクリプト">
+以下の手術の患者説明動画（3分）のスクリプトを作成してください。
+
+**手術**: 白内障手術（水晶体超音波乳化吸引術＋眼内レンズ挿入）
+
+**動画構成**:
+1. **オープニング（15秒）**: タイトルと導入
+2. **白内障とは（30秒）**: 正常な目と白内障の目の比較
+3. **手術の流れ（60秒）**: 麻酔→切開→吸引→レンズ挿入（4ステップ）
+4. **手術後の生活（30秒）**: 当日〜1週間の注意点
+5. **よくある質問（30秒）**: 痛みは？見え方は？
+6. **クロージング（15秒）**: 「ご質問は先生にお気軽に」
+
+**スクリプトの条件**:
+- ナレーション原稿とアニメーション指示を分けて記載
+- 1文は30字以内（ゆっくり読めるペース）
+- BGM・SEの指示を含める
+- 字幕テキストも別途記載
+</PromptTemplate>
+
+---
+
+## 実践チェックリスト
+
+視覚資料の品質チェックリスト。
+
+- [ ] テキストだけでなく視覚要素が含まれているか
+- [ ] 医学的に正確か（医師が確認済みか）
+- [ ] 患者のリテラシーレベルに適切か
+- [ ] アクセシビリティ基準を満たしているか（色覚、フォントサイズ、コントラスト）
+- [ ] 情報量が適切か（詰め込みすぎていないか）
+- [ ] 文化的に配慮されているか
+- [ ] 印刷とデジタルの両方で使えるか
+
+<KeyTakeaway
+  points={[
+    "視覚資料はテキストのみと比較して理解度を89%向上させる",
+    "テキストAIだけでもフロー図、タイムライン、アイコンアレイは作成可能",
+    "画像生成AIの医学イラストは必ず医師が正確性を確認する",
+    "アクセシビリティ（色覚配慮、フォントサイズ、コントラスト）は必須条件",
+    "インフォグラフィックはOption Gridと組み合わせてSDMを強力に支援する"
+  ]}
+/>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-patient-communication","lessonSlug":"02-03-visual-aids"}],["$","$L1d",null,{"items":[{"id":"なぜ視覚的説明が効果的なのか","text":"なぜ視覚的説明が効果的なのか","level":2},{"id":"aiで作成できる視覚資料の種類","text":"AIで作成できる視覚資料の種類","level":2},{"id":"1-テキストベースの視覚資料","text":"1. テキストベースの視覚資料","level":3},{"id":"2-画像生成aiによる視覚資料","text":"2. 画像生成AIによる視覚資料","level":3},{"id":"3-データビジュアライゼーション","text":"3. データビジュアライゼーション","level":3},{"id":"テキストaiでの視覚資料作成","text":"テキストAIでの視覚資料作成","level":2},{"id":"手術説明用のフロー図","text":"手術説明用のフロー図","level":3},{"id":"解剖説明のためのテキスト図解","text":"解剖説明のためのテキスト図解","level":3},{"id":"画像生成aiの活用","text":"画像生成AIの活用","level":2},{"id":"プロンプトエンジニアリング-for-医療イラスト","text":"プロンプトエンジニアリング for 医療イラスト","level":3},{"id":"インフォグラフィックの設計","text":"インフォグラフィックの設計","level":2},{"id":"治療比較のインフォグラフィック","text":"治療比較のインフォグラフィック","level":3},{"id":"リスク視覚化の実践","text":"リスク視覚化の実践","level":2},{"id":"アイコンアレイの活用","text":"アイコンアレイの活用","level":3},{"id":"視覚資料のアクセシビリティ","text":"視覚資料のアクセシビリティ","level":2},{"id":"ユニバーサルデザインの原則","text":"ユニバーサルデザインの原則","level":3},{"id":"動画コンテンツの活用","text":"動画コンテンツの活用","level":2},{"id":"手術説明動画のスクリプト作成","text":"手術説明動画のスクリプト作成","level":3},{"id":"実践チェックリスト","text":"実践チェックリスト","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"patient-communication","bookTitle":"AI×患者コミュニケーション術 — 説明・同意・教育・共有の技術","chapter":{"slug":"02-03-visual-aids","title":"視覚的説明資料のAI生成","description":"図解、イラスト、インフォグラフィックス。AIを活用して患者理解を高める視覚的説明資料を作成する方法と実践テンプレート。","partId":"part02","partTitle":"インフォームドコンセント","order":6,"partOrder":2,"estimatedMinutes":20,"estimatedReadTime":13,"free":true,"status":"published","tags":["視覚資料","インフォグラフィック","図解","AI画像生成","患者説明"],"content":"$1f"},"totalChapters":22}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"patient-communication","chapterSlug":"02-03-visual-aids"}]
+23:["$","$L27",null,{"bookId":"patient-communication","prev":{"slug":"02-02-risk-communication","title":"リスクコミュニケーションとヘルスリテラシー","order":5},"next":{"slug":"03-01-disease-handouts","title":"疾患説明パンフレットのAI作成","order":8}}]
+28:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+29:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+25:[["$","p",null,{"children":["$","strong",null,{"children":"「百聞は一見にしかず」は医療説明においても真理である。テキストだけの説明を、視覚情報が劇的に変える。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"なぜ視覚的説明が効果的なのか","children":"なぜ視覚的説明が効果的なのか"}],"\n",["$","p",null,{"children":"人間の脳は、テキスト情報よりも視覚情報を圧倒的に速く処理する。MITの研究によると、脳が画像を処理するのに必要な時間はわずか13ミリ秒である。"}],"\n",["$","p",null,{"children":"医療説明における視覚資料の効果を示すエビデンスは豊富だ。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"理解度"}],": テキスト＋視覚資料の組み合わせは、テキストのみと比較して理解度が",["$","strong",null,{"children":"89%向上"}],"（2023年 ",["$","em",null,{"children":"Medical Education"}],"）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"記憶保持"}],": 3日後の情報保持率は、テキストのみ10%に対し、テキスト＋画像は",["$","strong",null,{"children":"65%"}],"（Medina, 2014）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"アドヒアランス"}],": 視覚的な服薬指導を受けた患者の服薬遵守率は",["$","strong",null,{"children":"43%向上"}],"（2024年 ",["$","em",null,{"children":"BMC Health Services Research"}],"）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"満足度"}],": 図解付きの説明を受けた患者の満足度は",["$","strong",null,{"children":"2.3倍高い"}]]}],"\n"]}],"\n",["$","$L28",null,{"type":"info","title":"ピクチャー・スーペリオリティ効果","children":["$","p",null,{"children":"心理学で「画像優位性効果（Picture Superiority Effect）」と呼ばれる現象がある。人間は文字情報よりも画像情報を圧倒的に記憶しやすい。医療説明では、この認知特性を積極的に活用すべきである。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"aiで作成できる視覚資料の種類","children":"AIで作成できる視覚資料の種類"}],"\n",["$","h3",null,{"id":"1-テキストベースの視覚資料","children":"1. テキストベースの視覚資料"}],"\n",["$","p",null,{"children":"LLM（テキスト生成AI）だけで作成できる視覚資料。専用のデザインツールがなくても即座に利用可能。"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"種類"}],["$","th",null,{"children":"用途"}],["$","th",null,{"children":"例"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"ASCII図解"}],["$","td",null,{"children":"簡易的な解剖図、フロー図"}],["$","td",null,{"children":"テキストベースの臓器配置図"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"表形式の比較"}],["$","td",null,{"children":"治療選択肢の比較"}],["$","td",null,{"children":"Option Grid"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"タイムライン"}],["$","td",null,{"children":"治療スケジュール"}],["$","td",null,{"children":"術前→手術→回復の流れ"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"チェックリスト"}],["$","td",null,{"children":"退院時の確認事項"}],["$","td",null,{"children":"服薬・受診スケジュール"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"アイコンアレイ"}],["$","td",null,{"children":"リスクの視覚化"}],["$","td",null,{"children":"●○での確率表示"}]]}]]}]]}],"\n",["$","h3",null,{"id":"2-画像生成aiによる視覚資料","children":"2. 画像生成AIによる視覚資料"}],"\n",["$","p",null,{"children":"DALL-E、Midjourney、Stable Diffusionなどの画像生成AIを活用した資料。"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"種類"}],["$","th",null,{"children":"用途"}],["$","th",null,{"children":"注意点"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"解剖図イラスト"}],["$","td",null,{"children":"手術部位の説明"}],["$","td",null,{"children":"医学的正確性の確認が必須"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"手術手順図"}],["$","td",null,{"children":"手術の流れの説明"}],["$","td",null,{"children":"簡略化しすぎないこと"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"生活指導イラスト"}],["$","td",null,{"children":"運動・食事の指導"}],["$","td",null,{"children":"文化的配慮が必要"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"薬のイメージ図"}],["$","td",null,{"children":"薬の作用機序"}],["$","td",null,{"children":"過度な単純化を避ける"}]]}]]}]]}],"\n",["$","h3",null,{"id":"3-データビジュアライゼーション","children":"3. データビジュアライゼーション"}],"\n",["$","p",null,{"children":"コードベースのツール（Mermaid、SVG、HTML）で生成するグラフや図。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"テキストaiでの視覚資料作成","children":"テキストAIでの視覚資料作成"}],"\n",["$","h3",null,{"id":"手術説明用のフロー図","children":"手術説明用のフロー図"}],"\n",["$","$L29",null,{"title":"手術説明フロー図のテキスト生成","children":[["$","p",null,{"children":"以下の手術の流れを、患者向けのテキストフロー図として作成してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"手術"}],": 人工膝関節置換術（TKA）"]}],["$","p",null,{"children":[["$","strong",null,{"children":"フローの構成"}],":"]}],["$","pre",null,{"children":["$","code",null,{"children":"入院前準備 → 入院日 → 手術当日 → 術後1日目 → 術後1週間 → 退院 → 外来フォロー\n"}]}],["$","p",null,{"children":[["$","strong",null,{"children":"各ステップに含める情報"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"その日に何が起きるか（2行以内）"}],"\n",["$","li",null,{"children":"患者がすべきこと（1行）"}],"\n",["$","li",null,{"children":"所要時間の目安"}],"\n",["$","li",null,{"children":"痛みの程度の目安（★の数で表現）"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"デザインの指定"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"矢印（→）でステップをつなぐ"}],"\n",["$","li",null,{"children":"各ステップを枠で囲む"}],"\n",["$","li",null,{"children":"「痛み」「動き」「生活」の3項目をアイコン的に表示"}],"\n",["$","li",null,{"children":"A4横置きで印刷できるレイアウト"}],"\n"]}]]}],"\n",["$","h3",null,{"id":"解剖説明のためのテキスト図解","children":"解剖説明のためのテキスト図解"}],"\n",["$","$L29",null,{"title":"テキストベースの解剖説明図","children":[["$","p",null,{"children":"以下の疾患を説明するための、テキストベースの簡易解剖図を作成してください。"}],"$L2a","$L2b","$L2c","$L2d","$L2e"]}],"\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d"]
+4e:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+4f:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+2a:["$","p",null,{"children":[["$","strong",null,{"children":"疾患"}],": 腰椎椎間板ヘルニア（L4/5）"]}]
+2b:["$","p",null,{"children":[["$","strong",null,{"children":"図に含める要素"}],":"]}]
+2c:["$","ol",null,{"children":["\n",["$","li",null,{"children":"腰椎（L1〜S1）の側面図をASCIIアートで描く"}],"\n",["$","li",null,{"children":"椎間板の位置を示す"}],"\n",["$","li",null,{"children":"L4/5のヘルニアの位置を★で示す"}],"\n",["$","li",null,{"children":"神経根の走行を示す"}],"\n",["$","li",null,{"children":"各部位に日本語のラベルをつける"}],"\n"]}]
+2d:["$","p",null,{"children":[["$","strong",null,{"children":"図の下に添える説明文"}],":"]}]
+2e:["$","ul",null,{"children":["\n",["$","li",null,{"children":"正常な状態と異常な状態の比較"}],"\n",["$","li",null,{"children":"「クッション（椎間板）が飛び出して、神経を押している」という比喩"}],"\n",["$","li",null,{"children":"痛みやしびれが出る場所の説明"}],"\n"]}]
+2f:["$","hr",null,{}]
+30:["$","h2",null,{"id":"画像生成aiの活用","children":"画像生成AIの活用"}]
+31:["$","h3",null,{"id":"プロンプトエンジニアリング-for-医療イラスト","children":"プロンプトエンジニアリング for 医療イラスト"}]
+32:["$","p",null,{"children":"画像生成AIで医療イラストを作成する際のプロンプト構成要素。"}]
+33:["$","$L29",null,{"title":"医療イラスト生成プロンプト（画像AI用）","children":[["$","p",null,{"children":[["$","strong",null,{"children":"目的"}],": 患者説明用の[疾患/手術]のイラスト"]}],["$","p",null,{"children":[["$","strong",null,{"children":"スタイル指定"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"Clean, simple medical illustration style"}],"\n",["$","li",null,{"children":"Flat design with soft colors"}],"\n",["$","li",null,{"children":"No photorealistic elements"}],"\n",["$","li",null,{"children":"Educational and non-threatening tone"}],"\n",["$","li",null,{"children":"Japanese text labels"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"コンテンツ指定"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"[描くべき解剖構造の指定]"}],"\n",["$","li",null,{"children":"[正常と異常の比較を並べる]"}],"\n",["$","li",null,{"children":"[矢印やラベルで重要ポイントを示す]"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"サイズ・フォーマット"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"A4サイズで印刷に適した解像度"}],"\n",["$","li",null,{"children":"白背景"}],"\n",["$","li",null,{"children":"カラーパレット: 青系（安心感）＋赤系（注意喚起）"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"除外事項"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"リアルすぎる臓器の描写を避ける"}],"\n",["$","li",null,{"children":"血液や出血の描写を避ける"}],"\n",["$","li",null,{"children":"恐怖を与えるイメージを避ける"}],"\n"]}]]}]
+34:["$","$L4e",null,{"title":"画像生成AIの医学的正確性","children":["$","p",null,{"children":"画像生成AIは、解剖学的に不正確なイラストを生成することがある。特に、臓器の位置関係、血管の走行、神経の分布などは、医師が必ず確認・修正すること。AI生成画像は「ラフスケッチ」として扱い、最終版は医学イラストレーターと協力して完成させることを推奨する。"}]}]
+35:["$","hr",null,{}]
+36:["$","h2",null,{"id":"インフォグラフィックの設計","children":"インフォグラフィックの設計"}]
+37:["$","h3",null,{"id":"治療比較のインフォグラフィック","children":"治療比較のインフォグラフィック"}]
+38:["$","$L29",null,{"title":"治療比較インフォグラフィックの設計指示書","children":[["$","p",null,{"children":"以下の治療選択肢を比較するインフォグラフィックの設計指示書を作成してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"疾患"}],": 早期胃がん\n",["$","strong",null,{"children":"治療選択肢"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"内視鏡的切除（ESD）"}],"\n",["$","li",null,{"children":"腹腔鏡下胃切除"}],"\n",["$","li",null,{"children":"開腹胃切除"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"インフォグラフィックに含める要素"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":["\n",["$","p",null,{"children":["$","strong",null,{"children":"タイトルエリア"}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"「あなたの治療の選択肢」"}],"\n",["$","li",null,{"children":"簡潔な疾患説明（20字）"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":[["$","strong",null,{"children":"3列の比較セクション"}],"\n各列に以下の情報を含める:"]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"治療のイメージイラスト（説明テキスト）"}],"\n",["$","li",null,{"children":"入院期間（ベッドアイコン＋日数）"}],"\n",["$","li",null,{"children":"手術時間（時計アイコン＋時間）"}],"\n",["$","li",null,{"children":"傷の大きさ（スケールバーで比較）"}],"\n",["$","li",null,{"children":"回復期間（カレンダーアイコン＋期間）"}],"\n",["$","li",null,{"children":"合併症リスク（アイコンアレイ）"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":["$","strong",null,{"children":"共通セクション"}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"「どの治療を選ぶかは、あなたの希望と先生の判断で一緒に決めます」"}],"\n",["$","li",null,{"children":"質問リスト「先生に聞いてみましょう」"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":["$","strong",null,{"children":"フッター"}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"病院名、担当科、相談窓口の連絡先"}],"\n"]}],"\n"]}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"デザイン仕様"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"A3サイズ、横置き"}],"\n",["$","li",null,{"children":"カラーパレット: 青（#3B82F6）、緑（#10B981）、オレンジ（#F59E0B）"}],"\n",["$","li",null,{"children":"フォントサイズ: 最小14pt"}],"\n",["$","li",null,{"children":"アクセシビリティ: 色覚異常に配慮した配色"}],"\n"]}]]}]
+39:["$","hr",null,{}]
+3a:["$","h2",null,{"id":"リスク視覚化の実践","children":"リスク視覚化の実践"}]
+3b:["$","h3",null,{"id":"アイコンアレイの活用","children":"アイコンアレイの活用"}]
+3c:["$","p",null,{"children":"リスクの視覚化で最も効果的なのがアイコンアレイである。"}]
+3d:["$","$L29",null,{"title":"アイコンアレイの生成","children":[["$","p",null,{"children":"以下のリスクデータをアイコンアレイ（人型アイコン100人分の図）で視覚化してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"データ"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"手術を受けた場合の合併症リスク: 8%"}],"\n",["$","li",null,{"children":"手術を受けない場合の症状悪化リスク: 35%"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"出力形式"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"2つのアイコンアレイを並べて比較する"}],"\n",["$","li",null,{"children":"左: 「手術を受けた場合」（100人中92人が回復、8人に合併症）"}],"\n",["$","li",null,{"children":"右: 「手術を受けない場合」（100人中65人は変わらず、35人は悪化）"}],"\n",["$","li",null,{"children":["それぞれのアイコンに色を付ける","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"良い結果: 緑のアイコン"}],"\n",["$","li",null,{"children":"悪い結果: 赤のアイコン"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":"下に一文の要約を添える"}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"テキスト版（端末で表示可能なバージョン）"}],":\n○ = 問題なし  ● = 合併症あり"]}]]}]
+3e:["$","hr",null,{}]
+3f:["$","h2",null,{"id":"視覚資料のアクセシビリティ","children":"視覚資料のアクセシビリティ"}]
+40:["$","h3",null,{"id":"ユニバーサルデザインの原則","children":"ユニバーサルデザインの原則"}]
+41:["$","p",null,{"children":"患者向け視覚資料は、以下のアクセシビリティ基準を満たす必要がある。"}]
+42:["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"色覚異常への配慮"}],": 赤緑の区別に頼らず、形状や模様でも区別できるようにする"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"フォントサイズ"}],": 本文14pt以上、見出し18pt以上"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"コントラスト比"}],": テキストと背景のコントラスト比4.5:1以上"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"余白"}],": 情報を詰め込みすぎず、十分な余白を確保する"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"言語"}],": 漢字にふりがな、専門用語に括弧書きの説明"]}],"\n"]}]
+43:["$","$L29",null,{"title":"アクセシビリティチェックプロンプト","children":[["$","p",null,{"children":"以下の患者説明資料のデザイン指示書を、アクセシビリティの観点でレビューしてください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"チェック項目"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"色覚異常（P型・D型・T型）のシミュレーション"}],"\n",["$","li",null,{"children":"フォントサイズの適切さ"}],"\n",["$","li",null,{"children":"コントラスト比の確認"}],"\n",["$","li",null,{"children":"情報密度の評価"}],"\n",["$","li",null,{"children":"高齢者（老眼）への配慮"}],"\n",["$","li",null,{"children":"外国人（日本語が不得意）への配慮"}],"\n",["$","li",null,{"children":"認知機能低下がある患者への配慮"}],"\n"]}],["$","p",null,{"children":"問題が見つかった場合は、具体的な改善案を提示してください。"}]]}]
+44:["$","hr",null,{}]
+45:["$","h2",null,{"id":"動画コンテンツの活用","children":"動画コンテンツの活用"}]
+46:["$","h3",null,{"id":"手術説明動画のスクリプト作成","children":"手術説明動画のスクリプト作成"}]
+47:["$","p",null,{"children":"短い説明動画（2〜3分）は、患者の理解を大きく助ける。"}]
+48:["$","$L29",null,{"title":"手術説明動画のスクリプト","children":[["$","p",null,{"children":"以下の手術の患者説明動画（3分）のスクリプトを作成してください。"}],["$","p",null,{"children":[["$","strong",null,{"children":"手術"}],": 白内障手術（水晶体超音波乳化吸引術＋眼内レンズ挿入）"]}],["$","p",null,{"children":[["$","strong",null,{"children":"動画構成"}],":"]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"オープニング（15秒）"}],": タイトルと導入"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"白内障とは（30秒）"}],": 正常な目と白内障の目の比較"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"手術の流れ（60秒）"}],": 麻酔→切開→吸引→レンズ挿入（4ステップ）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"手術後の生活（30秒）"}],": 当日〜1週間の注意点"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"よくある質問（30秒）"}],": 痛みは？見え方は？"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"クロージング（15秒）"}],": 「ご質問は先生にお気軽に」"]}],"\n"]}],["$","p",null,{"children":[["$","strong",null,{"children":"スクリプトの条件"}],":"]}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"ナレーション原稿とアニメーション指示を分けて記載"}],"\n",["$","li",null,{"children":"1文は30字以内（ゆっくり読めるペース）"}],"\n",["$","li",null,{"children":"BGM・SEの指示を含める"}],"\n",["$","li",null,{"children":"字幕テキストも別途記載"}],"\n"]}]]}]
+49:["$","hr",null,{}]
+4a:["$","h2",null,{"id":"実践チェックリスト","children":"実践チェックリスト"}]
+4b:["$","p",null,{"children":"視覚資料の品質チェックリスト。"}]
+4c:["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","テキストだけでなく視覚要素が含まれているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","医学的に正確か（医師が確認済みか）"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","患者のリテラシーレベルに適切か"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","アクセシビリティ基準を満たしているか（色覚、フォントサイズ、コントラスト）"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","情報量が適切か（詰め込みすぎていないか）"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","文化的に配慮されているか"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","印刷とデジタルの両方で使えるか"]}],"\n"]}]
+4d:["$","$L4f",null,{}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+50:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"視覚的説明資料のAI生成 | Hoshizu"}],["$","meta","1",{"name":"description","content":"図解、イラスト、インフォグラフィックス。AIを活用して患者理解を高める視覚的説明資料を作成する方法と実践テンプレート。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/patient-communication/02-03-visual-aids"}],["$","meta","4",{"property":"og:title","content":"視覚的説明資料のAI生成 - AI×患者コミュニケーション術 — 説明・同意・教育・共有の技術"}],["$","meta","5",{"property":"og:description","content":"図解、イラスト、インフォグラフィックス。AIを活用して患者理解を高める視覚的説明資料を作成する方法と実践テンプレート。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L50","15",{}]]

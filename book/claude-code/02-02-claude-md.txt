@@ -1,0 +1,271 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","claude-code","02-02-claude-md"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","claude-code","d"],{"children":[["chapterId","02-02-claude-md","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T1d26,
+CLAUDE.mdは、Claude Codeに「このプロジェクトではこう振る舞ってほしい」と伝える取扱説明書だ。一度書けば、毎回の対話で繰り返し説明する必要がなくなる。
+
+---
+
+## CLAUDE.mdとは何か
+
+プロジェクトの根本的な情報を毎回Claude Codeに説明するのは非効率である。
+
+「このプロジェクトはNext.jsで、TypeScriptを使っていて、テストはVitestで、デプロイはGitHub Pagesで...」
+
+CLAUDE.mdは、こうしたプロジェクト固有の知識をファイルに書き出すことで、Claude Codeが自動的に読み込んでくれる仕組みだ。
+
+プロジェクトルートに `CLAUDE.md` を配置するだけで、Claude Codeは起動時に自動的にこのファイルを読み取り、その内容を常にコンテキストとして保持する。
+
+---
+
+## 配置場所と優先度
+
+CLAUDE.mdは複数の場所に配置でき、それぞれ異なるスコープを持つ。
+
+### 配置の階層
+
+| 場所 | スコープ | 用途 |
+|------|---------|------|
+| `~/.claude/CLAUDE.md` | グローバル（全プロジェクト共通） | 個人の汎用ルール |
+| `プロジェクトルート/CLAUDE.md` | プロジェクト全体 | プロジェクト固有の情報 |
+| `サブディレクトリ/CLAUDE.md` | 特定ディレクトリ | ディレクトリ固有のルール |
+| `.claude/rules/*.md` | プロジェクト（ルール分割） | テーマ別のルールファイル |
+
+### 優先度
+
+より具体的な（深い階層の）CLAUDE.mdが優先される。ただし、すべてのCLAUDE.mdの内容が累積的に適用される。矛盾する指示がある場合は、より具体的な方が優先される。
+
+---
+
+## 何を書くべきか
+
+### プロジェクト概要
+
+```markdown
+## Project Overview
+This is a medical AI knowledge portal built with Next.js 16, TypeScript,
+and Tailwind CSS 4. Content is managed as MDX files.
+```
+
+Claude Codeがプロジェクトの「全体像」を即座に把握できるようにする。
+
+### 技術スタック
+
+```markdown
+## Tech Stack
+- Framework: Next.js 16 (App Router, Static Export)
+- Language: TypeScript
+- Styling: Tailwind CSS 4
+- UI: Radix UI + shadcn/ui
+- Testing: Vitest
+- Deployment: GitHub Pages
+```
+
+### 主要コマンド
+
+```markdown
+## Commands
+- `npm run dev` — 開発サーバー起動
+- `npm run build` — 本番ビルド
+- `npm test` — テスト実行
+- `npm run lint` — リンター実行
+```
+
+Claude Codeがテストやビルドを実行する際に、正しいコマンドを使えるようにする。
+
+### アーキテクチャの説明
+
+```markdown
+## Architecture
+- `app/` — Next.js App Router pages
+- `components/` — React components
+- `content/` — MDX content files
+- `lib/` — Utility functions & data layer
+```
+
+### コーディング規約
+
+```markdown
+## Coding Standards
+- Use immutable patterns (never mutate objects)
+- Files should be under 800 lines
+- Functions should be under 50 lines
+- Always handle errors with try-catch
+- Use Zod for input validation
+```
+
+### 重要な注意事項
+
+```markdown
+## Important Notes
+- Never commit .env files
+- Always run tests before committing
+- Use conventional commits format
+```
+
+---
+
+## 何を書くべきでないか
+
+### 秘密情報
+
+```markdown
+# NG: APIキーやパスワード
+API_KEY=sk-ant-api03-xxxxx
+DATABASE_URL=postgresql://user:password@host:5432/db
+```
+
+CLAUDE.mdはGitリポジトリにコミットされることが多い。秘密情報は絶対に書かない。
+
+### 過度に長い内容
+
+CLAUDE.mdは常にコンテキストに読み込まれるため、長すぎると貴重なコンテキストウィンドウを消費する。
+
+簡潔に、本質的な情報だけを記載する。詳細なドキュメントは別ファイルに置き、必要な時だけ参照させる方がよい。
+
+---
+
+## 実例: Hoshizu プロジェクトのCLAUDE.md
+
+実際のプロジェクトでのCLAUDE.mdの例を見てみよう。
+
+```markdown
+# CLAUDE.md
+
+## Project Overview
+Hoshizu — 医療従事者のためのAIナレッジポータル。
+プロンプトテンプレート、テクニック解説、ガイド、記事、
+コース学習をMDX形式で管理し、Next.jsの静的サイトとして配信。
+
+## Commands
+- `npm run dev` — 開発サーバー起動
+- `npm run build` — 本番ビルド（静的エクスポート）
+- `npm test` — テスト実行
+- `npm run lint` — リンター実行
+
+## Architecture
+- app/ — Next.js App Router pages
+- components/ — React components
+- content/ — MDX content files (articles, guides, prompts, tips, courses, book)
+- lib/ — Utility functions & data layer
+
+## Content Authoring
+MDXファイルのfrontmatter形式:
+- title, description, category, contentType, tags, publishedAt
+- プロンプトテンプレートで {{変数名}} を使うと Prompt Playground が自動表示
+
+## Important Notes
+- 静的エクスポート（output: 'export'）のため、サーバーサイド機能は使えない
+- MDXコンテンツの追加・編集が最も頻繁な作業
+- コンポーネントは shadcn/ui ベース
+```
+
+---
+
+## .claude/rules/ ディレクトリ
+
+CLAUDE.mdが大きくなりすぎる場合は、`.claude/rules/` ディレクトリにテーマ別のルールファイルを配置できる。
+
+```
+.claude/
+└── rules/
+    ├── coding-style.md
+    ├── git-workflow.md
+    ├── testing.md
+    ├── security.md
+    └── performance.md
+```
+
+これらのファイルもClaude Codeの起動時に自動的に読み込まれる。チームで共有するルールはプロジェクトの `.claude/rules/` に、個人的なルールは `~/.claude/rules/` に配置する。
+
+<Callout type="info" title="CLAUDE.md vs .claude/rules/">
+CLAUDE.mdはプロジェクトの概要と基本情報に使い、.claude/rules/ は詳細なルールの分割管理に使う。大規模なプロジェクトでは、ルールファイルを分けた方がメンテナンスしやすい。
+</Callout>
+
+---
+
+## CLAUDE.mdを育てる
+
+CLAUDE.mdは一度書いて終わりではない。プロジェクトの成長に合わせて更新していく。
+
+### イテレーションのコツ
+
+1. 最初は最小限: プロジェクト概要、主要コマンド、技術スタック。これだけで十分
+2. 問題が起きたら追記: Claude Codeが同じ間違いを繰り返す場合、その対策をCLAUDE.mdに追記する
+3. 定期的に見直す: 不要になった記述は削除し、最新の状態を反映する
+4. チームで共有: プルリクエストでCLAUDE.mdの変更もレビューする
+
+CLAUDE.mdは「生きたドキュメント」だ。 プロジェクトと共に進化させることで、Claude Codeとの協働がどんどんスムーズになる。
+
+<KeyTakeaway>
+- CLAUDE.mdはClaude Codeが起動時に自動読み込みするプロジェクト指示書
+- プロジェクトルート、サブディレクトリ、~/.claude/ に配置でき、深い階層が優先される
+- 書くべき内容: プロジェクト概要、技術スタック、主要コマンド、アーキテクチャ、コーディング規約
+- 書くべきでない内容: 秘密情報、過度に長い詳細説明
+- .claude/rules/ ディレクトリでテーマ別にルールを分割管理できる
+- プロジェクトの成長に合わせてCLAUDE.mdも継続的に更新する
+</KeyTakeaway>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-claude-code","lessonSlug":"02-02-claude-md"}],["$","$L1d",null,{"items":[{"id":"claudemdとは何か","text":"CLAUDE.mdとは何か","level":2},{"id":"配置場所と優先度","text":"配置場所と優先度","level":2},{"id":"配置の階層","text":"配置の階層","level":3},{"id":"優先度","text":"優先度","level":3},{"id":"何を書くべきか","text":"何を書くべきか","level":2},{"id":"プロジェクト概要","text":"プロジェクト概要","level":3},{"id":"技術スタック","text":"技術スタック","level":3},{"id":"主要コマンド","text":"主要コマンド","level":3},{"id":"アーキテクチャの説明","text":"アーキテクチャの説明","level":3},{"id":"コーディング規約","text":"コーディング規約","level":3},{"id":"重要な注意事項","text":"重要な注意事項","level":3},{"id":"何を書くべきでないか","text":"何を書くべきでないか","level":2},{"id":"秘密情報","text":"秘密情報","level":3},{"id":"過度に長い内容","text":"過度に長い内容","level":3},{"id":"実例-hoshizu-プロジェクトのclaudemd","text":"実例: Hoshizu プロジェクトのCLAUDE.md","level":2},{"id":"clauderules-ディレクトリ","text":".claude/rules/ ディレクトリ","level":2},{"id":"claudemdを育てる","text":"CLAUDE.mdを育てる","level":2},{"id":"イテレーションのコツ","text":"イテレーションのコツ","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"02-02-claude-md","title":"CLAUDE.md — プロジェクトの「取扱説明書」","description":"CLAUDE.mdはClaude Codeへのプロジェクト指示書。書き方、配置場所、効果的な内容、そしてチーム開発での活用法を扱う。","partId":"part02","partTitle":"コア概念","order":5,"partOrder":2,"estimatedMinutes":20,"estimatedReadTime":7,"free":true,"status":"published","tags":["CLAUDE.md","設定","プロジェクト","指示","コンテキスト"],"content":"$1f"},"totalChapters":26}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"claude-code","chapterSlug":"02-02-claude-md"}]
+23:["$","$L27",null,{"bookId":"claude-code","prev":{"slug":"02-01-tools","title":"ツールシステム — Claude Codeの「手足」を理解する","order":4},"next":{"slug":"02-03-settings","title":"設定ファイル — settings.jsonの全貌","order":6}}]
+25:[["$","p",null,{"children":"CLAUDE.mdは、Claude Codeに「このプロジェクトではこう振る舞ってほしい」と伝える取扱説明書だ。一度書けば、毎回の対話で繰り返し説明する必要がなくなる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"claudemdとは何か","children":"CLAUDE.mdとは何か"}],"\n",["$","p",null,{"children":"プロジェクトの根本的な情報を毎回Claude Codeに説明するのは非効率である。"}],"\n",["$","p",null,{"children":"「このプロジェクトはNext.jsで、TypeScriptを使っていて、テストはVitestで、デプロイはGitHub Pagesで...」"}],"\n",["$","p",null,{"children":"CLAUDE.mdは、こうしたプロジェクト固有の知識をファイルに書き出すことで、Claude Codeが自動的に読み込んでくれる仕組みだ。"}],"\n",["$","p",null,{"children":["プロジェクトルートに ",["$","code",null,{"children":"CLAUDE.md"}]," を配置するだけで、Claude Codeは起動時に自動的にこのファイルを読み取り、その内容を常にコンテキストとして保持する。"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"配置場所と優先度","children":"配置場所と優先度"}],"\n",["$","p",null,{"children":"CLAUDE.mdは複数の場所に配置でき、それぞれ異なるスコープを持つ。"}],"\n",["$","h3",null,{"id":"配置の階層","children":"配置の階層"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"場所"}],["$","th",null,{"children":"スコープ"}],["$","th",null,{"children":"用途"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"~/.claude/CLAUDE.md"}]}],["$","td",null,{"children":"グローバル（全プロジェクト共通）"}],["$","td",null,{"children":"個人の汎用ルール"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"プロジェクトルート/CLAUDE.md"}]}],["$","td",null,{"children":"プロジェクト全体"}],["$","td",null,{"children":"プロジェクト固有の情報"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"サブディレクトリ/CLAUDE.md"}]}],["$","td",null,{"children":"特定ディレクトリ"}],["$","td",null,{"children":"ディレクトリ固有のルール"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":".claude/rules/*.md"}]}],["$","td",null,{"children":"プロジェクト（ルール分割）"}],["$","td",null,{"children":"テーマ別のルールファイル"}]]}]]}]]}],"\n",["$","h3",null,{"id":"優先度","children":"優先度"}],"\n",["$","p",null,{"children":"より具体的な（深い階層の）CLAUDE.mdが優先される。ただし、すべてのCLAUDE.mdの内容が累積的に適用される。矛盾する指示がある場合は、より具体的な方が優先される。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"何を書くべきか","children":"何を書くべきか"}],"\n",["$","h3",null,{"id":"プロジェクト概要","children":"プロジェクト概要"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"## Project Overview\nThis is a medical AI knowledge portal built with Next.js 16, TypeScript,\nand Tailwind CSS 4. Content is managed as MDX files.\n"}]}],"\n",["$","p",null,{"children":"Claude Codeがプロジェクトの「全体像」を即座に把握できるようにする。"}],"\n",["$","h3",null,{"id":"技術スタック","children":"技術スタック"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"## Tech Stack\n- Framework: Next.js 16 (App Router, Static Export)\n- Language: TypeScript\n- Styling: Tailwind CSS 4\n- UI: Radix UI + shadcn/ui\n- Testing: Vitest\n- Deployment: GitHub Pages\n"}]}],"\n",["$","h3",null,{"id":"主要コマンド","children":"主要コマンド"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"## Commands\n- `npm run dev` — 開発サーバー起動\n- `npm run build` — 本番ビルド\n- `npm test` — テスト実行\n- `npm run lint` — リンター実行\n"}]}],"\n",["$","p",null,{"children":"Claude Codeがテストやビルドを実行する際に、正しいコマンドを使えるようにする。"}],"\n",["$","h3",null,{"id":"アーキテクチャの説明","children":"アーキテクチャの説明"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"## Architecture\n- `app/` — Next.js App Router pages\n- `components/` — React components\n- `content/` — MDX content files\n- `lib/` — Utility functions & data layer\n"}]}],"\n",["$","h3",null,{"id":"コーディング規約","children":"コーディング規約"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"## Coding Standards\n- Use immutable patterns (never mutate objects)\n- Files should be under 800 lines\n- Functions should be under 50 lines\n- Always handle errors with try-catch\n- Use Zod for input validation\n"}]}],"\n",["$","h3",null,{"id":"重要な注意事項","children":"重要な注意事項"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"## Important Notes\n- Never commit .env files\n- Always run tests before committing\n- Use conventional commits format\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"何を書くべきでないか","children":"何を書くべきでないか"}],"\n",["$","h3",null,{"id":"秘密情報","children":"秘密情報"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"# NG: APIキーやパスワード\nAPI_KEY=sk-ant-api03-xxxxx\nDATABASE_URL=postgresql://user:password@host:5432/db\n"}]}],"\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c"]
+3d:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+3e:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+28:["$","p",null,{"children":"CLAUDE.mdはGitリポジトリにコミットされることが多い。秘密情報は絶対に書かない。"}]
+29:["$","h3",null,{"id":"過度に長い内容","children":"過度に長い内容"}]
+2a:["$","p",null,{"children":"CLAUDE.mdは常にコンテキストに読み込まれるため、長すぎると貴重なコンテキストウィンドウを消費する。"}]
+2b:["$","p",null,{"children":"簡潔に、本質的な情報だけを記載する。詳細なドキュメントは別ファイルに置き、必要な時だけ参照させる方がよい。"}]
+2c:["$","hr",null,{}]
+2d:["$","h2",null,{"id":"実例-hoshizu-プロジェクトのclaudemd","children":"実例: Hoshizu プロジェクトのCLAUDE.md"}]
+2e:["$","p",null,{"children":"実際のプロジェクトでのCLAUDE.mdの例を見てみよう。"}]
+2f:["$","pre",null,{"children":["$","code",null,{"className":"language-markdown","children":"# CLAUDE.md\n\n## Project Overview\nHoshizu — 医療従事者のためのAIナレッジポータル。\nプロンプトテンプレート、テクニック解説、ガイド、記事、\nコース学習をMDX形式で管理し、Next.jsの静的サイトとして配信。\n\n## Commands\n- `npm run dev` — 開発サーバー起動\n- `npm run build` — 本番ビルド（静的エクスポート）\n- `npm test` — テスト実行\n- `npm run lint` — リンター実行\n\n## Architecture\n- app/ — Next.js App Router pages\n- components/ — React components\n- content/ — MDX content files (articles, guides, prompts, tips, courses, book)\n- lib/ — Utility functions & data layer\n\n## Content Authoring\nMDXファイルのfrontmatter形式:\n- title, description, category, contentType, tags, publishedAt\n- プロンプトテンプレートで {{変数名}} を使うと Prompt Playground が自動表示\n\n## Important Notes\n- 静的エクスポート（output: 'export'）のため、サーバーサイド機能は使えない\n- MDXコンテンツの追加・編集が最も頻繁な作業\n- コンポーネントは shadcn/ui ベース\n"}]}]
+30:["$","hr",null,{}]
+31:["$","h2",null,{"id":"clauderules-ディレクトリ","children":".claude/rules/ ディレクトリ"}]
+32:["$","p",null,{"children":["CLAUDE.mdが大きくなりすぎる場合は、",["$","code",null,{"children":".claude/rules/"}]," ディレクトリにテーマ別のルールファイルを配置できる。"]}]
+33:["$","pre",null,{"children":["$","code",null,{"children":".claude/\n└── rules/\n    ├── coding-style.md\n    ├── git-workflow.md\n    ├── testing.md\n    ├── security.md\n    └── performance.md\n"}]}]
+34:["$","p",null,{"children":["これらのファイルもClaude Codeの起動時に自動的に読み込まれる。チームで共有するルールはプロジェクトの ",["$","code",null,{"children":".claude/rules/"}]," に、個人的なルールは ",["$","code",null,{"children":"~/.claude/rules/"}]," に配置する。"]}]
+35:["$","$L3d",null,{"type":"info","title":"CLAUDE.md vs .claude/rules/","children":["$","p",null,{"children":"CLAUDE.mdはプロジェクトの概要と基本情報に使い、.claude/rules/ は詳細なルールの分割管理に使う。大規模なプロジェクトでは、ルールファイルを分けた方がメンテナンスしやすい。"}]}]
+36:["$","hr",null,{}]
+37:["$","h2",null,{"id":"claudemdを育てる","children":"CLAUDE.mdを育てる"}]
+38:["$","p",null,{"children":"CLAUDE.mdは一度書いて終わりではない。プロジェクトの成長に合わせて更新していく。"}]
+39:["$","h3",null,{"id":"イテレーションのコツ","children":"イテレーションのコツ"}]
+3a:["$","ol",null,{"children":["\n",["$","li",null,{"children":"最初は最小限: プロジェクト概要、主要コマンド、技術スタック。これだけで十分"}],"\n",["$","li",null,{"children":"問題が起きたら追記: Claude Codeが同じ間違いを繰り返す場合、その対策をCLAUDE.mdに追記する"}],"\n",["$","li",null,{"children":"定期的に見直す: 不要になった記述は削除し、最新の状態を反映する"}],"\n",["$","li",null,{"children":"チームで共有: プルリクエストでCLAUDE.mdの変更もレビューする"}],"\n"]}]
+3b:["$","p",null,{"children":"CLAUDE.mdは「生きたドキュメント」だ。 プロジェクトと共に進化させることで、Claude Codeとの協働がどんどんスムーズになる。"}]
+3c:["$","$L3e",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"CLAUDE.mdはClaude Codeが起動時に自動読み込みするプロジェクト指示書"}],"\n",["$","li",null,{"children":"プロジェクトルート、サブディレクトリ、~/.claude/ に配置でき、深い階層が優先される"}],"\n",["$","li",null,{"children":"書くべき内容: プロジェクト概要、技術スタック、主要コマンド、アーキテクチャ、コーディング規約"}],"\n",["$","li",null,{"children":"書くべきでない内容: 秘密情報、過度に長い詳細説明"}],"\n",["$","li",null,{"children":".claude/rules/ ディレクトリでテーマ別にルールを分割管理できる"}],"\n",["$","li",null,{"children":"プロジェクトの成長に合わせてCLAUDE.mdも継続的に更新する"}],"\n"]}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+3f:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"CLAUDE.md — プロジェクトの「取扱説明書」 | Hoshizu"}],["$","meta","1",{"name":"description","content":"CLAUDE.mdはClaude Codeへのプロジェクト指示書。書き方、配置場所、効果的な内容、そしてチーム開発での活用法を扱う。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/claude-code/02-02-claude-md"}],["$","meta","4",{"property":"og:title","content":"CLAUDE.md — プロジェクトの「取扱説明書」 - Claude Code完全ガイド — AIコーディングの新しい形"}],["$","meta","5",{"property":"og:description","content":"CLAUDE.mdはClaude Codeへのプロジェクト指示書。書き方、配置場所、効果的な内容、そしてチーム開発での活用法を扱う。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L3f","15",{}]]

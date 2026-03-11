@@ -1,0 +1,190 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+1d:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+1e:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+1f:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+20:"$Sreact.suspense"
+22:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T1431,
+本書を読んでいるこのサイト「Hoshizu」自体が、Claude Codeで構築された医療アプリケーションだ。その開発過程を公開する。
+
+---
+
+## Hoshizuとは
+
+Hoshizuは、医療AIに関するナレッジポータルである。
+
+- Books: 体系的な学習コンテンツ（本書を含む）
+- Learn: 記事形式のナレッジベース
+- Knowledge: 疾患・薬剤データベース
+- Tools: プロンプトテンプレート集
+- Glossary: 用語集
+
+すべてのコンテンツはMDX（Markdown + JSX）で管理され、Next.jsで静的サイトとして生成される。
+
+---
+
+## アーキテクチャ
+
+### 技術スタック
+
+| レイヤー | 技術 |
+|---------|------|
+| フレームワーク | Next.js 15 (App Router) |
+| 言語 | TypeScript |
+| スタイリング | Tailwind CSS |
+| コンテンツ | MDX |
+| UIライブラリ | shadcn/ui |
+| デプロイ | Vercel |
+| 検索 | クライアントサイドインデックス |
+
+### ディレクトリ構造
+
+```
+hoshizu/
+├── app/                 # ページルーティング
+│   ├── book/           # Book表示ページ
+│   ├── learn/          # 学習記事ページ
+│   ├── knowledge/      # ナレッジベース
+│   └── tools/          # ツール集
+├── content/            # MDXコンテンツ
+│   ├── book/          # Book: _index.mdx + 各章.mdx
+│   ├── learn/         # 学習記事
+│   └── knowledge/     # 疾患・薬剤データ
+├── components/         # UIコンポーネント
+├── lib/               # ユーティリティ・データ取得
+└── public/            # 静的アセット
+```
+
+---
+
+## MDXコンテンツ管理システム
+
+### Book/Chapter/Part構造
+
+Hoshizuの書籍機能は3層構造を取る。
+
+1. Book（`_index.mdx`）: 書籍全体のメタデータとPart/Chapter定義
+2. Part: 論理的なセクション分け（Part 1「基礎」、Part 2「応用」等）
+3. Chapter（`XX-YY-slug.mdx`）: 個別の章
+
+```yaml
+# _index.mdx のフロントマター
+parts:
+  - id: "part01"
+    title: "Claude Codeとは"
+    chapters:
+      - "01-01-what-is-claude-code"
+      - "01-02-installation"
+```
+
+各チャプターのMDXファイルには、`partId`、`order`、`estimatedMinutes` 等のメタデータが含まれる。
+
+### Claude Codeでの量産
+
+26章の書籍コンテンツを作成する際、Claude Codeの並列エージェント機能を活用した。
+
+1. `_index.mdx` で全体構成を定義
+2. 複数のエージェントを並列起動し、各Partを同時に執筆
+3. 各エージェントが独立して章を作成
+4. チームリードが全体の整合性を確認
+
+この本自体がまさにそのワークフローで作られている。
+
+---
+
+## 検索インデックス
+
+### ビルド時インデックス生成
+
+```
+> ビルドスクリプトで全MDXファイルからFlexSearchインデックスを生成して。
+> タイトル、説明、本文を対象に日本語対応で。
+```
+
+Claude Codeは `scripts/generate-search-index.ts` を作成し、ビルド時に全コンテンツをインデックス化するスクリプトを生成した。
+
+---
+
+## OG画像の自動生成
+
+### satori によるSVG → PNG変換
+
+各ページに動的なOG画像を生成する仕組みも、Claude Codeが構築した。
+
+```
+> satoriを使って、記事タイトルとカテゴリを含むOG画像を自動生成するAPIを作って。
+> フォントはNoto Sans JPで。
+```
+
+---
+
+## PWA対応
+
+```
+> next-pwaでPWA対応して。
+> マニフェスト、アイコン、Service Workerの設定を含めて。
+> オフラインでも閲覧できるようにキャッシュ戦略を設定。
+```
+
+### Service Worker キャッシュ戦略
+
+- 静的アセット: Cache First（フォント、画像）
+- HTMLページ: Stale While Revalidate（オフライン閲覧可能）
+- API: Network First
+
+---
+
+## Claude Codeで医療アプリを作る際の注意点
+
+### 1. 医療情報の正確性
+
+AIが生成したコンテンツは必ず医療専門家がレビューする。Claude Codeはコードを書くが、医療情報の正確性は人間が担保する。
+
+### 2. プライバシー
+
+患者データを扱う場合は特に注意。Claude Codeの対話ログにPHI（Protected Health Information）を含めない。
+
+### 3. アクセシビリティ
+
+医療情報は誰にでもアクセスできるべき。WCAG準拠を意識したコンポーネント設計を行う。
+
+```
+> このコンポーネントのアクセシビリティを改善して。
+> aria-label、キーボードナビゲーション、コントラスト比を確認して。
+```
+
+<KeyTakeaway>
+- Hoshizu自体がClaude Codeで構築された医療AIナレッジポータル
+- MDX + Next.jsで静的サイト生成し、Book/Part/Chapter の3層構造でコンテンツ管理
+- 並列エージェントで26章の書籍コンテンツを効率的に量産
+- 検索インデックス、OG画像、PWA対応もClaude Codeが構築
+- 医療アプリでは情報の正確性、プライバシー、アクセシビリティに特に注意
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"06-02-medical-app"}],["$","$L4",null,{"items":[{"id":"hoshizuとは","text":"Hoshizuとは","level":2},{"id":"アーキテクチャ","text":"アーキテクチャ","level":2},{"id":"技術スタック","text":"技術スタック","level":3},{"id":"ディレクトリ構造","text":"ディレクトリ構造","level":3},{"id":"mdxコンテンツ管理システム","text":"MDXコンテンツ管理システム","level":2},{"id":"bookchapterpart構造","text":"Book/Chapter/Part構造","level":3},{"id":"claude-codeでの量産","text":"Claude Codeでの量産","level":3},{"id":"検索インデックス","text":"検索インデックス","level":2},{"id":"ビルド時インデックス生成","text":"ビルド時インデックス生成","level":3},{"id":"og画像の自動生成","text":"OG画像の自動生成","level":2},{"id":"satori-によるsvg-png変換","text":"satori によるSVG → PNG変換","level":3},{"id":"pwa対応","text":"PWA対応","level":2},{"id":"service-worker-キャッシュ戦略","text":"Service Worker キャッシュ戦略","level":3},{"id":"claude-codeで医療アプリを作る際の注意点","text":"Claude Codeで医療アプリを作る際の注意点","level":2},{"id":"1-医療情報の正確性","text":"1. 医療情報の正確性","level":3},{"id":"2-プライバシー","text":"2. プライバシー","level":3},{"id":"3-アクセシビリティ","text":"3. アクセシビリティ","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"06-02-medical-app","title":"医療アプリを作る — Hoshizuの開発事例","description":"実際の医療AIナレッジポータル「Hoshizu」はClaude Codeでどう作られたか。MDXコンテンツ管理、検索、PWA対応の実装過程を見ていく。","partId":"part06","partTitle":"実践プロジェクト","order":21,"partOrder":6,"estimatedMinutes":25,"estimatedReadTime":5,"free":true,"status":"published","tags":["医療","Hoshizu","MDX","PWA","実例"],"content":"$6"},"totalChapters":26}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"hoshizuとは","text":"Hoshizuとは","level":2},{"id":"アーキテクチャ","text":"アーキテクチャ","level":2},{"id":"技術スタック","text":"技術スタック","level":3},{"id":"ディレクトリ構造","text":"ディレクトリ構造","level":3},{"id":"mdxコンテンツ管理システム","text":"MDXコンテンツ管理システム","level":2},{"id":"bookchapterpart構造","text":"Book/Chapter/Part構造","level":3},{"id":"claude-codeでの量産","text":"Claude Codeでの量産","level":3},{"id":"検索インデックス","text":"検索インデックス","level":2},{"id":"ビルド時インデックス生成","text":"ビルド時インデックス生成","level":3},{"id":"og画像の自動生成","text":"OG画像の自動生成","level":2},{"id":"satori-によるsvg-png変換","text":"satori によるSVG → PNG変換","level":3},{"id":"pwa対応","text":"PWA対応","level":2},{"id":"service-worker-キャッシュ戦略","text":"Service Worker キャッシュ戦略","level":3},{"id":"claude-codeで医療アプリを作る際の注意点","text":"Claude Codeで医療アプリを作る際の注意点","level":2},{"id":"1-医療情報の正確性","text":"1. 医療情報の正確性","level":3},{"id":"2-プライバシー","text":"2. プライバシー","level":3},{"id":"3-アクセシビリティ","text":"3. アクセシビリティ","level":3}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"本書を読んでいるこのサイト「Hoshizu」自体が、Claude Codeで構築された医療アプリケーションだ。その開発過程を公開する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"hoshizuとは","children":"Hoshizuとは"}],"\n",["$","p",null,{"children":"Hoshizuは、医療AIに関するナレッジポータルである。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"Books: 体系的な学習コンテンツ（本書を含む）"}],"\n",["$","li",null,{"children":"Learn: 記事形式のナレッジベース"}],"\n",["$","li",null,{"children":"Knowledge: 疾患・薬剤データベース"}],"\n",["$","li",null,{"children":"Tools: プロンプトテンプレート集"}],"\n",["$","li",null,{"children":"Glossary: 用語集"}],"\n"]}],"\n",["$","p",null,{"children":"すべてのコンテンツはMDX（Markdown + JSX）で管理され、Next.jsで静的サイトとして生成される。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"アーキテクチャ","children":"アーキテクチャ"}],"\n",["$","h3",null,{"id":"技術スタック","children":"技術スタック"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"レイヤー"}],["$","th",null,{"children":"技術"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"フレームワーク"}],["$","td",null,{"children":"Next.js 15 (App Router)"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"言語"}],["$","td",null,{"children":"TypeScript"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"スタイリング"}],["$","td",null,{"children":"Tailwind CSS"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"コンテンツ"}],["$","td",null,{"children":"MDX"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"UIライブラリ"}],["$","td",null,{"children":"shadcn/ui"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"デプロイ"}],["$","td",null,{"children":"Vercel"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"検索"}],["$","td",null,{"children":"クライアントサイドインデックス"}]]}]]}]]}],"\n",["$","h3",null,{"id":"ディレクトリ構造","children":"ディレクトリ構造"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"hoshizu/\n├── app/                 # ページルーティング\n│   ├── book/           # Book表示ページ\n│   ├── learn/          # 学習記事ページ\n│   ├── knowledge/      # ナレッジベース\n│   └── tools/          # ツール集\n├── content/            # MDXコンテンツ\n│   ├── book/          # Book: _index.mdx + 各章.mdx\n│   ├── learn/         # 学習記事\n│   └── knowledge/     # 疾患・薬剤データ\n├── components/         # UIコンポーネント\n├── lib/               # ユーティリティ・データ取得\n└── public/            # 静的アセット\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"mdxコンテンツ管理システム","children":"MDXコンテンツ管理システム"}],"\n",["$","h3",null,{"id":"bookchapterpart構造","children":"Book/Chapter/Part構造"}],"\n",["$","p",null,{"children":"Hoshizuの書籍機能は3層構造を取る。"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":["Book（",["$","code",null,{"children":"_index.mdx"}],"）: 書籍全体のメタデータとPart/Chapter定義"]}],"\n",["$","li",null,{"children":"Part: 論理的なセクション分け（Part 1「基礎」、Part 2「応用」等）"}],"\n",["$","li",null,{"children":["Chapter（",["$","code",null,{"children":"XX-YY-slug.mdx"}],"）: 個別の章"]}],"\n"]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-yaml","children":"# _index.mdx のフロントマター\nparts:\n  - id: \"part01\"\n    title: \"Claude Codeとは\"\n    chapters:\n      - \"01-01-what-is-claude-code\"\n      - \"01-02-installation\"\n"}]}],"\n",["$","p",null,{"children":["各チャプターのMDXファイルには、",["$","code",null,{"children":"partId"}],"、",["$","code",null,{"children":"order"}],"、",["$","code",null,{"children":"estimatedMinutes"}]," 等のメタデータが含まれる。"]}],"\n",["$","h3",null,{"id":"claude-codeでの量産","children":"Claude Codeでの量産"}],"\n",["$","p",null,{"children":"26章の書籍コンテンツを作成する際、Claude Codeの並列エージェント機能を活用した。"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"_index.mdx"}]," で全体構成を定義"]}],"\n",["$","li",null,{"children":"複数のエージェントを並列起動し、各Partを同時に執筆"}],"\n",["$","li",null,{"children":"各エージェントが独立して章を作成"}],"\n",["$","li",null,{"children":"チームリードが全体の整合性を確認"}],"\n"]}],"\n",["$","p",null,{"children":"この本自体がまさにそのワークフローで作られている。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"検索インデックス","children":"検索インデックス"}],"\n",["$","h3",null,{"id":"ビルド時インデックス生成","children":"ビルド時インデックス生成"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> ビルドスクリプトで全MDXファイルからFlexSearchインデックスを生成して。\n> タイトル、説明、本文を対象に日本語対応で。\n"}]}],"\n",["$","p",null,{"children":["Claude Codeは ",["$","code",null,{"children":"scripts/generate-search-index.ts"}]," を作成し、ビルド時に全コンテンツをインデックス化するスクリプトを生成した。"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"og画像の自動生成","children":"OG画像の自動生成"}],"\n",["$","h3",null,{"id":"satori-によるsvg-png変換","children":"satori によるSVG → PNG変換"}],"\n",["$","p",null,{"children":"各ページに動的なOG画像を生成する仕組みも、Claude Codeが構築した。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> satoriを使って、記事タイトルとカテゴリを含むOG画像を自動生成するAPIを作って。\n> フォントはNoto Sans JPで。\n"}]}],"\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c"]}]
+9:["$","$L1d",null,{"bookId":"claude-code","chapterSlug":"06-02-medical-app"}]
+a:["$","$L1e",null,{"bookId":"claude-code","prev":{"slug":"06-01-web-app","title":"Webアプリを作る — Next.js × Claude Code","order":20},"next":{"slug":"06-03-automation","title":"自動化パイプライン — CI/CDとの統合","order":22}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L1f",null,{"children":["$","$20",null,{"name":"Next.MetadataOutlet","children":"$@21"}]}]
+e:["$","hr",null,{}]
+f:["$","h2",null,{"id":"pwa対応","children":"PWA対応"}]
+10:["$","pre",null,{"children":["$","code",null,{"children":"> next-pwaでPWA対応して。\n> マニフェスト、アイコン、Service Workerの設定を含めて。\n> オフラインでも閲覧できるようにキャッシュ戦略を設定。\n"}]}]
+11:["$","h3",null,{"id":"service-worker-キャッシュ戦略","children":"Service Worker キャッシュ戦略"}]
+12:["$","ul",null,{"children":["\n",["$","li",null,{"children":"静的アセット: Cache First（フォント、画像）"}],"\n",["$","li",null,{"children":"HTMLページ: Stale While Revalidate（オフライン閲覧可能）"}],"\n",["$","li",null,{"children":"API: Network First"}],"\n"]}]
+13:["$","hr",null,{}]
+14:["$","h2",null,{"id":"claude-codeで医療アプリを作る際の注意点","children":"Claude Codeで医療アプリを作る際の注意点"}]
+15:["$","h3",null,{"id":"1-医療情報の正確性","children":"1. 医療情報の正確性"}]
+16:["$","p",null,{"children":"AIが生成したコンテンツは必ず医療専門家がレビューする。Claude Codeはコードを書くが、医療情報の正確性は人間が担保する。"}]
+17:["$","h3",null,{"id":"2-プライバシー","children":"2. プライバシー"}]
+18:["$","p",null,{"children":"患者データを扱う場合は特に注意。Claude Codeの対話ログにPHI（Protected Health Information）を含めない。"}]
+19:["$","h3",null,{"id":"3-アクセシビリティ","children":"3. アクセシビリティ"}]
+1a:["$","p",null,{"children":"医療情報は誰にでもアクセスできるべき。WCAG準拠を意識したコンポーネント設計を行う。"}]
+1b:["$","pre",null,{"children":["$","code",null,{"children":"> このコンポーネントのアクセシビリティを改善して。\n> aria-label、キーボードナビゲーション、コントラスト比を確認して。\n"}]}]
+1c:["$","$L22",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"Hoshizu自体がClaude Codeで構築された医療AIナレッジポータル"}],"\n",["$","li",null,{"children":"MDX + Next.jsで静的サイト生成し、Book/Part/Chapter の3層構造でコンテンツ管理"}],"\n",["$","li",null,{"children":"並列エージェントで26章の書籍コンテンツを効率的に量産"}],"\n",["$","li",null,{"children":"検索インデックス、OG画像、PWA対応もClaude Codeが構築"}],"\n",["$","li",null,{"children":"医療アプリでは情報の正確性、プライバシー、アクセシビリティに特に注意"}],"\n"]}]}]
+21:null

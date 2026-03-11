@@ -1,0 +1,867 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","knowledge","conference-prep-workflow"],"q":"","i":false,"f":[[["",{"children":["knowledge",{"children":[["slug","conference-prep-workflow","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/eb46a9559e436395.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadingProgress"]
+1c:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"TableOfContents"]
+1d:I[12900,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"BookmarkButton"]
+1e:I[71957,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleHeader"]
+1f:T59a7,
+# カンファレンス準備ワークフロー：朝カンファを15分で完璧に準備する
+
+## はじめに
+
+「明日の朝カンファ、担当症例のプレゼンよろしく」
+
+この一言に、何時間も費やしてしまった経験はありませんか。症例のまとめ方がわからない、鑑別が思い浮かばない、指導医に何を聞かれるか不安、文献を調べる時間がない。研修医にとって、カンファレンスの準備は大きな負担です。
+
+本ガイドでは、AIを活用して**朝カンファの5分プレゼンを15分で準備する**ワークフローを紹介します。ただし、これは「手を抜く」ためではありません。AIに作業の一部を任せることで、本来時間をかけるべき「臨床推論」と「自分の考えの整理」に集中するためです。
+
+---
+
+## このガイドで学べること
+
+- 症例プレゼンテーションの標準構造（CC-HPI-PMH-PE-Lab-Assessment-Plan）
+- AIを使った効率的な情報整理と構造化
+- 鑑別診断の網羅と絞り込みの方法
+- 文献的裏付けを5分で追加する方法
+- 指導医からの想定質問への備え方
+- カンファレンスの種類に応じた準備のカスタマイズ
+
+---
+
+## 対象読者
+
+- 初期研修医（カンファレンスのプレゼンに慣れていない方）
+- 後期研修医（プレゼンの質を上げたい方）
+- 症例プレゼンテーションを指導する立場の方
+
+---
+
+## 所要時間
+
+- ガイド通読: 約25分
+- 実際の準備: 15-20分/症例
+
+---
+
+# ステップ0: カンファレンスの種類を把握する（2分）
+
+カンファレンスの種類によって、求められる準備の深さと方向性が異なります。まず、自分が何に備えるべきかを明確にしましょう。
+
+## 朝カンファ（Morning Report / Short Presentation）
+
+- 所要時間: 3-5分
+- 目的: 当日の受け持ち患者の現状共有、方針確認
+- 求められること: 簡潔な症例要約、当日のプラン
+- 準備目安: 10-15分
+
+## 症例検討会（Case Conference）
+
+- 所要時間: 15-30分
+- 目的: 診断推論のプロセスを共有、教育的ディスカッション
+- 求められること: 詳細な臨床経過、鑑別診断の根拠、文献的裏付け
+- 準備目安: 30-60分
+
+## 退院カンファ / 多職種カンファ
+
+- 所要時間: 5-10分
+- 目的: 退院計画の共有、多職種間の情報連携
+- 求められること: 入院経過のサマリー、退院後のフォロープラン
+- 準備目安: 15-20分
+
+## CPC（Clinico-Pathological Conference）
+
+- 所要時間: 30-60分
+- 目的: 臨床経過と病理所見の対比による教育
+- 求められること: 詳細な臨床推論、病理との対比、文献レビュー
+- 準備目安: 数時間（本ガイドのスコープ外、別途準備が必要）
+
+---
+
+# ステップ1: カルテ情報の構造化（5分）
+
+## 症例プレゼンの標準構造
+
+症例プレゼンテーションには世界共通の構造があります。この型に沿って情報を整理することが、良いプレゼンの第一歩です。
+
+1. **CC（Chief Complaint / 主訴）**: 患者が最も困っている症状を一文で
+2. **HPI（History of Present Illness / 現病歴）**: 症状の発症から現在までの経過
+3. **PMH（Past Medical History / 既往歴）**: 過去の疾患、手術歴
+4. **Medications（内服薬）**: 現在の処方薬とOTC薬
+5. **Allergies（アレルギー）**: 薬物アレルギーと食物アレルギー
+6. **Social History（社会歴）**: 喫煙、飲酒、職業、家族構成
+7. **Family History（家族歴）**: 家族の疾患歴
+8. **ROS（Review of Systems / システムレビュー）**: 各臓器系統の症状確認
+9. **PE（Physical Examination / 身体所見）**: 陽性所見と重要な陰性所見
+10. **Lab / Imaging（検査所見）**: 血液検査、画像検査の結果
+11. **Assessment（評価）**: 臨床的評価と鑑別診断
+12. **Plan（治療計画）**: 診断計画と治療計画
+
+---
+
+## プロンプト1: カルテ情報の構造化
+
+カルテの情報は時系列で散在していることが多いです。AIに整理を依頼しましょう。
+
+```text
+あなたは研修医教育の指導医です。以下の症例情報を、カンファレンス用のプレゼンテーション形式に構造化してください。
+
+【症例情報（匿名化済み）】
+70代女性。3日前からの呼吸困難で来院。既往に高血圧、2型糖尿病、慢性腎臓病（G3b）あり。内服はアムロジピン5mg、メトホルミン500mg 2T2x、アスピリン100mg。来院時BP 160/95、HR 110、SpO2 88%（room air）、体温37.2度。両側下肺野にcoarse crackles聴取。下腿浮腫あり。心エコーでEF 35%、BNP 2500。胸部XPで両側胸水、肺うっ血像。
+
+【出力形式】
+以下のプレゼンテーション形式で整理してください。各セクションは箇条書きで簡潔に。
+
+1. CC（主訴）: 一文
+2. HPI（現病歴）: 発症から来院までの時系列
+3. PMH（既往歴）: リスト形式
+4. Medications（内服薬）: 薬剤名と用量
+5. PE（身体所見）: 陽性所見と重要な陰性所見
+6. Lab/Imaging（検査所見）: 異常値にマークをつけて
+7. Assessment（評価）: プロブレムリストと鑑別診断
+8. Plan（治療計画）: 問題ごとの計画
+
+※ 5分のプレゼンに適した分量に調整してください。冗長な部分は省略し、核心を残してください。
+```
+
+---
+
+## 構造化のコツ
+
+**主訴は一文で:**
+- 良い例: 「3日前からの呼吸困難」
+- 悪い例: 「3日前から徐々に呼吸が苦しくなってきて、昨日の夜から特にひどくなって、今朝起き上がれなくなった」（長すぎる。これはHPIの内容）
+
+**現病歴は時系列で:**
+- 発症日時 → 症状の性質 → 経過（増悪/改善） → 随伴症状 → 受診の契機
+
+**身体所見は陽性所見優先:**
+- 「両側下肺野にcoarse crackles」「下腿浮腫あり」（陽性所見）
+- 「頸静脈怒張なし」「心雑音なし」（重要な陰性所見 -- 鑑別に関わるもの）
+
+---
+
+# ステップ2: Assessment -- 鑑別診断の網羅と絞り込み（5分）
+
+## なぜAssessmentが最も重要か
+
+カンファレンスで指導医が最も注目するのは、あなたのAssessment（臨床的評価）です。「何を考え、なぜそう考えたか」が問われます。
+
+---
+
+## プロンプト2: 鑑別診断の網羅
+
+```text
+あなたは総合内科の指導医です。以下の症例について、考えるべき鑑別診断を網羅的にリストアップしてください。
+
+【症例の要点（匿名化済み）】
+- 70代女性
+- 3日前からの労作時呼吸困難、起座呼吸あり
+- 高血圧、2型糖尿病、CKD G3bの既往
+- BP 160/95、HR 110、SpO2 88%（room air）
+- 両側下肺野crackles、下腿浮腫
+- BNP 2500、EF 35%
+
+【出力形式】
+以下のカテゴリに分けてリストアップしてください:
+
+1. 最も可能性の高い診断（Most Likely）: 1-2つ。根拠となる所見を明記。
+2. 除外すべき重篤な疾患（Must Rule Out）: 見逃すと致命的な鑑別。それぞれ否定するために必要な検査を明記。
+3. その他考慮すべき鑑別: 可能性は低いが考えるべき疾患。
+4. 鑑別を絞り込むための追加検査・情報: 何があれば診断が確定するか。
+```
+
+---
+
+## プロンプト3: 自分のAssessmentの検証
+
+自分で考えたAssessmentをAIに検証させるのも効果的です。これにより、見落としを防ぎ、思考の穴を埋められます。
+
+```text
+あなたは研修医の臨床推論をレビューする指導医です。以下の症例に対する私のAssessmentを評価し、改善点を指摘してください。
+
+【症例の要点（匿名化済み）】
+70代女性。3日前からの呼吸困難。高血圧、DM、CKDの既往。BNP 2500、EF 35%。両側胸水、肺うっ血像。
+
+【私のAssessment】
+#1 急性心不全増悪（HFrEF）
+- 起座呼吸、BNP著明高値、EF低下、肺うっ血像から最も考えられる
+- 増悪因子として感染症、服薬コンプライアンス不良、腎機能悪化を検討
+#2 市中肺炎の合併
+- 微熱あり、cracklesあり。ただし心不全でも説明可能
+
+【評価してほしい点】
+1. 見落としている重要な鑑別はないか
+2. 根拠の記載は十分か
+3. 増悪因子の評価は適切か
+4. 指導医がさらに聞きたいと思うポイントはどこか
+```
+
+---
+
+## Assessmentの書き方のフレームワーク
+
+### Problem-Based Approach（問題志向型）
+
+複数の問題を持つ患者では、プロブレムリストを作成し、各問題について評価と計画を述べる方法が有効です。
+
+```
+#1 急性心不全増悪（HFrEF）
+  Assessment: 起座呼吸、BNP高値、EF低下から...
+  Plan: 利尿薬投与、酸素投与、心エコーフォロー...
+
+#2 CKD G3b → 腎機能悪化の評価
+  Assessment: 心不全による腎うっ血 vs 利尿薬による脱水...
+  Plan: Cr/BUNフォロー、IN/OUTバランス管理...
+```
+
+### System-Based Approach（臓器系統別）
+
+診断が不明確な場合は、臓器系統別に網羅的に検討する方法が有効です。
+
+```
+心血管系: ACS、急性心不全、肺塞栓...
+呼吸器系: 肺炎、COPD急性増悪、気胸...
+その他: 貧血、甲状腺機能異常...
+```
+
+---
+
+# ステップ3: 文献的裏付けの追加（5分）
+
+## 5分で文献的裏付けを追加するミニワークフロー
+
+カンファレンスでは「エビデンスは何か」と聞かれることがあります。全ての鑑別について文献を調べる時間はありませんが、主要な論点1-2つについて、関連するガイドラインや主要研究を把握しておくと説得力が増します。
+
+---
+
+## プロンプト4: PICOから文献検索のクイック版
+
+```text
+あなたはEBMの専門家です。以下の臨床疑問について、最も関連性の高いガイドラインまたは主要研究を1-2つ教えてください。5分で読める簡潔な回答をお願いします。
+
+【臨床疑問】
+HFrEF（EF 35%）の急性増悪で入院した高齢患者に対して、入院中の最適な利尿薬治療戦略は何か。フロセミドの持続静注 vs ボーラス投与、どちらが推奨されるか。
+
+【出力形式】
+1. 関連するガイドライン名と推奨事項（1-2文で）
+2. 主要な臨床研究名と結果の要約（1-2文で）
+3. 臨床現場での実践的なポイント（箇条書き3項目以内）
+```
+
+---
+
+## プロンプト5: カンファレンスで引用できる一文の生成
+
+```text
+以下の臨床トピックについて、カンファレンスで引用できる「一文エビデンス」を作成してください。
+
+【トピック】急性心不全に対するフロセミドの投与方法
+
+【出力形式】
+「（ガイドライン名/研究名, 発行年）によると、（推奨事項の要約）」という形式で、1-2文で。
+
+例: 「ESC 2023 Heart Failure Guidelinesによると、急性心不全の初期治療としてフロセミドの静脈内投与が推奨されており、経口維持量の1-2倍のIV投与が推奨されている」
+
+※ この情報は必ず原典で確認してから引用してください。AIが捏造する可能性があります。
+```
+
+**重要な注意:** AIが引用する論文やガイドラインは、実在しない場合があります（ハルシネーション）。必ずPubMedやガイドライン原文で裏取りしてください。時間がない場合は、「ガイドラインでは〇〇とされている」ではなく、「一般的には〇〇とされている」という表現にとどめましょう。
+
+---
+
+# ステップ4: 想定質問への備え（3分）
+
+## 指導医が聞きたいポイント
+
+指導医がカンファレンスで質問するのは、あなたを試すためではなく、教育的な議論を通じてチーム全体の学びを深めるためです。よくある質問パターンを知っておくと、準備がしやすくなります。
+
+### よくある質問パターン
+
+1. **鑑別の根拠**: 「なぜその診断が最も考えられると思う？」
+2. **除外の根拠**: 「ACSは否定できた？根拠は？」
+3. **次の検査**: 「追加で何を調べたい？」
+4. **治療の根拠**: 「なぜその治療を選んだ？」
+5. **予後**: 「この患者の退院後のフォロープランは？」
+6. **エビデンス**: 「その治療のエビデンスレベルは？」
+
+---
+
+## プロンプト6: 想定質問と模範回答の生成
+
+```text
+あなたは研修医教育に熱心な指導医です。以下の症例プレゼンテーションを聞いた後、研修医に投げかけるであろう質問を5つ生成し、それぞれの模範回答も作成してください。
+
+【症例サマリー（匿名化済み）】
+70代女性。急性心不全増悪（HFrEF、EF 35%）で入院。高血圧、DM、CKD G3bの既往。BNP 2500。現在フロセミド20mg IV + 酸素3L鼻カニュラで管理中。
+
+【出力形式】
+各質問について:
+Q: 質問文
+A: 模範回答（3-5文で簡潔に）
+ポイント: この質問で指導医が評価したいこと
+
+※ 質問の難易度は、研修医1-2年目を想定してください。
+```
+
+---
+
+## 質問対策のコツ
+
+**「わかりません」も正解の一つ:**
+わからないことを正直に「わかりません」と言えることは、臨床では非常に重要です。ただし、そこで終わらず「調べてきます」「〇〇先生に相談します」と次のアクションを示しましょう。
+
+**「考えてなかった」を減らすために:**
+想定質問リストを事前に確認し、少なくとも「考えたけど答えに自信がない」状態にしておく。「考えてもいなかった」よりもはるかに良い印象を与えます。
+
+**質問に答える時のフレームワーク:**
+1. 結論を先に述べる
+2. 根拠を2-3点述べる
+3. 不確実な点があれば正直に言う
+
+---
+
+# 実践例: 15分で朝カンファ準備を完了する
+
+## タイムライン
+
+### 0:00-5:00（5分） -- カルテ情報の構造化
+1. カルテから必要な情報を抽出する（2分）
+2. プロンプト1を使ってAIに構造化を依頼する（1分）
+3. AIの出力を確認し、間違いがないか検証する（2分）
+
+### 5:00-10:00（5分） -- Assessment & Plan
+1. 自分で鑑別診断を考える（2分）-- **ここは自分の頭で考える**
+2. プロンプト2でAIに漏れがないか確認する（1分）
+3. 自分のAssessmentとAIの出力を比較し、修正する（2分）
+
+### 10:00-15:00（5分） -- 文献裏付けと質問対策
+1. プロンプト4で主要な論点の文献的裏付けを取得する（2分）
+2. プロンプト6で想定質問を確認する（2分）
+3. 全体を最終確認する（1分）
+
+---
+
+## 準備完了時のチェックリスト
+
+- 症例の構造化が完了している（CC-HPI-PMH-PE-Lab-Assessment-Plan）
+- 主訴は一文で言える
+- 鑑別診断は3つ以上挙げられる
+- 各鑑別の根拠を説明できる
+- 治療計画の根拠を説明できる
+- 主要な論点の文献的裏付けがある
+- 想定質問に対する回答を準備している
+
+---
+
+# カンファレンスの種類別: 追加準備
+
+## 症例検討会（Case Conference）の追加準備
+
+朝カンファよりも深い議論が求められます。上記の15分ワークフローに加え、以下の追加準備を行いましょう。
+
+### プロンプト7: 臨床推論の深掘り
+
+```text
+あなたは総合内科の教育専門家です。以下の症例について、段階的な臨床推論のプロセスを教育的に解説してください。
+
+【症例要約（匿名化済み）】
+70代女性、急性心不全増悪。EF 35%、BNP 2500。高血圧、DM、CKD G3bの既往。
+
+【出力形式】
+1. 初期情報から生成される仮説（Semantic Qualifier分析）
+2. 追加情報による仮説の修正プロセス
+3. 最終的な診断へのたどり着き方
+4. 振り返り: 他にどんな可能性があったか
+5. この症例から学ぶべき臨床的教訓（Teaching Point）3つ
+
+※ 研修医が臨床推論を学ぶための教育的な内容にしてください。
+```
+
+---
+
+## 退院カンファの追加準備
+
+### プロンプト8: 退院サマリーの構造化
+
+```text
+あなたは病棟管理の専門家です。以下の入院経過から、多職種カンファレンス用の退院サマリーを作成してください。
+
+【入院経過の要点（匿名化済み）】
+70代女性。急性心不全増悪で入院（入院日はX日とする）。フロセミド静注で利尿。入院3日目に症状改善、酸素離脱。入院5日目にフロセミド内服に切り替え。入院7日目にBNP 500まで改善、退院予定。
+
+【出力形式】
+1. 入院経過サマリー（時系列、5行以内）
+2. 退院時処方（変更点を明記）
+3. 退院後のフォロー計画
+   - 外来予約（いつ、どの科）
+   - 自宅での注意事項（体重測定、塩分制限など）
+   - 増悪時の再受診基準
+4. 多職種への依頼事項
+   - 看護師: 退院指導の内容
+   - 薬剤師: 服薬指導の内容
+   - MSW: 介護サービスの調整（必要な場合）
+   - リハビリ: 退院後の運動指導
+```
+
+---
+
+# よくある失敗と対策
+
+## 失敗1: AIの出力をそのままプレゼンした
+
+**事例:** AIが生成した症例サマリーをほぼそのまま読み上げた。指導医から「あなた自身はどう考えているの？」と聞かれ、答えられなかった。
+
+**対策:**
+- AIの出力は「下書き」であり、そのまま使わない
+- 必ず自分の言葉で言い換え、自分の臨床推論を反映させる
+- Assessment部分は、まず自分で考えてからAIで検証する（順序が重要）
+
+---
+
+## 失敗2: 情報を詰め込みすぎた
+
+**事例:** 5分のプレゼンなのに、全ての検査値を網羅的に報告し、時間をオーバーした。
+
+**対策:**
+- 5分プレゼンでは「関連する異常値」のみ報告する
+- 全ての検査結果を言う必要はない。「その他の血算、生化学は概ね正常範囲内でした」で十分
+- プレゼンの目的は「情報の伝達」ではなく「臨床判断のための情報共有」
+
+---
+
+## 失敗3: 鑑別診断が1つしかなかった
+
+**事例:** 「心不全だと思います」とだけ述べた。指導医から「他に何を考えた？」と聞かれ、答えられなかった。
+
+**対策:**
+- Assessmentには最低3つの鑑別を挙げる
+- 「最も考えられる診断」「除外すべき疾患」「その他の可能性」の3カテゴリで整理する
+- たとえ「明らかに心不全」でも、増悪因子（ACS合併、肺炎合併、服薬中断など）を検討していることを示す
+
+---
+
+## 失敗4: 文献を引用したが裏取りしていなかった
+
+**事例:** AIが生成した「DOSE trial (2011)」を引用したが、指導医に詳細を聞かれて答えられなかった。
+
+**対策:**
+- AIが提示した文献名は、必ずPubMedで実在を確認する
+- 文献を引用するなら、少なくとも結論部分は自分で読んでおく
+- 時間がなければ、「ガイドラインでは〇〇が推奨されている」という一般的な表現にとどめる
+
+---
+
+## 失敗5: 匿名化を忘れた
+
+**事例:** カンファレンス準備中に、カルテ情報をそのままAIに入力してしまった。
+
+**対策:**
+- 年齢は「70代」、性別は「女性」のように記載する
+- 氏名、ID、生年月日は絶対に入力しない
+- 「匿名化済み」というラベルをプロンプトに含める習慣をつける
+
+---
+
+# 上級者向け: プレゼンスキルの向上
+
+## 「良い」プレゼンとは何か
+
+指導医が高く評価するプレゼンの特徴:
+
+1. **簡潔である**: 必要な情報が過不足なく含まれている
+2. **構造化されている**: 標準的な順序（CC-HPI-PMH-PE-Lab-Assessment-Plan）に従っている
+3. **臨床推論が見える**: なぜその診断を考えたか、思考プロセスが伝わる
+4. **優先順位がある**: 最も重要な問題から述べている
+5. **次のアクションが明確**: 「何をするか」が具体的
+
+## プレゼンの練習方法
+
+AIを相手にプレゼンの練習をすることもできます。
+
+```text
+あなたは研修医のプレゼンテーションを評価する指導医です。以下の症例プレゼンテーションを評価し、改善点をフィードバックしてください。
+
+【私のプレゼン原稿】
+（ここにプレゼン内容を記載）
+
+【評価基準】
+1. 構造: 標準的な順序に従っているか
+2. 簡潔さ: 不要な情報が含まれていないか
+3. 臨床推論: 診断根拠が明確か
+4. 治療計画: 具体的で実行可能か
+5. プレゼン技術: 時間配分、話の流れ
+
+各項目について5段階で評価し、具体的な改善提案をしてください。
+```
+
+---
+
+# まとめ
+
+カンファレンス準備は、研修医の日常業務の中で最も学びの多い作業の一つです。AIを活用することで、準備の効率を上げつつ、臨床推論の質を高めることができます。
+
+**15分ワークフローの核心:**
+
+1. **ステップ1（5分）: 構造化** -- カルテ情報をAIでCC-HPI-PMH-PE-Lab-Assessment-Planに整理する
+2. **ステップ2（5分）: 臨床推論** -- まず自分で考え、AIで鑑別の漏れを確認する
+3. **ステップ3（5分）: 裏付けと備え** -- 文献的裏付けと想定質問への回答を準備する
+
+**最も重要なこと:**
+
+- AIの出力をそのまま使わない。自分の頭で考えた上で、AIを検証ツールとして使う
+- Assessmentは自分で考えてからAIに検証させる（この順序が臨床力を育てる）
+- 匿名化を必ず行う
+- わからないことは「わかりません、調べます」と正直に言える勇気を持つ
+
+このワークフローを繰り返すことで、カンファレンス準備のスピードと質は着実に向上します。そして何より、「考える習慣」が身につきます。
+
+---
+
+更新日: 2026年2月
+対象読者: 研修医・若手医師
+所要時間: 25分（通読）/ 15-20分（実際の準備）
+12:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"カンファレンス準備ワークフロー\",\"description\":\"朝カンファの5分プレゼンを15分で準備する、AIを活用した実践的ワークフロー\",\"datePublished\":\"2026-02-24\",\"dateModified\":\"2026-02-24\",\"author\":{\"@type\":\"Person\",\"name\":\"Ken Okamoto\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Hoshizu\"}}"}}],["$","$L1b",null,{}],["$","$L1c",null,{"items":[{"id":"はじめに","text":"はじめに","level":2},{"id":"このガイドで学べること","text":"このガイドで学べること","level":2},{"id":"対象読者","text":"対象読者","level":2},{"id":"所要時間","text":"所要時間","level":2},{"id":"朝カンファmorning-report-short-presentation","text":"朝カンファ（Morning Report / Short Presentation）","level":2},{"id":"症例検討会case-conference","text":"症例検討会（Case Conference）","level":2},{"id":"退院カンファ-多職種カンファ","text":"退院カンファ / 多職種カンファ","level":2},{"id":"cpcclinico-pathological-conference","text":"CPC（Clinico-Pathological Conference）","level":2},{"id":"症例プレゼンの標準構造","text":"症例プレゼンの標準構造","level":2},{"id":"プロンプト1-カルテ情報の構造化","text":"プロンプト1: カルテ情報の構造化","level":2},{"id":"構造化のコツ","text":"構造化のコツ","level":2},{"id":"なぜassessmentが最も重要か","text":"なぜAssessmentが最も重要か","level":2},{"id":"プロンプト2-鑑別診断の網羅","text":"プロンプト2: 鑑別診断の網羅","level":2},{"id":"プロンプト3-自分のassessmentの検証","text":"プロンプト3: 自分のAssessmentの検証","level":2},{"id":"assessmentの書き方のフレームワーク","text":"Assessmentの書き方のフレームワーク","level":2},{"id":"problem-based-approach問題志向型","text":"Problem-Based Approach（問題志向型）","level":3},{"id":"system-based-approach臓器系統別","text":"System-Based Approach（臓器系統別）","level":3},{"id":"5分で文献的裏付けを追加するミニワークフロー","text":"5分で文献的裏付けを追加するミニワークフロー","level":2},{"id":"プロンプト4-picoから文献検索のクイック版","text":"プロンプト4: PICOから文献検索のクイック版","level":2},{"id":"プロンプト5-カンファレンスで引用できる一文の生成","text":"プロンプト5: カンファレンスで引用できる一文の生成","level":2},{"id":"指導医が聞きたいポイント","text":"指導医が聞きたいポイント","level":2},{"id":"よくある質問パターン","text":"よくある質問パターン","level":3},{"id":"プロンプト6-想定質問と模範回答の生成","text":"プロンプト6: 想定質問と模範回答の生成","level":2},{"id":"質問対策のコツ","text":"質問対策のコツ","level":2},{"id":"タイムライン","text":"タイムライン","level":2},{"id":"000-5005分-カルテ情報の構造化","text":"0:00-5:00（5分） -- カルテ情報の構造化","level":3},{"id":"500-10005分-assessment-plan","text":"5:00-10:00（5分） -- Assessment & Plan","level":3},{"id":"1000-15005分-文献裏付けと質問対策","text":"10:00-15:00（5分） -- 文献裏付けと質問対策","level":3},{"id":"準備完了時のチェックリスト","text":"準備完了時のチェックリスト","level":2},{"id":"症例検討会case-conferenceの追加準備","text":"症例検討会（Case Conference）の追加準備","level":2},{"id":"プロンプト7-臨床推論の深掘り","text":"プロンプト7: 臨床推論の深掘り","level":3},{"id":"退院カンファの追加準備","text":"退院カンファの追加準備","level":2},{"id":"プロンプト8-退院サマリーの構造化","text":"プロンプト8: 退院サマリーの構造化","level":3},{"id":"失敗1-aiの出力をそのままプレゼンした","text":"失敗1: AIの出力をそのままプレゼンした","level":2},{"id":"失敗2-情報を詰め込みすぎた","text":"失敗2: 情報を詰め込みすぎた","level":2},{"id":"失敗3-鑑別診断が1つしかなかった","text":"失敗3: 鑑別診断が1つしかなかった","level":2},{"id":"失敗4-文献を引用したが裏取りしていなかった","text":"失敗4: 文献を引用したが裏取りしていなかった","level":2},{"id":"失敗5-匿名化を忘れた","text":"失敗5: 匿名化を忘れた","level":2},{"id":"良いプレゼンとは何か","text":"「良い」プレゼンとは何か","level":2},{"id":"プレゼンの練習方法","text":"プレゼンの練習方法","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","div",null,{"className":"mb-4 flex justify-end","children":["$","$L1d",null,{"slug":"conference-prep-workflow","title":"カンファレンス準備ワークフロー","contentType":"guide","variant":"full"}]}],["$","$L1e",null,{"article":{"slug":"conference-prep-workflow","title":"カンファレンス準備ワークフロー","description":"朝カンファの5分プレゼンを15分で準備する、AIを活用した実践的ワークフロー","category":"clinical","contentType":"guide","newsType":"$undefined","difficulty":"beginner","tags":["カンファレンス","症例プレゼン","研修医"],"publishedAt":"2026-02-24","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":29,"content":"$1f","coverImage":null}}],"$L20","$L21","$L22","$L23","$L24"]}],"$L25"]
+26:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"MobileToc"]
+28:I[52429,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadTracker"]
+29:I[51830,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleFooter"]
+2d:I[56788,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"GiscusComments"]
+2e:I[20407,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"FloatingReadBar"]
+20:["$","$L26",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose ","children":"$L27"}]
+22:["$","$L28",null,{"slug":"conference-prep-workflow"}]
+2a:Tfb5,
+# 放射線画像診断AIの現在地と未来
+
+## 画像診断AIは「黎明期」を超えた
+
+2020年代前半、「AIが放射線科医を置き換える」という議論が盛んでした。2026年の現実は、それとは異なる形で進化しています。AIは放射線科医を置き換えるのではなく、「AIを使う放射線科医が、使わない放射線科医を置き換える」方向に収束しつつあります。
+
+FDA承認済みのAI医療機器は2026年3月時点で1,000件を超え、そのうち約75%が放射線科領域です。これは放射線画像という標準化されたデータ形式がAI開発に適していることを反映しています。
+
+## 臨床導入が進む3つの領域
+
+### 1. 緊急トリアージ（最も成熟）
+
+脳出血、肺塞栓、大動脈解離などの緊急所見を自動検出し、読影キューの優先順位を変更するシステムが最も実用化されています。
+
+**臨床的インパクト:**
+- 緊急所見の報告時間が平均60%短縮
+- 夜間・当直帯での見落とし率低下
+- ワークフロー効率の改善
+
+代表的な製品として、Aidocの頭部CT出血検出（感度95%以上）やViz.aiの大血管閉塞検出（脳卒中チーム起動を20分以上短縮）があります。
+
+### 2. 定量解析（急成長中）
+
+従来は「主観的」だった画像評価を定量化するAIが増えています。
+
+- **骨密度測定**: 日常的なCTから骨密度を推算し、骨粗鬆症スクリーニング
+- **冠動脈石灰化スコア**: 非造影CTからCACスコアを自動算出
+- **脳容積測定**: 認知症の経時的変化を定量追跡
+- **肺結節測定**: RECIST基準に基づく腫瘍径の自動測定と経時比較
+
+### 3. スクリーニング補助（発展途上）
+
+マンモグラフィのAI読影は欧州で大規模臨床試験が進行中です。スウェーデンのMASSIVE試験（8万人規模）では、AI支援読影が二重読影と同等以上の精度を示し、読影医の負担を半減させる可能性が示されました。
+
+## 導入時の落とし穴
+
+### バイアスの問題
+
+学習データの偏りは深刻です。米国の大規模データセットで学習したモデルが、アジア人患者で精度低下する事例が報告されています。自施設のデータでバリデーションを行うことが不可欠です。
+
+### アラート疲れ
+
+偽陽性が多すぎると、臨床医がアラートを無視するようになります。感度と特異度のバランス、アラートの提示方法の設計が重要です。
+
+### 統合コスト
+
+既存のPACS/RISとの統合には技術的・制度的な課題があります。DICOM標準への準拠は前提ですが、実際の導入には数か月のカスタマイズが必要なケースも多いです。
+
+## AIと放射線科医の協働モデル
+
+最も生産性が高いモデルは「AIファースト・リード」です。
+
+1. **AI前処理**: 画像のセグメンテーション、定量測定、異常候補の抽出
+2. **医師確認**: AIの所見を参照しながら最終読影
+3. **フィードバック**: 医師の修正がAIの学習データに還元
+
+このモデルでは、放射線科医の役割は「画像を見る人」から「AIの出力を検証し、臨床的文脈を加える人」に変化します。
+
+## 今後の展望
+
+- **マルチモーダルAI**: 画像＋電子カルテ＋検査データを統合した診断支援
+- **術前シミュレーション**: 3D再構成とAI解析の組み合わせによる手術計画
+- **リアルタイム超音波ガイド**: 超音波プローブを握る非専門医をAIがリアルタイム支援
+
+画像診断AIは「使うかどうか」ではなく「どう使うか」のフェーズに入っています。臨床医としては、AIの限界を理解したうえで、自施設のワークフローに最適な形で導入することが重要です。
+2b:Tae0,
+# 栄養アセスメント・プランニング
+
+## 概要
+
+入院患者の20〜50%が栄養障害を有するとされています。適切な栄養管理は合併症の予防、在院日数の短縮、予後の改善に直結します。このプロンプトは、栄養スクリーニングから栄養管理計画の作成までを体系的に支援します。
+
+## プロンプトテンプレート
+
+```text
+あなたはNST（栄養サポートチーム）の経験豊富な医師です。以下の患者情報に基づき、包括的な栄養アセスメントと栄養管理計画を作成してください。
+
+# 患者基本情報
+- 年齢: {{年齢}}歳、性別: {{性別}}
+- 身長: {{身長}}cm、現体重: {{体重}}kg
+- 通常時体重: {{通常体重}}kg（いつの時点: {{時期}}）
+- 主病名: {{診断名}}
+- 入院理由: {{入院理由}}
+
+# 栄養関連データ
+- 血液検査:
+  - Alb: {{Alb}}g/dL、Pre-Alb: {{Pre-Alb}}mg/dL
+  - CRP: {{CRP}}mg/dL
+  - Hb: {{Hb}}g/dL、リンパ球数: {{リンパ球}}
+  - BUN: {{BUN}}mg/dL、Cr: {{Cr}}mg/dL
+  - Na: {{Na}}mEq/L、K: {{K}}mEq/L
+  - 血糖: {{血糖}}mg/dL、HbA1c: {{HbA1c}}%
+- 身体所見: {{浮腫の有無、筋肉量、皮下脂肪}}
+- 消化管機能: {{経口摂取の可否、嚥下機能、腸蠕動}}
+- 現在の栄養摂取: {{食事量、輸液内容}}
+
+# 評価してほしいこと
+1. **栄養スクリーニング**: NRS-2002、MNA-SF、GLIM基準での評価
+2. **必要エネルギー量**: Harris-Benedictの式＋活動係数＋ストレス係数
+3. **必要蛋白量**: 疾患・状態に応じた蛋白必要量（g/kg/日）
+4. **栄養投与経路**: 経口/経腸/静脈の選択と根拠
+5. **具体的な栄養処方**: 製品名、投与量、投与速度、スケジュール
+6. **モニタリング計画**: 再評価の時期と項目
+7. **リフィーディング症候群のリスク**: 評価と予防策
+
+# 出力形式
+- 計算過程を示してください
+- 推奨する栄養製品は一般名と具体的な製品名の両方を記載
+- 注意：最終的な栄養管理計画は、NST回診で多職種で検討してください
+```
+
+## 使い方
+
+1. 血液検査データはできるだけ最新のものを入力
+2. 炎症がある場合、Albは栄養指標として信頼性が低下する（CRPと合わせて評価）
+3. 通常時体重からの変化率が重要な指標
+4. 消化管機能の情報は栄養経路選択の根拠になる
+
+## 活用のポイント
+
+- GLIM基準（2019年）は国際的な栄養障害診断基準として広く採用
+- リフィーディング症候群のリスク評価は、長期絶食・低栄養患者で特に重要
+- 経腸栄養は可能な限り静脈栄養よりも優先する（"If the gut works, use it"）
+2c:Tb41,
+# インフォームドコンセント文書生成
+
+## 概要
+
+インフォームドコンセントは患者の自己決定権を尊重する医療の基本です。しかし、医学的に正確でありながら患者に理解しやすい説明文書を作成するのは時間のかかる作業です。このプロンプトは、手術・検査・治療の説明文書の下書きを生成します。
+
+## 安全に関する重要な注意事項
+
+生成された文書は必ず担当医が内容を確認・修正してください。施設ごとの同意書フォーマットに合わせた調整が必要です。法的文書としての有効性は、AIの出力ではなく、医師と患者間の実際のコミュニケーションに基づきます。
+
+## プロンプトテンプレート
+
+```text
+あなたは患者コミュニケーションに長けた経験豊富な外科医です。以下の手術/検査/治療について、患者に分かりやすいインフォームドコンセント説明文書を作成してください。
+
+# 基本情報
+- 処置名: {{処置名}}（例: 腹腔鏡下胆嚢摘出術）
+- 対象患者: {{年齢}}歳、{{性別}}
+- 診断名: {{診断名}}
+- 緊急度: {{予定/準緊急/緊急}}
+
+# 説明文書に含めてほしい内容
+1. **病状の説明**: なぜこの処置が必要か（医学用語を使わず平易に）
+2. **処置の内容**: 具体的に何をするか（麻酔方法、所要時間含む）
+3. **期待される効果**: 処置によって何が改善するか
+4. **リスクと合併症**:
+   - 一般的なリスク（頻度：%で記載）
+   - 稀だが重大なリスク
+   - この患者に特有のリスク（既往歴に基づく）
+5. **代替治療法**: 処置を行わない場合の経過、他の治療選択肢
+6. **術後の経過**: 入院期間、日常生活への復帰時期、フォローアップ
+7. **費用**: 概算（保険適用/自費）
+
+# 文書のトーン
+- 中学生が理解できるレベルの日本語
+- 恐怖を煽りすぎず、かつリスクを過小評価しない
+- 「〜かもしれません」「〜の可能性があります」など適切な表現
+- 患者が質問しやすい雰囲気を作る文末
+
+# 注意事項
+- 生成された文書は担当医が必ず確認・修正してください
+- 施設の同意書フォーマットに合わせて調整してください
+```
+
+## 使い方
+
+1. 処置名は正式名称と一般的な呼び方の両方を入力
+2. 患者の既往歴がある場合は追加し、個別リスクの反映を促す
+3. 生成後は必ず専門医が内容を確認
+
+## 活用のポイント
+
+- 患者の健康リテラシーに合わせて表現レベルを調整可能
+- 外国人患者向けに英語版の生成も可能
+- 家族への説明用の簡易版と、同意書用の詳細版を別々に生成できる
+23:["$","$L29",null,{"article":"$12:3:props:children:1:props:article","relatedArticles":[{"slug":"ai-radiology-revolution","title":"放射線画像診断AIの現在地と未来","description":"胸部X線からCTまで、画像診断AIが臨床現場をどう変えているか。FDA承認済み製品の実力と、放射線科医との協働モデルを解説","category":"clinical","contentType":"article","newsType":"$undefined","difficulty":"intermediate","tags":["放射線科","画像診断","FDA承認","CT","胸部X線","AI読影"],"publishedAt":"2026-03-01","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":6,"content":"$2a","coverImage":null},{"slug":"nutrition-assessment-plan","title":"栄養アセスメント・プランニング","description":"入院患者の栄養状態を評価し、個別化された栄養管理計画を作成する臨床栄養プロンプト","category":"clinical","contentType":"prompt","newsType":"$undefined","difficulty":"intermediate","tags":["栄養管理","NST","経腸栄養","静脈栄養","スクリーニング","NRS-2002"],"publishedAt":"2026-02-28","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"medium","estimatedReadTime":4,"content":"$2b","coverImage":null},{"slug":"informed-consent-generator","title":"インフォームドコンセント文書生成","description":"手術・検査・治療の説明文書を患者に分かりやすい言葉で作成するプロンプト","category":"clinical","contentType":"prompt","newsType":"$undefined","difficulty":"intermediate","tags":["インフォームドコンセント","患者説明","手術説明","同意書","リスク説明"],"publishedAt":"2026-02-25","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"medium","estimatedReadTime":4,"content":"$2c","coverImage":null}],"relatedCourses":[{"courseId":"medical-ai-overview","title":"医療AIの全体像 - 応用領域と可能性","description":"医療分野におけるAIの活用領域、現状の課題、今後の展望を包括的に理解します","category":"clinical","level":"intermediate","lessonCount":7,"estimatedTotalMinutes":122,"order":4,"free":false,"learningOutcomes":["医療AIの主要応用分野を説明できる","画像診断AIの原理と限界を理解できる","臨床意思決定支援システムを評価できる","AI導入の課題と対策を提案できる"],"prerequisites":["ai-basics"],"targetAudience":["臨床でAI活用を検討している医師","医療AI製品の導入を担当する方","医療AIの全体像を把握したい方"],"skills":["医療AI応用","画像解析","臨床意思決定支援"],"coverImage":"$undefined"},{"courseId":"llm-in-medicine","title":"医療におけるLLM実践 - 大規模言語モデルの医療応用","description":"LLMの医療応用、臨床現場での活用法、診断支援、文書作成支援、研究支援における実践的な知識を学びます","category":"clinical-ai","level":"intermediate","lessonCount":10,"estimatedTotalMinutes":180,"order":11,"free":false,"learningOutcomes":["LLMの医療応用の現状と可能性を説明できる","臨床現場でLLMを安全に活用する方法を理解できる","LLMを使った診断支援・文書作成の実践方法を習得できる","LLM活用のリスクと限界を正しく認識できる"],"prerequisites":["ai-basics","generative-ai-basics"],"targetAudience":["LLMを臨床で活用したい医療従事者","医療AIの実践的な活用法を知りたい方","生成AIの基礎を学んだ方"],"skills":["LLM活用","医療文書作成","臨床意思決定支援"],"coverImage":"$undefined"},{"courseId":"diagnostic-support","title":"診断支援と臨床判断","description":"AIによる診断支援の実践、鑑別診断の効率化、臨床意思決定支援システムの活用法を学びます","category":"clinical-ai","level":"advanced","lessonCount":4,"estimatedTotalMinutes":72,"order":12,"free":false,"learningOutcomes":["AIを活用した鑑別診断の方法を実践できる","臨床意思決定支援システムの仕組みを理解できる","AI診断支援の限界とリスクを正しく認識できる","エビデンスに基づくAI活用の判断ができる"],"prerequisites":["medical-ai-overview","llm-in-medicine"],"targetAudience":["臨床でAI診断支援を活用したい医師","医療AIの実践的な活用法を知りたい方"],"skills":["AI診断支援","臨床意思決定","鑑別診断"],"coverImage":"$undefined"},{"courseId":"patient-communication-ai","title":"患者コミュニケーション支援 - AI活用","description":"AIを活用した患者説明資料の作成、多言語対応、ヘルスリテラシーに配慮した情報提供の方法を学びます","category":"clinical-ai","level":"intermediate","lessonCount":5,"estimatedTotalMinutes":85,"order":13,"free":false,"learningOutcomes":["AIを使って患者向けの分かりやすい説明資料を作成できる","ヘルスリテラシーに配慮した情報提供の原則を理解できる","多言語対応の患者コミュニケーションを実践できる","AIを活用した共感的コミュニケーションの方法を習得できる"],"prerequisites":["ai-basics","prompt-engineering-basics"],"targetAudience":["患者対応の効率化を目指す医療従事者","多言語対応が必要な医療機関のスタッフ","患者教育資料の作成に関わる方"],"skills":["患者コミュニケーション","ヘルスリテラシー","多言語対応"],"coverImage":"$undefined"},{"courseId":"medical-imaging-ai-basics","title":"医療画像AIの基礎 - X線・CT・MRI解析","description":"医療画像AIの基本技術、CNN・U-Netの仕組み、X線・CT・MRI画像解析の実践と臨床応用を学びます","category":"clinical-ai","level":"intermediate","lessonCount":7,"estimatedTotalMinutes":126,"order":14,"free":false,"learningOutcomes":["医療画像AIの基本的な仕組みを説明できる","CNN・U-Netなどの主要アーキテクチャを理解できる","X線・CT・MRI画像解析AIの臨床応用を把握できる","医療画像AIの評価方法と限界を理解できる"],"prerequisites":["ai-basics","machine-learning-fundamentals"],"targetAudience":["画像診断に関わる放射線科医・各科医師","医療画像AIの導入を検討している方","AIの画像認識技術に興味がある方"],"skills":["医療画像AI","CNN基礎","画像診断支援"],"coverImage":"$undefined"}]}]
+24:["$","$L2d",null,{}]
+25:["$","$L2e",null,{"article":"$12:3:props:children:1:props:article","nextArticle":"$23:props:relatedArticles:0"}]
+27:[["$","h1",null,{"children":"カンファレンス準備ワークフロー：朝カンファを15分で完璧に準備する"}],"\n",["$","h2",null,{"id":"はじめに","children":"はじめに"}],"\n",["$","p",null,{"children":"「明日の朝カンファ、担当症例のプレゼンよろしく」"}],"\n",["$","p",null,{"children":"この一言に、何時間も費やしてしまった経験はありませんか。症例のまとめ方がわからない、鑑別が思い浮かばない、指導医に何を聞かれるか不安、文献を調べる時間がない。研修医にとって、カンファレンスの準備は大きな負担です。"}],"\n",["$","p",null,{"children":["本ガイドでは、AIを活用して",["$","strong",null,{"children":"朝カンファの5分プレゼンを15分で準備する"}],"ワークフローを紹介します。ただし、これは「手を抜く」ためではありません。AIに作業の一部を任せることで、本来時間をかけるべき「臨床推論」と「自分の考えの整理」に集中するためです。"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"このガイドで学べること","children":"このガイドで学べること"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"症例プレゼンテーションの標準構造（CC-HPI-PMH-PE-Lab-Assessment-Plan）"}],"\n",["$","li",null,{"children":"AIを使った効率的な情報整理と構造化"}],"\n",["$","li",null,{"children":"鑑別診断の網羅と絞り込みの方法"}],"\n",["$","li",null,{"children":"文献的裏付けを5分で追加する方法"}],"\n",["$","li",null,{"children":"指導医からの想定質問への備え方"}],"\n",["$","li",null,{"children":"カンファレンスの種類に応じた準備のカスタマイズ"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"対象読者","children":"対象読者"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"初期研修医（カンファレンスのプレゼンに慣れていない方）"}],"\n",["$","li",null,{"children":"後期研修医（プレゼンの質を上げたい方）"}],"\n",["$","li",null,{"children":"症例プレゼンテーションを指導する立場の方"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"所要時間","children":"所要時間"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"ガイド通読: 約25分"}],"\n",["$","li",null,{"children":"実際の準備: 15-20分/症例"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"ステップ0: カンファレンスの種類を把握する（2分）"}],"\n",["$","p",null,{"children":"カンファレンスの種類によって、求められる準備の深さと方向性が異なります。まず、自分が何に備えるべきかを明確にしましょう。"}],"\n",["$","h2",null,{"id":"朝カンファmorning-report-short-presentation","children":"朝カンファ（Morning Report / Short Presentation）"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"所要時間: 3-5分"}],"\n",["$","li",null,{"children":"目的: 当日の受け持ち患者の現状共有、方針確認"}],"\n",["$","li",null,{"children":"求められること: 簡潔な症例要約、当日のプラン"}],"\n",["$","li",null,{"children":"準備目安: 10-15分"}],"\n"]}],"\n",["$","h2",null,{"id":"症例検討会case-conference","children":"症例検討会（Case Conference）"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"所要時間: 15-30分"}],"\n",["$","li",null,{"children":"目的: 診断推論のプロセスを共有、教育的ディスカッション"}],"\n",["$","li",null,{"children":"求められること: 詳細な臨床経過、鑑別診断の根拠、文献的裏付け"}],"\n",["$","li",null,{"children":"準備目安: 30-60分"}],"\n"]}],"\n",["$","h2",null,{"id":"退院カンファ-多職種カンファ","children":"退院カンファ / 多職種カンファ"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"所要時間: 5-10分"}],"\n",["$","li",null,{"children":"目的: 退院計画の共有、多職種間の情報連携"}],"\n",["$","li",null,{"children":"求められること: 入院経過のサマリー、退院後のフォロープラン"}],"\n",["$","li",null,{"children":"準備目安: 15-20分"}],"\n"]}],"\n",["$","h2",null,{"id":"cpcclinico-pathological-conference","children":"CPC（Clinico-Pathological Conference）"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"所要時間: 30-60分"}],"\n",["$","li",null,{"children":"目的: 臨床経過と病理所見の対比による教育"}],"\n",["$","li",null,{"children":"求められること: 詳細な臨床推論、病理との対比、文献レビュー"}],"\n",["$","li",null,{"children":"準備目安: 数時間（本ガイドのスコープ外、別途準備が必要）"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h1",null,{"children":"ステップ1: カルテ情報の構造化（5分）"}],"\n",["$","h2",null,{"id":"症例プレゼンの標準構造","children":"症例プレゼンの標準構造"}],"\n",["$","p",null,{"children":"症例プレゼンテーションには世界共通の構造があります。この型に沿って情報を整理することが、良いプレゼンの第一歩です。"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"CC（Chief Complaint / 主訴）"}],": 患者が最も困っている症状を一文で"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"HPI（History of Present Illness / 現病歴）"}],": 症状の発症から現在までの経過"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"PMH（Past Medical History / 既往歴）"}],": 過去の疾患、手術歴"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Medications（内服薬）"}],": 現在の処方薬とOTC薬"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Allergies（アレルギー）"}],": 薬物アレルギーと食物アレルギー"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Social History（社会歴）"}],": 喫煙、飲酒、職業、家族構成"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Family History（家族歴）"}],": 家族の疾患歴"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"ROS（Review of Systems / システムレビュー）"}],": 各臓器系統の症状確認"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"PE（Physical Examination / 身体所見）"}],": 陽性所見と重要な陰性所見"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Lab / Imaging（検査所見）"}],": 血液検査、画像検査の結果"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Assessment（評価）"}],": 臨床的評価と鑑別診断"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Plan（治療計画）"}],": 診断計画と治療計画"]}],"\n"]}],"\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","\n","$L51","\n","$L52","\n","$L53","\n","$L54","\n","$L55","\n","$L56","\n","$L57","\n","$L58","\n","$L59","\n","$L5a","\n","$L5b","\n","$L5c","\n","$L5d","\n","$L5e","\n","$L5f","\n","$L60","\n","$L61","\n","$L62","\n","$L63","\n","$L64","\n","$L65","\n","$L66","\n","$L67","\n","$L68","\n","$L69","\n","$L6a","\n","$L6b","\n","$L6c","\n","$L6d","\n","$L6e","\n","$L6f","\n","$L70","\n","$L71","\n","$L72","\n","$L73","\n","$L74","\n","$L75","\n","$L76","\n","$L77","\n","$L78","\n","$L79","\n","$L7a","\n","$L7b","\n","$L7c","\n","$L7d","\n","$L7e","\n","$L7f","\n","$L80","\n","$L81","\n","$L82","\n","$L83","\n","$L84","\n","$L85","\n","$L86","\n","$L87","\n","$L88","\n","$L89","\n","$L8a","\n","$L8b","\n","$L8c","\n","$L8d","\n","$L8e","\n","$L8f","\n","$L90","\n","$L91","\n","$L92","\n","$L93","\n","$L94","\n","$L95","\n","$L96","\n","$L97","\n","$L98","\n","$L99","\n","$L9a","\n","$L9b","\n","$L9c","\n","$L9d","\n","$L9e","\n","$L9f","\n","$La0","\n","$La1","\n","$La2","\n","$La3","\n","$La4","\n","$La5","\n","$La6","\n","$La7","\n","$La8","\n","$La9"]
+2f:["$","hr",null,{}]
+30:["$","h2",null,{"id":"プロンプト1-カルテ情報の構造化","children":"プロンプト1: カルテ情報の構造化"}]
+31:["$","p",null,{"children":"カルテの情報は時系列で散在していることが多いです。AIに整理を依頼しましょう。"}]
+32:["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"あなたは研修医教育の指導医です。以下の症例情報を、カンファレンス用のプレゼンテーション形式に構造化してください。\n\n【症例情報（匿名化済み）】\n70代女性。3日前からの呼吸困難で来院。既往に高血圧、2型糖尿病、慢性腎臓病（G3b）あり。内服はアムロジピン5mg、メトホルミン500mg 2T2x、アスピリン100mg。来院時BP 160/95、HR 110、SpO2 88%（room air）、体温37.2度。両側下肺野にcoarse crackles聴取。下腿浮腫あり。心エコーでEF 35%、BNP 2500。胸部XPで両側胸水、肺うっ血像。\n\n【出力形式】\n以下のプレゼンテーション形式で整理してください。各セクションは箇条書きで簡潔に。\n\n1. CC（主訴）: 一文\n2. HPI（現病歴）: 発症から来院までの時系列\n3. PMH（既往歴）: リスト形式\n4. Medications（内服薬）: 薬剤名と用量\n5. PE（身体所見）: 陽性所見と重要な陰性所見\n6. Lab/Imaging（検査所見）: 異常値にマークをつけて\n7. Assessment（評価）: プロブレムリストと鑑別診断\n8. Plan（治療計画）: 問題ごとの計画\n\n※ 5分のプレゼンに適した分量に調整してください。冗長な部分は省略し、核心を残してください。\n"}]}]
+33:["$","hr",null,{}]
+34:["$","h2",null,{"id":"構造化のコツ","children":"構造化のコツ"}]
+35:["$","p",null,{"children":["$","strong",null,{"children":"主訴は一文で:"}]}]
+36:["$","ul",null,{"children":["\n",["$","li",null,{"children":"良い例: 「3日前からの呼吸困難」"}],"\n",["$","li",null,{"children":"悪い例: 「3日前から徐々に呼吸が苦しくなってきて、昨日の夜から特にひどくなって、今朝起き上がれなくなった」（長すぎる。これはHPIの内容）"}],"\n"]}]
+37:["$","p",null,{"children":["$","strong",null,{"children":"現病歴は時系列で:"}]}]
+38:["$","ul",null,{"children":["\n",["$","li",null,{"children":"発症日時 → 症状の性質 → 経過（増悪/改善） → 随伴症状 → 受診の契機"}],"\n"]}]
+39:["$","p",null,{"children":["$","strong",null,{"children":"身体所見は陽性所見優先:"}]}]
+3a:["$","ul",null,{"children":["\n",["$","li",null,{"children":"「両側下肺野にcoarse crackles」「下腿浮腫あり」（陽性所見）"}],"\n",["$","li",null,{"children":"「頸静脈怒張なし」「心雑音なし」（重要な陰性所見 -- 鑑別に関わるもの）"}],"\n"]}]
+3b:["$","hr",null,{}]
+3c:["$","h1",null,{"children":"ステップ2: Assessment -- 鑑別診断の網羅と絞り込み（5分）"}]
+3d:["$","h2",null,{"id":"なぜassessmentが最も重要か","children":"なぜAssessmentが最も重要か"}]
+3e:["$","p",null,{"children":"カンファレンスで指導医が最も注目するのは、あなたのAssessment（臨床的評価）です。「何を考え、なぜそう考えたか」が問われます。"}]
+3f:["$","hr",null,{}]
+40:["$","h2",null,{"id":"プロンプト2-鑑別診断の網羅","children":"プロンプト2: 鑑別診断の網羅"}]
+41:["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"あなたは総合内科の指導医です。以下の症例について、考えるべき鑑別診断を網羅的にリストアップしてください。\n\n【症例の要点（匿名化済み）】\n- 70代女性\n- 3日前からの労作時呼吸困難、起座呼吸あり\n- 高血圧、2型糖尿病、CKD G3bの既往\n- BP 160/95、HR 110、SpO2 88%（room air）\n- 両側下肺野crackles、下腿浮腫\n- BNP 2500、EF 35%\n\n【出力形式】\n以下のカテゴリに分けてリストアップしてください:\n\n1. 最も可能性の高い診断（Most Likely）: 1-2つ。根拠となる所見を明記。\n2. 除外すべき重篤な疾患（Must Rule Out）: 見逃すと致命的な鑑別。それぞれ否定するために必要な検査を明記。\n3. その他考慮すべき鑑別: 可能性は低いが考えるべき疾患。\n4. 鑑別を絞り込むための追加検査・情報: 何があれば診断が確定するか。\n"}]}]
+42:["$","hr",null,{}]
+43:["$","h2",null,{"id":"プロンプト3-自分のassessmentの検証","children":"プロンプト3: 自分のAssessmentの検証"}]
+44:["$","p",null,{"children":"自分で考えたAssessmentをAIに検証させるのも効果的です。これにより、見落としを防ぎ、思考の穴を埋められます。"}]
+45:["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"あなたは研修医の臨床推論をレビューする指導医です。以下の症例に対する私のAssessmentを評価し、改善点を指摘してください。\n\n【症例の要点（匿名化済み）】\n70代女性。3日前からの呼吸困難。高血圧、DM、CKDの既往。BNP 2500、EF 35%。両側胸水、肺うっ血像。\n\n【私のAssessment】\n#1 急性心不全増悪（HFrEF）\n- 起座呼吸、BNP著明高値、EF低下、肺うっ血像から最も考えられる\n- 増悪因子として感染症、服薬コンプライアンス不良、腎機能悪化を検討\n#2 市中肺炎の合併\n- 微熱あり、cracklesあり。ただし心不全でも説明可能\n\n【評価してほしい点】\n1. 見落としている重要な鑑別はないか\n2. 根拠の記載は十分か\n3. 増悪因子の評価は適切か\n4. 指導医がさらに聞きたいと思うポイントはどこか\n"}]}]
+46:["$","hr",null,{}]
+47:["$","h2",null,{"id":"assessmentの書き方のフレームワーク","children":"Assessmentの書き方のフレームワーク"}]
+48:["$","h3",null,{"id":"problem-based-approach問題志向型","children":"Problem-Based Approach（問題志向型）"}]
+49:["$","p",null,{"children":"複数の問題を持つ患者では、プロブレムリストを作成し、各問題について評価と計画を述べる方法が有効です。"}]
+4a:["$","pre",null,{"children":["$","code",null,{"children":"#1 急性心不全増悪（HFrEF）\n  Assessment: 起座呼吸、BNP高値、EF低下から...\n  Plan: 利尿薬投与、酸素投与、心エコーフォロー...\n\n#2 CKD G3b → 腎機能悪化の評価\n  Assessment: 心不全による腎うっ血 vs 利尿薬による脱水...\n  Plan: Cr/BUNフォロー、IN/OUTバランス管理...\n"}]}]
+4b:["$","h3",null,{"id":"system-based-approach臓器系統別","children":"System-Based Approach（臓器系統別）"}]
+4c:["$","p",null,{"children":"診断が不明確な場合は、臓器系統別に網羅的に検討する方法が有効です。"}]
+4d:["$","pre",null,{"children":["$","code",null,{"children":"心血管系: ACS、急性心不全、肺塞栓...\n呼吸器系: 肺炎、COPD急性増悪、気胸...\nその他: 貧血、甲状腺機能異常...\n"}]}]
+4e:["$","hr",null,{}]
+4f:["$","h1",null,{"children":"ステップ3: 文献的裏付けの追加（5分）"}]
+50:["$","h2",null,{"id":"5分で文献的裏付けを追加するミニワークフロー","children":"5分で文献的裏付けを追加するミニワークフロー"}]
+51:["$","p",null,{"children":"カンファレンスでは「エビデンスは何か」と聞かれることがあります。全ての鑑別について文献を調べる時間はありませんが、主要な論点1-2つについて、関連するガイドラインや主要研究を把握しておくと説得力が増します。"}]
+52:["$","hr",null,{}]
+53:["$","h2",null,{"id":"プロンプト4-picoから文献検索のクイック版","children":"プロンプト4: PICOから文献検索のクイック版"}]
+54:["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"あなたはEBMの専門家です。以下の臨床疑問について、最も関連性の高いガイドラインまたは主要研究を1-2つ教えてください。5分で読める簡潔な回答をお願いします。\n\n【臨床疑問】\nHFrEF（EF 35%）の急性増悪で入院した高齢患者に対して、入院中の最適な利尿薬治療戦略は何か。フロセミドの持続静注 vs ボーラス投与、どちらが推奨されるか。\n\n【出力形式】\n1. 関連するガイドライン名と推奨事項（1-2文で）\n2. 主要な臨床研究名と結果の要約（1-2文で）\n3. 臨床現場での実践的なポイント（箇条書き3項目以内）\n"}]}]
+55:["$","hr",null,{}]
+56:["$","h2",null,{"id":"プロンプト5-カンファレンスで引用できる一文の生成","children":"プロンプト5: カンファレンスで引用できる一文の生成"}]
+57:["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"以下の臨床トピックについて、カンファレンスで引用できる「一文エビデンス」を作成してください。\n\n【トピック】急性心不全に対するフロセミドの投与方法\n\n【出力形式】\n「（ガイドライン名/研究名, 発行年）によると、（推奨事項の要約）」という形式で、1-2文で。\n\n例: 「ESC 2023 Heart Failure Guidelinesによると、急性心不全の初期治療としてフロセミドの静脈内投与が推奨されており、経口維持量の1-2倍のIV投与が推奨されている」\n\n※ この情報は必ず原典で確認してから引用してください。AIが捏造する可能性があります。\n"}]}]
+58:["$","p",null,{"children":[["$","strong",null,{"children":"重要な注意:"}]," AIが引用する論文やガイドラインは、実在しない場合があります（ハルシネーション）。必ずPubMedやガイドライン原文で裏取りしてください。時間がない場合は、「ガイドラインでは〇〇とされている」ではなく、「一般的には〇〇とされている」という表現にとどめましょう。"]}]
+59:["$","hr",null,{}]
+5a:["$","h1",null,{"children":"ステップ4: 想定質問への備え（3分）"}]
+5b:["$","h2",null,{"id":"指導医が聞きたいポイント","children":"指導医が聞きたいポイント"}]
+5c:["$","p",null,{"children":"指導医がカンファレンスで質問するのは、あなたを試すためではなく、教育的な議論を通じてチーム全体の学びを深めるためです。よくある質問パターンを知っておくと、準備がしやすくなります。"}]
+5d:["$","h3",null,{"id":"よくある質問パターン","children":"よくある質問パターン"}]
+5e:["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"鑑別の根拠"}],": 「なぜその診断が最も考えられると思う？」"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"除外の根拠"}],": 「ACSは否定できた？根拠は？」"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"次の検査"}],": 「追加で何を調べたい？」"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"治療の根拠"}],": 「なぜその治療を選んだ？」"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"予後"}],": 「この患者の退院後のフォロープランは？」"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"エビデンス"}],": 「その治療のエビデンスレベルは？」"]}],"\n"]}]
+5f:["$","hr",null,{}]
+60:["$","h2",null,{"id":"プロンプト6-想定質問と模範回答の生成","children":"プロンプト6: 想定質問と模範回答の生成"}]
+61:["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"あなたは研修医教育に熱心な指導医です。以下の症例プレゼンテーションを聞いた後、研修医に投げかけるであろう質問を5つ生成し、それぞれの模範回答も作成してください。\n\n【症例サマリー（匿名化済み）】\n70代女性。急性心不全増悪（HFrEF、EF 35%）で入院。高血圧、DM、CKD G3bの既往。BNP 2500。現在フロセミド20mg IV + 酸素3L鼻カニュラで管理中。\n\n【出力形式】\n各質問について:\nQ: 質問文\nA: 模範回答（3-5文で簡潔に）\nポイント: この質問で指導医が評価したいこと\n\n※ 質問の難易度は、研修医1-2年目を想定してください。\n"}]}]
+62:["$","hr",null,{}]
+63:["$","h2",null,{"id":"質問対策のコツ","children":"質問対策のコツ"}]
+64:["$","p",null,{"children":[["$","strong",null,{"children":"「わかりません」も正解の一つ:"}],"\nわからないことを正直に「わかりません」と言えることは、臨床では非常に重要です。ただし、そこで終わらず「調べてきます」「〇〇先生に相談します」と次のアクションを示しましょう。"]}]
+65:["$","p",null,{"children":[["$","strong",null,{"children":"「考えてなかった」を減らすために:"}],"\n想定質問リストを事前に確認し、少なくとも「考えたけど答えに自信がない」状態にしておく。「考えてもいなかった」よりもはるかに良い印象を与えます。"]}]
+66:["$","p",null,{"children":["$","strong",null,{"children":"質問に答える時のフレームワーク:"}]}]
+67:["$","ol",null,{"children":["\n",["$","li",null,{"children":"結論を先に述べる"}],"\n",["$","li",null,{"children":"根拠を2-3点述べる"}],"\n",["$","li",null,{"children":"不確実な点があれば正直に言う"}],"\n"]}]
+68:["$","hr",null,{}]
+69:["$","h1",null,{"children":"実践例: 15分で朝カンファ準備を完了する"}]
+6a:["$","h2",null,{"id":"タイムライン","children":"タイムライン"}]
+6b:["$","h3",null,{"id":"000-5005分-カルテ情報の構造化","children":"0:00-5:00（5分） -- カルテ情報の構造化"}]
+6c:["$","ol",null,{"children":["\n",["$","li",null,{"children":"カルテから必要な情報を抽出する（2分）"}],"\n",["$","li",null,{"children":"プロンプト1を使ってAIに構造化を依頼する（1分）"}],"\n",["$","li",null,{"children":"AIの出力を確認し、間違いがないか検証する（2分）"}],"\n"]}]
+6d:["$","h3",null,{"id":"500-10005分-assessment-plan","children":"5:00-10:00（5分） -- Assessment & Plan"}]
+6e:["$","ol",null,{"children":["\n",["$","li",null,{"children":["自分で鑑別診断を考える（2分）-- ",["$","strong",null,{"children":"ここは自分の頭で考える"}]]}],"\n",["$","li",null,{"children":"プロンプト2でAIに漏れがないか確認する（1分）"}],"\n",["$","li",null,{"children":"自分のAssessmentとAIの出力を比較し、修正する（2分）"}],"\n"]}]
+6f:["$","h3",null,{"id":"1000-15005分-文献裏付けと質問対策","children":"10:00-15:00（5分） -- 文献裏付けと質問対策"}]
+70:["$","ol",null,{"children":["\n",["$","li",null,{"children":"プロンプト4で主要な論点の文献的裏付けを取得する（2分）"}],"\n",["$","li",null,{"children":"プロンプト6で想定質問を確認する（2分）"}],"\n",["$","li",null,{"children":"全体を最終確認する（1分）"}],"\n"]}]
+71:["$","hr",null,{}]
+72:["$","h2",null,{"id":"準備完了時のチェックリスト","children":"準備完了時のチェックリスト"}]
+73:["$","ul",null,{"children":["\n",["$","li",null,{"children":"症例の構造化が完了している（CC-HPI-PMH-PE-Lab-Assessment-Plan）"}],"\n",["$","li",null,{"children":"主訴は一文で言える"}],"\n",["$","li",null,{"children":"鑑別診断は3つ以上挙げられる"}],"\n",["$","li",null,{"children":"各鑑別の根拠を説明できる"}],"\n",["$","li",null,{"children":"治療計画の根拠を説明できる"}],"\n",["$","li",null,{"children":"主要な論点の文献的裏付けがある"}],"\n",["$","li",null,{"children":"想定質問に対する回答を準備している"}],"\n"]}]
+74:["$","hr",null,{}]
+75:["$","h1",null,{"children":"カンファレンスの種類別: 追加準備"}]
+76:["$","h2",null,{"id":"症例検討会case-conferenceの追加準備","children":"症例検討会（Case Conference）の追加準備"}]
+77:["$","p",null,{"children":"朝カンファよりも深い議論が求められます。上記の15分ワークフローに加え、以下の追加準備を行いましょう。"}]
+78:["$","h3",null,{"id":"プロンプト7-臨床推論の深掘り","children":"プロンプト7: 臨床推論の深掘り"}]
+79:["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"あなたは総合内科の教育専門家です。以下の症例について、段階的な臨床推論のプロセスを教育的に解説してください。\n\n【症例要約（匿名化済み）】\n70代女性、急性心不全増悪。EF 35%、BNP 2500。高血圧、DM、CKD G3bの既往。\n\n【出力形式】\n1. 初期情報から生成される仮説（Semantic Qualifier分析）\n2. 追加情報による仮説の修正プロセス\n3. 最終的な診断へのたどり着き方\n4. 振り返り: 他にどんな可能性があったか\n5. この症例から学ぶべき臨床的教訓（Teaching Point）3つ\n\n※ 研修医が臨床推論を学ぶための教育的な内容にしてください。\n"}]}]
+7a:["$","hr",null,{}]
+7b:["$","h2",null,{"id":"退院カンファの追加準備","children":"退院カンファの追加準備"}]
+7c:["$","h3",null,{"id":"プロンプト8-退院サマリーの構造化","children":"プロンプト8: 退院サマリーの構造化"}]
+7d:["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"あなたは病棟管理の専門家です。以下の入院経過から、多職種カンファレンス用の退院サマリーを作成してください。\n\n【入院経過の要点（匿名化済み）】\n70代女性。急性心不全増悪で入院（入院日はX日とする）。フロセミド静注で利尿。入院3日目に症状改善、酸素離脱。入院5日目にフロセミド内服に切り替え。入院7日目にBNP 500まで改善、退院予定。\n\n【出力形式】\n1. 入院経過サマリー（時系列、5行以内）\n2. 退院時処方（変更点を明記）\n3. 退院後のフォロー計画\n   - 外来予約（いつ、どの科）\n   - 自宅での注意事項（体重測定、塩分制限など）\n   - 増悪時の再受診基準\n4. 多職種への依頼事項\n   - 看護師: 退院指導の内容\n   - 薬剤師: 服薬指導の内容\n   - MSW: 介護サービスの調整（必要な場合）\n   - リハビリ: 退院後の運動指導\n"}]}]
+7e:["$","hr",null,{}]
+7f:["$","h1",null,{"children":"よくある失敗と対策"}]
+80:["$","h2",null,{"id":"失敗1-aiの出力をそのままプレゼンした","children":"失敗1: AIの出力をそのままプレゼンした"}]
+81:["$","p",null,{"children":[["$","strong",null,{"children":"事例:"}]," AIが生成した症例サマリーをほぼそのまま読み上げた。指導医から「あなた自身はどう考えているの？」と聞かれ、答えられなかった。"]}]
+82:["$","p",null,{"children":["$","strong",null,{"children":"対策:"}]}]
+83:["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIの出力は「下書き」であり、そのまま使わない"}],"\n",["$","li",null,{"children":"必ず自分の言葉で言い換え、自分の臨床推論を反映させる"}],"\n",["$","li",null,{"children":"Assessment部分は、まず自分で考えてからAIで検証する（順序が重要）"}],"\n"]}]
+84:["$","hr",null,{}]
+85:["$","h2",null,{"id":"失敗2-情報を詰め込みすぎた","children":"失敗2: 情報を詰め込みすぎた"}]
+86:["$","p",null,{"children":[["$","strong",null,{"children":"事例:"}]," 5分のプレゼンなのに、全ての検査値を網羅的に報告し、時間をオーバーした。"]}]
+87:["$","p",null,{"children":["$","strong",null,{"children":"対策:"}]}]
+88:["$","ul",null,{"children":["\n",["$","li",null,{"children":"5分プレゼンでは「関連する異常値」のみ報告する"}],"\n",["$","li",null,{"children":"全ての検査結果を言う必要はない。「その他の血算、生化学は概ね正常範囲内でした」で十分"}],"\n",["$","li",null,{"children":"プレゼンの目的は「情報の伝達」ではなく「臨床判断のための情報共有」"}],"\n"]}]
+89:["$","hr",null,{}]
+8a:["$","h2",null,{"id":"失敗3-鑑別診断が1つしかなかった","children":"失敗3: 鑑別診断が1つしかなかった"}]
+8b:["$","p",null,{"children":[["$","strong",null,{"children":"事例:"}]," 「心不全だと思います」とだけ述べた。指導医から「他に何を考えた？」と聞かれ、答えられなかった。"]}]
+8c:["$","p",null,{"children":["$","strong",null,{"children":"対策:"}]}]
+8d:["$","ul",null,{"children":["\n",["$","li",null,{"children":"Assessmentには最低3つの鑑別を挙げる"}],"\n",["$","li",null,{"children":"「最も考えられる診断」「除外すべき疾患」「その他の可能性」の3カテゴリで整理する"}],"\n",["$","li",null,{"children":"たとえ「明らかに心不全」でも、増悪因子（ACS合併、肺炎合併、服薬中断など）を検討していることを示す"}],"\n"]}]
+8e:["$","hr",null,{}]
+8f:["$","h2",null,{"id":"失敗4-文献を引用したが裏取りしていなかった","children":"失敗4: 文献を引用したが裏取りしていなかった"}]
+90:["$","p",null,{"children":[["$","strong",null,{"children":"事例:"}]," AIが生成した「DOSE trial (2011)」を引用したが、指導医に詳細を聞かれて答えられなかった。"]}]
+91:["$","p",null,{"children":["$","strong",null,{"children":"対策:"}]}]
+92:["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIが提示した文献名は、必ずPubMedで実在を確認する"}],"\n",["$","li",null,{"children":"文献を引用するなら、少なくとも結論部分は自分で読んでおく"}],"\n",["$","li",null,{"children":"時間がなければ、「ガイドラインでは〇〇が推奨されている」という一般的な表現にとどめる"}],"\n"]}]
+93:["$","hr",null,{}]
+94:["$","h2",null,{"id":"失敗5-匿名化を忘れた","children":"失敗5: 匿名化を忘れた"}]
+95:["$","p",null,{"children":[["$","strong",null,{"children":"事例:"}]," カンファレンス準備中に、カルテ情報をそのままAIに入力してしまった。"]}]
+96:["$","p",null,{"children":["$","strong",null,{"children":"対策:"}]}]
+97:["$","ul",null,{"children":["\n",["$","li",null,{"children":"年齢は「70代」、性別は「女性」のように記載する"}],"\n",["$","li",null,{"children":"氏名、ID、生年月日は絶対に入力しない"}],"\n",["$","li",null,{"children":"「匿名化済み」というラベルをプロンプトに含める習慣をつける"}],"\n"]}]
+98:["$","hr",null,{}]
+99:["$","h1",null,{"children":"上級者向け: プレゼンスキルの向上"}]
+9a:["$","h2",null,{"id":"良いプレゼンとは何か","children":"「良い」プレゼンとは何か"}]
+9b:["$","p",null,{"children":"指導医が高く評価するプレゼンの特徴:"}]
+9c:["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"簡潔である"}],": 必要な情報が過不足なく含まれている"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"構造化されている"}],": 標準的な順序（CC-HPI-PMH-PE-Lab-Assessment-Plan）に従っている"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"臨床推論が見える"}],": なぜその診断を考えたか、思考プロセスが伝わる"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"優先順位がある"}],": 最も重要な問題から述べている"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"次のアクションが明確"}],": 「何をするか」が具体的"]}],"\n"]}]
+9d:["$","h2",null,{"id":"プレゼンの練習方法","children":"プレゼンの練習方法"}]
+9e:["$","p",null,{"children":"AIを相手にプレゼンの練習をすることもできます。"}]
+9f:["$","pre",null,{"children":["$","code",null,{"className":"language-text","children":"あなたは研修医のプレゼンテーションを評価する指導医です。以下の症例プレゼンテーションを評価し、改善点をフィードバックしてください。\n\n【私のプレゼン原稿】\n（ここにプレゼン内容を記載）\n\n【評価基準】\n1. 構造: 標準的な順序に従っているか\n2. 簡潔さ: 不要な情報が含まれていないか\n3. 臨床推論: 診断根拠が明確か\n4. 治療計画: 具体的で実行可能か\n5. プレゼン技術: 時間配分、話の流れ\n\n各項目について5段階で評価し、具体的な改善提案をしてください。\n"}]}]
+a0:["$","hr",null,{}]
+a1:["$","h1",null,{"children":"まとめ"}]
+a2:["$","p",null,{"children":"カンファレンス準備は、研修医の日常業務の中で最も学びの多い作業の一つです。AIを活用することで、準備の効率を上げつつ、臨床推論の質を高めることができます。"}]
+a3:["$","p",null,{"children":["$","strong",null,{"children":"15分ワークフローの核心:"}]}]
+a4:["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"ステップ1（5分）: 構造化"}]," -- カルテ情報をAIでCC-HPI-PMH-PE-Lab-Assessment-Planに整理する"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"ステップ2（5分）: 臨床推論"}]," -- まず自分で考え、AIで鑑別の漏れを確認する"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"ステップ3（5分）: 裏付けと備え"}]," -- 文献的裏付けと想定質問への回答を準備する"]}],"\n"]}]
+a5:["$","p",null,{"children":["$","strong",null,{"children":"最も重要なこと:"}]}]
+a6:["$","ul",null,{"children":["\n",["$","li",null,{"children":"AIの出力をそのまま使わない。自分の頭で考えた上で、AIを検証ツールとして使う"}],"\n",["$","li",null,{"children":"Assessmentは自分で考えてからAIに検証させる（この順序が臨床力を育てる）"}],"\n",["$","li",null,{"children":"匿名化を必ず行う"}],"\n",["$","li",null,{"children":"わからないことは「わかりません、調べます」と正直に言える勇気を持つ"}],"\n"]}]
+a7:["$","p",null,{"children":"このワークフローを繰り返すことで、カンファレンス準備のスピードと質は着実に向上します。そして何より、「考える習慣」が身につきます。"}]
+a8:["$","hr",null,{}]
+a9:["$","p",null,{"children":"更新日: 2026年2月\n対象読者: 研修医・若手医師\n所要時間: 25分（通読）/ 15-20分（実際の準備）"}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+aa:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"カンファレンス準備ワークフロー | Hoshizu"}],["$","meta","1",{"name":"description","content":"朝カンファの5分プレゼンを15分で準備する、AIを活用した実践的ワークフロー"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/knowledge/conference-prep-workflow"}],["$","meta","4",{"property":"og:title","content":"カンファレンス準備ワークフロー"}],["$","meta","5",{"property":"og:description","content":"朝カンファの5分プレゼンを15分で準備する、AIを活用した実践的ワークフロー"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2026-02-24"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","11",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","12",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","13",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico"}],["$","link","15",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$Laa","16",{}]]

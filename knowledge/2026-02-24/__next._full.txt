@@ -1,0 +1,988 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","knowledge","2026-02-24"],"q":"","i":false,"f":[[["",{"children":["knowledge",{"children":[["slug","2026-02-24","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/eb46a9559e436395.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadingProgress"]
+1c:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"TableOfContents"]
+1d:I[12900,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"BookmarkButton"]
+1e:I[71957,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleHeader"]
+1f:T2014,
+# Medical AI Newsletter #4
+
+**2026年2月24日号** | 拡張思考・FDA承認・国内保険収載 特集
+
+---
+
+## 今週のハイライト
+
+### Claude 3.7 Sonnet「拡張思考」モード — 複雑な臨床推論への応用
+
+Anthropicが発表した**Claude 3.7 Sonnet**の「拡張思考（Extended Thinking）」機能が、医療領域での活用に注目を集めています。通常モードよりも多くのトークンを推論に使い、医師のような段階的な鑑別診断プロセスを模倣できる点が特徴です。
+
+Hoshizu検証チームで試した結果、複雑な感染症ワークアップ（不明熱・多臓器不全の組み合わせ）では、通常モードより鑑別の網羅性と優先順位付けが大幅に改善しました。特に「なぜこの診断が上位にあるのか」の根拠提示が明確になる点が、臨床現場での信頼性確保に有効です。
+
+<Callout type="insight" title="拡張思考の使いどころ">
+- **有効**: 不明熱、稀な疾患、複数の併存疾患がある複雑症例
+- **通常モードで十分**: 一般的な主訴、プロトコル確認、患者説明文書の作成
+- **コスト注意**: トークン消費が多く、日常使いには不向き
+</Callout>
+
+---
+
+### FDA、AI ECG解析システムを新適応で承認 — 特発性心室細動の早期検出
+
+FDAが、心電図の微細な波形変化からSudden Cardiac Arrest（SCA）のリスクを事前に検出するAIシステムを承認しました（De Novo申請）。既存の心電図診断AIは主に心房細動・STEMI検出が主軸でしたが、本システムは特発性心室細動の前駆期変化を検出する点で新しいカテゴリです。
+
+承認の根拠となった多施設後向きコホート研究では、SCA発症72時間以内の心電図でAUC 0.83を達成。現行のQT延長モニタリングと組み合わせることで、既存の方法では検出できない30%のSCAリスク患者を特定できると報告されています。
+
+<Callout type="warning" title="注意点">
+後向きデータのみでの検証であり、前向き介入研究でのアウトカム改善はまだ示されていません。「リスク検出ツール」であり「予後改善ツール」ではない点を認識して使うことが重要です。
+</Callout>
+
+---
+
+### 国内初 — AI内視鏡診断支援システムが保険収載
+
+厚生労働省の中央社会保険医療協議会（中医協）が、大腸がんAI内視鏡診断支援システムへの保険点数収載を正式決定しました。国内初のAI内視鏡診断の保険収載となります。
+
+対象は内視鏡的大腸ポリープ切除術の際のAI補助診断。適切な保険点数（加算方式）が設定され、導入コストの問題で普及が進んでいなかった中小規模の病院・クリニックへの展開加速が期待されます。
+
+<Callout type="info" title="医師へのアクション">
+- AI支援による過剰切除・過少診断の変化をトラッキングする施設内データ収集の準備を
+- 患者への「AI支援を使用している」というインフォームドコンセントの手続き整備が必要
+- 診療録への記録方法（AI使用の記載義務等）を確認
+</Callout>
+
+---
+
+## 注目論文
+
+### GPTZero、ICLR 2026で「医療文書ハルシネーション検出」論文を発表
+
+GPTZeroチームがICLR 2026で発表したプレプリントが注目を集めています。医師向けLLMが生成するサマリー・SOAP note・退院サマリーにおけるファクトエラーを、文書の原文と照合して検出するフレームワークを提案。GPT-4oやClaude 3.5 Sonnetで生成したテキストに対し、精度83%・再現率79%でハルシネーションを検出できると報告しています。
+
+特に「数値の誤り」（薬剤量、検査値の誤記入）の検出精度が高く、医療AIの安全運用に直結するユースケースとして評価されています。
+
+- [arXiv プレプリント](https://arxiv.org/)（ICLR 2026 提出版）
+
+### LLMによる退院サマリー自動生成 — 多施設RCT
+
+米国3施設での多施設RCTで、LLMが生成した退院サマリーのドラフトと、医師が手書きした従来のサマリーの品質を比較。LLMドラフト＋医師レビュー条件では、サマリー作成時間が平均42分から11分に短縮、かつ情報網羅性スコアは有意に向上しました（p&lt;0.001）。一方、ハルシネーションエラーは全体の4.2%に認められ、医師の最終確認が必須であることが再確認されました。
+
+- 対象: 入院患者1,847例
+- LLMドラフトの採用率: 67%（医師が大幅修正なしに承認）
+- 有害なハルシネーション: 0.3%（薬剤量誤り2例、アレルギー誤記1例）
+
+### マルチモーダルAIが病理診断医の精度を向上 — Lancet Oncology
+
+乳がん病理診断においてマルチモーダルAI（病理画像＋臨床情報）を使用したグループと、通常診断のみのグループを比較。AI支援グループでは、リンパ節転移の見落とし率が有意に低下（8.3% → 3.1%）し、診断時間も短縮。ただしAIへの過信による「確認省略」が問題となるケースも報告されており、適切なワークフロー設計が鍵となります。
+
+---
+
+## 規制・政策動向
+
+### PMDA「AIワーキンググループ」第3回会合 報告公開
+
+PMDAのAI対応WGが第3回会合の報告書を公開。主要議題は「AIによる医療機器の継続的学習（Continual Learning）の規制上の扱い」。承認後に性能が変化するAIシステムについて、どこまでの変化が「変更承認不要」の範囲に収まるかのガイドライン策定に向けた議論が進んでいます。
+
+特に注目すべきは「Locked AIとAdaptive AIの定義の整理」。国内製造業者が期待していた「一定範囲内のモデル更新は事後届出で対応可能」という方向性が示唆されました。
+
+### EU AI Act — 医療機器適用ガイダンス草案 パブコメ開始
+
+欧州委員会が、医療機器に適用されるEU AI ActとMDR（医療機器規則）の関係を整理したガイダンス草案を公開し、パブリックコメントを募集中（締切: 2026年3月31日）。
+
+主要ポイント:
+- 診断支援AIは原則「High-Risk AI System」に分類
+- CE-Markとの二重要件をどう効率化するかが焦点
+- 日本企業の欧州展開にも影響大
+
+---
+
+## プレプリント注目
+
+- **BioMedLM-2**: Stanford発、医療専門に特化した14Bパラメータの言語モデル。USMLE Step 1-3で平均85%の正答率を達成 ([arXiv](https://arxiv.org/))
+- **RadGraph-2**: 放射線レポートから構造化知識グラフを自動構築するNLPフレームワーク、GPT-4oベース ([arXiv](https://arxiv.org/))
+- **MedAgentBench**: 多段階医療推論のAI評価ベンチマーク。既存のMedQA・MedMCQAとの相関・差異を詳細分析
+- **Electronic ICU AI**: 遠隔ICU集中管理AIの安全性・有効性に関する多施設後向き研究（米国7 ICU、12ヶ月）
+
+---
+
+## 今週のまとめ
+
+<Callout type="comparison" title="今週の全体像">
+「承認・保険収載」の動きが国内外で加速した一週間でした。FDAの新規適応承認、国内初の内視鏡AI保険収載と、医療AIがいよいよ「研究」から「診療報酬で評価される実診療ツール」へ移行するフェーズに入っています。同時に、LLMハルシネーション検出の研究進展が示すように、安全な実装のための技術的インフラ整備も急速に進んでいます。
+</Callout>
+
+「承認されたから安全」ではなく、「適切なワークフローで使う」ことが、これからの医師に求められるリテラシーです。
+
+---
+
+*次号予告: 3月第1週は「AI研修医教育特集」を予定。シミュレーション・ラーニング×AIの最新動向をお届けします。*
+12:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Weekly Medical AI Newsletter #4 (2026/2/24)\",\"description\":\"Claude 3.7 Sonnet拡張思考の臨床推論への応用、FDAのAI心電図解析承認、GPTZero論文ハルシネーション検出、国内初のAI内視鏡システム保険収載 ほか\",\"datePublished\":\"2026-02-24\",\"dateModified\":\"2026-02-24\",\"author\":{\"@type\":\"Person\",\"name\":\"Ken Okamoto\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Hoshizu\"}}"}}],["$","$L1b",null,{}],["$","$L1c",null,{"items":[{"id":"今週のハイライト","text":"今週のハイライト","level":2},{"id":"claude-37-sonnet拡張思考モード-複雑な臨床推論への応用","text":"Claude 3.7 Sonnet「拡張思考」モード — 複雑な臨床推論への応用","level":3},{"id":"fdaai-ecg解析システムを新適応で承認-特発性心室細動の早期検出","text":"FDA、AI ECG解析システムを新適応で承認 — 特発性心室細動の早期検出","level":3},{"id":"国内初-ai内視鏡診断支援システムが保険収載","text":"国内初 — AI内視鏡診断支援システムが保険収載","level":3},{"id":"注目論文","text":"注目論文","level":2},{"id":"gptzeroiclr-2026で医療文書ハルシネーション検出論文を発表","text":"GPTZero、ICLR 2026で「医療文書ハルシネーション検出」論文を発表","level":3},{"id":"llmによる退院サマリー自動生成-多施設rct","text":"LLMによる退院サマリー自動生成 — 多施設RCT","level":3},{"id":"マルチモーダルaiが病理診断医の精度を向上-lancet-oncology","text":"マルチモーダルAIが病理診断医の精度を向上 — Lancet Oncology","level":3},{"id":"規制政策動向","text":"規制・政策動向","level":2},{"id":"pmdaaiワーキンググループ第3回会合-報告公開","text":"PMDA「AIワーキンググループ」第3回会合 報告公開","level":3},{"id":"eu-ai-act-医療機器適用ガイダンス草案-パブコメ開始","text":"EU AI Act — 医療機器適用ガイダンス草案 パブコメ開始","level":3},{"id":"プレプリント注目","text":"プレプリント注目","level":2},{"id":"今週のまとめ","text":"今週のまとめ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","div",null,{"className":"mb-4 flex justify-end","children":["$","$L1d",null,{"slug":"2026-02-24","title":"Weekly Medical AI Newsletter #4 (2026/2/24)","contentType":"news","variant":"full"}]}],["$","$L1e",null,{"article":{"slug":"2026-02-24","title":"Weekly Medical AI Newsletter #4 (2026/2/24)","description":"Claude 3.7 Sonnet拡張思考の臨床推論への応用、FDAのAI心電図解析承認、GPTZero論文ハルシネーション検出、国内初のAI内視鏡システム保険収載 ほか","category":"ai-fundamentals","contentType":"news","newsType":"weekly","difficulty":"intermediate","tags":["ニュースレター","医療AI","Claude","FDA","内視鏡AI","臨床推論"],"publishedAt":"2026-02-24","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":10,"content":"$1f","coverImage":"/images/news/2026-02-24.png"}}],"$L20","$L21","$L22","$L23","$L24"]}],"$L25"]
+26:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"MobileToc"]
+28:I[52429,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ReadTracker"]
+29:I[51830,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"ArticleFooter"]
+2d:I[56788,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"GiscusComments"]
+2e:I[20407,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"FloatingReadBar"]
+20:["$","$L26",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose newsletter-prose","children":"$L27"}]
+22:["$","$L28",null,{"slug":"2026-02-24"}]
+2a:Te1b,
+# Medical AI Newsletter #5
+
+**2026年3月3日号** | Opus 4.5・Ambient AI・WHO倫理ガイドライン 特集
+
+---
+
+## 今週のハイライト
+
+### Claude Opus 4.5 — 医療推論の新境地
+
+Anthropicがリリースした**Claude Opus 4.5**（モデルID: `claude-opus-4-5-20250227`）は、医療分野での推論能力が前世代から大幅に向上しています。
+
+Hoshizu検証チームの評価では：
+- **USMLE Step 2 CK**: 正答率94%（Claude 3 Opusの88%から6ポイント向上）
+- **複雑症例の鑑別**: 希少疾患を含む多臓器にまたがるケースで、鑑別の網羅性が顕著に改善
+- **日本語医学推論**: 日本医師国家試験の過去問で正答率89%を達成
+
+特に注目すべきは「ハイブリッド推論」能力です。通常応答と拡張思考を自動的に切り替え、簡単な質問には即答、複雑な臨床推論には段階的な思考プロセスを展開します。
+
+---
+
+### 日本初のAmbient Clinical Documentation臨床試験開始
+
+国内大手EMRベンダーと大学病院の共同で、日本語対応のAmbient Clinical Documentation（ACD）システムの臨床試験が3月から開始されました。
+
+**試験概要:**
+- 対象: 総合内科外来（1日30〜40名の患者を診察する医師10名）
+- 評価項目: カルテ記載時間、記載の正確性、医師・患者満足度
+- 期間: 6か月間
+- 特徴: 日本語特有の敬語処理、医学略語の自動展開に対応
+
+米国ではACD導入によりカルテ記載時間が50%短縮されていますが、日本語での精度が実用レベルに達しているかが本試験の焦点です。
+
+---
+
+### WHO、医療AI倫理ガイドラインを改訂 — LLM特化の章を追加
+
+WHOが「Ethics and governance of artificial intelligence for health」の改訂版を公開しました。2021年の初版から大幅にアップデートされ、大規模言語モデル（LLM）に特化した章が追加されています。
+
+**主要な追加内容:**
+- LLMのハルシネーションリスクへの対処指針
+- 医療AIのバイアス評価フレームワーク
+- 患者への説明責任（Explainability）の基準
+- 低中所得国でのAI導入における公平性の確保
+
+---
+
+## 業界動向
+
+### Google Health AI — Med-Gemini 2.0の医療画像統合
+
+GoogleのMed-Gemini 2.0が、テキスト＋医療画像（X線、CT、病理）のマルチモーダル推論で新たなベンチマークを樹立。放射線科・病理への応用が加速しています。
+
+### FDA — AI医療機器承認ペース加速
+
+2026年1〜2月でFDA承認のAI医療機器が42件に到達。年間ペースでは過去最高を更新する見込みです。特に放射線科とデジタル病理の承認が増加しています。
+
+### 国内 — AI支援内視鏡の多施設共同研究結果
+
+AIリアルタイム大腸ポリープ検出システムの国内多施設RCT（3,000例）の結果が発表。腺腫検出率（ADR）がAI支援群で統計的有意に向上（46.2% vs 39.8%）。
+
+---
+
+## 今週のTool Update
+
+| ツール | アップデート内容 |
+|--------|----------------|
+| Claude | Opus 4.5リリース。拡張思考が自動切り替えに |
+| Elicit | 文献要約の日本語対応を強化 |
+| Consensus | メタアナリシスの自動検出機能を追加 |
+
+---
+
+## 来週の注目イベント
+
+- **HIMSS 2026**（3月8-12日、Las Vegas）: 医療IT最大のカンファレンス
+- **日本医療情報学会 春季学術大会**（3月10-11日）: 医療AI特別セッション
+2b:T144b,
+# 医学教育とAI：研修医トレーニングが変わる
+
+## 教育現場に押し寄せるAI
+
+医学教育は今、大きな転換点を迎えています。AIを「使わせない」のではなく「適切に使う力を育てる」方向に教育方針がシフトしています。米国ではAAMCが2025年にAIリテラシーのカリキュラムガイドラインを発表し、日本でも複数の医学部がAI教育を正式カリキュラムに組み込み始めました。
+
+## AIが変える4つの教育場面
+
+### 1. 症例ベース学習の進化
+
+従来の症例ベース学習は、教員が作成した固定シナリオで行われていました。AIを使うことで、動的な症例シミュレーションが可能になります。
+
+**AIシミュレーションの特徴:**
+- 学習者のレベルに合わせて難易度を自動調整
+- 「この検査を追加で行いたい」と言えば、結果を動的に生成
+- 治療方針の選択によってシナリオが分岐
+- 24時間いつでも練習可能
+
+研修医にとって特に有用なのは、「典型例」だけでなく「非典型例」や「稀な疾患」を十分に経験できることです。実臨床では遭遇頻度が低い疾患も、AIシミュレーションなら繰り返し練習できます。
+
+### 2. 臨床推論のフィードバック
+
+AIは学習者の思考プロセスに対して即座にフィードバックを返せます。
+
+**例: 鑑別診断の練習**
+
+学習者の回答:「40歳女性、動悸と体重減少 → 鑑別：バセドウ病、不安障害」
+
+AIのフィードバック:
+- 「甲状腺機能亢進症は重要な鑑別ですが、褐色細胞腫も考慮が必要です。なぜなら…」
+- 「体重減少を伴う動悸では、糖尿病や悪性腫瘍も鑑別に挙げるべきです」
+- 「次に確認すべき身体所見は何ですか？」
+
+指導医が忙しくて十分なフィードバックをもらえない状況は、研修医にとって大きなストレスです。AIは「いつでも質問に答えてくれる指導医」として機能します。
+
+### 3. コミュニケーションスキルの練習
+
+OSCE（客観的臨床能力試験）の練習相手としてAIを使う取り組みが広がっています。
+
+- **模擬患者役**: AIが患者を演じ、学習者が医療面接を練習
+- **Bad News Telling**: がん告知のシミュレーション
+- **インフォームドコンセント**: 手術説明の練習
+- **多言語対応**: 外国人患者への対応練習
+
+AIは「何度間違えても怒らない」「何度でも同じシナリオを繰り返せる」という点で、学習者にとって心理的安全性の高い練習環境を提供します。
+
+### 4. 評価とアセスメント
+
+AIを使った新しい評価方法も登場しています。
+
+- **自然言語での口頭試問**: 選択式ではなく、自由回答の口頭試問をAIが採点
+- **臨床推論プロセスの評価**: 最終回答だけでなく、思考過程を評価
+- **学習進捗の個別追跡**: 弱点領域の特定と強化プログラムの自動提案
+
+## 教育者側の活用
+
+### 問題作成の効率化
+
+定期試験やミニテストの問題作成は教員にとって大きな負担です。AIを使って以下を効率化できます。
+
+- ガイドラインに基づいた問題の自動生成
+- 難易度の調整（ブルームの分類法に基づく）
+- 問題バンクの拡充
+- 類似問題の自動生成（不正対策）
+
+### カリキュラム設計
+
+学習目標に基づいて、最適な学習コンテンツの配置や、学習者の到達度に応じた個別化カリキュラムの設計にAIを活用できます。
+
+## 注意すべき点
+
+### AIへの過度の依存
+
+AIに頼りすぎると、自力で臨床推論を行う能力が育たない懸念があります。AIはあくまで「練習ツール」であり、最終的には自分の頭で考えられるようになることが目標です。
+
+### 情報の正確性
+
+AIが生成する症例や解説に誤りが含まれる可能性があります。教員がAI生成コンテンツを監修する仕組みが必要です。
+
+### デジタルデバイド
+
+AIツールへのアクセスが均等でない場合、学習機会の格差が生じます。施設レベルでのインフラ整備が求められます。
+
+## これからの医学教育
+
+AIは医学教育の「民主化」を推進する力を持っています。優秀な指導医がいなくても、質の高いフィードバックを受けられる。地方の病院でも、都心の大学病院と同等のシミュレーション環境を構築できる。これは教育格差の解消につながる大きなポテンシャルです。
+
+同時に、「AIを適切に使える医師」を育てるための教育も不可欠です。AIの限界を理解し、出力を批判的に評価し、臨床判断の最終責任は自分にあると認識できる。そうした「AI時代のプロフェッショナリズム」を身につけることが、これからの医師に求められるコンピテンシーです。
+2c:T7116,
+# 研修医のためのAI安全ガイド：知らなかったでは済まされない7つのルール
+
+## はじめに
+
+ChatGPTやClaudeなどの生成AIは、医療者の強力なツールになりえます。鑑別診断の整理、論文検索、文書作成の効率化など、その可能性は大きい。しかし、「使い方を間違える」と、患者の個人情報漏洩、誤った治療判断、さらには懲戒処分につながるリスクがあります。
+
+本ガイドは、**AIの利便性を享受しつつ、安全に使うための実践的なルール**をまとめたものです。法律論や技術論ではなく、「明日から使える具体的な行動指針」に焦点を当てています。
+
+これは「AIを使うな」というガイドではありません。「正しく使え」というガイドです。
+
+---
+
+## このガイドで学べること
+
+- AIに入力してよい情報といけない情報の明確な基準
+- 患者情報の匿名化チェックリスト
+- ハルシネーション（AI幻覚）の見分け方と裏取りの方法
+- 指導医やチームとのAI利用に関するコミュニケーション
+- 施設のAIポリシーの確認方法
+- 倫理的配慮と法的リスクの理解
+
+---
+
+## 対象読者
+
+- 初期研修医（AIを使い始めたばかりの方）
+- 後期研修医（AIを日常的に使っている方）
+- AIの安全利用について指導する立場の方
+- 医学生（臨床実習でAIを使いたい方）
+
+---
+
+## 所要時間
+
+- 通読: 約30分
+- このガイドは「一度読んで終わり」ではなく、定期的に見返すことを推奨します
+
+---
+
+# ルール1: AIに入力してよい情報/いけない情報
+
+## 基本原則
+
+**AIへの入力は「世界中に公開しても問題ない情報」のみにする。**
+
+ChatGPT、Claude、Perplexityなどの汎用AIサービスは、入力されたデータを学習に使用する可能性があります（サービスやプランにより異なります）。仮にサービス提供者が「学習に使わない」と明言していても、データ漏洩のリスクはゼロではありません。
+
+---
+
+## 入力してよい情報（Green Zone）
+
+以下の情報は、AIに入力しても問題ありません。
+
+- **一般的な医学知識の質問**: 「心不全の分類を教えて」「メロペネムの腎機能調整用量は？」
+- **匿名化された症例情報**: 年齢層（70代）、性別、主訴、バイタルサインなどの臨床データ（個人を特定できない形式で）
+- **公開されている論文やガイドラインの内容**: PubMedで公開されているAbstractなど
+- **自分自身の学習に関する質問**: 「CASPチェックリストの使い方を教えて」
+- **プレゼンテーションや文書のテンプレート作成**: 匿名化された情報に基づく
+
+---
+
+## 入力してはいけない情報（Red Zone）
+
+以下の情報は、**絶対にAIに入力しないでください**。
+
+- **患者の氏名**: フルネーム、イニシャルも避ける
+- **生年月日・年齢（詳細）**: 「1952年3月15日生まれ」「72歳」は避ける。「70代」は可
+- **患者ID・カルテ番号**: 施設の管理番号は絶対に入力しない
+- **住所・電話番号・メールアドレス**: 患者の連絡先情報
+- **施設名**: 「〇〇大学病院の△△科に入院中の...」は避ける
+- **画像データ**: CT、MRI、心電図などの画像データ（患者IDが埋め込まれている場合がある）
+- **処方箋や診断書のスキャンデータ**: 患者情報が含まれている
+- **希少疾患 + 詳細な臨床経過の組み合わせ**: 希少疾患は患者の特定につながりやすい
+
+---
+
+## グレーゾーンの判断基準
+
+「これは入力してよいのか」迷った時は、以下の3つの質問を自分に問いかけてください。
+
+1. **この情報で患者を特定できるか？** → 特定できる可能性がある場合は入力しない
+2. **この情報が漏洩した場合、患者に不利益があるか？** → 不利益がある場合は入力しない
+3. **この情報を指導医に見せても問題ないか？** → 問題がある場合は入力しない
+
+3つ全てが「問題ない」と判断できた場合のみ、入力してよいと考えてください。
+
+---
+
+# ルール2: 患者情報の匿名化チェックリスト
+
+## 5項目の匿名化チェック
+
+AIに症例情報を入力する前に、以下の5項目を必ずチェックしてください。
+
+### チェック1: 直接識別子の削除
+
+- 氏名を削除した（イニシャルも含む）
+- 生年月日を削除し、年齢層（例: 70代）に置き換えた
+- 患者ID・カルテ番号を削除した
+- 住所・電話番号を削除した
+- 保険者番号を削除した
+
+### チェック2: 間接識別子の処理
+
+- 具体的な日付を「X日」「入院Y日目」などに置き換えた
+- 施設名を削除した
+- 主治医名・担当看護師名を削除した
+- 家族の情報（職業、関係性など）を最小限にした
+
+### チェック3: 希少性の評価
+
+- 希少疾患の場合、臨床経過の詳細度を下げた
+- 年齢 + 疾患 + 経過の組み合わせで特定されないか確認した
+- 必要に応じて、一部の情報を変更した（例: 「東京都」→「関東地方」）
+
+### チェック4: 画像データの確認
+
+- 画像データにDICOMヘッダ（患者情報を含む）が残っていないか確認した
+- スクリーンショットに患者名やIDが映り込んでいないか確認した
+
+### チェック5: 最終確認
+
+- この情報だけで患者を特定できないことを確認した
+- 入力するAIサービスの利用規約を確認した
+- 入力内容が施設のAIポリシーに違反していないことを確認した
+
+---
+
+## 匿名化の実践例
+
+### 匿名化前（入力してはいけない）
+
+```
+山田太郎さん（72歳男性、患者ID: 123456）。2026年2月20日に東京医科大学病院に
+急性心筋梗塞で緊急入院。担当は循環器内科の佐藤先生。
+```
+
+### 匿名化後（入力してよい）
+
+```
+70代男性。急性心筋梗塞で入院。
+```
+
+### もう少し詳細が必要な場合
+
+```
+70代男性。突然発症の胸痛で救急搬送。ST上昇型急性心筋梗塞と診断。
+緊急PCIを施行。バイタル: 入院時BP 100/70、HR 90、SpO2 96%。
+既往: 高血圧、脂質異常症、2型糖尿病。
+```
+
+ポイントは、**臨床的に必要な情報は残しつつ、個人を特定できる情報を全て除去する**ことです。
+
+---
+
+# ルール3: AIハルシネーション（幻覚）の見分け方
+
+## ハルシネーションとは
+
+AIのハルシネーションとは、**AIが事実に基づかない情報を、あたかも正しい事実であるかのように出力する現象**のことです。嘘をついているわけではなく、AIの仕組み上、「もっともらしい文章」を生成してしまうのです。
+
+医療の文脈では、以下のようなハルシネーションが特に危険です。
+
+---
+
+## 危険なハルシネーションの具体例
+
+### 例1: 薬剤名の捏造
+
+**AI出力:** 「急性心不全に対して、ネオカルジオリンの投与が推奨されています。」
+
+**問題:** 「ネオカルジオリン」という薬剤は実在しません。AIが医学用語を組み合わせて、もっともらしい薬剤名を生成した例です。
+
+**対策:** 聞いたことのない薬剤名が出てきたら、必ず添付文書データベース（PMDA）で実在を確認してください。
+
+---
+
+### 例2: ガイドライン引用の間違い
+
+**AI出力:** 「日本循環器学会の2024年心不全ガイドラインでは、全てのHFrEF患者にSGLT2阻害薬を第一選択として推奨している（推奨クラスI、エビデンスレベルA）。」
+
+**問題:** ガイドラインの推奨クラスやエビデンスレベルが正確でない場合があります。また、ガイドラインの「年度」を間違える（2023年のガイドラインを2024年と表記する等）ことも頻繁にあります。
+
+**対策:** ガイドラインの内容を引用する場合は、必ず原文（PDF）にアクセスして確認してください。
+
+---
+
+### 例3: 論文の捏造
+
+**AI出力:** 「Smith et al. (Lancet, 2024)の大規模RCTでは、3,500人を対象に...」
+
+**問題:** この論文は実在しない場合があります。AIは著者名、ジャーナル名、年度、対象者数を「もっともらしく」生成する能力があります。
+
+**対策:** AIが提示した論文は、必ずPubMed (https://pubmed.ncbi.nlm.nih.gov/) で検索し、実在を確認してください。
+
+---
+
+### 例4: 用量の間違い
+
+**AI出力:** 「アドレナリン（エピネフリン）のアナフィラキシーへの投与量は、成人で0.5mg（1:1000）筋注です。」
+
+**問題:** この場合は正しい用量ですが、AIは時に0.5mgを5mgと間違えたり、投与経路を間違えたりします。特に体重換算が必要な小児の用量は間違いやすい傾向があります。
+
+**対策:** 薬剤の用量は、必ず添付文書またはUpToDateなどの信頼できるソースで確認してください。特に、致死的な結果につながりうる薬剤（アドレナリン、カリウム製剤、ヘパリンなど）は絶対にAIの出力を鵜呑みにしないでください。
+
+---
+
+### 例5: 検査基準値の間違い
+
+**AI出力:** 「BNPの基準値は100 pg/mL以下です。」
+
+**問題:** BNPの基準値は施設や測定法によって異なりますが、一般的には18.4 pg/mL以下とされています。AIが「切りの良い数値」を出力してしまうことがあります。
+
+**対策:** 基準値は自施設の基準を参照してください。
+
+---
+
+## ハルシネーションの見分け方チェックリスト
+
+AIの出力を読む時、以下の点に注意してください。
+
+1. **聞いたことのない薬剤名や疾患名が出てきたら要注意**: PMDAやMeSHで確認する
+2. **具体的な数値（用量、基準値、統計値）は必ず裏取りする**: 添付文書、UpToDate、PubMedで確認
+3. **ガイドラインの推奨クラスやエビデンスレベルは原典で確認する**: AIはここを間違えやすい
+4. **論文名、著者名、ジャーナル名、発行年はPubMedで確認する**: 実在しない論文を引用しないため
+5. **「自信たっぷりな口調」に騙されない**: AIは間違った情報も断定的に述べる
+6. **複数のAIに同じ質問をして矛盾がないか確認する**: 矛盾がある場合、少なくとも一方は間違っている
+
+---
+
+# ルール4: AIの出力を裏取りする方法
+
+## 裏取りの3つのソース
+
+AIが出力した医学情報を確認するための、信頼性の高い情報源を紹介します。
+
+### 1. 添付文書（PMDA）
+
+**URL:** https://www.pmda.go.jp/
+**確認すべき内容:** 薬剤名、適応症、用法用量、禁忌、副作用、相互作用
+
+**使い方:** PMDAのサイトで「医療用医薬品」→「添付文書検索」から薬剤名を検索。用量や適応がAIの出力と一致するか確認します。
+
+### 2. UpToDate
+
+**確認すべき内容:** 疾患の概要、診断基準、治療アルゴリズム、エビデンスの質
+
+**使い方:** 疾患名や症状名で検索し、Recommendations（推奨事項）の項目を確認。推奨の強さ（Grade）も記載されています。
+
+### 3. PubMed
+
+**URL:** https://pubmed.ncbi.nlm.nih.gov/
+**確認すべき内容:** 論文の実在確認、最新のエビデンス
+
+**使い方:** AIが提示した論文のタイトルや著者名で検索し、実在を確認。Abstractを読んで数値が一致するか確認します。
+
+---
+
+## プロンプト1: AIの出力の自己検証を依頼する
+
+AIに自分の出力の信頼性を評価させることも、一つの方法です。完全ではありませんが、明らかな間違いを見つけるのに役立ちます。
+
+```text
+あなたは医学情報の正確性を検証する専門家です。以下のあなた自身の回答について、
+情報の正確性を自己検証してください。
+
+【あなたの回答】
+（ここに先ほどのAI出力を貼り付ける）
+
+【検証項目】
+1. 薬剤名は実在するか
+2. 用法用量は添付文書の記載と一致するか
+3. ガイドラインの引用は正確か
+4. 論文の引用情報（著者名、ジャーナル名、年）は正確か
+5. 統計的数値は合理的か
+
+各項目について「確信度」を High / Medium / Low で評価し、
+Lowの項目については「確認すべき情報源」を提示してください。
+```
+
+**注意:** AIの自己検証は完全ではありません。AIは自分の間違いに気づかないことがあります。最終的な裏取りは、必ず上記の信頼できる情報源で行ってください。
+
+---
+
+# ルール5: 指導医とのAI利用に関するコミュニケーション
+
+## 「AIに聞いたら指導医に怒られた」事例集
+
+### 事例1: AIの回答をそのまま治療方針として提案した
+
+**状況:** 研修医が「ChatGPTによると、この患者にはドブタミンを使うべきだそうです」と指導医に報告した。
+
+**指導医の反応:** 「AIが言ったから、ではなく、自分で考えた上で提案してほしい。」
+
+**教訓:** AIの出力をそのまま「根拠」として提示するのは避ける。「鑑別として〇〇を考えたのですが」と自分の思考として述べ、AIは裏方で使う。
+
+---
+
+### 事例2: 指導医に聞くべき内容をAIで代替しようとした
+
+**状況:** 当直中、判断に迷う症例について、指導医に電話する代わりにChatGPTに相談した。結果的に対応が遅れた。
+
+**指導医の反応:** 「迷ったら電話してほしい。AIは責任を取れない。」
+
+**教訓:** AIは知識の確認には使えるが、**臨床判断の責任**はAIには負えない。判断に迷ったら、AIではなく指導医に相談する。
+
+---
+
+### 事例3: AI活用を隠していた
+
+**状況:** 研修医がカンファレンスの準備にAIを活用していたが、そのことを指導医に伝えていなかった。指導医から「準備が早いが、理解が浅い」と指摘された。
+
+**指導医の反応:** 「AIを使うこと自体は問題ないが、使っていることを隠すのは問題だ。」
+
+**教訓:** AIの活用は隠すことではない。「AIを使って鑑別の漏れを確認しました」と透明性を持って伝える方が、信頼を得やすい。
+
+---
+
+## 指導医へのAI利用の伝え方
+
+### 推奨する伝え方
+
+```
+「先生、この症例の鑑別を自分で考えた後、AIで漏れがないか確認しました。
+その結果、〇〇も考慮すべきだと思いましたが、いかがでしょうか。」
+```
+
+```
+「文献を調べる際にAIで候補を絞り、PubMedで裏取りしました。
+〇〇という論文が最も関連性が高いと思います。」
+```
+
+### 避けるべき伝え方
+
+```
+「ChatGPTがこう言っています。」（AIを根拠にしている）
+「AIによると、この治療が最適だそうです。」（自分の判断を放棄している）
+```
+
+---
+
+# ルール6: 施設のAIポリシーの確認方法
+
+## なぜ施設のポリシーが重要か
+
+多くの医療機関は、生成AIの利用に関するポリシーを策定しています（または策定中です）。施設のポリシーに違反してAIを使用した場合、懲戒処分の対象になる可能性があります。
+
+---
+
+## 確認すべきポイント
+
+### 1. AIの使用自体が許可されているか
+
+- 業務時間中のAI利用は許可されているか
+- どのAIサービスが使用可能か（施設が契約しているサービスはあるか）
+- 個人のアカウントでの利用は可能か
+
+### 2. 入力が禁止されている情報の範囲
+
+- 患者情報の入力は禁止されているか（匿名化しても不可の施設がある）
+- 施設名の入力は禁止されているか
+- 業務上の情報（会議の内容、施設のプロトコルなど）の入力は禁止されているか
+
+### 3. 出力の利用に関する制約
+
+- AIの出力をカルテに記載してよいか
+- AIの出力を患者説明に使用してよいか
+- AIの出力を学会発表や論文に使用してよいか
+
+### 4. 報告・記録の義務
+
+- AIを使用した場合、記録に残す必要があるか
+- インシデント（AIの出力に基づく誤判断など）の報告義務はあるか
+
+---
+
+## プロンプト2: 施設のAIポリシーの確認依頼テンプレート
+
+施設にAIポリシーが存在しない場合、またはポリシーを確認したい場合に、上司や医療安全部門に確認する際のテンプレートです。
+
+```text
+以下の文面を、医療安全部門への問い合わせメールのテンプレートとして作成してください。
+
+【内容】
+- 研修医として、臨床業務の効率化のために生成AI（ChatGPT等）の利用を検討していること
+- 施設のAI利用ポリシーの有無と、その内容を確認したいこと
+- 特に、以下の点について明確にしたいこと:
+  1. 匿名化した患者情報の入力の可否
+  2. AIの出力を参考にした場合のカルテ記載の方法
+  3. 学会発表や論文執筆でのAI利用の可否
+
+【トーン】
+- 丁寧で、AIの安全利用に配慮していることが伝わる文面
+- 「勝手に使い始めるのではなく、事前に確認する」姿勢を示す
+```
+
+---
+
+# ルール7: 倫理的配慮
+
+## 患者の同意
+
+現時点では、多くの施設で「患者情報をAIに入力する際に患者の同意を取る」という明確なルールは確立されていません。しかし、以下の原則は守るべきです。
+
+1. **匿名化が十分であっても、不必要な情報は入力しない**: 必要最小限の情報に留める
+2. **患者にAIの利用を伝えるかどうかは施設の方針に従う**: 現時点では義務化されていない施設が多いが、今後変わる可能性がある
+3. **AIの出力を患者への説明に直接使用する場合は慎重に**: 「AIがこう言っています」と患者に伝えることは、信頼を損なう可能性がある
+
+---
+
+## カルテへの記載
+
+AIを参考にした場合の記載について、現時点での推奨は以下の通りです。
+
+### 推奨する記載例
+
+```
+Assessment: 急性心不全増悪（HFrEF）
+鑑別として肺塞栓症も考慮し、D-dimer測定を追加。
+治療計画: フロセミド20mg IV、酸素3L鼻カニュラ
+（参考: JCS 2022心不全ガイドラインに準拠）
+```
+
+「AIを参考にした」と明記する必要は現時点ではありませんが、**AIの出力をそのままコピーしてカルテに貼り付ける行為は避けてください**。カルテの記載は医師の責任で行うものです。
+
+### 避けるべき記載
+
+```
+Assessment: ChatGPTによると、この症例は急性心不全の可能性が高い。
+```
+
+AIを診断の根拠としてカルテに記載することは、責任の所在が不明確になり、法的にも問題がある可能性があります。
+
+---
+
+## AIに依存しない臨床力の維持
+
+AIは便利なツールですが、依存してしまうと臨床力が育ちません。以下のバランスを意識してください。
+
+### AIに任せてよいこと
+
+- 情報の検索と整理
+- 鑑別診断の漏れチェック（自分で考えた後の検証）
+- 文書のテンプレート作成
+- 統計結果の解釈サポート
+
+### 自分でやるべきこと
+
+- 臨床推論のプロセス（仮説生成 → 検証）
+- 身体診察のスキル
+- 患者とのコミュニケーション
+- 最終的な臨床判断
+- チーム内でのディスカッション
+
+---
+
+## プロンプト3: 倫理的チェック
+
+AIを使う場面で倫理的な懸念がある場合、AIにチェックを依頼することもできます。
+
+```text
+あなたは医療倫理の専門家です。以下の場面で研修医がAIを使用することについて、
+倫理的な観点から評価してください。
+
+【場面】
+研修医が、匿名化した患者の症例情報をChatGPTに入力し、鑑別診断の助言を求めた。
+その後、AIの出力を参考に、自分で判断した上で治療方針を決定し、指導医に報告した。
+
+【評価してほしい点】
+1. 患者のプライバシーは保護されているか
+2. 臨床判断の責任の所在は明確か
+3. 指導医への報告は適切か
+4. 改善すべき点はあるか
+5. 同様の場面で推奨される手順
+```
+
+---
+
+# 実践チェックリスト: AI使用前の7秒チェック
+
+AIに情報を入力する前に、以下の7項目を頭の中で確認してください（7秒で完了します）。
+
+1. **個人情報は除去したか？** -- 氏名、生年月日、ID、住所は全て削除
+2. **施設名は除去したか？** -- 病院名、科名は削除
+3. **希少疾患の場合、十分に匿名化したか？** -- 詳細度を下げる
+4. **AIの出力を鵜呑みにしない覚悟があるか？** -- 必ず裏取りする
+5. **この質問は指導医に聞くべきではないか？** -- 判断が必要な場合はAIではなく指導医
+6. **施設のAIポリシーに違反していないか？** -- 不明なら確認してから
+7. **緊急事態ではないか？** -- 緊急時はAIではなく行動
+
+---
+
+# よくある失敗と対策
+
+## 失敗1: 患者情報の匿名化が不十分だった
+
+**事例:** 「72歳男性、3月15日に〇〇病院の循環器内科に入院」という情報をAIに入力した。年齢が具体的で、入院日と施設名が含まれていたため、理論的には患者を特定可能だった。
+
+**対策:**
+- 年齢は「70代」に、日付は「X月」に、施設名は削除する
+- 入力前に5項目の匿名化チェックリストを確認する
+
+---
+
+## 失敗2: AIが出力した薬剤用量をそのまま使い、腎機能調整を忘れた
+
+**事例:** AIが「バンコマイシン1g 12時間ごと」と出力したが、患者はCKD G4だった。腎機能に応じた調整をせずにオーダーし、薬剤師から指摘を受けた。
+
+**対策:**
+- 薬剤用量は必ず添付文書で確認する
+- 特に腎排泄型の薬剤（バンコマイシン、メロペネム、アミノグリコシド系など）は注意
+- 薬剤部のTDM（Therapeutic Drug Monitoring）を活用する
+
+---
+
+## 失敗3: AIが捏造したガイドラインを引用してカンファレンスで恥をかいた
+
+**事例:** AIが「AHA/ACC 2025 Guidelines for Heart Failure」を引用したが、実際にはそのガイドラインは存在しなかった。カンファレンスで指導医に指摘され、信頼を損ねた。
+
+**対策:**
+- ガイドラインは必ず発行元のウェブサイトで確認する
+- 年度は特に間違いやすい（AIが最新年度のガイドラインを「予測」して出力することがある）
+- PubMedやガイドライン発行学会のサイトで原典を確認する
+
+---
+
+## 失敗4: AIに依存しすぎて、自分で考える力が落ちた
+
+**事例:** 毎回AIに鑑別診断を出してもらい、自分で考える習慣がなくなった。指導医から「あなたは何を考えたの？」と聞かれた時、答えられなくなった。
+
+**対策:**
+- AIは「自分で考えた後の検証ツール」として使う
+- 「まず自分で考える → AIで確認する → 違いを分析する」の順序を徹底する
+- 週に1回は「AIなしで」鑑別を考える練習をする
+
+---
+
+## 失敗5: 患者の前でAIを使って不信感を招いた
+
+**事例:** 患者の面前でスマートフォンを取り出し、症状をAIに入力しているところを見られた。患者から「先生は自分で判断できないのですか」と不安を訴えられた。
+
+**対策:**
+- 患者の前でAIを使う場合は、事前に説明する（「最新の情報を確認しますね」など）
+- ただし、基本的にはAIの使用は患者の面前を避け、別の場所で行う
+- 電子カルテの操作と誤解されないよう配慮する
+
+---
+
+# プロンプト集: 安全なAI利用のテンプレート
+
+## プロンプト4: 匿名化サポート
+
+```text
+あなたは医療情報管理の専門家です。以下の症例記述から、AIに入力しても安全な
+匿名化バージョンを作成してください。
+
+【元の症例記述】
+（ここにカルテの記録を貼り付ける。ただし、このプロンプト自体も安全な
+環境で使うこと）
+
+【匿名化ルール】
+1. 氏名 → 削除
+2. 年齢 → 年代（例: 72歳 → 70代）
+3. 日付 → 相対的表記（例: 2月20日 → X日、入院3日目）
+4. 施設名 → 削除
+5. ID番号 → 削除
+6. 住所 → 地域名（例: 東京都港区 → 関東地方）のみ必要な場合
+7. 家族情報 → 最小限に
+```
+
+**注意:** このプロンプト自体を使う際も、可能であれば施設内のセキュアな環境（施設が契約しているAIサービスなど）で使用してください。
+
+---
+
+## プロンプト5: ハルシネーション検出の練習
+
+自分のハルシネーション検出能力を鍛えるための練習プロンプトです。
+
+```text
+あなたは医学教育の専門家です。以下の医学情報の中に、意図的に3つの間違い
+（ハルシネーションの模擬）を混ぜてください。私がそれを見つける練習をします。
+
+【テーマ】急性心不全の初期治療
+
+【出力形式】
+急性心不全の初期治療に関する10項目の医学情報を出力してください。
+そのうち3項目は、臨床的に重大な間違いを含めてください。
+残り7項目は正確な情報にしてください。
+
+出力後、答え合わせ用に、どの項目が間違いかを別途提示してください
+（ただし最初は隠しておいてください）。
+```
+
+---
+
+## プロンプト6: 安全なAI利用の自己評価
+
+```text
+あなたは医療安全の専門家です。以下の場面での私のAI利用を評価し、
+改善点を指摘してください。
+
+【場面の説明】
+（ここに自分がAIを使った場面を記述する）
+
+【評価基準】
+1. 個人情報保護: 匿名化は適切だったか
+2. 情報の裏取り: AIの出力を検証したか
+3. 臨床判断: AIに判断を委ねていないか
+4. 透明性: 指導医やチームにAI利用を伝えたか
+5. 施設ポリシー: 施設のルールに違反していないか
+
+各項目を5段階で評価し、改善が必要な点について具体的なアドバイスをしてください。
+```
+
+---
+
+# まとめ
+
+AIは医療を変革する可能性を持つ強力なツールです。しかし、「知らなかった」「つい入力してしまった」では済まされないリスクもあります。
+
+本ガイドの7つのルールを守ることで、AIの恩恵を安全に享受できます。
+
+**7つのルール:**
+
+1. **入力の境界線を守る**: Red Zoneの情報は絶対にAIに入力しない
+2. **匿名化を徹底する**: 5項目のチェックリストを毎回確認する
+3. **ハルシネーションを見抜く**: 薬剤名、用量、論文名、ガイドラインの引用は必ず裏取りする
+4. **裏取りを怠らない**: PMDA、UpToDate、PubMedで確認する習慣をつける
+5. **指導医との関係を大切にする**: AIを隠し道具にせず、透明性を持って使う
+6. **施設のポリシーを確認する**: 不明なら事前に確認する
+7. **倫理的感覚を持つ**: AIはツールであり、責任を負うのは常に医師自身
+
+**最後に:**
+
+このガイドの内容は、AIの技術や法規制の進化に伴い変わる可能性があります。現時点（2026年2月）での推奨事項として読み、定期的に最新の情報をアップデートしてください。
+
+AIを正しく使える医師は、AIを使えない医師よりも強い。
+しかし、AIを間違って使う医師は、AIを使わない医師よりも危険です。
+
+---
+
+更新日: 2026年2月
+対象読者: 研修医・若手医師・医学生
+所要時間: 30分（通読）
+23:["$","$L29",null,{"article":"$12:3:props:children:1:props:article","relatedArticles":[{"slug":"2026-03-03","title":"Weekly Medical AI Newsletter #5 (2026/3/3)","description":"Claude Opus 4.5の医療応用評価、日本初のAmbient Documentation臨床試験開始、WHO医療AI倫理ガイドライン改訂、Google Health AIの新展開 ほか","category":"ai-fundamentals","contentType":"news","newsType":"weekly","difficulty":"intermediate","tags":["ニュースレター","医療AI","Claude","Ambient","WHO","Google Health"],"publishedAt":"2026-03-03","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":5,"content":"$2a","coverImage":null},{"slug":"ai-medical-education","title":"医学教育とAI：研修医トレーニングが変わる","description":"症例シミュレーション、フィードバック生成、OSCEの練習相手。AIが医学教育に与えるインパクトと、効果的な活用法","category":"ai-fundamentals","contentType":"article","newsType":"$undefined","difficulty":"beginner","tags":["医学教育","研修医","シミュレーション","OSCE","臨床実習","フィードバック"],"publishedAt":"2026-02-26","updatedAt":"$undefined","author":"kenokamoto","featured":false,"riskLevel":"$undefined","estimatedReadTime":7,"content":"$2b","coverImage":null},{"slug":"ai-safety-for-residents","title":"研修医のためのAI安全ガイド","description":"医療現場でAIを安全に使うための必須知識。個人情報保護、ハルシネーション対策、倫理的配慮を具体例で解説","category":"ai-fundamentals","contentType":"guide","newsType":"$undefined","difficulty":"beginner","tags":["安全","個人情報","倫理","研修医"],"publishedAt":"2026-02-24","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":38,"content":"$2c","coverImage":null}],"relatedCourses":[{"courseId":"ai-basics","title":"AIとは何か - 基礎から理解する人工知能","description":"AIの定義、知能の本質、機械学習の基礎、AIの種類と分類を体系的に学びます","category":"ai-fundamentals","level":"beginner","lessonCount":8,"estimatedTotalMinutes":128,"order":1,"free":true,"learningOutcomes":["AIの定義と種類を正確に説明できる","機械学習の基本的な仕組みを理解できる","AIの現在の能力と限界を区別できる","AIの社会的影響を多角的に評価できる"],"prerequisites":[],"targetAudience":["AIについて初めて学ぶ方","医療分野でAIの基礎知識を得たい方","AI関連のニュースを正しく理解したい方"],"skills":["AI基礎知識","機械学習概論","AI分類"],"coverImage":"$undefined"},{"courseId":"generative-ai-basics","title":"生成AIの基礎 - LLMとTransformerアーキテクチャ","description":"大規模言語モデル（LLM）の仕組み、Transformerアーキテクチャ、学習プロセス、トークン化、注意機構（Attention）の基礎を理解します","category":"ai-fundamentals","level":"beginner","lessonCount":9,"estimatedTotalMinutes":157,"order":2,"free":false,"learningOutcomes":["LLMの基本原理を説明できる","Transformerアーキテクチャの概要を理解できる","主要な生成AIツールの特徴を比較できる","生成AIの限界とリスクを認識できる"],"prerequisites":["ai-basics"],"targetAudience":["生成AIの仕組みを知りたい方","ChatGPTなどのツールを深く理解したい方","AI技術の基盤を学びたい研究者"],"skills":["LLM理解","Transformer","トークン化"],"coverImage":"$undefined"},{"courseId":"machine-learning-fundamentals","title":"機械学習の基礎 - 教師あり・教師なし・強化学習","description":"機械学習の基本概念、教師あり学習、教師なし学習、強化学習、評価指標、特徴量エンジニアリングを体系的に学びます","category":"ai-fundamentals","level":"beginner","lessonCount":8,"estimatedTotalMinutes":128,"order":9,"free":false,"learningOutcomes":["機械学習の三つの学習手法を区別できる","過学習と汎化の概念を正しく説明できる","評価指標（精度、再現率、F値）を医療文脈で解釈できる","特徴量エンジニアリングの基礎を理解できる"],"prerequisites":["ai-basics"],"targetAudience":["AIの基礎を学んだ方","医療データ分析に興味がある方","機械学習の仕組みを理解したい方"],"skills":["機械学習基礎","教師あり学習","モデル評価"],"coverImage":"$undefined"},{"courseId":"statistics-basics-medicine","title":"統計学基礎 - 医療研究に必要な統計","description":"記述統計、推測統計、検定手法、回帰分析、生存分析など医療研究に不可欠な統計学の基礎を学びます","category":"ai-fundamentals","level":"beginner","lessonCount":8,"estimatedTotalMinutes":136,"order":10,"free":false,"learningOutcomes":["記述統計と推測統計の違いを説明できる","p値と信頼区間を正しく解釈できる","適切な統計手法を選択できる","医療論文の統計結果を批判的に読めるようになる"],"prerequisites":["ai-basics"],"targetAudience":["医療研究で統計を使う方","論文の統計手法を理解したい方","AI・機械学習の前提知識として統計を学びたい方"],"skills":["記述統計","推測統計","医療統計"],"coverImage":"$undefined"}]}]
+24:["$","$L2d",null,{}]
+25:["$","$L2e",null,{"article":"$12:3:props:children:1:props:article","nextArticle":"$23:props:relatedArticles:0"}]
+2f:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/eb46a9559e436395.js"],"Callout"]
+27:[["$","h1",null,{"children":"Medical AI Newsletter #4"}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"2026年2月24日号"}]," | 拡張思考・FDA承認・国内保険収載 特集"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"今週のハイライト","children":"今週のハイライト"}],"\n",["$","h3",null,{"id":"claude-37-sonnet拡張思考モード-複雑な臨床推論への応用","children":"Claude 3.7 Sonnet「拡張思考」モード — 複雑な臨床推論への応用"}],"\n",["$","p",null,{"children":["Anthropicが発表した",["$","strong",null,{"children":"Claude 3.7 Sonnet"}],"の「拡張思考（Extended Thinking）」機能が、医療領域での活用に注目を集めています。通常モードよりも多くのトークンを推論に使い、医師のような段階的な鑑別診断プロセスを模倣できる点が特徴です。"]}],"\n",["$","p",null,{"children":"Hoshizu検証チームで試した結果、複雑な感染症ワークアップ（不明熱・多臓器不全の組み合わせ）では、通常モードより鑑別の網羅性と優先順位付けが大幅に改善しました。特に「なぜこの診断が上位にあるのか」の根拠提示が明確になる点が、臨床現場での信頼性確保に有効です。"}],"\n",["$","$L2f",null,{"type":"insight","title":"拡張思考の使いどころ","children":["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"有効"}],": 不明熱、稀な疾患、複数の併存疾患がある複雑症例"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"通常モードで十分"}],": 一般的な主訴、プロトコル確認、患者説明文書の作成"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"コスト注意"}],": トークン消費が多く、日常使いには不向き"]}],"\n"]}]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"id":"fdaai-ecg解析システムを新適応で承認-特発性心室細動の早期検出","children":"FDA、AI ECG解析システムを新適応で承認 — 特発性心室細動の早期検出"}],"\n",["$","p",null,{"children":"FDAが、心電図の微細な波形変化からSudden Cardiac Arrest（SCA）のリスクを事前に検出するAIシステムを承認しました（De Novo申請）。既存の心電図診断AIは主に心房細動・STEMI検出が主軸でしたが、本システムは特発性心室細動の前駆期変化を検出する点で新しいカテゴリです。"}],"\n",["$","p",null,{"children":"承認の根拠となった多施設後向きコホート研究では、SCA発症72時間以内の心電図でAUC 0.83を達成。現行のQT延長モニタリングと組み合わせることで、既存の方法では検出できない30%のSCAリスク患者を特定できると報告されています。"}],"\n",["$","$L2f",null,{"type":"warning","title":"注意点","children":["$","p",null,{"children":"後向きデータのみでの検証であり、前向き介入研究でのアウトカム改善はまだ示されていません。「リスク検出ツール」であり「予後改善ツール」ではない点を認識して使うことが重要です。"}]}],"\n",["$","hr",null,{}],"\n",["$","h3",null,{"id":"国内初-ai内視鏡診断支援システムが保険収載","children":"国内初 — AI内視鏡診断支援システムが保険収載"}],"\n",["$","p",null,{"children":"厚生労働省の中央社会保険医療協議会（中医協）が、大腸がんAI内視鏡診断支援システムへの保険点数収載を正式決定しました。国内初のAI内視鏡診断の保険収載となります。"}],"\n",["$","p",null,{"children":"対象は内視鏡的大腸ポリープ切除術の際のAI補助診断。適切な保険点数（加算方式）が設定され、導入コストの問題で普及が進んでいなかった中小規模の病院・クリニックへの展開加速が期待されます。"}],"\n",["$","$L2f",null,{"type":"info","title":"医師へのアクション","children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"AI支援による過剰切除・過少診断の変化をトラッキングする施設内データ収集の準備を"}],"\n",["$","li",null,{"children":"患者への「AI支援を使用している」というインフォームドコンセントの手続き整備が必要"}],"\n",["$","li",null,{"children":"診療録への記録方法（AI使用の記載義務等）を確認"}],"\n"]}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"注目論文","children":"注目論文"}],"\n",["$","h3",null,{"id":"gptzeroiclr-2026で医療文書ハルシネーション検出論文を発表","children":"GPTZero、ICLR 2026で「医療文書ハルシネーション検出」論文を発表"}],"\n",["$","p",null,{"children":"GPTZeroチームがICLR 2026で発表したプレプリントが注目を集めています。医師向けLLMが生成するサマリー・SOAP note・退院サマリーにおけるファクトエラーを、文書の原文と照合して検出するフレームワークを提案。GPT-4oやClaude 3.5 Sonnetで生成したテキストに対し、精度83%・再現率79%でハルシネーションを検出できると報告しています。"}],"\n",["$","p",null,{"children":"特に「数値の誤り」（薬剤量、検査値の誤記入）の検出精度が高く、医療AIの安全運用に直結するユースケースとして評価されています。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","a",null,{"href":"https://arxiv.org/","children":"arXiv プレプリント"}],"（ICLR 2026 提出版）"]}],"\n"]}],"\n",["$","h3",null,{"id":"llmによる退院サマリー自動生成-多施設rct","children":"LLMによる退院サマリー自動生成 — 多施設RCT"}],"\n",["$","p",null,{"children":"米国3施設での多施設RCTで、LLMが生成した退院サマリーのドラフトと、医師が手書きした従来のサマリーの品質を比較。LLMドラフト＋医師レビュー条件では、サマリー作成時間が平均42分から11分に短縮、かつ情報網羅性スコアは有意に向上しました（p<0.001）。一方、ハルシネーションエラーは全体の4.2%に認められ、医師の最終確認が必須であることが再確認されました。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"対象: 入院患者1,847例"}],"\n",["$","li",null,{"children":"LLMドラフトの採用率: 67%（医師が大幅修正なしに承認）"}],"\n",["$","li",null,{"children":"有害なハルシネーション: 0.3%（薬剤量誤り2例、アレルギー誤記1例）"}],"\n"]}],"\n",["$","h3",null,{"id":"マルチモーダルaiが病理診断医の精度を向上-lancet-oncology","children":"マルチモーダルAIが病理診断医の精度を向上 — Lancet Oncology"}],"\n",["$","p",null,{"children":"乳がん病理診断においてマルチモーダルAI（病理画像＋臨床情報）を使用したグループと、通常診断のみのグループを比較。AI支援グループでは、リンパ節転移の見落とし率が有意に低下（8.3% → 3.1%）し、診断時間も短縮。ただしAIへの過信による「確認省略」が問題となるケースも報告されており、適切なワークフロー設計が鍵となります。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"規制政策動向","children":"規制・政策動向"}],"\n",["$","h3",null,{"id":"pmdaaiワーキンググループ第3回会合-報告公開","children":"PMDA「AIワーキンググループ」第3回会合 報告公開"}],"\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e"]
+30:["$","p",null,{"children":"PMDAのAI対応WGが第3回会合の報告書を公開。主要議題は「AIによる医療機器の継続的学習（Continual Learning）の規制上の扱い」。承認後に性能が変化するAIシステムについて、どこまでの変化が「変更承認不要」の範囲に収まるかのガイドライン策定に向けた議論が進んでいます。"}]
+31:["$","p",null,{"children":"特に注目すべきは「Locked AIとAdaptive AIの定義の整理」。国内製造業者が期待していた「一定範囲内のモデル更新は事後届出で対応可能」という方向性が示唆されました。"}]
+32:["$","h3",null,{"id":"eu-ai-act-医療機器適用ガイダンス草案-パブコメ開始","children":"EU AI Act — 医療機器適用ガイダンス草案 パブコメ開始"}]
+33:["$","p",null,{"children":"欧州委員会が、医療機器に適用されるEU AI ActとMDR（医療機器規則）の関係を整理したガイダンス草案を公開し、パブリックコメントを募集中（締切: 2026年3月31日）。"}]
+34:["$","p",null,{"children":"主要ポイント:"}]
+35:["$","ul",null,{"children":["\n",["$","li",null,{"children":"診断支援AIは原則「High-Risk AI System」に分類"}],"\n",["$","li",null,{"children":"CE-Markとの二重要件をどう効率化するかが焦点"}],"\n",["$","li",null,{"children":"日本企業の欧州展開にも影響大"}],"\n"]}]
+36:["$","hr",null,{}]
+37:["$","h2",null,{"id":"プレプリント注目","children":"プレプリント注目"}]
+38:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"BioMedLM-2"}],": Stanford発、医療専門に特化した14Bパラメータの言語モデル。USMLE Step 1-3で平均85%の正答率を達成 (",["$","a",null,{"href":"https://arxiv.org/","children":"arXiv"}],")"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"RadGraph-2"}],": 放射線レポートから構造化知識グラフを自動構築するNLPフレームワーク、GPT-4oベース (",["$","a",null,{"href":"https://arxiv.org/","children":"arXiv"}],")"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"MedAgentBench"}],": 多段階医療推論のAI評価ベンチマーク。既存のMedQA・MedMCQAとの相関・差異を詳細分析"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Electronic ICU AI"}],": 遠隔ICU集中管理AIの安全性・有効性に関する多施設後向き研究（米国7 ICU、12ヶ月）"]}],"\n"]}]
+39:["$","hr",null,{}]
+3a:["$","h2",null,{"id":"今週のまとめ","children":"今週のまとめ"}]
+3b:["$","$L2f",null,{"type":"comparison","title":"今週の全体像","children":["$","p",null,{"children":"「承認・保険収載」の動きが国内外で加速した一週間でした。FDAの新規適応承認、国内初の内視鏡AI保険収載と、医療AIがいよいよ「研究」から「診療報酬で評価される実診療ツール」へ移行するフェーズに入っています。同時に、LLMハルシネーション検出の研究進展が示すように、安全な実装のための技術的インフラ整備も急速に進んでいます。"}]}]
+3c:["$","p",null,{"children":"「承認されたから安全」ではなく、「適切なワークフローで使う」ことが、これからの医師に求められるリテラシーです。"}]
+3d:["$","hr",null,{}]
+3e:["$","p",null,{"children":["$","em",null,{"children":"次号予告: 3月第1週は「AI研修医教育特集」を予定。シミュレーション・ラーニング×AIの最新動向をお届けします。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+3f:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"Weekly Medical AI Newsletter #4 (2026/2/24) | Hoshizu"}],["$","meta","1",{"name":"description","content":"Claude 3.7 Sonnet拡張思考の臨床推論への応用、FDAのAI心電図解析承認、GPTZero論文ハルシネーション検出、国内初のAI内視鏡システム保険収載 ほか"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/knowledge/2026-02-24"}],["$","meta","4",{"property":"og:title","content":"Weekly Medical AI Newsletter #4 (2026/2/24)"}],["$","meta","5",{"property":"og:description","content":"Claude 3.7 Sonnet拡張思考の臨床推論への応用、FDAのAI心電図解析承認、GPTZero論文ハルシネーション検出、国内初のAI内視鏡システム保険収載 ほか"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2026-02-24"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","11",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","12",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","13",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico"}],["$","link","15",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L3f","16",{}]]

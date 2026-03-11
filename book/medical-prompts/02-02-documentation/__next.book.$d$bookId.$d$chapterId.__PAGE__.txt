@@ -1,0 +1,277 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+f:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonCard"]
+1b:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+1c:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+1d:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+1e:"$Sreact.suspense"
+20:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+21:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T238d,
+## 臨床文書作成の課題とAI
+
+臨床文書の作成は医師の業務時間の大きな部分を占めています。カルテ記載、紹介状、退院サマリー、診断書など、正確性と網羅性が求められる文書作成は、AIの支援によって大幅に効率化できます。
+
+ただし、AIに丸投げするのではなく、適切なプロンプト設計によって質を担保することが重要です。
+
+## SOAP 記録プロンプト
+
+### 基本SOAP作成
+
+<PromptTemplate title="SOAP記録作成プロンプト">
+あなたは経験豊富な内科医です。
+
+以下の診察メモから、SOAP形式のカルテ記載を作成してください。
+
+【診察メモ（箇条書き）】
+[箇条書きの診察メモを入力]
+
+【出力形式】
+S（Subjective）:
+- 主訴を患者の言葉で記載
+- 症状の経過（発症時期、性状、増悪/寛解因子）
+- 関連する陽性症状・陰性症状
+- 日常生活への影響
+
+O（Objective）:
+- バイタルサイン
+- 身体所見（系統的に）
+- 検査結果（異常値はHigh/Lowを明記）
+
+A（Assessment）:
+- 問題リスト（#番号付き）
+- 各問題の評価（鑑別診断を含む）
+- 全体的な病態の解釈
+
+P（Plan）:
+- 各問題に対する計画（検査/治療/フォロー）
+- 患者教育・指導内容
+- 次回予約
+
+【制約】
+- 簡潔かつ必要十分な記載量
+- 略語は標準的な医学略語のみ使用
+- Assessmentでは臨床推論の根拠を明記
+</PromptTemplate>
+
+<ComparisonCard
+  badTitle="メモの丸写しSOAP"
+  badContent="S: 咳が出る。O: 検査した。A: 風邪。P: 薬出した。"
+  goodTitle="構造化されたSOAP"
+  goodContent="S: 3日前からの湿性咳嗽。黄色痰あり。37.5℃の発熱を自覚。呼吸困難感なし。食欲低下あり。既往の喘息増悪なし。
+O: BT 37.8℃, BP 128/78, HR 82, RR 18, SpO2 97%(RA). 咽頭発赤(+), 扁桃腫大(-), 頸部リンパ節腫脹(-). 肺: 右下肺野にcoarse crackles聴取. CRP 4.2↑, WBC 9,800(Neut 72%).
+A: #1 市中肺炎疑い（右下肺野のcrackles + CRP上昇 + 膿性痰）
+   鑑別: 急性気管支炎、喘息急性増悪（既往あるが現在症状なし）
+#2 喘息（安定、今回の増悪なし）
+P: #1 胸部X線オーダー。A-DROPスコア評価。外来治療可能であればAMPC/CVA処方。3日後再診。
+#2 現行の吸入薬継続。呼吸困難出現時は早期受診を指導。"
+/>
+
+### 問題志向型カルテ
+
+<PromptTemplate title="問題志向型カルテ（POMR）作成">
+あなたは総合内科の専門医です。
+
+以下の患者情報から、問題志向型カルテ（POMR）形式でカルテ記載を作成してください。
+
+【患者情報】
+[患者の基本情報、主訴、現病歴、検査結果を入力]
+
+【出力形式】
+1. データベース
+   - 主訴
+   - 現病歴
+   - 既往歴・家族歴・社会歴
+   - 身体所見
+   - 検査結果
+
+2. 問題リスト
+   | # | 問題名 | ステータス | 開始日 |
+   |---|--------|-----------|--------|
+   | 1 | ... | Active | ... |
+
+3. 各問題のSOAP
+   #1 [問題名]
+   S: / O: / A: / P:
+
+4. 全体の治療計画サマリー
+
+問題間の関連性（例：#1と#3は関連）がある場合は明記してください。
+</PromptTemplate>
+
+## 紹介状プロンプト
+
+<PromptTemplate title="紹介状作成プロンプト">
+あなたは[紹介元の診療科]の専門医です。
+
+以下の患者情報から、[紹介先の診療科]宛の紹介状を作成してください。
+
+【患者情報】
+- 年齢/性別: [XX歳][性別]
+- 紹介目的: [精査依頼/治療依頼/セカンドオピニオン]
+- 傷病名: [診断名]
+- 経過: [これまでの経過を箇条書き]
+- 検査結果: [関連する検査結果]
+- 現在の処方: [処方リスト]
+- お願いしたいこと: [具体的な依頼内容]
+
+【出力形式】
+○○科 ○○先生 御侍史
+
+平素より大変お世話になっております。
+下記の患者さんをご紹介申し上げます。
+
+【患者】[年齢][性別]
+【紹介目的】
+【傷病名】
+【経過】（時系列で簡潔に）
+【検査結果】（関連する結果のみ）
+【現在の処方】
+【お願い事項】
+
+何卒よろしくお願い申し上げます。
+
+【制約】
+- 紹介先の専門領域に関連する情報を優先
+- 経過は時系列で簡潔に
+- 不要な情報は省略し、A4用紙1枚以内に収める
+- 丁寧かつ簡潔な文体
+</PromptTemplate>
+
+<PromptTemplate title="紹介状の質チェックプロンプト">
+あなたは医療文書の品質管理の専門家です。
+
+以下の紹介状をレビューし、改善点を指摘してください。
+
+【紹介状】
+[作成した紹介状を貼り付け]
+
+【チェックポイント】
+1. 紹介目的は明確か
+2. 必要な臨床情報は漏れなく含まれているか
+3. 紹介先が必要としない情報が混在していないか
+4. 経過の時系列は正確で分かりやすいか
+5. お願い事項は具体的か
+6. 文体は適切か（敬語、簡潔さ）
+7. 誤字脱字はないか
+
+改善が必要な箇所を具体的に指摘し、修正案を提示してください。
+</PromptTemplate>
+
+## 退院サマリー プロンプト
+
+<PromptTemplate title="退院サマリー作成プロンプト">
+あなたは[診療科]の専門医です。
+
+以下の入院経過から退院サマリーを作成してください。
+
+【入院情報】
+- 入院日/退院日: [日付]
+- 入院時主訴: [主訴]
+- 入院時診断: [診断名]
+- 最終診断: [最終診断名]
+
+【入院中の経過メモ】
+[箇条書きの経過メモ]
+
+【出力形式】
+■ 退院サマリー
+
+【入院期間】○年○月○日〜○年○月○日（○日間）
+【主病名】
+【副病名】
+【入院時現症】（バイタル、身体所見、主要な検査結果）
+【入院の経緯】
+【治療経過】（日付ごとの主要イベントを時系列で）
+【退院時の状態】（バイタル、症状、ADL）
+【退院時処方】
+【退院時指導】
+【今後の方針】
+【外来フォロー】次回予約日、確認事項
+
+【制約】
+- DPC/PDPS対象病院の様式に準拠
+- 主病名はICD-10コード対応可能な名称
+- 治療経過は重要なイベントに絞って記載
+- 退院時処方は用法用量を含める
+</PromptTemplate>
+
+<PromptTemplate title="退院サマリーのブラッシュアップ">
+あなたは医療文書の質管理に携わる専門医です。
+
+以下の退院サマリーのドラフトを、以下の観点からブラッシュアップしてください。
+
+【ドラフト】
+[退院サマリーのドラフトを貼り付け]
+
+【改善の観点】
+1. 医学的正確性: 診断名、治療内容に誤りがないか
+2. 網羅性: 必要な項目が漏れていないか
+3. 簡潔性: 冗長な記載がないか
+4. 時系列の正確性: 経過の日付や順序に矛盾がないか
+5. 退院後の連携: 外来フォロー計画が明確か
+6. 保険査定対応: DPC病名と治療内容の整合性
+
+修正箇所とその理由を明記した上で、修正版を出力してください。
+</PromptTemplate>
+
+## 診断書・各種文書
+
+<PromptTemplate title="診断書作成支援プロンプト">
+あなたは[診療科]の専門医です。
+
+以下の情報から、[文書の種類]を作成してください。
+
+文書の種類: [傷病手当金意見書/障害年金診断書/生命保険診断書/介護保険主治医意見書]
+
+【患者情報】
+- 傷病名: [正式な病名]
+- 発症日: [日付]
+- 初診日: [日付]
+- 現在の状態: [症状・機能レベル]
+- 治療内容: [現在の治療]
+- 就労/日常生活への影響: [具体的に]
+
+【出力形式】
+文書の種類に応じた標準的な書式に準拠して作成。
+医学的根拠に基づく客観的な記載を心がけ、
+評価者が判断しやすい具体的な表現を使用してください。
+
+【制約】
+- 客観的事実に基づく記載
+- 過大・過小な評価を避ける
+- 日常生活動作（ADL）は具体的な場面で記述
+- 予後の見通しは根拠とともに記載
+</PromptTemplate>
+
+<Warning>
+AIが作成した臨床文書は、必ず医師自身が内容を確認し、事実関係を検証してから使用してください。特に紹介状や退院サマリーには法的責任が伴います。AIはドラフト作成の効率化ツールとして使い、最終的な文書の正確性は医師が保証してください。
+</Warning>
+
+<KeyTakeaway>
+臨床文書作成は、AIの活用で最も時間短縮効果が大きい領域の1つです。SOAP記録、紹介状、退院サマリーそれぞれに適したテンプレートを使い、出力後に必ず医師が内容を検証するワークフローを確立してください。特に紹介状では「紹介先が何を知りたいか」、退院サマリーでは「今後の管理に必要な情報は何か」を意識した情報設計が重要です。
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-medical-prompts","lessonSlug":"02-02-documentation"}],["$","$L4",null,{"items":[{"id":"臨床文書作成の課題とai","text":"臨床文書作成の課題とAI","level":2},{"id":"soap-記録プロンプト","text":"SOAP 記録プロンプト","level":2},{"id":"基本soap作成","text":"基本SOAP作成","level":3},{"id":"問題志向型カルテ","text":"問題志向型カルテ","level":3},{"id":"紹介状プロンプト","text":"紹介状プロンプト","level":2},{"id":"退院サマリー-プロンプト","text":"退院サマリー プロンプト","level":2},{"id":"診断書各種文書","text":"診断書・各種文書","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"medical-prompts","bookTitle":"医療者のためのAIプロンプト設計術","chapter":{"slug":"02-02-documentation","title":"臨床文書プロンプト（SOAP・紹介状・退院サマリー）","description":"SOAP記録、紹介状、退院サマリーなど、日常的な臨床文書をAIで効率的に作成するためのプロンプトテンプレート集。","partId":"part02","partTitle":"臨床プロンプトの型","order":6,"partOrder":2,"estimatedMinutes":22,"estimatedReadTime":12,"free":true,"status":"published","tags":["SOAP","紹介状","退院サマリー","カルテ記載","臨床文書"],"content":"$6"},"totalChapters":29}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"臨床文書作成の課題とai","text":"臨床文書作成の課題とAI","level":2},{"id":"soap-記録プロンプト","text":"SOAP 記録プロンプト","level":2},{"id":"基本soap作成","text":"基本SOAP作成","level":3},{"id":"問題志向型カルテ","text":"問題志向型カルテ","level":3},{"id":"紹介状プロンプト","text":"紹介状プロンプト","level":2},{"id":"退院サマリー-プロンプト","text":"退院サマリー プロンプト","level":2},{"id":"診断書各種文書","text":"診断書・各種文書","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","h2",null,{"id":"臨床文書作成の課題とai","children":"臨床文書作成の課題とAI"}],"\n",["$","p",null,{"children":"臨床文書の作成は医師の業務時間の大きな部分を占めています。カルテ記載、紹介状、退院サマリー、診断書など、正確性と網羅性が求められる文書作成は、AIの支援によって大幅に効率化できます。"}],"\n",["$","p",null,{"children":"ただし、AIに丸投げするのではなく、適切なプロンプト設計によって質を担保することが重要です。"}],"\n",["$","h2",null,{"id":"soap-記録プロンプト","children":"SOAP 記録プロンプト"}],"\n",["$","h3",null,{"id":"基本soap作成","children":"基本SOAP作成"}],"\n",["$","$Le",null,{"title":"SOAP記録作成プロンプト","children":[["$","p",null,{"children":"あなたは経験豊富な内科医です。"}],["$","p",null,{"children":"以下の診察メモから、SOAP形式のカルテ記載を作成してください。"}],["$","p",null,{"children":"【診察メモ（箇条書き）】\n[箇条書きの診察メモを入力]"}],["$","p",null,{"children":"【出力形式】\nS（Subjective）:"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"主訴を患者の言葉で記載"}],"\n",["$","li",null,{"children":"症状の経過（発症時期、性状、増悪/寛解因子）"}],"\n",["$","li",null,{"children":"関連する陽性症状・陰性症状"}],"\n",["$","li",null,{"children":"日常生活への影響"}],"\n"]}],["$","p",null,{"children":"O（Objective）:"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"バイタルサイン"}],"\n",["$","li",null,{"children":"身体所見（系統的に）"}],"\n",["$","li",null,{"children":"検査結果（異常値はHigh/Lowを明記）"}],"\n"]}],["$","p",null,{"children":"A（Assessment）:"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"問題リスト（#番号付き）"}],"\n",["$","li",null,{"children":"各問題の評価（鑑別診断を含む）"}],"\n",["$","li",null,{"children":"全体的な病態の解釈"}],"\n"]}],["$","p",null,{"children":"P（Plan）:"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"各問題に対する計画（検査/治療/フォロー）"}],"\n",["$","li",null,{"children":"患者教育・指導内容"}],"\n",["$","li",null,{"children":"次回予約"}],"\n"]}],["$","p",null,{"children":"【制約】"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"簡潔かつ必要十分な記載量"}],"\n",["$","li",null,{"children":"略語は標準的な医学略語のみ使用"}],"\n",["$","li",null,{"children":"Assessmentでは臨床推論の根拠を明記"}],"\n"]}]]}],"\n",["$","$Lf",null,{"badTitle":"メモの丸写しSOAP","badContent":"S: 咳が出る。O: 検査した。A: 風邪。P: 薬出した。","goodTitle":"構造化されたSOAP","goodContent":"S: 3日前からの湿性咳嗽。黄色痰あり。37.5℃の発熱を自覚。呼吸困難感なし。食欲低下あり。既往の喘息増悪なし。\nO: BT 37.8℃, BP 128/78, HR 82, RR 18, SpO2 97%(RA). 咽頭発赤(+), 扁桃腫大(-), 頸部リンパ節腫脹(-). 肺: 右下肺野にcoarse crackles聴取. CRP 4.2↑, WBC 9,800(Neut 72%).\nA: #1 市中肺炎疑い（右下肺野のcrackles + CRP上昇 + 膿性痰）\n鑑別: 急性気管支炎、喘息急性増悪（既往あるが現在症状なし）\n#2 喘息（安定、今回の増悪なし）\nP: #1 胸部X線オーダー。A-DROPスコア評価。外来治療可能であればAMPC/CVA処方。3日後再診。\n#2 現行の吸入薬継続。呼吸困難出現時は早期受診を指導。"}],"\n",["$","h3",null,{"id":"問題志向型カルテ","children":"問題志向型カルテ"}],"\n",["$","$Le",null,{"title":"問題志向型カルテ（POMR）作成","children":[["$","p",null,{"children":"あなたは総合内科の専門医です。"}],["$","p",null,{"children":"以下の患者情報から、問題志向型カルテ（POMR）形式でカルテ記載を作成してください。"}],["$","p",null,{"children":"【患者情報】\n[患者の基本情報、主訴、現病歴、検査結果を入力]"}],["$","p",null,{"children":"【出力形式】"}],["$","ol",null,{"children":["\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"データベース"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"主訴"}],"\n",["$","li",null,{"children":"現病歴"}],"\n",["$","li",null,{"children":"既往歴・家族歴・社会歴"}],"\n",["$","li",null,{"children":"身体所見"}],"\n",["$","li",null,{"children":"検査結果"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"問題リスト"}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"#"}],["$","th",null,{"children":"問題名"}],["$","th",null,{"children":"ステータス"}],["$","th",null,{"children":"開始日"}]]}]}],["$","tbody",null,{"children":["$","tr",null,{"children":[["$","td",null,{"children":"1"}],["$","td",null,{"children":"..."}],["$","td",null,{"children":"Active"}],["$","td",null,{"children":"..."}]]}]}]]}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"各問題のSOAP\n#1 [問題名]\nS: / O: / A: / P:"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"全体の治療計画サマリー"}],"\n"]}],"\n"]}],["$","p",null,{"children":"問題間の関連性（例：#1と#3は関連）がある場合は明記してください。"}]]}],"\n",["$","h2",null,{"id":"紹介状プロンプト","children":"紹介状プロンプト"}],"\n",["$","$Le",null,{"title":"紹介状作成プロンプト","children":[["$","p",null,{"children":"あなたは[紹介元の診療科]の専門医です。"}],["$","p",null,{"children":"以下の患者情報から、[紹介先の診療科]宛の紹介状を作成してください。"}],["$","p",null,{"children":"【患者情報】"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"年齢/性別: [XX歳][性別]"}],"\n",["$","li",null,{"children":"紹介目的: [精査依頼/治療依頼/セカンドオピニオン]"}],"\n",["$","li",null,{"children":"傷病名: [診断名]"}],"\n",["$","li",null,{"children":"経過: [これまでの経過を箇条書き]"}],"\n",["$","li",null,{"children":"検査結果: [関連する検査結果]"}],"\n",["$","li",null,{"children":"現在の処方: [処方リスト]"}],"\n",["$","li",null,{"children":"お願いしたいこと: [具体的な依頼内容]"}],"\n"]}],["$","p",null,{"children":"【出力形式】\n○○科 ○○先生 御侍史"}],["$","p",null,{"children":"平素より大変お世話になっております。\n下記の患者さんをご紹介申し上げます。"}],["$","p",null,{"children":"【患者】[年齢][性別]\n【紹介目的】\n【傷病名】\n【経過】（時系列で簡潔に）\n【検査結果】（関連する結果のみ）\n【現在の処方】\n【お願い事項】"}],["$","p",null,{"children":"何卒よろしくお願い申し上げます。"}],["$","p",null,{"children":"【制約】"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"紹介先の専門領域に関連する情報を優先"}],"\n","$L10","\n","$L11","\n","$L12","\n"]}]]}],"\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a"]}]
+9:["$","$L1b",null,{"bookId":"medical-prompts","chapterSlug":"02-02-documentation"}]
+a:["$","$L1c",null,{"bookId":"medical-prompts","prev":{"slug":"02-01-differential-diagnosis","title":"鑑別診断プロンプトの型","order":5},"next":{"slug":"02-03-patient-explanation","title":"患者説明プロンプト（リテラシー別対応）","order":7}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L1d",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+10:["$","li",null,{"children":"経過は時系列で簡潔に"}]
+11:["$","li",null,{"children":"不要な情報は省略し、A4用紙1枚以内に収める"}]
+12:["$","li",null,{"children":"丁寧かつ簡潔な文体"}]
+13:["$","$Le",null,{"title":"紹介状の質チェックプロンプト","children":[["$","p",null,{"children":"あなたは医療文書の品質管理の専門家です。"}],["$","p",null,{"children":"以下の紹介状をレビューし、改善点を指摘してください。"}],["$","p",null,{"children":"【紹介状】\n[作成した紹介状を貼り付け]"}],["$","p",null,{"children":"【チェックポイント】"}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"紹介目的は明確か"}],"\n",["$","li",null,{"children":"必要な臨床情報は漏れなく含まれているか"}],"\n",["$","li",null,{"children":"紹介先が必要としない情報が混在していないか"}],"\n",["$","li",null,{"children":"経過の時系列は正確で分かりやすいか"}],"\n",["$","li",null,{"children":"お願い事項は具体的か"}],"\n",["$","li",null,{"children":"文体は適切か（敬語、簡潔さ）"}],"\n",["$","li",null,{"children":"誤字脱字はないか"}],"\n"]}],["$","p",null,{"children":"改善が必要な箇所を具体的に指摘し、修正案を提示してください。"}]]}]
+14:["$","h2",null,{"id":"退院サマリー-プロンプト","children":"退院サマリー プロンプト"}]
+15:["$","$Le",null,{"title":"退院サマリー作成プロンプト","children":[["$","p",null,{"children":"あなたは[診療科]の専門医です。"}],["$","p",null,{"children":"以下の入院経過から退院サマリーを作成してください。"}],["$","p",null,{"children":"【入院情報】"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"入院日/退院日: [日付]"}],"\n",["$","li",null,{"children":"入院時主訴: [主訴]"}],"\n",["$","li",null,{"children":"入院時診断: [診断名]"}],"\n",["$","li",null,{"children":"最終診断: [最終診断名]"}],"\n"]}],["$","p",null,{"children":"【入院中の経過メモ】\n[箇条書きの経過メモ]"}],["$","p",null,{"children":"【出力形式】\n■ 退院サマリー"}],["$","p",null,{"children":"【入院期間】○年○月○日〜○年○月○日（○日間）\n【主病名】\n【副病名】\n【入院時現症】（バイタル、身体所見、主要な検査結果）\n【入院の経緯】\n【治療経過】（日付ごとの主要イベントを時系列で）\n【退院時の状態】（バイタル、症状、ADL）\n【退院時処方】\n【退院時指導】\n【今後の方針】\n【外来フォロー】次回予約日、確認事項"}],["$","p",null,{"children":"【制約】"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"DPC/PDPS対象病院の様式に準拠"}],"\n",["$","li",null,{"children":"主病名はICD-10コード対応可能な名称"}],"\n",["$","li",null,{"children":"治療経過は重要なイベントに絞って記載"}],"\n",["$","li",null,{"children":"退院時処方は用法用量を含める"}],"\n"]}]]}]
+16:["$","$Le",null,{"title":"退院サマリーのブラッシュアップ","children":[["$","p",null,{"children":"あなたは医療文書の質管理に携わる専門医です。"}],["$","p",null,{"children":"以下の退院サマリーのドラフトを、以下の観点からブラッシュアップしてください。"}],["$","p",null,{"children":"【ドラフト】\n[退院サマリーのドラフトを貼り付け]"}],["$","p",null,{"children":"【改善の観点】"}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"医学的正確性: 診断名、治療内容に誤りがないか"}],"\n",["$","li",null,{"children":"網羅性: 必要な項目が漏れていないか"}],"\n",["$","li",null,{"children":"簡潔性: 冗長な記載がないか"}],"\n",["$","li",null,{"children":"時系列の正確性: 経過の日付や順序に矛盾がないか"}],"\n",["$","li",null,{"children":"退院後の連携: 外来フォロー計画が明確か"}],"\n",["$","li",null,{"children":"保険査定対応: DPC病名と治療内容の整合性"}],"\n"]}],["$","p",null,{"children":"修正箇所とその理由を明記した上で、修正版を出力してください。"}]]}]
+17:["$","h2",null,{"id":"診断書各種文書","children":"診断書・各種文書"}]
+18:["$","$Le",null,{"title":"診断書作成支援プロンプト","children":[["$","p",null,{"children":"あなたは[診療科]の専門医です。"}],["$","p",null,{"children":"以下の情報から、[文書の種類]を作成してください。"}],["$","p",null,{"children":"文書の種類: [傷病手当金意見書/障害年金診断書/生命保険診断書/介護保険主治医意見書]"}],["$","p",null,{"children":"【患者情報】"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"傷病名: [正式な病名]"}],"\n",["$","li",null,{"children":"発症日: [日付]"}],"\n",["$","li",null,{"children":"初診日: [日付]"}],"\n",["$","li",null,{"children":"現在の状態: [症状・機能レベル]"}],"\n",["$","li",null,{"children":"治療内容: [現在の治療]"}],"\n",["$","li",null,{"children":"就労/日常生活への影響: [具体的に]"}],"\n"]}],["$","p",null,{"children":"【出力形式】\n文書の種類に応じた標準的な書式に準拠して作成。\n医学的根拠に基づく客観的な記載を心がけ、\n評価者が判断しやすい具体的な表現を使用してください。"}],["$","p",null,{"children":"【制約】"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"客観的事実に基づく記載"}],"\n",["$","li",null,{"children":"過大・過小な評価を避ける"}],"\n",["$","li",null,{"children":"日常生活動作（ADL）は具体的な場面で記述"}],"\n",["$","li",null,{"children":"予後の見通しは根拠とともに記載"}],"\n"]}]]}]
+19:["$","$L20",null,{"children":["$","p",null,{"children":"AIが作成した臨床文書は、必ず医師自身が内容を確認し、事実関係を検証してから使用してください。特に紹介状や退院サマリーには法的責任が伴います。AIはドラフト作成の効率化ツールとして使い、最終的な文書の正確性は医師が保証してください。"}]}]
+1a:["$","$L21",null,{"children":["$","p",null,{"children":"臨床文書作成は、AIの活用で最も時間短縮効果が大きい領域の1つです。SOAP記録、紹介状、退院サマリーそれぞれに適したテンプレートを使い、出力後に必ず医師が内容を検証するワークフローを確立してください。特に紹介状では「紹介先が何を知りたいか」、退院サマリーでは「今後の管理に必要な情報は何か」を意識した情報設計が重要です。"}]}]
+1f:null

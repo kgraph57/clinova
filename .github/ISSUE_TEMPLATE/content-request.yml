@@ -1,0 +1,28 @@
+name: Content Request
+description: コンテンツの追加・修正を提案する
+labels: ["content"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: コンテンツタイプ
+      options:
+        - プロンプト
+        - Tips
+        - ガイド
+        - 記事
+        - 用語
+        - ツール情報
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 内容の説明
+      placeholder: どのようなコンテンツを追加・修正したいですか？
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: 参考文献・リンク

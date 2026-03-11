@@ -1,0 +1,205 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+17:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+18:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+19:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+1a:"$Sreact.suspense"
+1c:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T1709,
+Claude Codeは、ローカルのファイルシステムとWebだけで動作するわけではない。MCPを通じて、GitHub、データベース、外部API、あらゆるサービスと連携できる。
+
+---
+
+## MCPとは何か
+
+MCP（Model Context Protocol） は、AIモデルと外部ツール・データソースを接続するためのオープンプロトコルだ。Anthropicが策定し、オープンスタンダードとして公開している。
+
+簡単に言えば、MCPは「AIにプラグインを追加する仕組み」である。
+
+Claude Codeは標準でファイル操作やBash実行ができるが、MCPサーバーを追加することで、以下のような機能を得られる。
+
+- GitHub: Issue、PR、リポジトリ操作を認証付きで実行
+- データベース: PostgreSQL、MySQL等へのクエリ実行
+- Slack: メッセージの送受信
+- Google Drive: ドキュメントの読み書き
+- カスタムAPI: 任意のREST/GraphQL APIとの連携
+
+---
+
+## MCPの仕組み
+
+```
+Claude Code ←→ MCP Client ←→ MCP Server ←→ 外部サービス
+```
+
+1. Claude Codeが「GitHubのIssue一覧を取得したい」と判断する
+2. MCP ClientがMCP Serverにリクエストを送信する
+3. MCP ServerがGitHub APIを呼び出す
+4. 結果がClaude Codeに返される
+
+この仕組みにより、Claude Code自体を改造することなく、新しいサービスとの連携を追加できる。
+
+---
+
+## MCPサーバーの設定
+
+settings.jsonにMCPサーバーの設定を追加する。
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_TOKEN": "ghp_xxxxxxxxxx"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/dir"]
+    }
+  }
+}
+```
+
+### 設定のポイント
+
+- `command`: MCPサーバーの起動コマンド
+- `args`: コマンドの引数
+- `env`: 環境変数（APIトークン等）
+
+<Callout type="warning" title="トークンの管理">
+MCPサーバーの設定に含まれるAPIトークンは、settings.jsonに直接記述される。このファイルをGitにコミットしないよう注意すること。グローバル設定（~/.claude/settings.json）に書くか、環境変数経由で渡すことを推奨する。
+</Callout>
+
+---
+
+## よく使うMCPサーバー
+
+### GitHub MCP Server
+
+GitHubのIssue、PR、リポジトリを直接操作できる。
+
+```
+> このリポジトリのオープンなIssueを一覧表示して
+> Issue #42 にコメントを追加して
+> PRのレビューコメントを取得して
+```
+
+### Filesystem MCP Server
+
+追加のファイルシステムアクセスを提供する。特定のディレクトリへのアクセスを安全に制限できる。
+
+### Database MCP Server
+
+PostgreSQLやMySQLに直接クエリを実行できる。
+
+```
+> patientsテーブルから年齢が10歳未満のレコードを取得して
+```
+
+---
+
+## MCPのセキュリティ
+
+MCPは強力だが、セキュリティ上の考慮が必要だ。
+
+### 最小権限
+
+MCPサーバーに渡すトークンの権限は最小限にする。GitHubトークンなら、必要なリポジトリとスコープだけに限定する。
+
+### アクセス制限
+
+Filesystem MCPサーバーでは、アクセスを許可するディレクトリを明示的に指定する。ルートディレクトリや機密ファイルを含むディレクトリへのアクセスは与えない。
+
+### 監査
+
+MCPサーバー経由のすべての操作は、Claude Codeのパーミッションシステムを通過する。不審な操作は確認ダイアログで阻止できる。
+
+---
+
+## カスタムMCPサーバーの構築
+
+既存のMCPサーバーでは対応できないサービスとの連携が必要な場合、カスタムMCPサーバーを構築できる。
+
+### 基本構造
+
+```typescript
+import { Server } from "@modelcontextprotocol/sdk/server";
+
+const server = new Server({
+  name: "my-custom-server",
+  version: "1.0.0"
+});
+
+// ツール定義
+server.setRequestHandler("tools/list", async () => ({
+  tools: [{
+    name: "get_patient_count",
+    description: "患者数を取得する",
+    inputSchema: {
+      type: "object",
+      properties: {
+        department: { type: "string" }
+      }
+    }
+  }]
+}));
+
+// ツール実行
+server.setRequestHandler("tools/call", async (request) => {
+  if (request.params.name === "get_patient_count") {
+    // 実際のAPI呼び出し
+    return { content: [{ type: "text", text: "42" }] };
+  }
+});
+```
+
+### 医療現場での応用例
+
+- 電子カルテAPI連携: 患者データの読み取り（読み取り専用で安全に）
+- DICOM画像サーバー: 医用画像の検索と表示
+- 薬剤データベース: 薬剤情報の検索と相互作用チェック
+- ガイドラインデータベース: 最新の診療ガイドラインの検索
+
+---
+
+## MCPの未来
+
+MCPはオープンスタンダードとして急速に成長している。
+
+- エコシステムの拡大: 新しいMCPサーバーが日々公開されている
+- 標準化: 他のAIプラットフォームもMCPを採用し始めている
+- セキュリティ強化: 認証・認可の標準化が進行中
+
+MCPを理解しておくことは、Claude Codeだけでなく、AI開発全般の未来を見据える上で重要な投資だ。
+
+<KeyTakeaway>
+- MCPはAIモデルと外部サービスを接続するオープンプロトコル
+- GitHub、データベース、ファイルシステム等のMCPサーバーが利用可能
+- settings.jsonのmcpServers設定でMCPサーバーを追加する
+- トークンの管理とアクセス制限に注意し、最小権限の原則を守る
+- カスタムMCPサーバーを構築して独自のサービスと連携できる
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"03-04-mcp"}],["$","$L4",null,{"items":[{"id":"mcpとは何か","text":"MCPとは何か","level":2},{"id":"mcpの仕組み","text":"MCPの仕組み","level":2},{"id":"mcpサーバーの設定","text":"MCPサーバーの設定","level":2},{"id":"設定のポイント","text":"設定のポイント","level":3},{"id":"よく使うmcpサーバー","text":"よく使うMCPサーバー","level":2},{"id":"github-mcp-server","text":"GitHub MCP Server","level":3},{"id":"filesystem-mcp-server","text":"Filesystem MCP Server","level":3},{"id":"database-mcp-server","text":"Database MCP Server","level":3},{"id":"mcpのセキュリティ","text":"MCPのセキュリティ","level":2},{"id":"最小権限","text":"最小権限","level":3},{"id":"アクセス制限","text":"アクセス制限","level":3},{"id":"監査","text":"監査","level":3},{"id":"カスタムmcpサーバーの構築","text":"カスタムMCPサーバーの構築","level":2},{"id":"基本構造","text":"基本構造","level":3},{"id":"医療現場での応用例","text":"医療現場での応用例","level":3},{"id":"mcpの未来","text":"MCPの未来","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"03-04-mcp","title":"MCP Servers — 外部世界とつながる","description":"Model Context Protocol（MCP）でClaude Codeの能力を拡張する。GitHub、データベース、外部APIとの連携方法を扱う。","partId":"part03","partTitle":"カスタマイズ","order":11,"partOrder":3,"estimatedMinutes":20,"estimatedReadTime":6,"free":true,"status":"published","tags":["MCP","Model Context Protocol","拡張","API","連携"],"content":"$6"},"totalChapters":26}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"mcpとは何か","text":"MCPとは何か","level":2},{"id":"mcpの仕組み","text":"MCPの仕組み","level":2},{"id":"mcpサーバーの設定","text":"MCPサーバーの設定","level":2},{"id":"設定のポイント","text":"設定のポイント","level":3},{"id":"よく使うmcpサーバー","text":"よく使うMCPサーバー","level":2},{"id":"github-mcp-server","text":"GitHub MCP Server","level":3},{"id":"filesystem-mcp-server","text":"Filesystem MCP Server","level":3},{"id":"database-mcp-server","text":"Database MCP Server","level":3},{"id":"mcpのセキュリティ","text":"MCPのセキュリティ","level":2},{"id":"最小権限","text":"最小権限","level":3},{"id":"アクセス制限","text":"アクセス制限","level":3},{"id":"監査","text":"監査","level":3},{"id":"カスタムmcpサーバーの構築","text":"カスタムMCPサーバーの構築","level":2},{"id":"基本構造","text":"基本構造","level":3},{"id":"医療現場での応用例","text":"医療現場での応用例","level":3},{"id":"mcpの未来","text":"MCPの未来","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"Claude Codeは、ローカルのファイルシステムとWebだけで動作するわけではない。MCPを通じて、GitHub、データベース、外部API、あらゆるサービスと連携できる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"mcpとは何か","children":"MCPとは何か"}],"\n",["$","p",null,{"children":"MCP（Model Context Protocol） は、AIモデルと外部ツール・データソースを接続するためのオープンプロトコルだ。Anthropicが策定し、オープンスタンダードとして公開している。"}],"\n",["$","p",null,{"children":"簡単に言えば、MCPは「AIにプラグインを追加する仕組み」である。"}],"\n",["$","p",null,{"children":"Claude Codeは標準でファイル操作やBash実行ができるが、MCPサーバーを追加することで、以下のような機能を得られる。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"GitHub: Issue、PR、リポジトリ操作を認証付きで実行"}],"\n",["$","li",null,{"children":"データベース: PostgreSQL、MySQL等へのクエリ実行"}],"\n",["$","li",null,{"children":"Slack: メッセージの送受信"}],"\n",["$","li",null,{"children":"Google Drive: ドキュメントの読み書き"}],"\n",["$","li",null,{"children":"カスタムAPI: 任意のREST/GraphQL APIとの連携"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"mcpの仕組み","children":"MCPの仕組み"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"Claude Code ←→ MCP Client ←→ MCP Server ←→ 外部サービス\n"}]}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"Claude Codeが「GitHubのIssue一覧を取得したい」と判断する"}],"\n",["$","li",null,{"children":"MCP ClientがMCP Serverにリクエストを送信する"}],"\n",["$","li",null,{"children":"MCP ServerがGitHub APIを呼び出す"}],"\n",["$","li",null,{"children":"結果がClaude Codeに返される"}],"\n"]}],"\n",["$","p",null,{"children":"この仕組みにより、Claude Code自体を改造することなく、新しいサービスとの連携を追加できる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"mcpサーバーの設定","children":"MCPサーバーの設定"}],"\n",["$","p",null,{"children":"settings.jsonにMCPサーバーの設定を追加する。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-json","children":"{\n  \"mcpServers\": {\n    \"github\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-github\"],\n      \"env\": {\n        \"GITHUB_TOKEN\": \"ghp_xxxxxxxxxx\"\n      }\n    },\n    \"filesystem\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-filesystem\", \"/path/to/allowed/dir\"]\n    }\n  }\n}\n"}]}],"\n",["$","h3",null,{"id":"設定のポイント","children":"設定のポイント"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"command"}],": MCPサーバーの起動コマンド"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"args"}],": コマンドの引数"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"env"}],": 環境変数（APIトークン等）"]}],"\n"]}],"\n",["$","$Le",null,{"type":"warning","title":"トークンの管理","children":["$","p",null,{"children":"MCPサーバーの設定に含まれるAPIトークンは、settings.jsonに直接記述される。このファイルをGitにコミットしないよう注意すること。グローバル設定（~/.claude/settings.json）に書くか、環境変数経由で渡すことを推奨する。"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"よく使うmcpサーバー","children":"よく使うMCPサーバー"}],"\n",["$","h3",null,{"id":"github-mcp-server","children":"GitHub MCP Server"}],"\n",["$","p",null,{"children":"GitHubのIssue、PR、リポジトリを直接操作できる。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> このリポジトリのオープンなIssueを一覧表示して\n> Issue #42 にコメントを追加して\n> PRのレビューコメントを取得して\n"}]}],"\n",["$","h3",null,{"id":"filesystem-mcp-server","children":"Filesystem MCP Server"}],"\n",["$","p",null,{"children":"追加のファイルシステムアクセスを提供する。特定のディレクトリへのアクセスを安全に制限できる。"}],"\n",["$","h3",null,{"id":"database-mcp-server","children":"Database MCP Server"}],"\n",["$","p",null,{"children":"PostgreSQLやMySQLに直接クエリを実行できる。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> patientsテーブルから年齢が10歳未満のレコードを取得して\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"mcpのセキュリティ","children":"MCPのセキュリティ"}],"\n",["$","p",null,{"children":"MCPは強力だが、セキュリティ上の考慮が必要だ。"}],"\n",["$","h3",null,{"id":"最小権限","children":"最小権限"}],"\n",["$","p",null,{"children":"MCPサーバーに渡すトークンの権限は最小限にする。GitHubトークンなら、必要なリポジトリとスコープだけに限定する。"}],"\n",["$","h3",null,{"id":"アクセス制限","children":"アクセス制限"}],"\n",["$","p",null,{"children":"Filesystem MCPサーバーでは、アクセスを許可するディレクトリを明示的に指定する。ルートディレクトリや機密ファイルを含むディレクトリへのアクセスは与えない。"}],"\n",["$","h3",null,{"id":"監査","children":"監査"}],"\n",["$","p",null,{"children":"MCPサーバー経由のすべての操作は、Claude Codeのパーミッションシステムを通過する。不審な操作は確認ダイアログで阻止できる。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"カスタムmcpサーバーの構築","children":"カスタムMCPサーバーの構築"}],"\n",["$","p",null,{"children":"既存のMCPサーバーでは対応できないサービスとの連携が必要な場合、カスタムMCPサーバーを構築できる。"}],"\n",["$","h3",null,{"id":"基本構造","children":"基本構造"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-typescript","children":"import { Server } from \"@modelcontextprotocol/sdk/server\";\n\nconst server = new Server({\n  name: \"my-custom-server\",\n  version: \"1.0.0\"\n});\n\n// ツール定義\nserver.setRequestHandler(\"tools/list\", async () => ({\n  tools: [{\n    name: \"get_patient_count\",\n    description: \"患者数を取得する\",\n    inputSchema: {\n      type: \"object\",\n      properties: {\n        department: { type: \"string\" }\n      }\n    }\n  }]\n}));\n\n// ツール実行\nserver.setRequestHandler(\"tools/call\", async (request) => {\n  if (request.params.name === \"get_patient_count\") {\n    // 実際のAPI呼び出し\n    return { content: [{ type: \"text\", text: \"42\" }] };\n  }\n});\n"}]}],"\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16"]}]
+9:["$","$L17",null,{"bookId":"claude-code","chapterSlug":"03-04-mcp"}]
+a:["$","$L18",null,{"bookId":"claude-code","prev":{"slug":"03-03-agents","title":"Agents — 専門家チームを編成する","order":10},"next":{"slug":"04-01-git-workflow","title":"Git連携 — コミットからPRまでをAIと共に","order":12}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L19",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1b"}]}]
+f:["$","h3",null,{"id":"医療現場での応用例","children":"医療現場での応用例"}]
+10:["$","ul",null,{"children":["\n",["$","li",null,{"children":"電子カルテAPI連携: 患者データの読み取り（読み取り専用で安全に）"}],"\n",["$","li",null,{"children":"DICOM画像サーバー: 医用画像の検索と表示"}],"\n",["$","li",null,{"children":"薬剤データベース: 薬剤情報の検索と相互作用チェック"}],"\n",["$","li",null,{"children":"ガイドラインデータベース: 最新の診療ガイドラインの検索"}],"\n"]}]
+11:["$","hr",null,{}]
+12:["$","h2",null,{"id":"mcpの未来","children":"MCPの未来"}]
+13:["$","p",null,{"children":"MCPはオープンスタンダードとして急速に成長している。"}]
+14:["$","ul",null,{"children":["\n",["$","li",null,{"children":"エコシステムの拡大: 新しいMCPサーバーが日々公開されている"}],"\n",["$","li",null,{"children":"標準化: 他のAIプラットフォームもMCPを採用し始めている"}],"\n",["$","li",null,{"children":"セキュリティ強化: 認証・認可の標準化が進行中"}],"\n"]}]
+15:["$","p",null,{"children":"MCPを理解しておくことは、Claude Codeだけでなく、AI開発全般の未来を見据える上で重要な投資だ。"}]
+16:["$","$L1c",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"MCPはAIモデルと外部サービスを接続するオープンプロトコル"}],"\n",["$","li",null,{"children":"GitHub、データベース、ファイルシステム等のMCPサーバーが利用可能"}],"\n",["$","li",null,{"children":"settings.jsonのmcpServers設定でMCPサーバーを追加する"}],"\n",["$","li",null,{"children":"トークンの管理とアクセス制限に注意し、最小権限の原則を守る"}],"\n",["$","li",null,{"children":"カスタムMCPサーバーを構築して独自のサービスと連携できる"}],"\n"]}]}]
+1b:null

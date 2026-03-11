@@ -1,0 +1,270 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+d:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+e:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+2f:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+30:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+31:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+32:"$Sreact.suspense"
+34:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+6:T1ace,
+5分でインストールし、最初のコマンドを打つ。Claude Codeの世界への入り口は驚くほどシンプルだ。
+
+---
+
+## 前提条件
+
+Claude Codeを使うには、以下が必要である。
+
+### 必須
+
+- Node.js 18以上: JavaScript実行環境。Claude Codeはnpmパッケージとして配布されている
+- Anthropic APIキー または Claude Max/Teamサブスクリプション: AIを動かすための認証
+
+### 推奨
+
+- Git: バージョン管理（Claude Codeのgit連携機能を使うために必要）
+- VSCode: IDE連携（Claude Code VSCode拡張機能が利用可能）
+
+<Callout type="info" title="Node.jsが入っていない場合">
+macOSなら `brew install node`、Linuxなら `sudo apt install nodejs npm` でインストールできる。バージョンは `node --version` で確認する。v18以上が必要。
+</Callout>
+
+---
+
+## インストール手順
+
+### Step 1: npmでインストール
+
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+グローバルインストールにより、どのディレクトリからでも `claude` コマンドが使えるようになる。
+
+### Step 2: 初回起動
+
+```bash
+claude
+```
+
+初回起動時に、認証方法の選択を求められる。
+
+### Step 3: 認証
+
+認証には2つの方法がある。
+
+方法A: Anthropic APIキー
+
+```bash
+export ANTHROPIC_API_KEY="sk-ant-api03-xxxxxxxxxxxxx"
+```
+
+APIキーは [console.anthropic.com](https://console.anthropic.com) で取得できる。`.bashrc` や `.zshrc` に追加しておくと、毎回設定する必要がなくなる。
+
+方法B: Claude Max / Teamサブスクリプション
+
+Claude MaxまたはTeamプランに加入している場合、ブラウザ認証で連携できる。初回起動時に表示されるURLをブラウザで開き、認証を完了する。
+
+<Callout type="warning" title="APIキーの取り扱い">
+APIキーは秘密鍵だ。GitHubにpushしたり、他人と共有してはならない。`.env` ファイルや環境変数で管理し、`.gitignore` に含めること。
+</Callout>
+
+---
+
+## 動作確認
+
+インストールと認証が完了したら、プロジェクトディレクトリに移動して起動する。
+
+```bash
+cd ~/my-project
+claude
+```
+
+以下のようなウェルカム画面が表示されれば成功だ。
+
+```
+╭──────────────────────────────────────────────╮
+│ ✻ Welcome to Claude Code!                     │
+│                                               │
+│   /help for commands, /status for settings    │
+╰──────────────────────────────────────────────╯
+
+>
+```
+
+試しに簡単な質問をしてみよう。
+
+```
+> このディレクトリにはどんなファイルがある？
+```
+
+Claude Codeがファイル一覧を表示し、プロジェクトの概要を説明してくれれば、セットアップは完了である。
+
+---
+
+## VSCode連携
+
+Claude CodeにはVSCode拡張機能が用意されている。
+
+### インストール方法
+
+1. VSCodeの拡張機能マーケットプレイスで「Claude Code」を検索
+2. Anthropic公式の拡張機能をインストール
+3. VSCode内のターミナルパネルで `claude` コマンドが使えるようになる
+
+### VSCode連携の利点
+
+- ファイル参照がクリック可能: Claude Codeが出力するファイルパスをクリックすると、VSCodeでそのファイルが開く
+- 選択範囲の送信: エディタでコードを選択した状態でClaude Codeに質問すると、選択箇所が自動的にコンテキストに含まれる
+- 統合ターミナル: VSCodeのターミナル内でClaude Codeを起動できるため、エディタとの行き来がスムーズ
+
+---
+
+## プラットフォーム別の注意点
+
+### macOS
+
+最もスムーズに動作するプラットフォーム。Homebrewでnpmを管理している場合は特に問題ない。
+
+```bash
+brew install node
+npm install -g @anthropic-ai/claude-code
+```
+
+### Linux (Ubuntu/Debian)
+
+```bash
+sudo apt update
+sudo apt install nodejs npm
+npm install -g @anthropic-ai/claude-code
+```
+
+Node.jsのバージョンが古い場合は、[nvm](https://github.com/nvm-sh/nvm)を使って最新版を管理するのが推奨される。
+
+### Windows (WSL)
+
+Claude CodeはネイティブWindowsでは動作しない。WSL（Windows Subsystem for Linux）が必要だ。
+
+```bash
+# WSLのUbuntu内で
+sudo apt update
+sudo apt install nodejs npm
+npm install -g @anthropic-ai/claude-code
+```
+
+WSL内のファイルシステムで作業することを推奨する。Windowsのファイルシステム（`/mnt/c/`）はパフォーマンスが低い。
+
+---
+
+## トラブルシューティング
+
+### `command not found: claude`
+
+npmのグローバルインストール先がPATHに含まれていない可能性がある。
+
+```bash
+# パスの確認
+npm config get prefix
+
+# 出力例: /usr/local
+# /usr/local/bin がPATHに含まれていることを確認
+echo $PATH
+```
+
+### `ANTHROPIC_API_KEY not set`
+
+環境変数が設定されていない。シェルの設定ファイルに追加する。
+
+```bash
+# ~/.zshrc (macOS) または ~/.bashrc (Linux) に追加
+export ANTHROPIC_API_KEY="sk-ant-api03-xxxxxxxxxxxxx"
+
+# 設定を反映
+source ~/.zshrc
+```
+
+### パーミッションエラー
+
+npmのグローバルインストールで権限エラーが出る場合。
+
+```bash
+# 方法1: sudo を使う（非推奨）
+sudo npm install -g @anthropic-ai/claude-code
+
+# 方法2: npmのデフォルトディレクトリを変更（推奨）
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.zshrc
+source ~/.zshrc
+npm install -g @anthropic-ai/claude-code
+```
+
+---
+
+## アップデート
+
+Claude Codeは頻繁にアップデートされる。最新版を使うことで、新機能やバグ修正の恩恵を受けられる。
+
+```bash
+npm update -g @anthropic-ai/claude-code
+```
+
+---
+
+## 次のステップ
+
+インストールが完了したら、次章でClaude Codeとの最初の対話を体験する。
+
+ファイルの読み書き、コード生成、テスト実行。基本操作を手を動かしながら学んでいこう。
+
+<KeyTakeaway>
+- Claude Codeは `npm install -g @anthropic-ai/claude-code` でインストールできる
+- 認証にはAnthropic APIキーまたはClaude Max/Teamサブスクリプションが必要
+- VSCode拡張機能を使うと、ファイル参照のクリック遷移や選択範囲の送信が可能になる
+- macOS、Linux、Windows（WSL）に対応。Windowsの場合はWSLが必須
+- APIキーは環境変数で管理し、絶対にGitリポジトリにコミットしない
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"01-02-installation"}],["$","$L4",null,{"items":[{"id":"前提条件","text":"前提条件","level":2},{"id":"必須","text":"必須","level":3},{"id":"推奨","text":"推奨","level":3},{"id":"インストール手順","text":"インストール手順","level":2},{"id":"step-1-npmでインストール","text":"Step 1: npmでインストール","level":3},{"id":"step-2-初回起動","text":"Step 2: 初回起動","level":3},{"id":"step-3-認証","text":"Step 3: 認証","level":3},{"id":"動作確認","text":"動作確認","level":2},{"id":"vscode連携","text":"VSCode連携","level":2},{"id":"インストール方法","text":"インストール方法","level":3},{"id":"vscode連携の利点","text":"VSCode連携の利点","level":3},{"id":"プラットフォーム別の注意点","text":"プラットフォーム別の注意点","level":2},{"id":"macos","text":"macOS","level":3},{"id":"linux-ubuntudebian","text":"Linux (Ubuntu/Debian)","level":3},{"id":"windows-wsl","text":"Windows (WSL)","level":3},{"id":"トラブルシューティング","text":"トラブルシューティング","level":2},{"id":"command-not-found-claude","text":"`command not found: claude`","level":3},{"id":"anthropicapikey-not-set","text":"`ANTHROPIC_API_KEY not set`","level":3},{"id":"パーミッションエラー","text":"パーミッションエラー","level":3},{"id":"アップデート","text":"アップデート","level":2},{"id":"次のステップ","text":"次のステップ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"01-02-installation","title":"インストールとセットアップ — 5分で始めるClaude Code","description":"macOS、Linux、Windows（WSL）でのインストール手順。APIキーの設定からVSCode連携まで、最短で動かす方法を扱う。","partId":"part01","partTitle":"Claude Codeとは","order":2,"partOrder":1,"estimatedMinutes":10,"estimatedReadTime":7,"free":true,"status":"published","tags":["インストール","セットアップ","npm","VSCode","API"],"content":"$6"},"totalChapters":26}],"$L7","$L8","$L9","$La"]}]],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+7:["$","$Ld",null,{"items":[{"id":"前提条件","text":"前提条件","level":2},{"id":"必須","text":"必須","level":3},{"id":"推奨","text":"推奨","level":3},{"id":"インストール手順","text":"インストール手順","level":2},{"id":"step-1-npmでインストール","text":"Step 1: npmでインストール","level":3},{"id":"step-2-初回起動","text":"Step 2: 初回起動","level":3},{"id":"step-3-認証","text":"Step 3: 認証","level":3},{"id":"動作確認","text":"動作確認","level":2},{"id":"vscode連携","text":"VSCode連携","level":2},{"id":"インストール方法","text":"インストール方法","level":3},{"id":"vscode連携の利点","text":"VSCode連携の利点","level":3},{"id":"プラットフォーム別の注意点","text":"プラットフォーム別の注意点","level":2},{"id":"macos","text":"macOS","level":3},{"id":"linux-ubuntudebian","text":"Linux (Ubuntu/Debian)","level":3},{"id":"windows-wsl","text":"Windows (WSL)","level":3},{"id":"トラブルシューティング","text":"トラブルシューティング","level":2},{"id":"command-not-found-claude","text":"`command not found: claude`","level":3},{"id":"anthropicapikey-not-set","text":"`ANTHROPIC_API_KEY not set`","level":3},{"id":"パーミッションエラー","text":"パーミッションエラー","level":3},{"id":"アップデート","text":"アップデート","level":2},{"id":"次のステップ","text":"次のステップ","level":2}]}]
+8:["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"5分でインストールし、最初のコマンドを打つ。Claude Codeの世界への入り口は驚くほどシンプルだ。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"前提条件","children":"前提条件"}],"\n",["$","p",null,{"children":"Claude Codeを使うには、以下が必要である。"}],"\n",["$","h3",null,{"id":"必須","children":"必須"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"Node.js 18以上: JavaScript実行環境。Claude Codeはnpmパッケージとして配布されている"}],"\n",["$","li",null,{"children":"Anthropic APIキー または Claude Max/Teamサブスクリプション: AIを動かすための認証"}],"\n"]}],"\n",["$","h3",null,{"id":"推奨","children":"推奨"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"Git: バージョン管理（Claude Codeのgit連携機能を使うために必要）"}],"\n",["$","li",null,{"children":"VSCode: IDE連携（Claude Code VSCode拡張機能が利用可能）"}],"\n"]}],"\n",["$","$Le",null,{"type":"info","title":"Node.jsが入っていない場合","children":["$","p",null,{"children":["macOSなら ",["$","code",null,{"children":"brew install node"}],"、Linuxなら ",["$","code",null,{"children":"sudo apt install nodejs npm"}]," でインストールできる。バージョンは ",["$","code",null,{"children":"node --version"}]," で確認する。v18以上が必要。"]}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"インストール手順","children":"インストール手順"}],"\n",["$","h3",null,{"id":"step-1-npmでインストール","children":"Step 1: npmでインストール"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"npm install -g @anthropic-ai/claude-code\n"}]}],"\n",["$","p",null,{"children":["グローバルインストールにより、どのディレクトリからでも ",["$","code",null,{"children":"claude"}]," コマンドが使えるようになる。"]}],"\n",["$","h3",null,{"id":"step-2-初回起動","children":"Step 2: 初回起動"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"claude\n"}]}],"\n",["$","p",null,{"children":"初回起動時に、認証方法の選択を求められる。"}],"\n",["$","h3",null,{"id":"step-3-認証","children":"Step 3: 認証"}],"\n",["$","p",null,{"children":"認証には2つの方法がある。"}],"\n",["$","p",null,{"children":"方法A: Anthropic APIキー"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"export ANTHROPIC_API_KEY=\"sk-ant-api03-xxxxxxxxxxxxx\"\n"}]}],"\n",["$","p",null,{"children":["APIキーは ",["$","a",null,{"href":"https://console.anthropic.com","children":"console.anthropic.com"}]," で取得できる。",["$","code",null,{"children":".bashrc"}]," や ",["$","code",null,{"children":".zshrc"}]," に追加しておくと、毎回設定する必要がなくなる。"]}],"\n",["$","p",null,{"children":"方法B: Claude Max / Teamサブスクリプション"}],"\n",["$","p",null,{"children":"Claude MaxまたはTeamプランに加入している場合、ブラウザ認証で連携できる。初回起動時に表示されるURLをブラウザで開き、認証を完了する。"}],"\n",["$","$Le",null,{"type":"warning","title":"APIキーの取り扱い","children":["$","p",null,{"children":["APIキーは秘密鍵だ。GitHubにpushしたり、他人と共有してはならない。",["$","code",null,{"children":".env"}]," ファイルや環境変数で管理し、",["$","code",null,{"children":".gitignore"}]," に含めること。"]}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"動作確認","children":"動作確認"}],"\n",["$","p",null,{"children":"インストールと認証が完了したら、プロジェクトディレクトリに移動して起動する。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"cd ~/my-project\nclaude\n"}]}],"\n",["$","p",null,{"children":"以下のようなウェルカム画面が表示されれば成功だ。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"╭──────────────────────────────────────────────╮\n│ ✻ Welcome to Claude Code!                     │\n│                                               │\n│   /help for commands, /status for settings    │\n╰──────────────────────────────────────────────╯\n\n>\n"}]}],"\n",["$","p",null,{"children":"試しに簡単な質問をしてみよう。"}],"\n",["$","pre",null,{"children":["$","code",null,{"children":"> このディレクトリにはどんなファイルがある？\n"}]}],"\n",["$","p",null,{"children":"Claude Codeがファイル一覧を表示し、プロジェクトの概要を説明してくれれば、セットアップは完了である。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"vscode連携","children":"VSCode連携"}],"\n",["$","p",null,{"children":"Claude CodeにはVSCode拡張機能が用意されている。"}],"\n",["$","h3",null,{"id":"インストール方法","children":"インストール方法"}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"VSCodeの拡張機能マーケットプレイスで「Claude Code」を検索"}],"\n",["$","li",null,{"children":"Anthropic公式の拡張機能をインストール"}],"\n",["$","li",null,{"children":["VSCode内のターミナルパネルで ",["$","code",null,{"children":"claude"}]," コマンドが使えるようになる"]}],"\n"]}],"\n",["$","h3",null,{"id":"vscode連携の利点","children":"VSCode連携の利点"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"ファイル参照がクリック可能: Claude Codeが出力するファイルパスをクリックすると、VSCodeでそのファイルが開く"}],"\n",["$","li",null,{"children":"選択範囲の送信: エディタでコードを選択した状態でClaude Codeに質問すると、選択箇所が自動的にコンテキストに含まれる"}],"\n",["$","li",null,{"children":"統合ターミナル: VSCodeのターミナル内でClaude Codeを起動できるため、エディタとの行き来がスムーズ"}],"\n"]}],"\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e"]}]
+9:["$","$L2f",null,{"bookId":"claude-code","chapterSlug":"01-02-installation"}]
+a:["$","$L30",null,{"bookId":"claude-code","prev":{"slug":"01-01-what-is-claude-code","title":"Claude Codeとは何か — ターミナルに住むAI開発者","order":1},"next":{"slug":"01-03-first-conversation","title":"最初の対話 — Claude Codeと話してみよう","order":3}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+c:["$","$L31",null,{"children":["$","$32",null,{"name":"Next.MetadataOutlet","children":"$@33"}]}]
+f:["$","hr",null,{}]
+10:["$","h2",null,{"id":"プラットフォーム別の注意点","children":"プラットフォーム別の注意点"}]
+11:["$","h3",null,{"id":"macos","children":"macOS"}]
+12:["$","p",null,{"children":"最もスムーズに動作するプラットフォーム。Homebrewでnpmを管理している場合は特に問題ない。"}]
+13:["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"brew install node\nnpm install -g @anthropic-ai/claude-code\n"}]}]
+14:["$","h3",null,{"id":"linux-ubuntudebian","children":"Linux (Ubuntu/Debian)"}]
+15:["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"sudo apt update\nsudo apt install nodejs npm\nnpm install -g @anthropic-ai/claude-code\n"}]}]
+16:["$","p",null,{"children":["Node.jsのバージョンが古い場合は、",["$","a",null,{"href":"https://github.com/nvm-sh/nvm","children":"nvm"}],"を使って最新版を管理するのが推奨される。"]}]
+17:["$","h3",null,{"id":"windows-wsl","children":"Windows (WSL)"}]
+18:["$","p",null,{"children":"Claude CodeはネイティブWindowsでは動作しない。WSL（Windows Subsystem for Linux）が必要だ。"}]
+19:["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"# WSLのUbuntu内で\nsudo apt update\nsudo apt install nodejs npm\nnpm install -g @anthropic-ai/claude-code\n"}]}]
+1a:["$","p",null,{"children":["WSL内のファイルシステムで作業することを推奨する。Windowsのファイルシステム（",["$","code",null,{"children":"/mnt/c/"}],"）はパフォーマンスが低い。"]}]
+1b:["$","hr",null,{}]
+1c:["$","h2",null,{"id":"トラブルシューティング","children":"トラブルシューティング"}]
+1d:["$","h3",null,{"id":"command-not-found-claude","children":["$","code",null,{"children":"command not found: claude"}]}]
+1e:["$","p",null,{"children":"npmのグローバルインストール先がPATHに含まれていない可能性がある。"}]
+1f:["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"# パスの確認\nnpm config get prefix\n\n# 出力例: /usr/local\n# /usr/local/bin がPATHに含まれていることを確認\necho $PATH\n"}]}]
+20:["$","h3",null,{"id":"anthropicapikey-not-set","children":["$","code",null,{"children":"ANTHROPIC_API_KEY not set"}]}]
+21:["$","p",null,{"children":"環境変数が設定されていない。シェルの設定ファイルに追加する。"}]
+22:["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"# ~/.zshrc (macOS) または ~/.bashrc (Linux) に追加\nexport ANTHROPIC_API_KEY=\"sk-ant-api03-xxxxxxxxxxxxx\"\n\n# 設定を反映\nsource ~/.zshrc\n"}]}]
+23:["$","h3",null,{"id":"パーミッションエラー","children":"パーミッションエラー"}]
+24:["$","p",null,{"children":"npmのグローバルインストールで権限エラーが出る場合。"}]
+25:["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"# 方法1: sudo を使う（非推奨）\nsudo npm install -g @anthropic-ai/claude-code\n\n# 方法2: npmのデフォルトディレクトリを変更（推奨）\nmkdir ~/.npm-global\nnpm config set prefix '~/.npm-global'\necho 'export PATH=~/.npm-global/bin:$PATH' >> ~/.zshrc\nsource ~/.zshrc\nnpm install -g @anthropic-ai/claude-code\n"}]}]
+26:["$","hr",null,{}]
+27:["$","h2",null,{"id":"アップデート","children":"アップデート"}]
+28:["$","p",null,{"children":"Claude Codeは頻繁にアップデートされる。最新版を使うことで、新機能やバグ修正の恩恵を受けられる。"}]
+29:["$","pre",null,{"children":["$","code",null,{"className":"language-bash","children":"npm update -g @anthropic-ai/claude-code\n"}]}]
+2a:["$","hr",null,{}]
+2b:["$","h2",null,{"id":"次のステップ","children":"次のステップ"}]
+2c:["$","p",null,{"children":"インストールが完了したら、次章でClaude Codeとの最初の対話を体験する。"}]
+2d:["$","p",null,{"children":"ファイルの読み書き、コード生成、テスト実行。基本操作を手を動かしながら学んでいこう。"}]
+2e:["$","$L34",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":["Claude Codeは ",["$","code",null,{"children":"npm install -g @anthropic-ai/claude-code"}]," でインストールできる"]}],"\n",["$","li",null,{"children":"認証にはAnthropic APIキーまたはClaude Max/Teamサブスクリプションが必要"}],"\n",["$","li",null,{"children":"VSCode拡張機能を使うと、ファイル参照のクリック遷移や選択範囲の送信が可能になる"}],"\n",["$","li",null,{"children":"macOS、Linux、Windows（WSL）に対応。Windowsの場合はWSLが必須"}],"\n",["$","li",null,{"children":"APIキーは環境変数で管理し、絶対にGitリポジトリにコミットしない"}],"\n"]}]}]
+33:null

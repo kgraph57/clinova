@@ -1,0 +1,240 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","claude-code","03-01-hooks"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","claude-code","d"],{"children":[["chapterId","03-01-hooks","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T1625,
+Hooksは、Claude Codeの「行動」に対して自動的にトリガーされるスクリプトだ。人間が忘れがちな品質チェックを、仕組みで担保する。
+
+---
+
+## Hooksとは何か
+
+Claude Codeがツールを使うたびに、特定のタイミングでシェルコマンドを自動実行できる仕組みがHooksである。
+
+医療に例えれば、「処方箋を書くたびにアレルギーチェックを自動で走らせる」ようなものだ。人間の意志力や記憶に頼るのではなく、仕組みで品質を担保する。
+
+---
+
+## 3つのフックタイプ
+
+### PreToolUse — ツール実行の「前」
+
+ツールが実行される前にトリガーされる。バリデーション、パラメータの検証、特定操作のブロックに使う。
+
+ユースケース:
+- 特定のファイルの編集をブロックする
+- 長時間コマンドの前にtmuxの使用を促す
+- `git push` の前にレビューを挟む
+
+```json
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "command": "if echo \"$TOOL_INPUT\" | grep -q 'git push'; then echo 'BLOCK: git pushの前にレビューしてください'; fi"
+      }
+    ]
+  }
+}
+```
+
+PreToolUseフックが `BLOCK:` で始まるメッセージを出力すると、そのツール実行はブロックされる。
+
+### PostToolUse — ツール実行の「後」
+
+ツールが実行された後にトリガーされる。フォーマット、型チェック、警告の表示に使う。
+
+ユースケース:
+- ファイル編集後にPrettierで自動フォーマット
+- TypeScriptファイル編集後に型チェック
+- console.logが含まれていたら警告
+
+```json
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "command": "if echo \"$FILE_PATH\" | grep -qE '\\.(ts|tsx|js|jsx)$'; then npx prettier --write \"$FILE_PATH\"; fi"
+      },
+      {
+        "matcher": "Edit",
+        "command": "if echo \"$FILE_PATH\" | grep -qE '\\.tsx?$'; then npx tsc --noEmit 2>&1 | head -20; fi"
+      }
+    ]
+  }
+}
+```
+
+### Stop — セッション終了時
+
+Claude Codeのセッションが終了する際にトリガーされる。最終チェックに使う。
+
+```json
+{
+  "hooks": {
+    "Stop": [
+      {
+        "command": "git diff --name-only | xargs grep -l 'console.log' 2>/dev/null && echo '警告: console.logが残っています'"
+      }
+    ]
+  }
+}
+```
+
+---
+
+## matcher — フックの対象を絞る
+
+`matcher` を指定すると、特定のツールに対してのみフックが発動する。
+
+| matcher値 | 対象 |
+|-----------|------|
+| `"Edit"` | Editツールの使用時 |
+| `"Write"` | Writeツールの使用時 |
+| `"Bash"` | Bashツールの使用時 |
+| `"Read"` | Readツールの使用時 |
+| 省略 | すべてのツール使用時 |
+
+---
+
+## 実践レシピ集
+
+### レシピ1: 自動フォーマット
+
+TypeScript/JavaScriptファイルの編集後にPrettierを実行する。
+
+```json
+{
+  "PostToolUse": [
+    {
+      "matcher": "Edit",
+      "command": "if echo \"$FILE_PATH\" | grep -qE '\\.(ts|tsx|js|jsx)$'; then npx prettier --write \"$FILE_PATH\" 2>/dev/null; fi"
+    }
+  ]
+}
+```
+
+### レシピ2: console.log 警告
+
+編集したファイルにconsole.logが含まれていたら警告する。
+
+```json
+{
+  "PostToolUse": [
+    {
+      "matcher": "Edit",
+      "command": "if grep -n 'console\\.log' \"$FILE_PATH\" 2>/dev/null; then echo '⚠ console.logが検出されました'; fi"
+    }
+  ]
+}
+```
+
+### レシピ3: git push 前のレビュー
+
+git pushの前に確認を促す。
+
+```json
+{
+  "PreToolUse": [
+    {
+      "matcher": "Bash",
+      "command": "if echo \"$TOOL_INPUT\" | grep -q 'git push'; then echo '📋 pushする前に変更内容を確認してください'; fi"
+    }
+  ]
+}
+```
+
+### レシピ4: 長時間コマンドの tmux リマインダー
+
+npm、pnpm、cargo等の長時間コマンド実行時にtmuxの使用を促す。
+
+```json
+{
+  "PreToolUse": [
+    {
+      "matcher": "Bash",
+      "command": "if echo \"$TOOL_INPUT\" | grep -qE '^(npm|pnpm|yarn|cargo) (install|build|test)'; then echo 'ℹ 長時間コマンドです。tmux内での実行を検討してください'; fi"
+    }
+  ]
+}
+```
+
+---
+
+## デバッグとトラブルシューティング
+
+フックが期待通りに動かない場合のチェックポイント。
+
+1. シェルコマンドを直接実行してみる: フックのコマンドをターミナルで手動実行し、正しく動作するか確認
+2. 環境変数を確認: `$FILE_PATH`、`$TOOL_INPUT` 等が正しく渡されているか
+3. matcherを確認: ツール名が正しいか（大文字小文字に注意）
+4. 出力を確認: PreToolUseで `BLOCK:` を使う場合、正確にこのプレフィックスで始まっているか
+
+<Callout type="info" title="Hooksの設計哲学">
+Hooksは「強制」ではなく「支援」のためのものだ。開発者の作業を妨げるのではなく、見落としがちな品質チェックを自動化することが目的。フックを追加しすぎると作業が遅くなるため、本当に必要なものだけを設定する。
+</Callout>
+
+<KeyTakeaway>
+- Hooksには PreToolUse（実行前）、PostToolUse（実行後）、Stop（セッション終了時）の3タイプがある
+- PreToolUseでBLOCK:を出力すると操作をブロックできる
+- matcherでフックの対象ツールを絞り込める
+- 代表的な用途: 自動フォーマット、型チェック、console.log警告、push前レビュー
+- フックは「強制」ではなく「支援」。必要最小限に絞ることが重要
+</KeyTakeaway>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-claude-code","lessonSlug":"03-01-hooks"}],["$","$L1d",null,{"items":[{"id":"hooksとは何か","text":"Hooksとは何か","level":2},{"id":"3つのフックタイプ","text":"3つのフックタイプ","level":2},{"id":"pretooluse-ツール実行の前","text":"PreToolUse — ツール実行の「前」","level":3},{"id":"posttooluse-ツール実行の後","text":"PostToolUse — ツール実行の「後」","level":3},{"id":"stop-セッション終了時","text":"Stop — セッション終了時","level":3},{"id":"matcher-フックの対象を絞る","text":"matcher — フックの対象を絞る","level":2},{"id":"実践レシピ集","text":"実践レシピ集","level":2},{"id":"レシピ1-自動フォーマット","text":"レシピ1: 自動フォーマット","level":3},{"id":"レシピ2-consolelog-警告","text":"レシピ2: console.log 警告","level":3},{"id":"レシピ3-git-push-前のレビュー","text":"レシピ3: git push 前のレビュー","level":3},{"id":"レシピ4-長時間コマンドの-tmux-リマインダー","text":"レシピ4: 長時間コマンドの tmux リマインダー","level":3},{"id":"デバッグとトラブルシューティング","text":"デバッグとトラブルシューティング","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"03-01-hooks","title":"Hooks — イベント駆動の自動化エンジン","description":"PreToolUse、PostToolUse、Stop。Claude Codeのイベントにフックして自動フォーマット、セキュリティチェック、品質保証を実現する。","partId":"part03","partTitle":"カスタマイズ","order":8,"partOrder":3,"estimatedMinutes":25,"estimatedReadTime":6,"free":true,"status":"published","tags":["Hooks","PreToolUse","PostToolUse","自動化","イベント"],"content":"$1f"},"totalChapters":26}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"claude-code","chapterSlug":"03-01-hooks"}]
+23:["$","$L27",null,{"bookId":"claude-code","prev":{"slug":"02-04-permissions","title":"パーミッションモデル — 安全な自律性のバランス","order":7},"next":{"slug":"03-02-skills","title":"Skills — 再利用可能なワークフローを作る","order":9}}]
+25:[["$","p",null,{"children":"Hooksは、Claude Codeの「行動」に対して自動的にトリガーされるスクリプトだ。人間が忘れがちな品質チェックを、仕組みで担保する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"hooksとは何か","children":"Hooksとは何か"}],"\n",["$","p",null,{"children":"Claude Codeがツールを使うたびに、特定のタイミングでシェルコマンドを自動実行できる仕組みがHooksである。"}],"\n",["$","p",null,{"children":"医療に例えれば、「処方箋を書くたびにアレルギーチェックを自動で走らせる」ようなものだ。人間の意志力や記憶に頼るのではなく、仕組みで品質を担保する。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"3つのフックタイプ","children":"3つのフックタイプ"}],"\n",["$","h3",null,{"id":"pretooluse-ツール実行の前","children":"PreToolUse — ツール実行の「前」"}],"\n",["$","p",null,{"children":"ツールが実行される前にトリガーされる。バリデーション、パラメータの検証、特定操作のブロックに使う。"}],"\n",["$","p",null,{"children":"ユースケース:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"特定のファイルの編集をブロックする"}],"\n",["$","li",null,{"children":"長時間コマンドの前にtmuxの使用を促す"}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"git push"}]," の前にレビューを挟む"]}],"\n"]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-json","children":"{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"command\": \"if echo \\\"$TOOL_INPUT\\\" | grep -q 'git push'; then echo 'BLOCK: git pushの前にレビューしてください'; fi\"\n      }\n    ]\n  }\n}\n"}]}],"\n",["$","p",null,{"children":["PreToolUseフックが ",["$","code",null,{"children":"BLOCK:"}]," で始まるメッセージを出力すると、そのツール実行はブロックされる。"]}],"\n",["$","h3",null,{"id":"posttooluse-ツール実行の後","children":"PostToolUse — ツール実行の「後」"}],"\n",["$","p",null,{"children":"ツールが実行された後にトリガーされる。フォーマット、型チェック、警告の表示に使う。"}],"\n",["$","p",null,{"children":"ユースケース:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"ファイル編集後にPrettierで自動フォーマット"}],"\n",["$","li",null,{"children":"TypeScriptファイル編集後に型チェック"}],"\n",["$","li",null,{"children":"console.logが含まれていたら警告"}],"\n"]}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-json","children":"{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit\",\n        \"command\": \"if echo \\\"$FILE_PATH\\\" | grep -qE '\\\\.(ts|tsx|js|jsx)$'; then npx prettier --write \\\"$FILE_PATH\\\"; fi\"\n      },\n      {\n        \"matcher\": \"Edit\",\n        \"command\": \"if echo \\\"$FILE_PATH\\\" | grep -qE '\\\\.tsx?$'; then npx tsc --noEmit 2>&1 | head -20; fi\"\n      }\n    ]\n  }\n}\n"}]}],"\n",["$","h3",null,{"id":"stop-セッション終了時","children":"Stop — セッション終了時"}],"\n",["$","p",null,{"children":"Claude Codeのセッションが終了する際にトリガーされる。最終チェックに使う。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-json","children":"{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"command\": \"git diff --name-only | xargs grep -l 'console.log' 2>/dev/null && echo '警告: console.logが残っています'\"\n      }\n    ]\n  }\n}\n"}]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"matcher-フックの対象を絞る","children":"matcher — フックの対象を絞る"}],"\n",["$","p",null,{"children":[["$","code",null,{"children":"matcher"}]," を指定すると、特定のツールに対してのみフックが発動する。"]}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"matcher値"}],["$","th",null,{"children":"対象"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"\"Edit\""}]}],["$","td",null,{"children":"Editツールの使用時"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"\"Write\""}]}],["$","td",null,{"children":"Writeツールの使用時"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"\"Bash\""}]}],["$","td",null,{"children":"Bashツールの使用時"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"\"Read\""}]}],["$","td",null,{"children":"Readツールの使用時"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"省略"}],["$","td",null,{"children":"すべてのツール使用時"}]]}]]}]]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"実践レシピ集","children":"実践レシピ集"}],"\n",["$","h3",null,{"id":"レシピ1-自動フォーマット","children":"レシピ1: 自動フォーマット"}],"\n",["$","p",null,{"children":"TypeScript/JavaScriptファイルの編集後にPrettierを実行する。"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-json","children":"{\n  \"PostToolUse\": [\n    {\n      \"matcher\": \"Edit\",\n      \"command\": \"if echo \\\"$FILE_PATH\\\" | grep -qE '\\\\.(ts|tsx|js|jsx)$'; then npx prettier --write \\\"$FILE_PATH\\\" 2>/dev/null; fi\"\n    }\n  ]\n}\n"}]}],"\n",["$","h3",null,{"id":"レシピ2-consolelog-警告","children":"レシピ2: console.log 警告"}],"\n",["$","p",null,{"children":"編集したファイルにconsole.logが含まれていたら警告する。"}],"\n",["$","pre",null,{"children":"$L28"}],"\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34"]
+35:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+36:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+28:["$","code",null,{"className":"language-json","children":"{\n  \"PostToolUse\": [\n    {\n      \"matcher\": \"Edit\",\n      \"command\": \"if grep -n 'console\\\\.log' \\\"$FILE_PATH\\\" 2>/dev/null; then echo '⚠ console.logが検出されました'; fi\"\n    }\n  ]\n}\n"}]
+29:["$","h3",null,{"id":"レシピ3-git-push-前のレビュー","children":"レシピ3: git push 前のレビュー"}]
+2a:["$","p",null,{"children":"git pushの前に確認を促す。"}]
+2b:["$","pre",null,{"children":["$","code",null,{"className":"language-json","children":"{\n  \"PreToolUse\": [\n    {\n      \"matcher\": \"Bash\",\n      \"command\": \"if echo \\\"$TOOL_INPUT\\\" | grep -q 'git push'; then echo '📋 pushする前に変更内容を確認してください'; fi\"\n    }\n  ]\n}\n"}]}]
+2c:["$","h3",null,{"id":"レシピ4-長時間コマンドの-tmux-リマインダー","children":"レシピ4: 長時間コマンドの tmux リマインダー"}]
+2d:["$","p",null,{"children":"npm、pnpm、cargo等の長時間コマンド実行時にtmuxの使用を促す。"}]
+2e:["$","pre",null,{"children":["$","code",null,{"className":"language-json","children":"{\n  \"PreToolUse\": [\n    {\n      \"matcher\": \"Bash\",\n      \"command\": \"if echo \\\"$TOOL_INPUT\\\" | grep -qE '^(npm|pnpm|yarn|cargo) (install|build|test)'; then echo 'ℹ 長時間コマンドです。tmux内での実行を検討してください'; fi\"\n    }\n  ]\n}\n"}]}]
+2f:["$","hr",null,{}]
+30:["$","h2",null,{"id":"デバッグとトラブルシューティング","children":"デバッグとトラブルシューティング"}]
+31:["$","p",null,{"children":"フックが期待通りに動かない場合のチェックポイント。"}]
+32:["$","ol",null,{"children":["\n",["$","li",null,{"children":"シェルコマンドを直接実行してみる: フックのコマンドをターミナルで手動実行し、正しく動作するか確認"}],"\n",["$","li",null,{"children":["環境変数を確認: ",["$","code",null,{"children":"$$FILE_PATH"}],"、",["$","code",null,{"children":"$$TOOL_INPUT"}]," 等が正しく渡されているか"]}],"\n",["$","li",null,{"children":"matcherを確認: ツール名が正しいか（大文字小文字に注意）"}],"\n",["$","li",null,{"children":["出力を確認: PreToolUseで ",["$","code",null,{"children":"BLOCK:"}]," を使う場合、正確にこのプレフィックスで始まっているか"]}],"\n"]}]
+33:["$","$L35",null,{"type":"info","title":"Hooksの設計哲学","children":["$","p",null,{"children":"Hooksは「強制」ではなく「支援」のためのものだ。開発者の作業を妨げるのではなく、見落としがちな品質チェックを自動化することが目的。フックを追加しすぎると作業が遅くなるため、本当に必要なものだけを設定する。"}]}]
+34:["$","$L36",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"Hooksには PreToolUse（実行前）、PostToolUse（実行後）、Stop（セッション終了時）の3タイプがある"}],"\n",["$","li",null,{"children":"PreToolUseでBLOCK:を出力すると操作をブロックできる"}],"\n",["$","li",null,{"children":"matcherでフックの対象ツールを絞り込める"}],"\n",["$","li",null,{"children":"代表的な用途: 自動フォーマット、型チェック、console.log警告、push前レビュー"}],"\n",["$","li",null,{"children":"フックは「強制」ではなく「支援」。必要最小限に絞ることが重要"}],"\n"]}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+37:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"Hooks — イベント駆動の自動化エンジン | Hoshizu"}],["$","meta","1",{"name":"description","content":"PreToolUse、PostToolUse、Stop。Claude Codeのイベントにフックして自動フォーマット、セキュリティチェック、品質保証を実現する。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/claude-code/03-01-hooks"}],["$","meta","4",{"property":"og:title","content":"Hooks — イベント駆動の自動化エンジン - Claude Code完全ガイド — AIコーディングの新しい形"}],["$","meta","5",{"property":"og:description","content":"PreToolUse、PostToolUse、Stop。Claude Codeのイベントにフックして自動フォーマット、セキュリティチェック、品質保証を実現する。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L37","15",{}]]

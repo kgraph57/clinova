@@ -1,0 +1,244 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","research-ai","02-05-cross-language"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","research-ai","d"],{"children":[["chapterId","02-05-cross-language","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T207e,
+# 多言語文献検索（英語・日本語・中国語）
+
+## 言語バイアスという見えないリスク
+
+医学研究の世界では英語が共通語ですが、全世界の医学文献の約30%は英語以外で出版されています。系統的レビューにおいて英語文献のみを検索することは **言語バイアス（language bias）** を引き起こします。
+
+言語バイアスの具体的なリスクは以下の通りです。
+
+- **出版バイアスの増幅**: 有意な結果を示す研究ほど英語で出版される傾向があり、非英語文献を除外すると効果量が過大評価される可能性
+- **地域特有のエビデンスの欠落**: 各国の医療システム、食文化、遺伝的背景に基づく研究は現地語で出版されることが多い
+- **大規模データの見落とし**: 中国語圏の臨床研究は膨大であり、英語データベースにインデックスされていないものが多数
+
+<Callout>
+Cochrane Handbookでは、系統的レビューの検索において言語制限を設けないことを推奨しています。実際に言語制限を外すと、含まれる研究数が10-20%増加するケースが報告されています。
+</Callout>
+
+## 日本語医学文献の検索
+
+### 医中誌Web
+
+医中誌Web（ichushi.or.jp）は、日本最大の医学文献データベースです。約1,500万件以上の文献を収録しており、日本語論文の検索には不可欠です。
+
+**医中誌Webの特徴：**
+- 日本語のシソーラス（統制語）を使用
+- PubMedのMeSHに相当する体系的な分類
+- 抄録の日本語・英語両方を収録
+- 看護、薬学、歯学等の幅広い領域をカバー
+
+### CiNii Research
+
+CiNii Research（cir.nii.ac.jp）は国立情報学研究所が提供する学術情報検索サービスです。医学だけでなく、社会科学や人文科学の文献も含みます。
+
+### J-STAGE
+
+J-STAGE（jstage.jst.go.jp）は科学技術振興機構（JST）が提供する日本の学術雑誌の電子ジャーナルプラットフォームです。多くの論文が全文無料で公開されています。
+
+### AIによる日本語検索式の生成
+
+<PromptTemplate title="日本語データベース用検索式の生成">
+以下のPubMed検索式を、医中誌Web用の日本語検索式に変換してください。
+
+PubMed検索式:
+[英語の検索式]
+
+以下を含めてください：
+1. **医中誌シソーラス用語**: 各MeSHに対応する医中誌の統制語
+2. **フリーテキスト語**: 日本語の同義語、略語、一般的な表現
+3. **医中誌Web形式の検索式**: 完成した検索式
+4. **注意点**: 英語検索式との対応が不完全な部分の説明
+5. **補完が必要な検索語**: 日本特有の用語や概念
+</PromptTemplate>
+
+## 中国語医学文献の検索
+
+### CNKI（China National Knowledge Infrastructure）
+
+CNKIは中国最大の学術データベースで、中国の医学雑誌をほぼ網羅しています。
+
+### WanFang Data
+
+WanFangは中国の学位論文、学会抄録を含むデータベースです。
+
+### CQVIP
+
+CQVIPは中国の中文科学技術雑誌をカバーするデータベースです。
+
+<Warning>
+中国語文献データベースへのアクセスは、機関契約が必要な場合が多いです。また、一部の中国発RCTについてはデータの信頼性に関する懸念が報告されています（Carlisleの2017年の分析等）。中国語文献を系統的レビューに含める際は、バイアスリスクの評価をより慎重に行ってください。
+</Warning>
+
+## AIによる多言語文献の活用
+
+### 翻訳ワークフロー
+
+非英語論文を発見した後の翻訳ワークフローを示します。
+
+<StepFlow>
+  <StepFlowStep number={1} title="アブストラクトの翻訳・評価">
+    AIで日本語/中国語のアブストラクトを英語に翻訳し、組入基準との適合性を評価する。この段階で大部分の論文が除外される。
+  </StepFlowStep>
+  <StepFlowStep number={2} title="全文の確認">
+    アブストラクトスクリーニングを通過した論文の全文を入手。日本語論文はJ-STAGE等で、中国語論文はCNKI等で全文PDFを取得。
+  </StepFlowStep>
+  <StepFlowStep number={3} title="AIによる全文翻訳・データ抽出">
+    全文をAIで翻訳し、必要なデータ（PICO要素、結果、バイアスリスク情報）を構造的に抽出する。
+  </StepFlowStep>
+  <StepFlowStep number={4} title="翻訳の質の検証">
+    重要な数値（サンプルサイズ、効果量、p値）は原文と照合して翻訳精度を確認する。統計テーブルの数値は翻訳ミスが起きにくいため、原文で確認可能。
+  </StepFlowStep>
+</StepFlow>
+
+<PromptTemplate title="非英語論文のデータ抽出">
+以下の日本語/中国語の論文からデータを抽出してください。
+
+[論文の全文テキストまたはアブストラクトを貼り付け]
+
+以下を英語で抽出してください：
+1. **Study Design**: 研究デザイン
+2. **Setting**: 実施施設・国
+3. **Participants**: サンプルサイズ、組入基準、除外基準
+4. **Intervention/Exposure**: 介入内容
+5. **Comparator**: 比較対照
+6. **Primary Outcome**: 主要アウトカムの定義と結果（効果量、95%CI、p値）
+7. **Secondary Outcomes**: 副次アウトカムの結果
+8. **Risk of Bias indicators**: ランダム化方法、盲検化、脱落率
+9. **Funding/COI**: 資金源と利益相反
+10. **Key Conclusions**: 著者の主要結論
+
+日本語/中国語の原文も併記してください（翻訳の検証用）。
+</PromptTemplate>
+
+## 韓国語・その他言語の文献
+
+### KoreaMed
+
+KoreaMed（koreamed.org）は韓国の医学文献データベースで、英語のアブストラクトが付いていることが多いです。
+
+### LILACS
+
+LILACS（Latin American and Caribbean Health Sciences Literature）はラテンアメリカ・カリブ海地域の医学文献データベースで、スペイン語・ポルトガル語の文献をカバーします。
+
+### Global Health（CAB Abstracts）
+
+Global Healthは熱帯医学、公衆衛生、栄養学などの分野で、開発途上国の文献を幅広くカバーするデータベースです。
+
+## 多言語検索の実践的注意点
+
+### 1. 言語制限の明示
+
+検索の方法論セクションで、言語制限の有無を明確に記載します。
+
+- 「言語制限なし」: 全言語を検索対象とした
+- 「英語・日本語に限定」: 理由を記載（例：レビュアーの言語能力）
+- 「英語のみ」: 言語バイアスの可能性をLimitationsで議論
+
+### 2. 翻訳の質保証
+
+<ComparisonCard
+  before={{
+    title: "翻訳なしの除外",
+    items: [
+      "英語以外の論文を一律除外",
+      "言語バイアスが発生",
+      "重要なエビデンスの欠落",
+      "系統的レビューの網羅性が低下",
+      "レビュアーの言語能力に依存"
+    ]
+  }}
+  after={{
+    title: "AI翻訳の活用",
+    items: [
+      "アブストラクトのAI翻訳でスクリーニング",
+      "全文のAI翻訳でデータ抽出",
+      "重要数値は原文で検証",
+      "言語バイアスの大幅低減",
+      "多言語の文献にアクセス可能"
+    ]
+  }}
+/>
+
+### 3. データベースのカバレッジ意識
+
+| 地域 | 主要データベース | PubMedとの重複率 |
+|------|----------------|----------------|
+| 日本 | 医中誌Web, J-STAGE | 約40-60% |
+| 中国 | CNKI, WanFang | 約20-30% |
+| 韓国 | KoreaMed, KMbase | 約50-70% |
+| ラテンアメリカ | LILACS | 約30-50% |
+| 欧州（独語圏） | LIVIVO, DIMDI | 約60-80% |
+
+<KeyTakeaway>
+多言語文献検索は、系統的レビューの網羅性と言語バイアスの回避に不可欠です。AIの翻訳能力が飛躍的に向上した現在、言語の壁は以前ほど高くありません。医中誌Web、CNKI等の地域データベースとPubMedを組み合わせ、AIの翻訳・データ抽出機能を活用することで、多言語のエビデンスを体系的に統合できます。
+</KeyTakeaway>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-research-ai","lessonSlug":"02-05-cross-language"}],["$","$L1d",null,{"items":[{"id":"言語バイアスという見えないリスク","text":"言語バイアスという見えないリスク","level":2},{"id":"日本語医学文献の検索","text":"日本語医学文献の検索","level":2},{"id":"医中誌web","text":"医中誌Web","level":3},{"id":"cinii-research","text":"CiNii Research","level":3},{"id":"j-stage","text":"J-STAGE","level":3},{"id":"aiによる日本語検索式の生成","text":"AIによる日本語検索式の生成","level":3},{"id":"中国語医学文献の検索","text":"中国語医学文献の検索","level":2},{"id":"cnkichina-national-knowledge-infrastructure","text":"CNKI（China National Knowledge Infrastructure）","level":3},{"id":"wanfang-data","text":"WanFang Data","level":3},{"id":"cqvip","text":"CQVIP","level":3},{"id":"aiによる多言語文献の活用","text":"AIによる多言語文献の活用","level":2},{"id":"翻訳ワークフロー","text":"翻訳ワークフロー","level":3},{"id":"韓国語その他言語の文献","text":"韓国語・その他言語の文献","level":2},{"id":"koreamed","text":"KoreaMed","level":3},{"id":"lilacs","text":"LILACS","level":3},{"id":"global-healthcab-abstracts","text":"Global Health（CAB Abstracts）","level":3},{"id":"多言語検索の実践的注意点","text":"多言語検索の実践的注意点","level":2},{"id":"1-言語制限の明示","text":"1. 言語制限の明示","level":3},{"id":"2-翻訳の質保証","text":"2. 翻訳の質保証","level":3},{"id":"3-データベースのカバレッジ意識","text":"3. データベースのカバレッジ意識","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"research-ai","bookTitle":"AI時代の医学論文術 — 検索・読解・執筆の新常識","chapter":{"slug":"02-05-cross-language","title":"多言語文献検索（英語・日本語・中国語）","description":"英語以外の言語で出版された医学文献をAIで効率的に検索・活用する方法。日本語・中国語文献の探し方。","partId":"part02","partTitle":"文献検索の革新","order":8,"partOrder":2,"estimatedMinutes":18,"estimatedReadTime":10,"free":true,"status":"published","tags":["多言語検索","日本語文献","中国語文献","翻訳","言語バイアス"],"content":"$1f"},"totalChapters":27}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"research-ai","chapterSlug":"02-05-cross-language"}]
+23:["$","$L27",null,{"bookId":"research-ai","prev":{"slug":"02-04-literature-monitoring","title":"AI文献モニタリング（最新論文の自動追跡）","order":7},"next":{"slug":"03-01-rct-appraisal","title":"RCTの批判的吟味とAI","order":9}}]
+28:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+29:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+2a:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+25:[["$","h1",null,{"children":"多言語文献検索（英語・日本語・中国語）"}],"\n",["$","h2",null,{"id":"言語バイアスという見えないリスク","children":"言語バイアスという見えないリスク"}],"\n",["$","p",null,{"children":["医学研究の世界では英語が共通語ですが、全世界の医学文献の約30%は英語以外で出版されています。系統的レビューにおいて英語文献のみを検索することは ",["$","strong",null,{"children":"言語バイアス（language bias）"}]," を引き起こします。"]}],"\n",["$","p",null,{"children":"言語バイアスの具体的なリスクは以下の通りです。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"出版バイアスの増幅"}],": 有意な結果を示す研究ほど英語で出版される傾向があり、非英語文献を除外すると効果量が過大評価される可能性"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"地域特有のエビデンスの欠落"}],": 各国の医療システム、食文化、遺伝的背景に基づく研究は現地語で出版されることが多い"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"大規模データの見落とし"}],": 中国語圏の臨床研究は膨大であり、英語データベースにインデックスされていないものが多数"]}],"\n"]}],"\n",["$","$L28",null,{"children":["$","p",null,{"children":"Cochrane Handbookでは、系統的レビューの検索において言語制限を設けないことを推奨しています。実際に言語制限を外すと、含まれる研究数が10-20%増加するケースが報告されています。"}]}],"\n",["$","h2",null,{"id":"日本語医学文献の検索","children":"日本語医学文献の検索"}],"\n",["$","h3",null,{"id":"医中誌web","children":"医中誌Web"}],"\n",["$","p",null,{"children":"医中誌Web（ichushi.or.jp）は、日本最大の医学文献データベースです。約1,500万件以上の文献を収録しており、日本語論文の検索には不可欠です。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"医中誌Webの特徴："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"日本語のシソーラス（統制語）を使用"}],"\n",["$","li",null,{"children":"PubMedのMeSHに相当する体系的な分類"}],"\n",["$","li",null,{"children":"抄録の日本語・英語両方を収録"}],"\n",["$","li",null,{"children":"看護、薬学、歯学等の幅広い領域をカバー"}],"\n"]}],"\n",["$","h3",null,{"id":"cinii-research","children":"CiNii Research"}],"\n",["$","p",null,{"children":"CiNii Research（cir.nii.ac.jp）は国立情報学研究所が提供する学術情報検索サービスです。医学だけでなく、社会科学や人文科学の文献も含みます。"}],"\n",["$","h3",null,{"id":"j-stage","children":"J-STAGE"}],"\n",["$","p",null,{"children":"J-STAGE（jstage.jst.go.jp）は科学技術振興機構（JST）が提供する日本の学術雑誌の電子ジャーナルプラットフォームです。多くの論文が全文無料で公開されています。"}],"\n",["$","h3",null,{"id":"aiによる日本語検索式の生成","children":"AIによる日本語検索式の生成"}],"\n",["$","$L29",null,{"title":"日本語データベース用検索式の生成","children":[["$","p",null,{"children":"以下のPubMed検索式を、医中誌Web用の日本語検索式に変換してください。"}],["$","p",null,{"children":"PubMed検索式:\n[英語の検索式]"}],["$","p",null,{"children":"以下を含めてください："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"医中誌シソーラス用語"}],": 各MeSHに対応する医中誌の統制語"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"フリーテキスト語"}],": 日本語の同義語、略語、一般的な表現"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"医中誌Web形式の検索式"}],": 完成した検索式"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"注意点"}],": 英語検索式との対応が不完全な部分の説明"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"補完が必要な検索語"}],": 日本特有の用語や概念"]}],"\n"]}]]}],"\n",["$","h2",null,{"id":"中国語医学文献の検索","children":"中国語医学文献の検索"}],"\n",["$","h3",null,{"id":"cnkichina-national-knowledge-infrastructure","children":"CNKI（China National Knowledge Infrastructure）"}],"\n",["$","p",null,{"children":"CNKIは中国最大の学術データベースで、中国の医学雑誌をほぼ網羅しています。"}],"\n",["$","h3",null,{"id":"wanfang-data","children":"WanFang Data"}],"\n",["$","p",null,{"children":"WanFangは中国の学位論文、学会抄録を含むデータベースです。"}],"\n",["$","h3",null,{"id":"cqvip","children":"CQVIP"}],"\n",["$","p",null,{"children":"CQVIPは中国の中文科学技術雑誌をカバーするデータベースです。"}],"\n",["$","$L2a",null,{"children":["$","p",null,{"children":"中国語文献データベースへのアクセスは、機関契約が必要な場合が多いです。また、一部の中国発RCTについてはデータの信頼性に関する懸念が報告されています（Carlisleの2017年の分析等）。中国語文献を系統的レビューに含める際は、バイアスリスクの評価をより慎重に行ってください。"}]}],"\n",["$","h2",null,{"id":"aiによる多言語文献の活用","children":"AIによる多言語文献の活用"}],"\n",["$","h3",null,{"id":"翻訳ワークフロー","children":"翻訳ワークフロー"}],"\n",["$","p",null,{"children":"非英語論文を発見した後の翻訳ワークフローを示します。"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"アブストラクトの翻訳・評価"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":"$L2b"}]]}]]}],"$L2c","$L2d","$L2e"]}]]}],"\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f"]
+40:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonCard"]
+41:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+2b:["$","p",null,{"children":"AIで日本語/中国語のアブストラクトを英語に翻訳し、組入基準との適合性を評価する。この段階で大部分の論文が除外される。"}]
+2c:["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"全文の確認"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"アブストラクトスクリーニングを通過した論文の全文を入手。日本語論文はJ-STAGE等で、中国語論文はCNKI等で全文PDFを取得。"}]}]]}]]}]
+2d:["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"AIによる全文翻訳・データ抽出"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"全文をAIで翻訳し、必要なデータ（PICO要素、結果、バイアスリスク情報）を構造的に抽出する。"}]}]]}]]}]
+2e:["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"翻訳の質の検証"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"重要な数値（サンプルサイズ、効果量、p値）は原文と照合して翻訳精度を確認する。統計テーブルの数値は翻訳ミスが起きにくいため、原文で確認可能。"}]}]]}]]}]
+2f:["$","$L29",null,{"title":"非英語論文のデータ抽出","children":[["$","p",null,{"children":"以下の日本語/中国語の論文からデータを抽出してください。"}],["$","p",null,{"children":"[論文の全文テキストまたはアブストラクトを貼り付け]"}],["$","p",null,{"children":"以下を英語で抽出してください："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Study Design"}],": 研究デザイン"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Setting"}],": 実施施設・国"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Participants"}],": サンプルサイズ、組入基準、除外基準"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Intervention/Exposure"}],": 介入内容"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Comparator"}],": 比較対照"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Primary Outcome"}],": 主要アウトカムの定義と結果（効果量、95%CI、p値）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Secondary Outcomes"}],": 副次アウトカムの結果"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Risk of Bias indicators"}],": ランダム化方法、盲検化、脱落率"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Funding/COI"}],": 資金源と利益相反"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Key Conclusions"}],": 著者の主要結論"]}],"\n"]}],["$","p",null,{"children":"日本語/中国語の原文も併記してください（翻訳の検証用）。"}]]}]
+30:["$","h2",null,{"id":"韓国語その他言語の文献","children":"韓国語・その他言語の文献"}]
+31:["$","h3",null,{"id":"koreamed","children":"KoreaMed"}]
+32:["$","p",null,{"children":"KoreaMed（koreamed.org）は韓国の医学文献データベースで、英語のアブストラクトが付いていることが多いです。"}]
+33:["$","h3",null,{"id":"lilacs","children":"LILACS"}]
+34:["$","p",null,{"children":"LILACS（Latin American and Caribbean Health Sciences Literature）はラテンアメリカ・カリブ海地域の医学文献データベースで、スペイン語・ポルトガル語の文献をカバーします。"}]
+35:["$","h3",null,{"id":"global-healthcab-abstracts","children":"Global Health（CAB Abstracts）"}]
+36:["$","p",null,{"children":"Global Healthは熱帯医学、公衆衛生、栄養学などの分野で、開発途上国の文献を幅広くカバーするデータベースです。"}]
+37:["$","h2",null,{"id":"多言語検索の実践的注意点","children":"多言語検索の実践的注意点"}]
+38:["$","h3",null,{"id":"1-言語制限の明示","children":"1. 言語制限の明示"}]
+39:["$","p",null,{"children":"検索の方法論セクションで、言語制限の有無を明確に記載します。"}]
+3a:["$","ul",null,{"children":["\n",["$","li",null,{"children":"「言語制限なし」: 全言語を検索対象とした"}],"\n",["$","li",null,{"children":"「英語・日本語に限定」: 理由を記載（例：レビュアーの言語能力）"}],"\n",["$","li",null,{"children":"「英語のみ」: 言語バイアスの可能性をLimitationsで議論"}],"\n"]}]
+3b:["$","h3",null,{"id":"2-翻訳の質保証","children":"2. 翻訳の質保証"}]
+3c:["$","$L40",null,{}]
+3d:["$","h3",null,{"id":"3-データベースのカバレッジ意識","children":"3. データベースのカバレッジ意識"}]
+3e:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"地域"}],["$","th",null,{"children":"主要データベース"}],["$","th",null,{"children":"PubMedとの重複率"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"日本"}],["$","td",null,{"children":"医中誌Web, J-STAGE"}],["$","td",null,{"children":"約40-60%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"中国"}],["$","td",null,{"children":"CNKI, WanFang"}],["$","td",null,{"children":"約20-30%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"韓国"}],["$","td",null,{"children":"KoreaMed, KMbase"}],["$","td",null,{"children":"約50-70%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"ラテンアメリカ"}],["$","td",null,{"children":"LILACS"}],["$","td",null,{"children":"約30-50%"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"欧州（独語圏）"}],["$","td",null,{"children":"LIVIVO, DIMDI"}],["$","td",null,{"children":"約60-80%"}]]}]]}]]}]
+3f:["$","$L41",null,{"children":["$","p",null,{"children":"多言語文献検索は、系統的レビューの網羅性と言語バイアスの回避に不可欠です。AIの翻訳能力が飛躍的に向上した現在、言語の壁は以前ほど高くありません。医中誌Web、CNKI等の地域データベースとPubMedを組み合わせ、AIの翻訳・データ抽出機能を活用することで、多言語のエビデンスを体系的に統合できます。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+42:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"多言語文献検索（英語・日本語・中国語） | Hoshizu"}],["$","meta","1",{"name":"description","content":"英語以外の言語で出版された医学文献をAIで効率的に検索・活用する方法。日本語・中国語文献の探し方。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/research-ai/02-05-cross-language"}],["$","meta","4",{"property":"og:title","content":"多言語文献検索（英語・日本語・中国語） - AI時代の医学論文術 — 検索・読解・執筆の新常識"}],["$","meta","5",{"property":"og:description","content":"英語以外の言語で出版された医学文献をAIで効率的に検索・活用する方法。日本語・中国語文献の探し方。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L42","15",{}]]

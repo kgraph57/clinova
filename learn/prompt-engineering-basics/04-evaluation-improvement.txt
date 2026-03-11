@@ -1,0 +1,208 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","learn","prompt-engineering-basics","04-evaluation-improvement"],"q":"","i":false,"f":[[["",{"children":["learn",{"children":[["courseId","prompt-engineering-basics","d"],{"children":[["lessonSlug","04-evaluation-improvement","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+1e:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+1f:T258b,
+# プロンプトの評価と改善
+
+## このレッスンで学ぶこと
+
+このレッスンを完了すると、プロンプトの効果を測定し、A/Bテストを実施し、反復的に改善する方法を理解できるようになります。ベストプラクティスを確立する方法を学びます。
+
+---
+
+## セクション1: プロンプトの効果測定
+
+### 評価基準
+
+プロンプトの効果を測定するための評価基準：
+
+評価基準：
+
+プロンプトの効果を測定するための評価基準として、正確性として回答が正確かという基準があります。また、有用性として回答が有用かという基準、完全性として必要な情報がすべて含まれているかという基準、効率性として目的を効率的に達成できているかという基準もあります。これらの基準により、プロンプトの効果を客観的に評価できます。
+
+医療現場での例：
+- 診断書作成：診断書の形式が正確か、内容が適切か
+- 症例報告書：必要な情報がすべて含まれているか、専門用語が適切か
+
+### 評価方法
+
+プロンプトの効果を評価する方法：
+
+評価方法：
+
+プロンプトの効果を評価する方法として、専門家が回答を評価するという専門家による評価があります。また、複数のプロンプトの回答を比較するという比較評価、定量的な指標で評価するという定量的評価もあります。これらの方法により、プロンプトの効果を多角的に評価できます。
+
+---
+
+## セクション2: A/Bテスト
+
+### A/Bテストの実施
+
+異なるプロンプトの効果を比較するために、A/Bテストを実施できます。
+
+A/Bテストの手順：
+1. 2つのプロンプトを作成：異なるアプローチのプロンプト
+2. 同じタスクでテスト：同じタスクで両方のプロンプトをテスト
+3. 結果を比較：結果を比較して、より良いプロンプトを選択
+
+医療現場での例：
+- プロンプトA：「診断書を作成してください」
+- プロンプトB：「以下の患者情報に基づいて、診断書のドラフトを作成してください：[患者情報]。医療用語を適切に使用し、簡潔に記述してください。」
+
+### 結果の分析
+
+A/Bテストの結果を分析して、より良いプロンプトを特定します。
+
+分析のポイント：
+
+A/Bテストの結果を分析する際のポイントとして、どちらのプロンプトがより良い回答を生成したかという回答の質があります。また、どちらのプロンプトがより効率的かという効率性、どちらのプロンプトがより一貫性があるかという一貫性も重要なポイントです。これらのポイントにより、より効果的なプロンプトを特定できます。
+
+---
+
+## セクション3: 反復的な改善
+
+### 改善のプロセス
+
+プロンプトは、反復的に改善できます。
+
+改善のプロセス：
+
+プロンプトの改善プロセスとして、まず基本的なプロンプトを作成します。次に、プロンプトをテストし評価し、改善点を特定します。その後、プロンプトを改善し、改善したプロンプトを再テストします。この反復的なプロセスにより、プロンプトの質を継続的に向上させることができます。
+
+医療現場での例：
+- 最初のプロンプト：「診断書を作成してください」
+- 改善1：「診断書のドラフトを作成してください」
+- 改善2：「以下の患者情報に基づいて、診断書のドラフトを作成してください：[患者情報]」
+- 改善3：「以下の患者情報に基づいて、診断書のドラフトを作成してください：[患者情報]。医療用語を適切に使用し、簡潔に記述してください。」
+
+---
+
+## セクション4: ベストプラクティスの確立
+
+### ベストプラクティスの記録
+
+効果的なプロンプトを記録し、ベストプラクティスを確立します。
+
+記録のポイント：
+
+ベストプラクティスを記録する際のポイントとして、プロンプトの全文を記録するというプロンプトの内容があります。また、どのような状況で使用したかという使用状況、どのような結果が得られたかという結果、どのような改善を行ったかという改善点も記録すべきポイントです。これらのポイントを記録することで、効果的なプロンプトを再利用できます。
+
+医療現場での例：
+- 診断書作成プロンプト：効果的なプロンプトを記録
+- 症例報告書プロンプト：効果的なプロンプトを記録
+- 患者説明プロンプト：効果的なプロンプトを記録
+
+### 共有と改善
+
+ベストプラクティスを同僚と共有し、継続的に改善します。
+
+共有と改善の方法：
+
+ベストプラクティスを共有し改善する方法として、効果的なプロンプトを同僚と共有することが重要です。また、同僚からのフィードバックを収集し、フィードバックに基づいて改善するという継続的な改善も重要です。これらの方法により、組織全体でプロンプトの質を向上させることができます。
+
+---
+
+## 重要な洞察：継続的な改善
+
+プロンプトエンジニアリングは、一度で完璧にできるものではありません。継続的に改善することで、より効果的なプロンプトを作成できます。
+
+実践的な原則：
+
+継続的な改善における実践的な原則として、様々なプロンプトを試すという試行錯誤が重要です。また、結果を評価し改善するという評価と改善、効果的なプロンプトを記録し共有するというベストプラクティスの確立も重要です。これらの原則により、継続的にプロンプトの質を向上させることができます。
+
+---
+
+## まとめ：プロンプトの評価と改善を理解する
+
+このレッスンでは、プロンプトの評価と改善について学びました。
+
+重要なポイント：
+
+このレッスンで学んだ重要なポイントを振り返ると、まず効果測定として評価基準と評価方法が重要です。また、A/Bテストとして異なるプロンプトの比較、反復的な改善として改善のプロセス、ベストプラクティスとして効果的なプロンプトの記録と共有も重要です。これらのポイントを理解することで、プロンプトを継続的に改善できます。
+
+### 次のステップ
+
+次のレッスンでは、実践的なプロンプト例について学びます。実際の医療業務でのプロンプト例を理解します。
+
+---
+
+<Quiz
+  courseId="prompt-engineering-basics"
+  lessonSlug="04-evaluation-improvement"
+  questions={[
+    {
+      question: "プロンプトの効果を測定するための評価基準として含まれないものはどれですか？",
+      options: ["正確性（回答が正確か）", "有用性（回答が有用か）", "文字数（回答の文字数が多いか）", "完全性（必要な情報がすべて含まれているか）"],
+      correctIndex: 2,
+      explanation: "プロンプトの効果を測定する評価基準は、正確性、有用性、完全性、効率性の4つです。回答の文字数が多いことは質の指標ではなく、必要な情報が過不足なく含まれているかが重要です。"
+    },
+    {
+      question: "プロンプトのA/Bテストの正しい手順はどれですか？",
+      options: ["2つの異なるタスクで1つのプロンプトをテストする", "2つの異なるプロンプトを同じタスクでテストし、結果を比較する", "1つのプロンプトを2回実行して結果を比較する", "2つのプロンプトを別々のAIモデルでテストする"],
+      correctIndex: 1,
+      explanation: "A/Bテストでは、異なるアプローチの2つのプロンプトを作成し、同じタスクで両方をテストし、結果を比較してより良いプロンプトを選択します。条件を揃えて比較することがポイントです。"
+    },
+    {
+      question: "ベストプラクティスを確立するために記録すべき情報として最も重要な組み合わせはどれですか？",
+      options: ["AIモデルのバージョン・実行日時・使用したデバイス", "プロンプトの内容・使用状況・結果・改善点", "回答の文字数・応答時間・使用回数", "プロンプトの作成者・承認者・レビュー日"],
+      correctIndex: 1,
+      explanation: "ベストプラクティスを確立するには、プロンプトの全文（内容）、どのような状況で使用したか（使用状況）、どのような結果が得られたか（結果）、どのような改善を行ったか（改善点）を記録することが重要です。"
+    }
+  ]}
+/>
+
+<ActionItem>
+今週中に、業務でよく使うプロンプトを1つ選び、簡単なA/Bテストを実施してみましょう。現在のプロンプト（A）と、コンテキストや制約条件を追加した改善版（B）を同じタスクで比較し、どちらがより良い結果を出すか記録してください。
+</ActionItem>12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"prompt-engineering-basics","lessonSlug":"04-evaluation-improvement"}],["$","$L1d",null,{"items":[{"id":"このレッスンで学ぶこと","text":"このレッスンで学ぶこと","level":2},{"id":"セクション1-プロンプトの効果測定","text":"セクション1: プロンプトの効果測定","level":2},{"id":"評価基準","text":"評価基準","level":3},{"id":"評価方法","text":"評価方法","level":3},{"id":"セクション2-abテスト","text":"セクション2: A/Bテスト","level":2},{"id":"abテストの実施","text":"A/Bテストの実施","level":3},{"id":"結果の分析","text":"結果の分析","level":3},{"id":"セクション3-反復的な改善","text":"セクション3: 反復的な改善","level":2},{"id":"改善のプロセス","text":"改善のプロセス","level":3},{"id":"セクション4-ベストプラクティスの確立","text":"セクション4: ベストプラクティスの確立","level":2},{"id":"ベストプラクティスの記録","text":"ベストプラクティスの記録","level":3},{"id":"共有と改善","text":"共有と改善","level":3},{"id":"重要な洞察継続的な改善","text":"重要な洞察：継続的な改善","level":2},{"id":"まとめプロンプトの評価と改善を理解する","text":"まとめ：プロンプトの評価と改善を理解する","level":2},{"id":"次のステップ","text":"次のステップ","level":3}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"course":{"courseId":"prompt-engineering-basics","title":"プロンプトエンジニアリング基礎","description":"AIへの効果的な指示の出し方、基本テクニック、医療分野での実践的なプロンプト設計を学びます","category":"workflow","level":"beginner","lessonCount":5,"estimatedTotalMinutes":98,"order":3,"free":true,"learningOutcomes":["効果的なプロンプトを設計できる","医療文脈に適したプロンプトを作成できる","プロンプトの品質を評価・改善できる"],"prerequisites":["ai-basics"],"targetAudience":["AIツールをもっと上手に使いたい方","臨床業務でAIを活用したい医療者","プロンプト設計の基礎を学びたい方"],"skills":["プロンプト設計","AI活用","医療プロンプト"],"coverImage":"$undefined"},"lesson":{"courseId":"prompt-engineering-basics","slug":"04-evaluation-improvement","title":"プロンプトの評価と改善","description":"プロンプトの効果測定、A/Bテスト、反復的な改善、ベストプラクティスの確立を学びます","order":4,"estimatedMinutes":18,"estimatedReadTime":12,"content":"$1f"}}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+26:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+27:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose","children":"$L25"}]
+22:["$","$L26",null,{"courseId":"prompt-engineering-basics","lessonSlug":"04-evaluation-improvement"}]
+23:["$","$L27",null,{"courseId":"prompt-engineering-basics","prev":{"slug":"03-medical-prompt-design","title":"医療分野でのプロンプト設計","order":3},"next":{"slug":"05-practical-examples","title":"実践的なプロンプト例","order":5}}]
+25:[["$","h1",null,{"children":"プロンプトの評価と改善"}],"\n",["$","h2",null,{"id":"このレッスンで学ぶこと","children":"このレッスンで学ぶこと"}],"\n",["$","p",null,{"children":"このレッスンを完了すると、プロンプトの効果を測定し、A/Bテストを実施し、反復的に改善する方法を理解できるようになります。ベストプラクティスを確立する方法を学びます。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション1-プロンプトの効果測定","children":"セクション1: プロンプトの効果測定"}],"\n",["$","h3",null,{"id":"評価基準","children":"評価基準"}],"\n",["$","p",null,{"children":"プロンプトの効果を測定するための評価基準："}],"\n",["$","p",null,{"children":"評価基準："}],"\n",["$","p",null,{"children":"プロンプトの効果を測定するための評価基準として、正確性として回答が正確かという基準があります。また、有用性として回答が有用かという基準、完全性として必要な情報がすべて含まれているかという基準、効率性として目的を効率的に達成できているかという基準もあります。これらの基準により、プロンプトの効果を客観的に評価できます。"}],"\n",["$","p",null,{"children":"医療現場での例："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"診断書作成：診断書の形式が正確か、内容が適切か"}],"\n",["$","li",null,{"children":"症例報告書：必要な情報がすべて含まれているか、専門用語が適切か"}],"\n"]}],"\n",["$","h3",null,{"id":"評価方法","children":"評価方法"}],"\n",["$","p",null,{"children":"プロンプトの効果を評価する方法："}],"\n",["$","p",null,{"children":"評価方法："}],"\n",["$","p",null,{"children":"プロンプトの効果を評価する方法として、専門家が回答を評価するという専門家による評価があります。また、複数のプロンプトの回答を比較するという比較評価、定量的な指標で評価するという定量的評価もあります。これらの方法により、プロンプトの効果を多角的に評価できます。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション2-abテスト","children":"セクション2: A/Bテスト"}],"\n",["$","h3",null,{"id":"abテストの実施","children":"A/Bテストの実施"}],"\n",["$","p",null,{"children":"異なるプロンプトの効果を比較するために、A/Bテストを実施できます。"}],"\n",["$","p",null,{"children":"A/Bテストの手順："}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"2つのプロンプトを作成：異なるアプローチのプロンプト"}],"\n",["$","li",null,{"children":"同じタスクでテスト：同じタスクで両方のプロンプトをテスト"}],"\n",["$","li",null,{"children":"結果を比較：結果を比較して、より良いプロンプトを選択"}],"\n"]}],"\n",["$","p",null,{"children":"医療現場での例："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"プロンプトA：「診断書を作成してください」"}],"\n",["$","li",null,{"children":"プロンプトB：「以下の患者情報に基づいて、診断書のドラフトを作成してください：[患者情報]。医療用語を適切に使用し、簡潔に記述してください。」"}],"\n"]}],"\n",["$","h3",null,{"id":"結果の分析","children":"結果の分析"}],"\n",["$","p",null,{"children":"A/Bテストの結果を分析して、より良いプロンプトを特定します。"}],"\n",["$","p",null,{"children":"分析のポイント："}],"\n",["$","p",null,{"children":"A/Bテストの結果を分析する際のポイントとして、どちらのプロンプトがより良い回答を生成したかという回答の質があります。また、どちらのプロンプトがより効率的かという効率性、どちらのプロンプトがより一貫性があるかという一貫性も重要なポイントです。これらのポイントにより、より効果的なプロンプトを特定できます。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション3-反復的な改善","children":"セクション3: 反復的な改善"}],"\n",["$","h3",null,{"id":"改善のプロセス","children":"改善のプロセス"}],"\n",["$","p",null,{"children":"プロンプトは、反復的に改善できます。"}],"\n",["$","p",null,{"children":"改善のプロセス："}],"\n",["$","p",null,{"children":"プロンプトの改善プロセスとして、まず基本的なプロンプトを作成します。次に、プロンプトをテストし評価し、改善点を特定します。その後、プロンプトを改善し、改善したプロンプトを再テストします。この反復的なプロセスにより、プロンプトの質を継続的に向上させることができます。"}],"\n",["$","p",null,{"children":"医療現場での例："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"最初のプロンプト：「診断書を作成してください」"}],"\n",["$","li",null,{"children":"改善1：「診断書のドラフトを作成してください」"}],"\n",["$","li",null,{"children":"改善2：「以下の患者情報に基づいて、診断書のドラフトを作成してください：[患者情報]」"}],"\n",["$","li",null,{"children":"改善3：「以下の患者情報に基づいて、診断書のドラフトを作成してください：[患者情報]。医療用語を適切に使用し、簡潔に記述してください。」"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション4-ベストプラクティスの確立","children":"セクション4: ベストプラクティスの確立"}],"\n",["$","h3",null,{"id":"ベストプラクティスの記録","children":"ベストプラクティスの記録"}],"\n",["$","p",null,{"children":"効果的なプロンプトを記録し、ベストプラクティスを確立します。"}],"\n",["$","p",null,{"children":"記録のポイント："}],"\n",["$","p",null,{"children":"ベストプラクティスを記録する際のポイントとして、プロンプトの全文を記録するというプロンプトの内容があります。また、どのような状況で使用したかという使用状況、どのような結果が得られたかという結果、どのような改善を行ったかという改善点も記録すべきポイントです。これらのポイントを記録することで、効果的なプロンプトを再利用できます。"}],"\n",["$","p",null,{"children":"医療現場での例："}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"診断書作成プロンプト：効果的なプロンプトを記録"}],"\n",["$","li",null,{"children":"症例報告書プロンプト：効果的なプロンプトを記録"}],"\n",["$","li",null,{"children":"患者説明プロンプト：効果的なプロンプトを記録"}],"\n"]}],"\n",["$","h3",null,{"id":"共有と改善","children":"共有と改善"}],"\n",["$","p",null,{"children":"ベストプラクティスを同僚と共有し、継続的に改善します。"}],"\n",["$","p",null,{"children":"共有と改善の方法："}],"\n",["$","p",null,{"children":"ベストプラクティスを共有し改善する方法として、効果的なプロンプトを同僚と共有することが重要です。また、同僚からのフィードバックを収集し、フィードバックに基づいて改善するという継続的な改善も重要です。これらの方法により、組織全体でプロンプトの質を向上させることができます。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"重要な洞察継続的な改善","children":"重要な洞察：継続的な改善"}],"\n",["$","p",null,{"children":"プロンプトエンジニアリングは、一度で完璧にできるものではありません。継続的に改善することで、より効果的なプロンプトを作成できます。"}],"\n",["$","p",null,{"children":"実践的な原則："}],"\n",["$","p",null,{"children":"継続的な改善における実践的な原則として、様々なプロンプトを試すという試行錯誤が重要です。また、結果を評価し改善するという評価と改善、効果的なプロンプトを記録し共有するというベストプラクティスの確立も重要です。これらの原則により、継続的にプロンプトの質を向上させることができます。"}],"\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31"]
+32:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+33:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+28:["$","hr",null,{}]
+29:["$","h2",null,{"id":"まとめプロンプトの評価と改善を理解する","children":"まとめ：プロンプトの評価と改善を理解する"}]
+2a:["$","p",null,{"children":"このレッスンでは、プロンプトの評価と改善について学びました。"}]
+2b:["$","p",null,{"children":"重要なポイント："}]
+2c:["$","p",null,{"children":"このレッスンで学んだ重要なポイントを振り返ると、まず効果測定として評価基準と評価方法が重要です。また、A/Bテストとして異なるプロンプトの比較、反復的な改善として改善のプロセス、ベストプラクティスとして効果的なプロンプトの記録と共有も重要です。これらのポイントを理解することで、プロンプトを継続的に改善できます。"}]
+2d:["$","h3",null,{"id":"次のステップ","children":"次のステップ"}]
+2e:["$","p",null,{"children":"次のレッスンでは、実践的なプロンプト例について学びます。実際の医療業務でのプロンプト例を理解します。"}]
+2f:["$","hr",null,{}]
+30:["$","$L32",null,{"courseId":"prompt-engineering-basics","lessonSlug":"04-evaluation-improvement"}]
+31:["$","$L33",null,{"children":["$","p",null,{"children":"今週中に、業務でよく使うプロンプトを1つ選び、簡単なA/Bテストを実施してみましょう。現在のプロンプト（A）と、コンテキストや制約条件を追加した改善版（B）を同じタスクで比較し、どちらがより良い結果を出すか記録してください。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+34:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"プロンプトの評価と改善 | Hoshizu"}],["$","meta","1",{"name":"description","content":"プロンプトの効果測定、A/Bテスト、反復的な改善、ベストプラクティスの確立を学びます"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/learn/prompt-engineering-basics/04-evaluation-improvement"}],["$","meta","4",{"property":"og:title","content":"プロンプトの評価と改善 - プロンプトエンジニアリング基礎"}],["$","meta","5",{"property":"og:description","content":"プロンプトの効果測定、A/Bテスト、反復的な改善、ベストプラクティスの確立を学びます"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L34","15",{}]]

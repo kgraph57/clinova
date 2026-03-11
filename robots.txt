@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://kgraph57.github.io/hoshizu/sitemap.xml

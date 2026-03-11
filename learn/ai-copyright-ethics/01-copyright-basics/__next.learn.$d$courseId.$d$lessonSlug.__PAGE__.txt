@@ -1,0 +1,177 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+5:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+e:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+1d:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+1e:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+1f:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+20:"$Sreact.suspense"
+22:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+23:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+6:T1a86,
+# AI生成コンテンツの著作権とは
+
+## このレッスンで学ぶこと
+
+このレッスンを完了すると、AI生成コンテンツの著作権とは何か、そしてAI生成コンテンツが著作権法上どのように扱われるかを理解できるようになります。
+医療現場でAI生成コンテンツを活用する際に必要な、著作権に関する基礎知識を身につけます。
+
+---
+
+## セクション1: 著作権の基礎
+
+### 著作権とは：創作者の権利
+
+著作権は、創作者が自分の作品を独占的に利用する権利です。
+
+**著作権の内容：**
+- **複製権**：作品を複製する権利
+- **公衆送信権**：作品を公衆に送信する権利
+- **翻案権**：作品を翻案する権利
+
+**医療での重要性：**
+- 医療文書、画像、動画なども著作物となる場合がある
+- AI生成コンテンツの利用には、著作権を考慮する必要がある
+
+### 著作物とは：保護の対象
+
+著作物は、著作権法で保護される対象です。
+
+**著作物の要件：**
+- **思想又は感情を表現したもの**：単なるデータや事実は著作物ではない
+- **創作的**：独創性が必要
+- **文芸、学術、美術又は音楽の範囲に属するもの**
+
+**医療での例：**
+- **診療録**：一般的には著作物ではない（事実の記録）
+- **医学論文**：著作物として保護される
+- **医療イラスト**：著作物として保護される
+- **医療動画**：著作物として保護される
+
+---
+
+## セクション2: AI生成コンテンツの著作権
+
+### AI生成コンテンツとは：AIが生成したコンテンツ
+
+AI生成コンテンツは、AIが生成したコンテンツです。
+
+**AI生成コンテンツの例：**
+- **テキスト**：ChatGPT、Claudeなどの生成AIが生成したテキスト
+- **画像**：Midjourney、DALL-Eなどの画像生成AIが生成した画像
+- **動画**：動画生成AIが生成した動画
+
+**医療での活用例：**
+- **診療録の要約**：AIが診療録を要約
+- **患者説明文**：AIが患者説明文を作成
+- **医学イラスト**：AIが医学イラストを生成
+- **プレゼンテーション資料**：AIがプレゼンテーション資料を作成
+
+### AI生成コンテンツの著作権：現状の議論
+
+AI生成コンテンツの著作権については、現在議論が続いています。
+
+**主な議論：**
+- **AIは著作物を創作できるか**：AIは「人」ではないため、著作物を創作できないという見解
+- **学習データの著作権**：AIが学習したデータの著作権が問題となる場合がある
+- **生成コンテンツの利用**：AI生成コンテンツをどのように利用できるか
+
+**医療での重要性：**
+- AI生成コンテンツの利用には、著作権を考慮する必要がある
+- 現状の法律では、明確な規定がない場合がある
+- 慎重に対応する必要がある
+
+---
+
+## セクション3: 医療現場での実践的な対応
+
+### AI生成コンテンツの利用：適切な取り扱い
+
+医療現場でAI生成コンテンツを利用する際は、適切に取り扱う必要があります。
+
+**実践的な対応：**
+- **確認と編集**：AI生成コンテンツを確認し、必要に応じて編集
+- **出典の明記**：AI生成コンテンツであることを明記（場合によっては）
+- **利用規約の確認**：AIサービスの利用規約を確認
+
+**医療での重要性：**
+- 適切な取り扱いにより、著作権の問題を回避
+- 患者や同僚に対する透明性を確保
+- 法的なリスクを回避
+
+### 学習データの著作権：AI学習時の注意点
+
+AIが学習したデータの著作権も、考慮する必要があります。
+
+**注意点：**
+- **学習データの利用**：AIが学習したデータの利用には、著作権を考慮
+- **利用規約の確認**：AIサービスの利用規約を確認
+- **適切な利用**：著作権を尊重した利用
+
+**医療での重要性：**
+- AI学習データの著作権を尊重
+- 法的なリスクを回避
+- 適切な利用を促進
+
+---
+
+## まとめ
+
+このレッスンでは、AI生成コンテンツの著作権について学びました。
+
+次回のレッスンでは、画像生成AIの著作権について詳しく学びます。
+Midjourney、DALL-Eなどの画像生成AIが生成した画像の著作権を理解していきましょう。
+
+<Quiz
+  courseId="ai-copyright-ethics"
+  lessonSlug="01-copyright-basics"
+  questions={[
+    {
+      question: "著作物として保護されるための要件に含まれないものはどれですか？",
+      options: ["思想又は感情を表現したものであること", "創作的であること", "経済的価値があること", "文芸、学術、美術又は音楽の範囲に属するもの"],
+      correctIndex: 2,
+      explanation: "著作物の要件は「思想又は感情を表現したもの」「創作的であること」「文芸、学術、美術又は音楽の範囲に属するもの」の3つです。経済的価値の有無は著作物の要件ではありません。"
+    },
+    {
+      question: "医療現場において、一般的に著作物として保護されないものはどれですか？",
+      options: ["医学論文", "医療イラスト", "診療録", "医療動画"],
+      correctIndex: 2,
+      explanation: "診療録は事実の記録であり、思想や感情の表現ではないため、一般的には著作物として保護されません。一方、医学論文・医療イラスト・医療動画は創作性があり著作物として保護されます。"
+    },
+    {
+      question: "AI生成コンテンツを医療現場で利用する際の実践的な対応として、適切でないものはどれですか？",
+      options: ["AI生成コンテンツを確認し必要に応じて編集する", "AIサービスの利用規約を確認する", "AI生成コンテンツをそのまま無断で学術論文に掲載する", "AI生成コンテンツであることを必要に応じて明記する"],
+      correctIndex: 2,
+      explanation: "AI生成コンテンツをそのまま無断で学術論文に掲載することは、著作権や学術的誠実性の観点から適切ではありません。確認・編集、利用規約の確認、出典の明記が適切な対応です。"
+    }
+  ]}
+/>
+
+<ActionItem>
+自身が日常的に使用しているAIサービス（ChatGPT、Claudeなど）の利用規約を確認し、生成コンテンツの著作権がどのように規定されているかをメモにまとめてみましょう。
+</ActionItem>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"ai-copyright-ethics","lessonSlug":"01-copyright-basics"}],["$","$L4",null,{"items":[{"id":"このレッスンで学ぶこと","text":"このレッスンで学ぶこと","level":2},{"id":"セクション1-著作権の基礎","text":"セクション1: 著作権の基礎","level":2},{"id":"著作権とは創作者の権利","text":"著作権とは：創作者の権利","level":3},{"id":"著作物とは保護の対象","text":"著作物とは：保護の対象","level":3},{"id":"セクション2-ai生成コンテンツの著作権","text":"セクション2: AI生成コンテンツの著作権","level":2},{"id":"ai生成コンテンツとはaiが生成したコンテンツ","text":"AI生成コンテンツとは：AIが生成したコンテンツ","level":3},{"id":"ai生成コンテンツの著作権現状の議論","text":"AI生成コンテンツの著作権：現状の議論","level":3},{"id":"セクション3-医療現場での実践的な対応","text":"セクション3: 医療現場での実践的な対応","level":2},{"id":"ai生成コンテンツの利用適切な取り扱い","text":"AI生成コンテンツの利用：適切な取り扱い","level":3},{"id":"学習データの著作権ai学習時の注意点","text":"学習データの著作権：AI学習時の注意点","level":3},{"id":"まとめ","text":"まとめ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"course":{"courseId":"ai-copyright-ethics","title":"AI生成コンテンツの著作権と倫理","description":"画像生成AIの著作権、生成コンテンツの利用規約、医療分野での利用における著作権問題、倫理的な使用法を学びます","category":"ai-fundamentals","level":"intermediate","lessonCount":5,"estimatedTotalMinutes":89,"order":6,"free":false,"learningOutcomes":["AI生成物の著作権を正しく判断できる","主要AIサービスの利用規約を理解できる","医療分野での著作権リスクを評価できる","倫理的なAI利用ガイドラインを策定できる"],"prerequisites":["ai-basics","generative-ai-basics"],"targetAudience":["AI生成物を業務で使用する方","著作権リスクを把握したい研究者","AI利用ポリシーの策定担当者"],"skills":["著作権","利用規約","倫理的利用"]},"lesson":{"courseId":"ai-copyright-ethics","slug":"01-copyright-basics","title":"AI生成コンテンツの著作権の基礎","description":"著作権法の基本、AI生成物の著作権、生成AIの利用規約、著作権の帰属を理解します","order":1,"estimatedMinutes":18,"estimatedReadTime":9,"content":"$6"}}],"$L7","$L8","$L9","$La"]}]],["$Lb","$Lc"],"$Ld"]}],"loading":null,"isPartial":false}
+7:["$","$Le",null,{"items":[{"id":"このレッスンで学ぶこと","text":"このレッスンで学ぶこと","level":2},{"id":"セクション1-著作権の基礎","text":"セクション1: 著作権の基礎","level":2},{"id":"著作権とは創作者の権利","text":"著作権とは：創作者の権利","level":3},{"id":"著作物とは保護の対象","text":"著作物とは：保護の対象","level":3},{"id":"セクション2-ai生成コンテンツの著作権","text":"セクション2: AI生成コンテンツの著作権","level":2},{"id":"ai生成コンテンツとはaiが生成したコンテンツ","text":"AI生成コンテンツとは：AIが生成したコンテンツ","level":3},{"id":"ai生成コンテンツの著作権現状の議論","text":"AI生成コンテンツの著作権：現状の議論","level":3},{"id":"セクション3-医療現場での実践的な対応","text":"セクション3: 医療現場での実践的な対応","level":2},{"id":"ai生成コンテンツの利用適切な取り扱い","text":"AI生成コンテンツの利用：適切な取り扱い","level":3},{"id":"学習データの著作権ai学習時の注意点","text":"学習データの著作権：AI学習時の注意点","level":3},{"id":"まとめ","text":"まとめ","level":2}]}]
+8:["$","article",null,{"className":"prose","children":[["$","h1",null,{"children":"AI生成コンテンツの著作権とは"}],"\n",["$","h2",null,{"id":"このレッスンで学ぶこと","children":"このレッスンで学ぶこと"}],"\n",["$","p",null,{"children":"このレッスンを完了すると、AI生成コンテンツの著作権とは何か、そしてAI生成コンテンツが著作権法上どのように扱われるかを理解できるようになります。\n医療現場でAI生成コンテンツを活用する際に必要な、著作権に関する基礎知識を身につけます。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション1-著作権の基礎","children":"セクション1: 著作権の基礎"}],"\n",["$","h3",null,{"id":"著作権とは創作者の権利","children":"著作権とは：創作者の権利"}],"\n",["$","p",null,{"children":"著作権は、創作者が自分の作品を独占的に利用する権利です。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"著作権の内容："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"複製権"}],"：作品を複製する権利"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"公衆送信権"}],"：作品を公衆に送信する権利"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"翻案権"}],"：作品を翻案する権利"]}],"\n"]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"医療での重要性："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"医療文書、画像、動画なども著作物となる場合がある"}],"\n",["$","li",null,{"children":"AI生成コンテンツの利用には、著作権を考慮する必要がある"}],"\n"]}],"\n",["$","h3",null,{"id":"著作物とは保護の対象","children":"著作物とは：保護の対象"}],"\n",["$","p",null,{"children":"著作物は、著作権法で保護される対象です。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"著作物の要件："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"思想又は感情を表現したもの"}],"：単なるデータや事実は著作物ではない"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"創作的"}],"：独創性が必要"]}],"\n",["$","li",null,{"children":["$","strong",null,{"children":"文芸、学術、美術又は音楽の範囲に属するもの"}]}],"\n"]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"医療での例："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"診療録"}],"：一般的には著作物ではない（事実の記録）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"医学論文"}],"：著作物として保護される"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"医療イラスト"}],"：著作物として保護される"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"医療動画"}],"：著作物として保護される"]}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション2-ai生成コンテンツの著作権","children":"セクション2: AI生成コンテンツの著作権"}],"\n",["$","h3",null,{"id":"ai生成コンテンツとはaiが生成したコンテンツ","children":"AI生成コンテンツとは：AIが生成したコンテンツ"}],"\n",["$","p",null,{"children":"AI生成コンテンツは、AIが生成したコンテンツです。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"AI生成コンテンツの例："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"テキスト"}],"：ChatGPT、Claudeなどの生成AIが生成したテキスト"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"画像"}],"：Midjourney、DALL-Eなどの画像生成AIが生成した画像"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"動画"}],"：動画生成AIが生成した動画"]}],"\n"]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"医療での活用例："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"診療録の要約"}],"：AIが診療録を要約"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"患者説明文"}],"：AIが患者説明文を作成"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"医学イラスト"}],"：AIが医学イラストを生成"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"プレゼンテーション資料"}],"：AIがプレゼンテーション資料を作成"]}],"\n"]}],"\n",["$","h3",null,{"id":"ai生成コンテンツの著作権現状の議論","children":"AI生成コンテンツの著作権：現状の議論"}],"\n",["$","p",null,{"children":"AI生成コンテンツの著作権については、現在議論が続いています。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"主な議論："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"AIは著作物を創作できるか"}],"：AIは「人」ではないため、著作物を創作できないという見解"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"学習データの著作権"}],"：AIが学習したデータの著作権が問題となる場合がある"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"生成コンテンツの利用"}],"：AI生成コンテンツをどのように利用できるか"]}],"\n"]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"医療での重要性："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"AI生成コンテンツの利用には、著作権を考慮する必要がある"}],"\n",["$","li",null,{"children":"現状の法律では、明確な規定がない場合がある"}],"\n",["$","li",null,{"children":"慎重に対応する必要がある"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"セクション3-医療現場での実践的な対応","children":"セクション3: 医療現場での実践的な対応"}],"\n",["$","h3",null,{"id":"ai生成コンテンツの利用適切な取り扱い","children":"AI生成コンテンツの利用：適切な取り扱い"}],"\n",["$","p",null,{"children":"医療現場でAI生成コンテンツを利用する際は、適切に取り扱う必要があります。"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"実践的な対応："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"確認と編集"}],"：AI生成コンテンツを確認し、必要に応じて編集"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"出典の明記"}],"：AI生成コンテンツであることを明記（場合によっては）"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"利用規約の確認"}],"：AIサービスの利用規約を確認"]}],"\n"]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"医療での重要性："}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"適切な取り扱いにより、著作権の問題を回避"}],"\n","$Lf","\n","$L10","\n"]}],"\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c"]}]
+9:["$","$L1d",null,{"courseId":"ai-copyright-ethics","lessonSlug":"01-copyright-basics"}]
+a:["$","$L1e",null,{"courseId":"ai-copyright-ethics","prev":null,"next":{"slug":"02-image-ai-copyright","title":"画像生成AIの著作権問題","order":2}}]
+b:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true}]
+c:["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true}]
+d:["$","$L1f",null,{"children":["$","$20",null,{"name":"Next.MetadataOutlet","children":"$@21"}]}]
+f:["$","li",null,{"children":"患者や同僚に対する透明性を確保"}]
+10:["$","li",null,{"children":"法的なリスクを回避"}]
+11:["$","h3",null,{"id":"学習データの著作権ai学習時の注意点","children":"学習データの著作権：AI学習時の注意点"}]
+12:["$","p",null,{"children":"AIが学習したデータの著作権も、考慮する必要があります。"}]
+13:["$","p",null,{"children":["$","strong",null,{"children":"注意点："}]}]
+14:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"学習データの利用"}],"：AIが学習したデータの利用には、著作権を考慮"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"利用規約の確認"}],"：AIサービスの利用規約を確認"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"適切な利用"}],"：著作権を尊重した利用"]}],"\n"]}]
+15:["$","p",null,{"children":["$","strong",null,{"children":"医療での重要性："}]}]
+16:["$","ul",null,{"children":["\n",["$","li",null,{"children":"AI学習データの著作権を尊重"}],"\n",["$","li",null,{"children":"法的なリスクを回避"}],"\n",["$","li",null,{"children":"適切な利用を促進"}],"\n"]}]
+17:["$","hr",null,{}]
+18:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+19:["$","p",null,{"children":"このレッスンでは、AI生成コンテンツの著作権について学びました。"}]
+1a:["$","p",null,{"children":"次回のレッスンでは、画像生成AIの著作権について詳しく学びます。\nMidjourney、DALL-Eなどの画像生成AIが生成した画像の著作権を理解していきましょう。"}]
+1b:["$","$L22",null,{"courseId":"ai-copyright-ethics","lessonSlug":"01-copyright-basics"}]
+1c:["$","$L23",null,{"children":["$","p",null,{"children":"自身が日常的に使用しているAIサービス（ChatGPT、Claudeなど）の利用規約を確認し、生成コンテンツの著作権がどのように規定されているかをメモにまとめてみましょう。"}]}]
+21:null

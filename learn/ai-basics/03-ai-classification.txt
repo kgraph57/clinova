@@ -1,0 +1,236 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","learn","ai-basics","03-ai-classification"],"q":"","i":false,"f":[[["",{"children":["learn",{"children":[["courseId","ai-basics","d"],{"children":[["lessonSlug","03-ai-classification","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/59b48a095b784318.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"TableOfContents"]
+1e:I[38006,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonHeader"]
+1f:T2c31,
+# AIの分類と種類
+
+## はじめに — なぜ分類が重要なのか
+
+「AI」と一言で言っても、1972年のMYCIN（600個のif-thenルール）と2024年のGPT-4（1.8兆パラメータとも推定される巨大ニューラルネットワーク）は、根本的に異なる技術です。AIを正確に分類できることは、「このAIは何ができて何ができないのか」を判断する基礎になります。
+
+---
+
+## アプローチによる分類 — 3つの世代
+
+### ルールベースAI（第1世代）
+
+人間が「if A then B」のルールを明示的に定義するアプローチ。
+
+<CaseStudy title="MYCIN — ルールベースAIの到達点と限界" year={1972} jurisdiction="米国" tags={["エキスパートシステム", "感染症", "ルールベース"]}>
+
+**仕組み**: スタンフォード大学で開発された約600の「if-then」ルールに基づく感染症診断システム。「培養結果がグラム陰性 AND 形状が桿菌 AND 患者が免疫不全 → 緑膿菌の疑い」のような推論を連鎖的に実行。
+
+**成果**: 血液感染症の診断で65%の精度を達成。非専門医（50%以下）を上回ったが、感染症専門医（約80%）には及ばなかった。
+
+**限界**: 新しい知見が得られるたびに、専門家がルールを手動で追加・修正する必要があった。暗黙知（経験に基づく直感）をルール化することは不可能。結局、臨床現場では実用化されなかった。
+
+</CaseStudy>
+
+| 特徴 | 内容 |
+|:---|:---|
+| 動作原理 | 人間が定義したルールに基づく論理推論 |
+| 長所 | 判断根拠が明確（説明可能性が高い）、少数の専門知識で構築可能 |
+| 短所 | ルールの追加・更新が困難、暗黙知の扱いが不可能、スケールしない |
+| 医療での例 | 初期の診断支援システム、薬物相互作用チェッカー |
+
+### 機械学習（第2世代）
+
+データからパターンを自動的に学習するアプローチ。ルールを人間が書くのではなく、AIがデータから発見する。
+
+<Callout type="comparison" title="ルールベース vs 機械学習 — 肺炎診断の場合">
+
+**ルールベース**: 「体温38度以上 AND 咳あり AND CRP上昇 → 肺炎の疑い」。ルールを人間が書く。
+
+**機械学習**: 10万件の患者データ（体温、症状、検査値、画像、最終診断）を学習させ、AIが自動的に「どの特徴の組み合わせが肺炎を示すか」のパターンを発見する。人間が気づかない微妙な相関も検出可能。
+
+→ 決定的な違い: 機械学習は「人間が見落とすパターン」も発見できるが、「なぜそう判断したか」の説明が難しい（ブラックボックス問題）。
+
+</Callout>
+
+### 深層学習（第3世代）
+
+機械学習の一種で、多層のニューラルネットワーク（ディープニューラルネットワーク）を使用する。2012年のImageNetでの成功以降、AI革命の中心技術。
+
+<CaseStudy title="Google Brain — 猫を認識した深層学習の衝撃" year={2012} jurisdiction="国際" tags={["深層学習", "特徴量の自動抽出", "Google"]}>
+
+**背景**: 2012年、GoogleのJeff DeanとAndrew NgのチームがYouTubeの動画から1,000万枚の画像を使い、教師なしの深層学習モデルを訓練。
+
+**成果**: 人間が「猫とは何か」を教えることなく、AIが自動的に「猫」の概念を獲得。従来の機械学習では、人間が「耳の形」「ひげの有無」などの特徴を手動で定義する必要があったが、深層学習はデータから特徴を自動抽出した。
+
+**医療への意義**: この「特徴量の自動抽出」が医療画像AIの基盤。病理画像やX線画像でも、人間が定義できない微妙なパターンをAIが自動的に学習する。
+
+</CaseStudy>
+
+| 世代 | 代表技術 | データ量 | 特徴抽出 | 医療AI例 |
+|:---|:---|:---|:---|:---|
+| 第1世代 | ルールベース | 不要 | 人間が定義 | MYCIN（感染症） |
+| 第2世代 | 機械学習 | 中規模 | 人間が設計 | ロジスティック回帰による予後予測 |
+| 第3世代 | 深層学習 | 大規模 | 自動抽出 | EIRL（脳MRI）、EndoBRAIN（内視鏡） |
+
+---
+
+## 学習方法による分類 — 3つのパラダイム
+
+### 教師あり学習（Supervised Learning）
+
+正解ラベル付きデータから学習する方法。医療AIで最も広く使われている。
+
+| タスク | 内容 | 医療での例 |
+|:---|:---|:---|
+| 分類 | データをカテゴリに割り当て | X線画像を「正常」「肺炎」「結核」に分類 |
+| 回帰 | 連続値を予測 | 患者データから入院日数を予測 |
+
+### 教師なし学習（Unsupervised Learning）
+
+正解ラベルなしのデータから隠れた構造を発見する方法。
+
+| タスク | 内容 | 医療での例 |
+|:---|:---|:---|
+| クラスタリング | データを自然なグループに分類 | 糖尿病患者のサブタイプ発見 |
+| 異常検知 | 通常パターンからの逸脱を検出 | 心電図の異常波形検出 |
+| 次元削減 | 高次元データを低次元に圧縮 | ゲノムデータの可視化 |
+
+### 強化学習（Reinforcement Learning）
+
+試行錯誤を通じて、報酬を最大化する行動を学習する方法。
+
+<CaseStudy title="AlphaGo — 強化学習が人間の直感を超えた" year={2016} jurisdiction="国際" tags={["強化学習", "囲碁", "DeepMind"]}>
+
+**背景**: Google DeepMindのAlphaGoは、プロ棋士の棋譜で教師あり学習した後、自己対局による強化学習で能力を飛躍的に向上させた。
+
+**衝撃**: 2016年3月、世界チャンピオン李世ドルに4勝1敗で勝利。第2局の「37手目」は、人間のプロ棋士が「1万局に1回も打たない」と評した革新的な一手で、AIが人間の常識を超えた判断に到達できることを示した。
+
+**医療への波及**: 強化学習は、放射線治療計画の最適化や、敗血症の治療戦略最適化の研究に応用されている。ただし、患者の安全が最優先のため、実臨床での適用は慎重に進められている。
+
+</CaseStudy>
+
+---
+
+## 出力による分類 — 識別AI vs 生成AI
+
+<Callout type="comparison" title="識別AI vs 生成AI — 何が違うのか">
+
+**識別AI（Discriminative AI）**: 入力データを分類・判定する。「この画像は肺炎か正常か」を判断。
+→ 医療例: EIRL（脳動脈瘤検出）、EndoBRAIN（大腸ポリープ鑑別）、nodoca（インフルエンザ診断）
+
+**生成AI（Generative AI）**: 新しいデータを生成する。テキスト、画像、コードなどを作り出す。
+→ 医療例: ChatGPT/Claude（診断書ドラフト、文献要約）、Med-PaLM（医学質問応答）
+
+**決定的な違い**: 識別AIは「AかBか」を判定する。生成AIは「Aに基づいて新しいCを作る」。2022年のChatGPT以降、生成AIが爆発的に普及したが、医療機器として承認されているAI（EIRL、EndoBRAIN、nodoca）は全て識別AI。
+
+</Callout>
+
+<ResourceCard
+  type="paper"
+  title="A Survey on Deep Learning in Medical Image Analysis"
+  url="https://arxiv.org/abs/1702.05747"
+  authors="Litjens G, Kooi T, Bejnordi BE et al."
+  source="Medical Image Analysis"
+  year={2017}
+  description="医療画像解析における深層学習の包括的サーベイ。分類・検出・セグメンテーションの手法を網羅"
+/>
+
+---
+
+## まとめ
+
+AIの分類は「アプローチ（ルールベース→機械学習→深層学習）」「学習方法（教師あり/なし/強化学習）」「出力（識別/生成）」の3軸で整理できます。現在の医療AIは主に深層学習ベースの識別AIであり、教師あり学習で大量のラベル付き医療データから訓練されています。生成AIは文書作成支援で急速に普及していますが、診断に使う医療機器としてはまだ承認されていません。
+
+次のレッスンでは、AIの中核技術である**機械学習**の仕組みを詳しく学びます。
+
+<Quiz
+  courseId="ai-basics"
+  lessonSlug="03-ai-classification"
+  questions={[
+    {
+      question: "ルールベースAI（MYCIN等）と深層学習の最も根本的な違いはどれか？",
+      options: ["ルールベースAIの方が精度が高い", "深層学習はデータから特徴を自動抽出するが、ルールベースは人間がルールを定義する", "ルールベースAIの方が大量のデータを必要とする", "深層学習は医療に使えないが、ルールベースは使える"],
+      correctIndex: 1,
+      explanation: "ルールベースAIは人間が「if A then B」のルールを明示的に定義します。深層学習はデータから特徴を自動抽出し、人間が定義できない複雑なパターンも学習できます。2012年のGoogle Brainの猫認識実験が、この「特徴量の自動抽出」の威力を示しました。"
+    },
+    {
+      question: "教師あり学習と教師なし学習の違いとして正しいものはどれか？",
+      options: ["教師あり学習は人間の監督が不要で、教師なし学習は人間の監督が必要", "教師あり学習は正解ラベル付きデータから学習し、教師なし学習はラベルなしでデータの構造を発見する", "教師あり学習はクラスタリング専用で、教師なし学習は分類専用", "両者に違いはない"],
+      correctIndex: 1,
+      explanation: "教師あり学習は正解ラベル付きデータ（X線画像+「肺炎」というラベル）から学習します。教師なし学習はラベルなしのデータから隠れた構造（患者のサブタイプなど）を発見します。医療AIでは教師あり学習が最も広く使われていますが、稀少疾患の発見などに教師なし学習も活用されています。"
+    },
+    {
+      question: "現在PMDAに承認されている医療AI（EIRL、EndoBRAIN、nodoca）は、分類上どれに該当するか？",
+      options: ["ルールベースの生成AI", "深層学習ベースの識別AI（教師あり学習）", "強化学習ベースの生成AI", "機械学習ベースの教師なし学習AI"],
+      correctIndex: 1,
+      explanation: "EIRL（脳動脈瘤検出）、EndoBRAIN（大腸ポリープ鑑別）、nodoca（インフルエンザ診断）は全て深層学習ベースの識別AIで、大量のラベル付き医療画像による教師あり学習で訓練されています。生成AI（ChatGPT等）は文書支援で活用されていますが、診断用の医療機器としては承認されていません。"
+    }
+  ]}
+/>
+
+<ActionItem>
+普段使用しているAIツールを「識別AI」と「生成AI」に分類してみましょう。画像診断支援は識別AI、ChatGPT/Claudeは生成AIです。それぞれの「できること」と「できないこと」を整理することで、AIの分類体系の実践的な理解が深まります。
+</ActionItem>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"ai-basics","lessonSlug":"03-ai-classification"}],["$","$L1d",null,{"items":[{"id":"はじめに-なぜ分類が重要なのか","text":"はじめに — なぜ分類が重要なのか","level":2},{"id":"アプローチによる分類-3つの世代","text":"アプローチによる分類 — 3つの世代","level":2},{"id":"ルールベースai第1世代","text":"ルールベースAI（第1世代）","level":3},{"id":"機械学習第2世代","text":"機械学習（第2世代）","level":3},{"id":"深層学習第3世代","text":"深層学習（第3世代）","level":3},{"id":"学習方法による分類-3つのパラダイム","text":"学習方法による分類 — 3つのパラダイム","level":2},{"id":"教師あり学習supervised-learning","text":"教師あり学習（Supervised Learning）","level":3},{"id":"教師なし学習unsupervised-learning","text":"教師なし学習（Unsupervised Learning）","level":3},{"id":"強化学習reinforcement-learning","text":"強化学習（Reinforcement Learning）","level":3},{"id":"出力による分類-識別ai-vs-生成ai","text":"出力による分類 — 識別AI vs 生成AI","level":2},{"id":"まとめ","text":"まとめ","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"course":{"courseId":"ai-basics","title":"AIとは何か - 基礎から理解する人工知能","description":"AIの定義、知能の本質、機械学習の基礎、AIの種類と分類を体系的に学びます","category":"ai-fundamentals","level":"beginner","lessonCount":8,"estimatedTotalMinutes":128,"order":1,"free":true,"learningOutcomes":["AIの定義と種類を正確に説明できる","機械学習の基本的な仕組みを理解できる","AIの現在の能力と限界を区別できる","AIの社会的影響を多角的に評価できる"],"prerequisites":[],"targetAudience":["AIについて初めて学ぶ方","医療分野でAIの基礎知識を得たい方","AI関連のニュースを正しく理解したい方"],"skills":["AI基礎知識","機械学習概論","AI分類"],"coverImage":"$undefined"},"lesson":{"courseId":"ai-basics","slug":"03-ai-classification","title":"AIの分類と種類","description":"ルールベースAI・機械学習・深層学習の違い、教師あり/なし/強化学習、生成AI vs 識別AIの分類体系を学びます","order":3,"estimatedMinutes":18,"estimatedReadTime":14,"content":"$1f"}}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"MobileToc"]
+26:I[82523,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonCompleteButton"]
+27:I[53746,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"LessonNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose","children":"$L25"}]
+22:["$","$L26",null,{"courseId":"ai-basics","lessonSlug":"03-ai-classification"}]
+23:["$","$L27",null,{"courseId":"ai-basics","prev":{"slug":"02-ai-history","title":"AIの歴史と発展の軌跡","order":2},"next":{"slug":"04-machine-learning","title":"機械学習の基本概念","order":4}}]
+28:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Callout"]
+25:[["$","h1",null,{"children":"AIの分類と種類"}],"\n",["$","h2",null,{"id":"はじめに-なぜ分類が重要なのか","children":"はじめに — なぜ分類が重要なのか"}],"\n",["$","p",null,{"children":"「AI」と一言で言っても、1972年のMYCIN（600個のif-thenルール）と2024年のGPT-4（1.8兆パラメータとも推定される巨大ニューラルネットワーク）は、根本的に異なる技術です。AIを正確に分類できることは、「このAIは何ができて何ができないのか」を判断する基礎になります。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"アプローチによる分類-3つの世代","children":"アプローチによる分類 — 3つの世代"}],"\n",["$","h3",null,{"id":"ルールベースai第1世代","children":"ルールベースAI（第1世代）"}],"\n",["$","p",null,{"children":"人間が「if A then B」のルールを明示的に定義するアプローチ。"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-blue-600/50 dark:border-l-blue-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","米国"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"MYCIN — ルールベースAIの到達点と限界"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"仕組み"}],": スタンフォード大学で開発された約600の「if-then」ルールに基づく感染症診断システム。「培養結果がグラム陰性 AND 形状が桿菌 AND 患者が免疫不全 → 緑膿菌の疑い」のような推論を連鎖的に実行。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"成果"}],": 血液感染症の診断で65%の精度を達成。非専門医（50%以下）を上回ったが、感染症専門医（約80%）には及ばなかった。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"限界"}],": 新しい知見が得られるたびに、専門家がルールを手動で追加・修正する必要があった。暗黙知（経験に基づく直感）をルール化することは不可能。結局、臨床現場では実用化されなかった。"]}]]}]]}],"\n",["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"特徴"}],["$","th",null,{"style":{"textAlign":"left"},"children":"内容"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"動作原理"}],["$","td",null,{"style":{"textAlign":"left"},"children":"人間が定義したルールに基づく論理推論"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"長所"}],["$","td",null,{"style":{"textAlign":"left"},"children":"判断根拠が明確（説明可能性が高い）、少数の専門知識で構築可能"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"短所"}],["$","td",null,{"style":{"textAlign":"left"},"children":"ルールの追加・更新が困難、暗黙知の扱いが不可能、スケールしない"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"医療での例"}],["$","td",null,{"style":{"textAlign":"left"},"children":"初期の診断支援システム、薬物相互作用チェッカー"}]]}]]}]]}],"\n",["$","h3",null,{"id":"機械学習第2世代","children":"機械学習（第2世代）"}],"\n",["$","p",null,{"children":"データからパターンを自動的に学習するアプローチ。ルールを人間が書くのではなく、AIがデータから発見する。"}],"\n",["$","$L28",null,{"type":"comparison","title":"ルールベース vs 機械学習 — 肺炎診断の場合","children":[["$","p",null,{"children":[["$","strong",null,{"children":"ルールベース"}],": 「体温38度以上 AND 咳あり AND CRP上昇 → 肺炎の疑い」。ルールを人間が書く。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"機械学習"}],": 10万件の患者データ（体温、症状、検査値、画像、最終診断）を学習させ、AIが自動的に「どの特徴の組み合わせが肺炎を示すか」のパターンを発見する。人間が気づかない微妙な相関も検出可能。"]}],["$","p",null,{"children":"→ 決定的な違い: 機械学習は「人間が見落とすパターン」も発見できるが、「なぜそう判断したか」の説明が難しい（ブラックボックス問題）。"}]]}],"\n",["$","h3",null,{"id":"深層学習第3世代","children":"深層学習（第3世代）"}],"\n",["$","p",null,{"children":"機械学習の一種で、多層のニューラルネットワーク（ディープニューラルネットワーク）を使用する。2012年のImageNetでの成功以降、AI革命の中心技術。"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-amber-600/50 dark:border-l-amber-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","国際"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"Google Brain — 猫を認識した深層学習の衝撃"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"背景"}],": 2012年、GoogleのJeff DeanとAndrew NgのチームがYouTubeの動画から1,000万枚の画像を使い、教師なしの深層学習モデルを訓練。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"成果"}],": 人間が「猫とは何か」を教えることなく、AIが自動的に「猫」の概念を獲得。従来の機械学習では、人間が「耳の形」「ひげの有無」などの特徴を手動で定義する必要があったが、深層学習はデータから特徴を自動抽出した。"]}],"$L29"]}]]}],"\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f"]
+40:I[89213,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ResourceCard"]
+41:I[16428,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"Quiz"]
+42:I[72593,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/9e44ddc01a744deb.js","/hoshizu/_next/static/chunks/59b48a095b784318.js"],"ActionItem"]
+29:["$","p",null,{"children":[["$","strong",null,{"children":"医療への意義"}],": この「特徴量の自動抽出」が医療画像AIの基盤。病理画像やX線画像でも、人間が定義できない微妙なパターンをAIが自動的に学習する。"]}]
+2a:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"世代"}],["$","th",null,{"style":{"textAlign":"left"},"children":"代表技術"}],["$","th",null,{"style":{"textAlign":"left"},"children":"データ量"}],["$","th",null,{"style":{"textAlign":"left"},"children":"特徴抽出"}],["$","th",null,{"style":{"textAlign":"left"},"children":"医療AI例"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"第1世代"}],["$","td",null,{"style":{"textAlign":"left"},"children":"ルールベース"}],["$","td",null,{"style":{"textAlign":"left"},"children":"不要"}],["$","td",null,{"style":{"textAlign":"left"},"children":"人間が定義"}],["$","td",null,{"style":{"textAlign":"left"},"children":"MYCIN（感染症）"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"第2世代"}],["$","td",null,{"style":{"textAlign":"left"},"children":"機械学習"}],["$","td",null,{"style":{"textAlign":"left"},"children":"中規模"}],["$","td",null,{"style":{"textAlign":"left"},"children":"人間が設計"}],["$","td",null,{"style":{"textAlign":"left"},"children":"ロジスティック回帰による予後予測"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"第3世代"}],["$","td",null,{"style":{"textAlign":"left"},"children":"深層学習"}],["$","td",null,{"style":{"textAlign":"left"},"children":"大規模"}],["$","td",null,{"style":{"textAlign":"left"},"children":"自動抽出"}],["$","td",null,{"style":{"textAlign":"left"},"children":"EIRL（脳MRI）、EndoBRAIN（内視鏡）"}]]}]]}]]}]
+2b:["$","hr",null,{}]
+2c:["$","h2",null,{"id":"学習方法による分類-3つのパラダイム","children":"学習方法による分類 — 3つのパラダイム"}]
+2d:["$","h3",null,{"id":"教師あり学習supervised-learning","children":"教師あり学習（Supervised Learning）"}]
+2e:["$","p",null,{"children":"正解ラベル付きデータから学習する方法。医療AIで最も広く使われている。"}]
+2f:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"タスク"}],["$","th",null,{"style":{"textAlign":"left"},"children":"内容"}],["$","th",null,{"style":{"textAlign":"left"},"children":"医療での例"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"分類"}],["$","td",null,{"style":{"textAlign":"left"},"children":"データをカテゴリに割り当て"}],["$","td",null,{"style":{"textAlign":"left"},"children":"X線画像を「正常」「肺炎」「結核」に分類"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"回帰"}],["$","td",null,{"style":{"textAlign":"left"},"children":"連続値を予測"}],["$","td",null,{"style":{"textAlign":"left"},"children":"患者データから入院日数を予測"}]]}]]}]]}]
+30:["$","h3",null,{"id":"教師なし学習unsupervised-learning","children":"教師なし学習（Unsupervised Learning）"}]
+31:["$","p",null,{"children":"正解ラベルなしのデータから隠れた構造を発見する方法。"}]
+32:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"style":{"textAlign":"left"},"children":"タスク"}],["$","th",null,{"style":{"textAlign":"left"},"children":"内容"}],["$","th",null,{"style":{"textAlign":"left"},"children":"医療での例"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"クラスタリング"}],["$","td",null,{"style":{"textAlign":"left"},"children":"データを自然なグループに分類"}],["$","td",null,{"style":{"textAlign":"left"},"children":"糖尿病患者のサブタイプ発見"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"異常検知"}],["$","td",null,{"style":{"textAlign":"left"},"children":"通常パターンからの逸脱を検出"}],["$","td",null,{"style":{"textAlign":"left"},"children":"心電図の異常波形検出"}]]}],["$","tr",null,{"children":[["$","td",null,{"style":{"textAlign":"left"},"children":"次元削減"}],["$","td",null,{"style":{"textAlign":"left"},"children":"高次元データを低次元に圧縮"}],["$","td",null,{"style":{"textAlign":"left"},"children":"ゲノムデータの可視化"}]]}]]}]]}]
+33:["$","h3",null,{"id":"強化学習reinforcement-learning","children":"強化学習（Reinforcement Learning）"}]
+34:["$","p",null,{"children":"試行錯誤を通じて、報酬を最大化する行動を学習する方法。"}]
+35:["$","div",null,{"className":"my-8 rounded-2xl border-l-[3px] bg-muted/40 p-5 sm:p-6 border-l-amber-600/50 dark:border-l-amber-400/50","children":[["$","div",null,{"className":"mb-3","children":[["$","div",null,{"className":"flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground","children":[["$","span",null,{"className":"font-medium uppercase tracking-wide","children":"Case Study"}],["$","span",null,{"children":["/ ","国際"]}],null]}],["$","h4",null,{"className":"mt-1 text-base font-semibold leading-snug text-foreground","children":"AlphaGo — 強化学習が人間の直感を超えた"}],null]}],["$","div",null,{"className":"prose text-sm leading-relaxed [&>:first-child]:mt-0 [&>:last-child]:mb-0","children":[["$","p",null,{"children":[["$","strong",null,{"children":"背景"}],": Google DeepMindのAlphaGoは、プロ棋士の棋譜で教師あり学習した後、自己対局による強化学習で能力を飛躍的に向上させた。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"衝撃"}],": 2016年3月、世界チャンピオン李世ドルに4勝1敗で勝利。第2局の「37手目」は、人間のプロ棋士が「1万局に1回も打たない」と評した革新的な一手で、AIが人間の常識を超えた判断に到達できることを示した。"]}],["$","p",null,{"children":[["$","strong",null,{"children":"医療への波及"}],": 強化学習は、放射線治療計画の最適化や、敗血症の治療戦略最適化の研究に応用されている。ただし、患者の安全が最優先のため、実臨床での適用は慎重に進められている。"]}]]}]]}]
+36:["$","hr",null,{}]
+37:["$","h2",null,{"id":"出力による分類-識別ai-vs-生成ai","children":"出力による分類 — 識別AI vs 生成AI"}]
+38:["$","$L28",null,{"type":"comparison","title":"識別AI vs 生成AI — 何が違うのか","children":[["$","p",null,{"children":[["$","strong",null,{"children":"識別AI（Discriminative AI）"}],": 入力データを分類・判定する。「この画像は肺炎か正常か」を判断。\n→ 医療例: EIRL（脳動脈瘤検出）、EndoBRAIN（大腸ポリープ鑑別）、nodoca（インフルエンザ診断）"]}],["$","p",null,{"children":[["$","strong",null,{"children":"生成AI（Generative AI）"}],": 新しいデータを生成する。テキスト、画像、コードなどを作り出す。\n→ 医療例: ChatGPT/Claude（診断書ドラフト、文献要約）、Med-PaLM（医学質問応答）"]}],["$","p",null,{"children":[["$","strong",null,{"children":"決定的な違い"}],": 識別AIは「AかBか」を判定する。生成AIは「Aに基づいて新しいCを作る」。2022年のChatGPT以降、生成AIが爆発的に普及したが、医療機器として承認されているAI（EIRL、EndoBRAIN、nodoca）は全て識別AI。"]}]]}]
+39:["$","$L40",null,{"type":"paper","title":"A Survey on Deep Learning in Medical Image Analysis","url":"https://arxiv.org/abs/1702.05747","authors":"Litjens G, Kooi T, Bejnordi BE et al.","source":"Medical Image Analysis","description":"医療画像解析における深層学習の包括的サーベイ。分類・検出・セグメンテーションの手法を網羅"}]
+3a:["$","hr",null,{}]
+3b:["$","h2",null,{"id":"まとめ","children":"まとめ"}]
+3c:["$","p",null,{"children":"AIの分類は「アプローチ（ルールベース→機械学習→深層学習）」「学習方法（教師あり/なし/強化学習）」「出力（識別/生成）」の3軸で整理できます。現在の医療AIは主に深層学習ベースの識別AIであり、教師あり学習で大量のラベル付き医療データから訓練されています。生成AIは文書作成支援で急速に普及していますが、診断に使う医療機器としてはまだ承認されていません。"}]
+3d:["$","p",null,{"children":["次のレッスンでは、AIの中核技術である",["$","strong",null,{"children":"機械学習"}],"の仕組みを詳しく学びます。"]}]
+3e:["$","$L41",null,{"courseId":"ai-basics","lessonSlug":"03-ai-classification"}]
+3f:["$","$L42",null,{"children":["$","p",null,{"children":"普段使用しているAIツールを「識別AI」と「生成AI」に分類してみましょう。画像診断支援は識別AI、ChatGPT/Claudeは生成AIです。それぞれの「できること」と「できないこと」を整理することで、AIの分類体系の実践的な理解が深まります。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+43:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"AIの分類と種類 | Hoshizu"}],["$","meta","1",{"name":"description","content":"ルールベースAI・機械学習・深層学習の違い、教師あり/なし/強化学習、生成AI vs 識別AIの分類体系を学びます"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/learn/ai-basics/03-ai-classification"}],["$","meta","4",{"property":"og:title","content":"AIの分類と種類 - AIとは何か - 基礎から理解する人工知能"}],["$","meta","5",{"property":"og:description","content":"ルールベースAI・機械学習・深層学習の違い、教師あり/なし/強化学習、生成AI vs 識別AIの分類体系を学びます"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L43","15",{}]]

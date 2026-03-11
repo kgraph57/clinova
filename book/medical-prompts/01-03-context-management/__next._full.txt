@@ -1,0 +1,263 @@
+1:"$Sreact.fragment"
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ProgressProvider"]
+7:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Header"]
+8:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ErrorBoundary"]
+9:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"PageTransition"]
+a:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+b:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+c:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/90b7db344b424a93.js"],"default"]
+d:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Footer"]
+e:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ScrollToTop"]
+f:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ServiceWorkerRegistration"]
+10:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"ChatWidget"]
+11:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js"],"Toaster"]
+13:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1a:I[68027,[],"default"]
+:HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
+:HL["/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","style"]
+:HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"mmQn4qMB-QOQQuZNgk3iK","c":["","book","medical-prompts","01-03-context-management"],"q":"","i":false,"f":[[["",{"children":["book",{"children":[["bookId","medical-prompts","d"],{"children":[["chapterId","01-03-context-management","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/cd72769fddb68bc7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/c3760b127f2d34da.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/36dc78659098e987.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L7",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lc",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1a",[]],"S":true}
+1b:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+1c:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+1d:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+1e:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+1f:T1e76,
+## コンテキストウィンドウとは
+
+LLM（大規模言語モデル）が一度に処理できるテキスト量には上限があります。これを「コンテキストウィンドウ」と呼びます。2026年現在、主要なモデルのコンテキストウィンドウは以下の通りです。
+
+- Claude 3.5/4系: 200,000トークン（約30万文字）
+- GPT-4o: 128,000トークン（約19万文字）
+- Gemini 1.5 Pro: 2,000,000トークン（約300万文字）
+
+一見十分に思えますが、臨床データは膨大になりがちです。電子カルテの経過記録、検査結果の一覧、画像レポート、看護記録など、1人の患者のデータだけでも相当な量になります。
+
+## なぜコンテキスト管理が重要か
+
+コンテキストウィンドウの使い方は、AIの回答品質に直結します。
+
+<ComparisonCard beforeLabel="カルテ丸投げ" afterLabel="構造化された情報提供">
+<ComparisonBefore>
+
+以下は過去3年分の全カルテです。[30ページ分のカルテテキスト] この患者の現在の問題を分析してください。
+
+</ComparisonBefore>
+<ComparisonAfter>
+
+以下の患者について、現在のアクティブな問題を分析してください。
+
+【現在のアクティブ問題】
+#1 2型糖尿病（HbA1c 8.5%、3ヶ月前 7.9%）
+#2 CKDステージ3b（eGFR 38、6ヶ月前 42）
+#3 高血圧（最近のBP平均 145/88）
+
+【直近の処方変更】
+2025/12: メトホルミン 1500→1000mgに減量（eGFR低下のため）
+
+【直近の検査推移（3ヶ月間）】
+HbA1c: 7.9→8.2→8.5%
+eGFR: 42→40→38
+K: 4.5→4.7→4.9
+
+上記3問題の相互関連と治療最適化案を提案してください。
+
+</ComparisonAfter>
+</ComparisonCard>
+
+## 臨床データの優先順位付け
+
+コンテキストウィンドウを効率的に使うために、臨床データには優先順位をつけて投入します。
+
+<StepFlow>
+  <StepFlowStep number={1} title="必須情報（Always Include）">
+    主訴、現病歴のサマリー、アクティブな問題リスト、現在の処方、直近のバイタルサイン、アレルギー情報
+  </StepFlowStep>
+  <StepFlowStep number={2} title="重要情報（Usually Include）">
+    関連する既往歴、直近の検査結果（異常値中心）、画像検査の所見サマリー、最近の処方変更
+  </StepFlowStep>
+  <StepFlowStep number={3} title="補足情報（Include If Relevant）">
+    家族歴、社会歴、経時的な検査推移、看護記録のサマリー
+  </StepFlowStep>
+  <StepFlowStep number={4} title="省略可能（Omit Unless Needed）">
+    正常範囲内の検査結果、古い既往歴の詳細、定型的なバイタル記録
+  </StepFlowStep>
+</StepFlow>
+
+## データ圧縮テクニック
+
+臨床データを効率的に圧縮する具体的なテクニックを紹介します。
+
+### テクニック1: 異常値フォーカス
+
+<PromptTemplate title="検査結果の効率的な提示（異常値フォーカス）">
+【検査結果サマリー（異常値のみ抽出）】
+日付: 2025/12/15
+
+血算: WBC 12,500↑ (Neut 82%↑), Hb 10.2↓, Plt 正常
+生化: Cr 1.8↑, BUN 32↑, eGFR 35↓, K 5.1↑, Na 正常
+    AST/ALT 正常, Alb 3.0↓
+    CRP 8.5↑, PCT 0.85↑
+凝固: 正常
+血糖: HbA1c 8.5↑, 随時血糖 245↑
+
+※ 記載のない項目は全て基準値内
+
+[以上の検査結果に基づく臨床質問]
+</PromptTemplate>
+
+### テクニック2: 経時的変化の要約
+
+<PromptTemplate title="経時変化の効率的提示">
+【腎機能推移（過去12ヶ月）】
+eGFR: 55→50→45→42→38 (mL/min/1.73m²)
+Cr:   1.1→1.2→1.3→1.4→1.6 (mg/dL)
+BUN:  18→20→24→28→32 (mg/dL)
+K:    4.2→4.4→4.5→4.7→5.1 (mEq/L)
+尿蛋白: (+)→(+)→(++)→(++)→(+++)
+
+傾向: eGFR 年間約17mL/min低下（急速進行性）
+      高K血症が出現・増悪傾向
+
+この腎機能悪化速度の評価と、急速進行性の原因検索プランを提案してください。
+</PromptTemplate>
+
+### テクニック3: 問題指向型サマリー
+
+<PromptTemplate title="問題指向型データ構造化">
+【問題リスト（アクティブ）】
+
+#1 急性腎障害（AKI）- KDIGO Stage 2
+   - Cr: ベースライン0.9→現在2.1（48時間で上昇）
+   - 尿量: 0.4mL/kg/hr × 6時間
+   - 原因精査中（腎前性 vs 腎性）
+   - 補液開始済み
+
+#2 敗血症疑い
+   - 発熱38.8℃、WBC 18,000、CRP 15.2、PCT 2.1
+   - 血液培養2セット採取済み（結果待ち）
+   - 尿路感染源の可能性（膿尿あり）
+   - MEPM 1g q12h開始（腎機能調整済み）
+
+#3 心房細動（既知・慢性）
+   - DOAC内服中→AKIのため一時中止
+   - HR 110bpmでrate control不十分
+
+上記3問題の関連性を分析し、包括的な管理プランを提案してください。
+</PromptTemplate>
+
+## 長文データの分割戦略
+
+電子カルテの記録が長大な場合、データを分割して段階的に処理する戦略が有効です。
+
+<PromptTemplate title="段階的データ処理プロンプト">
+これから3段階に分けて患者情報を提供します。
+全ての情報を受け取った後に、分析を行ってください。
+
+【第1段階：基本情報と問題リスト】
+[基本情報を入力]
+
+上記を確認しました。続けて第2段階の情報を提供します。
+
+【第2段階：検査結果と画像所見】
+[検査・画像データを入力]
+
+確認しました。最後の段階です。
+
+【第3段階：治療経過と現在の処方】
+[治療経過を入力]
+
+以上の全情報に基づき、以下の分析を行ってください：
+1. 現在の最も重要な臨床課題
+2. 見落とされている可能性のある問題点
+3. 治療最適化の提案
+</PromptTemplate>
+
+## プライバシーに配慮したデータ入力
+
+<Warning>
+AIにカルテ情報を入力する際は、必ず以下の個人識別情報を除去してください：
+- 氏名 → 「A氏」「患者X」
+- 生年月日 → 年齢のみ記載
+- 住所 → 不要なら省略
+- ID番号 → 省略
+- 連絡先 → 省略
+- 施設名 → 「当院」「前医」
+上記の除去は手動で行うか、施設の匿名化ツールを使用してください。
+</Warning>
+
+<PromptTemplate title="匿名化テンプレート">
+以下の臨床情報は匿名化済みです。
+
+【患者】[年齢][性別]（ID等の識別情報は除去済み）
+【施設】当院（三次救急対応の総合病院）
+
+[匿名化された臨床データ]
+
+上記に基づき、[質問内容]についてご助言ください。
+
+※本データは匿名化処理済みであり、個人を特定できる情報は含まれていません。
+</PromptTemplate>
+
+## コンテキスト効率の測定
+
+自分のプロンプトのコンテキスト効率を評価するための指標です。
+
+<Callout>
+コンテキスト効率チェック：
+- **情報密度**: 入力した情報のうち、回答に実際に使われた情報の割合は？
+- **冗長性**: 同じ情報を異なる表現で重複して入力していないか？
+- **ノイズ比**: 質問と無関係な情報がどれだけ含まれているか？
+- **構造化度**: AIが情報を正しく識別できる構造になっているか？
+</Callout>
+
+<KeyTakeaway>
+コンテキストウィンドウは有限のリソースです。臨床データを「異常値フォーカス」「経時的変化の要約」「問題指向型サマリー」の3つのテクニックで圧縮し、優先順位をつけて投入することで、AIの回答品質を最大化できます。また、患者の個人識別情報は必ず除去してから入力してください。
+</KeyTakeaway>
+12:[["$","$L1b",null,{}],["$","$L1c",null,{"courseId":"book-medical-prompts","lessonSlug":"01-03-context-management"}],["$","$L1d",null,{"items":[{"id":"コンテキストウィンドウとは","text":"コンテキストウィンドウとは","level":2},{"id":"なぜコンテキスト管理が重要か","text":"なぜコンテキスト管理が重要か","level":2},{"id":"臨床データの優先順位付け","text":"臨床データの優先順位付け","level":2},{"id":"データ圧縮テクニック","text":"データ圧縮テクニック","level":2},{"id":"テクニック1-異常値フォーカス","text":"テクニック1: 異常値フォーカス","level":3},{"id":"テクニック2-経時的変化の要約","text":"テクニック2: 経時的変化の要約","level":3},{"id":"テクニック3-問題指向型サマリー","text":"テクニック3: 問題指向型サマリー","level":3},{"id":"長文データの分割戦略","text":"長文データの分割戦略","level":2},{"id":"プライバシーに配慮したデータ入力","text":"プライバシーに配慮したデータ入力","level":2},{"id":"コンテキスト効率の測定","text":"コンテキスト効率の測定","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L1e",null,{"bookId":"medical-prompts","bookTitle":"医療者のためのAIプロンプト設計術","chapter":{"slug":"01-03-context-management","title":"コンテキストウィンドウ管理と臨床データ","description":"LLMのコンテキストウィンドウを効率的に活用し、臨床データを最適な形で入力する技術を解説します。","partId":"part01","partTitle":"プロンプト設計の基本原則","order":3,"partOrder":1,"estimatedMinutes":18,"estimatedReadTime":9,"free":true,"status":"published","tags":["コンテキストウィンドウ","臨床データ","トークン管理","データ構造化"],"content":"$1f"},"totalChapters":29}],"$L20","$L21","$L22","$L23"]}]]
+24:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+26:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+27:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+20:["$","$L24",null,{"items":"$12:2:props:items"}]
+21:["$","article",null,{"className":"prose book-prose","children":"$L25"}]
+22:["$","$L26",null,{"bookId":"medical-prompts","chapterSlug":"01-03-context-management"}]
+23:["$","$L27",null,{"bookId":"medical-prompts","prev":{"slug":"01-02-prompting-strategies","title":"Zero-shot・Few-shot・Chain-of-thoughtの医療活用","order":2},"next":{"slug":"01-04-output-design","title":"出力フォーマット設計（構造化 vs ナラティブ）","order":4}}]
+28:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonCard"]
+29:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonBefore"]
+2a:I[81767,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ComparisonAfter"]
+25:[["$","h2",null,{"id":"コンテキストウィンドウとは","children":"コンテキストウィンドウとは"}],"\n",["$","p",null,{"children":"LLM（大規模言語モデル）が一度に処理できるテキスト量には上限があります。これを「コンテキストウィンドウ」と呼びます。2026年現在、主要なモデルのコンテキストウィンドウは以下の通りです。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"Claude 3.5/4系: 200,000トークン（約30万文字）"}],"\n",["$","li",null,{"children":"GPT-4o: 128,000トークン（約19万文字）"}],"\n",["$","li",null,{"children":"Gemini 1.5 Pro: 2,000,000トークン（約300万文字）"}],"\n"]}],"\n",["$","p",null,{"children":"一見十分に思えますが、臨床データは膨大になりがちです。電子カルテの経過記録、検査結果の一覧、画像レポート、看護記録など、1人の患者のデータだけでも相当な量になります。"}],"\n",["$","h2",null,{"id":"なぜコンテキスト管理が重要か","children":"なぜコンテキスト管理が重要か"}],"\n",["$","p",null,{"children":"コンテキストウィンドウの使い方は、AIの回答品質に直結します。"}],"\n",["$","$L28",null,{"beforeLabel":"カルテ丸投げ","afterLabel":"構造化された情報提供","children":[["$","$L29",null,{"children":["$","p",null,{"children":"以下は過去3年分の全カルテです。[30ページ分のカルテテキスト] この患者の現在の問題を分析してください。"}]}],["$","$L2a",null,{"children":[["$","p",null,{"children":"以下の患者について、現在のアクティブな問題を分析してください。"}],["$","p",null,{"children":"【現在のアクティブ問題】\n#1 2型糖尿病（HbA1c 8.5%、3ヶ月前 7.9%）\n#2 CKDステージ3b（eGFR 38、6ヶ月前 42）\n#3 高血圧（最近のBP平均 145/88）"}],["$","p",null,{"children":"【直近の処方変更】\n2025/12: メトホルミン 1500→1000mgに減量（eGFR低下のため）"}],["$","p",null,{"children":"【直近の検査推移（3ヶ月間）】\nHbA1c: 7.9→8.2→8.5%\neGFR: 42→40→38\nK: 4.5→4.7→4.9"}],["$","p",null,{"children":"上記3問題の相互関連と治療最適化案を提案してください。"}]]}]]}],"\n",["$","h2",null,{"id":"臨床データの優先順位付け","children":"臨床データの優先順位付け"}],"\n",["$","p",null,{"children":"コンテキストウィンドウを効率的に使うために、臨床データには優先順位をつけて投入します。"}],"\n",["$","div",null,{"className":"my-8 rounded-2xl bg-muted/20 p-6 dark:bg-muted/10 sm:p-8","children":[null,["$","div",null,{"className":"space-y-0","children":[["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"必須情報（Always Include）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"主訴、現病歴のサマリー、アクティブな問題リスト、現在の処方、直近のバイタルサイン、アレルギー情報"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"重要情報（Usually Include）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"関連する既往歴、直近の検査結果（異常値中心）、画像検査の所見サマリー、最近の処方変更"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]]}],["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"補足情報（Include If Relevant）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"家族歴、社会歴、経時的な検査推移、看護記録のサマリー"}]}]]}]]}],["$","div",null,{"className":"relative flex gap-4 pb-6 last:pb-0","children":[["$","div",null,{"className":"flex flex-col items-center","children":[["$","div",null,{"className":"flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-foreground text-sm font-semibold text-background","children":"$undefined"}],"$L2b"]}],"$L2c"]}]]}]]}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e"]
+3f:I[74797,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"PromptTemplate"]
+40:I[99171,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Warning"]
+41:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+42:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+2b:["$","div",null,{"className":"mt-1 w-px flex-1 bg-border last:hidden"}]
+2c:["$","div",null,{"className":"flex-1 pb-2 pt-1","children":[["$","div",null,{"className":"flex items-baseline gap-2","children":[["$","p",null,{"className":"text-base font-semibold","children":"省略可能（Omit Unless Needed）"}],null]}],["$","div",null,{"className":"mt-1 text-sm leading-relaxed text-muted-foreground","children":["$","p",null,{"children":"正常範囲内の検査結果、古い既往歴の詳細、定型的なバイタル記録"}]}]]}]
+2d:["$","h2",null,{"id":"データ圧縮テクニック","children":"データ圧縮テクニック"}]
+2e:["$","p",null,{"children":"臨床データを効率的に圧縮する具体的なテクニックを紹介します。"}]
+2f:["$","h3",null,{"id":"テクニック1-異常値フォーカス","children":"テクニック1: 異常値フォーカス"}]
+30:["$","$L3f",null,{"title":"検査結果の効率的な提示（異常値フォーカス）","children":[["$","p",null,{"children":"【検査結果サマリー（異常値のみ抽出）】\n日付: 2025/12/15"}],["$","p",null,{"children":"血算: WBC 12,500↑ (Neut 82%↑), Hb 10.2↓, Plt 正常\n生化: Cr 1.8↑, BUN 32↑, eGFR 35↓, K 5.1↑, Na 正常\nAST/ALT 正常, Alb 3.0↓\nCRP 8.5↑, PCT 0.85↑\n凝固: 正常\n血糖: HbA1c 8.5↑, 随時血糖 245↑"}],["$","p",null,{"children":"※ 記載のない項目は全て基準値内"}],["$","p",null,{"children":"[以上の検査結果に基づく臨床質問]"}]]}]
+31:["$","h3",null,{"id":"テクニック2-経時的変化の要約","children":"テクニック2: 経時的変化の要約"}]
+32:["$","$L3f",null,{"title":"経時変化の効率的提示","children":[["$","p",null,{"children":"【腎機能推移（過去12ヶ月）】\neGFR: 55→50→45→42→38 (mL/min/1.73m²)\nCr:   1.1→1.2→1.3→1.4→1.6 (mg/dL)\nBUN:  18→20→24→28→32 (mg/dL)\nK:    4.2→4.4→4.5→4.7→5.1 (mEq/L)\n尿蛋白: (+)→(+)→(++)→(++)→(+++)"}],["$","p",null,{"children":"傾向: eGFR 年間約17mL/min低下（急速進行性）\n高K血症が出現・増悪傾向"}],["$","p",null,{"children":"この腎機能悪化速度の評価と、急速進行性の原因検索プランを提案してください。"}]]}]
+33:["$","h3",null,{"id":"テクニック3-問題指向型サマリー","children":"テクニック3: 問題指向型サマリー"}]
+34:["$","$L3f",null,{"title":"問題指向型データ構造化","children":[["$","p",null,{"children":"【問題リスト（アクティブ）】"}],["$","p",null,{"children":"#1 急性腎障害（AKI）- KDIGO Stage 2"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"Cr: ベースライン0.9→現在2.1（48時間で上昇）"}],"\n",["$","li",null,{"children":"尿量: 0.4mL/kg/hr × 6時間"}],"\n",["$","li",null,{"children":"原因精査中（腎前性 vs 腎性）"}],"\n",["$","li",null,{"children":"補液開始済み"}],"\n"]}],["$","p",null,{"children":"#2 敗血症疑い"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"発熱38.8℃、WBC 18,000、CRP 15.2、PCT 2.1"}],"\n",["$","li",null,{"children":"血液培養2セット採取済み（結果待ち）"}],"\n",["$","li",null,{"children":"尿路感染源の可能性（膿尿あり）"}],"\n",["$","li",null,{"children":"MEPM 1g q12h開始（腎機能調整済み）"}],"\n"]}],["$","p",null,{"children":"#3 心房細動（既知・慢性）"}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"DOAC内服中→AKIのため一時中止"}],"\n",["$","li",null,{"children":"HR 110bpmでrate control不十分"}],"\n"]}],["$","p",null,{"children":"上記3問題の関連性を分析し、包括的な管理プランを提案してください。"}]]}]
+35:["$","h2",null,{"id":"長文データの分割戦略","children":"長文データの分割戦略"}]
+36:["$","p",null,{"children":"電子カルテの記録が長大な場合、データを分割して段階的に処理する戦略が有効です。"}]
+37:["$","$L3f",null,{"title":"段階的データ処理プロンプト","children":[["$","p",null,{"children":"これから3段階に分けて患者情報を提供します。\n全ての情報を受け取った後に、分析を行ってください。"}],["$","p",null,{"children":"【第1段階：基本情報と問題リスト】\n[基本情報を入力]"}],["$","p",null,{"children":"上記を確認しました。続けて第2段階の情報を提供します。"}],["$","p",null,{"children":"【第2段階：検査結果と画像所見】\n[検査・画像データを入力]"}],["$","p",null,{"children":"確認しました。最後の段階です。"}],["$","p",null,{"children":"【第3段階：治療経過と現在の処方】\n[治療経過を入力]"}],["$","p",null,{"children":"以上の全情報に基づき、以下の分析を行ってください："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"現在の最も重要な臨床課題"}],"\n",["$","li",null,{"children":"見落とされている可能性のある問題点"}],"\n",["$","li",null,{"children":"治療最適化の提案"}],"\n"]}]]}]
+38:["$","h2",null,{"id":"プライバシーに配慮したデータ入力","children":"プライバシーに配慮したデータ入力"}]
+39:["$","$L40",null,{"children":[["$","p",null,{"children":"AIにカルテ情報を入力する際は、必ず以下の個人識別情報を除去してください："}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"氏名 → 「A氏」「患者X」"}],"\n",["$","li",null,{"children":"生年月日 → 年齢のみ記載"}],"\n",["$","li",null,{"children":"住所 → 不要なら省略"}],"\n",["$","li",null,{"children":"ID番号 → 省略"}],"\n",["$","li",null,{"children":"連絡先 → 省略"}],"\n",["$","li",null,{"children":"施設名 → 「当院」「前医」\n上記の除去は手動で行うか、施設の匿名化ツールを使用してください。"}],"\n"]}]]}]
+3a:["$","$L3f",null,{"title":"匿名化テンプレート","children":[["$","p",null,{"children":"以下の臨床情報は匿名化済みです。"}],["$","p",null,{"children":"【患者】[年齢][性別]（ID等の識別情報は除去済み）\n【施設】当院（三次救急対応の総合病院）"}],["$","p",null,{"children":"[匿名化された臨床データ]"}],["$","p",null,{"children":"上記に基づき、[質問内容]についてご助言ください。"}],["$","p",null,{"children":"※本データは匿名化処理済みであり、個人を特定できる情報は含まれていません。"}]]}]
+3b:["$","h2",null,{"id":"コンテキスト効率の測定","children":"コンテキスト効率の測定"}]
+3c:["$","p",null,{"children":"自分のプロンプトのコンテキスト効率を評価するための指標です。"}]
+3d:["$","$L41",null,{"children":[["$","p",null,{"children":"コンテキスト効率チェック："}],["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"情報密度"}],": 入力した情報のうち、回答に実際に使われた情報の割合は？"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"冗長性"}],": 同じ情報を異なる表現で重複して入力していないか？"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"ノイズ比"}],": 質問と無関係な情報がどれだけ含まれているか？"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"構造化度"}],": AIが情報を正しく識別できる構造になっているか？"]}],"\n"]}]]}]
+3e:["$","$L42",null,{"children":["$","p",null,{"children":"コンテキストウィンドウは有限のリソースです。臨床データを「異常値フォーカス」「経時的変化の要約」「問題指向型サマリー」の3つのテクニックで圧縮し、優先順位をつけて投入することで、AIの回答品質を最大化できます。また、患者の個人識別情報は必ず除去してから入力してください。"}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+43:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"コンテキストウィンドウ管理と臨床データ | Hoshizu"}],["$","meta","1",{"name":"description","content":"LLMのコンテキストウィンドウを効率的に活用し、臨床データを最適な形で入力する技術を解説します。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"canonical","href":"https://kgraph57.github.io/hoshizu/book/medical-prompts/01-03-context-management"}],["$","meta","4",{"property":"og:title","content":"コンテキストウィンドウ管理と臨床データ - 医療者のためのAIプロンプト設計術"}],["$","meta","5",{"property":"og:description","content":"LLMのコンテキストウィンドウを効率的に活用し、臨床データを最適な形で入力する技術を解説します。"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","9",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","10",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","11",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","12",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","13",{"rel":"icon","href":"/favicon.ico"}],["$","link","14",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L43","15",{}]]

@@ -1,0 +1,145 @@
+1:"$Sreact.fragment"
+2:I[95922,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ReadingProgress"]
+3:I[65190,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"LessonTracker"]
+4:I[42228,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"TableOfContents"]
+5:I[82021,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterHeader"]
+7:I[30120,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"MobileToc"]
+2a:I[89490,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"Callout"]
+2b:I[80837,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"KeyTakeaway"]
+2c:I[49861,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterCompleteButton"]
+2d:I[32410,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/36dc78659098e987.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterNavigation"]
+2e:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+2f:"$Sreact.suspense"
+6:Tfe0,
+一人の開発者がチームに変わる。マルチエージェントシステムは、複数のAIエージェントが協調して一つのプロジェクトに取り組む仕組みだ。
+
+---
+
+## マルチエージェントとは何か
+
+通常のClaude Codeは「一人の開発者」として動作する。一つのコンテキストで、一つのタスクに順番に取り組む。
+
+マルチエージェントでは、複数のエージェントが同時に、それぞれ独立したコンテキストで動作する。あたかも開発チームのように。
+
+- チームリード: 全体を統括し、タスクを割り当てる
+- 実装担当: コードを書く
+- テスト担当: テストを書いて実行する
+- レビュー担当: コードをレビューする
+
+---
+
+## チームの作成
+
+### TeamCreate
+
+チームを作成すると、以下が行われる。
+
+1. チーム設定ファイルを作成（`~/.claude/teams/{team-name}/config.json`）
+2. 共有タスクリストを作成（`~/.claude/tasks/{team-name}/`）
+3. チームリードとして現在のセッションを設定
+
+### チームメイトの追加
+
+Agentツールで `team_name` パラメータを指定して、チームメイトを追加する。各チームメイトは独立したプロセスとして起動し、チームのタスクリストにアクセスできる。
+
+---
+
+## タスク管理と協調
+
+### タスクの状態
+
+| 状態 | 意味 |
+|------|------|
+| pending | 未着手 |
+| in_progress | 作業中 |
+| completed | 完了 |
+| blocked | 他タスクの完了待ち |
+
+チームメイトは定期的にタスクリストを確認し、未割り当てのタスクをID順に取得する。
+
+### コミュニケーション
+
+- 直接メッセージ: 特定のチームメイトへ指示を送る。通常はこちら
+- ブロードキャスト: 全員への一斉通知。コストが高いため重大情報のみ
+- シャットダウン要求: 作業完了後にチームメイトを終了させる
+
+<Callout type="warning" title="ブロードキャストは控えめに">
+ブロードキャストはすべてのチームメイトにメッセージを送信するため、コストが高い。全員に影響する重大な情報のみに使い、通常は直接メッセージを使う。
+</Callout>
+
+---
+
+## Worktree分離との組み合わせ
+
+マルチエージェントで最も注意すべきはファイルの競合。`isolation: "worktree"` を指定すると、各エージェントはリポジトリの独立したコピーで作業し、競合を構造的に防げる。
+
+---
+
+## 実践例: 3エージェントでの機能開発
+
+シナリオ: ブックマーク機能の追加
+
+1. team-leadがタスクを定義し割り当て
+2. frontend-dev（worktree分離）がUIコンポーネントを実装
+3. test-writer（worktree分離）が並行してテストを作成
+4. 各自が完了を報告
+5. team-leadが結果を確認、必要なら修正を指示
+6. 全チームメイトをシャットダウン → TeamDeleteでクリーンアップ
+
+---
+
+## コスト考慮
+
+各エージェントがAPIを消費するため、コスト意識が重要。
+
+- 軽量タスクにはHaikuモデルのエージェントを使う
+- 必要な時だけチームを編成し、完了後はすぐシャットダウン
+
+| 場面 | マルチエージェント | 単一エージェント |
+|------|-----------------|----------------|
+| 5ファイル以上の大規模変更 | 効果的 | 時間がかかる |
+| 実装とテストの並行作業 | 効果的 | 順番にしかできない |
+| 単一ファイルの修正 | 過剰 | 十分 |
+
+<KeyTakeaway>
+- マルチエージェントは複数のAIが協調して一つのプロジェクトに取り組む仕組み
+- TeamCreateでチームを作成し、共有タスクリストとメッセージで協調する
+- Worktree分離で複数エージェントのファイル競合を構造的に防ぐ
+- 大規模変更・並行作業・マルチパースペクティブレビューに効果的
+</KeyTakeaway>
+0:{"buildId":"mmQn4qMB-QOQQuZNgk3iK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{"courseId":"book-claude-code","lessonSlug":"05-03-multi-agent"}],["$","$L4",null,{"items":[{"id":"マルチエージェントとは何か","text":"マルチエージェントとは何か","level":2},{"id":"チームの作成","text":"チームの作成","level":2},{"id":"teamcreate","text":"TeamCreate","level":3},{"id":"チームメイトの追加","text":"チームメイトの追加","level":3},{"id":"タスク管理と協調","text":"タスク管理と協調","level":2},{"id":"タスクの状態","text":"タスクの状態","level":3},{"id":"コミュニケーション","text":"コミュニケーション","level":3},{"id":"worktree分離との組み合わせ","text":"Worktree分離との組み合わせ","level":2},{"id":"実践例-3エージェントでの機能開発","text":"実践例: 3エージェントでの機能開発","level":2},{"id":"コスト考慮","text":"コスト考慮","level":2}]}],["$","div",null,{"className":"mx-auto max-w-[720px] px-6 py-12 sm:py-20","children":[["$","$L5",null,{"bookId":"claude-code","bookTitle":"Claude Code完全ガイド — AIコーディングの新しい形","chapter":{"slug":"05-03-multi-agent","title":"マルチエージェント — チームで開発する","description":"TeamCreate、SendMessage、TaskCreate。複数のエージェントを協調させて、一人では不可能な規模の開発を実現する。","partId":"part05","partTitle":"高度なテクニック","order":18,"partOrder":5,"estimatedMinutes":25,"estimatedReadTime":4,"free":true,"status":"published","tags":["マルチエージェント","チーム","並列","協調","タスク"],"content":"$6"},"totalChapters":26}],["$","$L7",null,{"items":[{"id":"マルチエージェントとは何か","text":"マルチエージェントとは何か","level":2},{"id":"チームの作成","text":"チームの作成","level":2},{"id":"teamcreate","text":"TeamCreate","level":3},{"id":"チームメイトの追加","text":"チームメイトの追加","level":3},{"id":"タスク管理と協調","text":"タスク管理と協調","level":2},{"id":"タスクの状態","text":"タスクの状態","level":3},{"id":"コミュニケーション","text":"コミュニケーション","level":3},{"id":"worktree分離との組み合わせ","text":"Worktree分離との組み合わせ","level":2},{"id":"実践例-3エージェントでの機能開発","text":"実践例: 3エージェントでの機能開発","level":2},{"id":"コスト考慮","text":"コスト考慮","level":2}]}],["$","article",null,{"className":"prose book-prose","children":[["$","p",null,{"children":"一人の開発者がチームに変わる。マルチエージェントシステムは、複数のAIエージェントが協調して一つのプロジェクトに取り組む仕組みだ。"}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"id":"マルチエージェントとは何か","children":"マルチエージェントとは何か"}],"\n",["$","p",null,{"children":"通常のClaude Codeは「一人の開発者」として動作する。一つのコンテキストで、一つのタスクに順番に取り組む。"}],"\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25"]}],"$L26","$L27"]}]],["$L28"],"$L29"]}],"loading":null,"isPartial":false}
+8:["$","p",null,{"children":"マルチエージェントでは、複数のエージェントが同時に、それぞれ独立したコンテキストで動作する。あたかも開発チームのように。"}]
+9:["$","ul",null,{"children":["\n",["$","li",null,{"children":"チームリード: 全体を統括し、タスクを割り当てる"}],"\n",["$","li",null,{"children":"実装担当: コードを書く"}],"\n",["$","li",null,{"children":"テスト担当: テストを書いて実行する"}],"\n",["$","li",null,{"children":"レビュー担当: コードをレビューする"}],"\n"]}]
+a:["$","hr",null,{}]
+b:["$","h2",null,{"id":"チームの作成","children":"チームの作成"}]
+c:["$","h3",null,{"id":"teamcreate","children":"TeamCreate"}]
+d:["$","p",null,{"children":"チームを作成すると、以下が行われる。"}]
+e:["$","ol",null,{"children":["\n",["$","li",null,{"children":["チーム設定ファイルを作成（",["$","code",null,{"children":"~/.claude/teams/{team-name}/config.json"}],"）"]}],"\n",["$","li",null,{"children":["共有タスクリストを作成（",["$","code",null,{"children":"~/.claude/tasks/{team-name}/"}],"）"]}],"\n",["$","li",null,{"children":"チームリードとして現在のセッションを設定"}],"\n"]}]
+f:["$","h3",null,{"id":"チームメイトの追加","children":"チームメイトの追加"}]
+10:["$","p",null,{"children":["Agentツールで ",["$","code",null,{"children":"team_name"}]," パラメータを指定して、チームメイトを追加する。各チームメイトは独立したプロセスとして起動し、チームのタスクリストにアクセスできる。"]}]
+11:["$","hr",null,{}]
+12:["$","h2",null,{"id":"タスク管理と協調","children":"タスク管理と協調"}]
+13:["$","h3",null,{"id":"タスクの状態","children":"タスクの状態"}]
+14:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"状態"}],["$","th",null,{"children":"意味"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"pending"}],["$","td",null,{"children":"未着手"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"in_progress"}],["$","td",null,{"children":"作業中"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"completed"}],["$","td",null,{"children":"完了"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"blocked"}],["$","td",null,{"children":"他タスクの完了待ち"}]]}]]}]]}]
+15:["$","p",null,{"children":"チームメイトは定期的にタスクリストを確認し、未割り当てのタスクをID順に取得する。"}]
+16:["$","h3",null,{"id":"コミュニケーション","children":"コミュニケーション"}]
+17:["$","ul",null,{"children":["\n",["$","li",null,{"children":"直接メッセージ: 特定のチームメイトへ指示を送る。通常はこちら"}],"\n",["$","li",null,{"children":"ブロードキャスト: 全員への一斉通知。コストが高いため重大情報のみ"}],"\n",["$","li",null,{"children":"シャットダウン要求: 作業完了後にチームメイトを終了させる"}],"\n"]}]
+18:["$","$L2a",null,{"type":"warning","title":"ブロードキャストは控えめに","children":["$","p",null,{"children":"ブロードキャストはすべてのチームメイトにメッセージを送信するため、コストが高い。全員に影響する重大な情報のみに使い、通常は直接メッセージを使う。"}]}]
+19:["$","hr",null,{}]
+1a:["$","h2",null,{"id":"worktree分離との組み合わせ","children":"Worktree分離との組み合わせ"}]
+1b:["$","p",null,{"children":["マルチエージェントで最も注意すべきはファイルの競合。",["$","code",null,{"children":"isolation: \"worktree\""}]," を指定すると、各エージェントはリポジトリの独立したコピーで作業し、競合を構造的に防げる。"]}]
+1c:["$","hr",null,{}]
+1d:["$","h2",null,{"id":"実践例-3エージェントでの機能開発","children":"実践例: 3エージェントでの機能開発"}]
+1e:["$","p",null,{"children":"シナリオ: ブックマーク機能の追加"}]
+1f:["$","ol",null,{"children":["\n",["$","li",null,{"children":"team-leadがタスクを定義し割り当て"}],"\n",["$","li",null,{"children":"frontend-dev（worktree分離）がUIコンポーネントを実装"}],"\n",["$","li",null,{"children":"test-writer（worktree分離）が並行してテストを作成"}],"\n",["$","li",null,{"children":"各自が完了を報告"}],"\n",["$","li",null,{"children":"team-leadが結果を確認、必要なら修正を指示"}],"\n",["$","li",null,{"children":"全チームメイトをシャットダウン → TeamDeleteでクリーンアップ"}],"\n"]}]
+20:["$","hr",null,{}]
+21:["$","h2",null,{"id":"コスト考慮","children":"コスト考慮"}]
+22:["$","p",null,{"children":"各エージェントがAPIを消費するため、コスト意識が重要。"}]
+23:["$","ul",null,{"children":["\n",["$","li",null,{"children":"軽量タスクにはHaikuモデルのエージェントを使う"}],"\n",["$","li",null,{"children":"必要な時だけチームを編成し、完了後はすぐシャットダウン"}],"\n"]}]
+24:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"場面"}],["$","th",null,{"children":"マルチエージェント"}],["$","th",null,{"children":"単一エージェント"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"5ファイル以上の大規模変更"}],["$","td",null,{"children":"効果的"}],["$","td",null,{"children":"時間がかかる"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"実装とテストの並行作業"}],["$","td",null,{"children":"効果的"}],["$","td",null,{"children":"順番にしかできない"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"単一ファイルの修正"}],["$","td",null,{"children":"過剰"}],["$","td",null,{"children":"十分"}]]}]]}]]}]
+25:["$","$L2b",null,{"children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"マルチエージェントは複数のAIが協調して一つのプロジェクトに取り組む仕組み"}],"\n",["$","li",null,{"children":"TeamCreateでチームを作成し、共有タスクリストとメッセージで協調する"}],"\n",["$","li",null,{"children":"Worktree分離で複数エージェントのファイル競合を構造的に防ぐ"}],"\n",["$","li",null,{"children":"大規模変更・並行作業・マルチパースペクティブレビューに効果的"}],"\n"]}]}]
+26:["$","$L2c",null,{"bookId":"claude-code","chapterSlug":"05-03-multi-agent"}]
+27:["$","$L2d",null,{"bookId":"claude-code","prev":{"slug":"05-02-context-management","title":"コンテキスト管理 — 窓の向こうの知識をつなぐ","order":17},"next":{"slug":"05-04-worktrees","title":"Worktrees — 並行開発の技法","order":19}}]
+28:["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]
+29:["$","$L2e",null,{"children":["$","$2f",null,{"name":"Next.MetadataOutlet","children":"$@30"}]}]
+30:null
