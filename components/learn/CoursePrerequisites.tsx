@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import type { CourseMetadata } from "@/lib/courses";
 import { LevelBadge } from "./LevelBadge";

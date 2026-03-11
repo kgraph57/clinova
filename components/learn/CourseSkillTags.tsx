@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Tag,
 } from "@phosphor-icons/react";

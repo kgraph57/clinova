@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link"
 import type { LessonNavItem } from "@/lib/courses"
 import {

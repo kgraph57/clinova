@@ -1,3 +1,5 @@
+"use client";
+
 import {
   TrendUp,
 } from "@phosphor-icons/react";

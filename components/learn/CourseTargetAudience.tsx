@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Users,
 } from "@phosphor-icons/react";

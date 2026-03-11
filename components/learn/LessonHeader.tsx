@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link"
 import type { CourseMetadata, LessonFull } from "@/lib/courses"
 import { LessonProgress } from "./LessonProgress"

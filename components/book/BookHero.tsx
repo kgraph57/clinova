@@ -1,8 +1,6 @@
-import {
-  BookOpen,
-  Clock,
-  User,
-} from "@phosphor-icons/react";
+"use client";
+
+import { BookOpen, Clock, User } from "@phosphor-icons/react";
 
 interface BookHeroProps {
   readonly title: string;
@@ -43,7 +41,9 @@ export function BookHero({
         </span>
         <span className="flex items-center gap-1.5">
           <Clock className="h-4 w-4" />
-          {hours > 0 ? `${hours}時間${minutes > 0 ? `${minutes}分` : ""}` : `${minutes}分`}
+          {hours > 0
+            ? `${hours}時間${minutes > 0 ? `${minutes}分` : ""}`
+            : `${minutes}分`}
         </span>
       </div>
 
