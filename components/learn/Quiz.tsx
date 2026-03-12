@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { getQuizResult, saveQuizResult, type QuizResult } from "@/lib/storage";
@@ -26,23 +26,16 @@ interface QuizProps {
 }
 
 export function Quiz({ questions = [], courseId, lessonSlug }: QuizProps) {
+  const saved =
+    courseId && lessonSlug ? getQuizResult(courseId, lessonSlug) : null;
+
   const [selected, setSelected] = useState<(number | null)[]>(() =>
-    questions.map(() => null),
+    saved ? [...saved.answers] : questions.map(() => null),
   );
-  const [submitted, setSubmitted] = useState(false);
-  const [previousResult, setPreviousResult] = useState<QuizResult | null>(null);
-
-  useEffect(() => {
-    if (!courseId || !lessonSlug) return;
-    const saved = getQuizResult(courseId, lessonSlug);
-    if (saved) {
-      setPreviousResult(saved);
-      setSelected([...saved.answers]);
-      setSubmitted(true);
-    }
-  }, [courseId, lessonSlug]);
-
-  if (questions.length === 0) return null;
+  const [submitted, setSubmitted] = useState(() => saved !== null);
+  const [previousResult, setPreviousResult] = useState<QuizResult | null>(
+    () => saved,
+  );
 
   const score = submitted
     ? questions.reduce(
@@ -89,6 +82,8 @@ export function Quiz({ questions = [], courseId, lessonSlug }: QuizProps) {
     setSubmitted(false);
     setPreviousResult(null);
   }, [questions]);
+
+  if (questions.length === 0) return null;
 
   return (
     <motion.div
