@@ -13,7 +13,20 @@ const EASE = [0.16, 1, 0.3, 1] as const;
 export function HeroSection() {
   return (
     <section className="relative -mt-16 flex min-h-svh flex-col justify-end overflow-hidden bg-[#06060e] px-6 pb-24 sm:pb-32 lg:pb-40">
-      {/* Gradient orb background */}
+      {/* Static CSS aurora — always visible even before JS loads */}
+      <div
+        className="pointer-events-none absolute inset-0"
+        style={{
+          background: [
+            "radial-gradient(ellipse 70% 50% at 20% 60%, rgba(108,60,220,0.28) 0%, transparent 70%)",
+            "radial-gradient(ellipse 55% 40% at 75% 35%, rgba(30,140,210,0.22) 0%, transparent 65%)",
+            "radial-gradient(ellipse 45% 35% at 50% 75%, rgba(50,200,170,0.16) 0%, transparent 60%)",
+          ].join(", "),
+        }}
+        aria-hidden="true"
+      />
+
+      {/* Gradient orb — animated, mouse-tracking */}
       <GradientOrb />
 
       {/* Star field — autonomous twinkling + mouse reveal */}
@@ -34,7 +47,7 @@ export function HeroSection() {
         className="pointer-events-none absolute inset-0 z-[2]"
         style={{
           background:
-            "radial-gradient(ellipse 80% 70% at 50% 50%, transparent 30%, rgba(6,6,14,0.6) 100%)",
+            "radial-gradient(ellipse 80% 70% at 50% 50%, transparent 30%, rgba(6,6,14,0.55) 100%)",
         }}
         aria-hidden="true"
       />
