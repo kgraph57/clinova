@@ -61,7 +61,7 @@ export function NoteArticlesSection({
               <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/60">
                 Insight
               </p>
-              <h2 className="mt-3 font-serif text-3xl tracking-tight sm:text-4xl">
+              <h2 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl">
                 Latest from note
               </h2>
             </div>

@@ -13,7 +13,6 @@ const SERVICES = [
     description:
       "プロンプトテンプレート、臨床ワークフロー、AIツール比較など、医療現場ですぐ使えるナレッジを体系的に整理・公開。",
     href: "/knowledge",
-    color: "group-hover:border-[#4a7c6f]",
   },
   {
     number: "02",
@@ -22,7 +21,6 @@ const SERVICES = [
     description:
       "医療AIの基礎から実践まで、ステップバイステップで学べる構造化コース。ハンズオン形式で「わかる」から「使える」へ。",
     href: "/learn",
-    color: "group-hover:border-[#6366f1]",
   },
   {
     number: "03",
@@ -31,7 +29,6 @@ const SERVICES = [
     description:
       "すくすくナビ、ふたりナビなど、医療・子育て領域のWebアプリケーションを企画・設計・開発。",
     href: "#products",
-    color: "group-hover:border-[#d97706]",
   },
   {
     number: "04",
@@ -40,7 +37,6 @@ const SERVICES = [
     description:
       "学会・病院・企業向けの講演、医学書籍の執筆、日経メディカル連載。専門知識をわかりやすく届ける。",
     href: "/about",
-    color: "group-hover:border-[#8b5cf6]",
   },
 ] as const;
 
@@ -54,40 +50,53 @@ export function ServicesOverview() {
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
         >
-          <motion.div variants={fadeInSlow}>
-            <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/60">
+          <motion.div variants={fadeInSlow} className="mb-20">
+            <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50">
               What we do
             </p>
-            <h2 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl">
+            <h2 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl">
               Services
             </h2>
           </motion.div>
 
-          <div className="mt-16 grid gap-0 sm:grid-cols-2">
+          <div className="grid gap-0 border-t sm:grid-cols-2">
             {SERVICES.map((service, i) => (
               <motion.div key={service.number} variants={fadeInSlow}>
                 <Link
                   href={service.href}
-                  className={`group flex h-full flex-col border-t p-8 transition-colors duration-300 sm:p-10 ${
+                  className={`group relative flex h-full flex-col border-b p-8 transition-all duration-500 sm:p-10 lg:p-12 ${
                     i % 2 === 0 ? "sm:border-r" : ""
-                  } ${service.color} hover:bg-muted/30`}
+                  } hover:bg-muted/40`}
                 >
-                  <span className="text-xs font-medium tracking-widest text-muted-foreground/40">
+                  {/* Number with gold accent */}
+                  <span className="font-serif text-sm font-light tracking-widest text-accent-gold">
                     {service.number}
                   </span>
-                  <h3 className="mt-6 text-xl font-medium tracking-tight">
+
+                  <h3 className="mt-8 text-xl font-medium tracking-tight sm:text-2xl">
                     {service.title}
                   </h3>
-                  <p className="mt-1 text-sm text-muted-foreground">
+                  <p className="mt-1.5 text-sm text-muted-foreground/70">
                     {service.titleJa}
                   </p>
-                  <p className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground/80">
+
+                  <p className="mt-5 flex-1 text-sm leading-[1.8] text-muted-foreground/70">
                     {service.description}
                   </p>
-                  <div className="mt-6 flex items-center gap-1.5 text-sm font-medium text-foreground/60 transition-colors group-hover:text-foreground">
-                    詳しく見る
-                    <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
+
+                  <div className="mt-8 flex items-center gap-2 text-sm font-medium text-foreground/40 transition-all duration-500 group-hover:text-foreground/80">
+                    <span>詳しく見る</span>
+                    <ArrowRight className="h-3.5 w-3.5 transition-transform duration-500 group-hover:translate-x-1.5" />
                   </div>
+
+                  {/* Hover line accent */}
+                  <motion.div
+                    className="absolute bottom-0 left-0 h-px bg-accent-gold"
+                    initial={{ scaleX: 0 }}
+                    whileHover={{ scaleX: 1 }}
+                    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                    style={{ transformOrigin: "left", width: "100%" }}
+                  />
                 </Link>
               </motion.div>
             ))}

@@ -95,7 +95,7 @@ export function CredentialsSection() {
           <p className="text-xs font-medium uppercase tracking-[0.3em] text-[var(--surface-dark-fg)]/30">
             From practice to principle.
           </p>
-          <h2 className="mt-4 font-serif text-3xl tracking-tight text-[var(--surface-dark-fg)] sm:text-4xl">
+          <h2 className="mt-4 font-serif text-3xl tracking-tight text-[var(--surface-dark-fg)] sm:text-4xl lg:text-5xl">
             Books & Track Record
           </h2>
         </motion.div>
@@ -113,7 +113,7 @@ export function CredentialsSection() {
               <AnimatedCounter
                 value={stat.value}
                 suffix={stat.suffix}
-                className="text-3xl font-semibold text-[var(--surface-dark-fg)]"
+                className="font-serif text-4xl font-light tracking-tight text-[var(--surface-dark-fg)]"
               />
               <p className="mt-1 text-sm text-[var(--surface-dark-fg)]/50">
                 {stat.label}

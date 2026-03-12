@@ -86,7 +86,10 @@ export function ProductsSection() {
   return (
     <section className="py-32 sm:py-48">
       <div className="mx-auto max-w-[1200px] px-6">
-        <h2 className="font-serif text-3xl tracking-tight sm:text-4xl">
+        <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50">
+          Built with care
+        </p>
+        <h2 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl">
           Products
         </h2>
         <p className="mt-3 text-muted-foreground">

@@ -17,15 +17,15 @@ const KEYWORDS = [
 
 export function MarqueeBanner() {
   return (
-    <div className="border-y py-5 overflow-hidden">
-      <Marquee speed={50} pauseOnHover>
+    <div className="border-y border-border/40 py-6 overflow-hidden">
+      <Marquee speed={40} pauseOnHover>
         {KEYWORDS.map((word) => (
           <span
             key={word}
-            className="whitespace-nowrap text-sm font-medium tracking-wide text-muted-foreground/50"
+            className="whitespace-nowrap font-serif text-base font-light tracking-wide text-muted-foreground/40 sm:text-lg"
           >
             {word}
-            <span className="ml-6 text-border/60">/</span>
+            <span className="mx-8 text-accent-gold/40">&loz;</span>
           </span>
         ))}
       </Marquee>

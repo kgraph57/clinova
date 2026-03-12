@@ -134,10 +134,12 @@ export function EditorialPicksSection({
     >
       <div className="mx-auto flex max-w-[1200px] items-end justify-between px-6">
         <div>
-          <h2 className="font-serif text-3xl tracking-tight sm:text-4xl">
+          <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50">
+            Featured
+          </p>
+          <h2 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl">
             Picks
           </h2>
-          <p className="mt-3 text-muted-foreground">厳選コンテンツ</p>
         </div>
         <Link
           href="/knowledge"

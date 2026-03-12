@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { AnimatedCounter } from "@/components/effects/AnimatedCounter";
 import {
   ArrowRight,
   ArrowSquareOut,
@@ -22,6 +24,8 @@ import {
   UserCheck,
   Users,
 } from "@phosphor-icons/react";
+
+const EASE = [0.16, 1, 0.3, 1] as const;
 
 const MISSION_POINTS = [
   {
@@ -119,6 +123,34 @@ interface AboutPageContentProps {
   courseCount: number;
 }
 
+function SectionHeading({
+  eyebrow,
+  title,
+}: {
+  eyebrow?: string;
+  title: string;
+}) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8, ease: EASE }}
+    >
+      {eyebrow && (
+        <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50">
+          {eyebrow}
+        </p>
+      )}
+      <h2
+        className={`font-serif text-2xl tracking-tight sm:text-3xl ${eyebrow ? "mt-3" : ""}`}
+      >
+        {title}
+      </h2>
+    </motion.div>
+  );
+}
+
 export function AboutPageContent({
   articleCount,
   courseCount,
@@ -150,310 +182,387 @@ export function AboutPageContent({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className="mx-auto max-w-[720px] px-6 py-20 sm:py-28">
-        {/* Company Header */}
-        <section>
-          <p className="text-sm font-medium tracking-widest text-muted-foreground">
+
+      {/* Hero */}
+      <section className="pt-24 pb-16 sm:pt-32 sm:pb-20">
+        <div className="mx-auto max-w-[720px] px-6">
+          <motion.p
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: EASE }}
+            className="text-xs font-medium uppercase tracking-[0.35em] text-muted-foreground/50"
+          >
             About Hoshizu
-          </p>
-          <h1 className="mt-3 font-serif text-3xl tracking-tight sm:text-4xl">
+          </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.1, ease: EASE }}
+            className="mt-4 font-serif text-4xl tracking-tight sm:text-5xl"
+          >
             散らばる星を、星座にする。
-          </h1>
-          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: EASE }}
+            className="mt-6 text-lg leading-[1.8] text-muted-foreground"
+          >
             Hoshizuは、医療とテクノロジーの交差点で
             プロダクト開発・ナレッジ共有・AI活用支援を行っています。
-          </p>
-        </section>
+          </motion.p>
+        </div>
+      </section>
 
-        {/* Stats */}
-        <section className="mt-10 flex gap-6">
-          <div className="text-center">
-            <p className="text-2xl font-semibold">{articleCount}+</p>
-            <p className="mt-0.5 text-xs text-muted-foreground">コンテンツ</p>
-          </div>
-          <div className="text-center">
-            <p className="text-2xl font-semibold">{courseCount}</p>
-            <p className="mt-0.5 text-xs text-muted-foreground">学習コース</p>
-          </div>
-          <div className="text-center">
-            <p className="text-2xl font-semibold">3</p>
-            <p className="mt-0.5 text-xs text-muted-foreground">サービス</p>
-          </div>
-        </section>
+      {/* Stats */}
+      <section className="pb-16">
+        <div className="mx-auto flex max-w-[720px] justify-start gap-16 px-6 sm:gap-20">
+          {[
+            { value: articleCount, suffix: "+", label: "コンテンツ" },
+            { value: courseCount, suffix: "", label: "学習コース" },
+            { value: 3, suffix: "", label: "サービス" },
+          ].map((stat) => (
+            <motion.div
+              key={stat.label}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: EASE }}
+            >
+              <AnimatedCounter
+                value={stat.value}
+                suffix={stat.suffix}
+                className="font-serif text-4xl font-light tracking-tight sm:text-5xl"
+              />
+              <p className="mt-2 text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground/50">
+                {stat.label}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
+      <div className="mx-auto max-w-[720px] px-6">
+        {/* Divider */}
+        <div
+          className="h-px w-full"
+          style={{
+            background:
+              "linear-gradient(90deg, transparent, var(--border) 20%, var(--border) 80%, transparent)",
+          }}
+        />
 
         {/* Mission & Vision */}
-        <section className="mt-16">
-          <h2 className="font-serif text-2xl tracking-tight">
-            Mission &amp; Vision
-          </h2>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {MISSION_POINTS.map((item) => {
+        <section className="py-16">
+          <SectionHeading eyebrow="Purpose" title="Mission & Vision" />
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            {MISSION_POINTS.map((item, i) => {
               const Icon = item.icon;
               return (
-                <div key={item.label} className="rounded-xl bg-muted/50 p-5">
-                  <Icon className="h-5 w-5 text-muted-foreground" />
-                  <h3 className="mt-3 text-sm font-medium">{item.label}</h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                <motion.div
+                  key={item.label}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.7, delay: i * 0.1, ease: EASE }}
+                  className="rounded-2xl border border-border/50 p-6 transition-colors hover:bg-muted/30"
+                >
+                  <Icon className="h-5 w-5 text-accent-gold" />
+                  <h3 className="mt-4 text-sm font-medium">{item.label}</h3>
+                  <p className="mt-2 text-sm leading-[1.8] text-muted-foreground/70">
                     {item.description}
                   </p>
-                </div>
+                </motion.div>
               );
             })}
           </div>
         </section>
 
         {/* What We Do */}
-        <section className="mt-16">
-          <h2 className="font-serif text-2xl tracking-tight">事業内容</h2>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {WHAT_WE_DO.map((item) => {
+        <section className="py-16">
+          <SectionHeading eyebrow="Core" title="事業内容" />
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            {WHAT_WE_DO.map((item, i) => {
               const Icon = item.icon;
               return (
-                <div key={item.label} className="rounded-xl bg-muted/50 p-5">
-                  <Icon className="h-5 w-5 text-muted-foreground" />
-                  <h3 className="mt-3 text-sm font-medium">{item.label}</h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                <motion.div
+                  key={item.label}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.7, delay: i * 0.1, ease: EASE }}
+                  className="rounded-2xl border border-border/50 p-6 transition-colors hover:bg-muted/30"
+                >
+                  <Icon className="h-5 w-5 text-accent-gold" />
+                  <h3 className="mt-4 text-sm font-medium">{item.label}</h3>
+                  <p className="mt-2 text-sm leading-[1.8] text-muted-foreground/70">
                     {item.description}
                   </p>
-                </div>
+                </motion.div>
               );
             })}
           </div>
         </section>
 
         {/* Services */}
-        <section className="mt-16">
-          <h2 className="font-serif text-2xl tracking-tight">
-            対応可能なお仕事
-          </h2>
-          <div className="mt-6 space-y-4">
-            {SERVICES.map((service) => {
+        <section className="py-16">
+          <SectionHeading eyebrow="Services" title="対応可能なお仕事" />
+          <div className="mt-8 space-y-3">
+            {SERVICES.map((service, i) => {
               const Icon = service.icon;
               return (
-                <div
+                <motion.div
                   key={service.label}
-                  className="flex items-start gap-4 rounded-xl border p-5"
+                  initial={{ opacity: 0, x: -16 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: i * 0.08, ease: EASE }}
+                  className="flex items-start gap-4 border-b border-border/40 pb-5 pt-2"
                 >
-                  <Icon className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
+                  <Icon className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground/50" />
                   <div>
                     <h3 className="text-sm font-medium">{service.label}</h3>
-                    <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                    <p className="mt-1.5 text-sm leading-[1.8] text-muted-foreground/70">
                       {service.description}
                     </p>
                   </div>
-                </div>
+                </motion.div>
               );
             })}
           </div>
         </section>
 
         {/* Activities */}
-        <section className="mt-16">
-          <h2 className="font-serif text-2xl tracking-tight">講演・教育活動</h2>
-          <div className="mt-6 space-y-4">
-            {ACTIVITIES.map((item) => {
+        <section className="py-16">
+          <SectionHeading eyebrow="Track record" title="講演・教育活動" />
+          <div className="mt-8 space-y-0">
+            {ACTIVITIES.map((item, i) => {
               const Icon = item.icon;
               return (
-                <div
+                <motion.div
                   key={item.title}
-                  className="flex items-start gap-4 rounded-xl border p-5"
+                  initial={{ opacity: 0, x: -16 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: i * 0.08, ease: EASE }}
+                  className="flex items-start gap-4 border-b border-border/40 py-5"
                 >
-                  <Icon className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
+                  <span className="w-20 flex-shrink-0 pt-0.5 text-xs tracking-wide text-muted-foreground/50">
+                    {item.period}
+                  </span>
+                  <Icon className="mt-0.5 h-4 w-4 flex-shrink-0 text-muted-foreground/40" />
                   <div>
-                    <div className="flex items-center gap-2">
-                      <span className="text-xs text-muted-foreground">
-                        {item.period}
-                      </span>
-                    </div>
-                    <h3 className="mt-0.5 text-sm font-medium">{item.title}</h3>
-                    <p className="mt-1 text-sm text-muted-foreground">
+                    <h3 className="text-sm font-medium">{item.title}</h3>
+                    <p className="mt-1 text-sm text-muted-foreground/60">
                       {item.detail}
                     </p>
                   </div>
-                </div>
+                </motion.div>
               );
             })}
           </div>
         </section>
 
         {/* Publications */}
-        <section className="mt-16">
-          <h2 className="font-serif text-2xl tracking-tight">
-            書籍・雑誌・連載
-          </h2>
+        <section className="py-16">
+          <SectionHeading eyebrow="Publications" title="書籍・雑誌・連載" />
 
-          <a
-            href="https://www.amazon.co.jp/dp/4885637481"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group mt-6 flex items-start gap-4 rounded-xl border p-5 transition-colors hover:bg-muted/50"
-          >
-            <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
-            <div className="flex-1">
+          <div className="mt-8 space-y-4">
+            <a
+              href="https://www.amazon.co.jp/dp/4885637481"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block rounded-2xl border border-border/50 p-6 transition-colors hover:bg-muted/30"
+            >
               <div className="flex items-start justify-between">
-                <h3 className="text-sm font-medium">
-                  ケースで学ぶ若手医師のAI活用ガイド
-                </h3>
-                <ArrowSquareOut className="h-3.5 w-3.5 flex-shrink-0 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
-              </div>
-              <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
-                診療・救急・病棟・教育・研究・論文作成まで73の臨床ケースを収録。東京医学社、2026年1月刊。
-              </p>
-              <div className="mt-2 flex items-center gap-3 text-xs text-muted-foreground">
-                <span className="flex items-center gap-1">
-                  <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
-                  5.0 (6件)
-                </span>
-                <span>共著</span>
-              </div>
-            </div>
-          </a>
-
-          <div className="mt-4 flex items-start gap-4 rounded-xl border p-5">
-            <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="rounded-full border px-2 py-0.5 text-[11px] font-medium">
-                  分担執筆
-                </span>
-                <span className="text-xs text-muted-foreground">
-                  2026年3月号
-                </span>
-              </div>
-              <h3 className="mt-1 text-sm font-medium">
-                小児内科「AIとともに育つ医療」特集号
-              </h3>
-              <p className="mt-1 text-sm text-muted-foreground">
-                「小児科専攻医によるAI実践」を執筆。松尾豊、大塚篤司ほか各領域の第一人者が集結した全22項目の特集号。東京医学社。
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-4 flex items-start gap-4 rounded-xl border p-5">
-            <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="rounded-full border px-2 py-0.5 text-[11px] font-medium">
-                  連載
-                </span>
-                <span className="text-xs text-muted-foreground">
-                  2026年3月〜
-                </span>
-              </div>
-              <h3 className="mt-1 text-sm font-medium">
-                日経メディカル「医師のための生成AI活用Tips集」
-              </h3>
-              <p className="mt-1 text-sm text-muted-foreground">
-                鑑別診断のAI壁打ち、PHIゼロの実践、深夜の専門外急患対応など、臨床現場のリアルな課題をAIで解決する全10回連載。日経BP。
-              </p>
-            </div>
-          </div>
-
-          <a
-            href="https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t285/202603/592302.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group mt-4 flex items-start gap-4 rounded-xl border p-5 transition-colors hover:bg-muted/50"
-          >
-            <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-muted-foreground" />
-            <div className="flex-1">
-              <div className="flex items-start justify-between">
-                <div className="flex items-center gap-2">
-                  <span className="rounded-full border px-2 py-0.5 text-[11px] font-medium">
-                    日経メディカル監修記事
-                  </span>
-                  <span className="text-xs text-muted-foreground">
-                    2026年3月11日
-                  </span>
+                <div className="flex items-start gap-4">
+                  <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent-gold" />
+                  <div>
+                    <h3 className="text-sm font-medium">
+                      ケースで学ぶ若手医師のAI活用ガイド
+                    </h3>
+                    <p className="mt-1.5 text-sm leading-[1.8] text-muted-foreground/70">
+                      診療・救急・病棟・教育・研究・論文作成まで73の臨床ケースを収録。東京医学社、2026年1月刊。
+                    </p>
+                    <div className="mt-2 flex items-center gap-3 text-xs text-muted-foreground/50">
+                      <span className="flex items-center gap-1">
+                        <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
+                        5.0 (6件)
+                      </span>
+                      <span>共著</span>
+                    </div>
+                  </div>
                 </div>
-                <ArrowSquareOut className="h-3.5 w-3.5 flex-shrink-0 text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
+                <ArrowSquareOut className="h-3.5 w-3.5 flex-shrink-0 text-muted-foreground/30 opacity-0 transition-opacity group-hover:opacity-100" />
               </div>
-              <h3 className="mt-1 text-sm font-medium">
-                日経メディカル「医師の調べ物に役立つAI検索ツール、何ができる？ どう使い分ける？」
-              </h3>
-              <p className="mt-1 text-sm text-muted-foreground">
-                シリーズ◎医療現場での活用進む人工知能。生成AIの登場で変わった医師の情報アクセスと、AI検索ツールの活用法・使い分けを解説。日経BP。
-              </p>
+            </a>
+
+            <div className="rounded-2xl border border-border/50 p-6">
+              <div className="flex items-start gap-4">
+                <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent-gold" />
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="rounded-full border border-border/50 px-2 py-0.5 text-[11px] font-medium text-muted-foreground/70">
+                      分担執筆
+                    </span>
+                    <span className="text-xs text-muted-foreground/50">
+                      2026年3月号
+                    </span>
+                  </div>
+                  <h3 className="mt-1.5 text-sm font-medium">
+                    小児内科「AIとともに育つ医療」特集号
+                  </h3>
+                  <p className="mt-1.5 text-sm leading-[1.8] text-muted-foreground/70">
+                    「小児科専攻医によるAI実践」を執筆。松尾豊、大塚篤司ほか各領域の第一人者が集結した全22項目の特集号。東京医学社。
+                  </p>
+                </div>
+              </div>
             </div>
-          </a>
+
+            <div className="rounded-2xl border border-border/50 p-6">
+              <div className="flex items-start gap-4">
+                <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent-gold" />
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="rounded-full border border-border/50 px-2 py-0.5 text-[11px] font-medium text-muted-foreground/70">
+                      連載
+                    </span>
+                    <span className="text-xs text-muted-foreground/50">
+                      2026年3月〜
+                    </span>
+                  </div>
+                  <h3 className="mt-1.5 text-sm font-medium">
+                    日経メディカル「医師のための生成AI活用Tips集」
+                  </h3>
+                  <p className="mt-1.5 text-sm leading-[1.8] text-muted-foreground/70">
+                    鑑別診断のAI壁打ち、PHIゼロの実践、深夜の専門外急患対応など、臨床現場のリアルな課題をAIで解決する全10回連載。日経BP。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t285/202603/592302.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block rounded-2xl border border-border/50 p-6 transition-colors hover:bg-muted/30"
+            >
+              <div className="flex items-start justify-between">
+                <div className="flex items-start gap-4">
+                  <BookOpen className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent-gold" />
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <span className="rounded-full border border-border/50 px-2 py-0.5 text-[11px] font-medium text-muted-foreground/70">
+                        日経メディカル監修記事
+                      </span>
+                      <span className="text-xs text-muted-foreground/50">
+                        2026年3月11日
+                      </span>
+                    </div>
+                    <h3 className="mt-1.5 text-sm font-medium">
+                      医師の調べ物に役立つAI検索ツール、何ができる？ どう使い分ける？
+                    </h3>
+                    <p className="mt-1.5 text-sm leading-[1.8] text-muted-foreground/70">
+                      シリーズ◎医療現場での活用進む人工知能。生成AIの登場で変わった医師の情報アクセスと、AI検索ツールの活用法・使い分けを解説。日経BP。
+                    </p>
+                  </div>
+                </div>
+                <ArrowSquareOut className="h-3.5 w-3.5 flex-shrink-0 text-muted-foreground/30 opacity-0 transition-opacity group-hover:opacity-100" />
+              </div>
+            </a>
+          </div>
         </section>
 
         {/* Founder */}
-        <section className="mt-16 border-t pt-16">
-          <p className="text-sm font-medium tracking-widest text-muted-foreground">
-            Founder
-          </p>
-          <div className="mt-6 flex items-center gap-5">
-            <Image
-              src="https://github.com/kgraph57.png"
-              alt="Ken Okamoto"
-              width={72}
-              height={72}
-              className="rounded-full"
-            />
-            <div>
-              <h3 className="text-xl font-medium">Ken Okamoto</h3>
-              <p className="mt-0.5 text-sm text-muted-foreground">
-                医師 / 医療AI研究者
-              </p>
+        <section className="py-16">
+          <div
+            className="h-px w-full"
+            style={{
+              background:
+                "linear-gradient(90deg, transparent, var(--border) 20%, var(--border) 80%, transparent)",
+            }}
+          />
+          <div className="pt-16">
+            <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50">
+              Founder
+            </p>
+            <div className="mt-8 flex items-center gap-6">
+              <Image
+                src="https://github.com/kgraph57.png"
+                alt="Ken Okamoto"
+                width={80}
+                height={80}
+                className="rounded-2xl grayscale transition-all duration-500 hover:grayscale-0"
+              />
+              <div>
+                <h3 className="text-xl font-medium tracking-tight">
+                  Ken Okamoto
+                </h3>
+                <p className="mt-1 text-sm text-muted-foreground/60">
+                  医師 / 医療AI研究者
+                </p>
+              </div>
             </div>
-          </div>
 
-          <p className="mt-6 leading-[1.8] text-muted-foreground">
-            臨床医としてAIを日常的に活用する中で得た知見を、
-            プロンプトテンプレート・学習コース・ワークフローガイドとして体系化しています。
-            「読んで終わり」ではなく「明日の臨床で使える」ナレッジを目指しています。
-          </p>
+            <p className="mt-6 leading-[1.8] text-muted-foreground/70">
+              臨床医としてAIを日常的に活用する中で得た知見を、
+              プロンプトテンプレート・学習コース・ワークフローガイドとして体系化しています。
+              「読んで終わり」ではなく「明日の臨床で使える」ナレッジを目指しています。
+            </p>
 
-          <div className="mt-5 flex flex-wrap gap-4">
-            <a
-              href="https://github.com/kgraph57"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <GithubLogo className="h-4 w-4" />
-              GitHub
-            </a>
-            <a
-              href="https://x.com/kgraph_"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <TwitterLogo className="h-4 w-4" />X
-            </a>
-            <a
-              href="https://note.com/kgraph_"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <PencilLine className="h-4 w-4" />
-              note
-            </a>
-            <Link
-              href="/contact"
-              className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <Envelope className="h-4 w-4" />
-              Contact
-            </Link>
+            <div className="mt-6 flex flex-wrap gap-5">
+              {[
+                {
+                  href: "https://github.com/kgraph57",
+                  icon: GithubLogo,
+                  label: "GitHub",
+                },
+                {
+                  href: "https://x.com/kgraph_",
+                  icon: TwitterLogo,
+                  label: "X",
+                },
+                {
+                  href: "https://note.com/kgraph_",
+                  icon: PencilLine,
+                  label: "note",
+                },
+                { href: "/contact", icon: Envelope, label: "Contact" },
+              ].map((link) => {
+                const Icon = link.icon;
+                const isExternal = link.href.startsWith("http");
+                const Component = isExternal ? "a" : Link;
+                const props = isExternal
+                  ? { target: "_blank" as const, rel: "noopener noreferrer" }
+                  : {};
+                return (
+                  <Component
+                    key={link.label}
+                    href={link.href}
+                    {...props}
+                    className="inline-flex items-center gap-1.5 text-sm text-muted-foreground/60 transition-colors hover:text-foreground"
+                  >
+                    <Icon className="h-4 w-4" />
+                    {link.label}
+                  </Component>
+                );
+              })}
+            </div>
           </div>
         </section>
 
         {/* Contact CTA */}
-        <section className="mt-16 rounded-2xl bg-warm-oat p-8 dark:bg-muted sm:p-10">
+        <section className="mb-16 rounded-2xl border border-border/30 bg-muted/30 p-8 sm:p-10">
           <h2 className="font-serif text-xl tracking-tight">
             お仕事のご依頼・ご相談
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+          <p className="mt-3 text-sm leading-[1.8] text-muted-foreground/70">
             講演、執筆、監修、研修など、医療AIに関するお仕事のご相談をお待ちしております。
             コンテンツの提案や誤りの報告も歓迎です。
           </p>
           <Link
             href="/contact"
-            className="mt-5 inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-80"
+            className="mt-6 inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-80"
           >
             お問い合わせ
             <ArrowRight className="h-3.5 w-3.5" />

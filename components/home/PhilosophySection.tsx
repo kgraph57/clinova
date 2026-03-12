@@ -165,7 +165,7 @@ export function PhilosophySection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.1, ease: EASE }}
-              className="mt-4 font-serif text-3xl leading-snug tracking-tight sm:text-4xl"
+              className="mt-4 font-serif text-3xl leading-snug tracking-tight sm:text-4xl lg:text-5xl lg:leading-snug"
             >
               3つの領域が交わる場所で、
               <br />
