@@ -8,6 +8,9 @@ interface Star {
   radius: number;
   baseAlpha: number;
   alpha: number;
+  twinklePhase: number;
+  twinkleSpeed: number;
+  twinkleAmplitude: number;
 }
 
 interface StarFieldProps {
@@ -19,8 +22,8 @@ interface StarFieldProps {
 }
 
 export function StarField({
-  count = 120,
-  revealRadius = 200,
+  count = 160,
+  revealRadius = 240,
   className = "",
 }: StarFieldProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -32,12 +35,16 @@ export function StarField({
     (width: number, height: number) => {
       const stars: Star[] = [];
       for (let i = 0; i < count; i++) {
+        const baseAlpha = Math.random() * 0.25 + 0.05;
         stars.push({
           x: Math.random() * width,
           y: Math.random() * height,
-          radius: Math.random() * 1.5 + 0.5,
-          baseAlpha: Math.random() * 0.15 + 0.03,
-          alpha: 0.03,
+          radius: Math.random() * 1.2 + 0.3,
+          baseAlpha,
+          alpha: baseAlpha * 0.5,
+          twinklePhase: Math.random() * Math.PI * 2,
+          twinkleSpeed: 0.008 + Math.random() * 0.025,
+          twinkleAmplitude: Math.random() * 0.15 + 0.03,
         });
       }
       starsRef.current = stars;
@@ -59,30 +66,48 @@ export function StarField({
     const r2 = revealRadius * revealRadius;
 
     for (const star of starsRef.current) {
+      // Autonomous twinkling
+      star.twinklePhase += star.twinkleSpeed;
+      const twinkle = Math.sin(star.twinklePhase) * star.twinkleAmplitude;
+      const autonomousAlpha = star.baseAlpha + twinkle;
+
       const dx = star.x - mx;
       const dy = star.y - my;
       const dist2 = dx * dx + dy * dy;
 
-      // Stars near cursor glow brightly, others show at dim base alpha
+      // Stars near cursor glow brightly, others twinkle autonomously
       const targetAlpha =
         dist2 < r2
-          ? 0.6 + 0.4 * (1 - Math.sqrt(dist2) / revealRadius)
-          : star.baseAlpha;
+          ? 0.7 + 0.3 * (1 - Math.sqrt(dist2) / revealRadius)
+          : autonomousAlpha;
 
       // Smooth transition
-      star.alpha += (targetAlpha - star.alpha) * 0.15;
+      star.alpha += (targetAlpha - star.alpha) * 0.12;
 
       ctx.beginPath();
       ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
       ctx.fillStyle = `rgba(255, 255, 240, ${star.alpha})`;
       ctx.fill();
 
-      // Add glow for bright stars
-      if (star.alpha > 0.3) {
+      // Glow for brighter moments
+      if (star.alpha > 0.25) {
         ctx.beginPath();
-        ctx.arc(star.x, star.y, star.radius * 3, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255, 255, 240, ${star.alpha * 0.15})`;
+        ctx.arc(star.x, star.y, star.radius * 3.5, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(210, 220, 255, ${star.alpha * 0.12})`;
         ctx.fill();
+      }
+
+      // Bright twinkle cross for the brightest stars
+      if (star.alpha > 0.55) {
+        const len = star.radius * 4;
+        ctx.strokeStyle = `rgba(255, 255, 255, ${star.alpha * 0.3})`;
+        ctx.lineWidth = 0.5;
+        ctx.beginPath();
+        ctx.moveTo(star.x - len, star.y);
+        ctx.lineTo(star.x + len, star.y);
+        ctx.moveTo(star.x, star.y - len);
+        ctx.lineTo(star.x, star.y + len);
+        ctx.stroke();
       }
     }
 
@@ -121,14 +146,14 @@ export function StarField({
       mouseRef.current = { x: -9999, y: -9999 };
     };
 
-    canvas.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
     canvas.addEventListener("mouseleave", handleMouseLeave);
 
     rafRef.current = requestAnimationFrame(draw);
 
     return () => {
       window.removeEventListener("resize", resize);
-      canvas.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("mousemove", handleMouseMove);
       canvas.removeEventListener("mouseleave", handleMouseLeave);
       cancelAnimationFrame(rafRef.current);
     };
