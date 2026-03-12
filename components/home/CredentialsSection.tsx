@@ -47,12 +47,17 @@ const MEDIA = [
   {
     title: "医師の調べ物に役立つAI検索ツール、何ができる？ どう使い分ける？",
     note: "シリーズ◎医療現場での活用進む人工知能（2026年3月11日）",
-    tag: "掲載",
+    tag: "日経メディカル監修記事",
     url: "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t285/202603/592302.html",
   },
 ] as const;
 
-const ACTIVITIES = [
+const ACTIVITIES: readonly {
+  period: string;
+  title: string;
+  tag: string;
+  url?: string;
+}[] = [
   {
     period: "2025.04 —",
     title: "院内AIセミナー 開始",
@@ -64,11 +69,17 @@ const ACTIVITIES = [
     tag: "大規模研修",
   },
   {
+    period: "2026.03",
+    title: "日経メディカル「医師の調べ物に役立つAI検索ツール」",
+    tag: "日経メディカル監修記事",
+    url: "https://medical.nikkeibp.co.jp/leaf/mem/pub/report/t285/202603/592302.html",
+  },
+  {
     period: "2026.04 —",
     title: "医師のためのAI実践道場（全8回）",
     tag: "シリーズ",
   },
-] as const;
+];
 
 export function CredentialsSection() {
   return (
@@ -258,30 +269,40 @@ export function CredentialsSection() {
             Selected Activities
           </p>
           <div className="mt-6 flex flex-col">
-            {ACTIVITIES.map((activity, i) => (
-              <motion.div
-                key={activity.title}
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{
-                  duration: 0.6,
-                  delay: i * 0.1,
-                  ease: [0.16, 1, 0.3, 1],
-                }}
-                className="flex items-center gap-4 border-b border-[var(--surface-dark-fg)]/8 py-4 transition-colors hover:bg-[var(--surface-dark-fg)]/[0.03]"
-              >
-                <span className="w-24 flex-shrink-0 text-xs tracking-wide text-[var(--surface-dark-fg)]/40">
-                  {activity.period}
-                </span>
-                <span className="flex-1 text-sm text-[var(--surface-dark-fg)]/80">
-                  {activity.title}
-                </span>
-                <span className="rounded-full border border-[var(--surface-dark-fg)]/15 px-2.5 py-0.5 text-xs text-[var(--surface-dark-fg)]/50">
-                  {activity.tag}
-                </span>
-              </motion.div>
-            ))}
+            {ACTIVITIES.map((activity, i) => {
+              const Wrapper = activity.url ? motion.a : motion.div;
+              const linkProps = activity.url
+                ? { href: activity.url, target: "_blank" as const, rel: "noopener noreferrer" }
+                : {};
+              return (
+                <Wrapper
+                  key={activity.title}
+                  {...linkProps}
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    duration: 0.6,
+                    delay: i * 0.1,
+                    ease: [0.16, 1, 0.3, 1],
+                  }}
+                  className={`flex items-center gap-4 border-b border-[var(--surface-dark-fg)]/8 py-4 transition-colors hover:bg-[var(--surface-dark-fg)]/[0.03]${activity.url ? " group" : ""}`}
+                >
+                  <span className="w-24 flex-shrink-0 text-xs tracking-wide text-[var(--surface-dark-fg)]/40">
+                    {activity.period}
+                  </span>
+                  <span className="flex-1 text-sm text-[var(--surface-dark-fg)]/80">
+                    {activity.title}
+                  </span>
+                  <span className="rounded-full border border-[var(--surface-dark-fg)]/15 px-2.5 py-0.5 text-xs text-[var(--surface-dark-fg)]/50">
+                    {activity.tag}
+                  </span>
+                  {activity.url && (
+                    <ArrowUpRight className="h-4 w-4 flex-shrink-0 text-[var(--surface-dark-fg)]/30 opacity-0 transition-opacity group-hover:opacity-100" />
+                  )}
+                </Wrapper>
+              );
+            })}
           </div>
         </motion.div>
       </div>

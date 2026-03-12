@@ -47,7 +47,7 @@ const SERIALS = [
   },
   {
     title: "日経メディカル「医師の調べ物に役立つAI検索ツール、何ができる？ どう使い分ける？」",
-    role: "掲載",
+    role: "日経メディカル監修記事",
     publisher: "日経BP",
     date: "2026年3月11日",
     description:

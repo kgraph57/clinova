@@ -360,7 +360,7 @@ export function AboutPageContent({
               <div className="flex items-start justify-between">
                 <div className="flex items-center gap-2">
                   <span className="rounded-full border px-2 py-0.5 text-[11px] font-medium">
-                    掲載
+                    日経メディカル監修記事
                   </span>
                   <span className="text-xs text-muted-foreground">
                     2026年3月11日
