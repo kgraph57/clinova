@@ -14,6 +14,7 @@ import { IconProvider } from "@/components/layout/IconProvider";
 import { SkipNavigation } from "@/components/layout/SkipNavigation";
 import { ThemeColorMeta } from "@/components/layout/ThemeColorMeta";
 import { PageTransition } from "@/components/layout/PageTransition";
+import { ScrollProgress } from "@/components/effects/ScrollProgress";
 import "./globals.css";
 
 const inter = Inter({
@@ -89,6 +90,7 @@ export default function RootLayout({
             <ThemeColorMeta />
             <ProgressProvider>
               <SkipNavigation />
+              <ScrollProgress />
               <div className="relative flex min-h-svh flex-col">
                 <Header />
                 <main id="main-content" className="flex-1 pt-16">

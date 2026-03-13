@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "./ThemeToggle";
 import { MobileNav } from "./MobileNav";
@@ -17,7 +18,6 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  // Only use transparent/white header on home page with dark hero
   const hasDarkHero = pathname === "/";
   const transparent = hasDarkHero && !scrolled;
 
@@ -29,20 +29,23 @@ export function Header() {
   }, []);
 
   return (
-    <header
+    <motion.header
+      initial={{ y: -20, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
       data-scrolled={scrolled ? "" : undefined}
       className={cn(
-        "group/header fixed top-0 z-50 w-full transition-all duration-300",
+        "group/header fixed top-0 z-50 w-full transition-all duration-500",
         transparent
           ? "bg-transparent"
-          : "bg-background/80 backdrop-blur-md border-b",
+          : "border-b bg-background/70 backdrop-blur-xl backdrop-saturate-150",
       )}
     >
       <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-6">
         <Link
           href="/"
           className={cn(
-            "font-serif text-lg font-medium tracking-tight transition-colors",
+            "font-serif text-lg font-medium tracking-tight transition-colors duration-300",
             transparent && "text-white",
           )}
         >
@@ -74,6 +77,6 @@ export function Header() {
 
         <MobileNav open={mobileOpen} onClose={() => setMobileOpen(false)} />
       </div>
-    </header>
+    </motion.header>
   );
 }

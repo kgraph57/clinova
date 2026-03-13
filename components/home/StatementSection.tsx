@@ -1,7 +1,8 @@
 "use client";
 
+import { useRef } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { fadeInSlow, containerVariantsSlow } from "@/lib/animations";
 import { AnimatedCounter } from "@/components/effects/AnimatedCounter";
 
@@ -24,28 +25,41 @@ export function StatementSection({
   courseCount,
 }: StatementSectionProps) {
   const stats = STATS(articleCount, courseCount);
+  const imageRef = useRef(null);
+
+  // Parallax: image moves slower than scroll
+  const { scrollYProgress } = useScroll({
+    target: imageRef,
+    offset: ["start end", "end start"],
+  });
+  const imageY = useTransform(scrollYProgress, [0, 1], [-30, 30]);
+  const imageScale = useTransform(scrollYProgress, [0, 0.5, 1], [1.08, 1, 1.02]);
 
   return (
     <section className="py-32 sm:py-40">
       <div className="mx-auto max-w-[1200px] px-6">
-        {/* Hero image */}
+        {/* Hero image with parallax */}
         <motion.div
-          variants={fadeInSlow}
-          initial="hidden"
-          whileInView="visible"
+          ref={imageRef}
+          initial={{ opacity: 0, scale: 1.05 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
           className="relative mb-20 overflow-hidden rounded-2xl sm:mb-24"
         >
-          <div className="aspect-[21/9] sm:aspect-[2.4/1]">
+          <motion.div
+            className="aspect-[21/9] sm:aspect-[2.4/1]"
+            style={{ y: imageY, scale: imageScale }}
+          >
             <Image
               src={`${BASE_PATH}/images/hero-main.png`}
               alt="星空を見上げる医師 — 散らばる星を、星座にする"
               fill
-              className="object-cover transition-transform duration-[1.2s] ease-out hover:scale-[1.02]"
+              className="object-cover"
               sizes="(max-width: 1200px) 100vw, 1200px"
               priority
             />
-          </div>
+          </motion.div>
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
         </motion.div>
 
@@ -77,10 +91,10 @@ export function StatementSection({
 
         {/* Statement */}
         <motion.div
-          variants={fadeInSlow}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
           className="mx-auto max-w-3xl text-center"
         >
           <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50">

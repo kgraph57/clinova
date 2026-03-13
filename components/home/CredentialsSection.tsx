@@ -138,7 +138,7 @@ export function CredentialsSection() {
             rel="noopener noreferrer"
             className="group relative sm:col-span-1"
           >
-            <div className="overflow-hidden rounded-2xl bg-[var(--surface-dark-fg)]/5 p-6 transition-colors duration-300 hover:bg-[var(--surface-dark-fg)]/8">
+            <div className="overflow-hidden rounded-2xl bg-[var(--surface-dark-fg)]/5 p-6 transition-all duration-500 hover:bg-[var(--surface-dark-fg)]/8 hover:shadow-[0_8px_40px_rgba(184,168,138,0.08)]">
               <div className="mx-auto max-w-[200px]">
                 <Image
                   src={`${BASE_PATH}${BOOK.image}`}
@@ -146,7 +146,7 @@ export function CredentialsSection() {
                   width={400}
                   height={533}
                   loading="eager"
-                  className="rounded-lg object-cover shadow-2xl transition-transform duration-500 group-hover:scale-[1.03] group-hover:-translate-y-1"
+                  className="rounded-lg object-cover shadow-2xl transition-all duration-700 group-hover:scale-[1.04] group-hover:-translate-y-2 group-hover:shadow-[0_20px_50px_rgba(0,0,0,0.4)]"
                 />
               </div>
               <div className="mt-6">

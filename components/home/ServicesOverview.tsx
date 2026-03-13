@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef, useState, useCallback } from "react";
 import { motion } from "framer-motion";
 import { containerVariantsSlow, fadeInSlow } from "@/lib/animations";
 import { ArrowRight } from "@phosphor-icons/react";
@@ -40,6 +41,76 @@ const SERVICES = [
   },
 ] as const;
 
+function ServiceCard({
+  service,
+  index,
+}: {
+  service: (typeof SERVICES)[number];
+  index: number;
+}) {
+  const ref = useRef<HTMLAnchorElement>(null);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [hovered, setHovered] = useState(false);
+
+  const onMouseMove = useCallback((e: React.MouseEvent) => {
+    const el = ref.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    setMousePos({ x: e.clientX - rect.left, y: e.clientY - rect.top });
+  }, []);
+
+  return (
+    <motion.div variants={fadeInSlow}>
+      <Link
+        ref={ref}
+        href={service.href}
+        className={`group relative flex h-full flex-col border-b p-8 transition-colors duration-500 sm:p-10 lg:p-12 ${
+          index % 2 === 0 ? "sm:border-r" : ""
+        }`}
+        onMouseMove={onMouseMove}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+      >
+        {/* Cursor-tracking spotlight */}
+        <div
+          className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+          style={{
+            background: hovered
+              ? `radial-gradient(500px circle at ${mousePos.x}px ${mousePos.y}px, var(--accent-gold-muted), transparent 40%)`
+              : "none",
+          }}
+        />
+
+        {/* Content */}
+        <div className="relative z-10">
+          <span className="font-serif text-sm font-light tracking-widest text-accent-gold">
+            {service.number}
+          </span>
+
+          <h3 className="mt-8 text-xl font-medium tracking-tight sm:text-2xl">
+            {service.title}
+          </h3>
+          <p className="mt-1.5 text-sm text-muted-foreground/70">
+            {service.titleJa}
+          </p>
+
+          <p className="mt-5 flex-1 text-sm leading-[1.8] text-muted-foreground/70">
+            {service.description}
+          </p>
+
+          <div className="mt-8 flex items-center gap-2 text-sm font-medium text-foreground/40 transition-all duration-500 group-hover:text-foreground/80">
+            <span>詳しく見る</span>
+            <ArrowRight className="h-3.5 w-3.5 transition-transform duration-500 group-hover:translate-x-1.5" />
+          </div>
+        </div>
+
+        {/* Bottom line accent */}
+        <div className="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-accent-gold transition-transform duration-700 ease-out group-hover:scale-x-100" />
+      </Link>
+    </motion.div>
+  );
+}
+
 export function ServicesOverview() {
   return (
     <section className="py-32 sm:py-48">
@@ -61,44 +132,7 @@ export function ServicesOverview() {
 
           <div className="grid gap-0 border-t sm:grid-cols-2">
             {SERVICES.map((service, i) => (
-              <motion.div key={service.number} variants={fadeInSlow}>
-                <Link
-                  href={service.href}
-                  className={`group relative flex h-full flex-col border-b p-8 transition-all duration-500 sm:p-10 lg:p-12 ${
-                    i % 2 === 0 ? "sm:border-r" : ""
-                  } hover:bg-muted/40`}
-                >
-                  {/* Number with gold accent */}
-                  <span className="font-serif text-sm font-light tracking-widest text-accent-gold">
-                    {service.number}
-                  </span>
-
-                  <h3 className="mt-8 text-xl font-medium tracking-tight sm:text-2xl">
-                    {service.title}
-                  </h3>
-                  <p className="mt-1.5 text-sm text-muted-foreground/70">
-                    {service.titleJa}
-                  </p>
-
-                  <p className="mt-5 flex-1 text-sm leading-[1.8] text-muted-foreground/70">
-                    {service.description}
-                  </p>
-
-                  <div className="mt-8 flex items-center gap-2 text-sm font-medium text-foreground/40 transition-all duration-500 group-hover:text-foreground/80">
-                    <span>詳しく見る</span>
-                    <ArrowRight className="h-3.5 w-3.5 transition-transform duration-500 group-hover:translate-x-1.5" />
-                  </div>
-
-                  {/* Hover line accent */}
-                  <motion.div
-                    className="absolute bottom-0 left-0 h-px bg-accent-gold"
-                    initial={{ scaleX: 0 }}
-                    whileHover={{ scaleX: 1 }}
-                    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                    style={{ transformOrigin: "left", width: "100%" }}
-                  />
-                </Link>
-              </motion.div>
+              <ServiceCard key={service.number} service={service} index={i} />
             ))}
           </div>
         </motion.div>
