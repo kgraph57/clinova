@@ -97,7 +97,7 @@ export function CustomCursor() {
   const show = visible && !inHero;
 
   const dotSize = 6;
-  const glowSize = onDark ? 100 : 80;
+  const glowSize = onDark ? 64 : 48;
 
   return (
     <>
