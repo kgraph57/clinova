@@ -545,17 +545,6 @@ html {
   animation: marquee var(--marquee-duration, 40s) linear infinite;
 }
 
-/* ── Custom cursor ─────────────────────── */
-.custom-cursor-active,
-.custom-cursor-active * {
-  cursor: none !important;
-}
-/* Hero keeps default cursor — StarField has its own interaction */
-.custom-cursor-active [data-hero-section],
-.custom-cursor-active [data-hero-section] * {
-  cursor: default !important;
-}
-
 /* ── Reduced motion ────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   *,
