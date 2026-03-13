@@ -12,7 +12,7 @@ const EASE = [0.16, 1, 0.3, 1] as const;
 
 export function HeroSection() {
   return (
-    <section data-dark-section className="relative -mt-16 flex min-h-svh flex-col justify-end overflow-hidden bg-[#06060e] px-6 pb-24 sm:pb-32 lg:pb-40">
+    <section data-hero-section className="relative -mt-16 flex min-h-svh flex-col justify-end overflow-hidden bg-[#06060e] px-6 pb-24 sm:pb-32 lg:pb-40">
       {/* Static CSS aurora — always visible even before JS loads */}
       <div
         className="pointer-events-none absolute inset-0"
