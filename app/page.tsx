@@ -4,30 +4,23 @@ import { PhilosophySection } from "@/components/home/PhilosophySection";
 import { MarqueeBanner } from "@/components/home/MarqueeBanner";
 import { ServicesOverview } from "@/components/home/ServicesOverview";
 import { CategoryOverview } from "@/components/home/CategoryOverview";
-import { EditorialPicksSection } from "@/components/home/EditorialPicksSection";
+import { NewsletterCTASection } from "@/components/home/NewsletterCTASection";
+import { EventsSection } from "@/components/home/EventsSection";
+import { MediaLogosSection } from "@/components/home/MediaLogosSection";
 import { CredentialsSection } from "@/components/home/CredentialsSection";
 import { ProductsSection } from "@/components/home/ProductsSection";
 import { NoteArticlesSection } from "@/components/home/NoteArticlesSection";
 import { LatestSection } from "@/components/home/LatestSection";
 import { CreatorSection } from "@/components/home/CreatorSection";
 import { AnimatedDivider } from "@/components/effects/AnimatedDivider";
-import {
-  getFeaturedArticles,
-  getArticleCount,
-  getLatestNews,
-  getWeeklyPickup,
-} from "@/lib/content";
+import { getArticleCount, getLatestNews } from "@/lib/content";
 import { getCourseCount } from "@/lib/courses";
 import { SITE_CONFIG } from "@/lib/constants";
 
 export default async function Home() {
-  const featured = getFeaturedArticles();
-  const weeklyPickup = getWeeklyPickup(3);
   const counts = getArticleCount();
   const news = getLatestNews(3);
   const courseCount = getCourseCount();
-
-  const editorialPicks = [...weeklyPickup, ...featured].slice(0, 5);
 
   const jsonLd = [
     {
@@ -80,13 +73,16 @@ export default async function Home() {
       {/* ── Marquee — キーワード帯 ──────────────── */}
       <MarqueeBanner />
 
+      {/* ── Media — 掲載実績ロゴ帯 ─────────────── */}
+      <MediaLogosSection />
+
       {/* ── 4. Services — 01-04 ナンバリング ──── */}
       <ServicesOverview />
 
       <AnimatedDivider className="mx-auto max-w-[1200px] px-6" />
 
-      {/* ── 5. Picks — 厳選コンテンツ ──────────── */}
-      <EditorialPicksSection articles={editorialPicks} />
+      {/* ── 5. Events — セミナー・イベント ──────── */}
+      <EventsSection />
 
       <AnimatedDivider className="mx-auto max-w-[1200px] px-6" />
 
@@ -108,6 +104,9 @@ export default async function Home() {
 
       {/* ── 10. Latest — 医療AIニュース ──────── */}
       <LatestSection articles={news} />
+
+      {/* ── Newsletter CTA — メルマガ登録 ────── */}
+      <NewsletterCTASection />
 
       {/* ── 11. Creator — Founder + CTA ─────── */}
       <CreatorSection
