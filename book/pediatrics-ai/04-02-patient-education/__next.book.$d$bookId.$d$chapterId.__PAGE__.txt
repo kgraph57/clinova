@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[3472,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/8ef0eee6baa6d864.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterGate"]
+2:I[3472,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterGate"]
 3:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"buildId":"ia26B8oiPWO7ch9idLZAS","rsc":["$","$1","c",{"children":[["$","$L2",null,{"partTitle":"保護者コミュニケーション","chapterTitle":"年齢別患者教育資料の作成","description":"乳幼児の保護者向けから思春期の患者本人向けまで、年齢と対象に応じた患者教育資料をAIで効率的に作成する方法。"}],[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"FmEoe-k9V86-65x4-xoWF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"partTitle":"保護者コミュニケーション","chapterTitle":"年齢別患者教育資料の作成","description":"乳幼児の保護者向けから思春期の患者本人向けまで、年齢と対象に応じた患者教育資料をAIで効率的に作成する方法。"}],[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
