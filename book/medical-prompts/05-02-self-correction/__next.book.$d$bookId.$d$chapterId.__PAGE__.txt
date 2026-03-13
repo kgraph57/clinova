@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[3472,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterGate"]
+2:I[3472,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/0e133f593007c427.js"],"ChapterGate"]
 3:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"buildId":"FmEoe-k9V86-65x4-xoWF","rsc":["$","$1","c",{"children":[["$","$L2",null,{"partTitle":"高度なテクニック","chapterTitle":"自己修正・検証プロンプト","description":"AIの回答を自己検証させ、誤りを修正させるためのプロンプトテクニック集。ハルシネーション対策を含む。"}],[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"7AyL9ozhulPxs18ha5-mJ","rsc":["$","$1","c",{"children":[["$","$L2",null,{"partTitle":"高度なテクニック","chapterTitle":"自己修正・検証プロンプト","description":"AIの回答を自己検証させ、誤りを修正させるためのプロンプトテクニック集。ハルシネーション対策を含む。"}],[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/0e133f593007c427.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null

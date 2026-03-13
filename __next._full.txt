@@ -1,478 +1,46 @@
 1:"$Sreact.fragment"
-2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"GoogleAnalytics"]
-3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"ThemeProvider"]
-4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"IconProvider"]
-5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"ThemeColorMeta"]
-6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"ProgressProvider"]
-7:I[42993,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"ScrollProgress"]
-8:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"Header"]
-9:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"ErrorBoundary"]
-a:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"PageTransition"]
-b:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
-c:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
-d:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/e785a53e15eae55d.js"],"default"]
-e:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"Footer"]
-f:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"ScrollToTop"]
-10:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"ServiceWorkerRegistration"]
-11:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"ChatWidget"]
-12:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js"],"Toaster"]
-14:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-15:"$Sreact.suspense"
-17:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
-19:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
-1b:I[68027,[],"default"]
+2:I[74001,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"GoogleAnalytics"]
+3:I[84666,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"ThemeProvider"]
+4:I[50613,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"IconProvider"]
+5:I[40485,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"ThemeColorMeta"]
+6:I[23323,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"ProgressProvider"]
+7:I[42993,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"ScrollProgress"]
+8:I[69693,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"CustomCursor"]
+9:I[93983,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"Header"]
+a:I[12820,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"ErrorBoundary"]
+b:I[18112,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"PageTransition"]
+c:I[39756,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+d:I[37457,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+e:I[36768,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/e785a53e15eae55d.js"],"default"]
+f:I[87392,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"Footer"]
+10:I[37270,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"ScrollToTop"]
+11:I[76658,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"ServiceWorkerRegistration"]
+12:I[79807,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"ChatWidget"]
+13:I[46696,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js"],"Toaster"]
+15:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+18:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+1a:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+1c:I[68027,[],"default"]
 :HL["/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","style"]
-:HL["/hoshizu/_next/static/chunks/0020cdd4038f71dd.css","style"]
+:HL["/hoshizu/_next/static/chunks/af79b2efaa914e8e.css","style"]
 :HL["/hoshizu/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/hoshizu/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"FmEoe-k9V86-65x4-xoWF","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/0020cdd4038f71dd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/ffce6331cd843f58.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/eb32083736c113f4.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","$L7",null,{}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L8",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$L9",null,{"children":["$","$La",null,{"children":["$","$Lb",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lc",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Ld",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Le",null,{}]]}],["$","$Lf",null,{}],["$","$L10",null,{}],["$","$L11",null,{}],["$","$L12",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":["$L13",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/3adeda7e6762622d.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/bab659362fd82b41.js","async":true,"nonce":"$undefined"}]],["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]]}],{},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L17",null,{"children":"$L18"}],["$","div",null,{"hidden":true,"children":["$","$L19",null,{"children":["$","$15",null,{"name":"Next.Metadata","children":"$L1a"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1b",[]],"S":true}
-1c:I[51442,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"HeroSection"]
-1d:I[33488,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"StatementSection"]
-1e:I[88296,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"PhilosophySection"]
-1f:I[95669,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"MarqueeBanner"]
-20:I[99674,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"ServicesOverview"]
-21:I[27224,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"AnimatedDivider"]
-22:I[12809,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"EditorialPicksSection"]
-23:T1933,
-# Medical AI Newsletter #1
-
-**2026年2月14日号** | PubMed 30件 / arXiv 15件 / 規制ニュース 16件から厳選
-
----
-
-## 今週のハイライト
-
-### Ambient AIが医療者の燃え尽き症候群を改善（NEJM AI）
-
-電子カルテの文書作成は、医療従事者の過労・バーンアウトの主要因です。NEJM AIに発表されたプラグマティックRCTでは、**診察中の会話を自動的にカルテに変換するAmbient AI**が、実臨床でのカルテ作成負担を有意に軽減し、医療者のウェルビーイングを改善しました。
-
-> Ambient AIスクライブは、臨床会話を受動的にキャプチャし、診療ノートのドラフトを作成する生成AIです。
-
-- Afshar M et al. *NEJM AI*. 2025 Dec
-- [PubMed](https://pubmed.ncbi.nlm.nih.gov/41625485/)
-
-**臨床現場への影響**: 医師の働き方改革に直結。日本でも電子カルテ入力が業務負担の上位に挙がっており、Ambient AI導入の議論が加速する可能性があります。
-
----
-
-### LLMの胸部X線読影：GPT-4o vs Gemini 1.5 Pro
-
-GPT-4 Turbo、GPT-4o、Gemini 1.0、Gemini 1.5 Proの4モデルを対象に、247枚の胸部X線画像（13の診断カテゴリ）に対する読影能力を評価した研究がDiagnosticsに発表されました。
-
-**主な知見**:
-- **Gemini 1.5 Pro**が総合検出率で最高スコア
-- 大きく両側性の病変（肺水腫、大葉性肺炎、大量胸水）は比較的検出可能
-- **小さな病変の検出、左右の判別、鑑別診断の推論は依然として不十分**
-
-- Chen CH et al. *Diagnostics*. 2026 Jan
-- [PubMed](https://pubmed.ncbi.nlm.nih.gov/41681694/)
-
-**臨床現場への影響**: LLMをCXR読影の「単独スクリーニング」に使うのはまだ早い。ただし見落とし防止の二重チェックツールとしてのポテンシャルは示唆されています。
-
----
-
-## 注目論文ピックアップ
-
-### AI患者シミュレーション：うつ病評価の臨床教育
-
-GPT搭載チャットボットが、さまざまな重症度のうつ病・自殺傾向を持つ患者をシミュレーションし、将来の臨床家のトレーニングに活用する研究。臨床教育におけるAI活用の新たな方向性を示しています。
-
-- Holderried F et al. *JMIR Med Educ*. 2026 Feb
-- [PubMed](https://pubmed.ncbi.nlm.nih.gov/41678789/)
-
-### Claude 2のバイアスリスク評価能力
-
-系統的レビューにおけるRoB 2（バイアスリスク評価ツール）をClaude 2で自動化する試み。100件のRCTに対する評価では、ドメインによってCohen's κ 0.10〜0.31と、まだ人間の代替には至らない結果。
-
-- Eisele-Metzger A et al. *Res Synth Methods*. 2025 May
-- [PubMed](https://pubmed.ncbi.nlm.nih.gov/41626932/)
-
-### AI手術ナビゲーションの多施設RCT（プロトコル）
-
-腹腔鏡下大腸手術中にリアルタイムで尿管・自律神経を識別するディープラーニング術中ナビゲーションシステムの多施設RCTプロトコル。AI手術支援の臨床エビデンスの構築が進んでいます。
-
-- Kitaguchi D et al. *Eur Surg Res*. 2026
-- [PubMed](https://pubmed.ncbi.nlm.nih.gov/41452791/)
-
-### 連合学習の倫理：プライバシー保護と公平性
-
-38件の研究を分析したシステマティックレビュー。連合学習（Federated Learning）がいかに患者データを共有せずにAIモデルを協調訓練できるか、そしてアルゴリズムの公平性、プライバシー、ガバナンスの課題を整理。
-
-- Mir BA et al. *Healthcare*. 2026 Jan
-- [PubMed](https://pubmed.ncbi.nlm.nih.gov/41682156/)
-
----
-
-## arXiv プレプリント注目
-
-| タイトル | 概要 |
-|---------|------|
-| **PatientHub** | LLMベースの患者シミュレーションフレームワーク。カウンセラー訓練やアセスメントの標準化 |
-| **CSEval** | Text-to-Image生成の臨床セマンティクス（解剖学的位置・病理）を評価するフレームワーク |
-| **CLUES** | 臨床Text-to-SQLにおけるLLMの「曖昧さ」と「不安定さ」を分離するフレームワーク |
-| **LGE Synthesis** | 心臓MRIの遅延造影像をニューラル表現で合成し、瘢痕セグメンテーションの学習データを拡充 |
-| **Quark Medical Alignment** | 医療LLMの多次元アラインメントと協調最適化パラダイム |
-
----
-
-## 規制・政策ニュース
-
-### SaMD 産学官サブフォーラム 2026 開催
-
-厚生労働省が「**SaMD 産学官サブフォーラム2026**」の開催を発表。プログラム医療機器（SaMD）の開発促進と規制の最適化について、産学官が議論する場です。
-
-### PMDA シンポジウム
-
-- **「既存の診療情報を活用した医療機器開発」** シンポジウム資料が公開
-- **「リアルワールドデータを活用した医療機器開発」** シンポジウムも開催
-
-リアルワールドデータ（RWD）やリアルワールドエビデンス（RWE）を活用した医療機器開発のガイドラインが整備されつつあります。
-
-### FDA MedWatch
-
-Baxter社のSigma Spectrumインフュージョンポンプの**ソフトウェアリコール**が発表されました。ソフトウェア医療機器の品質管理の重要性を再確認させる事例です。
-
----
-
-## 今月の数字
-
-| 指標 | 数値 |
-|------|------|
-| PubMed「医療AI×臨床試験」論文 | 30件 |
-| arXiv 医療AI関連プレプリント | 15件 |
-| PMDA 関連通知 | 13件 |
-| FDA AI医療機器 累計承認数 | ~950件 |
-
----
-
-## 編集後記
-
-今週のハイライトはAmbient AIのNEJM AI掲載RCT。「AIが医師の代わりに診断する」のではなく、「AIが医師の事務負担を減らし、患者と向き合う時間を増やす」という、最も現実的で意義のあるAI活用の方向性です。
-
-また、PMDAのシンポジウムや厚労省のSaMDフォーラムなど、日本でもプログラム医療機器の規制環境整備が着実に進んでいることが確認できます。
-
-> このニュースレターは、PubMed、arXiv、厚労省、PMDA、FDA の公開データから自動取得した情報をもとに作成しています。医療上の意思決定は、最新のエビデンスと担当医師の判断に基づいて行ってください。
-24:T1ace,
-# 医療AI注目論文レビュー（2026年2月）
-
-医療AIの進歩は加速の一途をたどっています。本記事では、2025〜2026年に発表された注目すべき論文・研究動向をピックアップし、臨床現場への影響を解説します。
-
-## 1. LLMの臨床能力評価
-
-### GPT-4の医師国家試験パフォーマンス
-
-金沢大学の研究チームは、最適化されたプロンプトとGPT-4を用いて日本の医師国家試験に合格可能な成績を達成したことを報告しました。この研究は、LLMが日本語の医学知識においても実用的な水準に達しつつあることを示す重要なマイルストーンです。
-
-**臨床的意義**: LLMを医学教育の補助ツールとして活用する可能性が広がっています。ただし、これは「AIが医師の代わりになる」ことを意味するものではなく、あくまで知識ベースのテストにおけるパフォーマンスです。
-
-### AIの臨床的情報提供による能力向上（JMIR 2026）
-
-2026年にJMIR Medical Educationに発表された多国籍コホート研究では、AIの適切な使い方のトレーニングを受けた一般内科医・総合診療医が、テストベースの臨床意思決定評価で有意に高いスコアを示しました。AI利用に対する信頼度も向上したと報告されています。
-
-- 論文リンク: [JMIR Medical Education 2026;1:e75534](https://mededu.jmir.org/2026/1/e75534)
-
-**臨床的意義**: 「AIを使うスキル」が臨床能力に直結することを示唆しており、医学教育カリキュラムへのAIリテラシー導入の根拠となります。
-
-## 2. AI臨床試験の進展
-
-### Ambient AI による文書作成負担軽減（NEJM AI 2025）
-
-NEJM AIに発表されたプラグマティック・ランダム化比較試験では、Ambient AI（周囲の会話を聞いてカルテを自動生成するAI）が臨床ノート作成の負担軽減に有効であることが示されました。日常診療の中でのAI実装とモニタリングのフレームワークも提案されています。
-
-- 論文リンク: [NEJM AI - Ambient AI Clinical Trial](https://ai.nejm.org/doi/full/10.1056/AIdbp2401267)
-
-**臨床的意義**: 医師の文書作成業務は勤務時間の大きな割合を占めています。Ambient AIの導入は、医師の働き方改革に直結する可能性があります。
-
-### Therabot: メンタルヘルスAIの全国規模RCT
-
-うつ病、不安障害、摂食障害のリスクが高い成人を対象とした全国規模のランダム化比較試験で、ファインチューニングされた生成AIチャットボット「Therabot」が症状の有意な軽減と高いユーザーエンゲージメントを示しました。
-
-**臨床的意義**: メンタルヘルス領域でのAI介入のエビデンスが蓄積されつつあります。特に、専門医不足が深刻な地域でのアクセス改善が期待されます。
-
-### Claude 2 によるバイアスリスク評価（Res Synth Methods 2025）
-
-系統的レビューにおけるバイアスリスク評価（RoB 2）にClaude 2を活用した研究がResearch Synthesis Methodsに発表されました。LLMがランダム化比較試験のバイアスリスク評価を支援できる可能性を探った先駆的な研究です。
-
-- PubMed: [PMID 41626932](https://pubmed.ncbi.nlm.nih.gov/41626932/)
-
-**臨床的意義**: 系統的レビューの作成は膨大な労力を要します。AIによるスクリーニング支援は、エビデンス合成の効率化に貢献します。
-
-## 3. AI創薬の臨床進展
-
-### Insilico Medicine: AI創薬のマイルストーン
-
-Insilico Medicineは、AIが設計した化合物の前臨床候補から臨床試験への移行成功率100%を報告しています。特筆すべきは以下の点です：
-
-- **ISM001-055（特発性肺線維症）**: 従来4年かかる開発プロセスを18か月未満で人体試験に到達。Phase IIaで良好な結果
-- **AlphaFold統合**: AlphaFold2で予測されたタンパク質構造を用いて新規標的に対する確認済みヒット化合物を発見した初の報告例
-- **AI創薬セクター全体**: 2024年にVC投資33億ドル。Generate:Biomedicinesの10億ドルNovartisパートナーシップ、Isomorphic Labsの6億ドル超の拡大
-
-**臨床的意義**: AI創薬は「概念実証」の段階を超え、実際の臨床試験で効果を示す段階に入りました。今後5〜10年で、AI設計薬剤の上市が現実味を帯びてきています。
-
-## 4. AI診断の精度向上
-
-### 世界経済フォーラム報告: 専門医の2倍の精度
-
-世界経済フォーラムの報告によると、AI診断システムが一部の領域で専門医の2倍の精度を達成しています。特に：
-
-- 英国2大学が開発したAIソフトウェアが脳卒中患者の脳スキャン解析で専門医の2倍の精度
-- 救急医学での骨折見落とし率（医師: 約10%）をAI初期スキャンで大幅に低減
-
-**臨床的意義**: AI診断支援は「見落とし防止」という観点で特に有用です。ただし、最終的な診断・治療方針の決定は人間の医師が行うべきであり、AIはあくまでサポートツールです。
-
-## 5. 今月の注目ポイント
-
-### NEJM AI の創刊と医療AI研究の標準化
-
-2024年にNEJMがNEJM AIを創刊し、医療AIの厳格なRCTと研究基準を確立するプラットフォームが整いました。これにより、医療AI研究のエビデンスレベルが引き上げられることが期待されます。
-
-### 医療AI臨床試験数の急増
-
-2022年時点で世界で41件だった医療AI介入のRCTは、2024年までに86件に倍増しました。ただし、Nature Medicineの視点論文では、医療AIモデルは異なるユーザー、医療システム、地域、疾患、集団への自動適応（コンテキストスイッチング）が今後の重要課題であると指摘されています。
-
-## まとめ
-
-2025〜2026年の医療AI研究は、以下のトレンドが顕著です：
-
-1. **エビデンスの質の向上**: RCTレベルの臨床試験が増加
-2. **実装フェーズへの移行**: 概念実証から実際の臨床導入へ
-3. **AI創薬の実証**: 実際の臨床試験で効果を示す段階に
-4. **文書作成支援の実用化**: Ambient AIなどの臨床業務支援ツール
-5. **標準化と規制**: NEJM AI創刊、規制フレームワークの整備
-
-> **注意**: 本記事の内容は、公開されている研究結果に基づいています。医療上の意思決定は、必ず最新のエビデンスと担当医師の判断に基づいて行ってください。
-25:T1f68,
-# 医療AI規制の最新動向（2026年2月）
-
-医療AIの急速な発展に伴い、各国の規制・法整備も加速しています。本記事では、日本と世界の医療AI規制の最新動向を整理し、臨床現場で知っておくべきポイントをまとめます。
-
-## 日本の動向
-
-### 改正次世代医療基盤法の施行（2024年4月〜）
-
-2023年5月26日に公布された改正次世代医療基盤法が、2024年4月1日に施行されました。主な変更点は以下の通りです：
-
-- **仮名加工医療情報の利活用**: 新たに「仮名加工医療情報」の概念が導入され、従来の匿名加工に加えて仮名加工による医療情報の利活用が可能に
-- **薬事承認申請への活用**: 認定仮名加工医療情報利用事業者からPMDA等への提供が認められ、製薬企業等の研究開発がより促進される見込み
-- **データ利活用の拡大**: 研究目的でのデータ提供の柔軟性が向上
-
-参考: [内閣府 改正次世代医療基盤法について（利活用編）](https://www8.cao.go.jp/iryou/kouhou/pdf/kaisei_jisedaiiryou_rikatsuyou.pdf)
-
-### PMDA: プログラム医療機器審査体制の強化
-
-PMDAは2024年7月1日に「プログラム医療機器審査室」を「プログラム医療機器審査部」に格上げし、領域ごとの2チーム体制に拡充しました。
-
-- **DASH for SaMD**: 2020年11月公表の「プログラム医療機器実用化促進パッケージ戦略」に基づき、SaMDの特性を踏まえた承認審査制度の整備が進行中
-- **SaMD認証審査の留意事項**: 2025年9月にはARCBとPMDAの定期会議で、SaMD認証審査の留意点が議論されています
-
-参考: [PMDA プログラム医療機器](https://www.pmda.go.jp/review-services/drug-reviews/about-reviews/devices/0048.html)
-
-### 個人情報保護法の改正動向（2025年）
-
-個人情報保護法の改正議論が進んでおり、医療分野への影響が注目されています：
-
-- **同意なしデータ利用の拡大**: 統計情報の作成やAI開発など、特定目的での同意なしデータ利用が可能に
-- **組織横断的なデータ共有**: 個人識別性を排除した状態での複数組織間データ共有が、個別同意なしに可能となる見込み
-- **ヘルスケア生成AI活用ガイド第2.0版**: 2025年2月にヘルスケア領域で生成AIを活用するサービス事業者向けの自主ガイドラインが第2.0版に改訂
-
-参考: [ヘルスケア生成AI活用ガイド 第2.0版](https://jadha.jp/news/pdf/20250207/all2_0_revisionhistory.pdf)
-
-### 厚生労働省: 医療デジタルデータのAI利活用ガイドライン
-
-厚生労働省は、医療デジタルデータのAI研究開発等への利活用に係るガイドラインを策定。個人情報保護法に基づくデータ処理方法と、留意すべき事項をまとめています。
-
-参考: [厚労省 医療デジタルデータのAI研究開発等への利活用](https://www.mhlw.go.jp/content/001310044.pdf)
-
-## 海外の動向
-
-### EU AI Act: 医療機器への影響
-
-EU AI Actの段階的施行が進んでおり、医療機器への影響が本格化しています：
-
-| 時期 | 施行内容 |
-|------|----------|
-| 2025年8月2日 | 汎用AI（GPAI）モデル、ガバナンス、罰則規定の適用開始 |
-| 2026年8月2日 | 2026年8月以前に市場投入された高リスクAIシステムのコンプライアンス義務 |
-| 2027年8月 | 高リスクAIシステム（医療機器・IVD含む）の完全コンプライアンス義務 |
-
-**医療機器への影響:**
-- 多くのスマート医療機器がAI Actの「高リスク」カテゴリに分類
-- **二重規制**: MDR（医療機器規則）とAI Actの両方に準拠が必要
-- 技術文書、リスクマネジメント、人間の監視、透明性の義務
-- 2025年6月にはMDCG 2025-6（AI Actと MDR/IVDRの重複に関するFAQ）が公表
-
-参考: [EU AI Act Impact on Life Sciences](https://pscsoftware.com/eu-ai-act-impact-life-sciences/)
-
-### FDA: AI/ML医療機器の急増
-
-米国FDAは、AI/ML対応医療機器の承認を加速させています：
-
-- **累計約950件**: 2024年中頃までにFDAが承認したAI/ML対応医療機器は約950件に到達
-- **年間約100件の新規承認**: 毎年約100件のペースで新規承認が継続
-- **ライフサイクルアプローチ**: FDAはSaMDの既存法的枠組みに加え、AI/ML-Based SaMD Action Plan（2021年）に基づくライフサイクルベースの規制アプローチを推進
-- **変更プロトコルの重視**: アルゴリズム変更プロトコル（PCCP）と市販後モニタリングを重視
-
-参考: [FDA AI/ML-Enabled Medical Devices](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices)
-
-### WHO: 大規模マルチモーダルモデルのガイダンス（2024年1月）
-
-WHOは2024年1月18日に、大規模マルチモーダルモデル（LMM）の倫理・ガバナンスに関するガイダンスを発表しました。40以上の推奨事項を含み、以下の主体ごとに提言しています：
-
-**政府向け:**
-- 公共インフラへの投資
-- LMMとヘルスケアアプリケーションが倫理的義務と人権基準を満たすための法整備
-- 規制機関によるLMMの評価・承認
-- 独立第三者による市販後監査・影響評価の義務化
-
-**開発者向け:**
-- 開発初期段階からの多様なステークホルダーの関与
-- 正確性と信頼性を重視したタスク特化設計
-
-参考: [WHO LMM Ethics and Governance Guidance](https://www.who.int/publications/i/item/9789240084759)
-
-### グローバルイニシアチブ: GI-AI4H
-
-WHOが設立した「Global Initiative on Artificial Intelligence for Health（GI-AI4H）」は、国連横断的にAIガバナンス基準の調和を図る取り組みです。特に低・中所得国でのヘルスAIの倫理的・公平な活用を推進しています。
-
-## 臨床現場で押さえるべきポイント
-
-### 1. 患者データの取り扱い
-
-- 改正次世代医療基盤法により、仮名加工医療情報の利活用が拡大
-- 個人情報保護法の改正議論で、AI開発目的のデータ利用が柔軟化の方向
-- ただし、**診療目的での患者データのAI入力は依然として慎重な対応が必要**
-
-### 2. AI医療機器の法的位置づけ
-
-- 日本ではPMDAのSaMD審査体制が強化され、承認プロセスが整備されつつある
-- 未承認のAIツールを診断補助に使う場合の法的リスクに留意
-- 承認済みSaMDと汎用AI（ChatGPT等）は法的に全く異なる扱い
-
-### 3. 国際的な規制動向への備え
-
-- EU AI Actの「高リスク」分類は、EU市場にAI医療機器を投入する日本企業にも影響
-- 国際標準（ISO/IEC）のAI関連規格の策定が加速しており、将来的に日本の規制にも影響する可能性
-
-## まとめ
-
-2024〜2026年の医療AI規制の主要トレンドは以下の通りです：
-
-1. **日本**: 次世代医療基盤法改正で仮名加工医療情報の利活用が本格化。PMDA体制強化でSaMD審査が加速
-2. **EU**: AI Actの段階的施行が進行中。2027年までに高リスクAIシステムの完全コンプライアンスが求められる
-3. **米国**: FDAのAI/ML医療機器承認が累計950件超。ライフサイクルアプローチが主流に
-4. **WHO**: LMMの倫理・ガバナンスガイダンスを発表。グローバルな規制調和を推進
-5. **共通トレンド**: 「安全性」と「イノベーション促進」のバランスを模索する段階
-
-> **注意**: 本記事は公開情報に基づく概要です。具体的な法的判断は、最新の法令原文と専門家の助言に基づいて行ってください。
-26:T129c,
-# Ambient AI：診察室の会話が自動でカルテになる時代
-
-## Ambient Clinical Documentationとは
-
-Ambient Clinical Documentation（ACD）は、診察室での医師と患者の会話をAIがリアルタイムで聴き取り、構造化されたカルテ記録に自動変換するテクノロジーです。医師はパソコンに向かってタイプする代わりに、患者と目を合わせて会話するだけでカルテが完成します。
-
-米国では2024〜2025年にかけて爆発的に普及し、2026年時点で大手病院チェーンの過半数が何らかのACD製品を導入しています。
-
-## 主要プレイヤー
-
-| 製品 | 開発元 | 特徴 |
-|------|--------|------|
-| DAX Copilot | Microsoft/Nuance | Epic統合、最大シェア |
-| Abridge | Abridge | 根拠文の表示が強み |
-| Nabla Copilot | Nabla | EU市場に強い |
-| Suki | Suki | 音声コマンド統合 |
-| DeepScribe | DeepScribe | 専門科対応が充実 |
-
-## 何ができるのか
-
-### 基本機能
-
-1. **会話の文字起こし**: 医師と患者の会話をリアルタイムで文字化
-2. **話者分離**: 医師の発言と患者の発言を自動で分離
-3. **SOAP変換**: 会話内容からSubjective、Objective、Assessment、Planを自動生成
-4. **医学用語の正規化**: 口語表現を医学用語に変換（「お腹が痛い」→「腹痛」）
-5. **コード提案**: ICD-10コードや処置コードの自動提案
-
-### 高度な機能
-
-- **検査オーダーの提案**: 会話内容から必要な検査を推測して提案
-- **処方の事前入力**: 会話で言及された薬剤の処方を下書き
-- **患者向けサマリー**: 患者に渡す平易な言葉の診療要約を自動生成
-
-## 米国での導入効果
-
-### 定量的効果
-
-- カルテ記載時間: 平均50%削減
-- 患者との対話時間: 12%増加
-- 時間外カルテ作業（Pajama Time）: 70%削減
-- 医師の満足度: 導入後85%が「業務改善」と回答
-
-### 定性的効果
-
-- 患者との目線の合う時間が増え、信頼関係が改善
-- カルテの網羅性が向上（会話全体が記録されるため漏れが減少）
-- 医師の燃え尽き症候群スコアの改善
-
-## 日本語対応の現状と課題
-
-### 技術的課題
-
-日本語のACD対応は英語に比べて2〜3年遅れています。
-
-- **音声認識精度**: 日本語の医学用語は同音異義語が多い（「こうけつあつ」→高血圧/抗血圧）
-- **敬語処理**: 患者と医師の敬語レベルの違いを適切に処理
-- **方言対応**: 地域ごとの方言への対応
-- **混合言語**: 医療現場での日英混在（「BP」「SpO2」「SOAP」）
-
-### 制度的課題
-
-- 診療録の法的要件との整合性（AI生成カルテの法的有効性）
-- 患者の同意取得の方法（会話が録音・解析されることへの同意）
-- 個人情報保護法との関係（音声データの取り扱い）
-
-### 国内の動き
-
-- 2025年後半から国内スタートアップ数社がβ版を医療機関に提供開始
-- 大手EMRベンダーがACDモジュールの開発を発表
-- 大学病院での臨床研究（精度検証）が複数進行中
-
-## 導入を検討する医療機関へのガイド
-
-### Step 1: ニーズの確認
-
-- カルテ記載に費やしている時間を計測する
-- 最も負担の大きい診療科を特定する（内科、精神科、総合診療が高い傾向）
-- 医師のカルテ記載への不満を調査する
-
-### Step 2: 製品選定のポイント
-
-- 日本語対応の精度（デモで自施設の会話パターンをテスト）
-- 既存EMRとの統合性
-- データの保存場所（国内サーバーか海外か）
-- 導入サポートとトレーニング体制
-
-### Step 3: パイロット導入
-
-- 小規模（1〜2診療科）から開始
-- 3か月間の精度検証期間を設ける
-- 医師と患者のフィードバックを収集
-- カルテの品質を従来方式と比較評価
-
-### Step 4: 運用ルールの策定
-
-- AI生成カルテの確認・修正プロセスの標準化
-- 患者への説明と同意取得のフロー
-- エラー報告と改善の仕組み
-
-## 注意すべきリスク
-
-- **自動生成への過信**: AI生成カルテを確認せずに確定するリスク
-- **プライバシー**: 診察室の会話には機微な情報が含まれる
-- **医師のスキル低下**: カルテ記載能力（臨床推論の整理能力）の退化
-
-Ambient AIは医療の働き方を根本的に変える可能性を持つ技術です。日本での本格普及はこれからですが、早期に情報収集と準備を始めることで、導入時のアドバンテージを得られます。
-27:Te1b,
+0:{"P":null,"b":"7AyL9ozhulPxs18ha5-mJ","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/ffe8807b29fd8e23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/hoshizu/_next/static/chunks/af79b2efaa914e8e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/b70c2acfe835be27.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/hoshizu/_next/static/chunks/ad5997e67301fedd.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ja","suppressHydrationWarning":true,"children":["$","body",null,{"className":"inter_fd091ad6-module__giF-bG__variable cormorant_garamond_81f726f1-module__QngAUG__variable font-sans antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{"children":[["$","a",null,{"href":"#main-content","className":"sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-lg focus:bg-foreground focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-background focus:outline-none","children":"メインコンテンツへスキップ"}],["$","$L7",null,{}],["$","$L8",null,{}],["$","div",null,{"className":"relative flex min-h-svh flex-col","children":[["$","$L9",null,{}],["$","main",null,{"id":"main-content","className":"flex-1 pt-16","children":["$","$La",null,{"children":["$","$Lb",null,{"children":["$","$Lc",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Le",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}],["$","$Lf",null,{}]]}],["$","$L10",null,{}],["$","$L11",null,{}],["$","$L12",null,{}],["$","$L13",null,{"position":"bottom-right"}]]}]]}]}]]}]}]]}],{"children":[["$","$1","c",{"children":["$L14",[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/78b6aed6b5591543.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/hoshizu/_next/static/chunks/f089d7a8cedc2122.js","async":true,"nonce":"$undefined"}]],["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]]}],{},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L18",null,{"children":"$L19"}],["$","div",null,{"hidden":true,"children":["$","$L1a",null,{"children":["$","$16",null,{"name":"Next.Metadata","children":"$L1b"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$1c",[]],"S":true}
+1d:I[51442,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"HeroSection"]
+1e:I[33488,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"StatementSection"]
+1f:I[88296,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"PhilosophySection"]
+20:I[95669,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"MarqueeBanner"]
+21:I[45088,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"MediaLogosSection"]
+22:I[99674,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"ServicesOverview"]
+23:I[27224,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"AnimatedDivider"]
+24:I[33067,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"EventsSection"]
+25:I[52448,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"CredentialsSection"]
+26:I[42379,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"ProductsSection"]
+27:I[8886,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"NoteArticlesSection"]
+28:I[59204,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"CategoryOverview"]
+29:I[56805,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"LatestSection"]
+2a:Te1b,
 # Medical AI Newsletter #5
 
 **2026年3月3日号** | Opus 4.5・Ambient AI・WHO倫理ガイドライン 特集
@@ -550,21 +118,7 @@ AIリアルタイム大腸ポリープ検出システムの国内多施設RCT（
 
 - **HIMSS 2026**（3月8-12日、Las Vegas）: 医療IT最大のカンファレンス
 - **日本医療情報学会 春季学術大会**（3月10-11日）: 医療AI特別セッション
-13:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"[{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Hoshizu\",\"description\":\"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行っています。\",\"url\":\"https://kgraph57.github.io/hoshizu\"},{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Hoshizu\",\"url\":\"https://kgraph57.github.io/hoshizu\",\"description\":\"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行っています。\",\"founder\":{\"@type\":\"Person\",\"name\":\"Ken Okamoto\",\"url\":\"https://github.com/kgraph57\",\"jobTitle\":\"Founder / 医師\"},\"sameAs\":[\"https://github.com/kgraph57\",\"https://x.com/kgraph_\",\"https://note.com/kgraph_\"]}]"}}],["$","$L1c",null,{}],["$","$L1d",null,{"articleCount":199,"courseCount":15}],["$","$L1e",null,{}],["$","$L1f",null,{}],["$","$L20",null,{}],["$","$L21",null,{"className":"mx-auto max-w-[1200px] px-6"}],["$","$L22",null,{"articles":[{"slug":"2026-02-14","title":"Weekly Medical AI Newsletter #1 (2026/2/14)","description":"Ambient AIによる燃え尽き症候群の改善、LLMの胸部X線読影能力、AI患者シミュレーション、SaMDフォーラム2026 ほか","category":"ai-fundamentals","contentType":"news","newsType":"weekly","difficulty":"intermediate","tags":["ニュースレター","医療AI","最新動向","論文","規制"],"publishedAt":"2026-02-14","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":7,"content":"$23","coverImage":"/images/news/2026-02-14.png"},{"slug":"paper-review-2026-02","title":"医療AI注目論文レビュー（2026年2月）","description":"医療AI分野の最新注目論文をピックアップし、臨床現場への影響を解説します","category":"research","contentType":"news","newsType":"paper","difficulty":"intermediate","tags":["論文レビュー","医療AI","最新動向","エビデンス","LLM","臨床試験"],"publishedAt":"2026-02-14","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":9,"content":"$24","coverImage":"/images/news/paper-review-2026-02.png"},{"slug":"regulation-update-2026-02","title":"医療AI規制の最新動向（2026年2月）","description":"日本と世界の医療AI規制・法律の最新動向をまとめます","category":"ai-fundamentals","contentType":"news","newsType":"regulation","difficulty":"intermediate","tags":["規制動向","法律","個人情報保護","SaMD","EU AI Act","FDA","PMDA"],"publishedAt":"2026-02-14","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":10,"content":"$25","coverImage":"/images/news/regulation-update-2026-02.png"},{"slug":"ai-ambient-listening-japan","title":"Ambient AI：診察室の会話が自動でカルテになる時代","description":"米国で急速に普及するAmbient Clinical Documentation。日本語対応の現状と、導入を検討する医療機関へのガイド","category":"workflow","contentType":"article","newsType":"$undefined","difficulty":"intermediate","tags":["Ambient","音声認識","カルテ","SOAP","Nuance","日本語対応"],"publishedAt":"2026-03-03","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":6,"content":"$26","coverImage":null},{"slug":"2026-03-03","title":"Weekly Medical AI Newsletter #5 (2026/3/3)","description":"Claude Opus 4.5の医療応用評価、日本初のAmbient Documentation臨床試験開始、WHO医療AI倫理ガイドライン改訂、Google Health AIの新展開 ほか","category":"ai-fundamentals","contentType":"news","newsType":"weekly","difficulty":"intermediate","tags":["ニュースレター","医療AI","Claude","Ambient","WHO","Google Health"],"publishedAt":"2026-03-03","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":5,"content":"$27","coverImage":null}]}],"$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30"]
-31:I[52448,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"CredentialsSection"]
-32:I[42379,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"ProductsSection"]
-33:I[8886,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"NoteArticlesSection"]
-34:I[59204,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"CategoryOverview"]
-35:I[56805,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"LatestSection"]
-38:I[15315,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ffce6331cd843f58.js","/hoshizu/_next/static/chunks/eb32083736c113f4.js","/hoshizu/_next/static/chunks/3adeda7e6762622d.js","/hoshizu/_next/static/chunks/bab659362fd82b41.js"],"CreatorSection"]
-28:["$","$L21",null,{"className":"mx-auto max-w-[1200px] px-6"}]
-29:["$","$L31",null,{}]
-2a:["$","$L32",null,{}]
-2b:["$","$L21",null,{"className":"mx-auto max-w-[1200px] px-6"}]
-2c:["$","$L33",null,{}]
-2d:["$","$L34",null,{"counts":{"all":199,"workflow":30,"type:article":23,"ai-fundamentals":56,"type:news":7,"diagnosis":19,"type:prompt":37,"clinical":64,"type:guide":62,"type:tip":70,"research":30}}]
-2e:["$","$L21",null,{"className":"mx-auto max-w-[1200px] px-6"}]
-36:T2014,
+2b:T2014,
 # Medical AI Newsletter #4
 
 **2026年2月24日号** | 拡張思考・FDA承認・国内保険収載 特集
@@ -676,7 +230,7 @@ PMDAのAI対応WGが第3回会合の報告書を公開。主要議題は「AIに
 ---
 
 *次号予告: 3月第1週は「AI研修医教育特集」を予定。シミュレーション・ラーニング×AIの最新動向をお届けします。*
-37:T1e73,
+2c:T1e73,
 # Medical AI Newsletter #3
 
 **2026年2月23日号** | Ambient AI・責任論・規制最前線 特集
@@ -801,9 +355,10 @@ PMDAの規制科学・標準化部門に「AI対応WG」の専用ページが新
 </Callout>
 
 技術的な精度向上と並行して、法的・倫理的・規制的な枠組みの整備が急速に進んでいます。医療AIに関わるすべての人にとって、両方をフォローし続けることが重要です。
-2f:["$","$L35",null,{"articles":["$13:7:props:articles:4",{"slug":"2026-02-24","title":"Weekly Medical AI Newsletter #4 (2026/2/24)","description":"Claude 3.7 Sonnet拡張思考の臨床推論への応用、FDAのAI心電図解析承認、GPTZero論文ハルシネーション検出、国内初のAI内視鏡システム保険収載 ほか","category":"ai-fundamentals","contentType":"news","newsType":"weekly","difficulty":"intermediate","tags":["ニュースレター","医療AI","Claude","FDA","内視鏡AI","臨床推論"],"publishedAt":"2026-02-24","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":10,"content":"$36","coverImage":"/images/news/2026-02-24.png"},{"slug":"2026-02-23","title":"Weekly Medical AI Newsletter #3 (2026/2/23)","description":"NEJM AI発・Ambient AI scribeのRCT結果、BMJ論説「医療AIの責任の所在」、放射線VLMのハルシネーション検出、PMDA生成AIシンポジウム参加登録開始 ほか","category":"ai-fundamentals","contentType":"news","newsType":"weekly","difficulty":"intermediate","tags":["ニュースレター","医療AI","Ambient AI","責任論","PMDA","放射線"],"publishedAt":"2026-02-23","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":9,"content":"$37","coverImage":"/images/news/2026-02-23.png"}]}]
-30:["$","$L38",null,{"contentCount":199,"courseCount":15}]
-18:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-39:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
-16:null
-1a:[["$","title","0",{"children":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","1",{"name":"description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"alternate","type":"application/rss+xml","href":"https://kgraph57.github.io/hoshizu/feed.xml"}],["$","meta","4",{"property":"og:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","5",{"property":"og:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","6",{"property":"og:site_name","content":"Hoshizu"}],["$","meta","7",{"property":"og:locale","content":"ja_JP"}],["$","meta","8",{"property":"og:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","15",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","16",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","17",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","18",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","19",{"rel":"icon","href":"/favicon.ico"}],["$","link","20",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L39","21",{}]]
+14:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"[{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Hoshizu\",\"description\":\"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行っています。\",\"url\":\"https://kgraph57.github.io/hoshizu\"},{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Hoshizu\",\"url\":\"https://kgraph57.github.io/hoshizu\",\"description\":\"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行っています。\",\"founder\":{\"@type\":\"Person\",\"name\":\"Ken Okamoto\",\"url\":\"https://github.com/kgraph57\",\"jobTitle\":\"Founder / 医師\"},\"sameAs\":[\"https://github.com/kgraph57\",\"https://x.com/kgraph_\",\"https://note.com/kgraph_\"]}]"}}],["$","$L1d",null,{}],["$","$L1e",null,{"articleCount":199,"courseCount":15}],["$","$L1f",null,{}],["$","$L20",null,{}],["$","$L21",null,{}],["$","$L22",null,{}],["$","$L23",null,{"className":"mx-auto max-w-[1200px] px-6"}],["$","$L24",null,{}],["$","$L23",null,{"className":"mx-auto max-w-[1200px] px-6"}],["$","$L25",null,{}],["$","$L26",null,{}],["$","$L23",null,{"className":"mx-auto max-w-[1200px] px-6"}],["$","$L27",null,{}],["$","$L28",null,{"counts":{"all":199,"workflow":30,"type:article":23,"ai-fundamentals":56,"type:news":7,"diagnosis":19,"type:prompt":37,"clinical":64,"type:guide":62,"type:tip":70,"research":30}}],["$","$L23",null,{"className":"mx-auto max-w-[1200px] px-6"}],["$","$L29",null,{"articles":[{"slug":"2026-03-03","title":"Weekly Medical AI Newsletter #5 (2026/3/3)","description":"Claude Opus 4.5の医療応用評価、日本初のAmbient Documentation臨床試験開始、WHO医療AI倫理ガイドライン改訂、Google Health AIの新展開 ほか","category":"ai-fundamentals","contentType":"news","newsType":"weekly","difficulty":"intermediate","tags":["ニュースレター","医療AI","Claude","Ambient","WHO","Google Health"],"publishedAt":"2026-03-03","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":5,"content":"$2a","coverImage":null},{"slug":"2026-02-24","title":"Weekly Medical AI Newsletter #4 (2026/2/24)","description":"Claude 3.7 Sonnet拡張思考の臨床推論への応用、FDAのAI心電図解析承認、GPTZero論文ハルシネーション検出、国内初のAI内視鏡システム保険収載 ほか","category":"ai-fundamentals","contentType":"news","newsType":"weekly","difficulty":"intermediate","tags":["ニュースレター","医療AI","Claude","FDA","内視鏡AI","臨床推論"],"publishedAt":"2026-02-24","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":10,"content":"$2b","coverImage":"/images/news/2026-02-24.png"},{"slug":"2026-02-23","title":"Weekly Medical AI Newsletter #3 (2026/2/23)","description":"NEJM AI発・Ambient AI scribeのRCT結果、BMJ論説「医療AIの責任の所在」、放射線VLMのハルシネーション検出、PMDA生成AIシンポジウム参加登録開始 ほか","category":"ai-fundamentals","contentType":"news","newsType":"weekly","difficulty":"intermediate","tags":["ニュースレター","医療AI","Ambient AI","責任論","PMDA","放射線"],"publishedAt":"2026-02-23","updatedAt":"$undefined","author":"kenokamoto","featured":true,"riskLevel":"$undefined","estimatedReadTime":9,"content":"$2c","coverImage":"/images/news/2026-02-23.png"}]}],"$L2d"]
+2e:I[15315,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/b6d56a68a5c4ee54.js","/hoshizu/_next/static/chunks/ad5997e67301fedd.js","/hoshizu/_next/static/chunks/9bc5cab0824e3d64.js","/hoshizu/_next/static/chunks/78b6aed6b5591543.js","/hoshizu/_next/static/chunks/f089d7a8cedc2122.js"],"CreatorSection"]
+2d:["$","$L2e",null,{"contentCount":199,"courseCount":15}]
+19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2f:I[27201,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+17:null
+1b:[["$","title","0",{"children":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","1",{"name":"description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","link","2",{"rel":"manifest","href":"/hoshizu/manifest.webmanifest","crossOrigin":"$undefined"}],["$","link","3",{"rel":"alternate","type":"application/rss+xml","href":"https://kgraph57.github.io/hoshizu/feed.xml"}],["$","meta","4",{"property":"og:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","5",{"property":"og:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","6",{"property":"og:site_name","content":"Hoshizu"}],["$","meta","7",{"property":"og:locale","content":"ja_JP"}],["$","meta","8",{"property":"og:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:site","content":"@kgraph_"}],["$","meta","15",{"name":"twitter:creator","content":"@kgraph_"}],["$","meta","16",{"name":"twitter:title","content":"Hoshizu - 散らばる星を、星座にする"}],["$","meta","17",{"name":"twitter:description","content":"医療とテクノロジーの交差点で、プロダクト開発・ナレッジ共有・AI活用支援を行うHoshizuの公式サイト。"}],["$","meta","18",{"name":"twitter:image","content":"https://kgraph57.github.io/hoshizu/og.png"}],["$","link","19",{"rel":"icon","href":"/favicon.ico"}],["$","link","20",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"}],["$","$L2f","21",{}]]
