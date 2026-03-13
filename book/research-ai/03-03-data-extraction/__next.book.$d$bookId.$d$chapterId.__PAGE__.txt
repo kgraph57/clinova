@@ -2,5 +2,5 @@
 2:I[3472,["/hoshizu/_next/static/chunks/03e1df4ea0516db7.js","/hoshizu/_next/static/chunks/b70c2acfe835be27.js","/hoshizu/_next/static/chunks/c3760b127f2d34da.js","/hoshizu/_next/static/chunks/8ef0eee6baa6d864.js","/hoshizu/_next/static/chunks/5868ff2edf5578aa.js","/hoshizu/_next/static/chunks/a285119c5f7608ae.js"],"ChapterGate"]
 3:I[97367,["/hoshizu/_next/static/chunks/ff1a16fafef87110.js","/hoshizu/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"buildId":"B1u3xrkduLcZ7nStfNmN5","rsc":["$","$1","c",{"children":[["$","$L2",null,{"partTitle":"批判的吟味とデータ抽出","chapterTitle":"系統的レビューのデータ抽出","description":"系統的レビューにおけるデータ抽出をAIで半自動化する実践手法。構造化フォーム設計からQCまで。"}],[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"ia26B8oiPWO7ch9idLZAS","rsc":["$","$1","c",{"children":[["$","$L2",null,{"partTitle":"批判的吟味とデータ抽出","chapterTitle":"系統的レビューのデータ抽出","description":"系統的レビューにおけるデータ抽出をAIで半自動化する実践手法。構造化フォーム設計からQCまで。"}],[["$","script","script-0",{"src":"/hoshizu/_next/static/chunks/a285119c5f7608ae.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
