@@ -67,7 +67,7 @@ export function HeroSection() {
                 "linear-gradient(90deg, transparent, rgba(196,180,152,0.7))",
             }}
           />
-          <p className="text-[11px] font-medium uppercase tracking-[0.35em] text-white/30">
+          <p className="font-mono text-[11px] font-medium uppercase tracking-[0.35em] text-white/30">
             Healthcare &times; AI &times; Technology
           </p>
         </motion.div>
@@ -98,6 +98,10 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 1.0, ease: EASE }}
             className="max-w-xs text-[13px] leading-[1.8] text-white/30"
           >
+            <span className="font-mono text-[11px] tracking-wider text-white/20">
+              Ken Okamoto — Physician / Builder
+            </span>
+            <br />
             医療とテクノロジーの交差点で、
             <br />
             ナレッジを体系化するポータル

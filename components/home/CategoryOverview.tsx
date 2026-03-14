@@ -3,7 +3,7 @@
 import { useRef, useState, useCallback } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { containerVariantsSlow, fadeInSlow } from "@/lib/animations";
+import { containerVariantsSlow, fadeInSlow, fadeInUpBlur } from "@/lib/animations";
 import { CATEGORIES } from "@/lib/constants";
 import { ICON_MAP } from "@/lib/category-icons";
 import { cn } from "@/lib/utils";
@@ -51,7 +51,7 @@ function CategoryCard({
   }, []);
 
   return (
-    <motion.div variants={fadeInSlow}>
+    <motion.div variants={fadeInUpBlur}>
       <Link
         ref={ref}
         href={`/knowledge?category=${cat.id}`}
@@ -104,9 +104,18 @@ export function CategoryOverview({ counts }: CategoryOverviewProps) {
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
         >
-          <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50">
-            Browse by topic
-          </p>
+          <div className="flex items-center gap-4">
+            <motion.span
+              initial={{ scaleX: 0 }}
+              whileInView={{ scaleX: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              className="hidden h-px w-10 origin-left bg-foreground/15 sm:block"
+            />
+            <p className="font-mono text-[11px] font-medium uppercase tracking-[0.35em] text-muted-foreground/50">
+              Browse by topic
+            </p>
+          </div>
           <h2 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl">
             Categories
           </h2>

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { fadeInSlow, containerVariantsSlow } from "@/lib/animations";
+import { fadeInSlow, fadeInUpBlur, containerVariantsSlow } from "@/lib/animations";
 import { EnvelopeSimple, ArrowRight } from "@phosphor-icons/react";
 
 export function NewsletterCTASection() {
@@ -21,12 +21,18 @@ export function NewsletterCTASection() {
           <div className="relative grid items-center gap-12 lg:grid-cols-[1fr_auto]">
             {/* Copy */}
             <div>
-              <motion.p
-                variants={fadeInSlow}
-                className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50"
-              >
-                Newsletter
-              </motion.p>
+              <motion.div variants={fadeInUpBlur} className="flex items-center gap-4">
+                <motion.span
+                  initial={{ scaleX: 0 }}
+                  whileInView={{ scaleX: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+                  className="hidden h-px w-10 origin-left bg-foreground/15 sm:block"
+                />
+                <p className="font-mono text-[11px] font-medium uppercase tracking-[0.35em] text-muted-foreground/50">
+                  Newsletter
+                </p>
+              </motion.div>
               <motion.h2
                 variants={fadeInSlow}
                 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl"

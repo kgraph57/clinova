@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { containerVariants, fadeInSlow, fadeInUp } from "@/lib/animations";
+import { containerVariants, containerStaggerWide, fadeInSlow, fadeInUp, fadeInUpBlur, slideInLeft, slideInRight, scaleRevealSoft } from "@/lib/animations";
 import { AnimatedCounter } from "@/components/effects/AnimatedCounter";
 import { ArrowUpRight, Star } from "@phosphor-icons/react";
 
@@ -92,9 +92,18 @@ export function CredentialsSection() {
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
         >
-          <p className="text-xs font-medium uppercase tracking-[0.3em] text-[var(--surface-dark-fg)]/30">
-            From practice to principle.
-          </p>
+          <div className="flex items-center gap-4">
+            <motion.span
+              initial={{ scaleX: 0 }}
+              whileInView={{ scaleX: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              className="hidden h-px w-10 origin-left bg-[var(--surface-dark-fg)]/20 sm:block"
+            />
+            <p className="font-mono text-[11px] font-medium uppercase tracking-[0.35em] text-[var(--surface-dark-fg)]/30">
+              From practice to principle.
+            </p>
+          </div>
           <h2 className="mt-4 font-serif text-3xl tracking-tight text-[var(--surface-dark-fg)] sm:text-4xl lg:text-5xl">
             Books & Track Record
           </h2>
@@ -102,14 +111,14 @@ export function CredentialsSection() {
 
         {/* Stats row */}
         <motion.div
-          variants={fadeInSlow}
+          variants={containerStaggerWide}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
           className="mt-12 flex flex-wrap gap-12"
         >
           {STATS.map((stat) => (
-            <div key={stat.label}>
+            <motion.div key={stat.label} variants={fadeInUpBlur}>
               <AnimatedCounter
                 value={stat.value}
                 suffix={stat.suffix}
@@ -118,7 +127,7 @@ export function CredentialsSection() {
               <p className="mt-1 text-sm text-[var(--surface-dark-fg)]/50">
                 {stat.label}
               </p>
-            </div>
+            </motion.div>
           ))}
         </motion.div>
 
@@ -132,7 +141,7 @@ export function CredentialsSection() {
         >
           {/* Main book — larger card */}
           <motion.a
-            variants={fadeInUp}
+            variants={scaleRevealSoft}
             href={BOOK.url}
             target="_blank"
             rel="noopener noreferrer"
@@ -180,7 +189,7 @@ export function CredentialsSection() {
           {SERIALS.map((serial) => (
             <motion.a
               key={serial.title}
-              variants={fadeInUp}
+              variants={scaleRevealSoft}
               href={serial.url}
               target="_blank"
               rel="noopener noreferrer"
@@ -216,30 +225,23 @@ export function CredentialsSection() {
 
         {/* Media & Articles */}
         <motion.div
-          variants={fadeInSlow}
+          variants={containerStaggerWide}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
           className="mt-16"
         >
-          <p className="text-xs font-medium uppercase tracking-widest text-[var(--surface-dark-fg)]/40">
+          <motion.p variants={fadeInUpBlur} className="text-xs font-medium uppercase tracking-widest text-[var(--surface-dark-fg)]/40">
             Media & Articles
-          </p>
+          </motion.p>
           <div className="mt-6 flex flex-col">
-            {MEDIA.map((item, i) => (
+            {MEDIA.map((item) => (
               <motion.a
                 key={item.title}
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{
-                  duration: 0.6,
-                  delay: i * 0.1,
-                  ease: [0.16, 1, 0.3, 1],
-                }}
+                variants={slideInLeft}
                 className="group flex items-center gap-4 border-b border-[var(--surface-dark-fg)]/8 py-4 transition-colors hover:bg-[var(--surface-dark-fg)]/[0.03]"
               >
                 <span className="flex-1 text-sm text-[var(--surface-dark-fg)]/80 group-hover:text-[var(--surface-dark-fg)]">
@@ -259,17 +261,17 @@ export function CredentialsSection() {
 
         {/* Activities timeline */}
         <motion.div
-          variants={fadeInSlow}
+          variants={containerStaggerWide}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
           className="mt-16"
         >
-          <p className="text-xs font-medium uppercase tracking-widest text-[var(--surface-dark-fg)]/40">
+          <motion.p variants={fadeInUpBlur} className="text-xs font-medium uppercase tracking-widest text-[var(--surface-dark-fg)]/40">
             Selected Activities
-          </p>
+          </motion.p>
           <div className="mt-6 flex flex-col">
-            {ACTIVITIES.map((activity, i) => {
+            {ACTIVITIES.map((activity) => {
               const Wrapper = activity.url ? motion.a : motion.div;
               const linkProps = activity.url
                 ? { href: activity.url, target: "_blank" as const, rel: "noopener noreferrer" }
@@ -278,14 +280,7 @@ export function CredentialsSection() {
                 <Wrapper
                   key={activity.title}
                   {...linkProps}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{
-                    duration: 0.6,
-                    delay: i * 0.1,
-                    ease: [0.16, 1, 0.3, 1],
-                  }}
+                  variants={slideInLeft}
                   className={`flex items-center gap-4 border-b border-[var(--surface-dark-fg)]/8 py-4 transition-colors hover:bg-[var(--surface-dark-fg)]/[0.03]${activity.url ? " group" : ""}`}
                 >
                   <span className="w-24 flex-shrink-0 text-xs tracking-wide text-[var(--surface-dark-fg)]/40">

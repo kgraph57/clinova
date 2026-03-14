@@ -1,8 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { containerVariants, fadeInUp } from "@/lib/animations";
+import { containerStaggerWide, fadeInUpBlur } from "@/lib/animations";
+import Link from "next/link";
 import {
+  ArrowUpRight,
   Calendar,
   GraduationCap,
   Microphone,
@@ -18,6 +20,7 @@ type TimelineItem = {
   icon: typeof Microphone;
   tag: string;
   highlight?: boolean;
+  slug?: string;
 };
 
 const TIMELINE: TimelineItem[] = [
@@ -28,6 +31,7 @@ const TIMELINE: TimelineItem[] = [
       "国立成育医療研究センターにて医師・医療従事者向けの生成AIセミナーを企画・開講。全7回シリーズとして継続的に実施。",
     icon: Microphone,
     tag: "セミナー",
+    slug: "seminar-2025-04-ai-basics",
   },
   {
     period: "2025.08",
@@ -36,6 +40,7 @@ const TIMELINE: TimelineItem[] = [
       "後期研修医を対象に、臨床でのAI活用から倫理・ガバナンスまでを網羅した全6講座（111スライド・計3時間超）の体系的プログラムを設計・登壇。",
     icon: GraduationCap,
     tag: "講座",
+    slug: "seminar-2025-08-ai-course",
   },
   {
     period: "2026.01",
@@ -45,6 +50,7 @@ const TIMELINE: TimelineItem[] = [
     icon: Users,
     highlight: true,
     tag: "大規模研修",
+    slug: "seminar-2026-01-career-up",
   },
   {
     period: "2026.02 —",
@@ -53,6 +59,7 @@ const TIMELINE: TimelineItem[] = [
       "チャイルドライフスペシャリスト（CLS）や各診療科の部長・スタッフに対する個別指導を継続中。業務効率化から研究支援まで、職種に最適化した実践的プログラムを提供。",
     icon: UserCheck,
     tag: "個別指導",
+    slug: "seminar-2026-02-individual-coaching",
   },
   {
     period: "2026.04 —",
@@ -61,6 +68,7 @@ const TIMELINE: TimelineItem[] = [
       "週1回×全8回のランチセミナーシリーズ。プロンプトの型、臨床推論、書類作成、論文執筆まで、「使いこなす」ための実践ステップを凝縮。",
     icon: Presentation,
     tag: "シリーズ",
+    slug: "seminar-2026-04-ai-dojo",
   },
 ];
 
@@ -92,7 +100,7 @@ export function ActivitiesSection() {
         </div>
 
         <motion.div
-          variants={containerVariants}
+          variants={containerStaggerWide}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
@@ -103,16 +111,8 @@ export function ActivitiesSection() {
           <div className="flex flex-col gap-6">
             {TIMELINE.map((item) => {
               const Icon = item.icon;
-              return (
-                <motion.div
-                  key={item.title}
-                  variants={fadeInUp}
-                  className={`relative flex gap-5 rounded-2xl p-6 transition-colors sm:pl-12 ${
-                    item.highlight
-                      ? "bg-warm-oat dark:bg-muted"
-                      : "hover:bg-muted/50"
-                  }`}
-                >
+              const inner = (
+                <>
                   <div className="absolute left-[12px] top-8 z-10 hidden h-4 w-4 items-center justify-center rounded-full border-2 border-foreground/20 bg-background sm:flex">
                     <div
                       className={`h-1.5 w-1.5 rounded-full ${
@@ -141,6 +141,28 @@ export function ActivitiesSection() {
                       {item.description}
                     </p>
                   </div>
+
+                  {item.slug && (
+                    <ArrowUpRight className="h-4 w-4 flex-shrink-0 text-muted-foreground/30 transition-colors group-hover:text-foreground" />
+                  )}
+                </>
+              );
+
+              const className = `group relative flex gap-5 rounded-2xl p-6 transition-colors sm:pl-12 ${
+                item.highlight
+                  ? "bg-warm-oat dark:bg-muted"
+                  : "hover:bg-muted/50"
+              }`;
+
+              return (
+                <motion.div key={item.title} variants={fadeInUpBlur}>
+                  {item.slug ? (
+                    <Link href={`/knowledge/${item.slug}`} className={className}>
+                      {inner}
+                    </Link>
+                  ) : (
+                    <div className={className}>{inner}</div>
+                  )}
                 </motion.div>
               );
             })}

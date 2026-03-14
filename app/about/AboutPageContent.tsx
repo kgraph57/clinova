@@ -492,7 +492,7 @@ export function AboutPageContent({
                 alt="Ken Okamoto"
                 width={80}
                 height={80}
-                className="rounded-2xl grayscale transition-all duration-500 hover:grayscale-0"
+                className="rounded-2xl"
               />
               <div>
                 <h3 className="text-xl font-medium tracking-tight">

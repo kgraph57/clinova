@@ -226,8 +226,6 @@ export function StarField({
     const my = mouseRef.current.y;
     const hasPointer = mouseRef.current.active;
     const r2 = revealRadius * revealRadius;
-    const constellationR = revealRadius * 0.75;
-    const constellationR2 = constellationR * constellationR;
 
     // ── Parallax offset from mouse ──
     const parallaxCenterX = hasPointer ? (mx / w - 0.5) : 0;
@@ -258,8 +256,6 @@ export function StarField({
     }
 
     // ── Stars ──
-    const nearStars: Star[] = [];
-
     for (const star of starsRef.current) {
       // Birth animation
       if (!star.born) {
@@ -297,10 +293,10 @@ export function StarField({
 
       const targetAlpha =
         hasPointer && dist2 < r2
-          ? 0.6 + 0.4 * (1 - Math.sqrt(dist2) / revealRadius)
+          ? autoAlpha + 0.3 * (1 - Math.sqrt(dist2) / revealRadius)
           : Math.max(0, autoAlpha);
 
-      star.alpha += (targetAlpha - star.alpha) * 0.07;
+      star.alpha += (targetAlpha - star.alpha) * 0.04;
       const finalAlpha = star.alpha * birthEase;
       if (finalAlpha < 0.005) continue;
 
@@ -356,85 +352,6 @@ export function StarField({
         ctx.restore();
       }
 
-      // Collect for constellation
-      if (hasPointer && dist2 < constellationR2 && finalAlpha > 0.08) {
-        nearStars.push({ ...star, x: sx, y: sy, alpha: finalAlpha });
-      }
-    }
-
-    // ── Constellation lines (Bézier curves) ──
-    if (nearStars.length > 1) {
-      const maxLineDist = constellationR * 0.55;
-      const maxLineD2 = maxLineDist * maxLineDist;
-      const maxConnectionsPerStar = 3;
-      const connectionCount = new Map<number, number>();
-
-      // Sort by brightness for priority
-      const sorted = nearStars
-        .map((s, i) => ({ s, i }))
-        .sort((a, b) => b.s.alpha - a.s.alpha);
-
-      for (let ii = 0; ii < sorted.length; ii++) {
-        const { s: a, i: ai } = sorted[ii];
-        const ac = connectionCount.get(ai) ?? 0;
-        if (ac >= maxConnectionsPerStar) continue;
-
-        for (let jj = ii + 1; jj < sorted.length; jj++) {
-          const { s: b, i: bi } = sorted[jj];
-          const bc = connectionCount.get(bi) ?? 0;
-          if (bc >= maxConnectionsPerStar) continue;
-
-          const ddx = a.x - b.x;
-          const ddy = a.y - b.y;
-          const dd2 = ddx * ddx + ddy * ddy;
-
-          if (dd2 < maxLineD2) {
-            const dist = Math.sqrt(dd2);
-            const lineAlpha =
-              Math.min(a.alpha, b.alpha) *
-              0.2 *
-              (1 - dist / maxLineDist);
-
-            if (lineAlpha < 0.005) continue;
-
-            // Bézier control point — slight curve
-            const midX = (a.x + b.x) / 2;
-            const midY = (a.y + b.y) / 2;
-            const perpX = -(a.y - b.y) * 0.08;
-            const perpY = (a.x - b.x) * 0.08;
-
-            const [ar, ag, ab_c] = a.color;
-            const [br, bg, bb] = b.color;
-            const lr = Math.round((ar + br) / 2);
-            const lg = Math.round((ag + bg) / 2);
-            const lb = Math.round((ab_c + bb) / 2);
-
-            ctx.beginPath();
-            ctx.moveTo(a.x, a.y);
-            ctx.quadraticCurveTo(midX + perpX, midY + perpY, b.x, b.y);
-            ctx.strokeStyle = `rgba(${lr}, ${lg}, ${lb}, ${lineAlpha})`;
-            ctx.lineWidth = 0.6;
-            ctx.stroke();
-
-            // Node glow at connection points
-            for (const node of [a, b]) {
-              const nodeGlow = ctx.createRadialGradient(
-                node.x, node.y, 0,
-                node.x, node.y, node.radius * 5,
-              );
-              nodeGlow.addColorStop(0, `rgba(${lr}, ${lg}, ${lb}, ${lineAlpha * 0.4})`);
-              nodeGlow.addColorStop(1, `rgba(${lr}, ${lg}, ${lb}, 0)`);
-              ctx.fillStyle = nodeGlow;
-              ctx.beginPath();
-              ctx.arc(node.x, node.y, node.radius * 5, 0, Math.PI * 2);
-              ctx.fill();
-            }
-
-            connectionCount.set(ai, ac + 1);
-            connectionCount.set(bi, bc + 1);
-          }
-        }
-      }
     }
 
     // ── Meteors ──

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { containerVariantsSlow, fadeInSlow } from "@/lib/animations";
+import { containerVariantsSlow, fadeInSlow, fadeInUpBlur } from "@/lib/animations";
 import type { Article } from "@/lib/types";
 import { ArrowRight } from "@phosphor-icons/react";
 
@@ -37,9 +37,18 @@ export function LatestSection({ articles }: LatestSectionProps) {
             className="flex items-end justify-between"
           >
             <div>
-              <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50">
-                Stay informed
-              </p>
+              <div className="flex items-center gap-4">
+                <motion.span
+                  initial={{ scaleX: 0 }}
+                  whileInView={{ scaleX: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+                  className="hidden h-px w-10 origin-left bg-foreground/15 sm:block"
+                />
+                <p className="font-mono text-[11px] font-medium uppercase tracking-[0.35em] text-muted-foreground/50">
+                  Stay informed
+                </p>
+              </div>
               <h2 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl">
                 Latest
               </h2>

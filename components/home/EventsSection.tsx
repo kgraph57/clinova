@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { fadeInSlow, containerVariantsSlow } from "@/lib/animations";
+import { fadeInSlow, fadeInUpBlur, containerVariantsSlow, scaleRevealSoft } from "@/lib/animations";
 import {
   CalendarBlank,
   MapPin,
@@ -64,12 +64,18 @@ export function EventsSection() {
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
         >
-          <motion.p
-            variants={fadeInSlow}
-            className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50"
-          >
-            Events &amp; Seminars
-          </motion.p>
+          <motion.div variants={fadeInUpBlur} className="flex items-center gap-4">
+            <motion.span
+              initial={{ scaleX: 0 }}
+              whileInView={{ scaleX: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              className="hidden h-px w-10 origin-left bg-foreground/15 sm:block"
+            />
+            <p className="font-mono text-[11px] font-medium uppercase tracking-[0.35em] text-muted-foreground/50">
+              Events &amp; Seminars
+            </p>
+          </motion.div>
           <motion.h2
             variants={fadeInSlow}
             className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl"
@@ -77,7 +83,7 @@ export function EventsSection() {
             セミナー・イベント
           </motion.h2>
           <motion.p
-            variants={fadeInSlow}
+            variants={fadeInUpBlur}
             className="mt-4 max-w-xl text-muted-foreground"
           >
             講演・ワークショップ・経営講座など、
@@ -92,7 +98,7 @@ export function EventsSection() {
                 <motion.a
                   key={event.title}
                   href={event.href}
-                  variants={fadeInSlow}
+                  variants={scaleRevealSoft}
                   className="group relative flex flex-col rounded-2xl border border-border/50 p-8 transition-all duration-500 hover:border-border hover:shadow-sm"
                 >
                   {/* Status badge */}

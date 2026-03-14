@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { containerVariants, fadeInUp } from "@/lib/animations";
+import { containerVariants, fadeInUp, fadeInUpBlur } from "@/lib/animations";
 import { TiltCard } from "@/components/effects/TiltCard";
 import {
   ArrowUpRight,
@@ -86,12 +86,28 @@ export function ProductsSection() {
   return (
     <section className="py-32 sm:py-48">
       <div className="mx-auto max-w-[1200px] px-6">
-        <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground/50">
-          Built with care
-        </p>
-        <h2 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl">
-          Products
-        </h2>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+        >
+          <div className="flex items-center gap-4">
+            <motion.span
+              initial={{ scaleX: 0 }}
+              whileInView={{ scaleX: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              className="hidden h-px w-10 origin-left bg-foreground/15 sm:block"
+            />
+            <p className="font-mono text-[11px] font-medium uppercase tracking-[0.35em] text-muted-foreground/50">
+              Built with care
+            </p>
+          </div>
+          <h2 className="mt-4 font-serif text-3xl tracking-tight sm:text-4xl lg:text-5xl">
+            Products
+          </h2>
+        </motion.div>
         <p className="mt-3 text-muted-foreground">
           医療・子育て領域のプロダクトとAIスキル
         </p>
@@ -107,7 +123,7 @@ export function ProductsSection() {
           {SERVICES.map((service) => {
             const Icon = service.icon;
             return (
-              <motion.div key={service.name} variants={fadeInUp}>
+              <motion.div key={service.name} variants={fadeInUpBlur}>
                 <TiltCard tiltDeg={4} glare>
                   <Link
                     href={service.href}

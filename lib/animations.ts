@@ -70,3 +70,44 @@ export const containerVariantsSlow = {
     transition: { staggerChildren: 0.12, delayChildren: 0.2 },
   },
 };
+
+// Slide in from left with blur — editorial magazine feel
+export const slideInLeft = {
+  hidden: { opacity: 0, x: -40, filter: "blur(4px)" },
+  visible: {
+    opacity: 1,
+    x: 0,
+    filter: "blur(0px)",
+    transition: { duration: 0.8, ease: EASE_DEFAULT },
+  },
+};
+
+// Slide in from right
+export const slideInRight = {
+  hidden: { opacity: 0, x: 40, filter: "blur(4px)" },
+  visible: {
+    opacity: 1,
+    x: 0,
+    filter: "blur(0px)",
+    transition: { duration: 0.8, ease: EASE_DEFAULT },
+  },
+};
+
+// Scale up from center — for cards and images
+export const scaleRevealSoft = {
+  hidden: { opacity: 0, scale: 0.92 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 1.0, ease: EASE_DEFAULT },
+  },
+};
+
+// Stagger container with wider spacing — for timeline items
+export const containerStaggerWide = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { staggerChildren: 0.15, delayChildren: 0.1 },
+  },
+};

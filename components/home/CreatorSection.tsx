@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { fadeInSlow, containerVariantsSlow } from "@/lib/animations";
+import { fadeInSlow, fadeInUpBlur, containerVariantsSlow, scaleRevealSoft } from "@/lib/animations";
 import { MagneticButton } from "@/components/effects/MagneticButton";
 import {
   ArrowRight,
@@ -37,7 +37,7 @@ export function CreatorSection({}: CreatorSectionProps) {
         >
           {/* Photo */}
           <motion.div
-            variants={fadeInSlow}
+            variants={scaleRevealSoft}
             className="flex justify-center lg:justify-start"
           >
             <div className="relative">
@@ -46,7 +46,7 @@ export function CreatorSection({}: CreatorSectionProps) {
                 alt="Ken Okamoto"
                 width={200}
                 height={200}
-                className="rounded-2xl grayscale transition-all duration-700 hover:grayscale-0 hover:scale-[1.03]"
+                className="rounded-2xl"
               />
               <div className="absolute -inset-3 -z-10 rounded-3xl border border-[var(--surface-dark-fg)]/10" />
             </div>
@@ -54,12 +54,18 @@ export function CreatorSection({}: CreatorSectionProps) {
 
           {/* Content */}
           <div>
-            <motion.p
-              variants={fadeInSlow}
-              className="text-xs font-medium uppercase tracking-[0.3em] text-[var(--surface-dark-fg)]/30"
-            >
-              Founder
-            </motion.p>
+            <motion.div variants={fadeInSlow} className="flex items-center gap-4">
+              <motion.span
+                initial={{ scaleX: 0 }}
+                whileInView={{ scaleX: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+                className="hidden h-px w-10 origin-left bg-[var(--surface-dark-fg)]/20 sm:block"
+              />
+              <p className="font-mono text-[11px] font-medium uppercase tracking-[0.35em] text-[var(--surface-dark-fg)]/30">
+                Founder
+              </p>
+            </motion.div>
 
             <motion.h2
               variants={fadeInSlow}
