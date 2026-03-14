@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "./ThemeToggle";
 import { MobileNav } from "./MobileNav";
 import { SearchDialog } from "./SearchDialog";
-import { LocaleSwitcher } from "./LocaleSwitcher";
+
 import { MegaMenu } from "./MegaMenu";
 import { cn } from "@/lib/utils";
 import { List } from "@phosphor-icons/react";
@@ -62,7 +62,6 @@ export function Header() {
           )}
         >
           <SearchDialog />
-          <LocaleSwitcher />
           <ThemeToggle />
           <Button
             variant="ghost"
